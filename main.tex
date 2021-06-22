@@ -1,18 +1,19 @@
 \documentclass[a4paper, 12pt, oneside]{Thesis}  % Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
-\graphicspath{Figures/}  % Location of the graphics files (set up for graphics to be in PDF format)
 
-
+% \graphicspath{Figures/}  % Location of the graphics files (set up for graphics to be in PDF format)
 \usepackage{float}
 \usepackage{multirow}
-% Include any extra LaTeX packages required
-\usepackage[square, numbers, comma, sort&compress]{natbib}  % Use the "Natbib" style for the references in the Bibliography
-\usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
 \usepackage{lipsum}
 \usepackage{siunitx}
 \usepackage{physics}
+\usepackage{graphicx}
+\usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
 \usepackage{vector}  % Allows "\bvec{}" and "\buvec{}" for "blackboard" style bold vectors in maths
+\usepackage[square, numbers, comma, sort&compress]{natbib}  % Use the "Natbib" style for the references in the Bibliography
+
 \hypersetup{urlcolor=blue, colorlinks=true}  % Colours hyperlinks in blue, but this can be distracting if there are many links.
 
+%% ------------------ tikz ---------------------------------------
 \usepackage{tikz}
 \usetikzlibrary{shapes.geometric, arrows,cd}
 \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=white]
@@ -23,16 +24,15 @@
   shift right/.style={commutative diagrams/shift right={#1}}
 }
 
-
 %% ----------------------------------------------------------------
 \begin{document}
 \frontmatter      % Begin Roman style (i, ii, iii, iv...) page numbering
 
 % Set up the Title Page
-\title  {Wobbling Motion in Even-A and Odd-A Nuclei - An Extensive Study}
+\title  {[Wobbling Title]}
 \authors  {\texorpdfstring
-            {\href{robert.poenaru@theory.nipne.ro}{Robert Poenaru}}
-            {Author Name}
+            {\href{robert.poenaru@drd.unibuc.ro}{Robert Poenaru}}
+            {Robert Poenaru}
             }
 \addresses  {\groupname\\\deptname\\\univname}  % Do not change this here, instead these must be set in the "Thesis.cls" file, please look through it instead
 \date       {\today}
@@ -51,14 +51,12 @@
 
 \pagestyle{fancy}  % Finally, use the "fancy" page style to implement the FancyHdr headers
 
-
 % The Abstract Page
 \addtotoc{Abstract}  % Add the "Abstract" page entry to the Contents
 \abstract{
 \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
 
 Nova.}
-
 \clearpage  % Abstract ended, start a new page
 %% ----------------------------------------------------------------
 
@@ -76,5 +74,6 @@ Nova.
 %% ----------------------------------------------------------------
 \mainmatter	  % Begin normal, numeric (1,2,3...) page numbering
 
+\input{Chapters/Introduction} % Introduction
 
 \end{document}
