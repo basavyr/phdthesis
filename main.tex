@@ -24,11 +24,10 @@
   shift right/.style={commutative diagrams/shift right={#1}}
 }
 
-%% ----------------------------------------------------------------
+%%------------------------------------------------------MAIN DOCUMENT------------------------------------------------------
 \begin{document}
-\frontmatter      % Begin Roman style (i, ii, iii, iv...) page numbering
 
-% Set up the Title Page
+\frontmatter
 \title  {[Wobbling Title]}
 \authors  {\texorpdfstring
             {\href{robert.poenaru@drd.unibuc.ro}{Robert Poenaru}}
@@ -40,15 +39,11 @@
 \keywords   {}
 
 \maketitle
-%% ----------------------------------------------------------------
-
 \setstretch{1.3}  % It is better to have smaller font and larger line spacing than the other way round
-
 % Define the page headers using the FancyHdr package and set up for one-sided printing
 \fancyhead{}  % Clears all page headers and footers
 \rhead{\thepage}  % Sets the right side header to show the page number
 \lhead{}  % Clears the left side page header
-
 \pagestyle{fancy}  % Finally, use the "fancy" page style to implement the FancyHdr headers
 
 % The Abstract Page
@@ -59,8 +54,7 @@ Nova.
 
 \textbf{Keywords}: \textit{nuclear shape, nuclear deformation, collective parameters, triaxiality, wobbling}.
 }
-\clearpage  % Abstract ended, start a new page
-%% ----------------------------------------------------------------
+\clearpage
 
 \setstretch{1.3}  % Reset the line-spacing to 1.3 for body text (if it has changed)
 
@@ -71,7 +65,7 @@ Nova.
 
 \textbf{Keywords}: Thank you!
 }
-\clearpage  % End of the Acknowledgements
+\clearpage
 \tableofcontents
 \pagestyle{fancy}  % Return the page headers back to the "fancy" style
 %% ----------------------------------------------------------------
