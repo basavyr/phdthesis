@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1625061926 "main.aux" "main.bbl" "main" 1625062120
+["bibtex main"] 1625061926 "main.aux" "main.bbl" "main" 1625072594
   "/usr/local/texlive/2020/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
   "bibliography.bib" 1625061895 30633 95d710d5355fdf6825f61a1bfe5afa08 ""
-  "main.aux" 1625062120 1877 82619e6c8628b0271da9339c8099e9fb "pdflatex"
+  "main.aux" 1625072591 1877 82619e6c8628b0271da9339c8099e9fb "pdflatex"
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1625062118 "main.tex" "main.pdf" "main" 1625062120
+  "main.blg"
+["pdflatex"] 1625072589 "main.tex" "main.pdf" "main" 1625072594
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -35,6 +35,7 @@
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm" 1136768653 768 d7b9a2629a0c353102ad947dc9221d49 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
@@ -203,20 +204,20 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1612011118 5160756 0c9b358d94d8d050dff33fac8e57ecb7 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1612011165 2568493 a81c2f837273648acb4bf09d3029e063 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "Chapters/Chapter1.tex" 1625062118 433 6f39397ea93a3a56b60f68451f9d23cf ""
+  "Chapters/Chapter1.tex" 1625072593 733 bedb5b376f74f7e41f74c30ecace9b67 ""
   "Chapters/Chapter2.tex" 1625059580 520 257e5fbadd3acdffacbd8a098d213592 ""
   "Chapters/Figures/nuclear_shapes.png" 1625059580 66359 f7ff9721eefbecdc7a99d1807ba1ca9f ""
   "Thesis.cls" 1625059580 11731 0dcd28e93e81ce8406327e4651ec4572 ""
   "lstpatch.sty" 1625059580 13038 8661d088ac62bbb6c48610e50ea35872 ""
-  "main.aux" 1625062120 1877 82619e6c8628b0271da9339c8099e9fb "pdflatex"
+  "main.aux" 1625072591 1877 82619e6c8628b0271da9339c8099e9fb "pdflatex"
   "main.bbl" 1625061926 217 bedae823bf51b8b969656548060e343a "bibtex main"
-  "main.out" 1625062120 625 6d90902ec22ab88241a392e1ddc2c221 "pdflatex"
+  "main.out" 1625072591 625 6d90902ec22ab88241a392e1ddc2c221 "pdflatex"
   "main.tex" 1625061833 3219 40f1292594f31079e9ae81ec6360967b ""
-  "main.toc" 1625062120 347 8c9248e6279de8d70db5ee0ff266f6f3 "pdflatex"
+  "main.toc" 1625072591 347 8c9248e6279de8d70db5ee0ff266f6f3 "pdflatex"
   "vector.sty" 1625059580 2058 14ffaeb60d4b7735727aae1e2ee54809 ""
   (generated)
-  "main.pdf"
-  "main.aux"
-  "main.log"
-  "main.out"
   "main.toc"
+  "main.out"
+  "main.aux"
+  "main.pdf"
+  "main.log"
