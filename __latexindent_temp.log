@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.30)  30 JUN 2021 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.30)  30 JUN 2021 17:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**__latexindent_temp.tex
+(./__latexindent_temp.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-01-09> xparse <2020-03-03> (./Thesis.cls
 Document Class: Thesis 2007/22/02 v1.0 LaTeX document class
@@ -682,8 +682,8 @@ File: pgflibraryarrows.meta.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfarrowlength=\dimen309
 \pgfarrowwidth=\dimen310
 \pgfarrowlinewidth=\dimen311
-)) (./main.aux)
-\openout1 = `main.aux'.
+)) (./__latexindent_temp.aux)
+\openout1 = `__latexindent_temp.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
@@ -742,9 +742,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 29.
 LaTeX Info: Redefining \pageref on input line 29.
 LaTeX Info: Redefining \nameref on input line 29.
- (./main.out) (./main.out)
+ (./__latexindent_temp.out) (./__latexindent_temp.out)
 \@outlinefile=\write4
-\openout4 = `main.out'.
+\openout4 = `__latexindent_temp.out'.
 
  (/usr/local/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
@@ -782,9 +782,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ------------------------------------------------------------------------------
  Table of Contents
 ------------------------------------------------------------------------------
-(./main.toc)
+(./__latexindent_temp.toc)
 \tf@toc=\write5
-\openout5 = `main.toc'.
+\openout5 = `__latexindent_temp.toc'.
 
  [3
 
@@ -803,32 +803,30 @@ Chapter 2.
 ------------------------------------------------------------------------------
  2 Deformed Nuclei
 ------------------------------------------------------------------------------
-<Chapters/Figures/nuclear_shapes.png, id=63, 656.4525pt x 244.915pt>
+<Chapters/Figures/nuclear_shapes.png, id=61, 656.4525pt x 244.915pt>
 File: Chapters/Figures/nuclear_shapes.png Graphic file (type png)
 <use Chapters/Figures/nuclear_shapes.png>
 Package pdftex.def Info: Chapters/Figures/nuclear_shapes.png  used on input line 9.
 (pdftex.def)             Requested size: 196.93727pt x 73.47505pt.
-) (./main.bbl [2
+) [2
 
- <./Chapters/Figures/nuclear_shapes.png>]) [3
-
-] (./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
+ <./Chapters/Figures/nuclear_shapes.png>] (./__latexindent_temp.aux)
+Package rerunfilecheck Info: File `__latexindent_temp.out' has not changed.
 (rerunfilecheck)             Checksum: 6D90902EC22AB88241A392E1DDC2C221;625.
  ) 
 Here is how much of TeX's memory you used:
- 28957 strings out of 479304
- 553811 string characters out of 5867281
- 895198 words of memory out of 5000000
- 45636 multiletter control sequences out of 15000+600000
+ 28947 strings out of 479304
+ 553926 string characters out of 5867281
+ 895267 words of memory out of 5000000
+ 45632 multiletter control sequences out of 15000+600000
  413205 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,7n,89p,13109b,783s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,7n,89p,13123b,783s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on ./main.pdf (7 pages, 189543 bytes).
+Output written on ./__latexindent_temp.pdf (6 pages, 185222 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
