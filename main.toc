@@ -6,3 +6,4 @@
 \contentsline {chapter}{\numberline {2}Deformed Nuclei}{2}{chapter.5}%
 \contentsline {section}{\numberline {2.1}Nuclear deformation}{2}{section.6}%
 \contentsline {subsection}{\numberline {2.1.1}Shape parameters}{2}{subsection.7}%
+\contentsline {subsection}{\numberline {2.1.2}Nuclear radius under rotation}{3}{subsection.9}%
