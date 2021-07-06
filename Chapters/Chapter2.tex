@@ -37,5 +37,11 @@ The function $R(\theta,\varphi)$ describes the original (non-rotated) nuclear sh
 The rotational invariance of $R$ employs that $R'(\theta,\varphi)$ must have the same functional form, but the expansion coefficients $\alpha_{\lambda\mu}$ must be rotated, meaning:
 \begin{align}
     \sum_{\lambda\mu}\alpha_{\lambda\mu}'Y'_{\lambda\mu}(
-        \theta,\varphi)
+        \theta,\varphi)=\sum_{\lambda\mu}\alpha_{\lambda\mu}Y_{\lambda\mu}(
+            \theta,\varphi) \label{nuclear_surface_equality}
+\end{align}
+
+Note that in Eq. \ref{nuclear_surface_equality}, the spherical harmonics $Y'_{\lambda\mu}$ are obtained via the usual rotation matrices. Finally, the invariance of Eq. \ref{nuclear-shape} is achieved if the set of parameters $\alpha_{\lambda\mu}$ transform similarly to a \emph{spherical tensor with angular momentum} $\lambda$ \cite{ring2004nuclear}, that is:
+\begin{align}
+    \alpha_{\lambda\mu}'=\sum_\mu\mathcal{D}^{(\lambda)}
 \end{align}
