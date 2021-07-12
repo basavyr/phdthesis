@@ -9,4 +9,5 @@
 \contentsline {subsection}{\numberline {2.1.2}Nuclear radius under rotation}{4}{subsection.9}%
 \contentsline {subsection}{\numberline {2.1.3}Multipole deformations}{5}{subsection.16}%
 \contentsline {subsection}{\numberline {2.1.4}Quadrupole Deformation}{6}{subsection.18}%
-\contentsline {subsection}{\numberline {2.1.5}Quadrupole shape parameters}{9}{subsection.25}%
+\contentsline {subsubsection}{\numberline {2.1.4.1}Axial quadrupole deformations}{9}{subsubsection.25}%
+\contentsline {subsubsection}{\numberline {2.1.4.2}Non-Axial quadrupole deformations}{10}{subsubsection.27}%
