@@ -186,11 +186,16 @@ The triaxial shapes are defined by the $\gamma$ degree of freedom: the parameter
 
 which is different than Eq. \ref{quadrupole-radius}. As it was already mentioned, the values $\gamma=0^\circ$ and $\gamma=60^\circ$ correspond to symmetric prolate and oblate shapes, respectively. Between these values, the triaxial region exist, with \emph{maximal triaxiality} reached at $\gamma=30^\circ$. The deformation parameters $(\beta,\gamma)$ is also called the Hill-Wheeler set \textbf{CITATION REQUIRED}.
 
-In Eq. \ref{non-axial-quadrupole}, the spherical harmonics are as follows:
+In Eq. \ref{non-axial-quadrupole}, the spherical harmonics are expressed as follows:
 \begin{align}
-    Y_2^0(\theta,\varphi)\\
-    Y_2^0(\theta,\varphi)\\
-    Y_2^0(\theta,\varphi)\ .
+    Y_2^0(\theta,\varphi)&=\frac{1}{4}\sqrt{\frac{5}{\pi}}\left(3\cos(\theta)^2-1\right)\ , \nonumber\\
+    Y_2^2(\theta,\varphi)&=\frac{1}{4}e^{2i\varphi}\sqrt{\frac{15}{2\pi}}\sin(\theta)^2\ ,\nonumber\\
+    Y_2^{-2}(\theta,\varphi)&=\frac{1}{4}e^{-2i\varphi}\sqrt{\frac{15}{2\pi}}\sin(\theta)^2\ ,
+\end{align}
+
+and substituting these terms in $R(\theta,\varphi)$, Eq. \ref{non-axial-quadrupole} will become:
+\begin{align}
+    R(\theta,\varphi)=R_0\left[1+\sqrt{\frac{5}{16\pi}}\beta\left(cos\gamma(3\cos(\theta^2)-1)+\sqrt{3}\sin\gamma\sin(\theta^2)\cos2\varphi\right)\right]
 \end{align}
 
 \begin{table}[ht]
