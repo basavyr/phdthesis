@@ -1,6 +1,6 @@
-# PhD Thesis
+# PhD Thesis 📖
 
-## Table of contents 
+## Table of contents 📄
 `version v0.1`
 
 1. Introduction 
