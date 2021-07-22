@@ -12,3 +12,5 @@
 \contentsline {subsubsection}{\numberline {2.1.4.1}Axial quadrupole deformations}{9}{subsubsection.25}%
 \contentsline {subsubsection}{\numberline {2.1.4.2}Non-Axial quadrupole deformations}{11}{subsubsection.30}%
 \contentsline {subsubsection}{\numberline {2.1.4.3}Lund Convention}{13}{subsubsection.34}%
+\contentsline {chapter}{\numberline {3}Nuclear Models}{15}{chapter.37}%
+\contentsline {section}{\numberline {3.1}Introduction}{15}{section.38}%
