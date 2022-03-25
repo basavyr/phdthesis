@@ -151,6 +151,7 @@ In Eq. \ref{quadrupole-radius}, the parameter $\beta_2$ is called the \emph{quad
 For the axially-symmetric quadrupole deformations, the parameter $\beta_2$ can be related to the axes of the spheroid via the formula \cite{greiner1996nuclear}:
 \begin{align}
     \delta R_k=\sqrt{\frac{5}{4\pi}}\beta_2\cos\left(\gamma-\frac{2\pi k}{3}\right)\ ,
+    \label{axes-stretching}
 \end{align}
 with $k=1,2,3$ indices that correspond to each of the three principal axes $x'$, $y'$, and $z'$, respectively. The stretching of the nuclear axis in a particular direction (denoted by $k$ in the above formula) varies according to the change in $\gamma$, for a fixed value of $\beta_2$.
 
@@ -239,6 +240,27 @@ Fig. \ref{lund-convention-graph} aims at depicting the mechanism behind the Lund
     \caption{Deformed ellipsoidal shapes of the nuclei. A generic ellipsoid is shown at the top of the table. The parameters $a$, $b$, and $c$ represent lengths of differing magnitude of the nuclear ellipsoid.}
     \label{table-ellipsoidal-shapes}
     \end{table}
+
+    \subsubsection{Alternative description of the quadrupole deformation}
+
+    Considering the Lund convention and the Eq. \ref{axes-stretching}, one can re-write the set of stretching values as follows:
+    \begin{align}
+        \frac{R_x-R_0}{R_0}&=\sqrt{\frac{5}{4\pi}}\beta_2\cos\left(\gamma-\frac{2}{3}\pi\right)\ , \\
+        \frac{R_y-R_0}{R_0}&=\sqrt{\frac{5}{4\pi}}\beta_2\cos\left(\gamma-\frac{4}{3}\pi\right)\ , \\
+        \frac{R_z-R_0}{R_0}&=\sqrt{\frac{5}{4\pi}}\beta_2\cos\gamma. \\
+    \end{align}
+
+For the axially symmetric deformation (i.e., $\gamma=0$), the quadrupole parameter $\beta_2$ can be derived as follows:
+\begin{align}
+    \beta_2=\frac{4}{3}\sqrt{\frac{\pi}{5}}\frac{\tilde{R}}{R_0}\ ,
+\end{align}
+
+where $\tilde{R}=(R_z-R_x)$ is the difference between the major ($R_z$) and minor ($R_x$) axes of the ellipsoid. This equation for $\beta_2$ shows how for oblate deformations, $\beta2<0$ (implying that $R_z<R_x$), while for prolate deformations $beta_2>0$ (implying that $R_z>R_x$). Within literature, usual values for $beta_2$ range from 0.2 - 0.3 (known as \emph{normal deformations}) to 0.4 - 0.6 (known as \emph{superdeformations}). 
+
+Another possible description of the nuclear deformation that is specific to small deformations, is given in terms of the parameter $\epsilon_2$, with the connection to $\beta_2$ via the formula:
+\begin{align}
+    \epsilon_2\approx=\frac{\tilde{R}}{R_0}=\frac{3}{4}\sqrt{\frac{5}{\pi}}\beta_2=0.946\beta_2\ .
+\end{align}
 
     \subsection{Nuclear Shapes and Softness}
 
