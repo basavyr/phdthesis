@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{bohr1998nuclear}
 Aage~Niels Bohr and Ben~R Mottelson.
@@ -42,5 +42,16 @@ James~Till Matta.
 \newblock {\em Exotic Nuclear Excitations: The Transverse Wobbling Mode in 135
   Pr}.
 \newblock Springer, 2017.
+
+\bibitem{lewis2019lifetime}
+Michael~Christopher Lewis.
+\newblock {\em Lifetime Measurements of Excited States in 163 W and the
+  Properties of Multiparticle Configurations in 156 Lu}.
+\newblock The University of Liverpool (United Kingdom), 2019.
+
+\bibitem{ragnarsson2005shapes}
+Ingemar Ragnarsson and Sven Gvsta~Nilsson.
+\newblock Shapes and shells in nuclear structure.
+\newblock {\em Shapes and Shells in Nuclear Structure}, 2005.
 
 \end{thebibliography}
