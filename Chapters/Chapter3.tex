@@ -16,7 +16,7 @@ The fact that an atomic nucleus can have a structure that behaves rather similar
 
 The sudden discontinuities occur at specific values of the proton $Z$ and neutron $N$ numbers: these are called \emph{magic numbers}. Currently, these magic numbers correspond to $Z$ or $N=2,8,20,28,50,82,126$, and they represent the so-called major shells. There are also two \emph{weakly magic numbers}: 40 and 64.
 
-One can examine the values for the first excited states $2^+$ that are shown in Figs. \ref{e2plus_proton}-\ref{e2plus_neutron}. Indeed, these values show some peaks, each peak corresponding to a particular magic number.
+One can examine the values for the first excited states $2^+$ that are shown in Figs. \ref{e2plus_proton}, \ref{e2plus_neutron}. Indeed, these values show some peaks, each peak corresponding to a particular magic number.
 
 \begin{figure}
     \centering
@@ -40,3 +40,19 @@ Since the model starts from the concept of independent (non-interacting) particl
     \label{schrodinger-single-particle-eq}
 \end{align}
 where $e_i$ represents the energy (eigenvalue) and $\psi_i$ represents the wave-function (eigenstates), while $V(r)$ is the nuclear potential whose expression must be evaluated.
+
+The choice of $V(R)$ will be dictated by the reproduction of various experimental data (such as nuclear saturation, scattering, nuclear reactions, and so on). For the motion of an independent particle, an obvious first attempt would be the \emph{simple harmonic oscillator} (SHO), which has the known expression:
+\begin{align}
+    V(r)=\frac{1}{2}m(\omega_i r)^2\ ,
+    \label{harmonic-potential}
+\end{align}
+with $\omega_i$ as the frequency of the basic harmonic-like motion of the particle in the nucleus. With Eq. \ref{harmonic-potential}, the motion of the nucleon has a straightforward expression:
+\begin{align}
+    \frac{\hbar^2}{2m}\nabla^2\psi_i(r)+\frac{1}{2}m(\omega r)^2\psi_i(r)=e_i\psi_i(r)\ .
+\end{align}
+
+This Schrödinger equation has its energy eigenvalues under to form:
+\begin{align}
+    e_N=\left(N+\frac{3}{2}\right)\hbar\omega\ ,
+\end{align}
+where $N$ is the number of oscillator quanta which describes each major shell. One should keep in mind that such an expression is typical for a three-dimensional and isotropic harmonic oscillator.
