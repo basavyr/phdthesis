@@ -20,15 +20,15 @@ One can examine the values for the first excited states $2^+$ that are shown in 
 
 \begin{figure}
     \centering
-    \includegraphics[scale=0.3]{Chapters/Figures/E2plus_proton.pdf}
-    \caption{The first excited energy states $2^+$ of nuclei with even $Z$ and $N$ graphically represented with respect to the proton number. Each line represents a set of isotopes. Figure taken from Ref. \cite{matta2017exotic}}.
+    \includegraphics[scale=0.33]{Chapters/Figures/E2plus_proton.pdf}
+    \caption{The first excited energy states $2^+$ of nuclei with even $Z$ and $N$ graphically represented with respect to the proton number. Each line represents a set of isotopes. Figure taken from Ref. \cite{matta2017exotic}.}
     \label{e2plus_proton}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[scale=0.3]{Chapters/Figures/E2plus_neutron.pdf}
-    \caption{The first excited energy states $2^+$ of nuclei with even $Z$ and $N$ graphically represented with respect to the neutron number. Each line represents a set of isotopes. Figure taken from Ref. \cite{matta2017exotic}}.
+    \includegraphics[scale=0.33]{Chapters/Figures/E2plus_neutron.pdf}
+    \caption{The first excited energy states $2^+$ of nuclei with even $Z$ and $N$ graphically represented with respect to the neutron number. Each line represents a set of isotopes. Figure taken from Ref. \cite{matta2017exotic}.}
     \label{e2plus_neutron}
 \end{figure}
 
@@ -41,7 +41,7 @@ Since the model starts from the concept of independent (non-interacting) particl
 \end{align}
 where $e_i$ represents the energy (eigenvalue) and $\psi_i$ represents the wave-function (eigenstates), while $V(r)$ is the nuclear potential whose expression must be evaluated.
 
-The choice of $V(R)$ will be dictated by the reproduction of various experimental data (such as nuclear saturation, scattering, nuclear reactions, and so on). For the motion of an independent particle, an obvious first attempt would be the \emph{simple harmonic oscillator} (SHO), which has the known expression:
+The choice of $V(r)$ will be dictated by the reproduction of various experimental data (such as nuclear saturation, scattering, nuclear reactions, and so on). For the motion of an independent particle, an obvious first attempt would be the \emph{simple harmonic oscillator} (SHO), which has the known expression:
 \begin{align}
     V(r)=\frac{1}{2}m(\omega_i r)^2\ ,
     \label{harmonic-potential}
@@ -61,10 +61,12 @@ where $N$ is the number of oscillator quanta which describes each major shell (a
 \end{align}
 with $n$ and $l$ being the \emph{radial} quantum number and \emph{orbital angular momentum} quantum number, respectively, taking values $n=1,2,3,\dots$ and $l=0,1,2,\dots,n-1$. In this first approximation, all the levels with the same principal quantum number $N$ are \emph{degenerate}, with a maximal degeneracy given by $2(2l+1)$. However, by using only the SHO term as the expression of $V(r)$, only the first three magic numbers are reproduced, meaning that some additional term(s) might be needed in order to consistently obtain the series of magic numbers.
 
-A next step is to use the fact that the experimentally observed short range of the strong nuclear force: the steepness of the SHO can be corrected with an \emph{attractive} term proportional to $l$-squared. This acts as a centrifugal term which provides an angular momentum barrier, lifting the degeneracy between the levels with the same principal quantum number $N$ and different values for the orbital angular momentum $l$. This SHO+$l^2$ step is still not enough though. The last step is to add a so-called \emph{spin-orbit} coupling term of the form $\vec{l}\cdot\vec{s}$. This last term is enough to reproduce all the magic numbers and the experimentally measured quantities that are relevant to the shell model itself. This term comes from considering that the nucleon-nucleon interaction has a spin dependence, and the potential depends indeed of the intrinsic spin $s$ ($\vec{s}$) and orbital angular momentum $l$ ($\vec{l}$) of a nucleon. Since $\vec{j}=\vec{l}+\vec{s}$, two possible states emerge from a single value of $l$ (depending on wether $\vec{s}$ is parallel or anti-parallel to $\vec{l}$). The final expression of the terms SHO+$\vec{l}^2$+$\vec{l}\cdot\vec{s}$ will consist in the \emph{Modified Harmonic Oscillator} (HMO).
+A next step is to use the fact that the experimentally observed short range of the strong nuclear force: the steepness of the SHO can be corrected with an \emph{attractive} term proportional to $l$-squared. This acts as a centrifugal term which provides an angular momentum barrier, lifting the degeneracy between the levels with the same principal quantum number $N$ and different values for the orbital angular momentum $l$. This SHO+$l^2$ step is still not enough though. The last step is to add a so-called \emph{spin-orbit} coupling term of the form $\vec{l}\cdot\vec{s}$. 
+% This last term is enough to reproduce all the magic numbers and the experimentally measured quantities that are relevant to the shell model itself.
+This term comes from the consideration that the nucleon-nucleon interaction has a spin dependence, and the potential depends on the intrinsic spin $s$ ($\vec{s}$) and the orbital angular momentum $l$ ($\vec{l}$) of a nucleon. Since $\vec{j}=\vec{l}+\vec{s}$, two possible states emerge from a single value of $l$ (depending on wether $\vec{s}$ is parallel or anti-parallel to $\vec{l}$). The final expression of the terms SHO+$\vec{l}^2$+$\vec{l}\cdot\vec{s}$ will consist in the \emph{Modified Harmonic Oscillator} (HMO).
 \begin{align}
-    V(r)=\frac{1}{2}(\omega r)^2+Bl^2+A\vec{l}\cdot\vec{s}\ .
+    V(r)=\frac{1}{2}(\omega r)^2+B\vec{l}^2+A\vec{l}\cdot\vec{s}\ .
     \label{modified-harmonic-oscillator-eq}
 \end{align}
 
-Regarding the spectroscopic notation, usually, the value of $j$ is considered as a subscript.
+Regarding the spectroscopic notation, usually, the value of $j$ is considered as a subscript. Since the intrinsic spin of a nucleon is $s=1/2$, for a given value of $l$, there can be two values for the \emph{total angular momentum} (a.m.) $j=l\pm1/2$: one for each spin orientation with respect to the direction of the orbital a.m.
