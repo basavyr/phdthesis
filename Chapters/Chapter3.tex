@@ -65,8 +65,15 @@ A next step is to use the fact that the experimentally observed short range of t
 % This last term is enough to reproduce all the magic numbers and the experimentally measured quantities that are relevant to the shell model itself.
 This term comes from the consideration that the nucleon-nucleon interaction has a spin dependence, and the potential depends on the intrinsic spin $s$ ($\vec{s}$) and the orbital angular momentum $l$ ($\vec{l}$) of a nucleon. Since $\vec{j}=\vec{l}+\vec{s}$, two possible states emerge from a single value of $l$ (depending on wether $\vec{s}$ is parallel or anti-parallel to $\vec{l}$). The final expression of the terms SHO+$\vec{l}^2$+$\vec{l}\cdot\vec{s}$ will consist in the \emph{Modified Harmonic Oscillator} (HMO).
 \begin{align}
-    V(r)=\frac{1}{2}(\omega r)^2+B\vec{l}^2+A\vec{l}\cdot\vec{s}\ .
+    V(r)=\frac{1}{2}(\omega r)^2+B\ \vec{l}^2+A\ \vec{l}\cdot\vec{s}\ .
     \label{modified-harmonic-oscillator-eq}
 \end{align}
 
-Regarding the spectroscopic notation, usually, the value of $j$ is considered as a subscript. Since the intrinsic spin of a nucleon is $s=1/2$, for a given value of $l$, there can be two values for the \emph{total angular momentum} (a.m.) $j=l\pm1/2$: one for each spin orientation with respect to the direction of the orbital a.m.
+Since the intrinsic spin of a nucleon is $s=1/2$, for a given value of $l$, there can be two values for the \emph{total angular momentum} (a.m.) $j=l\pm1/2$: one for each spin orientation with respect to the direction of the orbital a.m. Moreover, for each value of $l=0,1,2,3,4,\dots$, there is a similar notation $l=s,p,d,f,g,\dots$, respectively. Regarding the spectroscopic notation, usually, the value of $j$ is considered as a subscript (for example $1p_{1/2}$ and $1p_{3/2}$). What it is worth mentioning is that for high enough shells, there can be splittings between $j+1/2$ and $j-1/2$ that are large enough to lower the $j+1/2$ state from one oscillator shell $N$ to one located below $N-1$. These types of levels are called \emph{intruder states} and they have opposite parity $\pi=(-1)^l$.
+
+Going back to the expression of the $\vec{l}\cdot\vec{s}$ term from Eq. \ref{modified-harmonic-oscillator-eq} and denoting it with $V_{ls}(r)$, it is shown by Casten \cite{casten2000nuclear} that its contribution to the total potential can be regarded as a surface effect. Due to this, its form can be expressed as a function that depends on the radial coordinate as such:
+\begin{align}
+    V_{ls}(r)=-a_{ls}\frac{\partial V(r)}{\partial r}\vec{l}\cdot\vec{s}\ ,
+\end{align}
+where $V(r)$ is the expression for the central potential itself and $a_{ls}$ is the strength constant.
+% Indeed, in the work of Casten \cite{casten2000nuclear}, it is stated that if in the nucleus, the spin-orbit forces were large enough, then there should be an overall preference for nucleons with spins aligned parallel their orbital a.m. other than the opposite alignment, making the nucleons with anti-parallel spins to not be surrounded by an equal number of nucleons with all spin orientations.
