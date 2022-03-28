@@ -94,7 +94,7 @@ The evolution from each term in the shell-model potential (that is the first app
 
 Another, more realistic potential that can be used in order to reproduce the specific shell model calculation is the so-called Woods-Saxon potential. Because of the short-range character of the strong nuclear force, it is safe to assume that this potential should behave in the same manner as the density distribution of the nucleons. Since for medium and heavy nuclei, the Fermi-like functions (distributions) are the ones that best fit the experimentally measured data, this potential should have the following form \cite{woods1954diffuse}:
 \begin{align}
-    V_\text{ws}=-\frac{V_0}{1+e^{\frac{r-R_0}{a}}}\ .
+    V_\text{ws}(r)=-\frac{V_0}{1+e^{\frac{r-R_0}{a}}}\ .
     \label{woods-saxon-potential}
 \end{align}
 This mean-field potential contains the terms $V_0$ that represents the depth of the potential ($\approx 50$ MeV, in order to reproduce the experimental separation energies for the nucleons), the surface thickness $a$ (also called the diffuseness parameter, giving information about how fast the potential drops to zero) with a value of approximately $0.5$ fm, while $R_0$ is the nuclear radius with $R_0=r_0A^{1/3}$ and $r_0=1.2$ fm. The nature of this potential is of \emph{central type}, and unfortunately Eq. \ref{woods-saxon-potential} in its pure form is not enough the reproduce the higher magic numbers. As such, the addition of a spin-orbit term, similarly as in the case of MHO potential, is required \cite{martin2017particle}: 
@@ -121,3 +121,9 @@ The experimental evidence points to the fact that $V_{ls}(r)$ is negative, meani
     \item It rapidly goes to zero as $R$ increases (given by the diffuseness parameter), indicating its short-range nature
     \item When $R=R_0$ (that is for the nucleons near the surface), a large force towards the center of the nucleus is experienced by the these nucleons.
 \end{enumerate}
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.2]{Chapters/Figures/ws_potential_plot.png}
+    \caption{The shape of the Woods-Saxon potential, defined by Eq. \ref{woods-saxon-potential}. The parameters are arbitrarily chosen as: $V_0=50$ MeV, $R=5.57$ fm, and $a=0.5$ fm.}
+    \label{woods-saxon-plot}
+\end{figure}
