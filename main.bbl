@@ -43,6 +43,11 @@ James~Till Matta.
   Pr}.
 \newblock Springer, 2017.
 
+\bibitem{casten2000nuclear}
+R~Casten and Richard~F Casten.
+\newblock {\em Nuclear structure from a simple perspective}, volume~23.
+\newblock Oxford University Press on Demand, 2000.
+
 \bibitem{lewis2019lifetime}
 Michael~Christopher Lewis.
 \newblock {\em Lifetime Measurements of Excited States in 163 W and the
@@ -69,9 +74,14 @@ Kenneth~S Krane.
 \newblock {\em Introductory nuclear physics}.
 \newblock John Wiley \& Sons, 1991.
 
-\bibitem{casten2000nuclear}
-R~Casten and Richard~F Casten.
-\newblock {\em Nuclear structure from a simple perspective}, volume~23.
-\newblock Oxford University Press on Demand, 2000.
+\bibitem{woods1954diffuse}
+Roger~D Woods and David~S Saxon.
+\newblock Diffuse surface optical model for nucleon-nuclei scattering.
+\newblock {\em Physical Review}, 95(2):577, 1954.
+
+\bibitem{martin2017particle}
+Brian~R Martin and Graham Shaw.
+\newblock {\em Particle physics}.
+\newblock John Wiley \& Sons, 2017.
 
 \end{thebibliography}
