@@ -105,5 +105,19 @@ This mean-field potential contains the terms $V_0$ that represents the depth of 
 The only good quantum numbers in the case of the WS potential are the total a.m. $j$ and the parity $\pi=(-1)^l$.
 The expectation value of the spin-orbit term $\vec{l}\cdot\vec{s}$ can be given as:
 \begin{align}
-    \langle ls \rangle
+    \langle ls \rangle=\hbar^2\begin{cases}
+        \frac{l}{2} \quad &\text{for} j=l+\frac{1}{2}\\
+        -\frac{l+1}{2} &\text{for} j=l-\frac{1}{2}\ \\
+   \end{cases}\ .
 \end{align}
+and the spacing between two levels can be furthermore expressed as \cite{martin2017particle}:
+\begin{align}
+    \Delta E_{ls}=\frac{2l+1}{2}\hbar^2\langle V_{ls}\rangle\ .
+\end{align}
+The experimental evidence points to the fact that $V_{ls}(r)$ is negative, meaning that states with $j=l-1/2$ are shifted higher than $j=l+1/2$. Some characteristics of the WS potential are the following:
+\begin{enumerate}
+    \item It increases with the increase of $R$, meaning that it has an \emph{attractive nature}
+    \item It flattens out for large enough $A$ in the center of the nucleus
+    \item It rapidly goes to zero as $R$ increases (given by the diffuseness parameter), indicating its short-range nature
+    \item When $R=R_0$ (that is for the nucleons near the surface), a large force towards the center of the nucleus is experienced by the these nucleons.
+\end{enumerate}
