@@ -16,6 +16,6 @@
 \contentsline {subsection}{\numberline {2.1.5}Nuclear Shapes and Softness}{15}{subsection.44}%
 \contentsline {chapter}{\numberline {3}Nuclear Models}{18}{chapter.46}%
 \contentsline {section}{\numberline {3.1}Introduction}{18}{section.47}%
-\contentsline {subsection}{\numberline {3.1.1}Shell model}{18}{subsection.48}%
-\contentsline {section}{\numberline {3.2}Deformed Shell Model}{26}{section.73}%
-\contentsline {subsection}{\numberline {3.2.1}Deformed Shell Model - Nilsson Model}{28}{subsection.77}%
+\contentsline {section}{\numberline {3.2}Shell model}{18}{section.48}%
+\contentsline {section}{\numberline {3.3}Deformed Shell Model}{26}{section.73}%
+\contentsline {subsection}{\numberline {3.3.1}Deformed Shell Model - Nilsson Model}{28}{subsection.77}%
