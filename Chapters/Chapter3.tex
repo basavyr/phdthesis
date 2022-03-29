@@ -175,9 +175,13 @@ The idea that some nuclei are deformed in their ground-state was enforced experi
 Developed by Nilsson in 1955 \cite{nilsson1955binding} for treating the \emph{deformed nuclei} proved to be a big pillar within the nuclear community, especially for the study of medium and heavy nuclei. In essence, this tools is a modified shell model which allows for deformations to be taken into account by the use of the \emph{anisotropic harmonic oscillator} (AHO). Similarly as for the basic shell model, the goal is to obtain an expression for the single-particle energies of a nucleon. The basic Hamiltonian corresponding to this kind of system is shown below \cite{bertulani2007nuclear}:
 \begin{align}
     H=H_0+a_1\vec{l}\cdot\vec{s}+a_2l^2\ ,
+    \label{nilsson-simple-hamiltonian}
 \end{align}
 where $H_0$ is a Hamiltonian for the AHO. The general expression for this kind of oscillator is of the form:
 \begin{align}
     H_\text{AHO}\equiv H_0=-\frac{\hbar^2}{2m}\nabla^2+\frac{1}{2}m(\omega_x^2x^2+\omega_y^2y^2+\omega_z^2z^2)\ .
 \end{align}
-In the general expression of the single-particle Hamiltonian, the constants $a_1$ and $a_2$ are usually determined via adjustments to the experimental results.
+In the general expression of the single-particle Hamiltonian, the constants $a_1$ and $a_2$ are usually determined via adjustments to the experimental results. It can be seen that the centrifugal-like term $l^2$, which simulates a flattening of the oscillator potential, and the $\vec{l}\cdot\vec{s}$ term are still present here, as it was the case for the spherical shell model. However, the explicit form of Eq. \ref{nilsson-simple-hamiltonian} is as follows:
+\begin{align}
+    H_\text{Nil}=-\frac{\hbar^2}{2m}\nabla^2+\frac{1}{2}m(\omega_x^2x^2+\omega_y^2y^2+\omega_z^2z^2)-2\kappa\hbar\omega_0(\vec{l}\cdot\vec{s})-2\kappa\hbar\omega_0\mu\left(l^2-\langle l^2\rangle_N\right)
+\end{align}
