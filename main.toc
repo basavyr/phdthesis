@@ -19,3 +19,4 @@
 \contentsline {section}{\numberline {3.2}Shell model}{18}{section.48}%
 \contentsline {section}{\numberline {3.3}Deformed Shell Model}{26}{section.73}%
 \contentsline {subsection}{\numberline {3.3.1}Deformed Shell Model - Nilsson Model}{28}{subsection.77}%
+\contentsline {subsection}{\numberline {3.3.2}Single-particle states in deformed nuclei}{30}{subsection.87}%
