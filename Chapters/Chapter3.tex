@@ -281,4 +281,15 @@ Another important aspect which can be seen in the Nilsson diagrams (for some orb
 
 \subsubsection{Two-state mixing}
 
-In the work of Casten \cite{casten2000nuclear}, an analytical approach is given for treating the mixing of two different states (energy levels). It starts from the basic idea of two initial levels, each with its corresponding energy $E_1$ and $E_2$, and their associated wave-functions (denoted here with $\psi_1$ and $\psi_2$). Any interaction between them results in the mixing matrix element $\bra{\psi_1}V_\text{int}\ket{\psi_2}$, where $V_\text{int}$ is the arbitrary interaction between the states. This problem can be solved by finding the final energies and wave-functions, this being done via the diagonalization procedure of a $2\times 2$ matrix, where the main diagonal contains the two energies and off-diagonal terms represent the interaction itself. The final states will be denoted here with ($E_I$, $E_{II}$) for the energies and ($\psi_I$, $\psi_{II}$) for the wave-functions. As a general rule, the mixing depends on i) the initial separation and ii) the matrix element $\bra{\psi_1}V_\text{int}\ket{\psi_2}$.
+In the work of Casten \cite{casten2000nuclear}, an analytical approach is given for treating the mixing of two different states (energy levels). It starts from the basic idea of two initial levels, each with its corresponding energy $E_1$ and $E_2$, and their associated wave-functions (denoted here with $\psi_1$ and $\psi_2$). Any interaction between them results in the mixing matrix element $\bra{\psi_1}V_\text{int}\ket{\psi_2}$, where $V_\text{int}$ is the arbitrary interaction between the states. This is sketched in Fig. \ref{two-state-mixing-scheme}.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.95]{Chapters/Figures/two-state-mixing.pdf}
+    \caption{Defining the mixing between two different states, with two corresponding energies and wave-functions. Interaction is illustrated via the curved line and $V_\text{int}$ term.}
+    \label{two-state-mixing-scheme}
+\end{figure}
+
+This problem can be solved by finding the final energies and wave-functions, this being done via the diagonalization procedure of a $2\times 2$ matrix, where the main diagonal contains the two energies and off-diagonal terms represent the interaction itself. The final states will be denoted here with ($E_I$, $E_{II}$) for the energies and ($\psi_I$, $\psi_{II}$) for the wave-functions. As a general rule, the mixing depends on the initial separation $\Delta E_{21}=(E_2-E_1)$ and the matrix element $\bra{\psi_1}V_\text{int}\ket{\psi_2}$. Given a large spacing, the effect of a given matrix element will be quenched. Moreover, even for a small matrix element, it can introduce a large mixing if the energy separation between the states is small (that is, the unperturbed states are lie close in energy). 
+
+A reduction from these two parameters can be performed, obtaining a single universal mixing expression that is valid for any arbitrary interaction and any initial spacing.
