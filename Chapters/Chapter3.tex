@@ -292,4 +292,12 @@ In the work of Casten \cite{casten2000nuclear}, an analytical approach is given 
 
 This problem can be solved by finding the final energies and wave-functions, this being done via the diagonalization procedure of a $2\times 2$ matrix, where the main diagonal contains the two energies and off-diagonal terms represent the interaction itself. The final states will be denoted here with ($E_I$, $E_{II}$) for the energies and ($\psi_I$, $\psi_{II}$) for the wave-functions. As a general rule, the mixing depends on the initial separation $\Delta E_{21}=(E_2-E_1)$ and the matrix element $\bra{\psi_1}V_\text{int}\ket{\psi_2}$. Given a large spacing, the effect of a given matrix element will be quenched. Moreover, even for a small matrix element, it can introduce a large mixing if the energy separation between the states is small (that is, the unperturbed states are lie close in energy). 
 
-A reduction from these two parameters can be performed, obtaining a single universal mixing expression that is valid for any arbitrary interaction and any initial spacing.
+A reduction from these two parameters can be performed, obtaining a single universal mixing expression that is valid for any arbitrary interaction and any initial spacing. As a first step, one should define the ratio between the spacing of the unperturbed states ($Delta E_{21}$) and the strength of the matrix element:
+\begin{align}
+    R=\frac{\Delta E_{21}}{V_\text{int}}\ .
+\end{align}
+With this quantity, the newly perturbed energies $E_I$ and $E_{II}$ are readily obtained \cite{casten2000nuclear}:
+\begin{align}
+    E_I&=\frac{1}{2}(E_1+E_2)+\frac{\Delta E_{12}}{2}\sqrt{1+\frac{4V_\text{int}^2}{\Delta E_{12}^2}}\ ,\\
+    E_{II}&=\frac{1}{2}(E_1+E_2)-\frac{\Delta E_{12}}{2}\sqrt{1+\frac{4V_\text{int}^2}{\Delta E_{12}^2}}\ .
+\end{align}
