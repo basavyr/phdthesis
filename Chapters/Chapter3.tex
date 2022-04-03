@@ -346,11 +346,35 @@ Besides the numerical example discussed above, there are also two extremely impo
 \begin{align}
     E_{I,II}=\frac{1}{2}\left[(E_1+E_2)\pm2V_\text{int}\right]=E_0\pm V_\text{int}\ ,
 \end{align}
-where the initial (common) energy of the two degenerate states is denoted by $E_0$. The above equation indicates the important fact that the energy shift which the two states suffer via the perturbation is only given by the \emph{mixing matrix element}. This means that the final separation energy for a two-state isolated system can never be closer than twice the interaction strength ($2V$). In the degeneracy case, the values for $\beta$ and $\alpha$ are readily obtained: ($\beta=\alpha=\frac{1}{\sqrt{2}}=0.707$), such that the states are completely mixed. Consequently, the mixed wave-functions of two (initially) degenerate states do not depend on the strength $V_\text{int}$ between them.
+where the initial (common) energy of the two degenerate states is denoted by $E_0$. The above equation indicates the important fact that the energy shift which the two states suffer via the perturbation is only given by the \emph{mixing matrix element}. This means that the final separation energy for a two-state isolated system can never be closer than twice the interaction strength ($2V$). In the degeneracy case, the values for $\beta$ and $\alpha$ are readily obtained: ($\beta=\alpha=\frac{1}{\sqrt{2}}=0.707$), such that the states are completely mixed. Consequently, the mixed wave-functions of two (initially) degenerate states do not depend on the strength $V_\text{int}$ between them. The limiting case of \emph{strong mixing} of two degenerate levels is sketched in Fig. \ref{strong-mixing-fig}.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.9]{Chapters/Figures/mixing_strong_coupling.pdf}
+    \caption{The \emph{strong mixing} limit for two energy levels that are interacting via a perturbation. The initial two levels are degenerate, such that their splitting is null.}
+    \label{strong-mixing-fig}
+\end{figure}
 
 The second limiting case is called \emph{weak mixing limit}, corresponding to a very large value of $R$ (meaning that the initial separation of the states is very large compared to the magnitude of the interaction itself). The shift in energy of the perturbed states in this case is given by:
 \begin{align}
-    |\Delta E_S|=\frac{1}{R^2}\ .
+    \frac{|\Delta E_S|}{\Delta E_{21}}=\frac{1}{R^2}\ .
 \end{align}
 
-As a final step in the analysis of the two-state mixing, it is worth mentioning a corner-case which will help to get a better grasp of the Nilsson orbitals. Consider two states (say $\psi_1$ and $\psi_2$) whose energies are parametrized in terms on some argument $c_\text{nuc}$ which is relevant for the nuclear structure of that system (e.g., $c_\text{nuc}$ could be a quadrupole deformation and the two initial states are in fact Nilsson orbits). The remarking `feature' of this hypothesis is that if there indeed exists mixing between the two states, they can never cross each other. The two mixed states will always repel and they can never be closer than twice the mixing matrix element $V_\text{int}$ after mixing occurs. In Fig. the behavior of non-crossing for the mixed states is sketched. The point at which the two states are the closest to each other represents the case when the wave-functions contain similar admixtures of each of the initial states (unperturbed).
+A graphical representation for the weak mixing is shown in Fig. \ref{weak-mixing-fig}.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.9]{Chapters/Figures/mixing_weak_coupling.pdf}
+    \caption{The \emph{weak mixing} limit for two energy levels that are interacting via a perturbation. The interaction strength is much smaller than the initial spacing between states, resulting in a very small energy splitting $\Delta E_{S}$.}
+    \label{weak-mixing-fig}
+\end{figure}
+
+As a final step in the analysis of the two-state mixing, it is worth mentioning a corner-case which will help to get a better grasp of the Nilsson orbitals. Consider two states (say $\psi_1$ and $\psi_2$) whose energies are parametrized in terms on some argument $c_\text{nuc}$ which is relevant for the nuclear structure of that system (e.g., $c_\text{nuc}$ could be a quadrupole deformation and the two initial states are in fact Nilsson orbits). The remarking `feature' of this hypothesis is that if there indeed exists mixing between the two states, they can never cross each other. The two mixed states will always repel and they can never be closer than twice the mixing matrix element $V_\text{int}$ after mixing occurs. In Fig. the behavior of non-crossing for the mixed states is sketched. The point at which the two states are the closest to each other represents the case when the wave-functions contain similar admixtures of each of the initial states (unperturbed). The \emph{inflection point} can be seen in Fig. \ref{fig-non-crossing}.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.9]{Chapters/Figures/state_non_crossing.pdf}
+    \caption{A sketch showing the concept of \emph{non-crossing} between two states. Arrow represents the closest point at which the two states can interaction with each other (i.e., the inflection point).}
+    \label{fig-non-crossing}
+\end{figure}
+
