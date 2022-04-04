@@ -392,7 +392,7 @@ The point at which the two states are the closest to each other represents the c
 
 \subsection*{Nilsson orbitals}
 
-With the concept of two-state mixing clearly depicted, it is instructive to go further into the Nilsson orbitals and their significance. Recalling Fig. \ref{nillson-orbits-splittings}, the splitting of a $j$ orbital into $j+1/2$ magnetic sub-states can be viewed as a set of orbitals (energies) where the nucleon orbits around the bulk nucleus with an orbit that has a certain \emph{tilt} angle $\theta$ (see the orbits depicted in Figs. \ref{nillson-orbits-prolate-projections} and \ref{nillson-orbits-prolate-projections}). The tilting angle is conceptually showed in Fig. \ref{fig-nilsson-tilting-angle}, where a magnetic sub-state with given $\Omega$ is shown. For that particular orbit, the angle is given by the expression:
+With the concept of two-state mixing clearly depicted, it is instructive to go further into the Nilsson orbitals and their significance. Recalling Fig. \ref{nillson-orbits-splittings}, the splitting of a $j$ orbital into $j+1/2$ magnetic sub-states can be viewed as a set of orbitals (energies) where the nucleon orbits around the bulk nucleus with an orbit that has a certain \emph{tilt} angle $\theta$ (see the orbits depicted in Figs. \ref{nillson-orbits-prolate-projections} and \ref{nillson-orbits-prolate-projections}). The tilting angle is conceptually showed in Fig. \ref{fig-nilsson-tilting-angle}, where a magnetic sub-state with given $\Omega$ is shown. For that particular orbit, the angle is given by the expression \cite{krane1991introductory,casten2000nuclear}:
 \begin{align}
     \sin\theta&=\frac{\Omega}{j}\ , \nonumber\\
     \theta&=\arcsin(\frac{\Omega}{j})\ .
@@ -400,10 +400,20 @@ With the concept of two-state mixing clearly depicted, it is instructive to go f
 \begin{figure}
     \centering
     \includegraphics[scale=0.95]{Chapters/Figures/nilsson_tilting_angle.pdf}
-    \caption{The orbit of a single particle orbiting the deformed nucleus, defined by the projection of the particle's a.m. $\Omega$ (on the symmetry axis) and the tilting angle $\theta$.}
+    \caption{The orbit of a single particle orbiting the deformed nucleus, defined by the projection of the particle's a.m. $\Omega$ (on the symmetry axis) and the tilting angle $\theta$. Figure inspired from Ref. \cite{casten2000nuclear}}
     \label{fig-nilsson-tilting-angle}
 \end{figure}
 
-The difference in energy between each sub-state will increase with the deformation and, moreover, these orbitals are affected by the \emph{presence} of any other orbitals in their vicinity which share the same quantum number $\Omega$ and parity $\pi$.
+The change of $\theta$ is rather slow for low $\Omega$ projections, while rapid changes take place at high $\Omega$ values. %It should be noted that this discussion applies to a single-particle total a.m. projection, but as it was discussed previously, using the projection $K$ within calculations is equivalent (since the axially deformed potentials keep $\mathbf{R}$ oriented perpendicular to the symmetry axis).
+As a numerical example, the change in $\theta$ is studied for the orbits $j=\{9/2,11/2,13/2\}$, with their corresponding projections. The evolution with $\Omega$ for different orbits can be seen in Fig. \ref{fig-tilting-angle-shape}.
 
-The change of $\theta$ is rather slow for low projections, while rapid changes take place at high $\Omega$ values. It should be noted that this discussion applies to a single-particle total a.m. projection, but as it was discussed previously, using the projection $K$ within calculations is equivalent, since the axially deformed potentials keep $\mathbf{R}$ oriented perpendicular to the symmetry axis.
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.7]{Chapters/Figures/tilted_theta_shape.pdf}
+    \caption{The change in $\theta$ with increasing values of $\Omega$, for given orbitals $j$.}
+    \label{fig-tilting-angle-shape}
+\end{figure}
+
+The simplistic shapes within the splitting of an orbital $j$ into multiple sub-states (see Fig. \ref{nillson-orbits-splittings}) emerge from the considerations regarding the change in tilting angle $\theta$ and the observation that the difference in energy is rather slight (high) depending on low (high) $\Omega$ values.
+
+Based on this discussion, it is clear that a full Nilsson diagrams is constructed with the configuration mixing of different $j$ values, configuration which is superimposed on state-splitting via the $\Omega$ projections. With this idea, one can state that \emph{no two lines in the Nilsson diagram with similar $Omega$ values can cross each other}. As two such orbits come close to each other, they must repel as shown in Fig. \ref{fig-non-crossing}. Explaining the behavior of the lines that appear in the Nilsson diagrams \ref{nillson-diagram} - \ref{nillson-diagram-2} is straightforward: each line represents a Nilsson state, starting out in a straight line and then sloping downward or upward, depending on the angle of the orbit relative to the bulk nucleus.
