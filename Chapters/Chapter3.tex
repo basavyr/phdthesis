@@ -200,7 +200,7 @@ Following the calculations done in \cite{bertulani2007nuclear}, one can express 
 \end{align}
 Moreover, a dependence on the deformation parameter itself is employed for the frequency $\omega_0$ that appears in the expressions for $\omega_\perp$ and $\omega_z$, respectively:
 \begin{align}
-    \omega_0(\epsilon_2)=\bar{\omega}_0\left(1-\frac{4}{3}\epsilon_2^2-\frac{16}{27}\epsilon_2^3\right)^{-1/6}\ ,
+    \omega_0=\left(1-\frac{4}{3}\epsilon_2^2-\frac{16}{27}\epsilon_2^3\right)^{-1/6}\ ,
     \label{omega-0-oscillator-frequency}
 \end{align}
 where $\bar{\omega}_0$ can be considered a constant written as $\bar{\omega}_0=(\omega_x\omega_y\omega_z)^{1/3}=\text{const}$ (coming from the harmonic oscillator at zero deformation and also considering the conservation of the nuclear volume).
@@ -438,14 +438,23 @@ Lastly, an alternative form of the Nilsson Hamiltonian should be expressed, taki
 
 The single-particle Hamiltonian can be written in the general form, starting from the expression Eq. \ref{eq-full-nilsson-ham}:
 \begin{align}
-    H_\text{Nil}=-\frac{\hbar^2}{2m}+\frac{1}{2}m(\omega_0r)^2-&\frac{4}{3}\sqrt{\frac{\pi}{5}}m(\omega_0r)^2\delta Y_2^0(\theta,\varphi)-2\kappa\hbar\omega_0(\vec{l}\cdot\vec{s})\nonumber\\
+    H_\text{Nil}=-\frac{\hbar^2}{2m}+\frac{1}{2}m(\omega_0r)^2-&\frac{4}{3}\sqrt{\frac{\pi}{5}}m(\omega_0r)^2\epsilon Y_2^0(\theta,\varphi)-2\kappa\hbar\omega_0(\vec{l}\cdot\vec{s})\nonumber\\
     &-2\kappa\hbar\omega_0\mu\left(l^2-\langle l^2\rangle_N\right)\ .
     \label{eq-nilsson-ham-spherical-harmonics}
 \end{align}
 
-The expression for the oscillator frequencies were already given, and they keep the same form (see Eqs. \ref{oscillator-frequencies-nilsson} - \ref{omega-0-oscillator-frequency}). It is worth mentioning that both forms of $H_\text{Nil}$ are equivalent, and allow to describe the structure of the deformed nuclei in the limits of large deformations (via Eq. \ref{eq-full-nilsson-ham}) and small deformations (via Eq. \ref{eq-nilsson-ham-spherical-harmonics}). Within literature, the two parameters $\kappa$ and $\mu$ have usually values around $0.006$ for the former and $(0\sim 0.7)$ for the latter,
+The expression for the oscillator frequencies were already given (defined as functions of the deformation parameter $\epsilon$), and they keep the same form (see Eqs. \ref{oscillator-frequencies-nilsson} - \ref{omega-0-oscillator-frequency}). It is worth mentioning that both forms of $H_\text{Nil}$ are equivalent, and allow to describe the structure of the deformed nuclei in the limits of large deformations (via Eq. \ref{eq-full-nilsson-ham}) and small deformations (via Eq. \ref{eq-nilsson-ham-spherical-harmonics}). Within literature, the two parameters $\kappa$ and $\mu$ have usually values around $0.06$ for the former and $(0\sim 0.7)$ for the latter,
 
-When the deformations are small, $j$ is a good quantum number, and the Eq. \ref{eq-nilsson-ham-spherical-harmonics} represents a Hamiltonian for the AHO (which it was discussed) plus a \emph{perturbation} that is proportional to $\delta r^2Y_2^0$. One can consider the eigenstates of the Hamiltonian as some states labelled by the quantum numbers $Nlj$ and $m$ typical to the spherical case. Casten shows that if the angular part $Y_2^0$ is treated as a perturbation, it is possible to obtain a shift in energies relative to $\delta=0$:
+When the deformations are small, $j$ is a good quantum number, and the Eq. \ref{eq-nilsson-ham-spherical-harmonics} represents a Hamiltonian for the AHO (which it was discussed) plus a \emph{perturbation} that is proportional to $\epsilon r^2Y_2^0$. One can consider the eigenstates of the Hamiltonian as some states labelled by the quantum numbers $Nlj$ and $m$ typical to the spherical case. Casten shows that if the angular part $Y_2^0$ is treated as a perturbation, it is possible to obtain a shift in energies relative to $\epsilon=0$:
 \begin{align}
-    \Delta E_{Nljm}=-\frac{4}{3}\sqrt{\frac{\pi}{5}}m\omega_2^0\delta\bra{Nljm}r^2Y_2^0\ket{Nljm}\ .
+    \Delta E_{Nljm}=-\frac{4}{3}\sqrt{\frac{\pi}{5}}m\omega_2^0\epsilon\bra{Nljm}r^2Y_2^0\ket{Nljm}\ .
+\end{align}
+
+Furthermore, one can perform a separation of the radial and the angular parts while using the known relation for a harmonic oscillator potential:
+\begin{align}
+    \frac{1}{2}m\omega_0^2\bra{Nljm}r^2\ket{Nljm}=\frac{1}{2}\hbar\omega_0\left(N+\frac{3}{2}\right)\ ,
+\end{align}
+and, together with the evaluation of the matrix elements for spherical harmonics, the final expression for the energy shift at small deformations is:
+\begin{align}
+    \Delta E_{Nljm}=-\frac{2}{3}\hbar\omega_0\left(N+\frac{2}{3}\right)\epsilon\frac{\left[3K^2-j(j+1)\right]\left[\frac{3}{4}-j(j+1)\right]}{(2j-1)j(j+1)(2j+1)}
 \end{align}
