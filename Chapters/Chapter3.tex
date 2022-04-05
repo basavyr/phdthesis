@@ -196,10 +196,12 @@ Following the calculations done in \cite{bertulani2007nuclear}, one can express 
 \begin{align}
     \omega_\perp^2=\omega_0^2\left(1+\frac{2}{3}\epsilon_2\right)\ ,\\
     \omega_z^2=\omega_0^2\left(1-\frac{4}{3}\epsilon_2\right)\ .
+    \label{oscillator-frequencies-nilsson}
 \end{align}
 Moreover, a dependence on the deformation parameter itself is employed for the frequency $\omega_0$ that appears in the expressions for $\omega_\perp$ and $\omega_z$, respectively:
 \begin{align}
     \omega_0(\epsilon_2)=\bar{\omega}_0\left(1-\frac{4}{3}\epsilon_2^2-\frac{16}{27}\epsilon_2^3\right)^{-1/6}\ ,
+    \label{omega-0-oscillator-frequency}
 \end{align}
 where $\bar{\omega}_0$ can be considered a constant written as $\bar{\omega}_0=(\omega_x\omega_y\omega_z)^{1/3}=\text{const}$ (coming from the harmonic oscillator at zero deformation and also considering the conservation of the nuclear volume).
 
@@ -431,9 +433,13 @@ But as discussed in the section devoted to \emph{two-state mixing}, two orbits d
 Lastly, an alternative form of the Nilsson Hamiltonian should be expressed, taking into consideration the already studied nuclear radius (see Eq. \ref{nuclear-shape} which describes the shape of the nuclear surface) and the fact that until now, only the \emph{quadrupole} effects have been relevant to the discussion about deformed potentials in nuclei. Indeed, for quadrupole deformations, the nuclear radius can be simplified to:
 \begin{align}
     R(\theta,\varphi)=R_0\left(1+\beta Y_2^0(\theta,\varphi)\right)\ .
+    \label{simple-quadrupole-nuclear-surface}
 \end{align}
 
-% The single-particle Hamiltonian can be written in the general form, starting from the expression Eq. \ref{eq-full-nilsson-ham}:
-% \begin{align}
-%     H_\text{Nil}=-\frac{\hbar^2}{2m}+\frac{1}{2}m(\omega_0r)^2-\frac{4}{3}\sqrt{\frac{\pi}{5}}m(\omega_0r)^2\deltaY_2^0(\theta,\varphi)-2\kappa\hbar\omega_0(\vec{l}\cdot\vec{s})\nonumber\\&-2\kappa\hbar\omega_0\mu\left(l^2-\langle l^2\rangle_N\right)\ .
-% \end{align}
+The single-particle Hamiltonian can be written in the general form, starting from the expression Eq. \ref{eq-full-nilsson-ham}:
+\begin{align}
+    H_\text{Nil}=-\frac{\hbar^2}{2m}+\frac{1}{2}m(\omega_0r)^2-&\frac{4}{3}\sqrt{\frac{\pi}{5}}m(\omega_0r)^2\delta Y_2^0(\theta,\varphi)-2\kappa\hbar\omega_0(\vec{l}\cdot\vec{s})\nonumber\\
+    &-2\kappa\hbar\omega_0\mu\left(l^2-\langle l^2\rangle_N\right)\ .
+\end{align}
+
+The expression for the oscillator frequencies were already given, and they keep the same form (see Eqs. \ref{oscillator-frequencies-nilsson} - \ref{omega-0-oscillator-frequency}).
