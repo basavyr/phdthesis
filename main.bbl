@@ -138,9 +138,29 @@ AS~Davydov and GF~Filippov.
 \newblock Rotational states in even atomic nuclei.
 \newblock {\em Nuclear Physics}, 8:237--249, 1958.
 
+\bibitem{townes1949nuclear}
+Charles~H Townes, HM~Foley, and W~Low.
+\newblock Nuclear quadrupole moments and nuclear shell structure.
+\newblock {\em Physical Review}, 76(9):1415, 1949.
+
+\bibitem{goldhaber1951classification}
+M~Goldhaber and AW~Sunyar.
+\newblock Classification of nuclear isomers.
+\newblock {\em Physical Review}, 83(5):906, 1951.
+
 \bibitem{bohr1953collective}
 Aage~Niels Bohr and Benjamin~Roy Mottelson.
 \newblock Collective and individual-particle aspects of nuclear structure.
 \newblock {\em Dan. Mat. Fys. Medd.}, 27(CERN-57-38):1--174, 1953.
+
+\bibitem{bohr1936neutron}
+Niels Bohr.
+\newblock Neutron capture and nuclear constitution.
+\newblock {\em Nature}, 137(3461):344--348, 1936.
+
+\bibitem{rainwater1950nuclear}
+James Rainwater.
+\newblock Nuclear energy level argument for a spheroidal nuclear model.
+\newblock {\em Physical Review}, 79(3):432, 1950.
 
 \end{thebibliography}
