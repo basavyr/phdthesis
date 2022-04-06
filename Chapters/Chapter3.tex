@@ -515,7 +515,16 @@ As a first step, the concept of a nuclear liquid drop is used to construct the H
 By using Eq. \ref{nuclear-shape} which characterizes the \emph{vibrations} of a nuclear surface (via the collective coordinates $\alpha_{\lambda\mu}$), one can give the expression of an initial Hamiltonian of \emph{collective} nature as:
 \begin{align}
     H_\text{coll}=\frac{1}{2}\sum_{\lambda\mu}\left[B_\lambda\left|\frac{\text{d}\alpha_{\lambda\mu}}{\text{d}t}\right|^2+C_\lambda|\alpha_{\lambda\mu}|^2\right]\ ,
+    \label{collective-hamiltonian-stiffness-inertia}
 \end{align}
-Hamiltonian which is in fact both invariant under rotation and time reversal \cite{messiah2014quantum}.  The real numbers $B_\lambda$ and $C_\lambda$ represent \emph{inertial} and \emph{stiffness} parameters for the nuclear matter.
-The spectrum of such a Hamiltonian after a canonical quantization (see calculations in Ref. \cite{ring2004nuclear} or \cite{bertulani2007nuclear}) will have a harmonic-like structure, depending on the value of $\lambda$.
-As such, the vibrational spectrum specific to a quadrupole $\lambda=2$ oscillation can be seen in Fig. (the quadrupole effects are of interest within the current work).
+Hamiltonian which is in fact both invariant under rotation and time reversal \cite{messiah2014quantum}.  The real numbers $B_\lambda$ and $C_\lambda$ represent \emph{inertial} and \emph{stiffness} parameters for the nuclear matter. The spectrum of such a Hamiltonian after a canonical quantization (see calculations in Ref. \cite{ring2004nuclear} or \cite{bertulani2007nuclear}) will have a harmonic-like structure, depending on the value of $\lambda$. Indeed, by looking at the expression from Eq. \ref{collective-hamiltonian-stiffness-inertia} one can see that it can be brought to a form:
+\begin{align}
+    H_\text{coll}^\text{osc}=\frac{p^2}{2m}+\frac{1}{2}kr^2\ ,
+\end{align}
+which is typical to a harmonic oscillator Hamiltonian. The frequency of oscillation of such a Hamiltonian is given by the relation $\omega=\sqrt{k/m}$. The vibrations can now be understood in terms of a sum of harmonic oscillator frequencies, where each frequency is given by $\lambda$:
+\begin{align}
+\omega_\lambda=\sqrt{\frac{C_\lambda}{B_\lambda}}\ .
+\end{align}
+
+The energy scheme is composed of levels that are built from these oscillator frequencies. The absorption or emission of vibration-like energy quanta (i.e., phonons) that a nucleus can do (passing to a higher or a lower level) will be in terms of dipole, quadrupole, octupole, etc. vibrating phonons. These excitations will contribute to building the entire spectrum of the nuclei, starting with the ground state: resulting in the so-called \emph{vibrational bands}.
+Since the the quadrupole effects are of interest within the current work, the vibrational spectrum specific to a quadrupole $\lambda=2$ oscillation can be seen in Fig. .
