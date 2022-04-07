@@ -514,7 +514,7 @@ As a first step, the concept of a nuclear liquid drop is used to construct the H
 
 By using Eq. \ref{nuclear-shape} which characterizes the \emph{vibrations} of a nuclear surface (via the collective coordinates $\alpha_{\lambda\mu}$), one can give the expression of an initial Hamiltonian of \emph{collective} nature as:
 \begin{align}
-    H_\text{coll}=\frac{1}{2}\sum_{\lambda\mu}\left[B_\lambda\left|\frac{\text{d}\alpha_{\lambda\mu}}{\text{d}t}\right|^2+C_\lambda|\alpha_{\lambda\mu}|^2\right]\ ,
+    H_\text{coll}\equiv T+V=\frac{1}{2}\sum_{\lambda\mu}\left[B_\lambda\left|\frac{\text{d}\alpha_{\lambda\mu}}{\text{d}t}\right|^2+C_\lambda|\alpha_{\lambda\mu}|^2\right]\ ,
     \label{collective-hamiltonian-stiffness-inertia}
 \end{align}
 Hamiltonian which is in fact both invariant under rotation and time reversal \cite{messiah2014quantum}.  The real numbers $B_\lambda$ and $C_\lambda$ represent \emph{inertial} and \emph{stiffness} parameters for the nuclear matter. The spectrum of such a Hamiltonian after a canonical quantization (see calculations in Ref. \cite{ring2004nuclear} or \cite{bertulani2007nuclear}) will have a harmonic-like structure, depending on the value of $\lambda$. Indeed, by looking at the expression from Eq. \ref{collective-hamiltonian-stiffness-inertia} one can see that it can be brought to a form:
@@ -532,9 +532,25 @@ The inertia term $B_\lambda$ (also called the \emph{mass parameter}) has the fol
 \end{align}
 showing a quadratic dependence with the average nuclear radius.
 
-The recipe for further manipulation of the Bohr's collective Hamiltonian is quite a lengthy process, with several considerations that are beyond the scope of the current work. Shortly, for the quadrupole deformed nuclei, the expression of the potential term $V$ will be a function that depends on the parameters $(\beta,\gamma)$, potential that is defined as a quadratic approximation in the vicinity of a deformed minimum point $p_0|_\text{min}=(\beta_,\gamma_0)$. This starts from the general assumption that the nucleus has the deformation $p_0$ in the ground state, and the excitations are rotations and small oscillations around this \emph{equilibrium} deformation point. Thus $V(\beta,\gamma)$ can be written as:
+The recipe for further manipulation of the Bohr's collective Hamiltonian from Eq. \ref{collective-hamiltonian-stiffness-inertia} is quite a lengthy process \cite{bohr1998nuclear,ring2004nuclear}, with several considerations that are beyond the scope of the current work. Shortly, for the quadrupole deformed nuclei, the expression of the potential term $V$ will be a function that depends on the parameters $(\beta,\gamma)$, potential that is defined as a quadratic approximation in the vicinity of a deformed minimum point $p_0|_\text{min}=(\beta_,\gamma_0)$. This starts from the general assumption that the nucleus has the deformation $p_0$ in the ground state, and the excitations are rotations and small oscillations around this \emph{equilibrium} deformation point. Thus $V(\beta,\gamma)$ can be written as:
 \begin{align}
     V(\beta,\gamma)=\frac{1}{2}C_{20}\left(\alpha_{20}(\beta,\gamma)-\alpha_{20}^2\right)^2+\frac{1}{2}C_{22}\left(\alpha_{22}(\beta,\gamma)-\alpha_{22}^0\right)\ .
+\end{align}
+
+Assuming axial symmetry and a coordinate system that corresponds to the body-fixed system, one can write the kinetic term $T$ of the Hamiltonian as a sum of a \emph{rotational} term and one which contains the derivatives with respect to time of the variables $\alpha_{20,22}$ and the Euler angles. However, in the body-fixed system, the collective coordinates are written in terms of $(\beta, \gamma$) (see Eq. \ref{bohr-deformation-params}), such that:
+\begin{align}
+  T=&T_\text{rot}+\frac{1}{2}B_2(\frac{\text{d}\beta^2}{\text{d} t}+\beta^2\frac{\text{d}\gamma^2}{\text{d} t}) \ ,\\
+  T_\text{rot}=&\frac{1}{2}\sum_k\mathcal{I}_k\omega_k^2\ ,
+\end{align}
+where the index $k=1,2,3$ suggests each of the three principal axes of the ellipsoid (this notation is different from the previous notations $x,y,z$ and it will always suggest the body-fixed system). In the expression of $T_\text{rot}$, two crucial physical quantities arise, namely the angular velocities around each body-fixed axis and the functions $\mathcal{I}_k$ that will eventually play the role of \emph{moments of inertia}. However, it is important to analyze the functions $\mathcal{I}_k(\beta,\gamma$) in order to better understand what kind of nature the nucleus exhibit in its rotational and vibrational motion. Ref. \cite{ring2004nuclear} shows that:
+\begin{align}
+    \mathcal{I}_k=4B_2\beta^2\sin^2\left(\gamma-\frac{2\pi}{3}k\right)\ .
+\end{align}
+
+In the case of fixed deformation (that is $\beta$ and $\gamma$ do not change), then the rotational kinetic term represents the energy of a rotor with the moments of inertia $\mathcal{I}_{1,2,3}$, i.e., a \emph{pure rotor}. When the deformation parameters are changing, the rotational and vibrational degrees of freedom will become coupled by the deformation dependence of $\mathcal{I}_k$, leading to a situation that is not specific to a pure rotor. In fact, the functions $\mathcal{I}_k$ will not represent the moments of inertia (MOI) for a rigid rotor anymore. However, a comparison between $\mathcal{I}$, the rigid-like $\mathcal{I}_k^\text{rig}$ MOI, and irrotational-like MOI $\mathcal{I}_k^\text{irr}$. The last two quantities have the following expressions \cite{bohr1954rotational,ring2004nuclear}:
+\begin{align}
+    \mathcal{I}_k^\text{rig}&=\frac{2}{5}mAR_0^2\left(1-\sqrt{\frac{5}{4\pi}\beta\cos\left(\gamma-\frac{2\pi}{3}k\right)}\right)\ ,\\
+    \mathcal{I}_k^\text{irr}&=\frac{3}{2\pi}mAR_0^2\beta^2\sin^2\left(\gamma-\frac{2\pi}{3}k\right)\ .
 \end{align}
 
 \subsection{Nuclear Vibration}
