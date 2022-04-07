@@ -507,8 +507,8 @@ Developed by Bohr and Mottelson \cite{bohr1953collective,bohr1998nuclear} more t
 As a first step, the concept of a nuclear liquid drop is used to construct the Hamiltonian of the problem. The droplet is said to exhibit excitations shape (or surface) oscillations which have a dynamical character. These shape oscillations are illustrated in Fig. \ref{fig-nuclear-vibration}, where one can interpret that as a vibrating nucleus with a spherical equilibrium shape. Since the collective coordinates are time-dependent, at each moment in time, the nuclear radius $R$ at moment $t$ will locate a point on the surface in the direction given by the radial coordinates $\theta,\varphi$.
 \begin{figure}
     \centering
-    \includegraphics[scale=1.3]{Chapters/Figures/shape_oscillations.pdf}
-    \caption{The vibration of a nucleus whose equilibrium shape is a spheroid, with nuclear radius $R_0$ (\emph{average nuclear radius}).}
+    \includegraphics[scale=1.1]{Chapters/Figures/shape_oscillations.pdf}
+    \caption{The vibration of a nucleus whose equilibrium shape is a spheroid, with nuclear radius $R_0$ (\emph{average nuclear radius}) and the nuclear radius at a different moment in time.}
     \label{fig-nuclear-vibration}
 \end{figure}
 
@@ -526,6 +526,19 @@ which is typical to a harmonic oscillator Hamiltonian. The frequency of oscillat
 \omega_\lambda=\sqrt{\frac{C_\lambda}{B_\lambda}}\ .
 \end{align}
 
+The inertia term $B_\lambda$ (also called the \emph{mass parameter}) has the following expression \cite{ring2004nuclear}:
+\begin{align}
+    B_\lambda=\frac{\rho mR_0^5}{\lambda}=\frac{3}{4\pi\lambda}AmR_0^2\ ,
+\end{align}
+showing a quadratic dependence with the average nuclear radius.
+
+The recipe for further manipulation of the Bohr's collective Hamiltonian is quite a lengthy process, with several considerations that are beyond the scope of the current work. Shortly, for the quadrupole deformed nuclei, the expression of the potential term $V$ will be a function that depends on the parameters $(\beta,\gamma)$, potential that is defined as a quadratic approximation in the vicinity of a deformed minimum point $p_0|_\text{min}=(\beta_,\gamma_0)$. This starts from the general assumption that the nucleus has the deformation $p_0$ in the ground state, and the excitations are rotations and small oscillations around this \emph{equilibrium} deformation point. Thus $V(\beta,\gamma)$ can be written as:
+\begin{align}
+    V(\beta,\gamma)=\frac{1}{2}C_{20}\left(\alpha_{20}(\beta,\gamma)-\alpha_{20}^2\right)^2+\frac{1}{2}C_{22}\left(\alpha_{22}(\beta,\gamma)-\alpha_{22}^0\right)\ .
+\end{align}
+
+\subsection{Nuclear Vibration}
+
 The energy scheme is composed of levels that are built from these oscillator frequencies. The absorption or emission of vibration-like energy quanta (i.e., phonons) that a nucleus can do (passing to a higher or a lower level) will be in terms of dipole, quadrupole, octupole, etc. vibrating phonons. These excitations will contribute to building the entire spectrum of the nuclei, starting with the ground state: resulting in the so-called \emph{vibrational bands}.
 Since the the quadrupole effects are of interest within the current work, the vibrational spectrum specific to quadrupole $\lambda=2$ phonons can be seen in Fig. \ref{fig-vibrational-bands}.
 \begin{figure}
@@ -535,4 +548,7 @@ Since the the quadrupole effects are of interest within the current work, the vi
     \label{fig-vibrational-bands}
 \end{figure}
 
-A general rule that is used to construct such vibrational bands is related to the concept of \emph{symmetrized states}. Since the excited quanta are represented by phonons (identical bosons) which have integer angular momentum (e.g., $\lambda=2$ for the quadrupole vibrations) the only spin states than can be observed in such spectra are the ones for which the final angular momenta couple to give symmetric combinations. This is the reason why in the energy state created by exciting the ground state $0^+$ with two phonons, only the states $0^+,2^+,4^+$ appear; the spin states $1^+$ and $3^+$ do not give symmetric combinations. A more generic method for determining which sequence of spins can be obtained by coupling angular momenta of vibrational phonons can be seen in Ref. \cite{ring2004nuclear}.
+A general rule that is used to construct such vibrational bands is related to the concept of \emph{symmetrized states}. Since the excited quanta are represented by phonons (identical bosons) which have integer angular momentum (e.g., $\lambda=2$ for the quadrupole vibrations) the only spin states than can be observed in such spectra are the ones for which the final angular momenta couple to give symmetric combinations. This is the reason why in the energy state created by exciting the ground state $0^+$ with two phonons, only the states $0^+,2^+,4^+$ appear; the spin states $1^+$ and $3^+$ do not give symmetric combinations. A more generic method for determining which sequence of spins can be obtained by coupling angular momenta of vibrational phonons can be seen in Ref. \cite{ring2004nuclear}, which is related to the Clebsch-Gordan coefficients.
+
+A measurement which is often used within the measurements of nuclei is the ratio between the second and the first excited states within a band. These ratios are usually denoted by $E(4^+)/E(2^+)$ (the state $4^+$ belongs to the triplet phonon state depicted in Fig. \ref{fig-vibrational-bands}), and the theoretical value for the vibrational model gives a value of $2$. However, some experimental results point out to a value close to $2.2$, for nuclei below $A=150$, and a constant value of $3.3$ for $150<A<190$, although for the latter, the value of the ratio is specific to another kind of nucleonic motion: rotation, which will be discussed in the following subsection.
+There can also be vibrational bands in odd$A$ nuclei. Indeed, if one considers the nucleus as a spherical even-$A$ core plus an extra nucleon, the \emph{final} nuclear states are formed by coupling an individual $j$ orbit with the vibrational states of the core. Some examples of experimental \emph{vibrational bands} for several nuclei are shown in Figs.
