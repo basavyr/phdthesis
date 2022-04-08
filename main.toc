@@ -23,3 +23,4 @@
 \contentsline {section}{\numberline {3.4}Collective Model}{48}{section.122}%
 \contentsline {subsection}{\numberline {3.4.1}Bohr Hamiltonian}{49}{subsection.123}%
 \contentsline {subsection}{\numberline {3.4.2}Nuclear Vibration}{52}{subsection.137}%
+\contentsline {subsection}{\numberline {3.4.3}Nuclear Rotation}{56}{subsection.142}%
