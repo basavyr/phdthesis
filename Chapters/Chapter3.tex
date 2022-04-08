@@ -537,17 +537,27 @@ The recipe for further manipulation of the Bohr's collective Hamiltonian from Eq
     V(\beta,\gamma)=\frac{1}{2}C_{20}\left(\alpha_{20}(\beta,\gamma)-\alpha_{20}^2\right)^2+\frac{1}{2}C_{22}\left(\alpha_{22}(\beta,\gamma)-\alpha_{22}^0\right)\ .
 \end{align}
 
-Assuming axial symmetry and a coordinate system that corresponds to the body-fixed system, one can write the kinetic term $T$ of the Hamiltonian as a sum of a \emph{rotational} term and one which contains the derivatives with respect to time of the variables $\alpha_{20,22}$ and the Euler angles. However, in the body-fixed system, the collective coordinates are written in terms of $(\beta, \gamma$) (see Eq. \ref{bohr-deformation-params}), such that:
+Choosing the body-fixed axis as a reference system makes the calculations much easier, since the system's axes coincide with the principal axes of the ellipsoid itself. Assuming such a coordinate system and an ellipsoid which possesses axial symmetry, one can write the kinetic term $T$ of the Hamiltonian as a sum of a \emph{rotational} and a \emph{vibrational} part.
 \begin{align}
-  T=&T_\text{rot}+\frac{1}{2}B_2(\frac{\text{d}\beta^2}{\text{d} t}+\beta^2\frac{\text{d}\gamma^2}{\text{d} t}) \ ,\\
-  T_\text{rot}=&\frac{1}{2}\sum_k\mathcal{I}_k\omega_k^2\ ,
+    T=T_\text{vib}+T_\text{rot}\ .
+\end{align}
+
+The equations for the two sub-terms are thoroughly demonstrated in Ref. \cite{li2022model}. Their expressions are given in terms of the deformation parameters $(\beta,\gamma)$, the mass parameters $B_2$ (for the quadrupole deformations) and the stiffness parameters $C_2$. Thus, the vibrational term is:
+\begin{align}
+    T_\text{vib}=\frac{1}{2}B_2\left(\dot{\beta}^2+\beta^2\dot{\gamma}^2\right)\ ,
+    \label{kinetic-vibrational-energy-collective}
+\end{align}
+and the rotational term is:
+\begin{align}
+    T_\text{rot}=\frac{1}{2}\sum_i\mathcal{I}_i\omega_i^2\ ,
+    \label{kinetic-rotational-energy-collective}
 \end{align}
 where the index $k=1,2,3$ suggests each of the three principal axes of the ellipsoid (this notation is different from the previous notations $x,y,z$ and it will always suggest the body-fixed system). In the expression of $T_\text{rot}$, two crucial physical quantities arise, namely the angular velocities around each body-fixed axis and the functions $\mathcal{I}_k$ that will eventually play the role of \emph{moments of inertia}. However, it is important to analyze the functions $\mathcal{I}_k(\beta,\gamma$) in order to better understand what kind of nature the nucleus exhibit in its rotational and vibrational motion. Ref. \cite{ring2004nuclear} shows that:
 \begin{align}
     \mathcal{I}_k=4B_2\beta^2\sin^2\left(\gamma-\frac{2\pi}{3}k\right)\ .
 \end{align}
 
-In the case of fixed deformation (that is $\beta$ and $\gamma$ do not change), then the rotational kinetic term represents the energy of a rotor with the moments of inertia $\mathcal{I}_{1,2,3}$, i.e., a \emph{pure rotor}. When the deformation parameters are changing, the rotational and vibrational degrees of freedom will become coupled by the deformation dependence of $\mathcal{I}_k$, leading to a situation that is not specific to a pure rotor. In fact, the functions $\mathcal{I}_k$ will not represent the moments of inertia (MOI) for a rigid rotor anymore. However, a comparison between $\mathcal{I}$, the rigid-like $\mathcal{I}_k^\text{rig}$ MOI, and irrotational-like MOI $\mathcal{I}_k^\text{irr}$. The last two quantities have the following expressions \cite{bohr1954rotational,ring2004nuclear}:
+In the case of fixed deformation (that is $\beta$ and $\gamma$ do not change), then the rotational kinetic term represents the energy of a rotor with the moments of inertia $\mathcal{I}_{1,2,3}$, i.e., a \emph{pure rotor}. When the deformation parameters are changing, the rotational and vibrational degrees of freedom will become coupled by the deformation dependence of $\mathcal{I}_k$, leading to a situation that is not specific to a pure rotor. In fact, the functions $\mathcal{I}_k$ will not represent the moments of inertia (MOI) for a rigid rotor anymore. However, a comparison between $\mathcal{I}$, the rigid-like $\mathcal{I}_k^\text{rig}$ MOI, and irrotational-like MOI $\mathcal{I}_k^\text{irr}$ is done experimentally, from determinations of the energy spacing between the first excited states. The last two quantities have the following expressions \cite{bohr1954rotational,ring2004nuclear}:
 \begin{align}
     \mathcal{I}_k^\text{rig}&=\frac{2}{5}mAR_0^2\left(1-\sqrt{\frac{5}{4\pi}\beta\cos\left(\gamma-\frac{2\pi}{3}k\right)}\right)\ ,\\
     \mathcal{I}_k^\text{irr}&=\frac{3}{2\pi}mAR_0^2\beta^2\sin^2\left(\gamma-\frac{2\pi}{3}k\right)\ .
@@ -609,21 +619,21 @@ The energy levels depicted in Fig. \ref{energy-levels-63Cu-virbational-band} sho
     \label{energy-levels-63Cu-virbational-band}
 \end{figure}
 
+\subsection{Nuclear Rotation}
+
 The quantization procedure for the collective Hamiltonian is a tedious procedure which can be followed in the work of Corrigan et al. \cite{corrigan1976exact}. However, the only interest is for the rotational-kinetic term from $H_\text{coll}$. This term is called the \emph{rotational energy}, and its expression is given by:
 \begin{align}
     \hat{T}_\text{rot}=\frac{\hat{I}_1^2}{2\mathcal{I}_1}+\frac{\hat{I}_2^2}{2\mathcal{I}_2}+\frac{\hat{I}_3^2}{2\mathcal{I}_3}\ .
     \label{eq-rotational-energy-quantized}
 \end{align}
 
-The three operators that appear in Eq. \ref{eq-rotational-energy-quantized} are in fact the projections of the total angular momentum $\mathbf{I}$ on the body-fixed axes (see Fig. \ref{rotational-coupling-schematic} for reference). (note that throughout the text, the angular momentum will be interchangeably represented with an arrow or just by bold letters). The rotor term defined above will be studied in the following section, where the \emph{rotational} motion of a nucleus will be discussed, as result of nuclear deformation.
+The three operators that appear in Eq. \ref{eq-rotational-energy-quantized} are in fact the projections of the total angular momentum $\mathbf{I}$ on the body-fixed axes (see Fig. \ref{rotational-coupling-schematic} for reference). Note that throughout the text, the angular momentum will be interchangeably represented with an arrow or just by bold letters.
 
-\subsection{Nuclear Rotation}
-
-An important conclusion which comes out from the work of Bohr and Mottelson\cite{bohr1954rotational} (also see discussion in Ref \cite{greiner1996nuclear}) is that no rotations are possible for a spherical nucleus nor for an axially deformed nucleus which is rotating about the symmetry axis. Consequently, a prior deformation and a rotating axis which does not coincide with the symmetry one are required for the appearance of rotational levels. Indeed, every nucleus which contains energy states that are generated by the rotational motion has the rotational bands due to the rotation about an axis that is different from the symmetry axis, and its shape is either axially-symmetric or axially-asymmetric \cite{hamamoto2016interplay}.
+An important conclusion which comes out from the work of Bohr and Mottelson\cite{bohr1954rotational} (also see discussion in Ref \cite{greiner1996nuclear}) is that no rotations are possible for a spherical nuclei nor for axially deformed nuclei which are rotating about the symmetry axis. Consequently, a prior deformation (e. g., of quadrupole type) and a rotating axis which does not coincide with the symmetry one are required for the appearance of rotational levels. Indeed, every nucleus which contains energy states that are generated by the rotational motion has the rotational bands due to the rotation about an axis that is different from the symmetry axis, and its shape is either axially-symmetric or axially-asymmetric \cite{hamamoto2016interplay}.
 
 A nucleus can generate angular momentum in two ways:
 \begin{enumerate}
-    \item collectively, via combined rotations and vibrations of the nuclear droplet
+    \item collectively, via combined rotations and vibrations of the nuclear droplet (the rotation+vibration spectrum of a nucleus will be shown in the next section)
     \item single-particle excitations: unpaired nucleons can rearrange themselves in such a way that they account to the nuclear spin 
 \end{enumerate}
 
@@ -634,3 +644,10 @@ The coupling of the rotational angular momentum $\mathbf{R}$ of the droplet with
     \caption{The coupling of a collective angular momentum with the for an axially deformed nucleus that is rotating about an axis perpendicular to the deformation axis.}
     \label{rotational-coupling-schematic}
 \end{figure}
+
+Based on the expression of $T_\text{rot}$ from Eq. \ref{kinetic-rotational-energy-collective} and the coupling scheme depicted in Fig. \ref{rotational-coupling-schematic}, it is possible to construct a general expression for a Hamiltonian that corresponds to rotational motion \cite{bertulani2007nuclear}:
+\begin{align}
+    H_\text{rot}&=\sum_i\frac{\hbar^2}{2\mathcal{I}_\perp}R_i^2=\frac{\hbar^2}{2\mathcal{I}_\perp}(I^2-j^2)\ ,\nonumber\\
+    H_\text{rot}&=\frac{\hbar^2}{2\mathcal{I}_\perp}(I^2+j^2-2I_3j_3)+T_\text{cpl}\ .
+\end{align}
+where (for axial symmetry) $\mathcal{I}_\perp$ denotes the two moments of inertia for a rotation around an axis that is perpendicular to axis-$3$ (i.e., $\mathcal{I}_\perp=\mathcal{I}_1=\mathcal{I}_2$).
