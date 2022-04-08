@@ -193,4 +193,10 @@ Bai Erjun and Huo Junde.
 \newblock Nuclear data sheets for a= 63.
 \newblock {\em Nuclear Data Sheets}, 92(1):147--252, 2001.
 
+\bibitem{corrigan1976exact}
+TM~Corrigan, FJ~Margetan, and SA~Williams.
+\newblock Exact solution of the quadrupole surface vibration hamiltonian in
+  body-fixed coordinates.
+\newblock {\em Physical Review C}, 14(6):2279, 1976.
+
 \end{thebibliography}
