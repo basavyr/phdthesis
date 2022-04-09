@@ -656,11 +656,27 @@ Based on the expression of $T_\text{rot}$ from Eq. \ref{kinetic-rotational-energ
 \end{align}
 where the second term $H_\text{intr}$ represents some effects coming from the internal structure of the rotator itself. However, most of the time these terms can be neglected, leading to a rather simple energy spectrum for the even-even nuclei:
 \begin{align}
-    E_\text{rot}=\frac{\hbar^2}{2\mathcal{I}_\perp}I(I+1)\ .
+    E_\text{rot}(I)=\frac{\hbar^2}{2\mathcal{I}_\perp}I(I+1)\ .
     \label{eq-simple-rotor-spectrum}
 \end{align}
 
 In the above expression, the MOI $\mathcal{I}_\perp$ corresponds to an axis that is perpendicular to the symmetry axis (i.e., either $1$-axis or the $1$-axis) of the ellipsoid. In the case of axial symmetry both moments are equivalent, such that the general notation $\mathcal{I}_\perp$ is made. As an observation, since there is no single-particle contribution, the quantized angular momentum $I$ (or spin) is equivalent to $R$. The spectrum defined by Eq. \ref{eq-simple-rotor-spectrum} leads to energy spacings $\propto I(I+1)$, which is also met in the  molecular spectra. The ground-state will always be the state $0^+$, and due to the mirror symmetry that is required for the wave-functions describing the even-even nuclei \cite{ring2004nuclear}, every other excited state will be represented by an even value of the spin: $2^+,4^+,\dots$.
 The ratio $E(4^+)/E(2^+)$ for these bands is $3.33$ (as it was previously mentioned). This is indeed the best signature for the rotational phenomena in nuclei, indicating a clear presence of deformation + rotational motion. In a previous work by the current team (Raduta et al.) \cite{raduta2017semiclassical}, some spectra of even-even $^{158}$Er were studied and agreement with the observed experimental data was impressive.
 
-However, the spectra of a simple rigid rotator assumes that the projection $K$ of the total angular momentum is null for the ground-state of even-even nuclei: $K=0$. So the next step is to consider more general cases of nuclear rotation. There are two general cases of rotational bands that can occur, and both require the coupling scheme of a rotor with a valence nucleon, such that the angular momentum will be $\mathbf{I}=\mathbf{R}+\mathbf{j}$. The two situations are called \emph{Deformation aligned bands} and \emph{Rotation aligned bands} \cite{uwitonze2015assignment}.
+However, the spectra of a simple rigid rotator assumes that the projection $K$ of the total angular momentum for the ground-state of even-even nuclei is $K=0$. So the next step is to consider more general cases of nuclear rotation. There are two general cases of rotational bands that can occur, and both require the coupling scheme of a rotor with a valence nucleon, such that the angular momentum will be $\mathbf{I}=\mathbf{R}+\mathbf{j}$ (so both situations will correspond to odd-$A$ nuclei). The two situations are called \emph{Deformation aligned bands} and \emph{Rotation aligned bands} \cite{uwitonze2015assignment}.
+
+\subsubsection*{Deformation Aligned Bands}
+
+This case is also referred to as \emph{strong-coupling} limit \cite{bohr1953collective} since the particle's a.m. is tightly coupled to the deformation axis (i.e., the symmetry axis). The general Hamiltonian will be:
+\begin{align}
+    H_\text{rot}=H_0+H_\text{coupl}\ ,
+\end{align}
+where $H_0$ is the already discussed operator containing the squared components $I_k$ of $\mathbf{I}$ and the extra \emph{coupling term} represents the Coriolis force \cite{bertulani2007nuclear}. The Coriolis effect is reflected by the coupling of the collective motion of the nucleus to the odd nucleon's motion. Despite that, it can be neglected at small rotations.
+
+The projection of the particle's a.m. on the symmetry axis is a good quantum number, and if $\mathbf{R}$ is pointing in a direction that is perpendicular to the deformation axis, then $\Omega=K$, meaning that the energy spectrum will have the form:
+\begin{align}
+    E_\text{rot}(I)=\frac{\hbar^2}{2\mathcal{I}_\perp}\left[I(I+1)-K(K+1)\right]\ ,
+\end{align}
+where to total spin $I$ will be composed of a sequence $I=K,K+1,K+2,\dots$ and $K\neq\frac{1}{2}$. Consequently, this situation will lead to rotational bands that are built on a ground state (band-head) $I=K$, and the difference between two consecutive states is only une unit of angular momentum. It should be pointed out that odd-$A$ nuclei can have multiple rotational bads that are built on different values of $K$.
+
+\subsubsection*{Rotation Aligned Bands}
