@@ -520,6 +520,7 @@ By using Eq. \ref{nuclear-shape} which characterizes the \emph{vibrations} of a 
 Hamiltonian which is in fact both invariant under rotation and time reversal \cite{messiah2014quantum}.  The real numbers $B_\lambda$ and $C_\lambda$ represent \emph{inertial} and \emph{stiffness} parameters for the nuclear matter. The spectrum of such a Hamiltonian after a canonical quantization (see calculations in Ref. \cite{ring2004nuclear} or \cite{bertulani2007nuclear}) will have a harmonic-like structure, depending on the value of $\lambda$. Indeed, by looking at the expression from Eq. \ref{collective-hamiltonian-stiffness-inertia} one can see that it can be brought to a form:
 \begin{align}
     H_\text{coll}^\text{osc}=\frac{p^2}{2m}+\frac{1}{2}kr^2\ ,
+    \label{eq-bohr-hamiltonian-oscillator-simple}
 \end{align}
 which is typical to a harmonic oscillator Hamiltonian. The frequency of oscillation of such a Hamiltonian is given by the relation $\omega=\sqrt{k/m}$. The vibrations can now be understood in terms of a sum of harmonic oscillator frequencies, where each frequency is given by $\lambda$:
 \begin{align}
@@ -530,7 +531,11 @@ The inertia term $B_\lambda$ (also called the \emph{mass parameter}) has the fol
 \begin{align}
     B_\lambda=\frac{\rho mR_0^5}{\lambda}=\frac{3}{4\pi\lambda}AmR_0^2\ ,
 \end{align}
-showing a quadratic dependence with the average nuclear radius.
+showing a quadratic dependence with the average nuclear radius. With these ingredients, one can sketch a form of $H_\text{coll}$ similar to Eq. \ref{eq-bohr-hamiltonian-oscillator-simple} in the following manner:
+\begin{align}
+    H_\text{coll}=\sum_{\lambda\mu}\hbar\omega_\lambda\left(N_{\lambda\mu}+\frac{1}{2}\right)\ ,
+\end{align}
+where indeed, the typical harmonic oscillator spectrum should be expected for the final collective spectra of nuclei.
 
 The recipe for further manipulation of the Bohr's collective Hamiltonian from Eq. \ref{collective-hamiltonian-stiffness-inertia} is quite a lengthy process \cite{bohr1998nuclear,ring2004nuclear}, with several considerations that are beyond the scope of the current work. Shortly, for the quadrupole deformed nuclei, the expression of the potential term $V$ will be a function that depends on the parameters $(\beta,\gamma)$, potential that is defined as a quadratic approximation in the vicinity of a deformed minimum point $p_0|_\text{min}=(\beta_,\gamma_0)$. This starts from the general assumption that the nucleus has the deformation $p_0$ in the ground state, and the excitations are rotations and small oscillations around this \emph{equilibrium} deformation point. Thus $V(\beta,\gamma)$ can be written as:
 \begin{align}
@@ -552,7 +557,7 @@ and the rotational term is:
     T_\text{rot}=\frac{1}{2}\sum_i\mathcal{I}_i\omega_i^2\ ,
     \label{kinetic-rotational-energy-collective}
 \end{align}
-where the index $k=1,2,3$ suggests each of the three principal axes of the ellipsoid (this notation is different from the previous notations $x,y,z$ and it will always suggest the body-fixed system). In the expression of $T_\text{rot}$, two crucial physical quantities arise, namely the angular velocities around each body-fixed axis and the functions $\mathcal{I}_k$ that will eventually play the role of \emph{moments of inertia}. However, it is important to analyze the functions $\mathcal{I}_k(\beta,\gamma$) in order to better understand what kind of nature the nucleus exhibit in its rotational and vibrational motion. Ref. \cite{ring2004nuclear} shows that:
+where the index $i=1,2,3$ suggests each of the three principal axes of the ellipsoid (this notation is different from the previous notations $x,y,z$ and it will always suggest the body-fixed system). In the expression of $T_\text{rot}$, two crucial physical quantities arise, namely the angular velocities around each body-fixed axis and the functions $\mathcal{I}_k$ that will eventually play the role of \emph{moments of inertia}. However, it is important to analyze the functions $\mathcal{I}_k(\beta,\gamma$) in order to better understand what kind of nature the nucleus exhibit in its rotational and vibrational motion. Ref. \cite{ring2004nuclear} shows that:
 \begin{align}
     \mathcal{I}_k=4B_2\beta^2\sin^2\left(\gamma-\frac{2\pi}{3}k\right)\ .
 \end{align}
@@ -648,6 +653,6 @@ The coupling of the rotational angular momentum $\mathbf{R}$ of the droplet with
 Based on the expression of $T_\text{rot}$ from Eq. \ref{kinetic-rotational-energy-collective} and the coupling scheme depicted in Fig. \ref{rotational-coupling-schematic}, it is possible to construct a general expression for a Hamiltonian that corresponds to rotational motion \cite{bertulani2007nuclear}:
 \begin{align}
     H_\text{rot}&=\sum_i\frac{\hbar^2}{2\mathcal{I}_\perp}R_i^2=\frac{\hbar^2}{2\mathcal{I}_\perp}(I^2-j^2)\ ,\nonumber\\
-    H_\text{rot}&=\frac{\hbar^2}{2\mathcal{I}_\perp}(I^2+j^2-2I_3j_3)+T_\text{cpl}\ .
+    H_\text{rot}&=\frac{\hbar^2}{2\mathcal{I}_\perp}(I^2+j^2-2I_3j_3)+H_\text{cpl}\ .
 \end{align}
-where (for axial symmetry) $\mathcal{I}_\perp$ denotes the two moments of inertia for a rotation around an axis that is perpendicular to axis-$3$ (i.e., $\mathcal{I}_\perp=\mathcal{I}_1=\mathcal{I}_2$).
+where (for axial symmetry) $\mathcal{I}_\perp$ denotes the two moments of inertia for a rotation around an axis that is perpendicular to the symmetry axis-$3$ (i.e., $\mathcal{I}_\perp=\mathcal{I}_1=\mathcal{I}_2$).

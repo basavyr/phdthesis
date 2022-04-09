@@ -22,5 +22,5 @@
 \contentsline {subsection}{\numberline {3.3.2}Single-particle states in deformed nuclei}{32}{subsection.88}%
 \contentsline {section}{\numberline {3.4}Collective Model}{48}{section.122}%
 \contentsline {subsection}{\numberline {3.4.1}Bohr Hamiltonian}{49}{subsection.123}%
-\contentsline {subsection}{\numberline {3.4.2}Nuclear Vibration}{53}{subsection.138}%
-\contentsline {subsection}{\numberline {3.4.3}Nuclear Rotation}{55}{subsection.142}%
+\contentsline {subsection}{\numberline {3.4.2}Nuclear Vibration}{53}{subsection.139}%
+\contentsline {subsection}{\numberline {3.4.3}Nuclear Rotation}{56}{subsection.143}%
