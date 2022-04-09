@@ -693,11 +693,33 @@ The nature of $(-1)^{I+1/2}$ will be explained for \emph{Rotation Aligned Bands}
 
 \subsubsection*{Rotation Aligned Bands}
 
-This situation is also called the \emph{decoupling limit} \cite{bohr1998nuclear} and it leads to the apparition of \emph{decoupled bands}. Here the total angular momentum is more aligned to the axis of rotation, and its maximum projection is along this axis. This is usually happening at high-spins, meaning strong rotational motion, which makes the angular momentum of the odd-particle to depart from the symmetry axis and align more and more with the direction of rotation (through the Coriolis effect). As such, the coupling term $H_\text{coupl}$ from $H_\text{rot}$ is not neglected here.
+This situation is also called the \emph{decoupling limit} \cite{bohr1998nuclear} and it leads to the apparition of \emph{decoupled bands}. Here the total angular momentum is more aligned to the axis of rotation, and its maximum projection is along this axis. This is usually happening at high-spins, meaning strong rotational motion, which makes the angular momentum of the odd-particle to depart from the symmetry axis and align more and more with the direction of rotation (through the Coriolis effect). As such, the coupling term $H_\text{coupl}$ from $H_\text{rot}$ is not neglected here:
+\begin{align}
+    H_\text{rot}=\frac{\hbar^2}{2\mathcal{I}_\perp}\left(\mathbf{I}^2+\mathbf{j}^2-2\mathbf{I}\cdot\mathbf{j}\right)\ .
+\end{align}
+
+It is usually preferred to work with the \emph{raising} and \emph{lowering} operators which correspond to the angular momentum operator: $\mathbf{I}_\pm=\mathbf{I}_1\pm i \mathbf{I}_2$ (equivalently can be done for $\mathbf{j}$), bringing $H_\text{rot}$ to the following expression:
+\begin{align}
+    H_\text{rot}&=\frac{\hbar^2}{2\mathcal{I}_\perp}\hat{I}^2+\frac{\hbar^2}{2\mathcal{I}_\perp}\hat{j}^2-\frac{\hbar^2}{\mathcal{I}_\perp}K^2+H_\text{Coriolis}\ ,\\
+    H_\text{Coriolis}&=-\frac{\hbar^2}{2\mathcal{I}_\perp}(\mathbf{I}_+\mathbf{j}_-+\mathbf{I}_-\mathbf{j}_+)\ .
+\end{align}
+
+When the single-particle angular momentum is orienting itself to the direction of rotation, the projection of $\mathbf{j}$ can be denoted by $j_1$ (keeping a consistency with Fig. \ref{rotational-coupling-schematic}). The spectrum of the decoupled bands will be:
+\begin{align}
+    E_\text{rot}(I)=\text{const.}+\frac{\hbar^2}{2\mathcal{I}_\perp}(I-j_1)(I-j_1+1)\ ,
+\end{align}
+where the coupling terms have been embedded in the constant term. This leads to a spin sequence $I=j_1,j_1+2,j_1+4\cdots$, which differs from the previous case via the constant $2\hbar$ angular momentum difference of two consecutive levels.
 
 In order to understand the terms $(-1)^{I+1/2}$ from Eq. \ref{deformation-aligned-energy}, it is required to describe the wave-function corresponding to the particle-core system. Indeed, using the specific quantum numbers $I,K,M$ with their meaning explained in Fig. \ref{rotational-coupling-schematic}, the wave-function will be written as a combination of rotational (the Wigner $D_{MK}^I$ functions) and single-particle components \cite{wang2007exotic,davydov1958rotational}:
 \begin{align}
     \Psi_{MK}^I=\ket{IMK}=N\left[\phi_K D_{MK}^I+(-)^{I+K}\phi_{-K}D_{M-K}^I\right]\ .
 \end{align}
 
-This linear combination of states with $K$ and $-K$ induced a degeneracy and it is due to the invariance of such a system with respect to rotations by $\pi$ around the rotational axis \cite{frauendorf1997tilted,bohr1998nuclear}. The factor $(-)^{I+K}\equiv\alpha$ is called the \emph{signature} and it reflects wether a system is invariant or not to such operations. Depending on the signature, the nuclear states can be divided into two sets: one that follows $I=K,K+2,K+4,\dots$ and $I=K+1,K+3,K+5,\dots$.
+This linear combination of states with $K$ and $-K$ induces a degeneracy and it is due to the invariance of such a system with respect to rotations by $\pi$ around the rotational axis \cite{frauendorf1997tilted,bohr1998nuclear}. The factor $(-)^{I+K}\equiv\alpha$ is called the \emph{signature} and it reflects wether a system is invariant or not to such a rotation. More precisely, the \emph{signature quantum number} usually takes the value \cite{sun1994varied}:
+\begin{align}
+    \alpha_I=\frac{1}{2}(-)^{I-\frac{1}{2}}\ ,
+\end{align}
+for a state of spin $I$ in an odd-$A$ nucleus, resulting in the favored states having $\alpha_f=\frac{1}{2}$ and the unfavored states having $\alpha_u=-\frac{1}{2}$.
+
+Depending on the signature, the nuclear states can be divided into two sets: one that follows $I=K,K+2,K+4,\dots$ and $I=K+1,K+3,K+5,\dots$. This is the reason why for the decoupled bands, one can regard them as an `initial' rotational band $I,I+1,\dots$ that is `broken' apart in two sequences: one that is favored and one that is unfavored (opposite signature).
+An example is a nucleus with odd-$A$, where the favored bands have spins $I_\text{favored}=\frac{1}{2},\frac{5}{2},\frac{1}{2},\dots$, while their unfavored \emph{partner} bands have spins $I_\text{unfavored}=\frac{3}{2},\frac{7}{2},\frac{11}{2},\dots$ and opposite signature (also known as \emph{signature partners}).
