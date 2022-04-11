@@ -798,15 +798,21 @@ The rotational frequency is used to represent many quantities which characterize
 
 \subsubsection*{Moments of inertia}
 
-This is a crucial quantity which describes the degree of deformation for the nucleus (rotational ellipsoid), since the asymmetry between the three MOI dictates the shape of the nuclear matter (remember discussion from Chapter \ref{chapter-2}). It was already mentioned that it is possible to retrieve an \emph{experimental} value for a moment of inertia by inferring the energy spacing between the first two levels of a collective spectrum. A classification of types of MOI was done in Eq. \ref{eq-irrotational-rigid-mois}, where the dependence of $\mathcal{I}$ on the deformation parameters (and even the mass parameter $B_\lambda$ that originates from the initial Bohr Hamiltonian \ref{collective-hamiltonian-stiffness-inertia}) was shown.
+This is a crucial quantity which describes the degree of deformation for the nucleus (rotational ellipsoid), since the asymmetry between the three MOI dictates the shape of the nuclear matter (remember discussion from Chapter \ref{chapter-2}). It was already mentioned that it is possible to retrieve an \emph{experimental} value for a moment of inertia by inferring the energy spacing between consecutive levels of a collective spectrum. A classification of types of MOI was done in Eq. \ref{eq-irrotational-rigid-mois}, where the dependence of $\mathcal{I}$ on the deformation parameters (and even the mass parameter $B_\lambda$ that originates from the initial Bohr Hamiltonian \ref{collective-hamiltonian-stiffness-inertia}) was shown.
 
-In order to get values for MOIs from the experimental data, two quantities are required: the spins and energies of two consecutive levels within an excited spectrum. Moreover, there are two types of MOI which give information about the structure of nuclei with respect to spin: \emph{kinematic MOI} and \emph{dynamic MOI}. The kinematic MOI is given by \cite{wu1992relation}:
+In order to get values for MOIs from the experimental data, two quantities are required: the spins and energies of two consecutive levels within an excited spectrum. The most general expression for the MOI can be written as \cite{ahmad2021backbending}:
+\begin{align}
+    \mathcal{I}=\frac{\hbar^2}{2}\left(\frac{\text{d}E}{\text{d}J(J+1)}\right)^{-1}\ ,
+\end{align}
+where the classical angular momentum $J$ is related to its quantum equivalent via the correction $J=I+1/2$ (see Eq. \ref{aligned-angular-momentum}). Practically, the derivative can be expressed in terms of the aligned angular momentum $I_x$ defined above.
+
+Moreover, there are two types of MOI which give information about the structure of nuclei with respect to spin: \emph{kinematic MOI} and \emph{dynamic MOI}. The kinematic MOI is given by \cite{wu1992relation}:
 \begin{align}
     \mathcal{I}^{(1)}=\frac{\hbar I_x}{\omega}=\hbar^2 I_x\left(\frac{\text{d}E}{\text{d}I_x}\right)^{-1}\ .
     \label{kinematic-moi-general}
 \end{align}
 
-One can see why the aligned angular momentum is important, since its variation w.r.t. the energies lead to theoretical determinations of the kinematic MOI (often the superscript $\mathcal{I}^{(1)})$ is ignored). From the observed intraband $E2$ transitions one can extract the (kinematic) moment of inertia via the rule:
+One can see why the aligned angular momentum is important, since its variation w.r.t. the energies lead to theoretical determinations of the kinematic MOI. From the observed intraband $E2$ transitions one can extract the (kinematic) moment of inertia via the rule:
 \begin{align}
     \mathcal{I}^{(1)}(I-1)=\hbar^2\frac{2I-1}{E_\gamma(I,I-2)}\ ,
     \label{kinematic-moi-energy-levels}
@@ -821,4 +827,13 @@ while $\mathcal{I}^{(2)}$ expressed in terms of the energy differences has the f
     \mathcal{I}^{(2)}(I)=\hbar^2\frac{4}{\Delta E_\gamma(I)}=\hbar^2\frac{4}{E_\gamma(I+2,I)-E_\gamma(I,I-2)}\ .
     \label{dynamic-moi-energy-levels}
 \end{align}
-Note that any calculations for the dynamical MOI does not require prior knowledge about the spin assignments of the energy states. These two types of MOI are usually represented as function of the rotational frequency $\omega$. Since the total spin $I$ can be expressed as a function of rotational frequency, plotting the kinematic/dynamic MOI as function of angular momentum is also preferred. In the present work, these quantities are of high interest (graphical representations for different nuclei will be shown in a future Chapter), their relative behavior will help characterize bands with similar nucleonic structure.
+Note that any calculations for the dynamical MOI does not require prior knowledge about the spin assignments of the energy states. These two types of MOI are usually represented as function of the rotational frequency $\omega$. Since the total spin $I$ can be expressed as a function of rotational frequency, plotting the kinematic/dynamic MOI as function of angular momentum is also preferred. In the present work, these quantities are of high interest (graphical representations for different nuclei will be shown in a future chapter), their relative behavior will help characterize bands with similar nucleonic structure.
+
+An alternative description of the quantitative analysis of these MOI can be done through the so-called $ab$ formula \cite{wu1992relation,wu1992spin}, where the energies corresponding to the rotational spectrum are parametrized as: $E(I)=a\left(\sqrt{1+bI(I+1)}-1\right)$. Fitting the experimental data will produce a set of parameters $(a,b)$ that will be used to get expressions for the kinematic and dynamic MOI:
+\begin{align}
+    \mathcal{I}^{(1)}=\mathcal{I}_0\left[1-\frac{(\hbar\omega)^2}{a^2b}\right]^{-1/2}\ ,\\
+    \mathcal{I}^{(2)}=\mathcal{I}_0\left[1-\frac{(\hbar\omega)^2}{a^2b}\right]^{-3/2}\ ,
+\end{align}
+with the factor $\mathcal{I}_0$ defined as the \emph{band-head} moment of inertia: $\mathcal{I}_0=\frac{\hbar^2}{ab}$. In fact, such an approach of determining the MOIs of several odd-$A$ nuclei will consist in a future work of the same team.
+
+Fig. shows some experimental data for the 
