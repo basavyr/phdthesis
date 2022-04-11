@@ -246,4 +246,14 @@ CW~Reich and Balraj Singh.
 \newblock Nuclear data sheets for a= 163.
 \newblock {\em Nuclear Data Sheets}, 111(5):1211--1469, 2010.
 
+\bibitem{bengtsson1979quasiparticle}
+R~Bengtsson and S~Frauendorf.
+\newblock Quasiparticle spectra near the yrast line.
+\newblock {\em Nuclear Physics A}, 327(1):139--171, 1979.
+
+\bibitem{harris1965higher}
+Samuel~M Harris.
+\newblock Higher order corrections to the cranking model.
+\newblock {\em Physical Review}, 138(3B):B509, 1965.
+
 \end{thebibliography}
