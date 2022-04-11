@@ -283,4 +283,36 @@ CS~Wu, JY~Zeng, Z~Xing, XQ~Chen, and J~Meng.
   a~ 190 region.
 \newblock {\em Physical Review C}, 45(1):261, 1992.
 
+\bibitem{nica2021nuclear}
+N~Nica.
+\newblock Nuclear data sheets for a= 160.
+\newblock {\em Nuclear Data Sheets}, 176:1--428, 2021.
+
+\bibitem{reich2007nuclear}
+CW~Reich.
+\newblock Nuclear data sheets for a= 162.
+\newblock {\em Nuclear Data Sheets}, 108(9):1807--2034, 2007.
+
+\bibitem{davydov1960rotation}
+AS~Davydov and AA~Chaban.
+\newblock Rotation-vibration interaction in non-axial even nuclei.
+\newblock {\em Nuclear Physics}, 20:499--508, 1960.
+
+\bibitem{mottelson1960effect}
+Ben~R Mottelson and JG~Valatin.
+\newblock Effect of nuclear rotation on the pairing correlation.
+\newblock {\em Physical Review Letters}, 5(11):511, 1960.
+
+\bibitem{krumlinde1974effect}
+J~Krumlinde and Z~Szyma{\'n}ski.
+\newblock On the effect of quadrupole pairing interaction on the backbending
+  behaviour in rotating nuclei.
+\newblock {\em Physics Letters B}, 53(4):322--324, 1974.
+
+\bibitem{raduta2011semimicroscopic}
+AA~Raduta and R~Budaca.
+\newblock Semimicroscopic description of backbending phenomena in some deformed
+  even-even nuclei.
+\newblock {\em Physical Review C}, 84(4):044323, 2011.
+
 \end{thebibliography}
