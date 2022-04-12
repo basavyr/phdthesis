@@ -315,10 +315,15 @@ AA~Raduta and R~Budaca.
   even-even nuclei.
 \newblock {\em Physical Review C}, 84(4):044323, 2011.
 
-\bibitem{ayangeakaa2013exotic}
-Akaa~Daniel Ayangeakaa.
-\newblock {\em Exotic Modes of Collective Excitations: Nuclear Tidal Waves and
-  Chirality}.
-\newblock PhD thesis, University of Notre Dame, 2013.
+\bibitem{heyde1994nuclear}
+Kris~LG Heyde.
+\newblock The nuclear shell model.
+\newblock In {\em The Nuclear Shell Model}, pages 58--154. Springer, 1994.
+
+\bibitem{neugart2006nuclear}
+R~Neugart and G~Neyens.
+\newblock Nuclear moments.
+\newblock In {\em The Euroschool Lectures on Physics with Exotic Beams, Vol.
+  II}, pages 135--189. Springer, 2006.
 
 \end{thebibliography}

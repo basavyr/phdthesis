@@ -892,8 +892,24 @@ Remarking the fact that when prolate nucleus rotates about an axis that is perpe
     \label{fig-averaged-prolate-density}
 \end{figure}
 
-The \emph{transition quadrupole moment} $Q_t$ is another quantity which can be determined from the lifetime measurement of excited states, and it is related to the intrinsic quadrupole moment via \cite{ayangeakaa2013exotic}:
-\begin{align}
-    Q_t(I+1)=\sqrt{Q_0(I)Q_0(I+2)}\ .
-\end{align}
+% The \emph{transition quadrupole moment} $Q_t$ is another quantity which can be determined from the lifetime measurement of excited states, and it is related to the intrinsic quadrupole moment via \cite{ayangeakaa2013exotic}:
+% \begin{align}
+%     Q_t(I+1)=\sqrt{Q_0(I)Q_0(I+2)}\ .
+% \end{align}
 
+Another important quantity that can be used as a `test' for collectivity and deformation within nuclei is the $E2$ transition probability (of electric quadrupole type). This is because the ground state of even-even nuclei is $0^+$ and the first excited state (typically $2^+$) can only decay via the electric quadrupole interaction (as $E2$ radiation \cite{casten2000nuclear}), meaning that deformation effects can be understand from these low-lying transitions. The general expression for calculating a transition `strength' is given in terms of the initial and final states \cite{matta2017exotic}:
+\begin{align}
+    B(E2;\ I_i\to I_f)=\frac{1}{2I_i+1}\left|\bra{\Psi_f}\left|\mathcal{M}(E2)\right|\ket{\Psi_i}\right|^2\ ,
+    \label{eq-general-reduced-E2}
+\end{align}
+where the two wave-functions represent the initial and final state, respectively, and $\mathcal{M}(E2)$ is the quadrupole transition operator. In fact, Eq. \ref{eq-general-reduced-E2} tells that the reduced transition probabilities can be extracted from the `matrix elements' of the electric quadrupole operator. Equivalently, the reduced quadrupole transition probability $B(E2)$ can be given in terms of the Clebsch-Gordan coefficients \cite{bohr1998nuclear}:
+\begin{align}
+    B(E2;\ I_i\to I_f)=\frac{5}{16\pi}e^2Q_0^2\left|\bra{I_iK20}\ket{I_2K}\right|^2]\ ,
+\end{align}
+where the coefficient can also be written as $\bra{I_iK20}\ket{I_2K}\equiv C^{I_i2I_f}_{K0K}$.
+
+In nuclei, usually the valence nucleons are causing some core polarizations, which as a result will affect the `final' electric quadrupole moment. In fact, the single-particle quadrupole moment is given by the following expression:
+\begin{align}
+    Q_\text{sp}(j)=-\frac{2j-1}{2j+2}\frac{e_\text{eff}}{e}\langle r^2\rangle\ .
+\end{align}
+The need for an \emph{effective charge} $e_\text{eff}$ is discussed in \cite{heyde1994nuclear}. The mean squared radius corresponds to the radial function of the nucleon within that $j$ orbital. Due to the nuclear energy being minimal (when discussing stable deformation) only if the overlap of the core with the valence particle is maximal, a particle+core interaction will produce an oblate polarization, driving the nucleus to a final oblate deformed state. The opposite is true for the hole+core coupling (see discussion made in \cite{neugart2006nuclear}).
