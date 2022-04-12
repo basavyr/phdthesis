@@ -540,6 +540,7 @@ where indeed, the typical harmonic oscillator spectrum should be expected for th
 The recipe for further manipulation of the Bohr's collective Hamiltonian from Eq. \ref{collective-hamiltonian-stiffness-inertia} is quite a lengthy process \cite{bohr1998nuclear,ring2004nuclear}, with several considerations that are beyond the scope of the current work. Shortly, for the quadrupole deformed nuclei, the expression of the potential term $V$ will be a function that depends on the parameters $(\beta,\gamma)$, potential that is defined as a quadratic approximation in the vicinity of a deformed minimum point $p_0|_\text{min}=(\beta_,\gamma_0)$. This starts from the general assumption that the nucleus has the deformation $p_0$ in the ground state, and the excitations are rotations and small oscillations around this \emph{equilibrium} deformation point. Thus $V(\beta,\gamma)$ can be written as:
 \begin{align}
     V(\beta,\gamma)=\frac{1}{2}C_{20}\left(\alpha_{20}(\beta,\gamma)-\alpha_{20}^2\right)^2+\frac{1}{2}C_{22}\left(\alpha_{22}(\beta,\gamma)-\alpha_{22}^0\right)\ .
+    \label{bohr-collective-potential}
 \end{align}
 
 Choosing the body-fixed axis as a reference system makes the calculations much easier, since the system's axes coincide with the principal axes of the ellipsoid itself. Assuming such a coordinate system and an ellipsoid which possesses axial symmetry, one can write the kinetic term $T$ of the Hamiltonian as a sum of a \emph{rotational} and a \emph{vibrational} part.
@@ -773,6 +774,27 @@ This divided set of partner bands also has some characteristics that can be obse
 \subsection{Superimposed Rotations and Vibrations}
 
 Up until now, the two types of nuclear motion, namely the collective rotations and vibrations were discussed separately. The small vibrations of the nuclear surface lead to the presence of band structures constructed via the quadrupole phonons carrying $\lambda=2$ units of angular momentum. The collective nature of the nucleus together with effects coming from the coupling a core to a valence nucleon also showed that some rotational band structures can appear in nuclei.
+
+The proper picture of a rotating deformed nucleus consists of a stable \emph{equilibrium shape} that is determined by the \emph{rapid internal motion of the nucleons} within the nuclear potential and their entire distribution doing a \emph{slow rotation}, such that it has negligible effect on the nuclear structure or on the individual nucleonic orbits.
+
+Besides the two (separated) degrees of freedom for the nuclear system (i.e., collective rotation and vibrations), the two types of motion can be superimposed on each other, leading to specific spectra of the nuclei. One can describe this spectra starting from the expression of the \emph{Collective Bohr's Hamiltonian} (remember calculations presented in Eqs. \ref{collective-hamiltonian-stiffness-inertia}, \ref{bohr-collective-potential}, \ref{kinetic-vibrational-energy-collective}, and \ref{kinetic-rotational-energy-collective}):
+\begin{align}
+    H_\text{coll}=T+V=T_\text{vib}+T_\text{rot}+V
+\end{align}
+
+Following the calculations from \cite{li2022model}, a separation of the Hamiltonian terms in three main components will be made: one associated to the rotation of a rigid rotor characterized by a total spin and well-defined MOI, one associated to the $\beta$-vibration, and the last corresponds to the $\gamma$-vibrational mode. The total energy forms the final spectrum \cite{ring2004nuclear,li2022model}:
+\begin{align}
+    E_{n_\beta n_\gamma IK}=\hbar\omega_\beta\left(n_\beta+\frac{1}{2}\right)+\hbar\omega_\gamma\left(n'_\gamma+\frac{1}{2}|K|\right)+\frac{\hbar^2}{2\mathcal{I}}\left[I(I+1)-K^2\right]\ .
+    \label{collective-rotation-vibration-energy-spectrum}
+\end{align}
+Note the two harmonic-like solutions making the vibrational mode present within the energy formula. The two `frequencies' are given in terms of the stiffness and inertia parameters \cite{li2022model}:
+\begin{align}
+\omega_\beta=\sqrt{\frac{C_0}{B_2}}\ ,\ \omega_\gamma=\sqrt{\frac{C2}{B_2}}\ ,   
+\end{align}
+and the two quantum numbers are as follows: 
+\begin{align}
+    n_\beta=0,1,\dots\ ,\ n'_\gamma=2n_\gamma+1\ ,\ n_\gamma=0,1,\dots\ .
+\end{align}
 
 \subsection{Collective Quantities}
 
