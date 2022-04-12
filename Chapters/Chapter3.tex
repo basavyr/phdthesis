@@ -850,7 +850,7 @@ As mentioned, the sharp or abrupt irregularities of the MOI with respect to the 
     \centering
     \includegraphics[scale=0.5]{Chapters/Figures/mois_Er158.pdf}
     \includegraphics[scale=0.5]{Chapters/Figures/mois_Yb160Er182.pdf}
-    \caption{\textbf{Left:} The MOI for $^{158}$Er nucleus, with the ground-state band $K^\pi=0^+$ and the $\beta$-vibrational band with the same quantum numbers. Experimental data taken from \cite{nica2017nuclear}. \textbf{Right:} The MOI for $^{160}$Yb compared with $^{162}$Er. Experimental data taken from \cite{nica2021nuclear} and \cite{reich2007nuclear}.}
+    \caption{\textbf{Left:} The MOI for $^{158}$Er nucleus, with the ground-state band $K^\pi=0^+$ and the $\beta$-vibrational band with the same quantum numbers. Experimental data taken from \cite{nica2017nuclear}. \textbf{Right:} The MOI for $^{160}$Yb compared with $^{162}$Er. Experimental data taken from \cite{nica2021nuclear} ($A=158$) and \cite{reich2007nuclear} ($A=162$).}
     \label{fig-ErYbnuclei-mois}
 \end{figure}
 
@@ -858,20 +858,23 @@ Indeed, by looking at the evolution of $\mathcal{I}$, some sharp increases are n
 
 \subsubsection*{Electric Quadrupole Moment}
 
-One of the most important indicators of stable nuclear deformation is a large value for the \emph{electric quadrupole moment} \cite{hamamoto2016interplay}. Indeed, a relationship between the deformation parameter $\beta$ and the quadrupole moment itself can be approximated (in second order of $\beta$) as:
+One of the most important indicators of stable nuclear deformation is a large value for the \emph{electric quadrupole moment} \cite{hamamoto2016interplay}. The most general expression for the intrinsic quadrupole moment of a nucleus which is rotating about its $z$-axis is given in terms of its \emph{charge density distribution}:
 \begin{align}
-    Q_0=\frac{3}{\sqrt{5\pi}}R_0^2Z\beta(1+0.16\beta)\ .
+    Q_0=\int(3z^2-r^2)\rho(r)_\text{charge}\text{d}v\ .
 \end{align}
-
-For the $\beta$ values that correspond to proper deformed nuclei (i.e., $\beta\approx 0.3$), higher order terms are not necessary. Remember that $\beta$ describes the eccentricity of the deformed ellipsoid (albeit prolate or oblate), while the difference between prolate and oblate shapes is that for prolate (oblate) case there is an extension in one (two) direction and a squeezing in the other two (one). Depending on the value of $\beta$, the quadrupole moments for nuclei will be positive (indicating a stable prolate deformation) and negative (for stable oblate deformations). Fig. \ref{fig-quadrupole-beta-nuclides} shows some experimental values for some nuclei within the rare earth region.
+This shows how the nuclear charge distribution inside the nucleus is a crucial indicator of deformations. Note this $z$ notation for a rotating axis is used here just for consistency with the textbook expression of $Q_0$ \cite{casten2000nuclear}. Indeed, a relationship between the deformation parameter $\beta$ and the quadrupole moment itself can be approximated (in second order of $\beta$) as:
+\begin{align}
+    Q_0=\frac{3}{\sqrt{5\pi}}R^2Z\beta(1+0.16\beta)\ ,
+\end{align}
+where $R$ is given as $R=R_0A^{1/3}$. For the $\beta$ values that correspond to proper deformed nuclei (i.e., $\beta\approx 0.3$), higher order terms are not necessary. Remember that $\beta$ describes the eccentricity of the deformed ellipsoid (albeit prolate or oblate), while the difference between prolate and oblate shapes is that for prolate (oblate) case there is an extension in one (two) direction and a squeezing in the other two (one). Depending on the value of $\beta$, the quadrupole moments for nuclei will be positive (indicating a stable prolate deformation) and negative (for stable oblate deformations). Fig. \ref{fig-quadrupole-beta-nuclides} shows some experimental values for some nuclei within the rare earth region.
 \begin{figure}
     \centering
     \includegraphics[scale=0.55]{Chapters/Figures/quadrupole_Deformation_rareEarth.pdf}
-    \caption{Experimental values for the quadrupole deformation parameter $\beta_2$ as a function of the mass number $A$ for a few isotopes. The values of $\beta_2$ were determined from the experimental values $B(E2;0_i^+\to 0_f^+)$.}
+    \caption{Experimental values for the quadrupole deformation parameter $\beta_2$ as a function of the mass number $A$ for a few isotopes. The values of $\beta_2$ were determined from the experimental values $B(E2;0_i^+\to 0_f^+)$. Experimental data points were taken from Ref. \cite{krane1991introductory}.}
     \label{fig-quadrupole-beta-nuclides}
 \end{figure}
 
-In order to understand the behavior of $\beta$, some shell model considerations need to be taken into account. Firstly, when deformation kicks in, the individual $j$ orbits within a major shell are nearly empty, resulting in positive values for the quadrupole moments of the nucleons from these orbits. With increasing deformation, large and positive values $Q(\beta)$ are present. Furthermore, as the shells start to fill, contributions from individual $j$ shells to the total quadrupole moment will accumulate, making the overall value to decrease, vanish, and eventually becoming negative near the shell closure.
+In order to understand the behavior of $\beta$ shown in Fig. \ref{fig-quadrupole-beta-nuclides}, some shell model considerations need to be taken into account. Firstly, when deformation kicks in, the individual $j$ orbits within a major shell are nearly empty, resulting in positive values for the quadrupole moments of the nucleons from these orbits. With increasing deformation, large and positive values $Q(\beta)$ are present. Furthermore, as the shells start to fill, contributions from individual $j$ orbits to the total quadrupole moment will accumulate, making its value to decrease, vanish, and eventually becoming negative near the shell closure.
 
 The \emph{observed} quadrupole moment (measured, also known as spectroscopic) can be obtained via a transformation to the laboratory frame applied to $Q_0$, meaning that the spectroscopic quadrupole moment has the result \cite{casten2000nuclear}:
 \begin{align}
@@ -880,12 +883,12 @@ The \emph{observed} quadrupole moment (measured, also known as spectroscopic) ca
 \end{align}
 where the quantum number $K$ is again the projection of $I$ onto the symmetry (deformation) axis. The dependence of $Q_\text{spec}$ on $K$ and $I$ emphasizes the fact that the \emph{observed} shape of the rotating nucleus is not equivalent to the shape in the intrinsic frame of reference.
 
-Remarking the fact that when prolate nucleus rotates about an axis that is perpendicular to the symmetry axis, the \emph{averaged} density distribution of the nuclear matter will look more like an oblate shape (see Fig. \ref{fig-averaged-prolate-density} for a clearer picture). As a result, when the intrinsic quadrupole moment is positive, the observed one will have a negative value: for the condition $I(I+1)>3K^2$ and with the Eq. \ref{quadrupole-moment-spectro}.
+Remarking the fact that when prolate nucleus rotates about an axis that is perpendicular to the symmetry axis, the \emph{averaged} density distribution of the nuclear matter will look more like an oblate shape (see Fig. \ref{fig-averaged-prolate-density} for a clearer picture). As a result, when the intrinsic quadrupole moment is positive, the observed one will have a negative value: for the condition $I(I+1)>3K^2$ taken from Eq. \ref{quadrupole-moment-spectro}.
 
 \begin{figure}
     \centering
     \includegraphics[scale=0.65]{Chapters/Figures/averaged_nuclearMatter_prolate.pdf}
-    \caption{An example which aims at depicting an average flattened (oblate) density distribution that is generated by the rotation of a prolate nucleus.}
+    \caption{An example which aims at depicting an average flattened (oblate) density distribution that is generated by the rotation of a prolate nucleus. As the `initial' prolate nucleus with its nuclear density is distributed along the deformed axis exhibits rotation, the rotated shape will generate an averaged oblate disk along the rotation axis. This is why the observed quadrupole moment will have a negative sign if $Q_0>0$.}
     \label{fig-averaged-prolate-density}
 \end{figure}
 
@@ -893,3 +896,4 @@ The \emph{transition quadrupole moment} $Q_t$ is another quantity which can be d
 \begin{align}
     Q_t(I+1)=\sqrt{Q_0(I)Q_0(I+2)}\ .
 \end{align}
+
