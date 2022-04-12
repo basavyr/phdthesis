@@ -25,4 +25,4 @@
 \contentsline {subsection}{\numberline {3.4.2}Nuclear Vibration}{53}{subsection.139}%
 \contentsline {subsection}{\numberline {3.4.3}Nuclear Rotation}{57}{subsection.144}%
 \contentsline {subsection}{\numberline {3.4.4}Superimposed Rotations and Vibrations}{64}{subsection.167}%
-\contentsline {subsection}{\numberline {3.4.5}Collective Quantities}{66}{subsection.172}%
+\contentsline {subsection}{\numberline {3.4.5}Collective Quantities}{67}{subsection.177}%
