@@ -1,9 +1,0 @@
-- add expression of the Nilsson Hamiltonian using the spherical Harmonics
-- start introduction of the rotational model
-  - rotational bands
-  - rotational energies
-  - signature
-  - parity
-  - decoupling parameter
-  - geometrical and mathematical significance of the K quantum number
-  - beta and gamma vibrations
