@@ -3,7 +3,7 @@
 \contentsline {chapter}{Acknowledgements}{ii}{dummy.2}%
 \vspace {1em}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.4}%
-\contentsline {chapter}{\numberline {2}Deformed Nuclei}{3}{chapter.5}%
+\contentsline {chapter}{\numberline {2}Shape of Nuclei}{3}{chapter.5}%
 \contentsline {section}{\numberline {2.1}Nuclear deformation}{3}{section.6}%
 \contentsline {subsection}{\numberline {2.1.1}Collective coordinates}{3}{subsection.7}%
 \contentsline {subsection}{\numberline {2.1.2}Nuclear radius under rotation}{4}{subsection.9}%
