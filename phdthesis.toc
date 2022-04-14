@@ -28,4 +28,4 @@
 \contentsline {subsection}{\numberline {3.4.5}Collective Quantities}{67}{subsection.178}%
 \contentsline {chapter}{\numberline {4}Triaxial Nuclei and Their Signatures}{79}{chapter.207}%
 \contentsline {section}{\numberline {4.1}Non-axial nuclei}{79}{section.208}%
-\contentsline {subsubsection}{\numberline {4.1.0.1}Triaxial Rotor Model}{81}{subsubsection.209}%
+\contentsline {subsection}{\numberline {4.1.1}Triaxial Rotor Model}{81}{subsection.209}%
