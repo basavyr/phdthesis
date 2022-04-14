@@ -15,4 +15,21 @@ Even though calculations are performed with the rigid-like MOI or the irrotation
     \item \textbf{Triaxial (Axially-asymmetric):} all three MOI are different (usually one of them is very large when compared to the other two), the quadrupole deformation parameter as well as the triaxiality parameter $\gamma$ are present
 \end{itemize}
 
-Now, across the chart of nuclides, most of the isotopes are either spherical either symmetric in their ground state \cite{budaca2018tilted}.
+Now, across the chart of nuclides, most of the isotopes are either spherical either symmetric in their ground state \cite{budaca2018tilted}, but triaxial shapes might also occur as ground-state \cite{moller2006global}. The apparition of triaxial nuclei implies some kind of `stability' on the $\gamma$-parameter, since a dynamical character of the triaxiality will indicate some transitional states rather than nuclear stability. Indeed, a rigid (fixed) value for $\gamma$ is required around the minimal region of the potential energy surface such that triaxial stable nuclei can exist. Thus, one can distinguish between the $\gamma$-soft nuclei in which this parameter has a dynamical character and the $\gamma$-rigid ones, which could in fact exhibit stable triaxial deformation \cite{dracoulis2013isomers}.
+Even more interesting are the structures which occur at very large values of quadrupole deformation $\beta_2$ and $\gamma$ in the vicinity of $\approx 30^\circ$ (where maximal triaxiality occurs). It will be shown that these last nuclei will lead to band structures that are called \emph{Triaxial Strongly Deformed} bands (TSD for short) \cite{odegaard2001evidence,jensen2002evidence}.
+
+Concluding, the triaxial nuclei are a special class of nuclei in which there is an asymmetry between the moments of inertia (given by a $\gamma$ value within the corresponding interval), and moreover, the quadrupole deformation is high enough such that it stabilizes the entire system.
+
+\subsubsection{Triaxial Rotor Model}
+
+The most general Hamiltonian for a \emph{triaxial system} is given in terms of the components of the total angular momentum operator $\hat{I}$ and the moments of inertia for the deformed ellipsoid, similarly as it was the case for the \emph{rotational Hamiltonian} within the symmetry case:
+\begin{align}
+    \hat{H}=\frac{\hat{I}_1^2}{2\mathcal{I}_1}+\frac{\hat{I}_2^2}{2\mathcal{I}_2}+\frac{\hat{I}_3^2}{2\mathcal{I}_3}\ ,
+\end{align}
+where the indices correspond to each of the principal axes of the rotational ellipsoid (principal axes are the ones in which the components of the MOI tensor are diagonal). More often, the notations $A_{1,2,3}=\frac{\hbar^2}{2\mathcal{I}_{1,2,3}}$ are used in the Hamiltonian's expression. Shi et al. \cite{wen2015wobbling} show a very straightforward way of obtaining the eigenvalues for the \emph{triaxial rigid rotor}, following the textbook example of treating this Hamiltonian given firstly by Davydov and Filippov in their quantum treatment for the rigid rotor without symmetry axis \cite{davydov1958rotational}:
+\begin{align}
+    \hat{H}&=H_\text{diag}+H_\text{non-diag}\ ,\nonumber\\
+    \hat{H}_\text{diag}&=\left[\frac{1}{2}\left(A_1+A_2\right)\left(\hat{I}^2-\hat{I}_3^2\right)+A_3\hat{I})3^2\right]\ ,\nonumber\\
+    \hat{h}_\text{non-diag}&=\frac{1}{4}\left(A_1-A_2\right)\left(\hat{I}_+^2+\hat{I}_-^2\right)\ .
+\end{align}
+%\hat{H}_\text{diag}&=\frac{1}{2}(A_1+A_2)\left[I(I+1)-K^2\right]+A_3K^2\ ,\\

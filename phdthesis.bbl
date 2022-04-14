@@ -331,4 +331,33 @@ R~Budaca.
 \newblock Tilted-axis wobbling in odd-mass nuclei.
 \newblock {\em Physical Review C}, 97(2):024302, 2018.
 
+\bibitem{moller2006global}
+Peter M{\"o}ller, Ragnar Bengtsson, B~Gillis Carlsson, Peter Olivius, and
+  Takatoshi Ichikawa.
+\newblock Global calculations of ground-state axial shape asymmetry of nuclei.
+\newblock {\em Physical review letters}, 97(16):162502, 2006.
+
+\bibitem{dracoulis2013isomers}
+GD~Dracoulis, GJ~Lane, AP~Byrne, H~Watanabe, RO~Hughes, Filip~G Kondev,
+  M~Carpenter, RVF Janssens, T~Lauritsen, CJ~Lister, et~al.
+\newblock Isomers and excitation modes in the gamma-soft nucleus 192os.
+\newblock {\em Physics Letters B}, 720(4-5):330--335, 2013.
+
+\bibitem{odegaard2001evidence}
+SW~{\O}deg{\aa}rd, GB~Hagemann, DR~Jensen, M~Bergstr{\"o}m, B~Herskind,
+  G~Sletten, S~T{\"o}rm{\"a}nen, JN~Wilson, PO~Tj{\o}m, I~Hamamoto, et~al.
+\newblock Evidence for the wobbling mode in nuclei.
+\newblock {\em Physical review letters}, 86(26):5866, 2001.
+
+\bibitem{jensen2002evidence}
+DR~Jensen, GB~Hagemann, I~Hamamoto, SW~{\O}deg{\aa}rd, B~Herskind, G~Sletten,
+  JN~Wilson, K~Spohr, H~H{\"u}bel, P~Bringel, et~al.
+\newblock Evidence for second-phonon nuclear wobbling.
+\newblock {\em Physical review letters}, 89(14):142503, 2002.
+
+\bibitem{wen2015wobbling}
+Shi Wen-Xian and Chen Qi-Bo.
+\newblock Wobbling geometry in a simple triaxial rotor.
+\newblock {\em Chinese Physics C}, 39(5):054105, 2015.
+
 \end{thebibliography}
