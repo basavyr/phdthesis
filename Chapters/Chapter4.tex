@@ -26,10 +26,15 @@ The most general Hamiltonian for a \emph{triaxial system} is given in terms of t
 \begin{align}
     \hat{H}=\frac{\hat{I}_1^2}{2\mathcal{I}_1}+\frac{\hat{I}_2^2}{2\mathcal{I}_2}+\frac{\hat{I}_3^2}{2\mathcal{I}_3}\ ,
 \end{align}
-where the indices correspond to each of the principal axes of the rotational ellipsoid (principal axes are the ones in which the components of the MOI tensor are diagonal). More often, the notations $A_{1,2,3}=\frac{\hbar^2}{2\mathcal{I}_{1,2,3}}$ are used in the Hamiltonian's expression. Shi et al. \cite{wen2015wobbling} show a very straightforward way of obtaining the eigenvalues for the \emph{triaxial rigid rotor}, following the textbook example of treating this Hamiltonian given firstly by Davydov and Filippov in their quantum treatment for the rigid rotor without symmetry axis \cite{davydov1958rotational}:
+where the indices correspond to each of the principal axes of the rotational ellipsoid (principal axes are the ones in which the components of the MOI tensor are diagonal). More often, the notations $A_{1,2,3}=\frac{\hbar^2}{2\mathcal{I}_{1,2,3}}$ are used in the Hamiltonian's expression. Shi et al. \cite{wen2015wobbling} show a very straightforward way of obtaining the eigenvalues for the \emph{triaxial rigid rotor}, following the quantum treatment made by Davydov and Filippov for the rigid rotor without symmetry axis \cite{davydov1958rotational}:
 \begin{align}
     \hat{H}&=H_\text{diag}+H_\text{non-diag}\ ,\nonumber\\
     \hat{H}_\text{diag}&=\left[\frac{1}{2}\left(A_1+A_2\right)\left(\hat{I}^2-\hat{I}_3^2\right)+A_3\hat{I})3^2\right]\ ,\nonumber\\
-    \hat{h}_\text{non-diag}&=\frac{1}{4}\left(A_1-A_2\right)\left(\hat{I}_+^2+\hat{I}_-^2\right)\ .
+    \hat{H}_\text{non-diag}&=\frac{1}{4}\left(A_1-A_2\right)\left(\hat{I}_+^2+\hat{I}_-^2\right)\ .
 \end{align}
+This way of expressing the Hamiltonian is useful because there is a clear difference between a term which is diagonal and one that mixes states with different $\Delta K=\pm2$ quantum number. It is important to emphasize that this kind of Hamiltonian is still invariant to rotations with $\pi$ around the principal axes. This is useful because one can solve the eigenvalue problem with the basis $\ket{IMK}$, were the wave-function is described as:
+\begin{align}
+    \ket{IMK}=\sqrt{\frac{2I+1}{16\pi^2(1+\delta_{K0})}}\left[\ket{IMK}+(-)^I\ket{IM-K}\right]\ ,
+\end{align}
+where $\ket{IM\pm K}$ are the Wigner $D_{MK}^I$-functions.
 %\hat{H}_\text{diag}&=\frac{1}{2}(A_1+A_2)\left[I(I+1)-K^2\right]+A_3K^2\ ,\\
