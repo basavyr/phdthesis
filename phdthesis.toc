@@ -26,6 +26,6 @@
 \contentsline {subsection}{\numberline {3.4.3}Nuclear Rotation}{57}{subsection.144}%
 \contentsline {subsection}{\numberline {3.4.4}Superimposed Rotations and Vibrations}{64}{subsection.167}%
 \contentsline {subsection}{\numberline {3.4.5}Collective Quantities}{67}{subsection.178}%
-\contentsline {chapter}{\numberline {4}Triaxial Nuclei and Their Signatures}{79}{chapter.207}%
-\contentsline {section}{\numberline {4.1}Non-axial nuclei}{79}{section.208}%
-\contentsline {subsection}{\numberline {4.1.1}Triaxial Rotor Model}{81}{subsection.209}%
+\contentsline {chapter}{\numberline {4}Triaxial Nuclei and Their Signatures}{80}{chapter.208}%
+\contentsline {section}{\numberline {4.1}Non-axial nuclei}{80}{section.209}%
+\contentsline {subsection}{\numberline {4.1.1}Triaxial Rotor Model}{82}{subsection.210}%
