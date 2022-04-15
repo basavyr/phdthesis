@@ -29,3 +29,4 @@
 \contentsline {chapter}{\numberline {4}Triaxial Nuclei and Their Signatures}{80}{chapter.208}%
 \contentsline {section}{\numberline {4.1}Non-axial nuclei}{80}{section.209}%
 \contentsline {subsection}{\numberline {4.1.1}Triaxial Rotor Model}{82}{subsection.210}%
+\contentsline {subsection}{\numberline {4.1.2}Triaxial Particle + Rotor Model}{83}{subsection.216}%
