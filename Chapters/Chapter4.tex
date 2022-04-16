@@ -108,3 +108,14 @@ It is worth giving some quantitative results concerning the quadrupole potential
     \caption{The quadrupole potential $V_\text{int}^\text{quad}$ as defined in Eq. \ref{quadrupole-deformed-potential-V}, represented as a function of the angular coordinates $\theta$ and $\varphi$. Calculations were done with fixed parameters $\beta_2$, $\gamma$, and for $A=163$.}
     \label{figs-deformed-quadrupole-potential-2}
 \end{figure}
+
+For the evaluation of $h$, one can take the case when only the diagonal components of $h$ are considered and apply the rules only for one proton ($p$). As a result, the \emph{mixing terms} $j_+$ and $j_-$ from $h$ won't contribute at all, since their action on protonic states $\ket{jk}$ will give zero. Only the $(j_3^2-j(j+1)/3)$ term will contribute to the diagonal components of $h$. For a proton state $\ket{jk}$, where $k=-j,\dots,j$, the diagonal element $\bra{jk}h\ket{jk}$ will be:
+\begin{align}
+    h_{jk}\equiv\bra{jk}h\ket{jk}=\frac{1}{2}C_\beta\cos\gamma\bra{jk}\left(j_3^2-\frac{j(j+1)}{3}\right)\ket{jk}\ ,
+\end{align}
+which can be simplified to:
+\begin{align}
+    h_{jk}=\frac{1}{2}C_\beta\cos\gamma\left(k^2-\frac{j(j+1)}{3}\right)\ .
+\end{align}
+This matrix elements will be functions of deformation parameters as well as the projection $k$ of the particle'
+s angular momentum onto the $3$-axis. Since $j_3$ is applied twice on $\ket{jk}$ state, the final result will be $k^2$, so only the positive values can be considered for the numerical application $k=1/2,\dots,j$. When a high-$j$ proton orbital (say $h_{11/2}$ or $i_{13/2}$) is considered, for a nucleus with $A=167$, the evolution of $h_{jk}$ as function of $\beta_2$ and $\gamma$, respectively, are shown in Figs. .
