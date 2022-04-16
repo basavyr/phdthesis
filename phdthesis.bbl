@@ -382,4 +382,15 @@ Matthias Brack, Jens Damgaard, AS~Jensen, HC~Pauli, VM~Strutinsky, and CY~Wong.
   and its applications to the fission process.
 \newblock {\em Reviews of Modern Physics}, 44(2):320, 1972.
 
+\bibitem{bengtsson1989method}
+Tord Bengtsson.
+\newblock A method to remove virtual interactions with applications to nuclear
+  spectroscopy.
+\newblock {\em Nuclear Physics A}, 496(1):56--92, 1989.
+
+\bibitem{bengtsson1990high}
+Tord Bengtsson.
+\newblock The high-spin structure of 158er: A theoretical study.
+\newblock {\em Nuclear Physics A}, 512(1):124--148, 1990.
+
 \end{thebibliography}
