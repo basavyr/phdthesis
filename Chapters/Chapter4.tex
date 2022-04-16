@@ -80,6 +80,7 @@ where $\hat{H}_\text{coll}$ is the typical rotor Hamiltonian and $\hat{H}_\text{
 A remarking feature of this approach is that the problem can be extrapolated to a case with multiple protons and neutrons, invoking some sort of `scalability' of their model. Furthermore, the deformed potential (Eq. \ref{quadrupole-deformed-potential-beta}) that gives the energy splittings for the nucleonic orbits (recall the Nilsson diagrams Figs. \ref{nillson-diagram} - \ref{nillson-diagram-2}) is expressed in terms of the nucleus's mass and the quadrupole deformation parameter \cite{peng2003description}:
 \begin{align}
     V_\text{int}^\text{quad}=\frac{206}{A^{1/3}}\beta_2\left[\cos\gamma Y_2^0+\frac{\sin\gamma}{\sqrt{2}}(Y_2^2+Y_2^{-2})\right]\ .
+    \label{quadrupole-deformed-potential-V}
 \end{align}
 The single-particle energies for protons and neutrons have a somewhat similar form as the one stated in Eq. \ref{single-particle-nilsson-defored-potential}, namely it is given as:
 \begin{align}
@@ -89,3 +90,21 @@ with the alternating signs corresponding to the proton and neutron, respectively
 \begin{align}
     C_\beta=\frac{195}{j(j+1)}\beta A^{-1/3}\ .
 \end{align}
+% \subsubsection*{Numerical application - Deformed Potential}
+It is worth giving some quantitative results concerning the quadrupole potential and the single-particle Hamiltonian described above. As such, a simple numerical application will be employed, giving graphical representations with the behavior of these quantities with respect to the deformation parameters. Firstly, the potential $V_\text{int}^\text{quad}$ will be analyzed in the polar plane defined by the angles $(\theta,\varphi)$ which enter in the expression of the spherical harmonics. For nuclei within $A\approx 160$ region, it is common to have values of $\beta_2\approx 0.2,0.3$ and $\gamma\approx 20^\circ$, so values for these parameters will be given within this range. The quadrupole potential $V_\text{int}^\text{quad}$ can be seen in Figs. \ref{figs-deformed-quadrupole-potential-1} - \ref{figs-deformed-quadrupole-potential-2}.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.66]{Chapters/Figures/quadrupole-potentialV-1.pdf}
+    \includegraphics[scale=0.66]{Chapters/Figures/quadrupole-potentialV-2.pdf}
+    \caption{The quadrupole potential $V_\text{int}^\text{quad}$ as defined in Eq. \ref{quadrupole-deformed-potential-V}, represented as a function of the angular coordinates $\theta$ and $\varphi$. Calculations were done with fixed parameters $\beta_2$, $\gamma$, and for $A=163$.}
+    \label{figs-deformed-quadrupole-potential-1}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.66]{Chapters/Figures/quadrupole-potentialV-3.pdf}
+    \includegraphics[scale=0.66]{Chapters/Figures/quadrupole-potentialV-4.pdf}
+    \caption{The quadrupole potential $V_\text{int}^\text{quad}$ as defined in Eq. \ref{quadrupole-deformed-potential-V}, represented as a function of the angular coordinates $\theta$ and $\varphi$. Calculations were done with fixed parameters $\beta_2$, $\gamma$, and for $A=163$.}
+    \label{figs-deformed-quadrupole-potential-2}
+\end{figure}
