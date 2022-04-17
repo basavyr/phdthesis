@@ -529,4 +529,18 @@ EA~Mccutchan.
 \newblock Nuclear data sheets for a= 136.
 \newblock {\em Nuclear Data Sheets}, 152:331--667, 2018.
 
+\bibitem{grodner2004dsam}
+E~Grodner, J~Srebrny, Ch~Droste, T~Morek, A~Pasternak, and J~Kownacki.
+\newblock Dsam lifetime measurements in the yrast band of 131 la and the chiral
+  bands in 132 la.
+\newblock {\em International Journal of Modern Physics E}, 13(01):243--246,
+  2004.
+
+\bibitem{grodner2005lifetime}
+E~Grodner, I~Zalewska, T~Morek, J~Srebrny, Ch~Droste, M~Kowalczyk,
+  J~Mierzejewski, M~Sa{\l}ata, AA~Pasternak, J~Kownacki, et~al.
+\newblock Lifetime measurements in 128 cs and 132 la as a test of chirality.
+\newblock {\em International Journal of Modern Physics E}, 14(03):347--352,
+  2005.
+
 \end{thebibliography}
