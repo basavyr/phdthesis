@@ -33,3 +33,4 @@
 \contentsline {section}{\numberline {4.2}Stable Triaxial Deformation}{88}{section.231}%
 \contentsline {section}{\numberline {4.3}Fingerprints of Triaxiality}{91}{section.235}%
 \contentsline {subsection}{\numberline {4.3.1}Chiral motion}{92}{subsection.236}%
+\contentsline {section}{\numberline {4.4}Wobbling Motion}{93}{section.240}%
