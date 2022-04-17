@@ -246,6 +246,12 @@ CW~Reich and Balraj Singh.
 \newblock Nuclear data sheets for a= 163.
 \newblock {\em Nuclear Data Sheets}, 111(5):1211--1469, 2010.
 
+\bibitem{bhat1992evaluated}
+MR~Bhat.
+\newblock Evaluated nuclear structure data file (ensdf).
+\newblock In {\em Nuclear data for science and technology}, pages 817--821.
+  Springer, 1992.
+
 \bibitem{bengtsson1979quasiparticle}
 R~Bengtsson and S~Frauendorf.
 \newblock Quasiparticle spectra near the yrast line.
@@ -488,5 +494,39 @@ Akaa~Daniel Ayangeakaa.
 Nirupama Sensharma.
 \newblock {\em Wobbling Motion in Nuclei: Transverse, Longitudinal and Chiral}.
 \newblock University of Notre Dame, 2021.
+
+\bibitem{starosta2001chiral}
+K~Starosta, T~Koike, CJ~Chiara, DB~Fossan, DR~LaFosse, AA~Hecht, CW~Beausang,
+  MA~Caprio, JR~Cooper, R~Kr{\"u}cken, et~al.
+\newblock Chiral doublet structures in odd-odd n= 75 isotones: Chiral
+  vibrations.
+\newblock {\em Physical review letters}, 86(6):971, 2001.
+
+\bibitem{zhang2007chiral}
+SQ~Zhang, Bin Qi, SY~Wang, and J~Meng.
+\newblock Chiral bands for a quasi-proton and quasi-neutron coupled with a
+  triaxial rotor.
+\newblock {\em Physical Review C}, 75(4):044307, 2007.
+
+\bibitem{meng2008chiral}
+J~Meng, B~Qi, SQ~Zhang, and SY~Wang.
+\newblock Chiral symmetry in atomic nuclei.
+\newblock {\em Modern Physics Letters A}, 23(27n30):2560--2567, 2008.
+
+\bibitem{budaca2018semiclassical}
+R~Budaca.
+\newblock Semiclassical description of chiral geometry in triaxial nuclei.
+\newblock {\em Physical Review C}, 98(1):014303, 2018.
+
+\bibitem{budaca2021chiral}
+R~Budaca.
+\newblock From chiral vibration to tilted-axis wobbling within broken chiral
+  symmetry.
+\newblock {\em Physics Letters B}, 817:136308, 2021.
+
+\bibitem{mccutchan2018nuclear}
+EA~Mccutchan.
+\newblock Nuclear data sheets for a= 136.
+\newblock {\em Nuclear Data Sheets}, 152:331--667, 2018.
 
 \end{thebibliography}
