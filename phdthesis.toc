@@ -32,3 +32,4 @@
 \contentsline {subsection}{\numberline {4.1.2}Triaxial Particle + Rotor Model}{83}{subsection.216}%
 \contentsline {section}{\numberline {4.2}Stable Triaxial Deformation}{88}{section.231}%
 \contentsline {section}{\numberline {4.3}Fingerprints of Triaxiality}{91}{section.235}%
+\contentsline {subsection}{\numberline {4.3.1}Chiral motion}{92}{subsection.236}%
