@@ -34,3 +34,4 @@
 \contentsline {section}{\numberline {4.3}Fingerprints of Triaxiality}{92}{section.236}%
 \contentsline {subsection}{\numberline {4.3.1}Chiral motion}{93}{subsection.237}%
 \contentsline {section}{\numberline {4.4}Wobbling Motion}{94}{section.241}%
+\contentsline {chapter}{\numberline {5}Wobbling Motion in Nuclei}{97}{chapter.242}%
