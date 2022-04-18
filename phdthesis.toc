@@ -30,7 +30,7 @@
 \contentsline {section}{\numberline {4.1}Non-axial nuclei}{80}{section.209}%
 \contentsline {subsection}{\numberline {4.1.1}Triaxial Rotor Model}{82}{subsection.210}%
 \contentsline {subsection}{\numberline {4.1.2}Triaxial Particle + Rotor Model}{83}{subsection.216}%
-\contentsline {section}{\numberline {4.2}Stable Triaxial Deformation}{88}{section.231}%
-\contentsline {section}{\numberline {4.3}Fingerprints of Triaxiality}{91}{section.235}%
-\contentsline {subsection}{\numberline {4.3.1}Chiral motion}{92}{subsection.236}%
-\contentsline {section}{\numberline {4.4}Wobbling Motion}{93}{section.240}%
+\contentsline {section}{\numberline {4.2}Stable Triaxial Deformation}{88}{section.232}%
+\contentsline {section}{\numberline {4.3}Fingerprints of Triaxiality}{90}{section.236}%
+\contentsline {subsection}{\numberline {4.3.1}Chiral motion}{92}{subsection.237}%
+\contentsline {section}{\numberline {4.4}Wobbling Motion}{95}{section.241}%
