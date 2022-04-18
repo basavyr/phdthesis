@@ -42,3 +42,51 @@ then one can write the wobbling frequency as \cite{wen2015wobbling}:
 \end{align}
 
 As a quantitative analysis of the wobbling frequency and the rotor energy, one can take three arbitrary values for the moments of inertia (and, implicitly, the inertia factors $A_k$) and see the behavior of both $E_{I,n}$ and $\hbar\omega_w$ with increasing angular momentum and wobbling phonon number. Keep in mind that depending on the value of the wobbling phonon number, different spin sequences will be allowed. More precisely, from the invariance of the rotor w.r.t. rotations by $\pi$ about the principal axes for even-even nuclei, the signature quantum number $\alpha$ can take the values 0 and 1. Each wobbling band will have an alternating signature, starting with $\alpha=0$ for $n_w=0$ then $\alpha=1$ for $n_w=1$ and so on: even spin sequences appear for even values of $n_w$ and odd spin sequences appear for odd values of $n_w$.
+
+The rotor energy from Eq. \ref{eq-wobbling-energy-evenA} is graphically represented for an arbitrary set of moments of inertia as a function of the nuclear angular momentum $I$ in Fig. \ref{fig-even-even-wobbling-energies}. This pedagogical example contains rotational bands up to $n_w=5$ in the wobbling phonon number. From Fig. \ref{fig-even-even-wobbling-energies}, one can see the linear dependence on the total angular momentum and, moreover, the wobbling energy and frequency both are increasing with increasing spin.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.7]{Chapters/Figures/wobbling-evenA.pdf}
+    \includegraphics[scale=0.74]{Chapters/Figures/wobblingFreq-evenA.pdf}
+    \caption{\textbf{Left:} The rotor energy for an even-even nucleus with three different moments of inertia, with the main rotation around the $3$-axis. Each wobbling band has alternating signature number $\alpha$ (starting with $\alpha=0$ for the ground state $n_w=0$ band). Notice the even/odd spin sequences for each band. \textbf{Right:}: The wobbling frequency plotted together with the linear terms $t_1$ and $t_2$ that are used to express $\hbar\omega_w$. Same set of MOI were used across both figures. The unit for $\mathcal{I}_i$ is $\hbar^2\ \text{MeV}^-1$.}
+    \label{fig-even-even-wobbling-energies}
+\end{figure}
+
+
+Another instructive analysis would be the evolution of the components of $\mathbf{I}$ as a function of the polar and azimuthal angles $\theta,\varphi$. Indeed, expressing the three components as:
+\begin{align}
+    I_1&=I'\sin\theta\cos\varphi\ ,\\
+    I_2&=I'\sin\theta\sin\varphi\ ,\\
+    I_3&=I'\cos\theta\ ,
+    \label{angular-momentum-polar-components}
+\end{align}
+where $I'=\sqrt{I(I+1)}$, one can make a graphical representation for these components. In Fig. \ref{figs-angular-momentum-components-polar}, the components $I_1$ and $I_2$ are represented in the $\theta,\varphi$ plane, for a fixed value $I=10\hbar$. Since the third component is independent of the azimuthal angle $\varphi$, it has been dismissed.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.66]{Chapters/Figures/angular_components-TRM-1.pdf}
+    \includegraphics[scale=0.66]{Chapters/Figures/angular_components-TRM-2.pdf}
+    \caption{The geometrical representation of the first and second component of the total angular momentum $\mathbf{I}$, as function of the polar angles, according to Eq. \ref{angular-momentum-polar-components}.}
+    \label{figs-angular-momentum-components-polar}
+\end{figure}
+
+The other relevant observables which can be calculated for simple wobbler within the HA are the two quadrupole moments $Q_{20,22}$ and the intraband + interband $B(E2)$ transition probabilities. The quadrupole components are expressed in terms of the intrinsic quadrupole moment $Q_0$ and the triaxiality parameter as \cite{shoji2006microscopic}:
+\begin{align}
+    Q_{20}=Q_0\cos\gamma\ ,\ Q_{22}=\frac{1}{\sqrt{2}}Q_0\sin\gamma\ .
+\end{align}
+
+These components can be furthermore used to determine the intraband $B(E2)$ transition probabilities \cite{wen2015wobbling}:
+\begin{align}
+    B(E2;(n,I)\to(n,I-2))=\frac{5}{16\pi}Q_{22}^2\ ,
+\end{align}
+and also the interband transitions:
+\begin{align}
+    B(E2;(n,I)\to(n-1,I-1))&=\frac{5}{16\pi}\frac{n}{I}\left(\sqrt{3}Q_{20}w_1+\sqrt{2}Q_{22}w_2\right)^2\ ,\\
+    B(E2;(n,I)\to(n+1,I-1))&=\frac{5}{16\pi}\frac{n+1}{I}\left(\sqrt{3}Q_{20}w_2+\sqrt{2}Q_{22}w_1\right)^2\ ,
+\end{align}
+where the two coefficients $w_{1,2}$ are defined as \cite{bohr1998nuclear}:
+\begin{align}
+    w_1&=\left[\frac{1}{2}\left(\frac{t_1}{\sqrt{t_1^2-t_2^2}}+1\right)\right]^{1/2}\ ,\\
+    w_2&=\left[\frac{1}{2}\left(\frac{t_1}{\sqrt{t_1^2-t_2^2}}+1\right)\right]^{1/2}\ .
+\end{align}

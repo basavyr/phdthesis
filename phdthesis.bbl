@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{bohr1998nuclear}
 Aage~Niels Bohr and Ben~R Mottelson.
@@ -542,5 +542,12 @@ E~Grodner, I~Zalewska, T~Morek, J~Srebrny, Ch~Droste, M~Kowalczyk,
 \newblock Lifetime measurements in 128 cs and 132 la as a test of chirality.
 \newblock {\em International Journal of Modern Physics E}, 14(03):347--352,
   2005.
+
+\bibitem{shoji2006microscopic}
+Takuya Shoji and Yoshifumi~R Shimizu.
+\newblock Microscopic description of nuclear wobbling motion rotation of
+  triaxially deformed nuclei.
+\newblock {\em International Journal of Modern Physics E}, 15(07):1407--1416,
+  2006.
 
 \end{thebibliography}
