@@ -33,11 +33,23 @@ This initial quantization allows one to write Eq. \ref{general-rotor-ham-evenA} 
 \begin{align}
     \hat{H}_\text{rot}&={\color{red}A_3I_3^2}+{\color{blue}H_w}\ ,\\
     {\color{blue}H_w}&={\color{blue}t_1\left(n+\frac{1}{2}\right)+\frac{1}{2}t_2(b^\dagger b^\dagger + bb)}\ ,
+    \label{wob-ham-non-diagonal}
 \end{align}
-where the \emph{number of boson excitations} is denoted by $n$. Each wobbling quanta will carry an angular momentum of one unit less with respect to the $3$-axis. The two factors $t_{1,2}$ are expressed in terms of the inertial parameters:
+where the \emph{number of boson excitations} is denoted by $n$. Each wobbling quanta will carry an angular momentum of one unit less with respect to the $3$-axis. The two factors $t_{1,2}$ are expressed in terms of the inertial parameters as \cite{bohr1998nuclear}:
 \begin{align}
     t_1&=I(A_2+A_1-2A_3)\ , \\
     t_2&=I(A_2-A_1)\ ,
+\end{align}
+
+Notice the linear dependence of the two parameters on the total angular momentum $I$. Moreover, depending on the values of $A_k$, the contribution of $t_{1,2}$ can be negative. The Hamiltonian given in Eq. \ref{wob-ham-non-diagonal} can be brought to a diagonalized form by introducing a new set of boson creation and annihilation operators. These operators will be written as linear combinations of $(b^\dagger,b)$:
+\begin{align}
+    c^\dagger=w_1b^\dagger-w_2b\ ,\\
+    c=w_1b-w_2b^\dagger\ .
+\end{align}
+Two coefficients $w_{1,2}$ are defined in terms of $t_{1,2}$ as:
+\begin{align}
+    w_1&=\left[\frac{1}{2}\left(\frac{t_1}{\sqrt{t_1^2-t_2^2}}+1\right)\right]^{1/2}\ ,\\
+    w_2&=\left[\frac{1}{2}\left(\frac{t_1}{\sqrt{t_1^2-t_2^2}}+1\right)\right]^{1/2}\ .
 \end{align}
 
 Thus, in the HA, the eigenvalues of the rotor Hamiltonian can be expressed in terms of a \emph{wobbling phonon number} ($n_w$) and a \emph{wobbling frequency}:
@@ -95,11 +107,5 @@ These components can be furthermore used to determine the intraband $B(E2)$ tran
 and also the interband transitions:
 \begin{align}
     B(E2;(n,I)\to(n-1,I-1))&=\frac{5}{16\pi}\frac{n}{I}\left(\sqrt{3}Q_{20}w_1+\sqrt{2}Q_{22}w_2\right)^2\ ,\\
-    B(E2;(n,I)\to(n+1,I-1))&=\frac{5}{16\pi}\frac{n+1}{I}\left(\sqrt{3}Q_{20}w_2+\sqrt{2}Q_{22}w_1\right)^2\ ,
+    B(E2;(n,I)\to(n+1,I-1))&=\frac{5}{16\pi}\frac{n+1}{I}\left(\sqrt{3}Q_{20}w_2+\sqrt{2}Q_{22}w_1\right)^2\ .
 \end{align}
-where the two coefficients $w_{1,2}$ are defined as \cite{bohr1998nuclear}:
-\begin{align}
-    w_1&=\left[\frac{1}{2}\left(\frac{t_1}{\sqrt{t_1^2-t_2^2}}+1\right)\right]^{1/2}\ ,\\
-    w_2&=\left[\frac{1}{2}\left(\frac{t_1}{\sqrt{t_1^2-t_2^2}}+1\right)\right]^{1/2}\ .
-\end{align}
-
