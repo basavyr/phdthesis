@@ -9,7 +9,7 @@ The non-uniformity nature of w.m. was firstly studied for the `pure' rigid-rotat
 
 The analytical expressions for wobbling excitations were firstly evaluated by Bohr and Mottelson using the so-called \emph{Harmonic Approximation} (HA). This can be described as a small-amplitude limit for the Triaxial Rigid Rotor Hamiltonian that was discussed in Chapter \ref{chapter4} (see Section \ref{trm-model}). In this limit, the projection of the total angular momentum onto the axis with largest MOI can be approximated $I_3\approx I$, meaning that the nucleus will do most of its rotation around this axis, with some `disturbance' from the other two principal of the triaxial rotor. 
 
-For a quantitative description of this simple wobbler, one can consider the case when the $3$-axis has the largest MOI, and the following order holds true:
+For the description of this simple wobbler, one can consider the case when the $3$-axis has the largest MOI, and the following order holds true:
 \begin{align}
     \mathcal{I}_3>\mathcal{I}_2>\mathcal{I}_1\ ,
 \end{align}
@@ -24,6 +24,8 @@ The Hamiltonian can be written as:
     \label{general-rotor-ham-evenA}
 \end{align}
 
+The different colors from Eq. \ref{general-rotor-ham-evenA} try to emphasize the fact that a Hamiltonian for the simple wobbler can be regarded as a main rotation around $3$-axis (represented by {\color{red}red color}) and the (precession + oscillation) of the total angular momentum (represented by {\color{blue}blue} color.)
+
 The wobbling excitations which cause oscillations with small amplitudes for $\mathbf{I}$ about the $3$-axis are assumed to have a harmonic-like behavior, meaning that the final energy spectrum of a simple wobbler (even-even nucleus) will have the typical $\hbar\omega(n+1/2)$ behavior. Since this oscillator motion can be explained as `vibrations' of the total angular momentum around a steady position, where each wobbling excitation consists of an additional vibrating phonon, one can express the Hamiltonian in terms of \emph{boson} creation and annihilation operators. As such, the quantum mechanical treatment implies \cite{bohr1998nuclear}:
 \begin{align}
     b^\dagger=\frac{1}{\sqrt{2I}}I_+\ ,\ b=\frac{1}{\sqrt{2I}}I_-\ ,\ \left[b,b^\dagger\right]\approx 1\ .
@@ -35,35 +37,45 @@ This initial quantization allows one to write Eq. \ref{general-rotor-ham-evenA} 
     {\color{blue}H_w}&={\color{blue}t_1\left(n+\frac{1}{2}\right)+\frac{1}{2}t_2(b^\dagger b^\dagger + bb)}\ ,
     \label{wob-ham-non-diagonal}
 \end{align}
-where the \emph{number of boson excitations} is denoted by $n$. Each wobbling quanta will carry an angular momentum of one unit less with respect to the $3$-axis. The two factors $t_{1,2}$ are expressed in terms of the inertial parameters as \cite{bohr1998nuclear}:
+where the \emph{number of boson excitations} is denoted by $n$ and it is given by $n=b^\dagger b$. Each wobbling quanta will carry an angular momentum of one unit less with respect to the $3$-axis. The two factors $t_{1,2}$ are expressed in terms of the inertial parameters as \cite{bohr1998nuclear}:
 \begin{align}
     t_1&=I(A_2+A_1-2A_3)\ , \\
     t_2&=I(A_2-A_1)\ ,
 \end{align}
 
-Notice the linear dependence of the two parameters on the total angular momentum $I$. Moreover, depending on the values of $A_k$, the contribution of $t_{1,2}$ can be negative. The Hamiltonian given in Eq. \ref{wob-ham-non-diagonal} can be brought to a diagonalized form by introducing a new set of boson creation and annihilation operators. These operators will be written as linear combinations of $(b^\dagger,b)$:
+Notice the linear dependence of the two parameters on the total angular momentum $I$. Moreover, depending on the values of $A_k$, the contribution of $t_{1,2}$ can be negative. Although the Hamiltonian $H_w$ is considered to have an oscillator-like behavior, its general expression does not look like a typical harmonic Hamiltonian. For this, the Hamiltonian given in Eq. \ref{wob-ham-non-diagonal} can be brought to a diagonalized form by introducing a new set of boson creation and annihilation operators. These operators will be written as linear combinations of $(b^\dagger,b)$:
 \begin{align}
     c^\dagger=w_1b^\dagger-w_2b\ ,\\
     c=w_1b-w_2b^\dagger\ .
 \end{align}
+
 Two coefficients $w_{1,2}$ are defined in terms of $t_{1,2}$ as:
 \begin{align}
     w_1&=\left[\frac{1}{2}\left(\frac{t_1}{\sqrt{t_1^2-t_2^2}}+1\right)\right]^{1/2}\ ,\\
     w_2&=\left[\frac{1}{2}\left(\frac{t_1}{\sqrt{t_1^2-t_2^2}}+1\right)\right]^{1/2}\ .
 \end{align}
 
-Thus, in the HA, the eigenvalues of the rotor Hamiltonian can be expressed in terms of a \emph{wobbling phonon number} ($n_w$) and a \emph{wobbling frequency}:
+The terms $w_{1,2}$ are verify the condition $w_1^2-w_2^2=1$ and they make the `dangerous' products ($b^\dagger b^\dagger$,$bb$) disappear in this new representation \cite{oi2006semi}. Moreover, introducing a number operator $\hat{n}=c^\dagger c$ and the excitation quanta $\hbar\omega_w$ defined as:
 \begin{align}
-    E_{I,n}={\color{red}A_3I(I+1)}+{\color{blue}\hbar\omega_w\left(n_w+\frac{1}{2}\right)}\ .
-    \label{eq-wobbling-energy-evenA}
+    \hbar\omega_w=\sqrt{t_1^2-t_2^2}=2I\sqrt{(A_1-A_3)(A_2-A_3)}\ ,
+\end{align}
+then a final expression of $H_w$ can be expressed, which has a behavior typical to the \emph{harmonic oscillator}:
+\begin{align}
+    H_w=\hbar\omega_w\left(\hat{n}+\frac{1}{2}\right)\ .
+    \label{wob-ham-diagonal}
 \end{align}
 
-Notice that the two colored terms emphasize the main rotation around $3$-axis (indicated by {\color{red}red}) and the disturbed motion with small oscillations around the other two axes (indicated by {\color{blue}blue}). Consequently, the wobbling character of the system will be generated by the latter harmonic term. The wobbling phonon number $n_w$ is related to the `strength' of the tilting for $\mathbf{I}$, indicating the fact that an increasing number for $n_w$ will result in oscillations with larger amplitudes around the other two axes. The phonon number takes values $n_w=0,1,\dots$.
-
-In order to show the expression for the wobbling frequency from Eq. \ref{eq-wobbling-energy-evenA}, {\color{red}FINISH...} then one can write the wobbling frequency as \cite{wen2015wobbling}:
+Accordingly, Eq. \ref{wob-ham-non-diagonal} can be re-written with the wobbling Hamiltonian defined in Eq. \ref{wob-ham-diagonal}:
 \begin{align}
-    \hbar\omega_w=\sqrt{t_1^2-t_2^2}=2I\sqrt{(A_1-A_3)(A_2-A_3)}
+    \hat{H}_\text{rot}=A_3I(I+1)+\hbar\omega_w\left(\hat{n}+\frac{1}{2}\right)
 \end{align}
+% Thus, in the HA, the eigenvalues of the rotor Hamiltonian can be expressed in terms of a \emph{wobbling phonon number} ($n_w$) and a \emph{wobbling frequency}:
+% \begin{align}
+%     E_{I,n}={\color{red}A_3I(I+1)}+{\color{blue}\hbar\omega_w\left(n_w+\frac{1}{2}\right)}\ .
+%     \label{eq-wobbling-energy-evenA}
+% \end{align}
+
+% Notice that the two colored terms emphasize the main rotation around $3$-axis (indicated by {\color{red}red}) and the disturbed motion with small oscillations around the other two axes (indicated by {\color{blue}blue}). Consequently, the wobbling character of the system will be generated by the latter harmonic term. The wobbling phonon number $n_w$ is related to the `strength' of the tilting for $\mathbf{I}$, indicating the fact that an increasing number for $n_w$ will result in oscillations with larger amplitudes around the other two axes. The phonon number takes values $n_w=0,1,\dots$.
 
 As a quantitative analysis of the wobbling frequency and the rotor energy, one can take three arbitrary values for the moments of inertia (and, implicitly, the inertia factors $A_k$) and see the behavior of both $E_{I,n}$ and $\hbar\omega_w$ with increasing angular momentum and wobbling phonon number. Keep in mind that depending on the value of the wobbling phonon number, different spin sequences will be allowed. More precisely, from the invariance of the rotor w.r.t. rotations by $\pi$ about the principal axes for even-even nuclei, the signature quantum number $\alpha$ can take the values 0 and 1. Each wobbling band will have an alternating signature, starting with $\alpha=0$ for $n_w=0$ then $\alpha=1$ for $n_w=1$ and so on: even spin sequences appear for even values of $n_w$ and odd spin sequences appear for odd values of $n_w$.
 
