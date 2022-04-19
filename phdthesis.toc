@@ -36,3 +36,4 @@
 \contentsline {section}{\numberline {4.4}Wobbling Motion}{94}{section.241}%
 \contentsline {chapter}{\numberline {5}Wobbling Motion in Nuclei}{97}{chapter.242}%
 \contentsline {section}{\numberline {5.1}Wobbling Motion in Even-Even Nuclei}{97}{section.243}%
+\contentsline {subsection}{\numberline {5.1.1}Testing the Harmonic Approximation}{103}{subsection.271}%

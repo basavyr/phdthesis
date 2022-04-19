@@ -87,7 +87,7 @@ The rotor energy from Eq. \ref{eq-wobbling-energy-evenA} is graphically represen
     \centering
     \includegraphics[scale=0.7]{Chapters/Figures/wobbling-evenA.pdf}
     \includegraphics[scale=0.74]{Chapters/Figures/wobblingFreq-evenA.pdf}
-    \caption{\textbf{Left:} The rotor energy for an even-even nucleus with three different moments of inertia, with the main rotation around the $3$-axis. Each wobbling band has alternating signature number $\alpha$ (starting with $\alpha=0$ for the ground state $n_w=0$ band). Notice the even/odd spin sequences for each band. \textbf{Right:}: The wobbling frequency plotted together with the linear terms $t_1$ and $t_2$ that are used to express $\hbar\omega_w$. Same set of MOI were used across both figures. The unit for $\mathcal{I}_i$ is $\hbar^2\ \text{MeV}^-1$.}
+    \caption{\textbf{Left:} The energy spectrum for an even-even nucleus with three different moments of inertia, with the main rotation around the $3$-axis, according to Eq. \ref{eq-wobbling-energy-evenA}. Each wobbling band has alternating signature number $\alpha$ (starting with $\alpha=0$ for the ground state $n_w=0$ band). Notice the even/odd spin sequences for each band. \textbf{Right:}: The wobbling frequency plotted together with the linear terms $t_1$ and $t_2$ that are used to express $\hbar\omega_w$. Same set of MOI were used across both figures and the unit for $\mathcal{I}_i$ is $\hbar^2\ \text{MeV}^-1$.}
     \label{fig-even-even-wobbling-energies}
 \end{figure}
 
@@ -123,3 +123,15 @@ and also the interband transitions:
     B(E2;(n,I)\to(n-1,I-1))&=\frac{5}{16\pi}\frac{n}{I}\left(\sqrt{3}Q_{20}w_1+\sqrt{2}Q_{22}w_2\right)^2\ ,\\
     B(E2;(n,I)\to(n+1,I-1))&=\frac{5}{16\pi}\frac{n+1}{I}\left(\sqrt{3}Q_{20}w_2+\sqrt{2}Q_{22}w_1\right)^2\ .
 \end{align}
+
+\subsubsection*{Triaxial rotor energy vs. wobbling energy}
+
+An important discussion should be made regarding the nomenclature for energies when referring to wobbling motion. As shown in Eq. \ref{eq-wobbling-energy-evenA}, the energy spectrum for a simple wobbler can be determined for every phonon number and spin sequences. However, that is the `full' spectrum which is composed of the \emph{yrast} states with $n_w=0$ and the \emph{excited states} having $n_w=1,\dots$. On the other hand, the so-called `wobbling energies' are defined in terms of these values $E_{I,n}$ with the following rules:
+\begin{align}
+    E_\text{wob}(I_\text{even})&=E_{I,n}-E_{I,0}\, \\
+    E_\text{wob}(I_\text{odd})&=E_{I,n}-\frac{1}{2}\left[E_{I-1,0}+E_{I+1,0}\right]\, 
+\end{align}
+
+\subsection{Testing the Harmonic Approximation}
+
+It is worth going further and apply the formalism for even-even nuclei within the Harmonic Approximation for an existing spectrum. As such, one can take $^{130}$Ba as a testing example. As it will be discussed, it turns out that experimentally, the wobbling structures in even-mass isotopes have been very scarce. Very recently Petrache et al. \cite{petrache2019diversity} identified a large collection of band structures in $^{130}$Ba. Two of them are reported to be of wobbling nature \cite{chen2019transverse}.
