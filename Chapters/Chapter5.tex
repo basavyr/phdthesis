@@ -102,25 +102,25 @@ The rotor energy from Eq. \ref{eq-wobbling-energy-evenA} is graphically represen
     \centering
     \includegraphics[scale=0.7]{Chapters/Figures/wobbling-evenA.pdf}
     \includegraphics[scale=0.74]{Chapters/Figures/wobblingFreq-evenA.pdf}
-    \caption{\textbf{Left:} The energy spectrum for an even-even nucleus with three different moments of inertia, with the main rotation around the $3$-axis, according to Eq. \ref{eq-wobbling-energy-evenA}. Each wobbling band has alternating signature number $\alpha$ (starting with $\alpha=0$ for the ground state $n_w=0$ band). Notice the even/odd spin sequences for each band. \textbf{Right:}: The wobbling frequency plotted together with the linear terms $t_1$ and $t_2$ that are used to express $\hbar\omega_w$. Same set of MOI were used across both figures and the unit for $\mathcal{I}_i$ is $\hbar^2\ \text{MeV}^-1$.}
+    \caption{\textbf{Left:} The energy spectrum for an even-even nucleus with three different moments of inertia, with the main rotation around the $3$-axis, according to Eq. \ref{eq-wobbling-energy-evenA}. Each wobbling band has alternating signature number $\alpha$ (starting with $\alpha=0$ for the ground state $n_w=0$ band). Notice the even/odd spin sequences for each band. \textbf{Right:}: The wobbling frequency plotted together with the linear terms $t_1$ and $t_2$ that are used to express $\hbar\omega_w$. Same set of MOI were used across both figures and the unit for $\mathcal{I}_i$ is $\hbar^2\ \text{MeV}^{-1}$.}
     \label{fig-even-even-wobbling-energies}
 \end{figure}
 
 
-Another instructive analysis would be the evolution of the components of $\mathbf{I}$ as a function of the polar and azimuthal angles $\theta,\varphi$. Indeed, expressing the three components as:
+Another instructive analysis would be the evolution of the components of $\mathbf{I}$ as functions of the polar and azimuthal angles $\theta,\varphi$. Indeed, expressing the three angular momentum components as:
 \begin{align}
     I_1&=I'\sin\theta\cos\varphi\ ,\\
     I_2&=I'\sin\theta\sin\varphi\ ,\\
     I_3&=I'\cos\theta\ ,
     \label{angular-momentum-polar-components}
 \end{align}
-where $I'=\sqrt{I(I+1)}$, one can make a graphical representation for these components. In Fig. \ref{figs-angular-momentum-components-polar}, the components $I_1$ and $I_2$ are represented in the $\theta,\varphi$ plane, for a fixed value $I=10\hbar$. Since the third component is independent of the azimuthal angle $\varphi$, it has been dismissed.
+where $I'=\sqrt{I(I+1)}$, one can make a graphical representation for them, by letting $\theta$ and $\varphi$ vary within their corresponding intervals. In Fig. \ref{figs-angular-momentum-components-polar}, the quantities $I_1$ and $I_2$ are represented in the $(\theta,\varphi)$ plane for a fixed spin value $I=10\hbar$. Since the third component is independent of the azimuthal angle $\varphi$, it has been dismissed.
 
 \begin{figure}
     \centering
     \includegraphics[scale=0.66]{Chapters/Figures/angular_components-TRM-1.pdf}
     \includegraphics[scale=0.66]{Chapters/Figures/angular_components-TRM-2.pdf}
-    \caption{The geometrical representation of the first and second component of the total angular momentum $\mathbf{I}$, as function of the polar angles, according to Eq. \ref{angular-momentum-polar-components}.}
+    \caption{The geometrical representation of the first and second component of the total angular momentum $\mathbf{I}$ as functions of the polar angles, according to Eq. \ref{angular-momentum-polar-components}.}
     \label{figs-angular-momentum-components-polar}
 \end{figure}
 
@@ -139,14 +139,17 @@ and also the interband transitions:
     B(E2;(n,I)\to(n+1,I-1))&=\frac{5}{16\pi}\frac{n+1}{I}\left(\sqrt{3}Q_{20}w_2+\sqrt{2}Q_{22}w_1\right)^2\ .
 \end{align}
 
+Notice that for the intraband transitions, going from the state $I$ to $I-2$ will only depend quadratically on the quadrupole component $Q_{22}$, making thus the transitions spin-independent.
+
 \subsubsection*{Triaxial rotor energy vs. wobbling energy}
 
-An important discussion should be made regarding the nomenclature for energies when referring to wobbling motion. As shown in Eq. \ref{eq-wobbling-energy-evenA}, the energy spectrum for a simple wobbler can be determined for every phonon number and spin sequences. However, that is the `full' spectrum which is composed of the \emph{yrast} states with $n_w=0$ and the \emph{excited states} having $n_w=1,\dots$. On the other hand, the so-called `wobbling energies' are defined in terms of these values $E_{I,n}$ with the following rules \cite{wen2015wobbling}:
+An important discussion should be made regarding the nomenclature for energies when referring to wobbling motion. As shown in Eq. \ref{eq-wobbling-energy-evenA}, the energy spectrum for a simple wobbler can be determined for every phonon number and spin sequences. However, that is the `full' spectrum  of the wobbler, which is composed of the \emph{yrast} states with $n_w=0$ and the \emph{excited states} having $n_w=1,\dots$ and so on. On the other hand, the so-called `wobbling energies' are defined in terms of these `absolute values' (i.e., $E_{I,n}$) with the following rules \cite{wen2015wobbling}:
 \begin{align}
-    E_\text{wob}(I_\text{even})&=E_{I,n}-E_{I,0}\, \\
-    E_\text{wob}(I_\text{odd})&=E_{I,n}-\frac{1}{2}\left(E_{I-1,0}+E_{I+1,0}\right)\, 
+    E_\text{wob}(I_\text{even})&=E_{I,n}-E_{I,0}\ ,\\
+    E_\text{wob}(I_\text{odd})&=E_{I,n}-\frac{1}{2}\left(E_{I-1,0}+E_{I+1,0}\right)\ ,
+    \label{eq-wobbling-energy-definotion-evenA}
 \end{align}
-where the former wobbling energy corresponds to the even values of $I$ and the latter is applied for odd values of $I$. Within the literature, the wobbling spectrum/energy is often referred to the entire structure \ref{eq-wobbling-energy-evenA}, so one has to be careful.
+where the former wobbling energy corresponds to the even values of $I$ and the latter is applied for odd values of $I$. Very often within literature the energies calculated via Eq. \ref{eq-wobbling-energy-evenA} are referred to also as wobbling energies, which is not the same as Eq. \ref{eq-wobbling-energy-definotion-evenA}, so a distinction should be made clear.
 
 \subsection{Testing the Harmonic Approximation}
 
