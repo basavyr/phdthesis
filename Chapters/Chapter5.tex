@@ -162,9 +162,10 @@ Looking at the energy formula from Eq. \ref{eq-wobbling-energy-evenA}, at a firs
 
 Indeed, by following the procedure described above, the set $\mathcal{P}_\text{fit}$ is obtained. The parameters, i.e., the three moments of inertia are shown in Table \ref{table-params-ba130}. Remarking that fact that the largest MOI which was obtained via the fitting procedure is the one corresponding to the $3$-axis. With these parameters, the theoretical energies are determined numerically and the two bands are compared to the measured data in Fig. \ref{plot-ba130-excitation-energies}. Concerning the fitted energies, in the present calculations, instead of working with the `absolute energies' (i.e., the exact values of the energies that correspond to the measured spectrum), the \emph{excitation energies} were used instead \cite{raduta2017semiclassical,raduta2018wobbling,raduta2020towards}. These are determined by subtracting the band-head energy of B1 (the $10^+$ level) from each excited state of B1 and B2. Doing this improves the accuracy of the results. The excitation energy for a spin state $I$ is given as:
 \begin{align}
-    E(I)=E_\text{abs}(I)-E_\text{abs}(I_\text{band-head})\ ,
+    E(I)=E_\text{abs}(I)-E_\text{abs}(I_0)\ ,
+    \label{excitation-energy-general-formula}
 \end{align}
-where `abs.' signifies the absolute value for $E$ at that particular spin state.
+where `abs.' signifies the absolute value for $E$ at that particular spin state and $I_0$ is the band-head state within the yrast band.
 
 % \begin{table}
 %     \centering
@@ -208,7 +209,7 @@ Having the excitation energies for the two bands, one can evaluate the theoretic
 \begin{figure}
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/ba130-wobbling-energies.pdf}
-    \caption{The wobbling energies for $^{130}$Ba calculated with Eq. \ref{eq-wobbling-energy-definition-evenA}. For the first state of B2, the energy was determined as $E_\text{wob}(11^+)=E_\text{B2}(11^+)-\frac{1}{2}E_\text{B1}(12^+)$ since the band-head state of B1 is zero (as per the definition of excitation energy).}
+    \caption{The wobbling energies for $^{130}$Ba calculated with Eq. \ref{eq-wobbling-energy-definition-evenA}. For the first state of B2, the energy was determined as $E_\text{wob}(11^+)=E_\text{B2}(11^+)-\frac{1}{2}E_\text{B1}(12^+)$ since the band-head state of B1 is zero (as per the definition of excitation energy given in Eq. \ref{excitation-energy-general-formula}).}
     \label{wobbling-energies-130ba-expVSth}
 \end{figure}
 
