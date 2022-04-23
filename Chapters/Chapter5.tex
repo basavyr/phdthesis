@@ -163,7 +163,7 @@ The method described in here will be based on a \emph{fitting procedure}, namely
 
 Looking at the energy formula from Eq. \ref{eq-wobbling-energy-evenA}, at a first glance, two fitting parameters would appear, namely the largest moment of inertia $\mathcal{I}_3$ and the wobbling frequency $\hbar\omega$. However, the wobbling frequency is furthermore dependent on the other two moments of inertia (as per Eq. \ref{wobbling-frequency-even-A}), meaning that one can use the set $\mathcal{P}_\text{fit}=\left[\mathcal{I}_1,\mathcal{I}_2,\mathcal{I}_3\right]$ as appropriate fitting parameters. The wobbling phonon number $n_w$ is attributed as follows: $n_w=0$ for the yrast band (denoted throughout calculations with B1) and $n_w=1$ for the first excited band (denoted with B2). The band B1 has signature $\alpha=0$ so it is the even-spin sequence, while B2 has odd spins. The experimental data regarding spins and energies for the two bands correspond to the measurements done in Ref. \cite{petrache2019diversity}.
 
-\subsubsection*{Energy Spectrum}
+\subsubsection{Energy Spectrum}
 
 Indeed, by following the procedure described above, the set $\mathcal{P}_\text{fit}$ is obtained. The parameters, i.e., the three moments of inertia are shown in Table \ref{table-params-ba130}. Remarking that fact that the largest MOI which was obtained via the fitting procedure is the one corresponding to the $3$-axis. With these parameters, the theoretical energies are determined numerically and the two bands are compared to the measured data in Fig. \ref{plot-ba130-excitation-energies}. Concerning the fitted energies, in the present calculations, instead of working with the `absolute energies' (i.e., the exact values of the energies that correspond to the measured spectrum), the \emph{excitation energies} were used instead \cite{raduta2017semiclassical,raduta2018wobbling,raduta2020towards}. These are determined by subtracting the band-head energy of B1 (the $10^+$ level) from each excited state of B1 and B2. Doing this improves the accuracy of the results. The excitation energy for a spin state $I$ is given as:
 \begin{align}
@@ -171,19 +171,6 @@ Indeed, by following the procedure described above, the set $\mathcal{P}_\text{f
     \label{excitation-energy-general-formula}
 \end{align}
 where `abs.' signifies the absolute value for $E$ at that particular spin state and $I_0$ is the band-head state within the yrast band.
-
-% \begin{table}
-%     \centering
-%     \resizebox{0.4\textwidth}{!}{%
-%     \begin{tabular}{|c|c|c|l|}
-%     \hline
-%     $\mathcal{I}_1$ & $\mathcal{I}_3$ & $\mathcal{I}_2$ & Unit \\ \hline
-%     27 &22 &43 &$\hbar ^ 2\text{MeV} ^ {-1}$ \\ \hline
-%     \end{tabular}%
-%     }
-%     \caption{The parameter set $\mathcal{P}_\text{fit}$ obtained from the fitting procedure of the excitation energies of the two wobbling bands (B1 and B2) for $^{130}$Ba. The model function corresponds to the energy of a simple wobbler (see Eq. \ref{eq-wobbling-energy-evenA}).}
-%     \label{table-params-ba130}
-% \end{table}
 
 \begin{table}
     \centering
@@ -217,7 +204,7 @@ Besides the excited spectrum obtained in Fig. \ref{plot-ba130-excitation-energie
     \label{wobbling-energies-130ba-expVSth}
 \end{figure}
 
-\subsubsection*{Transition Probabilities}
+\subsubsection{Transition Probabilities}
 
 Another step regarding the calculations for $^{130}$Ba consists of the electromagnetic transition probabilities. For this investigation some prior quantities are required. Firstly, the reduced transition probabilities $B(E2)$ (both the interband and the intraband) depend on the components $Q_{20}$ and $Q_{22}$ of the quadrupole moment. These two can be evaluated numerically using the expressions from Eq. \ref{quadrupole-components-q20-q22}, while the intrinsic quadrupole moment is furthermore evaluated using Eq. \ref{quadrupole-moment-Q0}. From the microscopic calculations performed by Chen et al. in Ref. \cite{chen2019transverse}, they determined that this isotope has a stable triaxial minimum located at $(\beta_2,\gamma)=(0.24,21.5^\circ)$. Within the following computations, this set of deformation parameters will be used. Taking the value of $\beta_2=0.24$, the intrinsic quadrupole moment $Q_0$ is readily obtained from Eq. \ref{quadrupole-moment-Q0}. The transition probabilities from Eqs. \ref{intraband-probability-simple-wobbler}, \ref{interband-probability-simple-wobbler-1}, and \ref{interband-probability-simple-wobbler-2} also depend on the two factors $w_{1,2}$ defined in Eq. \ref{eqs-w1-w2-terms-wobbling}, which are functions of the three moments of inertia. Thus, the quality of the fitting procedure will also reflect the calculus for the transition probabilities through $\mathcal{P}_\text{fit}$. The numerical values for $Q_0$, $w_{1,2}$, and $Q_{20,22}$ are presented in Table \ref{transition-parameters-ba130}. Having the deformation parameters, the $w_{1,2}$ terms, and the quadrupole components, one can evaluate the reduced transition probabilities. 
 
@@ -270,7 +257,7 @@ Considering the interband transitions $B(E2)_\text{out}$ calculated above and th
     \label{BE2-out-in-ratio-130Ba}
 \end{table}
 
-\subsubsection*{Harmonic Approximation - General Discussion}
+\subsubsection{General Discussion}
 
 Even though the spectrum of this even-even nucleus has been quantitatively reproduced quite well and the values for the tree obtained MOI indicate a triaxial nucleus with main rotation around the third axis, it should not be considered a `realistic' tool in describing this isotope. This is because in another work, Chen et al. \cite{chen2019transverse} found through microscopic calculations that the wobbling motion does not occur as per a pure triaxial rotator, but it emerges from the coupling of two quasi-particles $\pi(h_{11/2})^2$ with a triaxial core. In fact, their work shows that $^{130}$Ba is the first nucleus in which a configuration with two quasi-particles generates stable triaxial deformation through wobbling motion. Consequently, the numerical implementation performed here only shows that HA can be a suitable tool to show that $^{130}$Ba does behave as a wobbler, but this pure triaxial rotator model \emph{hides} contributions coming from single-particle configuration within the final Hamiltonian. This translates to the fact that Eq. \ref{eq-wobbling-energy-evenA} contains the effect of the two $h_{11/2}$ protons hidden within $\hbar\omega_w$. In fact, looking back at $E_\text{wob}$ from Fig. \ref{wobbling-energies-130ba-expVSth}, the discrepancy of the two lines is a clear indicator that some other terms should be taken into account. Also, it is worth mentioning that a quenching factor was necessary in the expression of $B(E2)_\text{in,out}$ in order to compensate for the magnitude of $w_{1,2}$. Nevertheless, this simple and straightforward formalism used to describe the wobbling bands in the even-even $^{130}$Ba nucleus proves to be a decent tool. The calculations presented here have been done independently by the current team, and the obtained results are unique to this research. They will be considered towards a separate forthcoming publication.
 
