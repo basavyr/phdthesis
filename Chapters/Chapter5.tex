@@ -124,7 +124,7 @@ where $I'=\sqrt{I(I+1)}$, one can make a graphical representation for them, by l
     \label{figs-angular-momentum-components-polar}
 \end{figure}
 
-The other relevant observables which can be calculated for simple wobbler within the HA are the two quadrupole moments $Q_{20,22}$ and the intraband + interband $B(E2)$ transition probabilities. The quadrupole components are expressed in terms of the intrinsic quadrupole moment $Q_0$ and the triaxiality parameter as \cite{shoji2006microscopic}:
+The other relevant observables that can be calculated for simple wobbler within the HA are the two quadrupole moments $Q_{20,22}$ and the intraband + interband $B(E2)$ transition probabilities. The quadrupole components are expressed in terms of the intrinsic quadrupole moment $Q_0$ and the triaxiality parameter as \cite{shoji2006microscopic}:
 \begin{align}
     Q_{20}=Q_0\cos\gamma\ ,\ Q_{22}=\frac{1}{\sqrt{2}}Q_0\sin\gamma\ .
     \label{quadrupole-components-q20-q22}
@@ -142,7 +142,7 @@ and also the interband transitions:
     \label{interband-probability-simple-wobbler-2}
 \end{align}
 
-Notice that for the intraband transitions, going from the state $I$ to $I-2$ will only depend quadratically on the quadrupole component $Q_{22}$, making thus the transitions spin-independent.
+Notice that for the intraband transitions, going from the state $I$ to $I-2$ will only depend in a quadratic manner on the quadrupole component $Q_{22}$, making thus the transitions spin-independent.
 
 \subsubsection*{Triaxial rotor energy vs. wobbling energy}
 
@@ -157,9 +157,9 @@ where the former wobbling energy corresponds to the even values of $I$ and the l
 
 \subsection{Testing the Harmonic Approximation}
 
-It is worth going further and apply the HA formalism for even-even nuclei for an existing spectrum. As such, one can take $^{130}$Ba as a testing example. As it will be discussed in a follow-up section, it turns out that experimental observations for wobbling structures in even-mass isotopes have been very scarce. Nevertheless,  very recently Petrache et al. identified a large collection of band structures in $^{130}$Ba \cite{petrache2019diversity}. Two of them are reported to be of wobbling nature \cite{chen2019transverse}. Having these two collective bands, one can check if the energy formula given in Eq. \ref{eq-wobbling-energy-evenA} for the simple wobbler can be applied for this isotope.
+It is worth going further and apply the HA formalism for even-even nuclei for an existing spectrum. As such, one can take $^{130}$Ba as a testing example. As it will be discussed in a follow-up section, it turns out that experimental observations for wobbling structures in even-mass isotopes have been very scarce. Nevertheless, very recently, Petrache et al. identified a large collection of band structures in $^{130}$Ba \cite{petrache2019diversity}. Two of them are reported to be of wobbling nature \cite{chen2019transverse}. Having these two collective bands, one can check if the energy formula given in Eq. \ref{eq-wobbling-energy-evenA} for the simple wobbler can be applied for this isotope.
 
-The method described in here will be based on a \emph{fitting procedure}, namely a set of parameters will be extracted from the expression of $E_{I,n}$ and they will adjusted such that the experimental data is best reproduced by the theoretical model. This kind of approach works really well for `well-behaved' model functions and if the input data is large enough to reach a good fit precision. More often than not, if the model function contains parameters which have a clear physical meaning then fitting becomes a suitable approach. In fact, in the following chapters, the developed formalism will verify the experimental data through similar fitting procedures (although their `core'-implementation will be more complex).
+The method described in here will be based on a \emph{fitting procedure}, namely a set of parameters will be extracted from the expression of $E_{I,n}$ and they will be adjusted such that the experimental data is best reproduced by the theoretical model. This kind of approach works really well for `well-behaved' model functions and if the input data is large enough to reach a good fit precision. More often than not, if the model function contains parameters which have a clear physical meaning, then fitting becomes a suitable approach. In fact, in the following chapters, the developed formalism will verify the experimental data through similar fitting procedures (although their `core'-implementation will be more complex).
 
 Looking at the energy formula from Eq. \ref{eq-wobbling-energy-evenA}, at a first glance, two fitting parameters would appear, namely the largest moment of inertia $\mathcal{I}_3$ and the wobbling frequency $\hbar\omega$. However, the wobbling frequency is furthermore dependent on the other two moments of inertia (as per Eq. \ref{wobbling-frequency-even-A}), meaning that one can use the set $\mathcal{P}_\text{fit}=\left[\mathcal{I}_1,\mathcal{I}_2,\mathcal{I}_3\right]$ as appropriate fitting parameters. The wobbling phonon number $n_w$ is attributed as follows: $n_w=0$ for the yrast band (denoted throughout calculations with B1) and $n_w=1$ for the first excited band (denoted with B2). The band B1 has signature $\alpha=0$ so it is the even-spin sequence, while B2 has odd spins. The experimental data regarding spins and energies for the two bands correspond to the measurements done in Ref. \cite{petrache2019diversity}.
 
@@ -190,7 +190,7 @@ where `abs.' signifies the absolute value for $E$ at that particular spin state 
     \centering
     \includegraphics[width=0.46\textwidth]{Chapters/Figures/ba130-band1.pdf}
     \includegraphics[width=0.46\textwidth]{Chapters/Figures/ba130-band2.pdf}
-    \caption{Comparison between the experimental and theoretical excitation energies (Eq. \ref{excitation-energy-general-formula}) for the two wobbling bands of $^{130}$Ba (B1 and B2). Experimental data is taken from Ref. \cite{petrache2019diversity}. The theoretical data was obtained by fitting Eq. \ref{eq-wobbling-energy-evenA} as described in text, with the parameters defined in Table \ref{table-params-ba130}. Note that the band-head $I^\pi=10^+$ state from B1 is missing from the spectrum since it was subtracted from each level.}
+    \caption{Comparison between the experimental and theoretical excitation energies (Eq. \ref{excitation-energy-general-formula}) for the two wobbling bands of $^{130}$Ba (B1 and B2). Experimental data are taken from Ref. \cite{petrache2019diversity}. The theoretical data was obtained by fitting Eq. \ref{eq-wobbling-energy-evenA} as described in text, with the parameters defined in Table \ref{table-params-ba130}. Note that the band-head $I^\pi=10^+$ state from B1 is missing from the spectrum, since it was subtracted from each level.}
     \label{plot-ba130-excitation-energies}
 \end{figure}
 
@@ -266,7 +266,7 @@ Concluding this section on wobbling motion of even-even nuclei, a final sketch i
 \begin{figure}
     \centering
     \includegraphics[scale=0.6]{Chapters/Figures/simple-wobbler.pdf}
-    \caption{A schematic representation with a \emph{simple wobbler}, with the total angular momentum doing a precessional motion about the axis with largest MOI. In this particular sketch, the axis with largest MOI is denoted with $m$ for intermediate/medium. $l$- and $s$-axis represent the long and short axes, respectively. The small-amplitude oscillations of $\mathbf{R}$ are depicted with the (red) encircled sine wave. This figure was adapted from Ref. \cite{poenaru2021extensive} and inspired from Ref. \cite{sensharma2020longitudinal}.}
+    \caption{A schematic representation with a \emph{simple wobbler}, with the total angular momentum doing a precessional motion about the axis with the largest MOI. In this particular sketch, the axis with the largest MOI is denoted with $m$ for intermediate/medium. $l$- and $s$-axis represent the long and short axes, respectively. The small-amplitude oscillations of $\mathbf{R}$ are depicted with the (red) encircled sine wave. This figure was adapted from Ref. \cite{poenaru2021extensive} and inspired from Ref. \cite{sensharma2020longitudinal}.}
     \label{simple-wobbler-geometrical-schematic}
 \end{figure}
 
