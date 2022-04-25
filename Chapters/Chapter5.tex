@@ -297,18 +297,43 @@ Hamiltonian given in Eq. \ref{oddA-QTR-general-hamiltonian} can be treated in th
     \hat{H}=A_3(\hat{I}_3-j)^2+A_1\hat{I}_1^2+A_2\hat{I}_2^2\ .
     \label{hamiltonian-qtr-FA}
 \end{align}
-Indeed, within QTR Hamiltonian from Eq. \ref{hamiltonian-qtr-FA}, the angular momentum for $\mathcal{Q}$ becomes just a number $j$. The main rotation is assumed to be about the three-axis. Regarding the angular momentum components, these can be re-written as:
+Indeed, within QTR Hamiltonian from Eq. \ref{hamiltonian-qtr-FA}, the angular momentum for $\mathcal{Q}$ becomes just a number $j$. The quasi-particle $\mathcal{Q}$ is fixed along the three-axis. Regarding the angular momentum components, these can be re-written as:
 \begin{align}
     \hat{I}_3=\sqrt{\mathscr{I}^2-\hat{I}_1^2-\hat{I}_1^2}\approx\mathscr{I}-\frac{1}{2}\left(\frac{\hat{I}_1^2}{\mathscr{I}}+\frac{\hat{I}_2^2}{\mathscr{I}}\right)\ ,
 \end{align}
 where the `eigenvalue' of $I$ is denoted as $\mathscr{I}=\sqrt{I(I+1)}$. Note that this is in fact a second-order expansion in terms of the square-root function. If the factor $A_3$ is also expressed in terms of $j$ and $\mathscr{I}$ (i.e., a \emph{reduced} inertia parameter) via the relation:
 \begin{align}
     \mathscr{A}_3=A_3\left(1-\frac{j}{\mathscr{I}}\right)\ ,
+    \label{reduced-inertia-parameter-A3}
 \end{align}
 then the QTR Hamiltonian achieves the following form:
 \begin{align}
-    \hat{H}={\color{red}A_3(\mathscr{I}-j)^2}+{\color{blue}(A_1-\mathscr{A}_3)\hat{I}_1^2+(A_2-\mathscr{A}_3)\hat{I}_2^2}\ .
+    \hat{H}={\color{black}A_3(\mathscr{I}-j)^2}+{\color{black}(A_1-\mathscr{A}_3)\hat{I}_1^2+(A_2-\mathscr{A}_3)\hat{I}_2^2}\ .
     \label{HA-QTR-Hamiltonian}
 \end{align}
 
-The Hamiltonian for an odd-$A$ triaxial nucleus, within the Harmonic Approximation has an expression which at a first glance looks quite similar to the simple wobbler (Eq. \ref{general-rotor-ham-evenA}). Indeed, the `main' rotational motion will be about the axis with largest MOI, this being the three-axis, and the small wobbling vibrations are produced by the contribution from the other two axes. However, for the odd-mass case, the coefficients of the first and second components $\hat{I}_{1,2}$ contain a contribution coming from the quasi-particle itself (through the `reduced' inertia parameter $\mathscr{A}_3$).
+The Hamiltonian for an odd-$A$ triaxial nucleus, within the Harmonic Approximation has an expression which at a first glance looks quite similar to the simple wobbler (Eq. \ref{general-rotor-ham-evenA}), except that the coefficients of the first and second components $\hat{I}_{1,2}$ contain a contribution coming from the quasi-particle itself (through the `reduced' inertia parameter $\mathscr{A}_3$ given in Eq. \ref{reduced-inertia-parameter-A3}). It is important to mention the fact that one can typically apply HA method for the QTR Hamiltonian only when $\hat{I}_1^2+\hat{I}_2^2<<I(I+1)$ \cite{bohr1998nuclear,frauendorf2014transverse}.
+
+As it was the case for the simple wobbler, a wobbling frequency can be deduced from Eq. \ref{HA-QTR-Hamiltonian} by following a similar procedure. Thus, through an analogy with Eq. \ref{wobbling-frequency-even-A}, the QTR frequency is:
+\begin{align}
+    \hbar\omega_w=2\mathscr{I}\sqrt{\left(A_1-\mathscr{A}_3\right)\left(A_2-\mathscr{A}_3\right)}\ ,
+\end{align}
+or by expressing the factors $A_k$ in terms of the three moments of inertia:
+\begin{align}
+    \hbar\omega_w=\frac{j}{\mathcal{I}_3}\sqrt{\left[1+\frac{\mathscr{I}}{j}\left(\frac{\mathcal{I}_3}{\mathcal{I}_1}-1\right)\right]\left[1+\frac{\mathscr{I}}{j}\left(\frac{\mathcal{I}_3}{\mathcal{I}_2}-1\right)\right]}\ .
+    \label{wobbling-frequency-odd-A}
+\end{align}
+The wobbling frequency for a longitudinal wobbler requires the condition:
+\begin{align}
+    \mathcal{I}_3>(\mathcal{I}_1,\mathcal{I}_1)\ \equiv\ A_3<(A_1,A_2)\ ,
+\end{align}
+meaning that the total system rotates around the $3$-axis (intermediate axis with largest MOI as $\mathcal{I}_3=\mathcal{I}_m$). For LW, both the $(\mathcal{I}_3/\mathcal{I}_1-1)$ and $(\mathcal{I}_3/\mathcal{I}_2-1)$ are positive, meaning that the wobbling frequency increases with $I$.
+
+For the transverse wobbling, the MOI condition requires:
+\begin{align}
+    \mathcal{I}_3>\mathcal{I}_1\ \text{and}\ \mathcal{I}_3<\mathcal{I}_2\ ,
+\end{align}
+or:
+\begin{align}
+    A_3<A_1\ \text{and}\ A_3>A_2\ .
+\end{align}
