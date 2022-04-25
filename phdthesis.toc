@@ -41,3 +41,4 @@
 \contentsline {subsubsection}{\numberline {5.1.1.2}Transition Probabilities}{107}{subsubsection.279}%
 \contentsline {subsubsection}{\numberline {5.1.1.3}General Discussion}{109}{subsubsection.283}%
 \contentsline {section}{\numberline {5.2}Wobbling Motion in Odd-Mass Nuclei}{110}{section.285}%
+\contentsline {section}{\numberline {5.3}Wobbling Motion on the Experimental Side}{117}{section.300}%
