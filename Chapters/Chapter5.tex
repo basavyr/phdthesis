@@ -374,4 +374,35 @@ In this section, the collective motion specific to triaxial structures was treat
 
 Concluding, the wobbling phenomenon was properly described through a quantitative analysis of different observables of interest (rotational frequency, wobbling frequency, wobbling energy, MOI, and so on) for even-even nuclei and also for odd-$A$ nuclei, showing multiple sets of results. In the next chapter, the introduction of the `core'-framework of this research can be finally done, starting from the initial assumptions, and reaching the important results and features that emerge from the formalism.
 
+\newcommand\gauss[2]{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))} % Gauss function, parameters mu and sigma
+\usepgfplotslibrary{fillbetween}
+\begin{center}
+    \begin{tikzpicture}
+        \begin{axis}[every axis plot post/.append style={
+            mark=none,domain=-2:3,samples=50,smooth}, % All plots: from -2:2, 50 samples, smooth, no marks
+            axis x line*=bottom, % no box around the plot, only x and y axis
+            axis y line*=left, % the * suppresses the arrow tips
+            axis line style={draw=none},
+            xtick=\empty, ytick=\empty,
+            enlargelimits=false, 
+            clip=false, axis on top,
+            grid = major] % extend the axes a bit to the right and top
+            
+            \addplot [name path=model, color=red,thick] {\gauss{0}{0.5}};
+            \addplot [name path=obs, color=blue,very thick] {\gauss{0.5}{0.65}};
+            \legend{$\mathcal{Q}_p$,$\mathscr{C}$}
+            
+            \path[name path=axis] (axis cs:0,0) -- (axis cs:3,0);
+            
+            \path[name path=lower,
+                  intersection segments={of=model and obs,
+                  sequence={L1 -- R2 -- L3}
+                  }];
+            
+            \addplot[color=green!50!white] fill between[of= lower and axis];
+            \node[rectangle, draw=blue, thick, fill=blue!20] at (axis cs: 1,0.9) {Density distributions for $\mathcal{Q}_p$ and $\mathscr{C}$};
+        \end{axis}
+    \end{tikzpicture}
+\end{center}
+
 \section{Wobbling Motion on the Experimental Side}
