@@ -377,10 +377,11 @@ Concluding, the wobbling phenomenon was properly described through a quantitativ
 \newcommand\gauss[2]{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))} % Gauss function, parameters mu and sigma
 \usepgfplotslibrary{fillbetween}
 \usetikzlibrary{positioning}
+\usetikzlibrary{shapes.multipart}
 \begin{center}
     \begin{figure}
-    \begin{tikzpicture}
-        \begin{axis}[every axis plot post/.append style={
+    \begin{tikzpicture}[every text node part/.style={align=center}]
+        \begin{axis}[scale=0.6,every axis plot post/.append style={
             mark=none,domain=-2:3,samples=50,smooth}, % All plots: from -2:2, 50 samples, smooth, no marks
             axis x line*=bottom, % no box around the plot, only x and y axis
             axis y line*=left, % the * suppresses the arrow tips
@@ -402,11 +403,14 @@ Concluding, the wobbling phenomenon was properly described through a quantitativ
                   }];
             
             \addplot[color=green!50!white] fill between[of= lower and axis];
-            \node[rectangle, draw=blue, thick, fill=blue!20] at (axis cs: 1,0.9) {Density distributions for $\mathcal{Q}_p$ and $\mathscr{C}$};
+            \node[rectangle, draw=none, thick, fill=none] at (axis cs: 0.8,0.9) {Density distributions for $\mathcal{Q}_p$ and $\mathscr{C}$};
         \end{axis}
-        \node[rectangle, draw=blue, thick, fill=green!10] at (3,-3) (first-box) {Minimized short-range interaction};
-        \node[rectangle, draw=blue, thick, fill=red!10] (second-box) [below=of first-box] {Minimal energy (PES)};
-        \node[rectangle, draw=blue, thick, fill=blue!10] (second-box) [below=of second-box] {Stable triaxial shape};
+        
+        \node[rectangle, draw=black, thick, fill=green!10, inner sep=0.2cm] at (3,-3) (first-box) {\textbf{Minimized} short-range interaction \\ \\ $\mathcal{Q}_p+\mathscr{C}$ = \emph{attractive}};
+        
+        \node[rectangle, draw=black, thick, fill=red!10, inner sep=0.2cm] (second-box) [below=of first-box] {\textbf{Minimal} energy (PES)};
+        
+        \node[rectangle, draw=black, thick, fill=blue!10, inner sep=0.2cm] (second-box) [below=of second-box] {\textbf{Stable triaxial shape} \\ $\downarrow$ \\ \textbf{Wobbling Motion}};
     \end{tikzpicture}
     \caption{The workflow of a quasi-particle with particle character $\mathcal{Q}_p$ in its coupling with a triaxial rotor $\mathscr{C}$.}
     \label{advanced-quasiparticle-coupling-1}
