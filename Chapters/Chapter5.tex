@@ -292,9 +292,21 @@ Going back to the two wobbling modes for an odd-$A$ nucleus, the $\mathcal{Q}+\m
 
 For increasing rotating motion, the Coriolis effect kicks in, trying to align the angular momentum of $\mathcal{Q}$ with the axis of rotation (i.e., the $m$-axis), creating thus a change from $(s)\to (m)$-axis for $\mathcal{Q}_p$ and a realignment $(l) \to (m)$-axis for $\mathcal{Q}_h$. The realignment will result in a transition from one wobbling regime to another, meaning that the system will undergo a phase transition. This kind of change can take place at some `critical' value for the nuclear spin $I$. In a recent work made by this team \cite{poenaru2021extensive1,poenaru2021extensive2} such a transition is discussed within a semi-classical approach.
 
-Hamiltonian given in Eq. \ref{oddA-QTR-general-hamiltonian} can be treated in the so-called \emph{Frozen Alignment} (FA) approximation, employed in \cite{frauendorf2014transverse}. The idea behind FA is that the a.m. for $\mathcal{Q}$ is fixed (i.e., rigidly aligned) with one of the principal axes of $\mathscr{C}$. In fact, this rigid coupling is an idealistic situation of either a LW regime or a TW mode. By doing so, the Hamiltonian will become:
+Hamiltonian given in Eq. \ref{oddA-QTR-general-hamiltonian} can be treated in the so-called \emph{Frozen Alignment} (FA) approximation, employed in \cite{frauendorf2014transverse}. The idea behind FA is that the a.m. for $\mathcal{Q}$ is fixed (i.e., rigidly aligned) with one of the principal axes of $\mathscr{C}$. In fact, this rigid coupling is an idealistic situation of either a LW regime or a TW mode. Furthermore, if one applies the small-amplitude limit for wobbling vibrations about the three-axis (i.e., a Harmonic Approximation as the one used for the simple wobbler), then the Hamiltonian will become:
 \begin{align}
     \hat{H}=A_3(\hat{I}_3-j)^2+A_1\hat{I}_1^2+A_2\hat{I}_2^2\ .
     \label{hamiltonian-qtr-FA}
 \end{align}
-Indeed, within QTR Hamiltonian from Eq. \ref{hamiltonian-qtr-FA}, the angular momentum for $\mathcal{Q}$ becomes just a number $j$. In this particular case, $\mathcal{Q}$ was assumed to be fixed along the three-axis of the ellipsoid. In terms of axes nomenclature, the three-axis is the $s$-axis, the $m$-axis is the two-axis and $l$-axis is the one-axis. MOI ordering is assumed to be $\mathcal{I}_2>\mathcal{I}_3>\mathcal{I}_1$.
+Indeed, within QTR Hamiltonian from Eq. \ref{hamiltonian-qtr-FA}, the angular momentum for $\mathcal{Q}$ becomes just a number $j$. The main rotation is assumed to be about the three-axis. Regarding the angular momentum components, these can be re-written as:
+\begin{align}
+    \hat{I}_3=\sqrt{\mathscr{I}^2-\hat{I}_1^2-\hat{I}_1^2}\approx\mathscr{I}-\frac{1}{2}\left(\frac{\hat{I}_1^2}{\mathscr{I}}+\frac{\hat{I}_2^2}{\mathscr{I}}\right)\ ,
+\end{align}
+where the `eigenvalue' of $I$ is denoted as $\mathscr{I}=\sqrt{I(I+1)}$. Note that this is in fact a second-order expansion in terms of the square-root function. If the factor $A_3$ is also expressed in terms of $j$ and $\mathscr{I}$ (i.e., a \emph{reduced} inertia parameter) via the relation:
+\begin{align}
+    \mathscr{A}_3=A_3\left(1-\frac{j}{\mathscr{I}}\right)\ ,
+\end{align}
+then the QTR Hamiltonian achieves the following form:
+\begin{align}
+    \hat{H}=A_3(\mathscr{I}-j)^2+(A_1-\mathcal{A}_3)\hat{I}_1^2+(A_2-\mathcal{A}_3)\hat{I}_2^2\ .
+    \label{HA-QTR-Hamiltonian}
+\end{align}
