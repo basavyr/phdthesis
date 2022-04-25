@@ -391,7 +391,8 @@ Concluding, the wobbling phenomenon was properly described through a quantitativ
             xtick=\empty, ytick=\empty,
             enlargelimits=false, 
             clip=false, axis on top,
-            grid = major] % extend the axes a bit to the right and top
+            grid = major,
+            legend style={at={(1,1)},anchor=north,legend cell align=left}] % extend the axes a bit to the right and top
             
             \addplot [name path=model, color=red,thick] {\gauss{0}{0.5}};
             \addplot [name path=obs, color=blue,very thick] {\gauss{0.5}{0.65}};
