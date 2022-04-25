@@ -378,6 +378,7 @@ Concluding, the wobbling phenomenon was properly described through a quantitativ
 \usepgfplotslibrary{fillbetween}
 \usetikzlibrary{positioning}
 \usetikzlibrary{shapes.multipart}
+\usetikzlibrary{arrows,calc,fit}
 \begin{center}
     \begin{figure}
     \begin{tikzpicture}[every text node part/.style={align=center}]
@@ -403,14 +404,19 @@ Concluding, the wobbling phenomenon was properly described through a quantitativ
                   }];
             
             \addplot[color=green!50!white] fill between[of= lower and axis];
-            \node[rectangle, draw=none, thick, fill=none] at (axis cs: 0.8,0.9) {Density distributions for $\mathcal{Q}_p$ and $\mathscr{C}$};
+            \node[rectangle, draw=none, thick, fill=none] at (axis cs: 0.8,0.9) (inside-node) {Density distributions for $\mathcal{Q}_p$ and $\mathscr{C}$};
         \end{axis}
         
-        \node[rectangle, draw=black, thick, fill=green!10, inner sep=0.2cm] at (3,-3) (first-box) {\textbf{Minimized} short-range interaction \\ \\ $\mathcal{Q}_p+\mathscr{C}$ = \emph{attractive}};
+        \node[rectangle, draw=black, thick, fill=green!10, inner sep=0.2cm] at (2,-2) (first-box) {\textbf{Minimized} short-range interaction \\ \\ $\mathcal{Q}_p+\mathscr{C}$ = \emph{attractive}};
         
         \node[rectangle, draw=black, thick, fill=red!10, inner sep=0.2cm] (second-box) [below=of first-box] {\textbf{Minimal} energy (PES)};
         
-        \node[rectangle, draw=black, thick, fill=blue!10, inner sep=0.2cm] (second-box) [below=of second-box] {\textbf{Stable triaxial shape} \\ $\downarrow$ \\ \textbf{Wobbling Motion}};
+        \node[rectangle, draw=black, thick, fill=blue!10, inner sep=0.2cm] (third-box) [below=of second-box] {\textbf{Stable triaxial shape} \\ $\downarrow$ \\ \textbf{Wobbling Motion}};
+
+        \draw[-latex] [very thick,black] (inside-node.east) -- ($(inside-node.east)+(2,0)$) |- (first-box.east);
+        \draw[-latex] [very thick,black] (first-box) --  (second-box);
+        \draw[-latex] [very thick,black] (first-box) --  (second-box);
+        \draw[-latex] [very thick,black] (second-box) -- (third-box);
     \end{tikzpicture}
     \caption{The workflow of a quasi-particle with particle character $\mathcal{Q}_p$ in its coupling with a triaxial rotor $\mathscr{C}$.}
     \label{advanced-quasiparticle-coupling-1}
