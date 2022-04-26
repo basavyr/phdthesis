@@ -374,12 +374,18 @@ In this section, the collective motion specific to triaxial structures was treat
 
 Concluding, the wobbling phenomenon was properly described through a quantitative analysis of different observables of interest (rotational frequency, wobbling frequency, wobbling energy, MOI, and so on) for even-even nuclei and also for odd-$A$ nuclei, showing multiple sets of results. In the next chapter, the introduction of the `core'-framework of this research can be finally done, starting from the initial assumptions, and reaching the important results and features that emerge from the formalism.
 
-\newcommand\gauss[2]{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))} % Gauss function, parameters mu and sigma
 \usepgfplotslibrary{fillbetween}
-\usetikzlibrary{positioning}
-\usetikzlibrary{shapes.multipart}
-\usetikzlibrary{arrows,calc,fit}
-\usetikzlibrary{matrix,backgrounds,decorations.pathreplacing,positioning}
+\usetikzlibrary{cd,arrows,calc,fit,positioning,matrix,backgrounds}
+\usetikzlibrary{shapes.geometric,shapes.multipart,decorations.pathreplacing}
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=white]
+\tikzstyle{arrow1}=[ultra thick,->,>=stealth]
+\tikzstyle{arrow}=[thick,->,>=stealth]
+\tikzset{
+    shift left/.style ={commutative diagrams/shift left={#1}},
+    shift right/.style={commutative diagrams/shift right={#1}}
+    }
+% define the gaussian function
+\newcommand\gauss[2]{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))} % Gauss function, parameters mu and sigma
 \begin{center}
     \begin{figure}
         \centering
