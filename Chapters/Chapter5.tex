@@ -382,47 +382,48 @@ Concluding, the wobbling phenomenon was properly described through a quantitativ
 \usetikzlibrary{matrix,backgrounds,decorations.pathreplacing,positioning}
 \begin{center}
     \begin{figure}
-    \begin{tikzpicture}[every text node part/.style={align=center}]
-        \begin{axis}[scale=0.6,every axis plot post/.append style={
-            mark=none,domain=-2:3,samples=50,smooth}, % All plots: from -2:2, 50 samples, smooth, no marks
-            axis x line*=bottom, % no box around the plot, only x and y axis
-            axis y line*=left, % the * suppresses the arrow tips
-            axis line style={draw=none},
-            xtick=\empty, ytick=\empty,
-            enlargelimits=false, 
-            clip=false, axis on top,
-            grid = major,
-            legend style={at={(1,1)},anchor=north,legend cell align=left}] % extend the axes a bit to the right and top
+        \centering
+        \begin{tikzpicture}[every text node part/.style={align=center}]
+            \begin{axis}[scale=0.6,every axis plot post/.append style={
+                mark=none,domain=-2:3,samples=50,smooth}, % All plots: from -2:2, 50 samples, smooth, no marks
+                axis x line*=bottom, % no box around the plot, only x and y axis
+                axis y line*=left, % the * suppresses the arrow tips
+                axis line style={draw=none},
+                xtick=\empty, ytick=\empty,
+                enlargelimits=false, 
+                clip=false, axis on top,
+                grid = major,
+                legend style={at={(1,1)},anchor=north,legend cell align=left}] % extend the axes a bit to the right and top
+                
+                \addplot [name path=model, color=red,thick] {\gauss{0}{0.5}};
+                \addplot [name path=obs, color=blue,very thick] {\gauss{0.5}{0.65}};
+                \legend{$\mathcal{D}\left(\mathcal{Q}_p\right)$,$\mathcal{D}\left(\mathscr{C}\right)$}
+                
+                \path[name path=axis] (axis cs:0,0) -- (axis cs:3,0);
+                
+                \path[name path=lower,
+                    intersection segments={of=model and obs,
+                    sequence={L1 -- R2 -- L3}
+                    }];
+                
+                \addplot[color=green!50!white] fill between[of= lower and axis];
+                \node[rectangle, draw=none, thick, fill=none] at (axis cs: 0.8,0.9) (inside-node) {Density distributions for $\mathcal{Q}_p$ and $\mathscr{C}$};
+            \end{axis}
             
-            \addplot [name path=model, color=red,thick] {\gauss{0}{0.5}};
-            \addplot [name path=obs, color=blue,very thick] {\gauss{0.5}{0.65}};
-            \legend{$\mathcal{D}\left(\mathcal{Q}_p\right)$,$\mathcal{D}\left(\mathscr{C}\right)$}
+            \node[rectangle, draw=black, thick, fill=green!10, inner sep=0.2cm] at (2,-1.8) (first-box) {\textbf{Minimized} short-range interaction \\ \\ $\mathcal{Q}_p+\mathscr{C}$ = \emph{attractive}};
             
-            \path[name path=axis] (axis cs:0,0) -- (axis cs:3,0);
+            \node[rectangle, draw=black, thick, fill=red!10, inner sep=0.2cm] (second-box) [below=of first-box] {\textbf{Minimal} energy (PES) \\ \includegraphics[scale=0.1]{Chapters/Figures/PES_small_update.png}};
             
-            \path[name path=lower,
-                  intersection segments={of=model and obs,
-                  sequence={L1 -- R2 -- L3}
-                  }];
-            
-            \addplot[color=green!50!white] fill between[of= lower and axis];
-            \node[rectangle, draw=none, thick, fill=none] at (axis cs: 0.8,0.9) (inside-node) {Density distributions for $\mathcal{Q}_p$ and $\mathscr{C}$};
-        \end{axis}
-        
-        \node[rectangle, draw=black, thick, fill=green!10, inner sep=0.2cm] at (2,-2) (first-box) {\textbf{Minimized} short-range interaction \\ \\ $\mathcal{Q}_p+\mathscr{C}$ = \emph{attractive}};
-        
-        \node[rectangle, draw=black, thick, fill=red!10, inner sep=0.2cm] (second-box) [below=of first-box] {\textbf{Minimal} energy (PES)};
-        
-        \node[rectangle, draw=black, thick, fill=blue!10, inner sep=0.2cm] (third-box) [below=of second-box] {\textbf{Stable triaxial shape} \\ $\downarrow$ \\ \textbf{Wobbling Motion}};
+            \node[rectangle, draw=black, thick, fill=blue!10, inner sep=0.2cm] (third-box) [below=of second-box] {\textbf{Stable triaxial shape} \\ $\downarrow$ \\ \textbf{Wobbling Motion}};
 
-        % \draw[-latex] [very thick,black] (inside-node.east) -- ($(inside-node.east)+(2,0)$) |- (first-box.east);
-        \draw[-latex] [very thick,black] (inside-node.east) -- ($(inside-node.east)+(2.2,0)$) |- node [xshift=-1.9cm,yshift=2.7cm] {\textbf{Maximal overlap} \\ between \\ $\mathcal{D}\left(\mathcal{Q}_p\right)$ and $\mathcal{D}\left(\mathscr{C}\right)$} (first-box.east);
-        \draw[-latex] [very thick,black] (first-box) --  (second-box);
-        \draw[-latex] [very thick,black] (first-box) --  (second-box);
-        \draw[-latex] [very thick,black] (second-box) -- (third-box);
-    \end{tikzpicture}
-    \caption{The workflow of a quasi-particle with particle character $\mathcal{Q}_p$ in its coupling with a triaxial rotor $\mathscr{C}$.}
-    \label{advanced-quasiparticle-coupling-1}
+            % \draw[-latex] [very thick,black] (inside-node.east) -- ($(inside-node.east)+(2,0)$) |- (first-box.east);
+            \draw[-latex] [very thick,black] (inside-node.east) -- ($(inside-node.east)+(2.2,0)$) |- node [xshift=-1.9cm,yshift=2.7cm] {\textbf{Maximal overlap} \\ between \\ $\mathcal{D}\left(\mathcal{Q}_p\right)$ and $\mathcal{D}\left(\mathscr{C}\right)$} (first-box.east);
+            \draw[-latex] [very thick,black] (first-box) --  (second-box);
+            \draw[-latex] [very thick,black] (first-box) --  (second-box);
+            \draw[-latex] [very thick,black] (second-box) -- (third-box);
+        \end{tikzpicture}
+        \caption{The workflow of a quasi-particle with particle character $\mathcal{Q}_p$ in its coupling with a triaxial rotor $\mathscr{C}$.}
+        \label{advanced-quasiparticle-coupling-1}
     \end{figure}
 \end{center}
 
