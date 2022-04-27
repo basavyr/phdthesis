@@ -20,6 +20,19 @@
 \usepackage{pgfplots}
 \usepackage{tikz}
 \pgfplotsset{compat=1.17}
+\usepgfplotslibrary{fillbetween}
+\usetikzlibrary{cd,arrows,calc,fit,positioning,matrix,backgrounds}
+\usetikzlibrary{shapes.geometric,shapes.multipart,decorations.pathreplacing}
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=white]
+\tikzstyle{arrow1}=[ultra thick,->,>=stealth]
+\tikzstyle{arrow}=[thick,->,>=stealth]
+\tikzset{
+    shift left/.style ={commutative diagrams/shift left={#1}},
+    shift right/.style={commutative diagrams/shift right={#1}}
+    }
+% define the gaussian function
+\newcommand\gauss[2]{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))} % Gauss function, parameters mu and sigma
+
 
 \bibliographystyle{unsrt}
 %%------------------------------------------------------MAIN DOCUMENT------------------------------------------------------
