@@ -296,9 +296,9 @@ Going back to the two wobbling modes for an odd-$A$ nucleus, the $\mathcal{Q}+\m
         \begin{scope}[xshift=1cm]
             % add coupling schematic
             \draw[-latex] [thick, color=black,dashed] (1.5,6) -- (6,6) node [yshift=-0.3cm] {$m$-axis};
-            \draw[-latex] [thick, color=black,dashed] (1.5,6) -- (6,6) node [yshift=+0.4cm,xshift=0.3cm] {$\mathcal{I}_m$ - largest MOI};
+            \draw[-latex] [ultra thick, color=black,dashed] (1.5,6) -- (6,6) node [yshift=+0.4cm,xshift=0.3cm] {$\mathcal{I}_m>(\mathcal{I}_{l},\mathcal{I}_{s})$};
             \draw[-latex] [thick, color=black,dashed] (1.5,6) -- (1.5,9) node [pos=1,above] {$s$-axis};
-            \draw[-latex] [ultra thick, color=black!60!green] (1.5,6) -- (4,6) node [yshift=0.4cm] {$\mathbf{j}_{\mathscr{C}}$};
+            \draw[-latex] [ultra thick, color=black!60!green] (1.5,6) -- (4,6.6) node [yshift=0.3cm,xshift=-0.5cm] {$\mathbf{R}_{\mathscr{C}}$};
             \draw[-latex] [ultra thick, color=magenta] (1.5,6) -- (1.5,8) node [xshift=-0.5cm] (my-arrow) {$\mathbf{j}_{\mathcal{Q}_p}$};
             % \draw[-latex] [ultra thick, color=magenta] (1.5,6) -- (1.5,8) node [pos=1,above,xshift=-1cm] (my-arrow) {$\mathbf{j}_{\mathcal{Q}_p}$};
             \node[rectangle, draw=black, fill=none,anchor=south west] at (1.5,6) {};
@@ -311,7 +311,7 @@ Going back to the two wobbling modes for an odd-$A$ nucleus, the $\mathcal{Q}+\m
         \node[rectangle, draw=black, thick, fill=green!10, inner sep=0.2cm,minimum width=8 cm] (second-box) [below=of first-box] {\textbf{Minimal} energy (PES)};
         \node[rectangle] (pes-image-box) [right=of second-box,xshift=-0.7cm,yshift=0.4cm] {\includegraphics[scale=0.12]{Chapters/Figures/PES_small_update.png}};
         
-        \node[rectangle, draw=black, thick, fill=green!10, inner sep=0.2cm,minimum width=8 cm] (third-box) [below=of second-box] {\textbf{Stable triaxial shape} \\ $\downarrow$ \\ \textbf{Transverse Wobbling Motion}: \\ $\mathbf{j}_{\mathcal{Q}_p}\perp (m_\text{axis}\ ||\  \mathbf{j}_\mathscr{C})$};
+        \node[rectangle, draw=black, thick, fill=green!10, inner sep=0.2cm,minimum width=8 cm] (third-box) [below=of second-box] {\textbf{Stable triaxial shape} \\ $\downarrow$ \\ \textbf{Transverse Wobbling Motion}: \\ $\mathbf{j}_{\mathcal{Q}_p}\perp \mathbf{m}_\text{axis}$};
         \node[rectangle] (precession-cone-box) [right=of third-box,xshift=-1cm] {\includegraphics[scale=0.3]{Chapters/Figures/precessional_cone.png}};
         
         \node[rectangle, draw=black,xshift=6cm,yshift=2cm,fill=green!10, minimum width=4cm] (maximal-box) {\textbf{Maximal overlap} \\ between \\ {\color{magenta}$\mathcal{D}\left(\mathcal{Q}_p\right)$} and {\color{black!60!green}$\mathcal{D}\left(\mathscr{C}\right)$}};
@@ -381,9 +381,9 @@ Going back to the two wobbling modes for an odd-$A$ nucleus, the $\mathcal{Q}+\m
     \begin{scope}[xshift=1cm]
         % add coupling schematic
         \draw[-latex] [thick, color=black,dashed] (1.5,6) -- (6,6) node [yshift=-0.3cm] {$m$-axis};
-        \draw[-latex] [thick, color=black,dashed] (1.5,6) -- (6,6) node [yshift=+0.4cm,xshift=0.3cm] {$\mathcal{I}_m$ - largest MOI};
+        \draw[-latex] [ultra thick, color=black,dashed] (1.5,6) -- (6,6) node [yshift=+0.4cm,xshift=0.3cm] {$\mathcal{I}_m>(\mathcal{I}_{l},\mathcal{I}_{s})$};
         \draw[-latex] [thick, color=black,dashed] (1.5,6) -- (1.5,9) node [pos=1,above] {$l$-axis};
-        \draw[-latex] [ultra thick, color=black!60!green] (1.5,6) -- (4,6) node [yshift=0.4cm] {$\mathbf{j}_{\mathscr{C}}$};
+        \draw[-latex] [ultra thick, color=black!60!green] (1.5,6) -- (4,6.6) node [yshift=0.3cm,xshift=-0.5cm] {$\mathbf{R}_{\mathscr{C}}$};
         \draw[-latex] [ultra thick, color=blue] (1.5,6) -- (1.5,8) node [xshift=-0.5cm] (my-arrow) {$\mathbf{j}_{\mathcal{Q}_h}$};
         % \draw[-latex] [ultra thick, color=magenta] (1.5,6) -- (1.5,8) node [pos=1,above,xshift=-1cm] (my-arrow) {$\mathbf{j}_{\mathcal{Q}_p}$};
         \node[rectangle, draw=black, fill=none,anchor=south west] at (1.5,6) {};
@@ -396,7 +396,7 @@ Going back to the two wobbling modes for an odd-$A$ nucleus, the $\mathcal{Q}+\m
     \node[rectangle, draw=black, thick, fill=red!10, inner sep=0.2cm,minimum width=8 cm] (second-box) [below=of first-box] {\textbf{Minimal} energy (PES)};
     \node[rectangle] (pes-image-box) [right=of second-box,xshift=-0.7cm,yshift=0.4cm] {\includegraphics[scale=0.12]{Chapters/Figures/PES_small_update.png}};
     
-    \node[rectangle, draw=black, thick, fill=red!10, inner sep=0.2cm,minimum width=8 cm] (third-box) [below=of second-box] {\textbf{Stable triaxial shape} \\ $\downarrow$ \\ \textbf{Transverse Wobbling Motion}: \\ $\mathbf{j}_{\mathcal{Q}_h}\perp (m_\text{axis}\ ||\  \mathbf{j}_\mathscr{C})$};
+    \node[rectangle, draw=black, thick, fill=green!10, inner sep=0.2cm,minimum width=8 cm] (third-box) [below=of second-box] {\textbf{Stable triaxial shape} \\ $\downarrow$ \\ \textbf{Transverse Wobbling Motion}: \\ $\mathbf{j}_{\mathcal{Q}_h}\perp \mathbf{m}_\text{axis}$};
     \node[rectangle] (precession-cone-box) [right=of third-box,xshift=-1cm] {\includegraphics[scale=0.3]{Chapters/Figures/precessional_cone_2.png}};
     
     \node[rectangle, draw=black,xshift=6cm,yshift=2cm,fill=red!10, minimum width=4cm] (maximal-box) {\textbf{Minimal overlap} \\ between \\ {\color{blue}$\mathcal{D}\left(\mathcal{Q}_h\right)$} and {\color{black!60!green}$\mathcal{D}\left(\mathscr{C}\right)$}};
@@ -487,11 +487,11 @@ Going back to the two wobbling modes for an odd-$A$ nucleus, the $\mathcal{Q}+\m
         
         \begin{scope}[xshift=1cm]
             % add coupling schematic
-            \draw[-latex] [thick, color=black,dashed] (1.5,6) -- (5.5,6) node [yshift=-0.3cm] {$m$-axis};
-            \draw[-latex] [thick, color=black,dashed] (1.5,6) -- (5.5,6) node [yshift=+0.4cm,xshift=0.6cm] {$\mathcal{I}_m$ - largest MOI};
+            % \draw[-latex] [thick, color=black,dashed] (1.5,6) -- (5.5,6) node [yshift=-0.3cm] {$m$-axis};
+            \draw[-latex] [ultra thick, color=black,dashed] (1.5,6) -- (6,6) node [yshift=+0.4cm,xshift=0.3cm] {$\mathcal{I}_m>(\mathcal{I}_{l},\mathcal{I}_{s})$};
             % \draw[-latex] [thick, color=black,dashed] (1.5,6) -- (1.5,9) node [pos=1,above] {$l$-axis};
-            \draw[-latex] [ultra thick, color=black!60!green] (1,6) -- (4,6) node [yshift=0.4cm] {$\mathbf{j}_{\mathscr{C}}$};
-            \draw[-latex] [ultra thick, color=magenta] (1,6) -- (3,6) node [yshift=0.4cm] (my-arrow) {$\mathbf{j}_{\mathcal{Q}_p}$};
+            \draw[-latex] [ultra thick, color=black!60!green] (1.5,6) -- (4,6.6) node [yshift=0.3cm,xshift=-0.5cm] {$\mathbf{R}_{\mathscr{C}}$};
+            \draw[-latex] [ultra thick, color=magenta] (1.5,6) -- (3,6) node [yshift=-0.4cm] (my-arrow) {$\mathbf{j}_{\mathcal{Q}_p}$};
             \node[rectangle, draw=black, fill=blue!10,anchor=south west, minimum width=4cm] at (3,7.5) (coupling-box) {$(\mathcal{Q}_p+\mathscr{C})$\\ Coupling};
         \end{scope}
         
@@ -501,7 +501,7 @@ Going back to the two wobbling modes for an odd-$A$ nucleus, the $\mathcal{Q}+\m
         \node[rectangle, draw=black, thick, fill=blue!10, inner sep=0.2cm,minimum width=8 cm] (second-box) [below=of first-box] {\textbf{Minimal} energy (PES)};
         \node[rectangle] (pes-image-box) [right=of second-box,xshift=-0.7cm,yshift=0.4cm] {\includegraphics[scale=0.12]{Chapters/Figures/PES_small_update.png}};
         
-        \node[rectangle, draw=black, thick, fill=blue!10, inner sep=0.2cm,minimum width=8 cm] (third-box) [below=of second-box] {\textbf{Stable triaxial shape} \\ $\downarrow$ \\ \textbf{Longitudinal Wobbling Motion}: \\ $\mathbf{j}_{\mathcal{Q}_p}\ ||\ (m_\text{axis}\ ||\  \mathbf{j}_\mathscr{C})$};
+        \node[rectangle, draw=black, thick, fill=blue!10, inner sep=0.2cm,minimum width=8 cm] (third-box) [below=of second-box] {\textbf{Stable triaxial shape} \\ $\downarrow$ \\ \textbf{Longitudinal Wobbling Motion}: \\ $\mathbf{j}_{\mathcal{Q}_p}\ ||\ \mathbf{m}_\text{axis}$};
         \node[rectangle] (precession-cone-box) [right=of third-box,xshift=-1cm] {\includegraphics[scale=0.3]{Chapters/Figures/precessional_cone_3.png}};
         
         \node[rectangle, draw=black,xshift=6cm,yshift=2cm,fill=blue!10, minimum width=4cm] (maximal-box) {\textbf{Maximal overlap} \\ between \\ {\color{magenta}$\mathcal{D}\left(\mathcal{Q}_p\right)$} and {\color{black!60!green}$\mathcal{D}\left(\mathscr{C}\right)$}};
@@ -662,14 +662,14 @@ In the same manner as for the simple wobbler, a geometrical representation for t
     \centering
     \includegraphics[scale=0.5]{Chapters/Figures/longitudinal_wobbler-schematic.pdf}
     \includegraphics[scale=0.5]{Chapters/Figures/transverse_wobbler-schematic.pdf}
-    \caption{Geometrical representation with the alignment scheme for a longitudinal wobbler and a transverse wobbler. The the a.m. vector for the odd-nucleon is represented by $\mathbf{j}$, for the core is represented by $\mathbf{R}$, and the total a.m. is represented by $\mathbf{I}$. Note that the precessional motion with oscillator-like behavior of $\mathbf{I}$ is illustrated with the encircled sine wave (black color). The resulting motion of the total a.m. will consist in a precessional cone that is properly depicted in Figs. \ref{advanced-quasiparticle-coupling-1}-\ref{advanced-quasiparticle-coupling-3}.}
+    \caption{Geometrical representation with the alignment scheme for a longitudinal wobbler and a transverse wobbler. The the a.m. vectors for the quasi-particle, the core, and the total system are represented by a, b, and c, respectively. Note that the precessional motion with oscillator-like behavior of $\mathbf{I}$ is illustrated with the encircled sine wave (black color). The resulting motion of the total a.m. will consist in a precessional cone that is properly depicted in Figs. \ref{advanced-quasiparticle-coupling-1}-\ref{advanced-quasiparticle-coupling-3}.}
     \label{wobbling-oddA-geometry}
 \end{figure}
 \begin{figure}
     \centering
     \includegraphics[scale=0.55]{Chapters/Figures/yrast_wobbler-schematic.pdf}
     \includegraphics[scale=0.55]{Chapters/Figures/signaturePartner_wobbler-schematic.pdf}
-    \caption{Geometrical representation with the alignment scheme for an yrast wobbling state and signature partner wobbling band. The the a.m. vector for the odd-nucleon is represented by $\mathbf{j}$, for the core is represented by $\mathbf{R}$, and the total a.m. is represented by $\mathbf{I}$. Note that the precessional motion with oscillator-like behavior of $\mathbf{I}$ is illustrated with the encircled sine wave (black color). For the signature partner wobbling, the core's a.m. is aligned with one of the principal axes. The resulting motion of the total a.m. will consist in a precessional cone that is properly depicted in Figs. \ref{advanced-quasiparticle-coupling-1}-\ref{advanced-quasiparticle-coupling-3}.}
+    \caption{Geometrical representation with the alignment scheme for an yrast wobbling state and signature partner wobbling band. The the a.m. vectors for the quasi-particle, the core, and the total system are represented by a, b, and c, respectively. Note that the precessional motion with oscillator-like behavior of $\mathbf{I}$ is illustrated with the encircled sine wave (black color). For the signature partner wobbling, the core's a.m. is aligned with one of the principal axes. The resulting motion of the total a.m. will consist in a precessional cone that is properly depicted in Figs. \ref{advanced-quasiparticle-coupling-1}-\ref{advanced-quasiparticle-coupling-3}.}
     \label{wobbling-geometry-YRAST-SPB}
 \end{figure}
 
