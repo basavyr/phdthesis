@@ -97,23 +97,23 @@ with the alternating signs corresponding to the proton and neutron, respectively
 % \subsubsection*{Numerical application - Deformed Potential}
 thus one can see that the single-particle potential strength $V$ is in fact related to this coupling parameter.
 
-It is worth giving some quantitative results concerning the quadrupole potential and the single-particle Hamiltonian described above. As such, a simple numerical application will be employed, giving graphical representations with the behavior of these quantities with respect to the deformation parameters. Firstly, the potential $\hat{H}_\text{int}^\text{quad}$ will be analyzed in the polar plane defined by the angles $(\theta,\varphi)$ which enter in the expression of the spherical harmonics. For nuclei within $A\approx 160$ region, it is common to have values of $\beta_2\approx 0.2,0.3$ and $\gamma\approx 20^\circ$, so values for these parameters will be given within this range. The quadrupole potential $V_\text{int}^\text{quad}$ can be seen in Figs. \ref{figs-deformed-quadrupole-potential-1} - \ref{figs-deformed-quadrupole-potential-2}.
+It is worth giving some quantitative results concerning the quadrupole potential and the single-particle Hamiltonian described above. As such, a simple numerical application will be employed, obtaining graphical representations with the behavior of these quantities with respect to the deformation parameters. Firstly, the potential $\hat{H}_\text{int}^\text{quad}$ will be analyzed in the polar plane defined by the angles $(\theta,\varphi)$ (since the spherical harmonics are defined in terms of them). For nuclei near the $A\approx 160$ region, it is common to have values of $\beta_2\in\left[0.2,0.4\right]$ and $\gamma\approx 20^\circ$, so for testing purposes one can fix $\beta_2$ and $\gamma$ within those ranges. Therefore, the quadrupole potential $\hat{H}_\text{int}^\text{quad}$ can be numerically evaluated for known polar angles, and the results can be seen in Figs. \ref{figs-deformed-quadrupole-potential-1} - \ref{figs-deformed-quadrupole-potential-2}.
 \begin{figure}
     \centering
     \includegraphics[scale=0.66]{Chapters/Figures/quadrupole-potentialV-1.pdf}
     \includegraphics[scale=0.66]{Chapters/Figures/quadrupole-potentialV-2.pdf}
-    \caption{The quadrupole potential $V_\text{int}^\text{quad}$ as defined in Eq. \ref{quadrupole-deformed-potential-V}, represented as a function of the angular coordinates $\theta$ and $\varphi$. Calculations were done with fixed parameters $\beta_2$, $\gamma$, and for $A=163$.}
+    \caption{The quadrupole potential $\hat{H}_\text{int}^\text{quad}$ as defined in Eq. \ref{quadrupole-deformed-potential-V}, represented as a function of the angular coordinates $\theta$ and $\varphi$. Calculations were done with fixed parameters $\beta_2$, $\gamma$, and for $A=163$.}
     \label{figs-deformed-quadrupole-potential-1}
 \end{figure}
 \begin{figure}
     \centering
     \includegraphics[scale=0.66]{Chapters/Figures/quadrupole-potentialV-3.pdf}
     \includegraphics[scale=0.66]{Chapters/Figures/quadrupole-potentialV-4.pdf}
-    \caption{The quadrupole potential $V_\text{int}^\text{quad}$ as defined in Eq. \ref{quadrupole-deformed-potential-V}, represented as a function of the angular coordinates $\theta$ and $\varphi$. Calculations were done with fixed parameters $\beta_2$, $\gamma$, and for $A=163$.}
+    \caption{The quadrupole potential $\hat{H}_\text{int}^\text{quad}$ as defined in Eq. \ref{quadrupole-deformed-potential-V}, represented as a function of the angular coordinates $\theta$ and $\varphi$. Calculations were done with fixed parameters $\beta_2$, $\gamma$, and for $A=163$.}
     \label{figs-deformed-quadrupole-potential-2}
 \end{figure}
 
-For the evaluation of $h$ given in Eq. \ref{single-particle-energies-hpn} (the indices $p,n$ are dismissed hereafter), one can take the diagonal components of $h$ and apply the rules only for one proton ($p$). As a result, the \emph{mixing terms} $j_+$ and $j_-$ from $h$ won't contribute at all, since their action on protonic states $\ket{jk}$ will give zero. Only the $(j_3^2-j(j+1)/3)$ term will contribute to the diagonal components of $h$. For a proton state $\ket{jk}$, where $k=-j,\dots,j$, the diagonal element $\bra{jk}h\ket{jk}$ will be:
+Concerning the numerical evaluation of $h$ given in Eq. \ref{single-particle-energies-hpn} (hereafter, the indices $p,n$ are dismissed), one can take the diagonal components of $h$ and apply the rules only for one proton. As a result, the \emph{mixing terms} $j_+$ and $j_-$ from $h$ will not contribute at all, since their action on protonic states $\ket{jk}$ will give zero. Only the $(j_3^2-j(j+1)/3)$ term will affect the diagonal components of $h$. For a proton state $\ket{jk}$, where $k=-j,\dots,j$, the diagonal element $\bra{jk}h\ket{jk}$ will be:
 \begin{align}
     h_{jk}\equiv\bra{jk}h\ket{jk}=\frac{1}{2}C_\beta\cos\gamma\bra{jk}\left(j_3^2-\frac{j(j+1)}{3}\right)\ket{jk}\ ,
 \end{align}
@@ -122,9 +122,7 @@ which can be simplified to:
     h_{jk}=\frac{1}{2}C_\beta\cos\gamma\left(k^2-\frac{j(j+1)}{3}\right)\ .
     \label{hdiag-equation}
 \end{align}
-This matrix elements will be functions of deformation parameters as well as the projection $k$ of the particle'
-s angular momentum onto the $3$-axis. Since $j_3$ is applied twice on $\ket{jk}$ state, the final result will be $k^2$, so only the positive values can be considered for the numerical application $k=1/2,\dots,j$. When a high-$j$ proton orbital (say $h_{11/2}$ or $i_{13/2}$) is considered, for a nucleus with $A=167$, the evolution of $h_{jk}$ as function of $\beta_2$ and $\gamma$, respectively, are shown in Figs. \ref{hdiag-beta-evolution}. For completeness, the evolution w.r.t. the triaxiality parameter $\gamma$ for the diagonal matrix elements of $h$ are shown Fig. \ref{hdiag-gamma-evolution}.
-
+These matrix elements will be functions of deformation parameters as well as the projection $k$ of the particle's angular momentum onto the $3$-axis. Since $j_3$ is applied twice on $\ket{jk}$ state, the final result will be $k^2$, so only the positive values can be considered for the numerical application $k=1/2,\dots,j$. The qualitative evolution of $h_{jk}$ as function of $\beta_2$ and $\gamma$ is studied for a nucleus with $A=167$ in which the odd-particle is either a proton in the $h_{11/2}$-shell or in the $i_{13/2}$-shell. The behavior of $h_{jk}$ w.r.t. the quadrupole deformation parameter can be seen in Fig. \ref{hdiag-beta-evolution}, while Fig. \ref{hdiag-gamma-evolution} shows the behavior of $h_{jk}$ w.r.t. the triaxiality parameter $\gamma$.
 \begin{figure}
     \centering
     \includegraphics[scale=0.7]{Chapters/Figures/singleParticle-hdiag-1.pdf}
@@ -132,7 +130,6 @@ s angular momentum onto the $3$-axis. Since $j_3$ is applied twice on $\ket{jk}$
     \caption{The evolution with quadrupole deformation parameter $\beta_2$ for the diagonal matrix elements of $h_{jk}$ defined in Eq. \ref{hdiag-equation} (proton on a defined $j$-shell), at a fixed triaxiality parameter $\gamma$. See text for details.}
     \label{hdiag-beta-evolution}
 \end{figure}
-
 \begin{figure}
     \centering
     \includegraphics[scale=0.7]{Chapters/Figures/hdiag-gamma-1.pdf}
