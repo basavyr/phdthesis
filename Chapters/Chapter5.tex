@@ -87,7 +87,7 @@ The spectrum for an even-even wobbling nucleus is thus represented by Eq. \ref{e
     \label{wobbling-geometry-tilting-sketch}    
 \end{figure}
 
-An alternative way of depicting the wobbling term $H_w$ from Eq. \ref{rot-ham-non-diagonal} would be to express it more generally, in terms of $I_2$ and $I_3$. When doing so, one achieves the following form (assuming that rotation is around the $3$-axis) \cite{oi2006semi}:
+An alternative way of depicting the wobbling term $H_w$ from Eq. \ref{wob-ham-non-diagonal} or Eq. \ref{wob-ham-diagonal} would be to express it more generally in terms of $I_1$ and $I_2$. When doing so, one achieves the following form (assuming that rotation is around the $3$-axis) \cite{oi2006semi}:
 \begin{align}
     % H_w={\color{magenta}(A_1-A_3)I_1^2}+{\color{orange}(A_2-A_3)I_2^2}={\color{magenta}T_\text{kin}}+{\color{orange}T_\text{pot}}\ ,
     H_w=(A_1-A_3)I_1^2+(A_2-A_3)I_2^2=T_\text{kin}+T_\text{pot}\ ,
@@ -106,7 +106,6 @@ The rotor energy from Eq. \ref{eq-wobbling-energy-evenA} is graphically represen
     \label{fig-even-even-wobbling-energies}
 \end{figure}
 
-
 Another instructive analysis would be the evolution of the components of $\mathbf{I}$ as functions of the polar and azimuthal angles $\theta,\varphi$. Indeed, expressing the three angular momentum components as:
 \begin{align}
     I_1&=I'\sin\theta\cos\varphi\ ,\\
@@ -114,7 +113,7 @@ Another instructive analysis would be the evolution of the components of $\mathb
     I_3&=I'\cos\theta\ ,
     \label{angular-momentum-polar-components}
 \end{align}
-where $I'=\sqrt{I(I+1)}$, one can make a graphical representation for them, by letting $\theta$ and $\varphi$ vary within their corresponding intervals. In Fig. \ref{figs-angular-momentum-components-polar}, the quantities $I_1$ and $I_2$ are represented in the $(\theta,\varphi)$ plane for a fixed spin value $I=10\hbar$. Since the third component is independent of the azimuthal angle $\varphi$, it has been dismissed.
+where $I'=\sqrt{I(I+1)}$, one can make a graphical representation for them, by letting $\theta$ and $\varphi$ vary within their corresponding intervals. In Fig. \ref{figs-angular-momentum-components-polar}, the quantities $I_1$ and $I_2$ are represented in the $(\theta,\varphi)$ plane for a fixed spin value $I=10\hbar$. Since the third component $I_3$ is independent of the azimuthal angle $\varphi$, it has been dismissed.
 
 \begin{figure}
     \centering
@@ -675,8 +674,7 @@ The wobbling frequency is thus an increasing function of $\mathscr{I}$ for the l
     \caption{The wobbling frequency for an odd-$A$ nucleus, with the $\mathcal{Q}$'s a.m. $j=13/2$, coupled to the core $\mathscr{C}$. \textbf{Left:} The \emph{longitudinal wobbler} case with two sets of MOI, where only $\mathcal{I}_2$ differs. \textbf{Right:} The \emph{transverse wobbler} case with two sets of MOI, where only $\mathcal{I}_2$ is different. In both figures, the unit of $\mathcal{I}_k$ is $\hbar^2\text{MeV}^{-1}$. Note the vertical grid-lines in the right inset, signifying the critical angular momentum where the wobbling frequency reaches zero.}
     \label{wobbling-freq-oddA}
 \end{figure}
-
-In the same manner as for the simple wobbler, a geometrical representation for the coupling schemes in the longitudinal and transverse wobbling motion can be made in order to get a grasp on the alignments involved. As such, Fig. \ref{wobbling-oddA-geometry} shows these representations. Besides the wobbling regimes that emerge from a FA of the odd nucleon, two more wobbling modes can exist. Namely, for the yrast states (that is the lowest energy state of a given value of angular momentum $I$) and the \emph{excited state} of the odd-particle itself. When the a.m. of the odd nucleon starts to execute small precession around one of the principal axes of the triaxial core, then those excited states are regarded as \emph{signature partners} (since the de-alignment of the a.m. will cause the apparition of the favored and un-favored sequences, as described in Section \ref{section-ral-signature}). The yrast wobbling is simply regarded as a complete alignment of the odd-nucleon and core angular momenta with the $m$-axis, whose coupling scheme is similar to LW except that there is no precessional motion for the angular momenta. These two particular cases are graphically represented (in the same manner as for LW and TW) in Fig. \ref{wobbling-geometry-YRAST-SPB}.
+In the same manner as for the simple wobbler, a geometrical representation for the coupling schemes in the longitudinal and transverse wobbling motion can be made in order to get a grasp on the alignments involved. As such, Fig. \ref{wobbling-oddA-geometry} shows these representations. Besides the wobbling regimes that emerge from a FA of the odd nucleon, two more wobbling modes can exist. Namely, for the yrast states (that is the lowest energy state of a given value of angular momentum $I$) and the \emph{excited state} of the odd-particle itself. When the a.m. of the odd nucleon starts to execute small precession around one of the principal axes of the triaxial core, then those excited states are viewed as \emph{signature partners} (since the de-alignment of the a.m. will cause the apparition of the favored and un-favored sequences, as described in Section \ref{section-ral-signature}). The yrast wobbling is simply regarded as a complete alignment of the odd-nucleon and core angular momenta with the $m$-axis, whose coupling scheme is similar to LW except that there is no precessional motion for the angular momenta. These two particular cases are graphically represented in Fig. \ref{wobbling-geometry-YRAST-SPB}.
 \begin{figure}
     \centering
     \includegraphics[scale=0.5]{Chapters/Figures/longitudinal_wobbler-schematic.pdf}
@@ -704,13 +702,13 @@ Although WM was predicted theoretically more than 50 years ago by Bohr and Motte
 
 \subsection{Wobbling around A=100}
 
-In this region, recent measurements show that $^\mathbf{105}$\textbf{Pd} \cite{timar2019experimental} has two rotational bands built as wobbling excitations. The odd quasi-particle is a neutron from the $h_{11/2}$ orbital, coupling to the even-even core. The $\mathcal{Q}+\mathscr{C}$ coupling in which the valence nucleon is a neutron represents a rare example across the nuclide chart. The even-even nucleus $^\mathbf{112}$\textbf{Ru} \cite{hamilton2010super} is also reportedly to have three wobbling bands (one yrast and two excited), showing that from the three isotopes $^{108,110,112}$Ru, this one is the only one exhibiting a stable triaxial shape. Moreover, this isotope represents one of the few examples of collective excitations emerging from even-mass nuclei. Additionally, some measurements on $^\mathbf{114}$\textbf{Pd} \cite{luo2013triaxial}, which is an isotone of the previous nucleus, show that the two bands with different signature ($\alpha=0$ and $\alpha=1$) have similar behavior with the ones from $^{112}$Ru (the excitation energies as function of angular momentum varies in the same fashion). However, the determination of mixing ratios and transition probabilities between levels was not possible, so the interpretation of these structures as wobbling bands cannot be fully ascertained \cite{lv2022experimental}. The wobbling nuclei within this region can be seen in Fig. \ref{wobblers-exp-set1}.
+In this region, recent measurements show that $^\mathbf{105}$\textbf{Pd} \cite{timar2019experimental} has two rotational bands built as wobbling excitations. The odd quasi-particle is a neutron from the $h_{11/2}$ orbital, coupling to the even-even core. The $\mathcal{Q}+\mathscr{C}$ coupling in which the valence nucleon is a neutron represents a rare example across the nuclide chart. The even-even nucleus $^\mathbf{112}$\textbf{Ru} \cite{hamilton2010super} is also reportedly to have three wobbling bands (one yrast and two excited), showing that from the three isotopes $^{108,110,112}$Ru, this one is the only one exhibiting a stable triaxial shape. Moreover, this isotope represents one of the few examples of collective excitations emerging from even-mass nuclei. Additionally, some measurements on $^\mathbf{114}$\textbf{Pd} \cite{luo2013triaxial}, which is an isotone of the previous nucleus, show that the two bands with different signature ($\alpha=0$ and $\alpha=1$) have similar behavior with the ones from $^{112}$Ru (the excitation energies as function of angular momentum vary in the same fashion). However, the determination of mixing ratios and transition probabilities between levels was not possible, so the interpretation of these structures as wobbling bands cannot be fully ascertained \cite{lv2022experimental}. The behavior of the wobbling energy $E_\text{wob}$ as defined in Eq. \ref{eq-wobbling-energy-definition-evenA} is calculated for all the mentioned nuclei, using the available experimental data, and the results are shown in Fig. \ref{wobblers-exp-set1}.
 \begin{figure}
     \centering
-    \includegraphics[scale=0.5]{Chapters/Figures/wobblers/105Pd.pdf}
-    \includegraphics[scale=0.5]{Chapters/Figures/wobblers/112Ru.pdf}
-    \includegraphics[scale=0.5]{Chapters/Figures/wobblers/114Pd.pdf}
-    \caption{The experimental wobbling energy, defined through the Eq. \ref{eq-wobbling-energy-definition-evenA} for the nuclei within the $A\approx 100$ mass region. The experimental data is taken from the references cited in text for each isotope.}
+    \includegraphics[width=0.33\textwidth]{Chapters/Figures/wobblers/105Pd.pdf}
+    \includegraphics[width=0.33\textwidth]{Chapters/Figures/wobblers/112Ru.pdf}
+    \includegraphics[width=0.33\textwidth]{Chapters/Figures/wobblers/114Pd.pdf}
+    \caption{The experimental wobbling energy, defined through the Eq. \ref{eq-wobbling-energy-definition-evenA}, for nuclei within the $A\approx 100$ mass region. Data are taken from references cited in text for each isotope.}
     \label{wobblers-exp-set1}
 \end{figure}
 
