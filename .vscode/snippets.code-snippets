@@ -10,7 +10,7 @@
 		"scope": "latex",
 		"prefix": "aw0",
 		"body": [
-			"\\$\\mathbf(W_0)\\$ ",
+			"\\$\\mathbf{W_0}\\$ ",
 			// "$2"
 		],
 		"description": "The approach W_0 used within 2017-2018 research by Raduta and Poenaru"
@@ -19,7 +19,7 @@
 		"scope": "latex",
 		"prefix": "aw1",
 		"body": [
-			"\\$\\mathbf(W_1)\\$ ",
+			"\\$\\mathbf{W_1}\\$ ",
 			// "$2"
 		],
 		"description": "The approach W_1 used within 2020 research by Raduta and Poenaru"
@@ -28,7 +28,7 @@
 		"scope": "latex",
 		"prefix": "aw2",
 		"body": [
-			"\\$\\mathbf(W_2)\\$ ",
+			"\\$\\mathbf{W_2}\\$ ",
 			// "$2"
 		],
 		"description": "The approach W_2 used within 2021 research by Raduta and Poenaru"
