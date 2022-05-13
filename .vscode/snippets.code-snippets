@@ -57,4 +57,20 @@
 		],
 		"description": "quasi hole"
 	},
+	"163Lu-isotope": {
+		"scope": "latex",
+		"prefix": "lu163",
+		"body": [
+			"\\$^{163}\\$Lu",
+		],
+		"description": "write 163Lu isotope"
+	},
+	"general-isotope": {
+		"scope": "latex",
+		"prefix": "isotope",
+		"body": [
+			"\\$^{$1}\\$$2",
+		],
+		"description": "write an isotope of the form $^{$1}$$2"
+	},
 }
