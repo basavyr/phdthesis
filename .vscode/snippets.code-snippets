@@ -40,5 +40,21 @@
 			"\\mathscr{$1}$2",
 		],
 		"description": "Use-Math-Scr"
-	}
+	},
+	"quasi-particle": {
+		"scope": "latex",
+		"prefix": "qpp",
+		"body": [
+			"\\$\\mathcal{Q}_p\\$",
+		],
+		"description": "quasi particle"
+	},
+	"quasi-hole": {
+		"scope": "latex",
+		"prefix": "qph",
+		"body": [
+			"\\$\\mathcal{Q}_h\\$",
+		],
+		"description": "quasi hole"
+	},
 }
