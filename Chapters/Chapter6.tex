@@ -70,17 +70,17 @@ where the ladder operators for the total and single-particle a.m. are represente
 \end{align}
 The states that are involved in $\Psi_\text{trial}$ are as follow: $\ket{IMK}$ represent the Wigner-D functions (i.e., eigenstates of $\hat{I}^2$ and $\hat{I}_3$), while $\ket{j\Omega}$ are the wave-functions of the odd quasi-particle $\mathcal{Q}$ (the eigenstates of $\hat{j}^2$ and $\hat{j}_-$). Notice that for both cases, the trial function contains their extremal form, namely the states of maximum projections $(K=I,\Omega=j)$. For $\ket{IMK}$, one has:
 \begin{align}
-    \ket{IMK}&=\sqrt{\frac{2I+1}{8\pi^2}}\mathcal{D}_{MK}^I \nonumber\\
+    \ket{IMK}&=\sqrt{\frac{2I+1}{8\pi^2}}\mathcal{D}_{MK}^I\ , \nonumber\\
     \ket{IM-K}&=\sqrt{\frac{2I+1}{8\pi^2}}\mathcal{D}_{M-K}^I\ .
     \label{IMK-wigner-functions}
 \end{align}
 The second equation denotes the \emph{time-reversed} states, which are obtained by changing the projection $K$ to $-K$. The single-particle states can be defined more generally as:
 \begin{align}
-    \ket{\chi_\mathcal{Q}}&=\sum_{j\Omega}c_{j\Omega}\ket{\chi_{j\Omega}}\nonumber\\
-    \ket{\bar{\chi}_\mathcal{Q}}&=\sum_{j\Omega}c_{j-\Omega}\ket{\bar{\chi}_{j\Omega}}\ ,
+    \ket{\chi_\mathcal{Q}}&=\sum_{j\Omega}c_{j\Omega}\ket{\chi_{j\Omega}}=\sum_{j\Omega}c_{j\Omega}\ket{j\Omega}\nonumber\\
+    \ket{\bar{\chi}_\mathcal{Q}}=&\sum_{j\Omega}c_{j-\Omega}\ket{\bar{\chi}_{j\Omega}}=\sum_{j\Omega}c_{j-\Omega}\ket{j-\Omega}=\sum_{j\Omega}(-1)^{j-1/2}c_{j\Omega}\ket{j-\Omega}\ .
     \label{j-Omega-single-particle-states}
 \end{align}
-where $\ket{\chi_{j\Omega}}=\ket{j\Omega}$ and $\ket{\bar{\chi}_{j\Omega}}=\ket{j-\Omega}$. The wave-functions are expressed in terms of the projections $\Omega=-j,\dots,j$. The states $\ket{\bar{\chi}_{j\Omega}}$ are the time-reversed ones and they are degenerate with $\ket{\chi_{j\Omega}}$. Because of the $D_2$ symmetry for $\hat{H}$, the total wave-function can be formulated as the a sum over the components $K, \Omega$ and over $j$. Denoting the total wave-function of the odd-mass nucleus as $\ket{\Psi}_\text{odd}$ (not to be confused with the trial function $\Psi_\text{trial}$), it must comprise both the intrinsic ($\mathbf{I}=\mathbf{R}_\mathscr{C}+\mathbf{j}_\mathcal{Q}$) and the single-particle ($\mathbf{j}_\mathcal{Q}$) degrees of freedom, namely:
+The wave-functions are expressed in terms of the projections $\Omega=-j,\dots,j$. The states $\ket{\bar{\chi}_{j\Omega}}$ are the time-reversed ones and they are degenerate with $\ket{\chi_{j\Omega}}$. Because of the $D_2$ symmetry for $\hat{H}$, the total wave-function can be formulated as the a sum over the components $K, \Omega$ and over $j$. Denoting the total wave-function of the odd-mass nucleus as $\ket{\Psi}_\text{odd}$ (not to be confused with the trial function $\Psi_\text{trial}$), it must comprise both the intrinsic ($\mathbf{I}=\mathbf{R}_\mathscr{C}+\mathbf{j}_\mathcal{Q}$) and the single-particle ($\mathbf{j}_\mathcal{Q}$) degrees of freedom, namely:
 \begin{align}
     \ket{\Psi_\text{odd}}&=\ket{\Psi_\text{intr.}}\otimes\ket{\Psi_\mathcal{Q}}=\nonumber\\
     &\sqrt{\frac{2I+1}{16\pi^2}}\sum_K C_k\sum_{j,\Omega}c_{j\Omega}\left(\mathcal{D}_{MK}^I\ket{\chi_{j\Omega}}+(-1)^{I-j}\mathcal{D}_{M-K}^I\ket{\bar{\chi}_{j\Omega}}\right)
