@@ -59,7 +59,7 @@ The discussion regarding the TDVP and TDVE from above can therefore be summarize
     \delta\int_0^t\bra{\Psi_{IjM}}\hat{H}-i\frac{\partial}{\partial t'}\ket{\Psi_{IjM}}dt'=0\ .
     \label{tdve-approach-w1}
 \end{align}
-Obviously, the variational state $\ket{\Psi_{IjM}}\equiv\Psi_\text{trial}$ (also known as the \emph{trial function}) must be chosen in such a way that it comprises the entire space $S_\text{qt}$ of the original quantal Hamiltonian. This can be achieved if $\Psi_\text{trial}$ is a \emph{coherent state} \cite{glauber1963coherent}, which due to its \emph{completeness} property, will span all the basis vector states from $S_\text{qt}$. Keep in mind that for $S_\text{qt}$ the states belong to the Hilbert space of $\hat{H}$. For the present case, the trial function is defined as:
+Obviously, the variational state $\ket{\Psi_{IjM}}\equiv\Psi_\text{trial}$ (also known as the \emph{trial function}) must be chosen in such a way that it comprises the entire space $S_\text{qt}$ of the original quantal Hamiltonian. This can be achieved if $\Psi_\text{trial}$ is a \emph{coherent state} \cite{glauber1963coherent}, which due to its \emph{completeness} property will span all the basis vector states from $S_\text{qt}$. Keep in mind that for $S_\text{qt}$ the states belong to the Hilbert space of $\hat{H}$. For the present case, the trial function is defined as:
 \begin{align}
     \Psi_\text{trial}\equiv\ket{\Psi_{IjM}}=\mathcal{N}e^{z\hat{I}_-}e^{s\hat{j}_-}\ket{IMI}\ket{jj}\ ,
     \label{trial-function-appeoach-w1}
@@ -76,15 +76,15 @@ The states that are involved in $\Psi_\text{trial}$ are as follow: $\ket{IMK}$ r
 \end{align}
 The second equation denotes the \emph{time-reversed} states, which are obtained by changing the projection $K$ to $-K$. The single-particle states can be defined more generally as:
 \begin{align}
-    \ket{\chi_\mathcal{Q}}&=\sum_{j\Omega}c_{j\Omega}\ket{\chi_{j\Omega}}=\sum_{j\Omega}c_{j\Omega}\ket{j\Omega}\nonumber\\
-    \ket{\bar{\chi}_\mathcal{Q}}=&\sum_{j\Omega}c_{j-\Omega}\ket{\bar{\chi}_{j\Omega}}=\sum_{j\Omega}c_{j-\Omega}\ket{j-\Omega}=\sum_{j\Omega}(-1)^{j-1/2}c_{j\Omega}\ket{j-\Omega}\ .
+    \ket{\chi}&=\sum_{j\Omega}c_{j\Omega}\ket{\chi_{j\Omega}}=\sum_{j\Omega}c_{j\Omega}\ket{j\Omega}\nonumber\\
+    \ket{\bar{\chi}}=&\sum_{j\Omega}c_{j-\Omega}\ket{\bar{\chi}_{j\Omega}}=\sum_{j\Omega}c_{j-\Omega}\ket{j-\Omega}=\sum_{j\Omega}(-1)^{j-1/2}c_{j\Omega}\ket{j-\Omega}\ .
     \label{j-Omega-single-particle-states}
 \end{align}
 The wave-functions are expressed in terms of the projections $\Omega=-j,\dots,j$. The states $\ket{\bar{\chi}_{j\Omega}}$ are the time-reversed ones and they are degenerate with $\ket{\chi_{j\Omega}}$. Because of the $D_2$ symmetry for $\hat{H}$, the total wave-function can be formulated as the a sum over the components $K, \Omega$ and over $j$. Denoting the total wave-function of the odd-mass nucleus as $\ket{\Psi}_\text{odd}$ (not to be confused with the trial function $\Psi_\text{trial}$), it must comprise both the intrinsic ($\mathbf{I}=\mathbf{R}_\mathscr{C}+\mathbf{j}_\mathcal{Q}$) and the single-particle ($\mathbf{j}_\mathcal{Q}$) degrees of freedom, namely:
 \begin{align}
     \ket{\Psi_\text{odd}}&=\ket{\Psi_\text{intr.}}\otimes\ket{\Psi_\mathcal{Q}}=\nonumber\\
     &=\sqrt{\frac{2I+1}{16\pi^2}}\sum_K C_K\sum_{j,\Omega}c_{j\Omega}\left[\mathcal{D}_{MK}^I\ket{\chi_{j\Omega}}+(-1)^{I-j}\mathcal{D}_{M-K}^I\ket{\bar{\chi}_{j\Omega}}\right]=\nonumber\\
-    &=\sqrt{\frac{2I+1}{16\pi^2}}\sum_K C_K \left[D_{MK}^I\ket{\chi}+(-1)^{I-1/2}D_{M-K}^I\ket{\bar{\chi}}\right]\ ,
+    &=\sqrt{\frac{2I+1}{16\pi^2}}\sum_K C_K \left[\mathcal{D}_{MK}^I\ket{\chi}+(-1)^{I-1/2}\mathcal{D}_{M-K}^I\ket{\bar{\chi}}\right]\ ,
     \label{total-wavefunction-oddA-general}
 \end{align}
 where the entire summation must be evaluated under the restriction $(K-\Omega)=even$. Such a restraint gives the allowed set of values for both $K$ and $\Omega$ to be:
@@ -92,4 +92,4 @@ where the entire summation must be evaluated under the restriction $(K-\Omega)=e
     \dots,-\frac{11}{2},-\frac{7}{2},-\frac{3}{2},\frac{1}{2},\frac{5}{2},\frac{9}{2},\frac{13}{2},\dots
 \end{align}
 
-These are the states from the quantal space, belonging to the Hamiltonian from Eq. \ref{total-ham-approach-w1}. Returning to the trial function $\ket{\Psi_{IjM}}$ defined as a coherent state with products of the form $\ket{IMK}$ (Eq. \ref{IMK-wigner-functions}) and $\ket{j\Omega}$ (Eq. \ref{j-Omega-single-particle-states}) (both comprised in Eq. \ref{total-wavefunction-oddA-general}), its expression must be further discussed in terms of $z$ and $s$.
+These are the states from the quantal space $S_\text{qt}$, belonging to the Hamiltonian from Eq. \ref{total-ham-approach-w1}. Returning to the trial function $\ket{\Psi_{IjM}}$ defined as a coherent state with products of the form $\ket{IMK}$ (Eq. \ref{IMK-wigner-functions}) and $\ket{j\Omega}$ (Eq. \ref{j-Omega-single-particle-states}) (both comprised in Eq. \ref{total-wavefunction-oddA-general}), its expression must be further discussed in terms of $z$ and $s$.
