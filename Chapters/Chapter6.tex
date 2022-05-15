@@ -61,7 +61,7 @@ The discussion regarding the TDVP and TDVE from above can therefore be summarize
 \end{align}
 Obviously, the variational state $\ket{\Psi_{IjM}}\equiv\Psi_\text{trial}$ (also known as the \emph{trial function}) must be chosen in such a way that it comprises the entire space $S_\text{qt}$ of the original quantal Hamiltonian. This can be achieved if $\Psi_\text{trial}$ is a \emph{coherent state} \cite{glauber1963coherent}, which due to its \emph{completeness} property, will span all the basis vector states from $S_\text{qt}$. Keep in mind that for $S_\text{qt}$ the states belong to the Hilbert space of $\hat{H}$. For the present case, the trial function is defined as:
 \begin{align}
-    \Psi_\text{trial}\equiv\Psi_{IjM}=\mathcal{N}e^{z\hat{I}_-}e^{s\hat{j}_-}\ket{IMI}\ket{jj}\ ,
+    \Psi_\text{trial}\equiv\ket{\Psi_{IjM}}=\mathcal{N}e^{z\hat{I}_-}e^{s\hat{j}_-}\ket{IMI}\ket{jj}\ ,
     \label{trial-function-appeoach-w1}
 \end{align}
 where the ladder operators for the total and single-particle a.m. are represented by $\hat{I}_-$ and $\hat{j}_-$, respectively. The factor $\mathcal{N}$ is the normalization constant, which keeps the trial function normalized to unity. Its value is given by \cite{raduta2007semiclassical,raduta2020new}:
@@ -91,3 +91,5 @@ where the entire summation must be evaluated under the restriction $(K-\Omega)=e
 \begin{align}
     \dots,-\frac{11}{2},-\frac{7}{2},-\frac{3}{2},\frac{1}{2},\frac{5}{2},\frac{9}{2},\frac{13}{2},\dots
 \end{align}
+
+These are the states from the quantal space, belonging to the Hamiltonian from Eq. \ref{total-ham-approach-w1}. Returning to the trial function $\ket{\Psi_{IjM}}$ defined as a coherent state with products of the form $\ket{IMK}$ (Eq. \ref{IMK-wigner-functions}) and $\ket{j\Omega}$ (Eq. \ref{j-Omega-single-particle-states}) (both comprised in Eq. \ref{total-wavefunction-oddA-general}), its expression must be further discussed in terms of $z$ and $s$.
