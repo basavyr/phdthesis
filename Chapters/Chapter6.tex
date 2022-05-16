@@ -100,6 +100,7 @@ The next step would be to evaluate the averages of both $\hat{H}$ and the time d
 \begin{align}
     \left\langle \hat{H} \right\rangle&=\bra{\Psi_{IjM}}\hat{H}\ket{\Psi_{IjM}}\nonumber\\
     \left\langle \frac{\partial}{\partial t} \right\rangle&=\bra{\Psi_{IjM}}\frac{\partial}{\partial t}\ket{\Psi_{IjM}}\ .
+    \label{hamiltonian-average}
 \end{align}
 The expressions of these quantities were defined in Ref. \cite{raduta2017semiclassical} with respect to the variables $z$ and $s$. However, it would be more useful to change the form of $\rho$ and $\sigma$ in the following way:
 \begin{align}
@@ -109,6 +110,7 @@ The expressions of these quantities were defined in Ref. \cite{raduta2017semicla
 These two new variables keep the same correspondence, meaning that $r$ is related to the core and $f$ is related to the odd-particle. Moreover, by doing such a transformation, the TDVE (Eq. \ref{tdve-approach-w1}) will provide the equations of motion in a canonical form (unlike the initial $\rho$ and $\sigma$). In fact, this was the reason behind the change of variable. The set of equations of motion are:
 \begin{align}
     \frac{\partial \mathcal{H}}{\partial r}=\dot{\varphi}\ ,\ \frac{\partial \mathcal{H}}{\partial \varphi}=-\dot{r}\ ,\\
-    \frac{\partial \mathcal{H}}{\partial f}=\dot{\psi}\ ,\ \frac{\partial \mathcal{H}}{\partial \psi}=-\dot{f}\ .
+    \frac{\partial \mathcal{H}}{\partial f}=\dot{\psi}\ ,\ \frac{\partial \mathcal{H}}{\partial \psi}=-\dot{f}\ ,
     \label{eq-of-motion-approach-w1}
 \end{align}
+where $\mathcal{H}$ is just the average of $\hat{H}$ on the trial function, just as defined in Eq. \ref{hamiltonian-average}. It now plays the role of \emph{classical energy function} and moreover, it is a constant of motion, implying that the energy of the system must be somehow conserved.
