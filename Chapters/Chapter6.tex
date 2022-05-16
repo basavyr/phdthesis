@@ -52,7 +52,7 @@ with $\epsilon_j$ is the intrinsic energy of the particle from the corresponding
 where the inertial factors $A_k$ are expressed in terms of the three MOI:$$A_k=\frac{1}{2\mathcal{I}_k}\ .$$
 Note that the Hamiltonian from Eq. \ref{rotor-ham-approach-w1} is just as the one expressed in Eq. \ref{general-rotor-hamiltonian}, except that here, the components of $\mathbf{R}_\mathscr{C}$ are given in terms of $\mathbf{I}$ and $\mathbf{j}_{\mathcal{Q}_p}$.
 
-Obviously, the next task would be to obtained the eigenvalues of the Hamiltonian, which would comprise the energies of the system. One can proceed with the diagonalization procedure of $\hat{H}$ using a set of states that manifest the invariance to rotation by $\pi$ around a particular axis (the $D_2$ symmetry), since the Hamiltonian exhibits such a property. However, it is more practical to describe the system only though a few variables that have a classical counterpart. By doing this, the system dynamics will be close to the classical analogy of a rotating body lacking axial symmetry. The semi-classical approach that best fits this need os the Time-Dependent Variational Principle (TDVP), to which one associates the Time-Dependent Variational Equation (TDVE). When applying this Variational Principle on an initial problem, the requirement is to have a variational state which is constructed carefully, such that it embeds the necessary degrees of freedom of the underlying physics. Furthermore, VP will provide the time dependence of the variables that comprise the variational state itself \cite{budaca2018tilted}. Additionally, for each variable that parametrizes the state (usually the variables are complex), the TDVE will provide its equation of motion, thus finding the `connection' between the initial quantal variable (belonging to $S_\text{qt})$ and the classical variable (belonging to $S_\text{cls}$).
+Obviously, the next task would be to obtained the eigenvalues of the Hamiltonian, which would comprise the energies of the system. One can proceed with the diagonalization procedure of $\hat{H}$ using a set of states that manifest the invariance to rotation by $\pi$ around a particular axis (the $D_2$ symmetry), since the Hamiltonian exhibits such a property. However, it is more practical to describe the system only though a few variables that have a classical counterpart. By doing this, the system dynamics will be close to the classical analogy of a rotating body lacking axial symmetry. The semi-classical approach that best fits this need os the Time-Dependent Variational Principle (TDVP), to which one associates the Time-Dependent Variational Equation (TDVE). When applying this Variational Principle on an initial problem, the requirement is to have a variational state which is constructed carefully, such that it embeds the necessary degrees of freedom of the underlying physics. Furthermore, VP will provide the time dependence of the variables that comprise the variational state itself \cite{budaca2018tilted}. Additionally, for each variable that parametrizes the state (usually the variables are complex), the TDVE will yield its equation of motion, thus finding the `connection' between the initial quantal variable (belonging to $S_\text{qt})$ and the classical variable (belonging to $S_\text{cls}$).
 
 The discussion regarding the TDVP and TDVE from above can therefore be summarized in the following equation, which must be associated to the quantum Hamiltonian ($\hat{H}\subset S_\text{qt}$) defined in Eq. \ref{total-ham-approach-w1}:
 \begin{align}
@@ -96,8 +96,14 @@ These are the states from the quantal space $S_\text{qt}$, belonging to the Hami
 \begin{align}
     z=\rho e^{i\varphi}\ ,\ s=\sigma e^{i\psi}\ .
 \end{align}
-The next step would be to evaluate the averages of both $\hat{H}$ and the time derivative $\frac{\partial}{\partial t}$ on the variational state $\ket{Psi_{IjM}}$ as:
+The next step would be to evaluate the averages of both $\hat{H}$ and the time derivative $\frac{\partial}{\partial t}$ on the variational state $\ket{\Psi_{IjM}}$ as:
 \begin{align}
-    \left\langle \hat{H} \right\rangle=\bra{\Psi_{IjM}}\hat{H}\ket{\Psi_{IjM}}\ .
+    \left\langle \hat{H} \right\rangle&=\bra{\Psi_{IjM}}\hat{H}\ket{\Psi_{IjM}}\nonumber\\
+    \left\langle \frac{\partial}{\partial t} \right\rangle&=\bra{\Psi_{IjM}}\frac{\partial}{\partial t}\ket{\Psi_{IjM}}\ .
 \end{align}
-The expressions for these quantities were defined in Ref. \cite{raduta2017semiclassical} with respect to the variables $z$ and $s$. However, it would be more useful to change the form of $\rho$ and $\sigma$.
+The expressions of these quantities were defined in Ref. \cite{raduta2017semiclassical} with respect to the variables $z$ and $s$. However, it would be more useful to change the form of $\rho$ and $\sigma$ in the following way:
+\begin{align}
+    \rho \to r&=\frac{2I}{1+\rho^2}\ ,\ 0\leq r\leq 2I\ ,\\
+    \sigma \to f&=\frac{2j}{1+\sigma^2}\ ,\ 0\leq f\leq 2j\ .
+\end{align}
+The two new variables keep the same correspondence, meaning that $r$ is related to the core and $f$ is related to the odd-particle. Moreover, by doing such a transformation, the TDVE (Eq. \ref{tdve-approach-w1}) will provide the equations of motion in a canonical form (unlike the initial $\rho$ and $\sigma$). In fact, this was the main reason for variable change.
