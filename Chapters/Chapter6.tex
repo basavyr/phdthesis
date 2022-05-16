@@ -92,7 +92,7 @@ where the entire summation must be evaluated under the restriction $(K-\Omega)=e
     \dots,-\frac{11}{2},-\frac{7}{2},-\frac{3}{2},\frac{1}{2},\frac{5}{2},\frac{9}{2},\frac{13}{2},\dots
 \end{align}
 
-These are the states from the quantal space $S_\text{qt}$, belonging to the Hamiltonian from Eq. \ref{total-ham-approach-w1}. Remarking the fact that for a known quasi-particle $\mathcal{Q}$ from a specific $j$-shell, one must keep $j$ constant within the summations. Returning to the trial function $\ket{\Psi_{IjM}}$ from Eq. \ref{trial-function-appeoach-w1}, defined as a coherent state with products between  $\ket{IMK}$ (Eq. \ref{IMK-wigner-functions}) and $\ket{j\Omega}$ (Eq. \ref{j-Omega-single-particle-states}), its expression must be further discussed in terms of $z$ and $s$. Indeed, these two variables represent complex functions of time, and they are associated with the motion of the core and the odd-particle, respectively. Their expressions are:
+Such states are from the quantal space $S_\text{qt}$, belonging to the Hamiltonian from Eq. \ref{total-ham-approach-w1}. Remarking the fact that for a known quasi-particle $\mathcal{Q}$ from a specific $j$-shell, one must keep $j$ constant within the summations. Returning to the trial function $\ket{\Psi_{IjM}}$ from Eq. \ref{trial-function-appeoach-w1}, defined as a coherent state with products between  $\ket{IMK}$ (Eq. \ref{IMK-wigner-functions}) and $\ket{j\Omega}$ (Eq. \ref{j-Omega-single-particle-states}), its expression must be further discussed in terms of $z$ and $s$. Indeed, these two variables represent complex functions of time, and they are associated with the motion of the core and the odd-particle, respectively. Their expressions are:
 \begin{align}
     z=\rho e^{i\varphi}\ ,\ s=\sigma e^{i\psi}\ .
 \end{align}
@@ -106,4 +106,9 @@ The expressions of these quantities were defined in Ref. \cite{raduta2017semicla
     \rho \to r&=\frac{2I}{1+\rho^2}\ ,\ 0\leq r\leq 2I\ ,\\
     \sigma \to f&=\frac{2j}{1+\sigma^2}\ ,\ 0\leq f\leq 2j\ .
 \end{align}
-The two new variables keep the same correspondence, meaning that $r$ is related to the core and $f$ is related to the odd-particle. Moreover, by doing such a transformation, the TDVE (Eq. \ref{tdve-approach-w1}) will provide the equations of motion in a canonical form (unlike the initial $\rho$ and $\sigma$). In fact, this was the main reason for variable change.
+These two new variables keep the same correspondence, meaning that $r$ is related to the core and $f$ is related to the odd-particle. Moreover, by doing such a transformation, the TDVE (Eq. \ref{tdve-approach-w1}) will provide the equations of motion in a canonical form (unlike the initial $\rho$ and $\sigma$). In fact, this was the reason behind the change of variable. The set of equations of motion are:
+\begin{align}
+    \frac{\partial \mathcal{H}}{\partial r}=\dot{\varphi}\ ,\ \frac{\partial \mathcal{H}}{\partial \varphi}=-\dot{r}\ ,\\
+    \frac{\partial \mathcal{H}}{\partial f}=\dot{\psi}\ ,\ \frac{\partial \mathcal{H}}{\partial \psi}=-\dot{f}\ .
+    \label{eq-of-motion-approach-w1}
+\end{align}
