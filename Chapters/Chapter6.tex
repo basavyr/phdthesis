@@ -172,13 +172,19 @@ From the critical conditions associated to the classical energy function, namely
 \end{gather*}
 it is possible to obtain the points at which $\mathcal{H}$ is \emph{minimal} (provided by the sign of its corresponding Hessian). In order to meet such a criteria for $\mathcal{H}$, one needs to set an ordering of the three inertia factors. Choosing the largest MOI to be around the $3$-axis and $\mathcal{I}_3>\mathcal{I}_2>\mathcal{I}_1$ (or, equivalently $A_1<A_2<A_3$), the function achieves a minimum value at $p_0=(I,0;j,0)$.
 
-\subsection{Dispersion Equation - Wobbling Frequencies}
+\subsection{Wobbling Frequencies}
 
 By performing a linearization procedure on the classical equations of motion (from Eq. \ref{eq-of-motion-approach-w1} or explicitly in Eqs. \ref{eq-of-motion-explicit-coordinates} - \ref{eq-of-motion-explicit-coordinates}) around the minimum point of $\mathcal{H}$ (i.e., point $p_0$), an algebraic equation of fourth degree will show up, with a new variable $\Omega$:
 \begin{align}
     \Omega^4+B\Omega^2+C=0\ ,
     \label{omega-equation-linearized}
 \end{align}
-where the coefficients $B$ and $C$ are expressed below. 
+where the coefficient $B$ is:
+\begin{multline}
+    B=\bigg\{\left[ (2I-1)(A_3-A_1)+2jA_1\right]\left[(2I-1)(A_2-A_1)+2jA_1\right]+8A_2A_3Ij+\\
+      -\left[(2j-1)(A_3-A_1)+2IA_1+V\frac{2j-1}{j(j+1)}\sqrt{3}\left(\sqrt{3}\cos\gamma+\sin\gamma\right)\right]\cdot\\
+      \left.\cdot\left[(2j-1)(A_2-A_1)+2IA_1+V\frac{2j-1}{j(j+1)}2\sqrt{3}\sin\gamma\right]\right\}\ ,
+\end{multline}
+and the coefficient $C$ is:
 
-In a work done by Raduta et al \cite{raduta2017semiclassical}, a similar equation was obtained via a Random Phase Approximation (RPA) method applied to another (quantized) energy function.
+In a work done by Raduta et al \cite{raduta2017semiclassical}, a similar equation as the one from Eq. \ref{omega-equation-linearized} was obtained via a Random Phase Approximation (RPA) method applied to another (quantized) energy function.
