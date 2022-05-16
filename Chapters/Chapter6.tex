@@ -114,7 +114,7 @@ These two new variables keep the same correspondence, meaning that $r$ is relate
     \frac{\partial \mathcal{H}}{\partial f}=\dot{\psi}\ ,\ \frac{\partial \mathcal{H}}{\partial \psi}=-\dot{f}\ ,
     \label{eq-of-motion-approach-w1}
 \end{align}
-where $\mathcal{H}$ is just the average of $\hat{H}$ on the trial function, as defined in Eq. \ref{hamiltonian-average}. It now plays the role of \emph{classical energy function} and moreover, it is a constant of motion, implying that the energy of the system must be conserved. Remarking the fact that the \emph{classical image} of the initial problem (i.e., the Hamiltonian of an odd-$A$ triaxial nucleus) is now properly reached, through the equations of motion (Eq. \ref{eq-of-motion-approach-w1} in the canonical form. Additionally, the \emph{classical coordinates} encompassed in $S_\text{cls}$ are the generalized momentum and generalized coordinate, which here are represented by $(r,\varphi)$ and $(f,\psi)$, respectively. Keep in mind that the two sets of equations of motion and canonical coordinates correspond to the core and the single-particle. Thus, the dequantization procedure was properly described, obtaining the classical dynamics of the system. Regarding the structure of the classical energy function, its expression in terms of the canonical variables is given as:
+where $\mathcal{H}$ is just the average of $\hat{H}$ on the trial function, as defined in Eq. \ref{hamiltonian-average}. It now plays the role of \emph{classical energy function} and moreover, it is a constant of motion, implying that the energy of the system must be conserved. Remarking the fact that the \emph{classical image} of the initial problem (i.e., the Hamiltonian of an odd-$A$ triaxial nucleus) is now properly reached, through the equations of motion (Eq. \ref{eq-of-motion-approach-w1}) in the canonical form. Additionally, the \emph{classical coordinates} encompassed in $S_\text{cls}$ are the generalized momentum and generalized coordinates, which here are represented by $(r,f)$ and $(\varphi,\psi)$, respectively. Keep in mind that the two sets of equations of motion and canonical coordinates correspond to the core and the single-particle. Thus, the dequantization procedure was properly described, obtaining the classical dynamics of the system. Regarding the structure of the classical energy function, its expression in terms of the canonical variables is given as:
 \begin{align}
     \mathcal{H}&\equiv\bra{\Psi_{IjM}}\hat{H}\ket{\psi_{IjM}}=\nonumber\\
     &=\frac{I}{2}(A_1+A_2)+A_3I^2+\frac{2I-1}{2I}r(2I-r)\mathcal{A}_\varphi+\frac{j}{2}(A_1+A_2)+A_3j^2+\nonumber\\
@@ -127,7 +127,16 @@ Since the expression is quite lengthy, some notations were introduced, namely th
     \mathcal{A}_\varphi&=A_1\cos^2\varphi+A_2\sin^2\varphi-A_3\ ,\nonumber\\
     \mathcal{A}_\psi&=A_1\cos^2\psi+A_2\sin^2\psi-A_3\ ,\nonumber\\
     \mathcal{A}_{\varphi\psi}&=A_1\cos\varphi\cos\psi+A_2\sin\varphi\sin\psi\ ,\nonumber\\
-    \mathcal{A}_\gamma&=\cos\gamma-\frac{f(2j-f)}{2j^2}\sqrt{3}\left(\sqrt{3}\cos\gamma+\sin\gamma\cos2\psi\right)\ ,
+    \mathcal{A}_\gamma&=\cos\gamma-\frac{f(2j-f)}{2j^2}\sqrt{3}\left(\sqrt{3}\cos\gamma+\sin\gamma\cos2\psi\right)\ .
     \label{classical-energy-function-A-factors}
 \end{align}
-% \left[\cos\gamma-\frac{f(2j-f)}{2j^2}\sqrt{3}\left(\sqrt{3}\cos\gamma+\sin\gamma\cos 2\psi\right)\right]
+From the general expression of the classical energy function from Eq. \ref{full-classical-energy-function}, one can group the terms in a part that is independent on the coordinates, a part that depends only on the core's coordinates $(r,\varphi)$, a third part that depends on the single-particle's coordinates $(f,\psi)$, and finally a \emph{mixed} term, which contains both sets of classical coordinates. As a result, $\mathcal{H}$ can be summarized:
+\begin{align}
+    \mathcal{H}(r,\varphi;f,\psi)=\mathcal{H}_\text{free}+\mathcal{H}_\mathscr{C}(r,\varphi)+\mathcal{H}_\mathcal{Q}(f,\psi)+\mathcal{H}_\text{mixed}(r,\varphi;f,\psi)\ .
+    \label{classical-energy-function-terms}
+\end{align}
+
+Evaluating the critical points of $\mathcal{H}$, it is possible to obtain the points at which $\mathcal{H}$ is minimal. The ordering of the three inertia factors $A_{1,2,3}$ will determine some constraints on the generalized coordinates for which such condition is met. Choosing the largest MOI to be around the $3$-axis and the MOI ordering $\mathcal{I}_3>\mathcal{I}_2>\mathcal{I}_1$ (or, equivalently $A_1<A_2<A_3$), the function achieves a minimum value at a point $p_0$ with the coordinates $(I,0;j,0)$:
+\begin{align}
+    \mathcal{H}|_\text{min}=\mathcal{H}(I,0;j,0)=\mathcal{H}(p_0)
+\end{align}
