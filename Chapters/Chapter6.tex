@@ -54,7 +54,7 @@ Note that the Hamiltonian from Eq. \ref{rotor-ham-approach-w1} is just as the on
 
 Obviously, the next task would be to obtained the eigenvalues of the Hamiltonian, which would comprise the energies of the system. One can proceed with the diagonalization procedure of $\hat{H}$ using a set of states that manifest the invariance to rotation by $\pi$ around a particular axis (the $D_2$ symmetry), since the Hamiltonian exhibits such a property. However, it is more practical to describe the system only though a few variables that have a classical counterpart. By doing this, the system dynamics will be close to the classical analogy of a rotating body lacking axial symmetry. The semi-classical approach that best fits this need os the Time-Dependent Variational Principle (TDVP), to which one associates the Time-Dependent Variational Equation (TDVE). When applying this Variational Principle on an initial problem, the requirement is to have a variational state which is constructed carefully, such that it embeds the necessary degrees of freedom of the underlying physics. Furthermore, VP will provide the time dependence of the variables that comprise the variational state itself \cite{budaca2018tilted}. Additionally, for each variable that parametrizes the state (usually the variables are complex), the TDVE will provide its equation of motion, thus finding the `connection' between the initial quantal variable (belonging to $S_\text{qt})$ and the classical variable (belonging to $S_\text{cls}$).
 
-The discussion regarding the TDVP and TDVE from above can therefore be summarized in the following equation, which must be associated to the quantum Hamiltonian ($\hat{H}\in S_\text{qt}$) defined in Eq. \ref{total-ham-approach-w1}:
+The discussion regarding the TDVP and TDVE from above can therefore be summarized in the following equation, which must be associated to the quantum Hamiltonian ($\hat{H}\subset S_\text{qt}$) defined in Eq. \ref{total-ham-approach-w1}:
 \begin{align}
     \delta\int_0^t\bra{\Psi_{IjM}}\hat{H}-i\frac{\partial}{\partial t'}\ket{\Psi_{IjM}}dt'=0\ .
     \label{tdve-approach-w1}
@@ -92,4 +92,12 @@ where the entire summation must be evaluated under the restriction $(K-\Omega)=e
     \dots,-\frac{11}{2},-\frac{7}{2},-\frac{3}{2},\frac{1}{2},\frac{5}{2},\frac{9}{2},\frac{13}{2},\dots
 \end{align}
 
-These are the states from the quantal space $S_\text{qt}$, belonging to the Hamiltonian from Eq. \ref{total-ham-approach-w1}. Remarking the fact that for a known quasi-particle $\mathcal{Q}$ from a specific $j$-shell, one must keep $j$ constant within the summations. Returning to the trial function $\ket{\Psi_{IjM}}$ from Eq. \ref{trial-function-appeoach-w1}, defined as a coherent state with products between  $\ket{IMK}$ (Eq. \ref{IMK-wigner-functions}) and $\ket{j\Omega}$ (Eq. \ref{j-Omega-single-particle-states}), its expression must be further discussed in terms of $z$ and $s$.
+These are the states from the quantal space $S_\text{qt}$, belonging to the Hamiltonian from Eq. \ref{total-ham-approach-w1}. Remarking the fact that for a known quasi-particle $\mathcal{Q}$ from a specific $j$-shell, one must keep $j$ constant within the summations. Returning to the trial function $\ket{\Psi_{IjM}}$ from Eq. \ref{trial-function-appeoach-w1}, defined as a coherent state with products between  $\ket{IMK}$ (Eq. \ref{IMK-wigner-functions}) and $\ket{j\Omega}$ (Eq. \ref{j-Omega-single-particle-states}), its expression must be further discussed in terms of $z$ and $s$. Indeed, these two variables represent complex functions of time, and they are associated with the motion of the core and the odd-particle, respectively. Their expressions are:
+\begin{align}
+    z=\rho e^{i\varphi}\ ,\ s=\sigma e^{i\psi}\ .
+\end{align}
+The next step would be to evaluate the averages of both $\hat{H}$ and the time derivative $\frac{\partial}{\partial t}$ on the variational state $\ket{Psi_{IjM}}$ as:
+\begin{align}
+    \left\langle \hat{H} \right\rangle=\bra{\Psi_{IjM}}\hat{H}\ket{\Psi_{IjM}}\ .
+\end{align}
+The expressions for these quantities were defined in Ref. \cite{raduta2017semiclassical} with respect to the variables $z$ and $s$. However, it would be more useful to change the form of $\rho$ and $\sigma$.
