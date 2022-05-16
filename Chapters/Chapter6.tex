@@ -120,7 +120,7 @@ where $\mathcal{H}$ is just the average of $\hat{H}$ on the trial function, as d
                  &-2\sqrt{\frac{f(2j-f)}{r(2I-r)}}(I-r)\left(A_1\cos\varphi\cos\psi+A_2\sin\varphi\sin\psi\right)+2A_3(j-f)\ ,\nonumber\\
     \dot{\psi}=&\frac{2j-1}{j}(j-f)\left(A_1\cos^2\psi+A_2\sin^2\psi-A_3\right)-\nonumber\\
                &-2\sqrt{\frac{r(2I-r)}{f(2j-f)}}(j-f)\left(A_1\cos\varphi\cos\psi+A_2\sin\varphi\sin\psi\right)+2A_3(I-r)-\nonumber\\
-               &-V\frac{2j-1}{j^2(j+1)}(j-f)\sqrt{3}\left(\sqrt{3}\cos\gamma+\sin\gamma\cos2\psi\right)\ ,\nonumber\\
+               &-V\frac{2j-1}{j^2(j+1)}(j-f)\sqrt{3}\left(\sqrt{3}\cos\gamma+\sin\gamma\cos2\psi\right) \nonumber\\
     \label{eq-of-motion-explicit-coordinates}
 \end{align}
 for the canonical coordinates $(\varphi,\psi)$, and:
@@ -129,7 +129,7 @@ for the canonical coordinates $(\varphi,\psi)$, and:
              &+2\sqrt{rf(2I-r)(2j-f)}\left(A_1\sin\varphi\cos\psi-A_2\cos\varphi\sin\psi\right)\ ,\nonumber\\
     -\dot{f}=&\frac{2j-1}{2j}f(2j-1)(A_2-A_1)\sin2\psi+\nonumber+\\
              &+2\sqrt{rf(2I-r)(2j-f)}\left(A_1\cos\varphi\sin\psi-A_2\sin\varphi\cos\psi\right)+\nonumber\\
-             &+V\frac{2j-1}{j^2(j+1)}f(2j-f)\sqrt{3}\sin\gamma\sin2\psi\ .
+             &+V\frac{2j-1}{j^2(j+1)}f(2j-f)\sqrt{3}\sin\gamma\sin2\psi
     \label{eq-of-motion-explicit-momenta}
 \end{align}
 for the canonical momenta $(r,f)$, respectively.
@@ -156,7 +156,15 @@ From the general expression of the classical energy function from Eq. \ref{full-
     \label{classical-energy-function-terms}
 \end{align}
 
-Evaluating the critical points of $\mathcal{H}$, it is possible to obtain the points at which $\mathcal{H}$ is minimal. The ordering of the three inertia factors $A_{1,2,3}$ will determine some constraints on the generalized coordinates for which such condition is met. Choosing the largest MOI to be around the $3$-axis and $\mathcal{I}_3>\mathcal{I}_2>\mathcal{I}_1$ (or, equivalently $A_1<A_2<A_3$), the function achieves a minimum value at $p_0=(I,0;j,0)$:
+The coordinate set has some stationary points, which are given by the vanishing time derivatives of the canonical variables. These stationary points are obtained from the critical conditions associated to the classical energy function:
+\begin{align}
+    \left(\frac{\partial \mathcal{H}}{\partial r}\right)=0\ ,\ \left(\frac{\partial \mathcal{H}}{\partial \varphi}\right)=0
+\end{align}
+for the the first set, and:
+\begin{align}
+    \left(\frac{\partial \mathcal{H}}{\partial f}\right)=0\ ,\ \left(\frac{\partial \mathcal{H}}{\partial \psi}\right)=0
+\end{align}
+for the second set. Evaluating the critical points of $\mathcal{H}$, it is possible to obtain the points at which $\mathcal{H}$ is \emph{minimal} (given by the sign of the Hessian). In order to meet such a criteria for $\mathcal{H}$, one needs to set an ordering of the three inertia factors. Choosing the largest MOI to be around the $3$-axis and $\mathcal{I}_3>\mathcal{I}_2>\mathcal{I}_1$ (or, equivalently $A_1<A_2<A_3$), the function achieves a minimum value at $p_0=(I,0;j,0)$:
 \begin{align}
     \mathcal{H}|_\text{min}=\mathcal{H}(I,0;j,0)\ .
 \end{align}
