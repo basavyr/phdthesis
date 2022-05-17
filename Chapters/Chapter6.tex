@@ -216,16 +216,26 @@ where the coefficient $B$ is:
     B=-\bigg\{\left[ (2I-1)(A_3-A_1)+2jA_1\right]\left[(2I-1)(A_2-A_1)+2jA_1\right]+8A_2A_3Ij+\\
     -\left[(2j-1)(A_3-A_1)+2IA_1+V\frac{2j-1}{j(j+1)}\sqrt{3}\left(\sqrt{3}\cos\gamma+\sin\gamma\right)\right]\cdot\\
     \left.\cdot\left[(2j-1)(A_2-A_1)+2IA_1+V\frac{2j-1}{j(j+1)}2\sqrt{3}\sin\gamma\right]\right\}\ ,
+    \label{omega-B-term}
 \end{multline}
 and the coefficient $C$ is:
 \begin{multline}
     C=\bigg\{\left[(2I-1)(A_3-A_1)+2jA_1\right]\bigg[(2j-1)(A_3-A_1)+2IA_1+\\
     +V\frac{2j-1}{j(j+1)}\sqrt{3}(\sqrt{3}\cos\gamma+\sin\gamma)\bigg]-4IjA_3^2\bigg\}\bigg\{\left[(2I-1)(A_2-A_1)+2jA_1\right]\cdot\\
     \cdot\left[(2j-1)(A_2-A_1)+2IA_1+V\frac{2j-1}{j(j+1)}2\sqrt{3}\sin\gamma\right]-4IjA_2^2\bigg\}\ .
+    \label{omega-C-term}
 \end{multline}
 In a work done by Raduta et al \cite{raduta2017semiclassical}, a similar equation as the one from Eq. \ref{omega-equation-linearized} was obtained via a Random Phase Approximation (RPA) method applied to another (quantized) energy function. It is of crucial importance to extract from Eq. \ref{omega-equation-linearized} only those solutions that are real and positive, so one has to study the stability conditions for the equation. Deriving certain restriction on the parameters involved in $B$ and $C$ is therefore required. Obviously, the solutions to the general equation are:
 \begin{align}
     \Omega_1 \to -\left(\frac{-B-\sqrt{B^2-4 C}}{2}\right)^{1/2}\ ,\ \Omega_2 \to \left(\frac{-B-\sqrt{B^2-4 C}}{2}\right)^{1/2}\ , \nonumber\ \\
     \Omega_3 \to -\left(\frac{-B+\sqrt{B^2-4 C}}{2}\right)^{1/2}\ ,\ \Omega_4 \to \left(\frac{-B+\sqrt{B^2-4 C}}{2}\right)^{1/2}\ .
 \end{align}
-Since the positiveness condition mentioned above, it is clear that only $\Omega_2$ and $\Omega_4$ will be taken into consideration.
+Since the positiveness condition mentioned above, it is clear that only $\Omega_2$ and $\Omega_4$ will be taken into consideration. The conditions where Eq. \ref{omega-equation-linearized} has vanishing solutions will be now analyzed in terms of $B$ and $C$.
+
+\textit{Case i)} $B>0$ \textit{and} $C=0$
+
+The situation $C=0$ imposes that the terms (at least one) inside the curly brackets from Eq. \ref{omega-C-term} will equate to zero. However, for simplifying the calculations, some notations should be introduced. Firstly, from the three inertia factors a certain feature can be exploited: generally the factors are defined as $A_k=1/(2\mathcal{I}_k)$. Additionally the moments of inertia (both in rigid representation as well as the irrotational ones) are typically expressed in terms of $\beta_2$, $\gamma$ and a common scaling factor (recall Eq. \ref{eq-irrotational-rigid-mois}):
+\begin{align}
+    \mathcal{I}_k=\mathcal{I}_0\cdot h(\beta_2,\gamma;k)\ ,
+\end{align}
+where $h$ is either defining the MOI in the rigid picture or the irrotational one.
