@@ -168,7 +168,7 @@ It is worth analyzing the behavior of the canonical factors defined in Eq. \ref{
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/A_varphi_1.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/A_varphi_2.pdf}
-    \caption{The evolution of $\mathcal{A}_\varphi$ with respect to the generalized coordinate $\varphi$, at different MOI orderings. Arbitrary values were chosen. This figure is equivalent for $\mathcal{A}_\psi$.}
+    \caption{The evolution of $\mathcal{A}_\varphi$ with respect to the generalized coordinate $\varphi$, at different MOI orderings. The values $1,3,7$ were chosen and they are interchanged between the three inertia factors. This figure is equivalent for $\mathcal{A}_\psi$.}
     \label{fig-A-varphi-canonical}
 \end{figure}
 
@@ -176,7 +176,7 @@ For the mixed term $\mathcal{A}_{\varphi,psi}$ from Eq. \ref{classical-energy-fu
 \begin{figure}
     \centering
     \includegraphics[width=0.99\textwidth]{Chapters/Figures/A_mixed.pdf}
-    \caption{The mixed canonical factor $\mathcal{A}_{\varphi\psi}$ from Eq. \ref{classical-energy-function-A-factors}, as function of the coordinates $\varphi$ and $\psi$. Both variables vary within the interval $[0,\pi]$. All insets share common labelling for the OX and OY axes.}
+    \caption{The mixed canonical factor $\mathcal{A}_{\varphi\psi}$ from Eq. \ref{classical-energy-function-A-factors}, as function of the coordinates $\varphi$ and $\psi$. Both variables vary within the interval $[0,\pi]$. All insets share a common labelling for the OX and OY axes.}
     \label{fig-A-mixed-canonical}
 \end{figure}
 
@@ -184,7 +184,7 @@ Lastly, the factor $\mathcal{A}_gamma$ must also be represented as a contour plo
 \begin{figure}
     \centering
     \includegraphics[width=0.99\textwidth]{Chapters/Figures/A_gamma.pdf}
-    \caption{The canonical factor $\mathcal{A}_\gamma$ from Eq. \ref{classical-energy-function-A-factors}, as a function of the coordinates $(f,\psi)$ corresponding to the single-particle $\mathcal{Q}$. The $j$-shell has been fixed to $j=13/2$. In terms of coordinates, $f$ varies within $[0,2j]$ while $\psi$ is inside the interval $[0,\pi]$. All insets share common labelling for the OX and OY axes.}
+    \caption{The canonical factor $\mathcal{A}_\gamma$ from Eq. \ref{classical-energy-function-A-factors}, as a function of the coordinates $(f,\psi)$ corresponding to the single-particle $\mathcal{Q}$. The $j$-shell has been fixed to $j=13/2$. In terms of the two variables, $f$ varies within $[0,2j]$ while $\psi$ is inside the interval $[0,\pi]$. All insets share a common labelling for the OX and OY axes.}
     \label{fig-A-gamma-canonical}
 \end{figure}
 
@@ -227,15 +227,19 @@ and the coefficient $C$ is:
 \end{multline}
 In a work done by Raduta et al \cite{raduta2017semiclassical}, a similar equation as the one from Eq. \ref{omega-equation-linearized} was obtained via a Random Phase Approximation (RPA) method applied to another (quantized) energy function. It is of crucial importance to extract from Eq. \ref{omega-equation-linearized} only those solutions that are real and positive, so one has to study the stability conditions for the equation. Deriving certain restriction on the parameters involved in $B$ and $C$ is therefore required. Obviously, the solutions to the general equation are:
 \begin{align}
-    \Omega_1 \to -\left(\frac{-B-\sqrt{B^2-4 C}}{2}\right)^{1/2}\ ,\ \Omega_2 \to \left(\frac{-B-\sqrt{B^2-4 C}}{2}\right)^{1/2}\ , \nonumber\ \\
-    \Omega_3 \to -\left(\frac{-B+\sqrt{B^2-4 C}}{2}\right)^{1/2}\ ,\ \Omega_4 \to \left(\frac{-B+\sqrt{B^2-4 C}}{2}\right)^{1/2}\ .
+    \Omega_1 &\to -\left(\frac{-B-\sqrt{B^2-4 C}}{2}\right)^{1/2}\ ,\ \Omega_2 \to \left(\frac{-B-\sqrt{B^2-4 C}}{2}\right)^{1/2}\ , \nonumber\ \\
+    \Omega_3 &\to -\left(\frac{-B+\sqrt{B^2-4 C}}{2}\right)^{1/2}\ ,\ \Omega_4 \to \left(\frac{-B+\sqrt{B^2-4 C}}{2}\right)^{1/2}\ .
 \end{align}
 Since the positiveness condition mentioned above, it is clear that only $\Omega_2$ and $\Omega_4$ will be taken into consideration. The conditions where Eq. \ref{omega-equation-linearized} has vanishing solutions will be now analyzed in terms of $B$ and $C$.
 
 \textit{Case i)} $B>0$ \textit{and} $C=0$
 
-The situation $C=0$ imposes that the terms (at least one) inside the curly brackets from Eq. \ref{omega-C-term} will equate to zero. However, for simplifying the calculations, some notations should be introduced. Firstly, from the three inertia factors a certain feature can be exploited: generally the factors are defined as $A_k=1/(2\mathcal{I}_k)$. Additionally the moments of inertia (both in rigid representation as well as the irrotational ones) are typically expressed in terms of $\beta_2$, $\gamma$ and a common scaling factor (recall Eq. \ref{eq-irrotational-rigid-mois}):
+The situation $C=0$ imposes that the terms (at least one) inside the curly brackets from Eq. \ref{omega-C-term} will equate to zero. However, for simplifying the calculations, some notations should be introduced. Firstly, from the three inertia factors a certain feature can be exploited: the factors $A_k$ are defined as $A_k=1/(2\mathcal{I}_k)$. Additionally, the moments of inertia (both in rigid representation as well as the irrotational ones) are typically expressed in terms of $\beta_2$, $\gamma$ and a common scaling factor (recall Eq. \ref{eq-irrotational-rigid-mois}):
 \begin{align}
     \mathcal{I}_k=\mathcal{I}_0\cdot h(\beta_2,\gamma;k)\ ,
 \end{align}
-where $h$ is either defining the MOI in the rigid picture or the irrotational one.
+where $h$ is defining the MOI either in the rigid picture or in the irrotational picture. Similarly for $A_k$ one has:
+\begin{align}
+    A_k=\frac{1}{2\mathcal{I}_k}=\frac{1}{\mathcal{I}_0}\cdot h'(\beta_2,\gamma;k)\equiv\frac{1}{\mathcal{I}_0}\bar{A}_k\ .
+\end{align}
+Such a transformation for the inertia factors is useful because the constant $1/\mathcal{I}_0$ can be factored out from $C=0$.
