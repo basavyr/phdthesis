@@ -234,11 +234,11 @@ Since the positiveness condition mentioned above, it is clear that only $\Omega_
 
 \textit{Case i)} $B>0$ \textit{and} $C=0$
 
-The situation $C=0$ imposes that the terms (at least one) inside the curly brackets from Eq. \ref{omega-C-term} will equate to zero. However, for simplifying the calculations, some notations should be introduced. Firstly, from the three inertia factors a certain feature can be exploited: the factors $A_k$ are defined as $A_k=1/(2\mathcal{I}_k)$. Additionally, the moments of inertia (both in rigid representation as well as the irrotational ones) are typically expressed in terms of $\beta_2$, $\gamma$ and a common scaling factor (recall Eq. \ref{eq-irrotational-rigid-mois}):
+The situation $C=0$ imposes that the terms (or at least one) inside the curly brackets from Eq. \ref{omega-C-term} will equate to zero. In order to simplify the calculations, some notations should be introduced. Firstly, from the definition of $A_k=1/(2\mathcal{I}_k)$ one can exploit the fact that MOI (both in rigid representation as well as the irrotational ones) are typically expressed in terms of $\beta_2$, $\gamma$, and a common term (recall Eq. \ref{eq-irrotational-rigid-mois}):
 \begin{align}
     \mathcal{I}_k=\mathcal{I}_0\cdot h(\beta_2,\gamma;k)\ ,
 \end{align}
-where $h$ is defining the MOI either in the rigid picture or in the irrotational picture. Similarly for $A_k$ one has:
+where $h$ is a trigonometric function defining moments of inertia either in the rigid picture or in the irrotational picture. Going back to the inertia factors, it results that:
 \begin{align}
     A_k=\frac{1}{2\mathcal{I}_k}=\frac{1}{\mathcal{I}_0}\cdot h'(\beta_2,\gamma;k)\equiv\frac{1}{\mathcal{I}_0}\bar{A}_k\ .
     \label{A-bar-general}
@@ -249,7 +249,7 @@ Using thus Eq. \ref{A-bar-general}, each sub-term from $B$ and $C$ can be re-wri
     Q_{31}&=(2j-1)(\bar{A}_3-\bar{A}_1)+2I\bar{A}_1\ ,\ Q_{21}=(2j-1)(\bar{A}_2-\bar{A}_1)+2I\bar{A}_1\ ,\nonumber\\
     G_1&=\frac{2j-1}{j(j+1)}\sqrt{3}\left(\sqrt{3}\cos\gamma+\sin\gamma\right)\ ,\ G_2=\frac{2j-1}{j(j+1)}2\sqrt{3}\sin\gamma\ .
 \end{align}
-Now it can be seen why such a transformation for $A_k$ is useful: the constant $1/\mathcal{I}_0$ can be factored out from $B$ and $C$, leaving only one `independent variable' $S=\mathcal{I}_0V$. Getting back to $C=0$, after some rearrangement the following is obtained:
+This transformation was useful because the constant $1/\mathcal{I}_0$ can be factored out from $B$ and $C$, leaving only one `independent variable' within equations, namely $S=\mathcal{I}_0V$, which will be considered a \emph{scaling factor}. Getting back to $C=0$, after some rearrangement one gets:
 \begin{align}
     S_{31}G_1S+S_{31}Q_{31}-4Ij\bar{A}_3^2=&0\ ,\nonumber\\
     S_{21}G_2S+S_{21}Q_{21}-4Ij\bar{A}_2^2=&0\ .
