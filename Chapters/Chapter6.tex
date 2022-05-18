@@ -245,17 +245,20 @@ where $h$ is a trigonometric function defining moments of inertia either in the 
 \end{align}
 Using thus Eq. \ref{A-bar-general}, each sub-term from $B$ and $C$ can be re-written with the following notations:
 \begin{align}
-    S_{31}&=(2I-1)(\bar{A}_3-\bar{A}_1)+2j\bar{A}_1\ ,\ S_{21}=(2I-1)(\bar{A}_2-\bar{A}_1)+2j\bar{A}_1\ , \nonumber\\
+    P_{31}&=(2I-1)(\bar{A}_3-\bar{A}_1)+2j\bar{A}_1\ ,\ P_{21}=(2I-1)(\bar{A}_2-\bar{A}_1)+2j\bar{A}_1\ , \nonumber\\
     Q_{31}&=(2j-1)(\bar{A}_3-\bar{A}_1)+2I\bar{A}_1\ ,\ Q_{21}=(2j-1)(\bar{A}_2-\bar{A}_1)+2I\bar{A}_1\ ,\nonumber\\
     G_1&=\frac{2j-1}{j(j+1)}\sqrt{3}\left(\sqrt{3}\cos\gamma+\sin\gamma\right)\ ,\ G_2=\frac{2j-1}{j(j+1)}2\sqrt{3}\sin\gamma\ .
 \end{align}
 This transformation was useful because the constant $1/\mathcal{I}_0$ can be factored out from $B$ and $C$, leaving only one `independent variable' within equations, namely $S=\mathcal{I}_0V$, which will be considered a \emph{scaling factor}. Getting back to $C=0$, after some rearrangement one gets:
 \begin{align}
-    S_{31}G_1S+S_{31}Q_{31}-4Ij\bar{A}_3^2=&0\ ,\nonumber\\
-    S_{21}G_2S+S_{21}Q_{21}-4Ij\bar{A}_2^2=&0\ .
+    P_{31}G_1S+P_{31}Q_{31}-4Ij\bar{A}_3^2=&0\ ,\nonumber\\
+    P_{21}G_2S+P_{21}Q_{21}-4Ij\bar{A}_2^2=&0\ .
     \label{S-parameter-equations-set1}
 \end{align}
-Indeed, the above set of formulas represent linear equations in the newly introduced variable $S$, which are of the form $aS+b=0$. It is remarkable that as a physical interpretation of $S$, it comprises both a rotational part of the odd-mass system (through $\mathcal{I}_0$) but also single-particle contribution (through the potential strength $V$). By a straightforward manipulation of Eq. \ref{S-parameter-equations-set1}, the two solutions which provide vanishing a $C$ term are:
+Indeed, the above formulas represent a set of linear equations in the newly introduced variable $S$, which are of the form $aS+b=0$. As a physical interpretation for $S$, it is remarkable the fact that it comprises both a rotational part of the odd-mass system (through $\mathcal{I}_0$) but also single-particle contribution (through the potential strength $V$) so it \emph{encodes} the effect of collective rotation and deformation. By a straightforward manipulation of Eq. \ref{S-parameter-equations-set1}, the two solutions which provide vanishing a $C$ term are:
 \begin{align}
-    S_{01}=\frac{4Ij\bar{A}_3^2-S_{31}Q_{31}}{S_{31}G_1}\ \text{and}\ S_{02}=\frac{4Ij\bar{A}_2^2-S_{21}Q_{21}}{S_{21}G_2}\ .
+    S_{01}=\frac{4Ij\bar{A}_3^2-P_{31}Q_{31}}{P_{31}G_1}\ \text{and}\ S_{02}=\frac{4Ij\bar{A}_2^2-P_{21}Q_{21}}{P_{21}G_2}\ .
 \end{align}
+
+\textit{Case ii)} $B=0$ \textit{and} $C=\text{arbitrary}$
+
