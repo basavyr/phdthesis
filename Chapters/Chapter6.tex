@@ -229,6 +229,7 @@ In a work done by Raduta et al \cite{raduta2017semiclassical}, a similar equatio
 \begin{align}
     \Omega_1 &\to -\left(\frac{-B-\sqrt{B^2-4 C}}{2}\right)^{1/2}\ ,\ \Omega_2 \to \left(\frac{-B-\sqrt{B^2-4 C}}{2}\right)^{1/2}\ , \nonumber\ \\
     \Omega_3 &\to -\left(\frac{-B+\sqrt{B^2-4 C}}{2}\right)^{1/2}\ ,\ \Omega_4 \to \left(\frac{-B+\sqrt{B^2-4 C}}{2}\right)^{1/2}\ .
+    \label{omega-1-2-3-4-solutions}
 \end{align}
 Since the positiveness condition mentioned above, it is clear that only $\Omega_2$ and $\Omega_4$ will be taken into consideration. The conditions where Eq. \ref{omega-equation-linearized} has vanishing solutions will be now analyzed in terms of $B$ and $C$.
 
@@ -270,6 +271,7 @@ When $B$ must vanish, a second-degree algebraic equation for the variable $S$ wi
 or:
 \begin{align}
     G_1G_2S^2+\left(Q_{21}G_1+Q_{31}G_2\right)S+P_{31}P_{21}+8Ij\bar{A}_2\bar{A}_3=0\ .
+    \label{S-parameter-equations-set2}
 \end{align}
 The solutions from this second-degree equation are:
 \begin{align}
@@ -282,7 +284,19 @@ Gathering the outcomes from Eqs. \ref{B-Term-zero-solutions} and \ref{C-Term-zer
 Returning to the case $i)$ which provides vanishing $C$ term, it would be instructive to see for what values of $\mathcal{I}_0$ and $V$ the left-hand sides from Eq. \ref{S-parameter-equations-set1} equate to zero. Denoting the first left-hand side with $f_1=f_1(\mathcal{I}_0,V)$ and the second one with $f_2=f_2(\mathcal{I}_0,V)$, the contour lines that make $f_1$ and $f_2$ cancel are represented in Fig. \ref{fig-vanishing-f1-f2} for arbitrary values of $I, j, \gamma, A_1, A_2, A_3$. 
 \begin{figure}
     \centering
-    \includegraphics[scale=0.8]{Chapters/Figures/F_solutions-edited.pdf}
-    \caption{The contour lines show for which values of $\mathcal{I}_0$ and $V$ the left-hand sides from Eq. \ref{S-parameter-equations-set1} are zero. The two sides are denoted by $f_1$ and $f_2$, respectively. The calculations were done for fixed values of $I, j, \gamma, A_1, A_2, A_3$. Regarding the coloring, everything above the red line will correspond to positive values for $f_1$ and everything below the line will give negative values for $f_1$. Similarly for the $f_2$ term with blue colors. A 50/50 ratio for each color has been chosen relative to the plot just for a clearer difference between the two zones.}
+    \includegraphics[scale=0.8]{Chapters/Figures/f1-f2_solutions-edited.pdf}
+    \caption{The contour lines show for which values of $\mathcal{I}_0$ and $V$ the left-hand sides from Eq. \ref{S-parameter-equations-set1} are zero. The two sides are denoted by $f_1$ and $f_2$, respectively. The calculations were done for fixed values of $I, j, \gamma, A_1, A_2, A_3$. Regarding the coloring, darker red corresponds to negative values of $f_1$, while lighter red means positive $f_1$. Similarly for the $f_2$ term with blue color. A 50/50 ratio for each color has been chosen relative to the width of the plot just for a clear difference between the positive/negative zones for the two functions.}
     \label{fig-vanishing-f1-f2}
 \end{figure}
+
+Furthermore, the left-hand side of Eq. \ref{S-parameter-equations-set2} from case $ii)$ can also be zero for certain intervals of $\mathcal{I}_0$ and $V$. A restriction on $V$ to only have positive values is adopted throughout the formalism (to be consistent with the literature \cite{wang2007exotic,tanabe2017stability,poenaru2021parity}). This forces only a single contour (denoted with $F=0$) to appear above the OX axis. A representation showing this line is done in Fig. \ref{fig-vanishing-F}, evaluated at arbitrary $I, j, \gamma, A_1, A_2, A_3$. Keep in mind that the $V$ is restricted to the same interval $[0,5]$.
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.8]{Chapters/Figures/F_solutions-edited.pdf}
+    \caption{Graphical representation with the contour $F=0$, where $F$ represents the left-hand side of Eq. \ref{S-parameter-equations-set2}. Arbitrary values for $I, j, \gamma, A_1, A_2, A_3$ were chosen. Darker color signifies negative values for $F$, while opposite holds for the lighter blue.}
+    \label{fig-vanishing-F}
+\end{figure}
+
+Taking a look at the regions depicted in Figs. \ref{fig-vanishing-f1-f2} - \ref{fig-vanishing-F}, one can assume that they represent a clear indicator regarding the stability of Eq. \ref{omega-equation-linearized}. Obviously, when values of $(\mathcal{I}_0,V)$ lie near the contours lines within the plots, the equation reaches instability and no real solutions emerge.
+
+Regarding the solutions given in Eq. \ref{omega-1-2-3-4-solutions}, the selected ones where $\Omega_2$ and $\Omega_4$. Considering their structure, it is important to retrieve all the conditions that grant positive square roots.
