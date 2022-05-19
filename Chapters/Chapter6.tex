@@ -381,7 +381,7 @@ while for the second frequency, the following restrictions must hold:
 \end{align}
 with the terms $S$, $S'$, $T_1$, and $T_2$ defined as:
 \begin{align}
-    S&=\frac{2I-1-2j}{2I-1}\ ,\  S'=\frac{2j-2i-1}{2j-1}\ ,\nonumber\\
+    S&=\frac{2I-1-2j}{2I-1}\ ,\  S'=\frac{2j-2I-1}{2j-1}\ ,\nonumber\\
     T_1&=\frac{2j-1}{j(j+1)\cdot(2j-1)}\sqrt{3}\sin\left(\sqrt{3}\cos\gamma+\sin\gamma\right)\, \nonumber\\
     T_2&=\frac{2j-1}{j(j+1)\cdot(2j-1)}2\sqrt{3}\sin\gamma\ .
 \end{align}
@@ -391,7 +391,16 @@ The positiveness for $V$ will make sure that the conditions given for $\omega_2$
 
 In order to treat the terms with $r'f'$ and $\varphi'\psi'$ from the expansion in Eq. \ref{classical-energy-function-deviations}, a \emph{quantization} should be employed on the canonical variables. Indeed, from the classical coordinates (obtained via the TDVE) of the phase space $S_\text{cls}$, one can also go back to a $S_\text{qt}$ space, where each coordinate will have a corresponding operator defined in that space. As such, the following transformations will be utilized \cite{raduta2020approach}:
 \begin{align}
-    \varphi\to&\hat{q}_1\ ,\ r\to\hat{p}_1\ ,\ \left[\hat{q}_1,\hat{p}_1\right]=i\ ,\nonumber\\
-    \psi\to&\hat{q}_2\ ,\ f\to\hat{p}_2\ ,\ \left[\hat{q}_2,\hat{p}_2\right]=i\ .
+    \varphi\to&\hat{q}_1\ ,\ r\to\hat{p}_1\ ,\ \left[\hat{q}_1,\hat{p}_1\right]=\iu\ ,\nonumber\\
+    \psi\to&\hat{q}_2\ ,\ f\to\hat{p}_2\ ,\ \left[\hat{q}_2,\hat{p}_2\right]=\iu\ .
     \label{canonical-coordinates-quantized}
 \end{align}
+The notation of the operators is consistent with the fact that $(\varphi,\psi)$ represent the canonical coordinates and $(r,f)$ depict the canonical momenta. Furthermore, for each set of operators creation and annihilation operators are introduced as:
+\begin{align}
+    a^\dagger=\frac{1}{\sqrt{2}k_1}\left(k_1^2\hat{q}_1+ \iu \hat{p}_1\right)\ ,\ a=\frac{1}{\sqrt{2}k_1}\left(k_1^2\hat{q}_1+ \iu \hat{p}_1\right)\ ,
+\end{align}
+for the variables $(r,\varphi)$ of the core and:
+\begin{align}
+    b^\dagger=\frac{1}{\sqrt{2}k_2}\left(k_2^2\hat{q}_2+ \iu \hat{p}_2\right)\ ,\ b=\frac{1}{\sqrt{2}k_2}\left(k_2^2\hat{q}_2+ \iu \hat{p}_2\right)\ ,
+\end{align}
+for the single-particle variables $(f,\psi)$.
