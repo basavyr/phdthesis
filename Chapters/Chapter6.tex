@@ -322,9 +322,9 @@ Going back to the CEF in the form shown in Eq. \ref{classical-energy-function-te
 where the \emph{phonon} term $\mathcal{F}_{n_{w_1}n_{w_2}}^I$ is the sum of the two solutions, and it can be regarded as the sum $\mathcal{H}_\mathscr{C}+\mathcal{H}_\mathcal{Q}+\mathcal{H}_\text{mixed}$:
 \begin{align}
     \mathcal{F}_{n_{w_1}n_{w_2}}^I=\hbar\Omega_1\left(n_{w_1}+\frac{1}{2}\right)+\hbar\Omega_2\left(n_{w_2}+\frac{1}{2}\right)\ ,
-    \label{phoninic-term-tsd-energies}
+    \label{phononic-term-tsd-energies}
 \end{align}
-which is obtained from the procedure of linearization described above. Putting together Eq. \ref{tsd-bands-compressed-spectrum} and Eq. \ref{phoninic-term-tsd-energies}, the general spectrum of an odd-mass triaxial nucleus will be:
+which is obtained from the procedure of linearization described above. Putting together Eq. \ref{tsd-bands-compressed-spectrum} and Eq. \ref{phononic-term-tsd-energies}, the general spectrum of an odd-mass triaxial nucleus will be:
 \begin{align}
     E_{I,n_1,n_2}=H_\text{min}^I+\hbar\Omega_1\left(n_{w_1}+\frac{1}{2}\right)+\hbar\Omega_2\left(n_{w_2}+\frac{1}{2}\right)\ .
     \label{tsd-bands-general-spectrum}
@@ -340,3 +340,15 @@ Concerning the two numbers from Eq. \ref{tsd-bands-general-spectrum}, i.e., $n_{
     \caption{An illustrating depicting the dequantization of the initial Hamiltonian for an odd-mass triaxial nucleus. From the classical canonical variables given by TDVE, a set of two wobbling frequencies are obtained, which are ascribed to the even-even core and the single-particle. Each frequency can be regarded as a precessional motion of either $\mathbf{R}_\mathscr{C}$ or $\mathbf{j}_\mathcal{Q}$.}
     \label{TDVE-wobbling-complete-sketch}
 \end{figure}
+
+\subsection{Alternative Approach}
+
+In the following, a different description for the phonon term $\mathcal{F}_{n_{w_1}n_{w_2}}^I$ from Eq. \ref{phononic-term-tsd-energies} will be made, but as it will be seen, the method will provide a similar result regarding $\Omega_1$ and $Omega_2$. This approach will help to understand the definition of the wave-functions of the triaxial bands that will be described later on. Starting again with the CEF from Eq. \ref{classical-energy-function-terms} and expanding around $p_0$ up to second order, it results the equation:
+\begin{align}
+    \mathcal{H}=&\mathcal{H}_\text{min}+\nonumber\\
+                &+\frac{1}{2I}\left[(2I-1)(A_3-A_1)+2jA_1\right]r'^{2}+\frac{I}{2}\left[(2I-1)(A_2-A_1)+2jA_1\right]\varphi'^2+\nonumber\\
+                &+\frac{1}{2j}\left[(2j-1)(A_3-A_1)+2IA_1+V\frac{2j-1}{j(j+1)}\sqrt{3}\left(\sqrt{3}\cos\gamma+\sin\gamma\right)\right]f'^2+\nonumber\\
+                &+\frac{j}{2}\left[(2j-1)(A_2-A_1)+2IA_1+V\frac{2j-1}{j(j+1)}2\sqrt{3}\sin\gamma\right]\psi'^2-\nonumber\\
+                &-2A_3r'f'-2IjA_2\varphi'\psi'\ .
+\end{align}
+where the primed coordinates $r',\varphi',f',\psi'$ are the deviations from the minimum point $p_0$.
