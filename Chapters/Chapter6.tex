@@ -192,9 +192,9 @@ From the representations shown in Figs. \ref{fig-A-varphi-canonical} - \ref{fig-
 
 \subsubsection{Critical Region}
 
-Given the general expression of the CEF from Eqs. \ref{full-classical-energy-function} - \ref{classical-energy-function-A-factors}, one can group the terms in a part that is independent on the coordinates, a part that depends only on the core's coordinates $(r,\varphi)$, a third part that depends on the single-particle's coordinates $(f,\psi)$, and finally a \emph{mixed} term, which contains both sets of classical coordinates. As a result, $\mathcal{H}$ can be summarized:
+Given the general expression of the CEF from Eqs. \ref{full-classical-energy-function} - \ref{classical-energy-function-A-factors}, one can group the terms in a part that is independent on the coordinates, a part that depends only on the core's coordinates $(r,\varphi)$, a third part that depends on the single-particle's coordinates $(f,\psi)$, and finally a \emph{mixed} term, which contains both sets of classical coordinates. As a result, $\mathcal{H}$ can be summarized (coloring is just to emphasize the grouping of the terms):
 \begin{align}
-    \mathcal{H}(r,\varphi;f,\psi)=\mathcal{H}_\text{free}+\mathcal{H}_\mathscr{C}(r,\varphi)+\mathcal{H}_\mathcal{Q}(f,\psi)+\mathcal{H}_\text{mixed}(r,\varphi;f,\psi)\ .
+    \mathcal{H}(r,\varphi;f,\psi)={\color{blue}\mathcal{H}_\text{free}}+{\color{red}\mathcal{H}_\mathscr{C}(r,\varphi)+\mathcal{H}_\mathcal{Q}(f,\psi)+\mathcal{H}_\text{mixed}(r,\varphi;f,\psi)}\ .
     \label{classical-energy-function-terms}
 \end{align}
 From the critical conditions associated to the classical energy function, namely:
@@ -286,7 +286,7 @@ Returning to the case $i)$ which provides vanishing $C$ term, it would be instru
 \begin{figure}
     \centering
     \includegraphics[scale=0.8]{Chapters/Figures/f1f2_solutions-edited.pdf}
-    \caption{The contour lines show for which values of $\mathcal{I}_0$ and $V$ the left-hand sides from Eq. \ref{S-parameter-equations-set1} are zero. The two sides are denoted by $f_1$ and $f_2$, respectively. The calculations were done for fixed values of $I, j, \gamma, A_1, A_2, A_3$. Regarding the coloring, darker red corresponds to negative values of $f_1$, while lighter red means positive $f_1$. Similarly for the $f_2$ term with blue color. A 50/50 ratio for each color has been chosen relative to the width of the plot just for a clear difference between the positive/negative zones for the two functions.}
+    \caption{The contour lines that show for what values of $\mathcal{I}_0$ and $V$ the left-hand sides from Eq. \ref{S-parameter-equations-set1} are zero. The two sides are denoted here by $f_1$ and $f_2$, respectively. The calculations were done for fixed values of $I, j, \gamma, A_1, A_2, A_3$. Regarding the coloring, darker red corresponds to negative values of $f_1$, while lighter red means positive $f_1$. Similarly for the $f_2$ term with blue color. A 50/50 ratio for each term has been chosen relative to the width of the plot just for a clearer difference between the positive/negative zones of the two functions.}
     \label{fig-vanishing-f1-f2}
 \end{figure}
 
@@ -298,12 +298,12 @@ Furthermore, the left-hand side of Eq. \ref{S-parameter-equations-set2} from cas
     \label{fig-vanishing-F}
 \end{figure}
 
-Taking a look at the regions depicted in Figs. \ref{fig-vanishing-f1-f2} - \ref{fig-vanishing-F}, one can assume that they represent a clear indicator regarding the stability of Eq. \ref{omega-equation-linearized}. Obviously, when values of $(\mathcal{I}_0,V)$ lie near the contours lines within the plots, the equation reaches instability and no real solutions emerge.
+Taking a look at the regions depicted in Figs. \ref{fig-vanishing-f1-f2} - \ref{fig-vanishing-F}, one can assume that they represent a clear indicator regarding the stability of Eq. \ref{omega-equation-linearized}. Obviously, when values of $(\mathcal{I}_0,V)$ lie near the contours lines within the plots, the equation reaches instability and no real solutions emerge. Concerning the unit measures for the two quantities that were used as plot variables, they are $\hbar^2\text{MeV}^{-1}$ and $\text{MeV}$, respectively.
 
 Regarding the solutions given in Eq. \ref{omega-1-2-3-4-solutions}, the selected ones where $\Omega_1$ and $\Omega_2$. Considering their structure, it is important to retrieve all the conditions that grant positive square roots. The conditions are given in Table \ref{omega-positive-conditions}.
 \begin{table}
     \centering
-    \resizebox{0.66\textwidth}{!}{%
+    \resizebox{0.69\textwidth}{!}{%
     \begin{tabular}{|c|c|}
     \hline
     Solution   & Positive square root \\ \hline
@@ -311,11 +311,11 @@ Regarding the solutions given in Eq. \ref{omega-1-2-3-4-solutions}, the selected
     $\Omega_2$ & $\left(B\leq 0\ \text{and}\ C\leq \frac{B^2}{4}\right)$ or $\left(B<0\ \text{and}\ C\leq 0\right)\ $                     \\ \hline
     \end{tabular}%
     }
-    \caption{The conditions for which the square roots that appear in the two solutions $\Omega_{1,2}$ given in Eq. \ref{omega-1-2-3-4-solutions} are positive, so that real quantities are obtained. The trivial solution $B=C=0$ has been dismissed.}
+    \caption{The conditions for which the square roots that appear in the two solutions $\Omega_{1,2}$ given in Eq. \ref{omega-1-2-3-4-solutions} are positive, in order to obtain real quantities. The trivial solution $B=C=0$ has been dismissed.}
     \label{omega-positive-conditions}
 \end{table}
 
-Going back to the CEF in the form shown in Eq. \ref{classical-energy-function-terms}, the free term $\mathcal{H}_\text{free}$ is the one that does not depend on any canonical variable. The other three terms have a dependence on either the core's coordinates $(r,\varphi)$ or the particle's coordinates $(f,\psi)$. However, the remarking thing is that all these terms (including the mixed one) are comprised in the two solutions $\Omega_1$ and $\Omega_2$. In fact, one expects such a thing, since $\Omega_{1,2}$ arise from the linearization of the equations of motion around the minimum point $p_0=(r_0=I,\varphi_0=0;f=j,\psi=0)$. As it was shown in $\mathbf{W_0}$ and also Refs. \cite{raduta2020approach,raduta2020new}, the solutions $\Omega_{1,2}$ give the `final' terms (besides the minimal value $\mathcal{H}_{min}$) in the total energy spectrum for an odd-mass system. More precisely, the CEF from \ref{classical-energy-function-terms} combined with the two real and positive solutions (Eq. \ref{omega-1-2-3-4-solutions}) of Eq. \ref{omega-equation-linearized} will result in the final spectrum \cite{poenaru2021extensive1}:
+Going back to the CEF in the form shown in Eq. \ref{classical-energy-function-terms}, the free term ${\color{blue}\mathcal{H}_\text{free}}$ is the one that does not depend on any canonical variable. The other three terms (depicted by red color) have a dependence on either the core's coordinates $(r,\varphi)$ or the particle's coordinates $(f,\psi)$. However, the remarking thing is that all these terms (including the mixed one) are comprised in the two solutions $\Omega_1$ and $\Omega_2$. In fact, one expects such a thing, since $\Omega_{1,2}$ arise from the linearization of the equations of motion around the minimum point $p_0=(r_0=I,\varphi_0=0;f=j,\psi=0)$. As it was shown in $\mathbf{W_0}$ and also Refs. \cite{raduta2020approach,raduta2020new}, the solutions $\Omega_{1,2}$ give the `final' terms (besides the minimal value $\mathcal{H}_{min}$) in the total energy spectrum for an odd-mass system. More precisely, the CEF from \ref{classical-energy-function-terms} combined with the two real and positive solutions (Eq. \ref{omega-1-2-3-4-solutions}) of Eq. \ref{omega-equation-linearized} will result in the final spectrum \cite{poenaru2021extensive1}:
 \begin{align}
     E_{I,n_1,n_2}=H_\text{min}^I+\mathcal{F}^I_{n_{w_1}n_{w_2}}\ ,
     \label{tsd-bands-compressed-spectrum}
