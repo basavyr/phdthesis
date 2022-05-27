@@ -436,10 +436,10 @@ for the wobbling frequencies, and:
 \end{align}
 for the two canonicity factors. Notice the single-particle strength appearing explicitly for $\omega_2$ and also $k_2$.
 
-From the quantization made in Eq. \ref{canonical-coordinates-quantized}, the operators $(a^\dagger,a;b^\dagger,b)$ from Eqs. \ref{creation-operators-a} - \ref{creation-operators-b}, and with the factors defined in Eq. \ref{canonicity-factors}, the new quantal representation of the classical energy $S_\text{cls}\supset\mathcal{H}\to\hat{H}\subset S_\text{qt}$ will achieve the following form:
+From the quantization made in Eq. \ref{canonical-coordinates-quantized}, the operators $(a^\dagger,a;b^\dagger,b)$ defined in Eqs. \ref{creation-operators-a} - \ref{creation-operators-b}, and with the factors defined in Eq. \ref{canonicity-factors}, the new quantal representation of the classical energy $S_\text{cls}\supset\mathcal{H}\to\hat{H}\subset S_\text{qt}$ will achieve the following form:
 \begin{align}
     \hat{H}=\mathcal{H}_\text{min}+\omega_1\left(a^\dagger a+\frac{1}{2}\right)+&\omega_2\left(b^\dagger b+\frac{1}{2}\right)+A_3k_1k_2\left(a^\dagger b^\dagger+ba-a^\dagger b-b^\dagger a\right)-\nonumber\\
-                                   &-IjA_2\frac{1}{k_1k_2}\left(a^\dagger b^\dagger + ba + a^\dagger b + b^\dagger a \right)\ .
+                                                                                &-IjA_2\frac{1}{k_1k_2}\left(a^\dagger b^\dagger + ba + a^\dagger b + b^\dagger a \right)\ .
     \label{quantized-Hamiltonian-CEF}
 \end{align}
 Since $\mathcal{H}_\text{min}$ does not depend on the canonical variables, its structure will stay unchanged. The next two terms are the harmonic oscillators with the two frequencies of oscillation $\omega_1$ and $\omega_2$. Indeed, this structure can be also regarded in a similar way as the grouped terms from Eq. \ref{classical-energy-function-terms} or Eq. \ref{classical-energy-function-deviations}. The Hamiltonian defined in Eq. \ref{quantized-Hamiltonian-CEF} will have the following commutation rules with the creation and annihilation operators (Eqs. \ref{creation-operators-a} - \ref{creation-operators-b}):
@@ -451,11 +451,11 @@ Since $\mathcal{H}_\text{min}$ does not depend on the canonical variables, its s
     \label{H-quantal-linear-system-a-b-operators}
 \end{align}
 
-One can see that Eq. \ref{H-quantal-linear-system-a-b-operators} forms a linear system that can be solved with the introduction of a special \emph{phonon operator} \cite{raduta2017semiclassical,raduta2018wobbling}:
+One can see that Eq. \ref{H-quantal-linear-system-a-b-operators} forms a linear system, which can be solved with the introduction of a special \emph{phonon operator} \cite{raduta2017semiclassical,raduta2018wobbling}:
 \begin{align}
     \Gamma^\dagger=X_1a^\dagger-Y_1a+X_2b^\dagger-Y_2b\ .
 \end{align}
-The four amplitudes $(X_1,Y_1)$ and $(X_2,Y_2)$ are complex numbers that are defined in such a way that the following restrictions (commutation rules) hold true:
+The four \emph{phonon amplitudes} $(X_1,Y_1)$ and $(X_2,Y_2)$ are complex numbers defined in such a way that the following restrictions (commutation rules) hold true:
 \begin{align}
     \left[\hat{H},\Gamma^\dagger\right]=\Omega\Gamma^\dagger\ ,\ \left[\Gamma,\Gamma^\dagger\right]=1\ ,
     \label{H-Gamma-phonon-operator-commutator}
@@ -464,7 +464,7 @@ and they verify the relation:
 \begin{align}
     \left|X_1\right|^2-\left|Y_1\right|^2+\left|X_2\right|^2-\left|Y_2\right|^2=1\ .
 \end{align}
-The factor $\Omega$ that appears in Eq. \ref{H-Gamma-phonon-operator-commutator} is in fact the wobbling frequency obtained in the previous section. Indeed, one finds that the system of equations given in Eq. \ref{H-quantal-linear-system-a-b-operators} verifies:
+The factor $\Omega$ from Eq. \ref{H-Gamma-phonon-operator-commutator} is in fact the wobbling frequency obtained in the previous section. Indeed, one finds that the system of equations given in Eq. \ref{H-quantal-linear-system-a-b-operators} verifies:
 \begin{align}
     \Omega^4+B'\Omega^2+C'=0\ ,
 \end{align}
@@ -474,7 +474,7 @@ where the two primed coefficients are \cite{raduta2020approach}:
     C'=&(\omega_1\omega_2)^2-4\left[A_3^2(k_1k_2)^2+A_2^2\frac{(Ij)^2}{\left(k_1k_2\right)^2}\right]\left(\omega_1\omega_2\right)+16(A_2A_3Ij)^2\ .
     \label{B-C-prime-terms}
 \end{align}
-Manipulating the obtained terms from Eq. \ref{B-C-prime-terms}, one concludes that they are in fact equivalent with the factors $B$ and $C$ that were given in Eqs. \ref{omega-B-term} - \ref{omega-C-term}. Notice the fact that the first term does not contain any canonicity factor (i.e., neither $k_1$ nor $k_2$), however, $C'$ depends quadratically on the product $k_1k_2$. Moreover, the contribution from both oscillator frequencies obtained when the coupling terms were ignored (case $i)$ with Eq. \ref{small-omega-1-2}) comes into play for both terms. Obviously, in terms of core $\mathscr{C}$ and single-particle $\mathcal{Q}$ degrees of freedom, there is an interplay between them in $B'$ but also $C'$ (through the fact that $\omega_2$ contains the single-particle potential strength parameter $V$ and the triaxiality parameter $\gamma$).
+Manipulating the obtained terms from Eq. \ref{B-C-prime-terms}, it can be shown that they are actually equivalent with the factors $B$ and $C$ defined in Eq. \ref{omega-B-term} and Eq. \ref{omega-C-term}, respectively. Notice the fact that the first term does not contain any canonicity factor (i.e., neither $k_1$ nor $k_2$), however, $C'$ depends quadratically on the product $k_1k_2$. Moreover, the contribution from both oscillator frequencies obtained when the coupling terms were ignored (case $i)$ with Eq. \ref{small-omega-1-2}) comes into play for both terms. Obviously, in reference to the core $\mathscr{C}$ and single-particle $\mathcal{Q}$ degrees of freedom, there is an interplay between them in $B'$ but also $C'$ (through the fact that $\omega_2$ contains the single-particle potential strength $V$ and the triaxiality parameter $\gamma$ parameters).
 
 Prior to conclude this section, some graphical representations of the oscillator frequencies $(\omega_1,\omega_2)$ and the canonicity factors $(k_1,k_2)$ will be made, in order to get a qualitative interpretation of their behavior with respect to certain parameters. As such, in Fig. \ref{fig-omega1-omega2} the oscillator frequencies are shown as function of the total angular momentum. Notice that the two quantities vary linearly with spin (recall Eq. \ref{small-omega-1-2}), and they also intersect at a particular spin $I'$, depending on the magnitude of the three inertia factors $A_k$. Moreover, in Fig. \ref{fig-omega1-omega2} the region with $I\leq j$ is captured too (marked by the hatched gray area), although one should keep in mind that usually in isotopes the wobbling bands have band-heads which lie higher than that (especially for the excited $n_w>0$ bands). The plots were made only for a single ordering of the three inertia factors, given that reversing $A_2$ and $A_3$ will not produce significant modifications of the figures (i.e., $\omega_1$ stays the same and $\omega_2$ changes only very slightly).
 \begin{figure}
