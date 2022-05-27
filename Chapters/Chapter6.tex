@@ -416,7 +416,7 @@ The transformations that go from $(\hat{q}_1,\hat{p}_1)$ and $(\hat{q}_2,\hat{p}
     k_2=&\left[\frac{(2j-1)(A_2-A_1)+2IA_1+V\frac{2j-1}{j(j+1)}2\sqrt{3}\sin\gamma}{(2j-1)(A_3-A_1)+2IA_1+V\frac{2j-1}{j(j+1)}\sqrt{3}\left(\sqrt{3}\cos\gamma+\sin\gamma\right)}\cdot j^2\right]^{1/4}\ .
     \label{canonicity-factors}
 \end{align}
-It can be seen that the canonicity factors from Eq. \ref{canonicity-factors} exhibit an $f(x)=x^{1/2}$ behavior in the angular momenta of the core and the single-particle. Moreover, the triaxiality parameter only affects $k_2$, which is consistent with the particle + core system, e.g., the single-particle will drive the entire system to a large degree of deformation and it will stabilize the structure.
+It can be seen that the canonicity factors from Eq. \ref{canonicity-factors} exhibit an $f(x)\approx x^{1/2}$ behavior with respect to the total and single-particle angular momentum, respectively. Moreover, the triaxiality parameter only affects $k_2$, which is consistent with the particle + core system, i.e., the single-particle will drive the entire system to a large degree of deformation and it will stabilize the structure.
 
 Introducing a set of additional notations (in a similar fashion as for the calculations done in Eqs. \ref{S-parameter-equations-set1} and \ref{S-parameter-equations-set2}):
 \begin{align}
@@ -424,7 +424,7 @@ Introducing a set of additional notations (in a similar fashion as for the calcu
     \Sigma_{31}=&(2j-1)(A_3-A_1)+2IA_1\ ,\ \Sigma_{21}=(2j-1)(A_2-A_1)+2IA_1\ ,
     \label{Sigma-Delta-factors}
 \end{align}
-while the factors $G_1$ and $G_2$ from Eq. \ref{P-Q-G1-G2-factors} will be kept the same. With the notations given in Eq. \ref{Sigma-Delta-factors}, the two oscillator frequencies and the canonicity factors achieve a more practical shape, namely:
+while the factors $G_1$ and $G_2$ from Eq. \ref{P-Q-G1-G2-factors} will be kept the same. Compared to the calculations from Eqs. \ref{S-parameter-equations-set1} - \ref{S-parameter-equations-set2}, no prior factorization for the inertia factors is made here. With the notations given in Eq. \ref{Sigma-Delta-factors}, the two oscillator frequencies and the canonicity factors achieve a more practical shape, namely:
 \begin{align}
     \omega_1=&\left(\Delta_{31}\cdot\Delta_{21}\right)^{1/2}\ ,\nonumber\\
     \omega_2=&\left(\Sigma_{31}+VG_1\right)^{1/2}\cdot\left(\Sigma_{21}+VG_2\right)^{1/2}\ ,
@@ -436,7 +436,7 @@ for the wobbling frequencies, and:
 \end{align}
 for the two canonicity factors. Notice the single-particle strength appearing explicitly for $\omega_2$ and also $k_2$.
 
-In the quantal representation, the transformed classical energy $S_\text{cls}\supset\mathcal{H}\to\hat{H}\subset S_\text{qt}$ will achieve the following form:
+From the quantization made in Eq. \ref{canonical-coordinates-quantized}, the operators $(a^\dagger,a;b^\dagger,b)$ from Eqs. \ref{creation-operators-a} - \ref{creation-operators-b}, and with the factors defined in Eq. \ref{canonicity-factors}, the new quantal representation of the classical energy $S_\text{cls}\supset\mathcal{H}\to\hat{H}\subset S_\text{qt}$ will achieve the following form:
 \begin{align}
     \hat{H}=\mathcal{H}_\text{min}+\omega_1\left(a^\dagger a+\frac{1}{2}\right)+&\omega_2\left(b^\dagger b+\frac{1}{2}\right)+A_3k_1k_2\left(a^\dagger b^\dagger+ba-a^\dagger b-b^\dagger a\right)-\nonumber\\
                                    &-IjA_2\frac{1}{k_1k_2}\left(a^\dagger b^\dagger + ba + a^\dagger b + b^\dagger a \right)\ .
@@ -479,7 +479,7 @@ Manipulating the obtained terms from Eq. \ref{B-C-prime-terms}, one concludes th
 Prior to conclude this section, some graphical representations with the behavior of the oscillator frequencies $(\omega_1,\omega_2)$ and also the canonicity factors $(k_1,k_2)$ will be made, in order to get a qualitative interpretation of their behavior with respect to certain parameters. In Fig. \ref{fig-omega1-omega2} the oscillator frequencies are shown as function of the total angular momentum. Notice that the two quantities vary almost linearly with spin, and they also intersect at a particular location, depending on the magnitude of the three inertia factors $A_k$. Moreover, in Fig. \ref{fig-omega1-omega2} the region with $I\leq j$ is captured too, although one should keep in mind that usually the wobbling bands in isotopes have the band-heads higher than that (especially for the excited $n_w>0$ bands). The plots were made for only one ordering of the three inertia factors, given that reversing $A_2$ and $A_3$ order will not produce any significant modifications (i.e., $\omega_1$ stays the same and $\omega_2$ changes only very slightly).
 \begin{figure}
     \centering
-    \includegraphics[scale=0.75]{Chapters/Figures/omega-1-2-frequencies-1.pdf}
+    \includegraphics[scale=0.8]{Chapters/Figures/omega-1-2-frequencies-1.pdf}
     \caption{The oscillator frequencies $\omega_1$ and $\omega_2$ from Eq \ref{small-omega-1-2}. Calculations are given for arbitrary values of the single particle potential $V$, triaxiality parameter $\gamma$ and single-particle $j$-shell. For this particular example, $j=13/2$. The region with $I\leq j$ is only for illustrative purpose, since in a realistic representation the total spin of the nucleus will always be larger than $j$. The inertia factor ordering is given as $A_3>A_2>A_1$, according to the conditions of existence for $\omega_1$ and $\omega_2$. The intersection point between $\omega_1$ and $\omega_2$ is marked by the red dot-dashed line around $I\approx 24\hbar$.}
     \label{fig-omega1-omega2}
 \end{figure}
@@ -487,7 +487,7 @@ Prior to conclude this section, some graphical representations with the behavior
 In Fig. \ref{fig-omega2-V-Gamma} a different approach for $\omega_2$ is also taken into consideration. Indeed, since its dependence is given by the parameters $\gamma$ and $V$, a contour plot within this space is given, by keeping the other relevant parameters fixed (i.e., total a.m. single-particle a.m., and inertia factors). Notice the rather constant grow in magnitude of $\omega_2$ when the single-particle potential $V$ increases and remarking the fact that for a given $V$, the frequency does not vary that much across the $\gamma$ range, especially for $V<2$. The rather abrupt changes only happen in the low $\gamma$ and $V>2$ region.
 \begin{figure}
     \centering
-    \includegraphics[scale=0.75]{Chapters/Figures/omega-2-gamma-V.pdf}
+    \includegraphics[scale=0.8]{Chapters/Figures/omega-2-gamma-V.pdf}
     \caption{The oscillator frequency $\omega_2$ from Eq. \ref{small-omega-1-2} within the $(\gamma,V)$ `plane', where $\gamma\in[0,60]$. Arbitrary values were given for the three inertia factors ($A_3>A_2>A_1$), the total spin, and the single-particle angular momentum. The value of $\gamma=25^\circ$ is marked with the dashed vertical line just to guide the eye. Each contour line represents an energy difference of about $0.20$ MeV.}
     \label{fig-omega2-V-Gamma}
 \end{figure}
