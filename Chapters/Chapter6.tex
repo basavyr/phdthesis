@@ -528,7 +528,7 @@ Recalling the mechanism for obtaining the wobbling states of an excited spectrum
 The isotope $^{163}$Lu has been studied successfully by the team within the $\mathbf{W_0}$ but also the current $\mathbf{W_1}$ model. In both approaches one considered the wobbling spectrum as being composed of four TSD bands. In $\mathbf{W_0}$ the bands were ground (TSD1) and three excited (TSD2,3,4), which was `in line' with other studies on this isotope \cite{schonwasser2003one,jensen2004coexisting}. The general characteristics for the four triaxial bands and their particle + core structure were already described at the beginning of the chapter from the perspective of $\mathbf{W_0}$. Experimentally, the collective structure of $^{163}$Lu is summarized in Table \ref{lu-163-table-info}.
 \begin{table}
     \centering
-    \resizebox{0.8\textwidth}{!}{%
+    \resizebox{0.85\textwidth}{!}{%
     \begin{tabular}{|c|c|c|c|c|c|}
     \hline
     Band &        Spin sequence                  & $\mathcal{Q}$             & $\mathscr{C}$                      & Parity      & Signature      \\ \hline
@@ -551,6 +551,28 @@ In terms of quasi-particle + triaxial core couplings, it is remarkable the fact 
     \{TSD1\}&\equiv\left\{\mathscr{C}_1\left[0^+,2^+,4^+,\dots\right]\right\}\otimes \left\{\mathcal{Q}_1[j_1=13/2^+]\right\}\ ,\ \nonumber\\
     \{TSD2\}&\equiv\left\{\mathscr{C}_2\left[1^+,3^+,5^+,\dots\right]\right\}\otimes \left\{\mathcal{Q}_1[j_1=13/2^+]\right\}\ ,\ \nonumber\\
     \{TSD4\}&\equiv\left\{\mathscr{C}_1\left[0^+,2^+,4^+,\dots\right]\right\}\otimes \left\{\mathcal{Q}_2[j_2=9/2^+]\right\}\ ,
-    \label{renormalized-bands-structure}
+    \label{renormalized-bands-structure-TSD124}
 \end{align}
-where the two protons (quasi-particles of particle character $\mathcal{Q}_p$) are denoted with $\mathcal{Q}_1$ and $\mathcal{Q}_2$ and their angular momenta will be labelled $j_1=13/2$ for $\mathcal{Q}_1$ and $j_2=9/2$ for $\mathcal{Q}_2$. The `p' abbreviation from the quasi-particle notation (as per the rules in Table \ref{notation-table-wobbling}) will be dismissed from now on because all the discussed isotopes have odd quasi-particles of \emph{particle} character.
+for TSD1-2-4 and:
+\begin{align}
+    \{TSD3\left[\dots,I^+,(I+2)^+,\dots\right]\}\equiv\{TSD2\left[\dots,(I-1)^+,(I+1)^+,\dots\right]\}+\Gamma^\dagger\ ,
+    \label{renormalized-bands-structure-TSD3}
+\end{align}
+for TSD3. The two protons (quasi-particles of particle character $\mathcal{Q}_p$) are denoted with $\mathcal{Q}_1$ and $\mathcal{Q}_2$ and their angular momenta will be labelled $j_1=13/2$ for $\mathcal{Q}_1$ and $j_2=9/2$ for $\mathcal{Q}_2$. The `p' abbreviation from the quasi-particle notation (as per the rules in Table \ref{notation-table-wobbling}) will be dismissed from now on because all the discussed isotopes have odd quasi-particles of \emph{particle} character.
+
+With the Eqs. \ref{renormalized-bands-structure-TSD124} - \ref{renormalized-bands-structure-TSD3} as `recipes', one can obtain the wobbling energies for this isotope as per Eq. \ref{tsd-bands-general-spectrum} by adopting the proper spin values $I$ and the wobbling phonon numbers $n_{w_1}$ and $n_{w_2}$. These values are given in Table \ref{lu-163-phonon-numbers}. Notice that for TSD1-2-4, because they were obtained as ground states, the pair of phonon numbers are $(0,0)$. Moreover, the TSD3 states are activated only by the phonon number $n_{w_1}$, which is consistent with the theory from $\mathbf{W_0}$ where only the phonon corresponding to the wobbling frequency $\Omega_1$ is used.
+\begin{table}
+    \centering
+    \resizebox{0.85\textwidth}{!}{%
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+    Bands & $n_{w_1}$ & $n_{w_2}$ & \begin{tabular}[c]{@{}c@{}}Phonon \\ term\end{tabular} & \begin{tabular}[c]{@{}c@{}}band-head state\\ $I_b$\end{tabular} & \begin{tabular}[c]{@{}c@{}}terminus state\\ $I_t$\end{tabular}  & $\mathcal{Q}$ \\ \hline
+    TSD1  & $0$       & $0$       & $\mathcal{F}_{00}^I$ & $13/2^+$             & $97/2^+$    & $j_1^\pi=13/2^+$         \\ \hline
+    TSD2  & $0$       & $0$       & $\mathcal{F}_{00}^I$ & $27/2^+$             & $91/2^+$    & $j_1^\pi=13/2^+$          \\ \hline
+    TSD3  & $1$       & $0$       & $\mathcal{F}_{10}^I$ & $33/2^+$             & $85/2^+$    & $j_1^\pi=13/2^+$          \\ \hline
+    TSD4  & $0$       & $0$       & $\mathcal{F}_{00}^I$ & $47/2^-$             & $83/2^-$    & $j_2^\pi=13/2^-$          \\ \hline
+    \end{tabular}%
+    }
+    \caption{The wobbling phonon numbers corresponding to the phonon frequencies $\Omega_1$ and $\Omega_2$, respectively (see Eq. \ref{phononic-term-tsd-energies}). For completeness the first and last states of each band are given, together with the a.m. of the quasi-particle $\mathcal{Q}$.}
+    \label{lu-163-phonon-numbers}
+\end{table}
