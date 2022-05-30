@@ -599,9 +599,31 @@ In the numerical calculations the set of formulas obtained in Eq. \ref{lu163-abs
 An important aspect of working with the excitation energies within the numerical computations is that the single-particle energies $(\epsilon_{13/2},\epsilon_{9/2})$ will practically cancel out. Only for TSD4, there will be the constant term $\epsilon_{9/2}-\epsilon_{13/2}=-0.344$ MeV \cite{raduta2020towards}. Regarding the two wobbling frequencies in the case of $^{163}$Lu their expressions are:
 \begin{align}
     \Omega_{1,2}=\left[\frac{1}{2}\left(-B\mp\sqrt{B^2-4C}\right)\right]^{1/2}\ ,
+    \label{wobbling-frequencies-Omega-1-2}
 \end{align}
-such that the frequency ordering $\Omega_1<\Omega_2$ holds true.
+such that the frequency ordering $\Omega_1<\Omega_2$ holds true. The minimal energy term $\mathcal{H}_\text{min}$ is given in terms of the three inertia factors, the single-particle potential strength $V$ and the triaxiality $\gamma$ as:
+\begin{align}
+    \mathcal{H}_\text{min}^I=\left(A_2+A_3\right)\frac{I+j}{2}+A_1(I-j)^2-V\frac{2j-1}{j+1}\sin\left(\gamma+\frac{\pi}{6}\right)\ .
+    \label{minimal-energy-term-hmin}
+\end{align}
 
 \subsection{Fitting Parameters}
 
-So far, a compact wobbling spectrum was obtained for $^{163}$Lu within the $\mathbf{W_1}$ formalism. 
+So far, a compact wobbling spectrum was obtained for $^{163}$Lu within the $\mathbf{W_1}$ formalism via Eq. \ref{lu163-absolute-energies-tsd1234}. With the expression of $\mathcal{H}_\text{min}^I$ from Eq. \ref{minimal-energy-term-hmin} and the wobbling frequencies evaluated through Eq. \ref{wobbling-frequencies-Omega-1-2} the analytic formulas for the TSD bands are acquired. In order to get numerical results for the excitation energies, a fitting procedure will be adopted with a set of free parameters which need to be employed first.
+
+From the structure of the classical energy function (or even the initial quantal Hamiltonian) it can be seen that the rotational term is expressed in terms of the inertia factors $A_k$ and the single-particle term is explicitly specified through the single-particle strength $V$ and triaxiality $\gamma$. Therefore, it is best suited to pick the following quantities as fitting parameters throughout the numerical computations:
+\begin{enumerate}
+    \item moments of inertia: $\mathcal{I}_1$, $\mathcal{I}_2$, $\mathcal{I}_3$
+    \item single-particle potential strength $V$
+    \item triaxiality parameter $\gamma$
+\end{enumerate}
+
+Concluding, one denotes this set of quantities as:
+\begin{align}
+    \mathcal{P}_\text{fit}=\left[\mathcal{I}_1,\mathcal{I}_2,\mathcal{I}_3,V,\gamma\right]\ .
+\end{align}
+
+The actual fitting procedure consists of finding the set $\mathcal{P}_\text{fit}$ that best reproduces the experimental data concerning the wobbling spectrum. The numerical implementation aims at determining $\mathcal{P}_\text{fit}$ such that \cite{poenaru2021extensive1}:
+\begin{align}
+    \chi^2=\frac{1}{N_T}\sum_i\frac{\left(E_\text{exp}^{(i)}-E_\text{th}^{(i)}\right)^2}{E_\text{exp}^{(i)}}\ ,
+\end{align}
