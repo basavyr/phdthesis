@@ -586,7 +586,7 @@ Taking the information comprised in Table \ref{lu-163-phonon-numbers} in order t
     E_{I,0,0}^\text{TSD4}=&\epsilon_{9/2}+\mathcal{H}_\text{min}^{I}+\mathcal{F}_{00}^{I}=\epsilon_2+\mathcal{H}_\text{min}^{I}+\frac{1}{2}\left(\Omega_1^{I}+\Omega_2^{I}\right)\ ,
     \label{lu163-absolute-energies-tsd1234}
 \end{align}
-where $\epsilon_{13/2}$ and $\epsilon_{9/2}$ are the single-particle shell energies for $\mathcal{Q}_1$ and $\mathcal{Q}_2$, respectively. For each band, the spins are the ones from Table \ref{lu-163-table-info}. Keep in mind that the wobbling frequencies and the minimal energy both depend on the single-particle angular momentum $j$ as well, so it must be properly inserted for each band as per Table \ref{lu-163-phonon-numbers}. It can be observed that the energy $E_{I,1,0}^\text{TSD3}$ can be re-written as:
+where $\epsilon_{13/2}$ and $\epsilon_{9/2}$ are the single-particle shell energies for $\mathcal{Q}_1$ and $\mathcal{Q}_2$, respectively. For each band, the spins are the ones from Table \ref{lu-163-table-info}. Keep in mind that the wobbling frequencies and the minimal energy both depend on the single-particle angular momentum $j$ as well, so it must be properly inserted for each band as per Table \ref{lu-163-phonon-numbers}. An alternative way of depicting the energy from TSD3 is through TSD2:
 \begin{align}
     E_{I,1,0}^\text{TSD3}=E_{I-1,0,0}^\text{TSD2}+\Omega_1^{I-1}\ .\nonumber
 \end{align}
@@ -627,3 +627,4 @@ The actual fitting procedure consists of finding the set $\mathcal{P}_\text{fit}
 \begin{align}
     \chi^2=\frac{1}{N_T}\sum_i\frac{\left(E_\text{exp}^{(i)}-E_\text{th}^{(i)}\right)^2}{E_\text{exp}^{(i)}}\ ,
 \end{align}
+where $N_T$ represents the total number of states of the isotope. For example, in the case of $^{163}$Lu, the $\chi^2$-function will contain all states belonging to TSD1-2-3 and TSD4. As an observation, the band-head energy $E_{13/2,0,0}^\text{TSD1}$ will be excluded, since its corresponding excitation energy is null. 
