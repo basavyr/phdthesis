@@ -323,15 +323,15 @@ Going back to the CEF in the form shown in Eq. \ref{classical-energy-function-te
 \end{align}
 where the \emph{phonon} term $\mathcal{F}_{n_{w_1}n_{w_2}}^I$ is the sum of the two solutions $\Omega_{1,2}$:
 \begin{align}
-    \mathcal{F}_{n_{w_1}n_{w_2}}^I=\hbar\Omega_1\left(n_{w_1}+\frac{1}{2}\right)+\hbar\Omega_2\left(n_{w_2}+\frac{1}{2}\right)\ ,
+    \mathcal{F}_{n_{w_1}n_{w_2}}^I=\hbar\Omega_1^I\left(n_{w_1}+\frac{1}{2}\right)+\hbar\Omega_2^I\left(n_{w_2}+\frac{1}{2}\right)\ ,
     \label{phononic-term-tsd-energies}
 \end{align}
 and it can be regarded as originating from $\mathcal{H}_\mathscr{C}+\mathcal{H}_\mathcal{Q}+\mathcal{H}_\text{mixed}$. This was obtained from the linearization procedure mentioned at the start of the section. Notice that $\mathcal{H}_\text{min}^I$ from Eq. \ref{tsd-bands-compressed-spectrum} is in fact the \emph{free term} that appears in Eq. \ref{classical-energy-function-terms} and it does not depend on the coordinates $(r, \varphi\ ;\ f, \psi)$. The coloring from Eq. \ref{tsd-bands-compressed-spectrum} is consistent with the one from Eq. \ref{classical-energy-function-terms} so that the analogy between each component can be viewed. Putting together Eq. \ref{tsd-bands-compressed-spectrum} and Eq. \ref{phononic-term-tsd-energies}, the general spectrum of an odd-mass triaxial nucleus will be:
 \begin{align}
-    E_{I,n_1,n_2}=\mathcal{H}_\text{min}^I+\hbar\Omega_1\left(n_{w_1}+\frac{1}{2}\right)+\hbar\Omega_2\left(n_{w_2}+\frac{1}{2}\right)\ .
+    E_{I,n_1,n_2}=\mathcal{H}_\text{min}^I+\hbar\Omega_1^I\left(n_{w_1}+\frac{1}{2}\right)+\hbar\Omega_2^I\left(n_{w_2}+\frac{1}{2}\right)\ .
     \label{tsd-bands-general-spectrum}
 \end{align}
-The conditions for which $\Omega_{1,2}$ exist and meet the criteria of positiveness were summarized in Table \ref{omega-positive-conditions}, and throughout the calculations one will set the ordering $\Omega_1>\Omega_2$ for the two terms.
+The conditions for which $\Omega_{1,2}$ exist and meet the criteria of positiveness were summarized in Table \ref{omega-positive-conditions}, and throughout the calculations the ordering for $\Omega_1$ and $\Omega_2$ will be chosen accordingly.
 
 The physical interpretation of $\Omega_1$ and $\Omega_2$ from Eq. \ref{tsd-bands-general-spectrum} is a remarking feature of this formalism. Indeed, in the same manner as for the simple wobbling motion (recall the spectrum defined in Eq. \ref{eq-wobbling-energy-evenA}) or the odd-$A$ spectrum discussed in Chapter \ref{chapter-5} (recall Section \ref{chapter-5-odd-wobbling-theory}), here $\Omega$ also represents a wobbling frequency. The advantage of using the TDVE approach is that the Hamiltonian is properly `split' and two wobbling frequencies emerge: one for the core and one for the odd-particle. This semi-classical approach is very useful for visualizing the two interacting systems directly from the analytical expression (i.e., Eq. \ref{tsd-bands-general-spectrum}). The description for odd-mass systems depicted in Chapter \ref{chapter-5} resulted having a singular wobbling frequency for the QTR Hamiltonian (see Eq. \ref{wobbling-freq-oddA}) and also the interplay between the core and the particle were not clearly separated from its expression.
 
@@ -531,14 +531,14 @@ The isotope $^{163}$Lu has been studied successfully by the team within the $\ma
     \resizebox{\textwidth}{!}{%
     \begin{tabular}{|c|c|c|c|c|c|}
     \hline
-    Band &        Spin sequence                  & $\mathcal{Q}$             & $\mathscr{C}$                      & Parity      & Signature      \\ \hline
-    TSD1 &        $13/2,\ 17/2 \dots 97/2$       &       $\pi_{13/2}$        &      $0,2,4,\dots$                 &    $\pi=+$  & $\alpha=+1/2$  \\ \hline
-    TSD2 &        $27/2,\ 31/2 \dots 91/2$       &       $\pi_{13/2}$        &      $TSD1+1\Gamma^\dagger$         &    $\pi=+$  & $\alpha=-1/2$  \\ \hline
-    TSD3 &        $33/2,\ 37/2 \dots 85/2$       &       $\pi_{13/2}$        &      $TSD1+2\Gamma^\dagger$         &    $\pi=+$  & $\alpha=+1/2$  \\ \hline
-    TSD4 &        $47/2,\ 51/2 \dots 83/2$       &       $\pi_{9/2}$         &      $TSD1+3\Gamma^\dagger$         &    $\pi=-$  & $\alpha=-1/2$  \\ \hline
+    Band &        Spin sequence               &    Parity   & Signature         & $\mathcal{Q}$                           &      $\mathscr{C}$                    \\ \hline
+    TSD1 &        $13/2,\ 17/2 \dots 97/2$    &    $\pi=+$  & $\alpha=+1/2$     & $\mathcal{Q}_p$: $\pi(j_{13/2})$        &      $0,2,4,\dots$                    \\ \hline
+    TSD2 &        $27/2,\ 31/2 \dots 91/2$    &    $\pi=+$  & $\alpha=-1/2$     & $\mathcal{Q}_p$: $\pi(j_{13/2})$        &      $TSD1+1\Gamma^\dagger$           \\ \hline
+    TSD3 &        $33/2,\ 37/2 \dots 85/2$    &    $\pi=+$  & $\alpha=+1/2$     & $\mathcal{Q}_p$: $\pi(j_{13/2})$        &      $TSD1+2\Gamma^\dagger$           \\ \hline
+    TSD4 &        $47/2,\ 51/2 \dots 83/2$    &    $\pi=-$  & $\alpha=-1/2$     & $\mathcal{Q}_p$: $\pi(h_{9/2})$         &      $TSD1+3\Gamma^\dagger$           \\ \hline
     \end{tabular}%
     }
-    \caption{The data concerning spins and parity assignments for $^{163}$Lu as per $\mathbf{W_0}$. Note that the quasi-particle $\mathcal{Q}$ is different for TSD4, and the core's angular momentum is only defined for TSD1, since the excited bands are created through $\Gamma^\dagger$.}
+    \caption{The data concerning spins, parity and signature assignments for $^{163}$Lu from experimental measurements \cite{reich2010nuclear}. The last two columns represent the quasi-particle $\mathcal{Q}$ and the core $\mathscr{C}$ (according to the notations from Table \ref{notation-table-wobbling}) for each TSD band as per $\mathbf{W_0}$. Note that $\mathcal{Q}$ is different for TSD4 and the core's angular momentum is only defined for TSD1, since the excited bands are created through $\Gamma^\dagger$ phonon operator (see Section \ref{foundation}).}
     \label{lu-163-table-info}
 \end{table}
 
