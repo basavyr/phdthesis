@@ -646,7 +646,7 @@ In the following section, the numerical results obtained for several Lu isotopes
 
 Naturally, calculations concerning the transition probabilities for each nucleus will also be provided, making a comparison with the available experimental data. The team's work with the $\mathbf{W_1}$ formalism concluded in two research papers \cite{raduta2020approach,raduta2020towards}, in which the isotopes $^{161,163,165,167}$Lu were studied.
 
-Firstly, the fitting procedure described in the previous section was applied to each mentioned isotope where as a first step, one aimed at calculating the excitation energies from Eq. \ref{tsd-bands-general-spectrum}. The set of energies sketched for $^{163}$Lu in Eq. \ref{lu163-absolute-energies-tsd1234} that gave the wobbling spectrum in the new renormalization can be similarly adopted to the other isotopes if one knows the two wobbling phonon numbers, the quasi-particle + core coupling scheme, and the spin + parity assignments for each experimental wobbling band. The $\mathbf{W_1}$ model interprets bands TSD1 and TSD2 in $^{163}$Lu as being ground-states obtained variationally from the coupling of the same odd particle with two different cores. The remarking feature in this theory is that the same can be applied to the other isotopes, namely the pair $(TSD1,TSD2)$ is regarded as zero-phonon bands that originate from different even-even cores. Some fitting rules should be taken into account for each isotope, such that the numerical implementations will be consistent across all nuclei. They are given as follow:
+Firstly, the fitting procedure described in the previous section was applied to each mentioned isotope where as a first step, one aimed at calculating the excitation energies from Eq. \ref{tsd-bands-general-spectrum}. The set of energies sketched for $^{163}$Lu in Eq. \ref{lu163-absolute-energies-tsd1234} that gave the wobbling spectrum in the new renormalization can be similarly adopted to the other isotopes if one knows the two wobbling phonon numbers, the quasi-particle + core coupling scheme, and the spin + parity assignments for each experimental wobbling band. The $\mathbf{W_1}$ model interprets bands TSD1 and TSD2 in $^{163}$Lu as being ground-states obtained variationally from the coupling of the same odd particle with two different cores. The remarking feature in this theory is that the same can be applied to the other isotopes: namely the pair $(TSD1,TSD2)$ is regarded as zero-phonon bands that originate from different even-even cores. Some fitting rules should be taken into account for each isotope, such that the numerical implementations will be consistent across all nuclei. Taking into consideration the renormalization from Eqs. \ref{renormalized-bands-structure-TSD124} - \ref{renormalized-bands-structure-TSD3}, these rules are given as follow:
 \begin{itemize}
     \item $^{161}$Lu
     \begin{itemize}
@@ -667,11 +667,11 @@ Firstly, the fitting procedure described in the previous section was applied to 
     \end{itemize}
     \item $^{167}$Lu
     \begin{itemize}
-        \item let
+        \item treated in a similar fashion as the $^{161}$Lu isotope
     \end{itemize}
 \end{itemize}
 
-One can summarize the set of characteristics for each isotope mentioned above into a set of tables where, for the sake of completeness, the experimental data concerning spin and parity are indicated. Tables \ref{lu-161-experimental-data-table} - \ref{lu-167-experimental-data-table} contain these values. Note that besides the fourth TSD band from $^{163}$Lu, every isotope has wobbling excitations which emerge from the coupling of $\mathcal{Q}_1$ single-particle with the an even-even core $\mathscr{C}$. Since the previous sections contain the relevant data concerning $^{163}$Lu (recall Tables \ref{lu-163-table-info} and \ref{lu-163-phonon-numbers}), it has been omitted.
+One can summarize the set of characteristics for each isotope mentioned above into a set of tables where, for the sake of completeness, the experimental data concerning spin and parity are indicated. Tables \ref{lu-161-experimental-data-table} - \ref{lu-167-experimental-data-table} contain these values. Note that besides the fourth TSD band from $^{163}$Lu, every isotope has wobbling excitations which emerge from the coupling of $\mathcal{Q}_1$ single-particle with an even-even core (containing either even or odd spin states). Since the previous sections contain the relevant data concerning $^{163}$Lu (recall Tables \ref{lu-163-table-info} and \ref{lu-163-phonon-numbers}), it has been omitted.
 
 \begin{table}
     \centering
@@ -715,3 +715,8 @@ One can summarize the set of characteristics for each isotope mentioned above in
     \caption{The data concerning spin and parity assignments for $^{167}$Lu that are required for the numerical calculations of the excitation energies. The wobbling phonon numbers (from Eq. \ref{phononic-term-tsd-energies}) are also shown. For both bands there is only one single-particle, i.e., $\mathcal{Q}_1$. The even/odd dissimilarity between core states of the two bands are emphasized through the fourth column ($\mathscr{C}$).}
     \label{lu-167-experimental-data-table}
 \end{table}
+
+Putting together the set of energies from Eq. \ref{lu163-absolute-energies-tsd1234}
+\begin{align}
+    E_I^\text{TSDk}
+\end{align}
