@@ -517,7 +517,7 @@ This alternative description for obtaining a set of solutions that describe a ha
 
 Regarding the energy spectrum $E_{I,n_{w_1},n_{w_2}}$ obtained in Eq. \ref{tsd-bands-compressed-spectrum} and Eq. \ref{tsd-bands-general-spectrum}, when both wobbling phonon numbers are $0$, it simply reflects the \emph{zero-point-motion} for the system, i.e., the true ground state. Even when $n_{w_1}=n_{w_2}=0$, the core and particle will contribute to the total energy of the system, through the smallest `quantum fluctuations` characterized by $\Omega_1/2$ and $\Omega_2/2$, which is consistent with the harmonic description of the triaxial rigid rotators. This will be crucial when the real wobbling spectrum of the studied nuclei will be interpreted with the current formalism.
 
-\section{A New Band Structure in Lu isotopes}
+\section{A New Band Structure in Lu Isotopes}
 
 Following up to the team's work with regards to the so-called $\mathbf{W_0}$ approach that was outlined in Section \ref{foundation}, two more research papers were devoted to the study of wobbling motion in Lu isotopes (see Refs. \cite{raduta2020approach,raduta2020towards}), but with a different perspective in reference to the band structure. In what follows, the new interpretation (hereafter referred to as $\mathbf{W_1}$) will be described while also pointing out key distinctions between it and $\mathbf{W_0}$.
 
@@ -633,4 +633,30 @@ Regarding the fitting procedure, this new approach is different than $\mathbf{W_
 
 On the other side, unlike $\mathbf{W_0}$ where $\gamma$ and $\beta$ were a priori fixed with values from literature, this re-interpretation obtains $\gamma$ self-consistently from the fitting procedure. Both approaches give consider $V$ as a free parameter and its value is obtained from the minimization of the $\chi^2$-function.
 
-The strong argument towards a set of free MOI is related to the fact that the \emph{real} moments of inertia for a triaxial nucleus are neither irrotational nor rigid, but they satisfy the relation $\mathcal{I}^\text{irr}<\mathcal{I}^\text{exp}<\mathcal{I}^\text{rig}$ (recall discussion in Chapter \ref{chapter-3} and Eq. \ref{experimental-MOI-vs-rig-irr}). Therefore, a study of the three moments of inertia in regards to a possible change in magnitude at higher spins due to Coriolis or even pairing interaction is excluded within this technique as the initial quantal Hamiltonian does not contain such terms. Lastly, the $\beta_2$ quadrupole deformation parameter does not appear explicitly throughout the analytical description, since it is somewhat \emph{embedded} in the potential strength $V$. Concluding, the quality of the fitting procedures applied to each isotope will reflect the deformation of the nuclei (i.e., degree of triaxiality and prolate/oblate shape). Discussions regarding the wobbling regimes based on the obtained numerical results will also be employed for each case-study. 
+The strong argument towards a set of free MOI is related to the fact that the \emph{real} moments of inertia for a triaxial nucleus are neither irrotational nor rigid, but they satisfy the relation $\mathcal{I}^\text{irr}<\mathcal{I}^\text{exp}<\mathcal{I}^\text{rig}$ (recall discussion in Chapter \ref{chapter-3} and Eq. \ref{experimental-MOI-vs-rig-irr}). Therefore, a study of the three moments of inertia in regards to a possible change in magnitude at higher spins due to Coriolis or even pairing interaction is excluded within this technique as the initial quantal Hamiltonian does not contain such terms. Lastly, the $\beta_2$ quadrupole deformation parameter does not appear explicitly throughout the analytical description, since it is somewhat \emph{embedded} in the potential strength $V$. Concluding, the quality of the fitting procedures applied to each isotope will reflect the deformation of the nuclei (i.e., degree of triaxiality and prolate/oblate shape). Discussions regarding the wobbling regimes based on the obtained numerical results will also be employed for each case-study.
+
+\section{Numerical Results in Lu Isotopes}
+
+In the following section, the numerical results obtained for several Lu isotopes will be presented, containing data such as excitation energies (that is the actual wobbling spectrum) but also other relevant quantities such as:
+\begin{enumerate}
+    \item alignments
+    \item dynamic moments of inertia
+    \item energies relative to a reference rotor.
+\end{enumerate}
+
+Naturally, calculations concerning the transition probabilities for each nucleus will also be provided, making a comparison with the available experimental data. The team's work with the $\mathbf{W_1}$ formalism concluded in two research papers \cite{raduta2020approach,raduta2020towards}, in which the isotopes $^{161,163,165,167}$Lu were studied.
+
+Firstly, the fitting procedure described in the previous section was applied to each mentioned isotope where as a first step, one aimed at calculating the excitation energies from Eq. \ref{tsd-bands-general-spectrum}. The set of energies sketched for $^{163}$Lu in Eq. \ref{lu163-absolute-energies-tsd1234} that gave the wobbling spectrum in the new renormalization can be similarly adopted to the other isotopes if one knows the two wobbling phonon numbers, the quasi-particle + core coupling scheme, and the spin + parity assignments for each experimental wobbling band. Accordingly, the necessary data is given for each isotope in the Tables \ref{lu-161-experimental-data-table}.
+\begin{table}
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    Band & Spins                        & $\mathcal{Q}$ & $\mathscr{C}$  & $(n_{w_1},n_{w_2})$ \\ \hline
+    TSD1 & $21/2^+,25/2^+,\dots,89/2^+$ & $j_1=13/2^+$  & $4^+,6^+,8^+\dots$   & $(0,0)$             \\ \hline
+    TSD2 & $31/2^+,35/2^+,\dots,79/2^+$ & $j_1=13/2^+$  & $9^+,11^+,13^+\dots$ & $(0,0)$             \\ \hline
+    \end{tabular}%
+    }
+    \caption{The data concerning spin and parity assignments for $^{161}$Lu that are required for the numerical calculations of the excitation energies. The wobbling phonon numbers (from Eq. \ref{phononic-term-tsd-energies}) are also shown. For both bands there is only one single-particle, i.e., $\mathcal{Q}_1$. The even/odd dissimilarity between core states of the two bands are emphasized through the fourth column ($\mathscr{C}$).}
+    \label{lu-161-experimental-data-table}
+\end{table}
