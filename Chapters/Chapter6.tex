@@ -721,3 +721,26 @@ Putting together the set of absolute energies from Eq. \ref{lu163-absolute-energ
     \label{general-excitation-energy-fitting-model}
 \end{align}
 where $^A$Lu represents the isotope that is evaluated (i.e., $A\in\{161,163,165,167\}$), $I$ is the state belonging to a triaxial band $K$ from $^A$Lu ($I\in\text{TSDK}$), the labels `$\text{exc}$/$\text{abs}$' symbolize the excitation/absolute energy, respectively, and $I_b$ is the band-head from the TSD1 band of that particular nucleus, which is given explicitly in the last column of Tables \ref{lu-161-experimental-data-table} - \ref{lu-167-experimental-data-table}. Note that regarding the energy $E_{I_b}^\text{TSD1}(^A\text{Lu\ ;\ abs})$, the subscripts $n_{w_1}$ and $n_{w_2}$ have been dropped entirely because all ground-bands are zero-phonon bands. Moreover, the quasi-particle involved in the particle + rotor coupling for the ground bands is $\mathcal{Q}_1$ (Table \ref{lu-163-phonon-numbers}) across entire mass region.
+
+\section{Numerical Parameters}
+
+With the experimental excitation energies evaluated per every nucleus, the minimization procedure of Eq. \ref{chi-2-fitting-function} can be readily applied. Note that since the variational states from TSD4 are obtained from different core + particle polarization, a separate fit for the states of this band will be made. Results are presented in Table \ref{numerical-fitting-parameters-Lu-isotopes}, where in order to appraise the quality of the fits, the root-mean square (RMS) error for each band is also shown. Based on these numbers, it can be concluded that the description of the excitation energies is quite good across the entire mass region.
+\begin{table}
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{cccccccccc}
+    \hline
+    \hline
+    Isotope & $\mathcal{Q}$ & Bands & $\mathcal{I}_1$ $\left[\hbar^2/\text{MeV}\right]$ & $\mathcal{I}_2$ $\left[\hbar^2/\text{MeV}\right]$ & $\mathcal{I}_3$ $\left[\hbar^2/\text{MeV}\right]$ & $V$ [MeV] & $\gamma$ [$^\circ$] & n.o.s & $E_\text{rms}$ [MeV] \\ \hline
+    $^{161}$Lu & $j_1=13/2$ & TSD1-2 & 87.555 & 2.773  & 22.744 & 2.933 & 20    & 29 & 0.168 \\
+    $^{163}$Lu & $j_1=13/2$ & TSD1-3 & 63.2   & 20     & 10     & 3.1   & 17    & 52 & 0.264 \\
+               & $j_2=9/2$  & TSD4   & 67     & 34.5   & 50     & 0.7   & 17    & 10 & 0.057 \\
+    $^{165}$Lu & $j_1=13/2$ & TSD1-3 & 77.295 & 16.184 & 4.399  & 1.673 & 20    & 42 & 0.125 \\
+    $^{167}$Lu & $j_1=13/2$ & TSD1-2 & 87.032 & 10.895 & 3.758  & 8.167 & 19.48 & 30 & 0.165 \\
+     \hline
+     \hline
+    \end{tabular}%
+    }
+    \caption{The fitting parameters, i.e., the three moments of inertia, the single-particle potential strength, and the triaxiality $\gamma$ for each Lu isotope. The numerical results were obtained from the procedure described in text. The number of wobbling states and the obtained root-mean-square error are also given in the table.}
+    \label{numerical-fitting-parameters-Lu-isotopes}
+\end{table}
