@@ -651,7 +651,7 @@ Firstly, the fitting procedure described in the previous section will be applied
     \item $^{161}$Lu
     \begin{itemize}
         \item There are only two TSD bands, emerging from the coupling of $\mathcal{Q}_1$ with the even-even core
-        \item Concerning their nature, both bands are ground-states (zero-phonon)
+        \item In regards to their nature, both bands are ground-states (zero-phonon)
         \item As core states, TSD1 has even spins (i.e., $\mathscr{C}_1$) and TSD2 has odd spin spins (i.e., $\mathscr{C}_2$)
     \end{itemize}
     \item $^{163}$Lu
@@ -672,7 +672,6 @@ Firstly, the fitting procedure described in the previous section will be applied
 \end{itemize}
 
 One can summarize the characteristics of each isotope mentioned above into a set of tables where, for the sake of completeness, the experimental data concerning spin and parity are indicated. Tables \ref{lu-161-experimental-data-table} - \ref{lu-167-experimental-data-table} contain these values. Note that besides the fourth TSD band from $^{163}$Lu, every isotope has wobbling excitations which emerge from the coupling of the $\mathcal{Q}_1$ single-particle with an even-even core (containing either even or odd spin states). Indeed, for TSD4 the coupling involved in the triaxial structure is between the negative parity proton $\mathcal{Q}_2$ and the positive parity core $\mathscr{C}_1$. Since the previous sections contain the relevant data concerning $^{163}$Lu (recall Tables \ref{lu-163-table-info} and \ref{lu-163-phonon-numbers}), it has been omitted here.
-
 \begin{table}
     \centering
     \resizebox{\textwidth}{!}{%
@@ -686,7 +685,6 @@ One can summarize the characteristics of each isotope mentioned above into a set
     \caption{The data concerning spin and parity assignments for $^{161}$Lu that are required for the numerical calculations of the excitation energies. The wobbling phonon numbers from Eq. \ref{phononic-term-tsd-energies} are also shown. For both bands there is only one single-particle, i.e., $\mathcal{Q}_1$. The even/odd dissimilarity between core states of the two bands are emphasized through the fourth column ($\mathscr{C}$). The band-head $I_b$ for the isotope is also given in the last column.}
     \label{lu-161-experimental-data-table}
 \end{table}
-
 \begin{table}
     \centering
     \resizebox{\textwidth}{!}{%
@@ -701,7 +699,6 @@ One can summarize the characteristics of each isotope mentioned above into a set
     \caption{The data concerning spin and parity assignments for $^{165}$Lu that are required for the numerical calculations of the excitation energies. The wobbling phonon numbers from Eq. \ref{phononic-term-tsd-energies} are also shown. For all three TSD bands there is only one single-particle, i.e., $\mathcal{Q}_1$. The even/odd dissimilarity between core states of the two bands are emphasized through the fourth column ($\mathscr{C}$). The band-head $I_b$ for the isotope is also given in the last column.}
     \label{lu-165-experimental-data-table}
 \end{table}
-
 \begin{table}
     \centering
     \resizebox{\textwidth}{!}{%
@@ -718,10 +715,8 @@ One can summarize the characteristics of each isotope mentioned above into a set
 
 Putting together the set of energies from Eq. \ref{lu163-absolute-energies-tsd1234}, one can define a general formula that will illustrate the analytical formalism for the excitation energy used in the fitting procedure:
 \begin{align}
-    {\color{blue}E_{I_b}^\text{TSD1}(^A\text{Lu\ ;\ abs})}=&{\color{blue}\epsilon_{13/2}+\mathcal{H}_\text{min}^{I_b}+\mathcal{F}_{00}^{I_b}}\ ,\nonumber\\
-    E_{I,n_{w_1},n_{w_2}}^\text{TSDK}(^A\text{Lu\ ;\ exc})=&{\color{red}\left(\epsilon_{j}+\mathcal{H}_\text{min}^I+\mathcal{F}^I_{n_{w_1}n_{w_1}}\right)}-{\color{blue}E_{I_b}^\text{TSD1}(^A\text{Lu\ ;\ abs})}\ ,
+    E_{I_b}^\text{TSD1}(^A\text{Lu\ ;\ abs})=&\epsilon_{13/2}+\mathcal{H}_\text{min}^{I_b}+\mathcal{F}_{00}^{I_b}\ ,\nonumber\\
+    E_{I,n_{w_1},n_{w_2}}^\text{TSDK}(^A\text{Lu\ ;\ exc})=&\left(\epsilon_{j}+\mathcal{H}_\text{min}^I+\mathcal{F}^I_{n_{w_1}n_{w_1}}\right)-E_{I_b}^\text{TSD1}(^A\text{Lu\ ;\ abs})\ ,
     \label{general-excitation-energy-fitting-model}
 \end{align}
-where $^A$Lu represents the isotope that is evaluated (i.e., $A\in\{161,163,165,167\}$), $I$ is a state belonging to a triaxial band $K$ ($I\in\text{TSDK}$) from $^A$Lu, the labels `$\text{exc}$/$\text{abs}$' symbolize the excitation/absolute energy, respectively, and $I_b$ is the band-head from the TSD1 band of that particular nucleus, which is given explicitly in the last column of Tables \ref{lu-161-experimental-data-table} - \ref{lu-167-experimental-data-table}. 
-
-The coloring of Eq. \ref{general-excitation-energy-fitting-model} depicts the absolute value obtained through TDVE (i.e., Eq. \ref{tsd-bands-general-spectrum}) indicated by red color, and the absolute value of the band-head, marked by the blue color. Note that regarding the energy $E_{I_b}^\text{TSD1}(^A\text{Lu\ ;\ abs})$, the subscripts $n_{w_1}$ and $n_{w_2}$ have been dropped entirely because all ground-bands are zero-phonon bands. Moreover, the quasi-particle involved in the particle + rotor coupling for the ground bands is $\mathcal{Q}_1=j_{13/2}$ across entire mass region.
+where $^A$Lu represents the isotope that is evaluated (i.e., $A\in\{161,163,165,167\}$), $I$ is a state belonging to a triaxial band $K$ from $^A$Lu ($I\in\text{TSDK}$), the labels `$\text{exc}$/$\text{abs}$' symbolize the excitation/absolute energy, respectively, and $I_b$ is the band-head from the TSD1 band of that particular nucleus, which is given explicitly in the last column of Tables \ref{lu-161-experimental-data-table} - \ref{lu-167-experimental-data-table}. Note that regarding the energy $E_{I_b}^\text{TSD1}(^A\text{Lu\ ;\ abs})$, the subscripts $n_{w_1}$ and $n_{w_2}$ have been dropped entirely because all ground-bands are zero-phonon bands. Moreover, the quasi-particle involved in the particle + rotor coupling for the ground bands is $\mathcal{Q}_1$ (Table \ref{lu-163-phonon-numbers}) across entire mass region.
