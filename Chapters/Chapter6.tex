@@ -722,6 +722,8 @@ One can summarize the characteristics of each isotope mentioned above into a set
 
 Putting together the set of energies from Eq. \ref{lu163-absolute-energies-tsd1234}, one can define a general formula that will illustrate the analytical formalism for the excitation energy used in the fitting procedure:
 \begin{align}
-    E_I^\text{TSDK}(^A\text{Lu\ ;\ exc})=\left(\epsilon_{j}+\mathcal{H}_\text{min}^I+F^I_{n_{w_1}n_{w_1}}\right)-E_{I_b}^\text{TSD1}(^A\text{Lu\ ;\ abs})\ ,
+    E_{I_b}^\text{TSD1}(^A\text{Lu\ ;\ abs})=&\epsilon_{13/2}+\mathcal{H}_\text{min}^{I_b}+F_{00}^{I_b}\ ,\nonumber\\
+    E_{I,n_{w_1},n_{w_2}}^\text{TSDK}(^A\text{Lu\ ;\ exc})=&{\color{red}\left(\epsilon_{j}+\mathcal{H}_\text{min}^I+F^I_{n_{w_1}n_{w_1}}\right)}-{\color{blue}E_{I_b}^\text{TSD1}(^A\text{Lu\ ;\ abs})}\ ,
+    \label{general-excitation-energy-fitting-model}
 \end{align}
-where $A$ represents the isotope that is evaluated (i.e., $A\in\{161,163,165,167\}$), $I$ is a state belonging to a triaxial band $K$ ($I\in\text{TSDK}$) from $^{A}$Lu, the labels `$\text{exc}$/$\text{abs}$' symbolize the excitation or the absolute energy, respectively, and $I_b$ is the band-head from the TSD1 band of a corresponding isotope, which is given explicitly for each isotope in Tables \ref{lu-161-experimental-data-table} - \ref{lu-167-experimental-data-table}.
+where $^A$Lu represents the isotope that is evaluated (i.e., $A\in\{161,163,165,167\}$), $I$ is a state belonging to a triaxial band $K$ ($I\in\text{TSDK}$) from $^A$Lu, the labels `$\text{exc}$/$\text{abs}$' symbolize the excitation/absolute energy, respectively, and $I_b$ is the band-head from the TSD1 band of that particular nucleus, which is given explicitly in the last column of Tables \ref{lu-161-experimental-data-table} - \ref{lu-167-experimental-data-table}. The coloring of Eq. \ref{general-excitation-energy-fitting-model} aims at depicting the absolute value that was obtained through TDVE (i.e., Eq. \ref{tsd-bands-general-spectrum}) indicated by red color, and the absolute value of the band-head marked by the blue color.
