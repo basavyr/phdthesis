@@ -722,7 +722,7 @@ Putting together the set of absolute energies from Eq. \ref{lu163-absolute-energ
 \end{align}
 where $^A$Lu represents the isotope that is evaluated (i.e., $A\in\{161,163,165,167\}$), $I$ is the state belonging to a triaxial band $K$ from $^A$Lu ($I\in\text{TSDK}$), the labels `$\text{exc}$/$\text{abs}$' symbolize the excitation/absolute energy, respectively, and $I_b$ is the band-head from the TSD1 band of that particular nucleus, which is given explicitly in the last column of Tables \ref{lu-161-experimental-data-table} - \ref{lu-167-experimental-data-table}. Note that regarding the energy $E_{I_b}^\text{TSD1}(^A\text{Lu\ ;\ abs})$, the subscripts $n_{w_1}$ and $n_{w_2}$ have been dropped entirely because all ground-bands are zero-phonon bands. Moreover, the quasi-particle involved in the particle + rotor coupling for the ground bands is $\mathcal{Q}_1$ (Table \ref{lu-163-phonon-numbers}) across entire mass region.
 
-\section{Numerical Parameters}
+\subsection{Numerical Parameters}
 
 With the experimental excitation energies evaluated per every nucleus, the minimization procedure of Eq. \ref{chi-2-fitting-function} can be readily applied. Note that since the variational states from TSD4 are obtained from different core + particle polarization, a separate fit for the states of this band will be made \cite{}. Results are presented in Table \ref{numerical-fitting-parameters-Lu-isotopes}, where in order to appraise the quality of the fits, the root-mean square (RMS) error for each band is also shown. Based on these numbers, it can be concluded that the description of the excitation energies is quite good across the entire mass region.
 \begin{table}
@@ -763,7 +763,7 @@ In the survey made in Chapter \ref{chapter-5} that concluded with Fig. \ref{wobb
     \label{fig-V-param-fitting-procedure}
 \end{figure}
 
-\section{Energies}
+\subsection{Energies}
 
 As discussed, the fitting procedure consists of a minimization for the $\chi^2$-function given by Eq. \ref{chi-2-fitting-function}, from which one obtains the `best' parameter set $\mathcal{P}_\text{fit}$. With this parameter set, calculating the theoretical values from Eq. \ref{general-excitation-energy-fitting-model} is straightforward. In Fig. \ref{excitation-energies-th-161Lu}, the excitation energies of $^{161}$Lu are directly compared with the available experimental data.
 \begin{figure}
@@ -812,3 +812,12 @@ In what follows a remark about the evidence towards a transverse/longitudinal wo
     \caption{The theoretical wobbling energies as per Eq. \ref{eq-wobbling-energy-definition-oddA} compared with the experimental ones, for the isotopes $^{163}$Lu (\textbf{left}) and $^{165}$Lu (\textbf{right}). Note that the $n=1$ and $n=0$ bands are TSD3 and TSD2 within the current description.}
     \label{experimental-wobbling-energies-Lu-aw1}
 \end{figure}
+
+\subsection{Alignment}
+
+Going further with the study of the triaxial properties in odd-mass nuclei, other relevant quantities are calculated within the current formalism. The \emph{alignment} (or aligned angular momentum) is defined as the total spin minus a reference value. Usually the reference value is a function that is cubed in the rotational frequency $\hbar\omega$. Namely, the reference value is given as:
+\begin{align}
+    I_\text{ref}=\mathcal{I}_0\omega+\mathcal{I}_1\omega^3 \,
+    \label{alignment-reference-angular-momentum}
+\end{align}
+where the coefficients $\mathcal{I}_0$ and $\mathcal{I}_1$ are obtained by a least square procedure fit. Within literature, these values are also known as the Harris parameters \cite{harris1965higher}. The linear term from Eq. \ref{alignment-reference-angular-momentum} is involved in the spherical symmetry and the second term is related to the axial symmetry. Consequently, the alignment gives a measure of triaxiality for the isotopes.
