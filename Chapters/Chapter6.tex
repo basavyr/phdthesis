@@ -741,7 +741,7 @@ With the experimental excitation energies evaluated per every nucleus, the minim
      \hline
     \end{tabular}%
     }
-    \caption{The fitting parameters, i.e., the moments of inertia, the single-particle potential strength, and the triaxiality $\gamma$ for each Lu isotope. Numerical results were obtained through the fitting procedure described in text. The number of wobbling states and the root-mean-square error are also given.}
+    \caption{The fitting parameters $\mathcal{P}_\text{fit}$, i.e., the moments of inertia, the single-particle potential strength, and the triaxiality $\gamma$ for each Lu isotope. Numerical results were obtained through the fitting procedure described in text. The number of wobbling states and the root-mean-square error are also given.}
     \label{numerical-fitting-parameters-Lu-isotopes}
 \end{table}
 
@@ -759,7 +759,7 @@ In the survey made in Chapter \ref{chapter-5} that concluded with Fig. \ref{wobb
 \begin{figure}
     \centering
     \includegraphics[scale=0.8]{Chapters/Figures/V-param-fitting.pdf}
-    \caption{Fitted values for the single particle potential strength $V$ as function of the mass number $A$. The separate procedure for TSD4 in $^{163}$Lu is marked by the blue data point. The dotted line that connects each point is just to guide the eye. For an illustrative purpose, the average value across the entire mass region is also represented by the dashed horizontal line.}
+    \caption{Fitted values for the single particle potential strength $V$ as function of the mass number $A$. The separate procedure for TSD4 in $^{163}$Lu is marked by the blue data point. The dotted line that connects each point is just to guide the eye. For an illustrative purpose, the average value across the entire mass region is also represented by the dashed horizontal line. The numerical values correspond to the ones given in Table \ref{numerical-fitting-parameters-Lu-isotopes}.}
     \label{fig-V-param-fitting-procedure}
 \end{figure}
 
@@ -924,7 +924,9 @@ The electric quadrupole (E2) transitions are calculated with the help of the ele
     \mathcal{M}(E2,\mu)=&z_\text{eff}\left[Q_0\mathcal{D}_{\mu 0}^2-Q_2\left(\mathcal{D}_{\mu 2}^2+\mathcal{D}_{\mu -2}^2\right)\right]+z_\text{eff}\sum_{\nu=-2}^2\mathcal{D}_{\mu\nu}Y_2^\nu r^2\ ,\nonumber\\
     \mathcal{M}(E2,\mu)=&T_{2\mu}^\text{coll}+T_{2\mu}^\text{sp}\ ,
 \end{align}
-where the transition operator was separated into a collective term and a single-particle term. The two quadrupole moments $Q_{0,2}$ represent a measure of deformation and asymmetry in the shape of the nucleus. They are functions of deformation parameters, i.e. \cite{raduta2018wobbling}:
+where the transition operator was separated into a \emph{collective} term and a \emph{single-particle} term. The two quadrupole moments $Q_{0,2}$ represent a measure of deformation and asymmetry in the shape of the nucleus. They are expressed in terms of the deformation parameters $\beta$ and $\gamma$, i.e. \cite{raduta2018wobbling}:
 \begin{align}
-    Q_0=\frac{3}{4\pi}ZR^2\beta\cos\gamma\ ,\ Q_2=\frac{3}{4\pi}ZR^2\frac{\sin\gamma}{\sqrt{2}}\ .
+    Q_0=\frac{3}{4\pi}ZR^2\beta\cos\gamma\ ,\ Q_2=\frac{3}{4\pi}ZR^2\sin\gamma/\sqrt{2}\ .
 \end{align}
+
+From the calculated parameters $\mathcal{P}_\text{fit}$ shown in Table \ref{numerical-fitting-parameters-Lu-isotopes} it was concluded that the maximal MOI is $\mathcal{I}_1$ for each isotope. Consequently, $Q_0$ and $Q_2$ are the quadrupole moments that describe de deformation and degree of asymmetry with respect to this axis.
