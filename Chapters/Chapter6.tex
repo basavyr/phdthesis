@@ -917,31 +917,50 @@ Usually, the dynamic MOI is sensitive to the single-particle effects such as ali
 
 \subsection{Electromagnetic Transitions}
 
-The electromagnetic transitions between states were also calculated with the $\mathbf{W_1}$ formalism and compared with the available experimental data. For collective phenomena, one usually expects enhanced transitions of quadrupole character and also large quadrupole moments. In fact, as it was discussed in Chapters \ref{chapter4} and \ref{chapter-5}, the large quadrupole moments and large mixing ratios $\delta$ comprise crucial `tests' for wobbling behavior. Regarding the types of transitions, the intraband and interband transitions are of interest. The wobbling bands having collective nature, the spin difference within a band is $\Delta I=2$ units of angular momentum, while two states from adjacent bands only differ by one unit $\Delta I=1$ (recall Fig. \ref{wobbling-geometry-tilting-sketch} from discussion in Chapter \ref{chapter-5}). A schematic representation that illustrates the difference between interband/intraband transitions can be seen in Fig. \ref{schematic-interband-intraband-E2}. Therein, the electric quadrupole transitions are sketched for two states belonging to same band and two states from different bands. 
+The electromagnetic transitions between states were also calculated with the $\mathbf{W_1}$ formalism and compared with the available experimental data. For collective phenomena, one usually expects enhanced transitions of quadrupole character and also large quadrupole moments. In fact, as it was discussed in Chapters \ref{chapter4} and \ref{chapter-5}, the large quadrupole moments and large mixing ratios $\delta$ comprise crucial `tests' for wobbling behavior. Regarding the types of transitions, the intraband and interband transitions are of interest. The wobbling bands having collective nature, the spin difference within a band is $\Delta I=2$ units of angular momentum, while two states from adjacent bands only differ by one unit $\Delta I=1$ (recall Fig. \ref{wobbling-geometry-tilting-sketch} from discussion in Chapter \ref{chapter-5}). A schematic representation that illustrates the difference between interband/intraband transitions can be seen in Fig. \ref{schematic-interband-intraband-E2}. Therein, the E2 transitions are sketched for two states belonging to same band and two states from different bands and for each band, the allowed spin sequences are exemplified. For collective states, an electromagnetic transition of magnetic character can only occur between states that differ in one unit of a.m., meaning that a magnetic dipole M1 transition is possible between of neighboring bands. Moreover, they will compete with the interband E2 transitions and this behavior is reflected in the mixing ratio.
 \begin{figure}
     \centering
     \includegraphics[scale=1.1]{Chapters/Figures/transitions-wobbling-states.pdf}
-    \caption{Schematic representation with the transitions that can occur in wobbling spectra of nuclei. The \emph{intraband} values ($E2_\text{in}$ ; blue) represent the transitions between a $I$ initial state and a $I-2$ final state belonging to the same band, which are characterized by $\Delta I=I_\text{initial}-I_\text{final}=2\hbar$. On the other hand, \emph{interband} values ($E2_\text{out}$ ; red) occur between states belonging to two adjacent bands and they are characterized by $\Delta I=I_\text{initial}-I_\text{final}=1\hbar$. The spin sequences for each band are given below the level schemes.}
+    \caption{Schematic representation with the transitions that can occur in wobbling spectra of nuclei. The \emph{intraband} values ($E2_\text{in}$ ; blue) represent the transitions between a $I$ initial state and a $I-2$ final state belonging to the same band, which are characterized by $\Delta I=I_\text{initial}-I_\text{final}=2\hbar$. On the other hand, \emph{interband} values ($E2_\text{out}$ ; red) occur between states belonging to two adjacent bands and they are characterized by $\Delta I=I_\text{initial}-I_\text{final}=1\hbar$. The spin sequences for each band are given below the level schemes in curly brackets.}
     \label{schematic-interband-intraband-E2}
 \end{figure}
 
-The electric quadrupole (E2) transitions are calculated with the help of the electric quadrupole transition operator \cite{raduta2018wobbling,raduta2020towards}:
-\begin{gather}
-    \mathcal{M}(E2,\mu)=T_{2\mu}^\text{coll}+T_{2\mu}^\text{sp}\ ,\nonumber\\
-    \mathcal{M}(E2,\mu)=\left[Q_{20}\mathcal{D}_{\mu 0}^2-Q_{22}\left(\mathcal{D}_{\mu 2}^2+\mathcal{D}_{\mu -2}^2\right)\right]+\sum_{\nu=-2}^2\mathcal{D}_{\mu\nu}r^2Y_2^\nu\ ,
-    \label{electric-quadrupole-transition-operator}
-\end{gather}
-where the transition operator was separated into a \emph{collective} term and a \emph{single-particle} term. The two quadrupole moments $Q_{0,2}$ represent a measure of deformation and asymmetry in the shape of the nucleus. They are expressed in terms of the deformation parameters $\beta$ and $\gamma$, i.e. \cite{raduta2018wobbling}:
+\subsubsection{E2 Transitions}
+
+The quadrupole transition probabilities can be determined from the matrix elements of the \emph{quadrupole transition operators}, which is consistent with the definition given in Eq. \ref{eq-general-reduced-E2}. Therefore, one needs the quadrupole transition operator prior to any calculations. The most general form of an electric transition operator defined with arbitrary multi-polarity $\lambda$ is usually expressed in terms of the continuous charge distribution \cite{heyde1994nuclear}:
 \begin{align}
-    Q_0=\frac{3}{4\pi}ZR^2\beta\cos\gamma\ ,\ Q_2=\frac{3}{4\pi}ZR^2\sin\gamma/\sqrt{2}\ ,
+    M(E\lambda,\mu)=\int\rho(\mathbf{r})r^\lambda Y_\lambda^\mu\text{d}\mathbf{r}\ ,
+\end{align}
+where the charge density $\rho$ is typically considered for a system composed of $A$ point charges:
+\begin{align}
+    \rho(\mathbf{r})=\sum_i^A e_\text{eff}^i\delta\left(\mathbf{r}-\mathbf{r}_i\right)\ .
+\end{align}
+
+Since the triaxial system can be regarded as a collective core + a single particle, the electric transition operator defined in $\mathbf{W_1}$ can be described as an operator which is separated into a \emph{collective} term and a \emph{single-particle} term. :
+\begin{align}
+    \mathcal{M}(E2,\mu)\equiv T_{2\mu}^\text{coll}+T_{2\mu}^\text{sp}\ ,
+    \label{quadrupole-transition-operator-terms}
+\end{align}
+
+The two terms $T_{2\mu}^\text{coll}$ and $T_{2\mu}^\text{sp}$ from Eq. \ref{quadrupole-transition-operator-terms} are explicitly given  as \cite{raduta2017semiclassical,raduta2020towards}:
+\begin{align}
+    \mathcal{M}(E2,\mu)=z_\text{eff}\left[Q_{20}\mathcal{D}_{\mu 0}^2-Q_{22}\left(\mathcal{D}_{\mu 2}^2+\mathcal{D}_{\mu -2}^2\right)\right]+z_\text{eff}\sum_{\nu=-2}^2r^2Y_2^\nu\mathcal{D}_{\mu\nu}\ ,
+    \label{electric-quadrupole-transition-operator}
+\end{align}
+
+The two quadrupole moments $Q_{20}$ and $Q_{22}$ represent a measure of deformation and asymmetry of the nuclear shape. They are expressed in terms of the deformation parameters $\beta$ and $\gamma$, i.e. \cite{raduta2018wobbling}:
+\begin{align}
+    Q_{20}=\frac{3}{4\pi}ZR^2\beta\cos\gamma\ ,\ Q_{22}=\frac{3}{4\pi}ZR^2\sin\gamma/\sqrt{2}\ ,
     \label{quadrupole-components-Q0-Q2}
 \end{align}
-which is in fact consistent with the discussion from Chapter \ref{chapter-3} (see Eq. \ref{quadrupole-moment-Q0}) and Chapter \ref{chapter-5} (recall Eq. \ref{quadrupole-components-q20-q22}).
+which is in fact consistent with the discussion from Chapter \ref{chapter-3} (see Eq. \ref{quadrupole-moment-Q0}) and Chapter \ref{chapter-5} (recall Eq. \ref{quadrupole-components-q20-q22}). In terms of the nuclear charge density, $Q_{20,22}$ show to which extent its distribution deviates from spherical symmetry \cite{bohr1998nuclear}.
 
-From the calculated parameters $\mathcal{P}_\text{fit}$ shown in Table \ref{numerical-fitting-parameters-Lu-isotopes} it was concluded that the maximal MOI is $\mathcal{I}_1$ for each isotope. Consequently, $Q_0$ and $Q_2$ are the quadrupole moments that describe de deformation and degree of asymmetry with respect to this axis. Because the $\mathbf{W_1}$ adopts a free nature of the moments of inertia and they are determined via the fitting procedure (Eq. \ref{chi-2-fitting-function}), there is no concise the two quadrupole moments are also considered as being free quantities. Consequently, the analytical expressions from Eq. \ref{quadrupole-components-Q0-Q2} can not be used explicitly within the numerical evaluations. They are determined by fixing the reduced transition probability for one intraband and one interband transition ($\text{TSD2}\to\text{TSD1}$). With this method, one obtains for example $Q_0=18.43\ \text{eb}$ and $Q_2=19.81\ \text{eb}$ for $^{163}$Lu. The results for the quadrupole moment calculations concerning the other isotopes are graphically represented in Fig. \ref{quadrupole-moments-fit-numerical-results}.
+From the calculated parameters $\mathcal{P}_\text{fit}$ shown in Table \ref{numerical-fitting-parameters-Lu-isotopes} it was concluded that the maximal MOI is $\mathcal{I}_1$ for each isotope. Consequently, $Q_{20}$ and $Q_{22}$ are the moments that give the degree of quadrupole deformation (elongation) and asymmetry with respect to this axis. Because the formalism $\mathbf{W_1}$ adopts a set of MOI which are determined freely from Eq. \ref{chi-2-fitting-function}, one cannot infer their actual nature (i.e., hydrodynamical or rigid). Additionally, the textbook example of quadrupole components from Eq. \ref{quadrupole-components-Q0-Q2} emerge from hydrodynamic considerations, and for that reason the two quadrupole moments are also considered as free quantities. Consequently, the analytical expressions from Eq. \ref{quadrupole-components-Q0-Q2} can not be used explicitly within the numerical evaluations. They are determined by fixing the reduced transition probability for one intraband and one interband transition ($\text{TSD2}\to\text{TSD1}$). With this method, one obtains for example $Q_0=18.43\ \text{eb}$ and $Q_2=19.81\ \text{eb}$ for $^{163}$Lu. The results for the quadrupole moment calculations concerning the other isotopes are graphically represented in Fig. \ref{quadrupole-moments-fit-numerical-results}.
 \begin{figure}
     \centering
     \includegraphics[scale=0.65]{Chapters/Figures/Lu-exp-energies/fig19.pdf}
     \caption{The calculated quadrupole moments $Q_{0}$ and $Q_2$, which enter in Eq. \ref{electric-quadrupole-transition-operator}. The two values are determined by fixing one intraband and one interband $B(E2 \ ;\ \text{TSD2}\to\text{TSD1})$ reduced probabilities from each nucleus. The unit for $Q$ is $\text{eb}$ and the mass number $A$ corresponds to each nucleus.}
     \label{quadrupole-moments-fit-numerical-results}
 \end{figure}
+
+\subsubsection{M1 Transitions}
