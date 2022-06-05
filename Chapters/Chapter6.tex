@@ -917,14 +917,20 @@ Usually, the dynamic MOI is sensitive to the single-particle effects such as ali
 
 \subsection{Electromagnetic Transitions}
 
-The electromagnetic transitions between states were also calculated with the $\mathbf{W_1}$ formalism and compared with the available experimental data. For collective phenomena, one usually expects enhanced transitions of quadrupole character and also large quadrupole moments. In fact, as it was discussed in Chapters \ref{chapter4} and \ref{chapter-5}, the large quadrupole moments and large mixing ratios $\delta$ comprise crucial `tests' for wobbling behavior.
+The electromagnetic transitions between states were also calculated with the $\mathbf{W_1}$ formalism and compared with the available experimental data. For collective phenomena, one usually expects enhanced transitions of quadrupole character and also large quadrupole moments. In fact, as it was discussed in Chapters \ref{chapter4} and \ref{chapter-5}, the large quadrupole moments and large mixing ratios $\delta$ comprise crucial `tests' for wobbling behavior. Regarding the types of transitions, the intraband and interband transitions are of interest. A schematic representation that illustrates the difference between interband/intraband transitions can be seen in Fig. \ref{schematic-interband-intraband-E2}.
+\begin{figure}
+    \centering
+    \includegraphics[scale=1]{Chapters/Figures/transitions-wobbling-states.pdf}
+    \caption{Schematic representation with two collective bands.}
+    \label{schematic-interband-intraband-E2}
+\end{figure}
 
 The electric quadrupole (E2) transitions are calculated with the help of the electric quadrupole transition operator \cite{raduta2018wobbling,raduta2020towards}:
-\begin{align}
-    \mathcal{M}(E2,\mu)=&\left[Q_0\mathcal{D}_{\mu 0}^2-Q_2\left(\mathcal{D}_{\mu 2}^2+\mathcal{D}_{\mu -2}^2\right)\right]+\sum_{\nu=-2}^2\mathcal{D}_{\mu\nu}Y_2^\nu r^2\ ,\nonumber\\
-    \mathcal{M}(E2,\mu)=&T_{2\mu}^\text{coll}+T_{2\mu}^\text{sp}\ ,
+\begin{gather}
+    \mathcal{M}(E2,\mu)=T_{2\mu}^\text{coll}+T_{2\mu}^\text{sp}\ ,\nonumber\\
+    \mathcal{M}(E2,\mu)=\left[Q_{20}\mathcal{D}_{\mu 0}^2-Q_{22}\left(\mathcal{D}_{\mu 2}^2+\mathcal{D}_{\mu -2}^2\right)\right]+\sum_{\nu=-2}^2\mathcal{D}_{\mu\nu}r^2Y_2^\nu\ ,
     \label{electric-quadrupole-transition-operator}
-\end{align}
+\end{gather}
 where the transition operator was separated into a \emph{collective} term and a \emph{single-particle} term. The two quadrupole moments $Q_{0,2}$ represent a measure of deformation and asymmetry in the shape of the nucleus. They are expressed in terms of the deformation parameters $\beta$ and $\gamma$, i.e. \cite{raduta2018wobbling}:
 \begin{align}
     Q_0=\frac{3}{4\pi}ZR^2\beta\cos\gamma\ ,\ Q_2=\frac{3}{4\pi}ZR^2\sin\gamma/\sqrt{2}\ ,
@@ -932,7 +938,7 @@ where the transition operator was separated into a \emph{collective} term and a 
 \end{align}
 which is in fact consistent with the discussion from Chapter \ref{chapter-3} (see Eq. \ref{quadrupole-moment-Q0}) and Chapter \ref{chapter-5} (recall Eq. \ref{quadrupole-components-q20-q22}).
 
-From the calculated parameters $\mathcal{P}_\text{fit}$ shown in Table \ref{numerical-fitting-parameters-Lu-isotopes} it was concluded that the maximal MOI is $\mathcal{I}_1$ for each isotope. Consequently, $Q_0$ and $Q_2$ are the quadrupole moments that describe de deformation and degree of asymmetry with respect to this axis. Because the $\mathbf{W_1}$ adopts a free nature of the moments of inertia and they are determined via the fitting procedure (Eq. \ref{chi-2-fitting-function}), the two quadrupole moments are also considered as being free quantities. Consequently, the analytical expressions from Eq. \ref{quadrupole-components-Q0-Q2} can not be used explicitly within the numerical evaluations. They are determined by fixing the reduced transition probability for one interband and one intraband transition ($\text{TSD2}\to\text{TSD1}$). With this method, one obtains for example $Q_0=18.43\ \text{eb}$ and $Q_2=19.81\ \text{eb}$ for $^{163}$Lu. The results for the quadrupole moment calculations concerning the other isotopes are graphically represented in Fig. \ref{quadrupole-moments-fit-numerical-results}.
+From the calculated parameters $\mathcal{P}_\text{fit}$ shown in Table \ref{numerical-fitting-parameters-Lu-isotopes} it was concluded that the maximal MOI is $\mathcal{I}_1$ for each isotope. Consequently, $Q_0$ and $Q_2$ are the quadrupole moments that describe de deformation and degree of asymmetry with respect to this axis. Because the $\mathbf{W_1}$ adopts a free nature of the moments of inertia and they are determined via the fitting procedure (Eq. \ref{chi-2-fitting-function}), there is no concise the two quadrupole moments are also considered as being free quantities. Consequently, the analytical expressions from Eq. \ref{quadrupole-components-Q0-Q2} can not be used explicitly within the numerical evaluations. They are determined by fixing the reduced transition probability for one intraband and one interband transition ($\text{TSD2}\to\text{TSD1}$). With this method, one obtains for example $Q_0=18.43\ \text{eb}$ and $Q_2=19.81\ \text{eb}$ for $^{163}$Lu. The results for the quadrupole moment calculations concerning the other isotopes are graphically represented in Fig. \ref{quadrupole-moments-fit-numerical-results}.
 \begin{figure}
     \centering
     \includegraphics[scale=0.65]{Chapters/Figures/Lu-exp-energies/fig19.pdf}
