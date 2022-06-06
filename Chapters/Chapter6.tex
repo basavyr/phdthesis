@@ -933,16 +933,16 @@ The electromagnetic transitions between states were also calculated with the $\m
 
 \subsubsection{E2 Transitions}
 
-The quadrupole transition probabilities can be determined from the matrix elements of the \emph{quadrupole transition operators}, which is consistent with the definition given in Eq. \ref{eq-general-reduced-E2}. Therefore, one needs the quadrupole transition operator prior to any calculations. The most general form of an electric transition operator defined with arbitrary multi-polarity $\lambda$ is usually expressed in terms of the continuous charge distribution \cite{heyde1994nuclear}:
-\begin{align}
-    M(E\lambda,\mu)=\int\rho(\mathbf{r})r^\lambda Y_\lambda^\mu\text{d}\mathbf{r}\ ,
-\end{align}
-where the charge density $\rho$ is typically considered for a system composed of $A$ point charges:
-\begin{align}
-    \rho(\mathbf{r})=\sum_i^A e_\text{eff}^i\delta\left(\mathbf{r}-\mathbf{r}_i\right)\ .
-\end{align}
-
-Since the triaxial system can be regarded as a collective core + a single particle, the electric transition operator defined in $\mathbf{W_1}$ can be described as an operator which is separated into a \emph{collective} term and a \emph{single-particle} term. :
+The quadrupole transition probabilities can be determined from the matrix elements of the \emph{quadrupole transition operators}, which is consistent with the definition given in Eq. \ref{eq-general-reduced-E2}. Therefore, one needs the quadrupole transition operator prior to any calculations. 
+% The most general form of an electric transition operator defined with arbitrary multi-polarity $\lambda$ is usually expressed in terms of the continuous charge distribution \cite{heyde1994nuclear}:
+% \begin{align}
+%     M(E\lambda,\mu)=\int\rho(\mathbf{r})r^\lambda Y_\lambda^\mu\text{d}\mathbf{r}\ ,
+% \end{align}
+% where the charge density $\rho$ is typically considered for a system composed of $A$ point charges:
+% \begin{align}
+%     \rho(\mathbf{r})=\sum_i^A e_\text{eff}^i\delta\left(\mathbf{r}-\mathbf{r}_i\right)\ .
+% \end{align}
+Since the triaxial system can be regarded as a collective core + a single particle, the electric transition operator defined in $\mathbf{W_1}$ can be described as an operator which is separated into a \emph{collective} term and a \emph{single-particle} term:
 \begin{align}
     \mathcal{M}(E2,\mu)\equiv T_{2\mu}^\text{coll}+T_{2\mu}^\text{sp}\ ,
     \label{quadrupole-transition-operator-terms}
@@ -950,7 +950,7 @@ Since the triaxial system can be regarded as a collective core + a single partic
 
 The operator $T_{2\mu}^\text{coll}$ corresponds to the core $\mathscr{C}$, and it can be expressed through the Wigner-$\mathcal{D}$ functions as:
 \begin{align}
-    T_{2\mu}^\text{coll}=\mathcal{D}_{\mu 0}^2Q_{0}-\left(\mathcal{D}_{\mu 2}^2+\mathcal{D}_{\mu -2}^2\right)Q_{2}\ ,
+    T_{2\mu}^\text{coll}=z_\text{eff}\left[\mathcal{D}_{\mu 0}^2Q_{0}-\left(\mathcal{D}_{\mu 2}^2+\mathcal{D}_{\mu -2}^2\right)Q_{2}\right]\ ,
     \label{electric-quadrupole-T-coll}
 \end{align}
 where the two quadrupole moments $Q_{0}$ and $Q_{2}$ represent a measure of deformation and asymmetry of the nuclear shape. They are expressed in terms of the deformation parameters $\beta$ and $\gamma$, i.e. \cite{raduta2018wobbling}:
@@ -966,7 +966,7 @@ which is in fact consistent with the discussion from Chapter \ref{chapter-3} (se
 
 Putting together the two terms from Eqs. \ref{electric-quadrupole-T-coll} and \ref{electric-quadrupole-T-sp}, the total quadrupole transition operator (Eq. \ref{quadrupole-transition-operator-terms}) can be properly depicted \cite{raduta2020new,raduta2020towards}:
 \begin{align}
-    \mathcal{M}(E2,\mu)=\left[\mathcal{D}_{\mu 0}^2Q_{0}-\left(\mathcal{D}_{\mu 2}^2+\mathcal{D}_{\mu -2}^2\right)Q_{2}\right]+z_\text{eff}\sum_{\nu=-2,0,2}^2 \mathcal{D}_{\mu\nu}^2 r^2Y_2^\nu\ .
+    \mathcal{M}(E2,\mu)=z_\text{eff}\left[\mathcal{D}_{\mu 0}^2Q_{0}-\left(\mathcal{D}_{\mu 2}^2+\mathcal{D}_{\mu -2}^2\right)Q_{2}\right]+z_\text{eff}\sum_{\nu=-2,0,2}^2 \mathcal{D}_{\mu\nu}^2 r^2Y_2^\nu\ .
     \label{electric-quadrupole-transition-operator}
 \end{align} 
 
