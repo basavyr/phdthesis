@@ -977,17 +977,18 @@ Besides the electric transition operator, the wave-functions for the wobbling ba
     \label{wave-function-TSD1}
 \end{align}
 
-The complex variables $(z;s)$ correspond to the classical coordinates $(r,\varphi;f,\psi)$ as per the transformations employed in Section \ref{equations-of-motion-section} (see Eqs. \ref{z-s-variables}, \ref{changed-rho-sigma-variables} and \ref{eq-of-motion-approach-w1}). Keep in mind that the set $(r,\varphi;f,\psi)$ brought the equations of motion to a canonical form and for each classical coordinate the expressions were explicitly specified in Eq. \ref{eq-of-motion-explicit-coordinates}. It was determined that the CEF (Eq. \ref{full-classical-energy-function}) is minimal in the point $p_0$, which was given Eq. \ref{cef-minimum-point-p0}. Evaluating the wave-function from Eq. \ref{wave-function-TSD1} around this minimum point, the expression of $\ket{\Psi_{IMj}}$ becomes:
-\begin{align}
-    \ket{\Psi_{IMj}}|_{p_0}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ket{\varnothing}_I\ ,
-    \label{wave-function-TSD1-p0}
-\end{align}
-where for the boson creation and annihilation operators $(a^\dagger,a;b^\dagger,b)$ there corresponds the vacuum state $\ket{\varnothing}_I$. Any arbitrary state $\ket{\Psi_{IMj}}$ can be spanned from the vacuum via the relation \cite{raduta2017semiclassical}:
+The complex variables $(z;s)$ correspond to the classical coordinates $(r,\varphi;f,\psi)$ as per the transformations employed in Section \ref{equations-of-motion-section} (see Eqs. \ref{z-s-variables}, and \ref{changed-rho-sigma-variables} - \ref{eq-of-motion-approach-w1}). Keep in mind that the set $(r,\varphi;f,\psi)$ brought the equations of motion to a canonical form and their explicitly form was specified in Eq. \ref{eq-of-motion-explicit-coordinates}. The classical coordinates $(r,\varphi;f,\psi)$, or equivalently $z$ and $s$, were expressed as per the re-quantization procedure applied in Eqs. \ref{canonical-coordinates-quantized} - \ref{canonical-transformations-ab-qp} in terms of the creation/annihilation operators $(a^\dagger,a;b^\dagger,b)$. For the boson creation and annihilation operators $(a^\dagger,a;b^\dagger,b)$ there corresponds a vacuum state $\ket{\varnothing}_I$. Any arbitrary state $\ket{\Psi_{IMj}}$ can be spanned from the vacuum via the relation \cite{raduta2017semiclassical}:
 \begin{align}
     \ket{m,n}_I=\frac{1}{\sqrt{m!n!}}\left(a^\dagger\right)^m\left(b^\dagger\right)^n\ket{\varnothing}_I\ .
 \end{align}
 
-Recall that each set of creation/annihilation operators $(a^\dagger,a;b^\dagger,b)$ corresponds to the classical coordinates $(r,\varphi;f,\psi)$ as per the re-quantization applied in Eqs. \ref{canonical-coordinates-quantized} - \ref{canonical-transformations-ab-qp}. The wave-functions which need to be used in the calculus of transition probabilities can be developed from the the following exploit: expansion up to first-order in the coordinates $(r,\varphi;f,\psi)$ and then perform re-quantization of the coordinates as per the mentioned recipe. Thus, from the wave-function of Eq. \ref{wave-function-TSD1-p0} one obtains:
+It was determined that the CEF (Eq. \ref{full-classical-energy-function}) is minimal in the point $p_0$, which was given Eq. \ref{cef-minimum-point-p0}. Evaluating the wave-function from Eq. \ref{wave-function-TSD1} around this minimum point, the expression of $\ket{\Psi_{IMj}}$ becomes:
+\begin{align}
+    \ket{\Psi_{IMj}}|_{p_0}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ket{\varnothing}_I\ ,
+    \label{wave-function-TSD1-p0}
+\end{align}
+
+The wave-functions which need to be used in the calculus of transition probabilities can be developed from the the following exploit: expansion up to first-order in the coordinates $(r,\varphi;f,\psi)$ and then perform re-quantization of the coordinates as per the mentioned recipe. Thus, from the wave-function of Eq. \ref{wave-function-TSD1-p0} one obtains:
 \begin{align}
     \ket{\Psi_{IMj}}|_{p_0}\stackrel{\text{1st ord.}}{\equiv}&\ket{\Psi_{IMj}^{(1)}}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\times\nonumber\\
                            &\times\left\{1+\frac{\iu}{\sqrt{2}}\left[\left(\frac{K}{I}k_1+\frac{I-K}{k_1}\right)a^\dagger+\left(\frac{\Omega}{j}k_2+\frac{j-\Omega}{k_2}\right)b^\dagger\right]\right\}\ket{\varnothing}_I\ .
