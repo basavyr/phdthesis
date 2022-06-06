@@ -103,7 +103,7 @@ These states are from the quantal space $S_\text{qt}$, belonging to the Hamilton
 Returning to the trial function $\ket{\Psi_{IjM}}$ from Eq. \ref{trial-function-appeoach-w1}, defined as a coherent state with products between  $\ket{IMK}$ (Eq. \ref{IMK-wigner-functions}) and $\ket{j\Omega}$ (Eq. \ref{j-Omega-single-particle-states}), its expression must be further discussed in terms of $z$ and $s$. Indeed, these two variables represent complex functions of time, and they are associated with the motion of the core and the odd-particle, respectively. Their expressions are:
 \begin{align}
     z=\rho e^{i\varphi}\ ,\ s=\sigma e^{i\psi}\ .
-    
+    \label{z-s-variables}
 \end{align}
 The next step would be to evaluate the averages of both $\hat{H}$ and the time derivative $\frac{\partial}{\partial t}$ on the variational state $\ket{\Psi_{IjM}}$ as:
 \begin{align}
@@ -972,7 +972,7 @@ Besides the electric transition operator, one also needs the wave-functions for 
     =&\sum_{K,\Omega}\frac{z^{I-K}s^{j-\Omega}}{\left(1+|z|^2\right)^I\left(1+|s|^2\right)^j}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ .
 \end{align}
 
-The complex variables $(z;s)$ correspond to the classical coordinates $(r,\varphi;f,\psi)$ as per the transformations employed in Section \ref{equations-of-motion-section} (see Eqs. \ref{changed-rho-sigma-variables} - \ref{eq-of-motion-approach-w1}).
+The complex variables $(z;s)$ correspond to the classical coordinates $(r,\varphi;f,\psi)$ as per the transformations employed in Section \ref{equations-of-motion-section} (see Eqs. \ref{z-s-variables}, \ref{changed-rho-sigma-variables} and \ref{eq-of-motion-approach-w1}). Keep in mind that the set $(r,\varphi;f,\psi)$ brought the equations of motion to a canonical form and for each classical coordinate, the expressions were explicitly given in Eq. \ref{eq-of-motion-explicit-coordinates}.
 
 % From the calculated parameters $\mathcal{P}_\text{fit}$ shown in Table \ref{numerical-fitting-parameters-Lu-isotopes} it was concluded that the maximal MOI is $\mathcal{I}_1$ for each isotope. Consequently, $Q_{0}$ and $Q_{2}$ are the quadrupole components that give the degree of elongation and asymmetry with respect to this axis. Because the formalism $\mathbf{W_1}$ adopts a set of MOI which are determined freely from Eq. \ref{chi-2-fitting-function}, one cannot infer their actual nature (i.e., hydrodynamical or rigid). Additionally, the textbook example of quadrupole components from Eq. \ref{quadrupole-components-Q0-Q2} emerge from hydrodynamic considerations. Despite this, the two quadrupole moments should also considered as free quantities in order to be consistent with the three MOI. Consequently, the analytical expressions from Eq. \ref{quadrupole-components-Q0-Q2} cannot be used explicitly within the numerical evaluations. They are determined by fixing two intraband transitions for TSD21 and TSD2. 
 
