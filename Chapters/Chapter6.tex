@@ -989,7 +989,7 @@ where for the boson creation and annihilation operators $(a^\dagger,a;b^\dagger,
 
 Recall that each set of creation/annihilation operators $(a^\dagger,a;b^\dagger,b)$ corresponds to the classical coordinates $(r,\varphi;f,\psi)$ as per the re-quantization applied in Eqs. \ref{canonical-coordinates-quantized} - \ref{canonical-transformations-ab-qp}. The wave-functions which need to be used in the calculus of transition probabilities can be developed from the the following exploit: expansion up to first-order in the coordinates $(r,\varphi;f,\psi)$ and then perform re-quantization of the coordinates as per the mentioned recipe. Thus, from the wave-function of Eq. \ref{wave-function-TSD1-p0} one obtains:
 \begin{align}
-    \ket{\Psi_{IMj}^{(1)}}=&\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\times\nonumber\\
+    \ket{\Psi_{IMj}}|_{p_0}\stackrel{\text{1st ord.}}{\equiv}&\ket{\Psi_{IMj}^{(1)}}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\times\nonumber\\
                            &\times\left\{1+\frac{\iu}{\sqrt{2}}\left[\left(\frac{K}{I}k_1+\frac{I-K}{k_1}\right)a^\dagger+\left(\frac{\Omega}{j}k_2+\frac{j-\Omega}{k_2}\right)b^\dagger\right]\right\}\ket{\varnothing}_I\ .
     \label{wave-function-TSD1-p0-first-order}
 \end{align}
@@ -998,12 +998,14 @@ Looking at Eq. \ref{wave-function-TSD1-p0-first-order}, indeed it can be seen th
 
 Considering the most general one-phonon band which emerges from the $\mathbf{W_1}$ picture, this can be inferred from the set of Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum}. Hence, a one-phonon band is obtained by activating states $I-1$ from the neighboring zero-phonon partner with $n_{w_1}$ phonon operators $\Gamma_1^\dagger$ and $n_{w_2}$ phonon operators $\Gamma_2^\dagger$, each applied on the vacuum states $|\varnothing)_I$ and $|\varnothing)_j$:
 \begin{align}
-    \ket{\Psi_{I+1Mj}}=\ket{\Psi_{IMj}^{(1)}}\frac{1}{\sqrt{n_{w_1}!}}\left\{\left(\Gamma_1^\dagger\right)^{n_{w_1}}|\varnothing)_I\otimes\left(\Gamma_2^\dagger\right)^{n_{w_2}}|\varnothing)_j\right\}\ ,
+    \ket{\Psi_{IMj}}=\ket{\Psi_{I-1M-1j}^{(1)}}\frac{1}{\sqrt{n_{w_1}!}}\left\{\left(\Gamma_1^\dagger\right)^{n_{w_1}}|\varnothing)_{I-1}\otimes\left(\Gamma_2^\dagger\right)^{n_{w_2}}|\varnothing)_j\right\}\ ,
     \label{wave-function-TSD-excited-phonon-state}
 \end{align}
-while in the present model it occurs that only the first phonon (corresponding to the motion of the core) will generate excited phonon states and according to Tables \ref{lu-163-phonon-numbers} and \ref{lu-165-experimental-data-table}, the excited band TSD3 will have the simplified form:
+where the two vacuum states are defined in Appendix D from Ref. \cite{raduta2017semiclassical}.
+
+As it was discussed in the previous section, the renormalization given in Eqs. \ref{renormalized-bands-structure-TSD124}-\ref{renormalized-bands-structure-TSD3} was defined only in terms of the phonon operator $\Gamma_1^\dagger$. From the spectrum depicted in Eq. \ref{lu163-absolute-energies-tsd1234} and the collection of wobbling phonon numbers provided in Tables \ref{lu-163-phonon-numbers} - \ref{lu-167-experimental-data-table}, it occurs that only the first phonon (corresponding to the motion of the core) will generate excited phonon states. This results in the straightforward structure of the bands TSD3 from $^{163,165}$Lu:
 \begin{align}
-    \ket{\Psi_{I+1Mj}^\text{TSD3}}=\ket{\Psi_{IMj}^{(1)}}\left(\Gamma_1^\dagger\right)^{n_{w_1}}|\varnothing)_I
+    \ket{\Psi_{I+1Mj}^\text{TSD3}}=\ket{\Psi_{IMj}^{(1)}}\left(\Gamma_1^\dagger\right)^{n_{w_1}}|\varnothing)_I\ .
     \label{wave-function-TSD3}
 \end{align}
 
