@@ -1010,9 +1010,10 @@ As it was discussed in the previous section, the renormalization given in Eqs. \
     \label{wave-function-TSD3}
 \end{align}
 
-With the expressions of the E2 transition operator granted by Eq. \ref{electric-quadrupole-transition-operator} and wave-functions defined according to Eqs. \ref{wave-function-TSD1-p0-first-order} and \ref{wave-function-TSD3}, the matrix elements of $\mathcal{M}(E2,\mu)$ can be finally constructed. The reduced transition probabilities were firstly depicted in Eq. \ref{eq-general-reduced-E2} from Chapter \ref{chapter-3} and here they are defined as:
+With the expressions of the E2 transition operator granted by Eq. \ref{electric-quadrupole-transition-operator} and wave-functions defined according to Eqs. \ref{wave-function-TSD1-p0-first-order} and \ref{wave-function-TSD3}, the matrix elements of $\mathcal{M}(E2,\mu)$ can be finally constructed, where the superscript `(1)` from $\ket{\Psi_{I-1M-1j}^{(1)}}$ will be dismissed hereafter. The reduced transition probabilities were firstly depicted in Eq. \ref{eq-general-reduced-E2} from Chapter \ref{chapter-3} and here they are defined as transitions from an initial state $I_i$ to a final state $I_f$:
 \begin{align}
-    B(E2;(I_i,n_{w_1})\to(I_f,n_{w_1}))=&\left|\bra{\Psi_{I_fM_fj}}\left|\mathcal{M}(E2)\right|\ket{\Psi_{I_iM_ij}}\right|^2\ 
+    B(E2,\mu;(I_i,n_{w_1})\to(I_f,n'_{w_1}))=&\sum_{M_iM_f\mu}\left|\bra{\Psi_{I_iM_ij}}\mathcal{M}(E2,\mu)\ket{\Psi_{I_fM_fj}}\right|^2=\nonumber\\
+                                            =&\left|\bra{\Psi_{I_i}}\left|\mathcal{M}(E2)\right|\ket{\Psi_{I_f}}\right|^2\ ,
     % B(E2_\text{in};(I_i,n_{w_1})\to(I_f,n_{w_1}))=&\bra{\Psi_{I_iM_ij}}\left|\mathcal{M}(E2)\right|\ket{\Psi_{I_fM_fj}}^2\ ,
     % B(E2_\text{out};(I_i,n_{w_1})\to(I_f,n'_{w_1}))\stackrel{TSD2\to TSD1}{=}&\bra{\Psi_{I_iM_ij}}\left|\mathcal{M}(E2)\right|\ket{\Psi_{I_fM_fj}}^2\ ,
 \end{align}
@@ -1024,7 +1025,7 @@ where the Rose convention is adopted throughout the calculations \cite{rose1995e
 
 The matrix elements for the collective and single-particle components of $\mathcal{M}(E2)$ are given analytically in Appendix D from \cite{raduta2017semiclassical}. These matrix elements are also needed in order to obtain the mixing ratio that shows the \emph{competition} between E2 and M1 transitions from states belonging to TSD2 and TSD1 \cite{krane1970determination,toki1975asymmetric}:
 \begin{align}
-    \delta=8.87\cdot 10^{-4}E_{if}\frac{\bra{I_f}|\mathcal{M}(E2)|\ket{I_f}}{\bra{I_f}|\mathcal{M}(M1)|\ket{I_f}}\ .
+    \delta=8.87\cdot 10^{-4}E_{if}\frac{\bra{I_i}|\mathcal{M}(E2)|\ket{I_f}}{\bra{I_i}|\mathcal{M}(M1)|\ket{I_f}}\ .
     \label{mixing-ratio-Lu-isotopes}
 \end{align}
 
