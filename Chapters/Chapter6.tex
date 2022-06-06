@@ -205,7 +205,11 @@ From the critical conditions associated to the classical energy function, namely
     \left(\frac{\partial \mathcal{H}}{\partial r}\right)=0\ ,\ \left(\frac{\partial \mathcal{H}}{\partial \varphi}\right)=0\ ,\\
     \left(\frac{\partial \mathcal{H}}{\partial f}\right)=0\ ,\ \left(\frac{\partial \mathcal{H}}{\partial \psi}\right)=0\ ,
 \end{gather*}
-it is possible to obtain the points at which $\mathcal{H}$ is \emph{minimal} (provided by the sign of its corresponding Hessian). In order to meet such a criteria for $\mathcal{H}$, one needs to set an ordering of the three inertia factors. Choosing the largest MOI to be around the $3$-axis and $\mathcal{I}_3>\mathcal{I}_2>\mathcal{I}_1$ (or, equivalently $A_1<A_2<A_3$), the function achieves a minimum value at $p_0=(I,0;j,0)$.
+it is possible to obtain the points at which $\mathcal{H}$ is \emph{minimal} (provided by the sign of its corresponding Hessian). In order to meet such a criteria for $\mathcal{H}$, one needs to set an ordering of the three inertia factors. Choosing the largest MOI to be around the $3$-axis and $\mathcal{I}_3>\mathcal{I}_2>\mathcal{I}_1$ (or, equivalently $A_1<A_2<A_3$), the function achieves a minimum value at:
+\begin{align}
+    p_0=(I,0;j,0)
+    \label{cef-minimum-point-p0}
+\end{align}
 
 \subsection{Wobbling Frequencies}
 
@@ -972,7 +976,10 @@ Besides the electric transition operator, one also needs the wave-functions for 
     =&\sum_{K,\Omega}\frac{z^{I-K}s^{j-\Omega}}{\left(1+|z|^2\right)^I\left(1+|s|^2\right)^j}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ .
 \end{align}
 
-The complex variables $(z;s)$ correspond to the classical coordinates $(r,\varphi;f,\psi)$ as per the transformations employed in Section \ref{equations-of-motion-section} (see Eqs. \ref{z-s-variables}, \ref{changed-rho-sigma-variables} and \ref{eq-of-motion-approach-w1}). Keep in mind that the set $(r,\varphi;f,\psi)$ brought the equations of motion to a canonical form and for each classical coordinate, the expressions were explicitly given in Eq. \ref{eq-of-motion-explicit-coordinates}.
+The complex variables $(z;s)$ correspond to the classical coordinates $(r,\varphi;f,\psi)$ as per the transformations employed in Section \ref{equations-of-motion-section} (see Eqs. \ref{z-s-variables}, \ref{changed-rho-sigma-variables} and \ref{eq-of-motion-approach-w1}). Keep in mind that the set $(r,\varphi;f,\psi)$ brought the equations of motion to a canonical form and for each classical coordinate, the expressions were explicitly given in Eq. \ref{eq-of-motion-explicit-coordinates}. Around the minimum point (Eq. \ref{cef-minimum-point-p0}) of the CEF (Eq. \ref{full-classical-energy-function}), the first order expansion for $\ket{\Psi_{IMj}}$ in its quantized form is:
+\begin{align}
+    \ket{\Psi_{IMj}}
+\end{align}
 
 % From the calculated parameters $\mathcal{P}_\text{fit}$ shown in Table \ref{numerical-fitting-parameters-Lu-isotopes} it was concluded that the maximal MOI is $\mathcal{I}_1$ for each isotope. Consequently, $Q_{0}$ and $Q_{2}$ are the quadrupole components that give the degree of elongation and asymmetry with respect to this axis. Because the formalism $\mathbf{W_1}$ adopts a set of MOI which are determined freely from Eq. \ref{chi-2-fitting-function}, one cannot infer their actual nature (i.e., hydrodynamical or rigid). Additionally, the textbook example of quadrupole components from Eq. \ref{quadrupole-components-Q0-Q2} emerge from hydrodynamic considerations. Despite this, the two quadrupole moments should also considered as free quantities in order to be consistent with the three MOI. Consequently, the analytical expressions from Eq. \ref{quadrupole-components-Q0-Q2} cannot be used explicitly within the numerical evaluations. They are determined by fixing two intraband transitions for TSD21 and TSD2. 
 
