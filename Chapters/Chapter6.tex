@@ -970,7 +970,7 @@ Putting together the two terms from Eqs. \ref{electric-quadrupole-T-coll} and \r
     \label{electric-quadrupole-transition-operator}
 \end{align} 
 
-Besides the electric transition operator, one also needs the wave-functions for the wobbling bands considered in the current picture. The ground-bands are given as per the variational principle (the trial function from Eq. \ref{tdve-approach-w1}):
+Besides the electric transition operator, the wave-functions for the wobbling bands considered in the current picture are also needed. The ground-bands are given as per the variational principle (the trial function from Eq. \ref{tdve-approach-w1}):
 \begin{align}
     \ket{\Psi_{IMj}}=&\mathcal{N}\mathrm{e}^{z\hat{I}_-}\mathrm{e}^{s\hat{j}_-}\ket{IMI}\ket{jj}=\nonumber\\
     =&\sum_{K\Omega}\frac{z^{I-K}s^{j-\Omega}}{\left(1+|z|^2\right)^I\left(1+|s|^2\right)^j}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ .
@@ -979,8 +979,19 @@ Besides the electric transition operator, one also needs the wave-functions for 
 
 The complex variables $(z;s)$ correspond to the classical coordinates $(r,\varphi;f,\psi)$ as per the transformations employed in Section \ref{equations-of-motion-section} (see Eqs. \ref{z-s-variables}, \ref{changed-rho-sigma-variables} and \ref{eq-of-motion-approach-w1}). Keep in mind that the set $(r,\varphi;f,\psi)$ brought the equations of motion to a canonical form and for each classical coordinate the expressions were explicitly specified in Eq. \ref{eq-of-motion-explicit-coordinates}. It was determined that the CEF (Eq. \ref{full-classical-energy-function}) is minimal in the point $p_0$, which was given Eq. \ref{cef-minimum-point-p0}. Evaluating the wave-function from Eq. \ref{wave-function-TSD1} around this minimum point, the expression of $\ket{\Psi_{IMj}}$ becomes:
 \begin{align}
-    \ket{\Psi_{IMj}}|_{p_0}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ket{0}_I
+    \ket{\Psi_{IMj}}|_{p_0}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ket{\varnothing}_I\ ,
+    \label{wave-function-TSD1-p0}
 \end{align}
+where for the boson creation and annihilation operators $(a^\dagger,a;b^\dagger,b)$ there corresponds the vacuum state $\ket{\varnothing}_I$. Any arbitrary state $\ket{\Psi_{IMj}}$ can be spanned from the vacuum via the relation \cite{raduta2017semiclassical}:
+\begin{align}
+    \ket{m,n}_I=\frac{1}{\sqrt{m!n!}}\left(a^\dagger\right)^m\left(b^\dagger\right)^n\ket{\varnothing}_I\ .
+\end{align}
+
+Recall that each set of creation/annihilation operators $(a^\dagger,a;b^\dagger,b)$ corresponds to the classical coordinates $(r,\varphi;f,\psi)$ as per the re-quantization applied in Eqs. \ref{canonical-coordinates-quantized} - \ref{canonical-transformations-ab-qp}. The wave-functions which need to be used in the calculus of transition probabilities can be developed from the the following exploit: expansion up to first-order in the coordinates $(r,\varphi;f,\psi)$ and then perform re-quantization of the coordinates as per the mentioned recipe. Thus, from the wave-function of Eq. \ref{wave-function-TSD1-p0} one obtains:
+\begin{align}
+    \ket{\Psi_{IMj}^{(1)}}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}
+\end{align}
+
 
 % From the calculated parameters $\mathcal{P}_\text{fit}$ shown in Table \ref{numerical-fitting-parameters-Lu-isotopes} it was concluded that the maximal MOI is $\mathcal{I}_1$ for each isotope. Consequently, $Q_{0}$ and $Q_{2}$ are the quadrupole components that give the degree of elongation and asymmetry with respect to this axis. Because the formalism $\mathbf{W_1}$ adopts a set of MOI which are determined freely from Eq. \ref{chi-2-fitting-function}, one cannot infer their actual nature (i.e., hydrodynamical or rigid). Additionally, the textbook example of quadrupole components from Eq. \ref{quadrupole-components-Q0-Q2} emerge from hydrodynamic considerations. Despite this, the two quadrupole moments should also considered as free quantities in order to be consistent with the three MOI. Consequently, the analytical expressions from Eq. \ref{quadrupole-components-Q0-Q2} cannot be used explicitly within the numerical evaluations. They are determined by fixing two intraband transitions for TSD21 and TSD2. 
 
