@@ -1012,15 +1012,23 @@ As it was discussed in the previous section, the renormalization given in Eqs. \
 
 With the expressions of the E2 transition operator granted by Eq. \ref{electric-quadrupole-transition-operator} and wave-functions defined according to Eqs. \ref{wave-function-TSD1-p0-first-order} and \ref{wave-function-TSD3}, the matrix elements of $\mathcal{M}(E2,\mu)$ can be finally constructed. The reduced transition probabilities were firstly depicted in Eq. \ref{eq-general-reduced-E2} from Chapter \ref{chapter-3} and here they are defined as:
 \begin{align}
-    B(E2;(I_i,n_{w_1})\to(I_f,n_{w_1}))=&\left|\bra{\Psi_{I_fM_fj}}\left|\mathcal{M}(E2)\right|\ket{\Psi_{I_iM_ij}}\right|^2\ ,
+    B(E2;(I_i,n_{w_1})\to(I_f,n_{w_1}))=&\left|\bra{\Psi_{I_fM_fj}}\left|\mathcal{M}(E2)\right|\ket{\Psi_{I_iM_ij}}\right|^2\ 
     % B(E2_\text{in};(I_i,n_{w_1})\to(I_f,n_{w_1}))=&\bra{\Psi_{I_iM_ij}}\left|\mathcal{M}(E2)\right|\ket{\Psi_{I_fM_fj}}^2\ ,
     % B(E2_\text{out};(I_i,n_{w_1})\to(I_f,n'_{w_1}))\stackrel{TSD2\to TSD1}{=}&\bra{\Psi_{I_iM_ij}}\left|\mathcal{M}(E2)\right|\ket{\Psi_{I_fM_fj}}^2\ ,
 \end{align}
-where the in-band (intraband) transitions are characterized for by a change $I\to I-2$ within the same band and out-band (interband) transitions are characterized by $I\to I-1$ but also $n_{w_1}\to n'_{w_1}$. The Rose convention is adopted throughout the calculations \cite{rose1995elementary}:
+where the Rose convention is adopted throughout the calculations \cite{rose1995elementary}:
 \begin{align}
     \bra{J'M'}T_{\lambda\mu}\ket{JM}=C_{M\mu M'}^{J\lambda J'}\bra{J'}|T_\lambda|\ket{J}\ .
     \label{rose-convention}
 \end{align}
+
+The matrix elements for the collective and single-particle components of $\mathcal{M}(E2)$ are given analytically in Appendix D from \cite{raduta2017semiclassical}. These matrix elements are also needed in order to obtain the mixing ratio that shows the \emph{competition} between E2 and M1 transitions from states belonging to TSD2 and TSD1 \cite{krane1970determination,toki1975asymmetric}:
+\begin{align}
+    \delta=8.87\cdot 10^{-4}E_{if}\frac{\bra{I_f}|\mathcal{M}(E2)|\ket{I_f}}{\bra{I_f}|\mathcal{M}(M1)|\ket{I_f}}\ .
+    \label{mixing-ratio-Lu-isotopes}
+\end{align}
+
+Regarding Eq. \ref{mixing-ratio-Lu-isotopes}, the E2 matrix element has units of $\mathrm{e}\cdot\text{fm}^2$ and M1 matrix element has units of $\mathrm{e}\cdot\text{fm}$. The transition energy between the initial and final state is represented by $E_{if}$ and its unit is $\text{MeV}$. Details on the calculation of the M1 matrix elements will be provided in the following section, which is dedicated for magnetic transitions.
 
 From the calculated parameters $\mathcal{P}_\text{fit}$ shown in Table \ref{numerical-fitting-parameters-Lu-isotopes} it was concluded that the maximal MOI is $\mathcal{I}_1$ for each isotope. Consequently, the quadrupole components $Q_{0}$ and $Q_{2}$ give the degree of elongation and asymmetry with respect to this axis. Because the formalism $\mathbf{W_1}$ adopts a set of MOI which are determined freely from Eq. \ref{chi-2-fitting-function}, one cannot infer their actual nature (that is neither hydrodynamical nor rigid). Consequently, the two quadrupole moments should also be considered as free quantities in order to be consistent with the three MOI. Consequently, the analytical expressions from Eq. \ref{quadrupole-components-Q0-Q2} cannot be used explicitly within the numerical evaluations. In fact the two components are determined numerically per each isotope by fixing one intraband transition from TSD1 and one interband transition $\text{TSD2}\to\text{TSD1}$. With this method, the values $Q_0=18.43\ \text{eb}$ and $Q_2=19.81\ \text{eb}$ are obtained for $^{163}$Lu. The results for the other isotopes are graphically represented in Fig. \ref{quadrupole-moments-fit-numerical-results}. Looking at this figure, a change of ordering between the two quadrupole components can be observed at $^{165}$Lu, where also the magnitude of the components drops quite low compared to the neighboring nuclei. Remarking the fact that the isotope $^{167}$Lu has a set of components which are almost identical.
 \begin{figure}
