@@ -953,7 +953,11 @@ The spherical harmonics from Eq. \ref{electric-quadrupole-operator-lab} emerge f
     Q_{0}=\frac{3}{4\pi}ZR^2\beta\cos\gamma\ ,\ Q_{2}=\frac{3}{4\pi}ZR^2\beta\sin\gamma/\sqrt{2}\ ,
     \label{quadrupole-components-Q0-Q2}
 \end{align}
-keeping a consistency with the discussion from Chapter \ref{chapter-3} (see Eq. \ref{quadrupole-moment-Q0}) and Chapter \ref{chapter-5} (recall Eq. \ref{quadrupole-components-q20-q22}). Since the triaxial system can be regarded as a collective core + a single particle, the electric transition operator defined in $\mathbf{W_1}$ can be described as an operator separated into a \emph{collective} term and a \emph{single-particle} term. As a matter of fact, it can be seen from Eq. \ref{electric-quadrupole-operator-lab} that term inside square brackets is the collective term, while the summed components $r^2Y_2^\nu$ comprise the odd-proton's contribution, which can finally be condensed into \cite{raduta2020approach}:$$\mathcal{M}(E2,\mu)\equiv T_{2\mu}^\text{coll}+T_{2\mu}^\text{sp}\ .$$ 
+keeping a consistency with the discussion from Chapter \ref{chapter-3} (see Eq. \ref{quadrupole-moment-Q0}) and Chapter \ref{chapter-5} (recall Eq. \ref{quadrupole-components-q20-q22}). Since the triaxial system can be regarded as a collective core + a single particle, the electric transition operator defined in $\mathbf{W_1}$ can be described as an operator separated into a \emph{collective} term and a \emph{single-particle} term. As a matter of fact, it can be seen from Eq. \ref{electric-quadrupole-operator-lab} that term inside square brackets is the collective term, while the summed components $r^2Y_2^\nu$ comprise the odd-proton's contribution, which can finally be condensed into \cite{raduta2020approach}:
+\begin{align}
+    \mathcal{M}(E2,\mu)\equiv T_{2\mu}^\text{coll}+T_{2\mu}^\text{sp}\ .
+    \label{quadrupole-transition-operator-terms}
+\end{align}
 
 Besides the electric transition operator, the wave-functions for the wobbling bands considered in the current picture are also needed. The ground-bands are constructed from the variational principle (the trial function from Eq. \ref{tdve-approach-w1}):
 \begin{align}
@@ -988,7 +992,7 @@ The wave-function $\ket{\Psi_{IMj}^{(1)}}$ can be applied for the transitions co
 \end{align}
 where the two vacuum states are defined in Appendix D from Ref. \cite{raduta2017semiclassical}.
 
-From the considerations made in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum}, the spectrum depicted in Eq. \ref{lu163-absolute-energies-tsd1234} and the collection of wobbling phonon numbers provided in Tables \ref{lu-163-phonon-numbers} - \ref{lu-167-experimental-data-table}, it occurs that only the first phonon $\Gamma_1^\dagger$ (corresponding to the motion of the core) will generate excited phonon states. This results in the straightforward structure of the bands TSD3 from $^{163,165}$Lu:
+From the considerations made in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum}, the spectrum depicted in Eq. \ref{lu163-absolute-energies-tsd1234}, and the collection of wobbling phonon numbers provided in Tables \ref{lu-163-phonon-numbers} - \ref{lu-167-experimental-data-table}, it occurs that \emph{only the first phonon $\Gamma_1^\dagger$ (corresponding to the motion of the core) will generate excited phonon states}. This results in the straightforward structure of the bands TSD3 from $^{163,165}$Lu:
 \begin{align}
     \ket{\Phi_{IMj}}=\ket{\Psi_{I-1M-1j}^{(1)}}\Gamma_1^\dagger|\varnothing)_{I-1}\ .
     \label{wave-function-TSD3}
@@ -997,19 +1001,10 @@ From the considerations made in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{
 With the expressions of the E2 transition operator granted by Eq. \ref{electric-quadrupole-operator-lab} and wave-functions defined according to Eqs. \ref{wave-function-TSD1-p0-first-order} and \ref{wave-function-TSD3}, the matrix elements of $\mathcal{M}(E2,\mu)$ can be finally constructed, where the superscript `(1)` from $\ket{\Psi_{I-1M-1j}^{(1)}}$ will be dismissed hereafter. The reduced transition probabilities, which were firstly depicted in Eq. \ref{eq-general-reduced-E2} from Chapter \ref{chapter-3}, are defined as transitions from an initial state $I_i$ to a final state $I_f$:
 \begin{align}
     B(E2,\mu;(I_i,n_{w_1})\to(I_f,n'_{w_1}))=&\sum_{M_iM_f\mu}\left|\bra{\Psi_{I_iM_ij}}\mathcal{M}(E2,\mu)\ket{\Psi_{I_fM_fj}}\right|^2=\nonumber\\
-                                            =&\left|\bra{\Psi_{I_i}}\left|\mathcal{M}(E2)\right|\ket{\Psi_{I_f}}\right|^2\ ,
-\end{align}
-where the Rose convention is adopted throughout the calculations \cite{rose1995elementary}:
-\begin{align}
-    \bra{JM}T_{\lambda\mu}\ket{J'M'}=C_{M'\mu M}^{J'\lambda J}\bra{J}|T_\lambda|\ket{J'}\ .
-    \label{rose-convention}
+                                            =&\left|\bra{\Psi_{I_i}}\left|\mathcal{M}(E2)\right|\ket{\Psi_{I_f}}\right|^2\ .
 \end{align}
 
-The matrix elements for the collective and single-particle components of $\mathcal{M}(E2)$ are given analytically in Appendix D from \cite{raduta2017semiclassical}. These matrix elements are also needed in order to obtain the mixing ratio that shows the \emph{competition} between E2 and M1 transitions from states belonging to TSD2 and TSD1 \cite{krane1970determination,toki1975asymmetric}:
-\begin{align}
-    \delta=8.87\cdot 10^{-4}E_{if}\frac{\bra{I_i}|\mathcal{M}(E2)|\ket{I_f}}{\bra{I_i}|\mathcal{M}(M1)|\ket{I_f}}\ .
-    \label{mixing-ratio-Lu-isotopes}
-\end{align}
+The matrix elements for the collective and single-particle components of $\mathcal{M}(E2)$ are given analytically in Appendix D from \cite{raduta2017semiclassical}.
 
 Regarding Eq. \ref{mixing-ratio-Lu-isotopes}, the E2 matrix element has units of $\mathrm{e}\cdot\text{fm}^2$ and M1 matrix element has units of $\mathrm{e}\cdot\text{fm}$. The transition energy between the initial and final state is represented by $E_{if}$ and its unit is $\text{MeV}$. Details on the calculation of the M1 matrix elements will be provided in the following section, which is dedicated for magnetic transitions.
 
@@ -1023,18 +1018,19 @@ Remarking the fact that the isotope $^{167}$Lu has a set of quadrupole moments w
 \begin{figure}
     \centering
     \includegraphics[scale=0.65]{Chapters/Figures/Lu-exp-energies/fig19.pdf}
-    \caption{The calculated quadrupole moments $Q_0$ and $Q_2$, which enter in Eq. \ref{electric-quadrupole-transition-operator}. The unit for $Q$ is $\mathrm{e}b$. See text for details on their numerical determination.}
+    \caption{The calculated quadrupole moments $Q_0$ and $Q_2$, which enter in Eq. \ref{electric-quadrupole-operator-lab}. The unit for $Q$ is $\mathrm{e}b$. See text for details on their numerical determination.}
     \label{quadrupole-moments-fit-numerical-results}
 \end{figure}
-
-% The \emph{quadrupole moment} can also be evaluated for a state $I$ and it gives a measure of nuclear charge distribution associated with rotational motion of collective nature.
-% \begin{align}
-%     Q_I=\sqrt{\frac{16\pi}{5}}C_{I0I}^{I2I}\bra{I}|\mathcal{M}(E2)\ket{I}
-% \end{align}
 
 \subsubsection{M1 Transitions}
 
 For the magnetic transitions within wobbling states, the corresponding operator is also expressed as a collective plus a single particle components, keeping thus a consistency with Eq. \ref{quadrupole-transition-operator-terms}:
 \begin{align}
     \mathcal{M}(M1;\mu)=M_{1\mu}^\text{coll}+M_{1\mu}^\text{sp}\ .
+\end{align}
+
+These matrix elements are also needed in order to obtain the mixing ratio that shows the \emph{competition} between E2 and M1 transitions from states belonging to TSD2 and TSD1 \cite{krane1970determination,toki1975asymmetric}:
+\begin{align}
+    \delta=8.87\cdot 10^{-4}E_{if}\frac{\bra{I_i}|\mathcal{M}(E2)|\ket{I_f}}{\bra{I_i}|\mathcal{M}(M1)|\ket{I_f}}\ .
+    \label{mixing-ratio-Lu-isotopes}
 \end{align}
