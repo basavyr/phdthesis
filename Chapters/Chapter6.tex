@@ -942,18 +942,18 @@ where $\mathcal{M}(\lambda,\mu)$ represents the lab's operator and $\mathcal{M}(
 
 \subsubsection{E2 Transitions}
 
-Obviously here $\lambda=2$ and the \emph{quadrupole transition operator} is expressed as \cite{toki1975asymmetric,raduta2020towards}:
+For the E2 transitions, one has to replace $\lambda=2$ in Eq. \ref{multipole-operator-lab}, and the \emph{quadrupole transition operator} becomes \cite{toki1975asymmetric,raduta2020towards}:
 \begin{align}
     \mathcal{M}(E2,\mu)=\left[\mathcal{D}_{\mu0}^2Q_0+\left(D_{\mu 2}^2+D_{\mu -2}^2\right)Q_2\right]+\mathrm{e}\sum_{\nu=-2,0,2}\mathcal{D}_{\mu\nu}^2r^2Y_2^\nu\ .
     \label{electric-quadrupole-operator-lab}
 \end{align}
 
-The spherical harmonics from Eq. \ref{electric-quadrupole-operator-lab} emerge from the textbook expression of an electric multipole operator $\mathcal{M}(E\lambda,\mu)$ proportional to $r^\lambda Y_\lambda^\mu$  \cite{heyde1994nuclear}. The two (intrinsic) quadrupole moments $Q_{0}$ and $Q_{2}$ represent a measure of deformation and asymmetry of the nuclear shape (in terms of mass/charge distributions) away from spherical symmetry. They are expressed in terms of the deformation parameters $\beta$ and $\gamma$, i.e. \cite{raduta2018wobbling}:
+The spherical harmonics from Eq. \ref{electric-quadrupole-operator-lab} emerge from the textbook expression of an electric multipole operator $\mathcal{M}(E\lambda,\mu)$ proportional to $r^\lambda Y_\lambda^\mu$  \cite{heyde1994nuclear}. The two (intrinsic) quadrupole moments $Q_{0}$ and $Q_{2}$ represent a measure of deformation and asymmetry of the nuclear shape (either mass or charge distributions) away from spherical symmetry. They are expressed in terms of the deformation parameters $\beta$ and $\gamma$, i.e. \cite{raduta2018wobbling}:
 \begin{align}
     Q_{0}=\frac{3}{4\pi}ZR^2\beta\cos\gamma\ ,\ Q_{2}=\frac{3}{4\pi}ZR^2\beta\sin\gamma/\sqrt{2}\ ,
     \label{quadrupole-components-Q0-Q2}
 \end{align}
-keeping a consistency with the discussion from Chapter \ref{chapter-3} (see Eq. \ref{quadrupole-moment-Q0}) and Chapter \ref{chapter-5} (recall Eq. \ref{quadrupole-components-q20-q22}). Since the triaxial system can be regarded as a collective core + a single particle, the electric transition operator defined in $\mathbf{W_1}$ can be described as an operator separated into a \emph{collective} term and a \emph{single-particle} term. As a matter of fact, it can be seen from Eq. \ref{electric-quadrupole-operator-lab} that term inside square brackets is the collective term, while the summed components $r^2Y_2^\nu$ comprise the odd-proton's contribution, which can finally be condensed into \cite{raduta2020approach}:
+keeping a consistency with the discussion from Chapter \ref{chapter-3} (see Eq. \ref{quadrupole-moment-Q0}) and Chapter \ref{chapter-5} (recall Eq. \ref{quadrupole-components-q20-q22}). Since the triaxial system can be regarded as a collective core + a single particle, the electric transition operator defined in $\mathbf{W_1}$ can be described as an operator separated into a \emph{collective} term and a \emph{single-particle} term. As a matter of fact, it can be seen from Eq. \ref{electric-quadrupole-operator-lab} that term inside square brackets is the collective term, while the summation $r^2Y_2^\nu$ comprises the odd-proton's contribution, which can be condensed into \cite{raduta2020approach}:
 \begin{align}
     \mathcal{M}(E2,\mu)\equiv T_{2\mu}^\text{coll}+T_{2\mu}^\text{sp}\ .
     \label{quadrupole-transition-operator-terms}
@@ -966,7 +966,7 @@ Besides the electric transition operator, the wave-functions for the wobbling ba
     \label{wave-function-TSD1}
 \end{align}
 
-The complex variables $(z;s)$ correspond to the classical coordinates $(r,\varphi;f,\psi)$ through the transformations from Section \ref{equations-of-motion-section} (see Eqs. \ref{z-s-variables}, and \ref{changed-rho-sigma-variables} - \ref{eq-of-motion-approach-w1}). Keep in mind that the set $(r,\varphi;f,\psi)$ brought the equations of motion to a canonical form and their explicit form was specified in Eq. \ref{eq-of-motion-explicit-coordinates}. It was determined that the CEF given in Eq. \ref{full-classical-energy-function} is minimal in the point $p_0$ (Eq. \ref{cef-minimum-point-p0}). Evaluating the wave-function from Eq. \ref{wave-function-TSD1} around this minimum point, the expression of $\ket{\Psi_{IMj}}$ becomes:
+The complex variables $(z;s)$ correspond to the classical coordinates $(r,\varphi;f,\psi)$ through the transformations from Section \ref{equations-of-motion-section} (see Eqs. \ref{z-s-variables}, and \ref{changed-rho-sigma-variables} - \ref{eq-of-motion-approach-w1}). Keep in mind that the set $(r,\varphi;f,\psi)$ brought the equations of motion to a canonical form and their explicit form was specified in Eq. \ref{eq-of-motion-explicit-coordinates}. It was determined that the CEF given in Eq. \ref{full-classical-energy-function} is minimal in the point $p_0$ (Eq. \ref{cef-minimum-point-p0}). Evaluating the wave-function from Eq. \ref{wave-function-TSD1} around this minimum point, the expression of $\ket{\Psi_{IMj}}$ turns out to be \cite{raduta2020approach,raduta2020towards}:
 \begin{align}
     \ket{\Psi_{IMj}}|_{p_0}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ket{\varnothing}_I\ ,
     \label{wave-function-TSD1-p0}
@@ -983,7 +983,7 @@ Regarding the wave-functions used in the numerical calculations for $\mathbf{W_1
     \label{wave-function-TSD1-p0-first-order}
 \end{align}
 
-Looking at Eq. \ref{wave-function-TSD1-p0-first-order} it can be seen that the first-order expansion is reflected by the presence of $a^\dagger$ and $b^\dagger$ as independent variables (that is, no mixed or quadratic terms). The canonicity factors $k_1,k_2$ defined in Eq. \ref{canonicity-factors} also show up for every coordinate. Lastly, $K,\Omega$ are the projections of the total and single-particle angular momentum vectors in the intrinsic coordinate system, respectively.
+Looking at Eq. \ref{wave-function-TSD1-p0-first-order} it can be seen that the first-order expansion is reflected by the presence of $a^\dagger$ and $b^\dagger$ as independent variables (that is, no mixed or quadratic components). The canonicity factors $k_1,k_2$ defined in Eq. \ref{canonicity-factors} also show up for every coordinate. Lastly, $K,\Omega$ are the projections of the total and single-particle angular momentum vectors in the intrinsic coordinate system, respectively.
 
 The wave-function $\ket{\Psi_{IMj}^{(1)}}$ can be applied for the transitions concerning zero-phonon bands, which comprise the TSD1-2 in $^{161,163,165,167}$Lu and TSD4 in $^{163}$Lu. However, transitions in and out of a one-phonon wobbling band (such as TSD3 from $^{163}$Lu and $^{165}$Lu) require a wave-function built as the one-phonon excitation of its ground-band partner. In the $\mathbf{W_1}$ picture, this can be inferred from the renormalization specified in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum}. Hence, a state $I$ from the one-phonon band is obtained with the activation of the $I-1$ state from the neighboring zero-phonon partner with $n_{w_1}$ phonon operators $\Gamma_1^\dagger$ and $n_{w_2}$ phonon operators $\Gamma_2^\dagger$, each applied on the vacuum states $|\varnothing)_{I-1}$ and $|\varnothing)_j$:
 \begin{align}
