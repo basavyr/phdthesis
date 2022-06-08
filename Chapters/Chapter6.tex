@@ -925,7 +925,7 @@ Usually, the dynamic MOI is sensitive to the single-particle effects, such as al
 
 In this section, the electromagnetic transitions for $^{161,163,165,167}$Lu will be calculated within the $\mathbf{W_1}$ formalism and compared with the available experimental data. For collective phenomena, one usually expects two `main' characteristics to arise: a) the transitions between neighboring bands to be predominantly of E2 character and b) the states have large quadrupole moments. In fact, as it was discussed in Chapters \ref{chapter4} and \ref{chapter-5}, the large quadrupole moments and large mixing ratios $\delta$ are regarded as essential `tests' for wobbling behavior.
 
-For the numerical application, in the first part the electric quadrupole E2 transitions will be discussed, while in the second part the magnetic dipole M1 transitions are addressed. Concerning the states, the transitions between two states inside the same band (=intraband) as well as the transitions between adjacent bands (=interband) need to be evaluated. Because of the collective nature of the wobbling bands, their spin difference within a band is $\Delta I=2$ units of angular momentum, while two states from adjacent bands only differ by one unit $\Delta I=1$ (recall Fig. \ref{wobbling-geometry-tilting-sketch} from the discussion in Chapter \ref{chapter-5}). A schematic representation that illustrates the difference between interband/intraband transitions can be seen in Fig. \ref{schematic-interband-intraband-E2}. Therein, the E2 transitions are sketched for levels belonging to the same band and levels from different bands, and for each band the allowed spin sequences are exemplified. The magnetic transitions for wobbling states have a dipole nature, which means that they take place between states that differentiate by one unit of a.m. Moreover, they will compete with the interband E2 transitions, and this behavior is reflected in the mixing ratio.
+For the numerical application, in the first part the electric quadrupole E2 transitions will be discussed, while in the second part the magnetic dipole M1 transitions are addressed. Concerning the states, the transitions between two states inside the same band (=intraband) as well as the transitions between adjacent bands (=interband) need to be evaluated. Because of the collective nature of the wobbling bands, their spin difference within a band is $\Delta I=2$ units of angular momentum, while two states from adjacent bands only differ by one unit $\Delta I=1$ (recall Fig. \ref{wobbling-geometry-tilting-sketch} from the discussion in Chapter \ref{chapter-5}). A schematic representation that illustrates the difference between interband/intraband transitions can be seen in Fig. \ref{schematic-interband-intraband-E2}. Therein, the E2 transitions are sketched for levels belonging to the same band and levels from different bands, and for each band the allowed spin sequences are exemplified. The magnetic transitions for wobbling states have a dipole nature, which means that they take place between states that differentiate by one unit of angular momentum. Experimental observations point out that these M1 transitions are typically quite small in comparison with the E2 ones. Moreover the `competition' between E2 and M1 for a state $I$ is reflected in the mixing ratio $\delta$. 
 \begin{figure}
     \centering
     \includegraphics[scale=1.1]{Chapters/Figures/transitions-wobbling-states.pdf}
@@ -933,9 +933,19 @@ For the numerical application, in the first part the electric quadrupole E2 tran
     \label{schematic-interband-intraband-E2}
 \end{figure}
 
+The transition probabilities between states that comprise the excitation spectra can be determined from the matrix elements (m.e.) of the \emph{electromagnetic transition operators} (recall Eq. \ref{eq-general-reduced-E2} and discussion from Chapter \ref{chapter-3}). The operators of interest here are $\mathcal{M}(E2,\mu)$ for the electric quadrupole transitions and $\mathcal{M}(M1,\mu)$ for the magnetic dipole transitions. In the following subsections, each case will be treated, starting with the analytical expressions and finally obtaining some numerical results.
+
 \subsubsection{E2 Transitions}
 
-The transition probabilities between states that comprise the excitation spectra of the studied nuclei can be determined from the matrix elements of the \emph{quadrupole transition operators}. As it was discussed in Chapter \ref{chapter-3}, knowing the structure of the operator initial and final wave-functions
+The calculations for E2 and M1 transitions are made working in the laboratory system, meaning that the multiple operators must be expressed in terms of the body-fixed (intrinsic) system via the Wigner functions:
+\begin{align}
+    \mathcal{M}(\lambda,\mu)=\sum_\nu\mathcal{D}_{\mu\nu}^\lambda\mathcal{M}(\lambda,\nu)\ ,
+    \label{multipole-operator-lab}
+\end{align}
+where $\mathcal{M}(\lambda,\mu)$ represents the laboratory's operator and $\mathcal{M}(\lambda,\nu)$ is the intrinsic multipole operator. Obviously here $\lambda=2$ and the \emph{quadrupole transition operator} is expressed as \cite{toki1975asymmetric,raduta2020towards}:
+\begin{align}
+    \mathcal{M}(E2,\mu)=\left[\mathcal{D}_{\mu0}^2Q_0+\left(D_{\mu 2}^2+D_{\mu -2}^2\right)Q_2\right]+\mathrm{e}\sum_{\nu=-2,0,2}\mathcal{D}_{\mu\nu}^2r^2Y_2^\nu
+\end{align}
 
 Since the triaxial system can be regarded as a collective core + a single particle, the electric transition operator defined in $\mathbf{W_1}$ can be described as an operator which is separated into a \emph{collective} term and a \emph{single-particle} term:
 \begin{align}
@@ -957,12 +967,6 @@ which is in fact consistent with the discussion from Chapter \ref{chapter-3} (se
 \begin{align}
     T_{2\mu}^\text{sp}=z_\text{eff}\sum_{\nu=-2,0,2}^2 \mathcal{D}_{\mu\nu}^2 r^2Y_2^\nu\ ,
     \label{electric-quadrupole-T-sp}
-\end{align}
-
-Putting together the two terms from Eqs. \ref{electric-quadrupole-T-coll} and \ref{electric-quadrupole-T-sp}, the total quadrupole transition operator (Eq. \ref{quadrupole-transition-operator-terms}) can be properly depicted \cite{raduta2020new,raduta2020towards}:
-\begin{align}
-    \mathcal{M}(E2,\mu)=z_\text{eff}\left[\mathcal{D}_{\mu 0}^2Q_{0}-\left(\mathcal{D}_{\mu 2}^2+\mathcal{D}_{\mu -2}^2\right)Q_{2}\right]+z_\text{eff}\sum_{\nu=-2,0,2}^2 \mathcal{D}_{\mu\nu}^2 r^2Y_2^\nu\ .
-    \label{electric-quadrupole-transition-operator}
 \end{align}
 
 Besides the electric transition operator, the wave-functions for the wobbling bands considered in the current picture are also needed. The ground-bands are given as per the variational principle (the trial function from Eq. \ref{tdve-approach-w1}):
