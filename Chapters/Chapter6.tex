@@ -948,20 +948,14 @@ where $\mathcal{M}(\lambda,\mu)$ represents the laboratory's operator and $\math
     \label{electric-quadrupole-operator-lab}
 \end{align}
 
-The spherical harmonics from Eq. \ref{electric-quadrupole-operator-lab} emerge from the textbook expression of an electric multipole operator $\mathcal{M}(E\lambda,\mu)$, which is proportional to $r^\lambda Y_\lambda^\mu$  \cite{heyde1994nuclear}. The two (intrinsic) quadrupole moments $Q_{0}$ and $Q_{2}$ represent a measure of deformation and asymmetry of the nuclear shape (in terms of mass/charge distributions). They are expressed in terms of the deformation parameters $\beta$ and $\gamma$, i.e. \cite{raduta2018wobbling}:
+The spherical harmonics from Eq. \ref{electric-quadrupole-operator-lab} emerge from the textbook expression of an electric multipole operator $\mathcal{M}(E\lambda,\mu)$ proportional to $r^\lambda Y_\lambda^\mu$  \cite{heyde1994nuclear}. The two (intrinsic) quadrupole moments $Q_{0}$ and $Q_{2}$ represent a measure of deformation and asymmetry of the nuclear shape (in terms of mass/charge distributions) away from spherical symmetry. They are expressed in terms of the deformation parameters $\beta$ and $\gamma$, i.e. \cite{raduta2018wobbling}:
 \begin{align}
     Q_{0}=\frac{3}{4\pi}ZR^2\beta\cos\gamma\ ,\ Q_{2}=\frac{3}{4\pi}ZR^2\beta\sin\gamma/\sqrt{2}\ ,
     \label{quadrupole-components-Q0-Q2}
 \end{align}
-which is in fact consistent with the discussion from Chapter \ref{chapter-3} (see Eq. \ref{quadrupole-moment-Q0}) and Chapter \ref{chapter-5} (recall Eq. \ref{quadrupole-components-q20-q22}). In terms of the nuclear charge density, $Q_{0,2}$ show to which extent its distribution deviates from spherical symmetry \cite{bohr1998nuclear}.
+keeping a consistency with the discussion from Chapter \ref{chapter-3} (see Eq. \ref{quadrupole-moment-Q0}) and Chapter \ref{chapter-5} (recall Eq. \ref{quadrupole-components-q20-q22}). Since the triaxial system can be regarded as a collective core + a single particle, the electric transition operator defined in $\mathbf{W_1}$ can be described as an operator separated into a \emph{collective} term and a \emph{single-particle} term. As a matter of fact, it can be seen from Eq. \ref{electric-quadrupole-operator-lab} that term inside square brackets is the collective term, while the summed components $r^2Y_2^\nu$ comprise the odd-proton's contribution, which can finally be condensed into $\mathcal{M}(E2,\mu)\equiv T_{2\mu}^\text{coll}+T_{2\mu}^\text{sp}$ \cite{raduta2020approach}.
 
-Since the triaxial system can be regarded as a collective core + a single particle, the electric transition operator defined in $\mathbf{W_1}$ can be described as an operator which is separated into a \emph{collective} term and a \emph{single-particle} term. As a matter of fact, it can be seen from Eq. \ref{electric-quadrupole-operator-lab} that term inside square brackets is the collective term and the summed components $r^2Y_2^\nu$ comprise the odd-proton's contribution, which can be condensed into \cite{raduta2020approach}:
-\begin{align}
-    \mathcal{M}(E2,\mu)\equiv T_{2\mu}^\text{coll}+T_{2\mu}^\text{sp}\ ,
-    \label{quadrupole-transition-operator-terms}
-\end{align}
-
-Besides the electric transition operator, the wave-functions for the wobbling bands considered in the current picture are also needed. The ground-bands are constructed with the variational principle (the trial function from Eq. \ref{tdve-approach-w1}):
+Besides the electric transition operator, the wave-functions for the wobbling bands considered in the current picture are also needed. The ground-bands are constructed from the variational principle (the trial function from Eq. \ref{tdve-approach-w1}):
 \begin{align}
     \ket{\Psi_{IMj}}=&\mathcal{N}\mathrm{e}^{z\hat{I}_-}\mathrm{e}^{s\hat{j}_-}\ket{IMI}\ket{jj}=\nonumber\\
     =&\sum_{K\Omega}\frac{z^{I-K}s^{j-\Omega}}{\left(1+|z|^2\right)^I\left(1+|s|^2\right)^j}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ .
