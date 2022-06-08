@@ -954,6 +954,7 @@ The spherical harmonics from Eq. \ref{electric-quadrupole-operator-lab} emerge f
     \label{quadrupole-components-Q0-Q2}
 \end{align}
 keeping a consistency with the discussion from Chapter \ref{chapter-3} (see Eq. \ref{quadrupole-moment-Q0}) and Chapter \ref{chapter-5} (recall Eq. \ref{quadrupole-components-q20-q22}). Since the triaxial system can be regarded as a collective core + a single particle, the electric transition operator defined in $\mathbf{W_1}$ can be described as an operator separated into a \emph{collective} term and a \emph{single-particle} term. As a matter of fact, it can be seen from Eq. \ref{electric-quadrupole-operator-lab} that term inside square brackets is the collective term, while the summed components $r^2Y_2^\nu$ comprise the odd-proton's contribution, which can finally be condensed into \cite{raduta2020approach}:$$\mathcal{M}(E2,\mu)\equiv T_{2\mu}^\text{coll}+T_{2\mu}^\text{sp}\ .$$ 
+
 Besides the electric transition operator, the wave-functions for the wobbling bands considered in the current picture are also needed. The ground-bands are constructed from the variational principle (the trial function from Eq. \ref{tdve-approach-w1}):
 \begin{align}
     \ket{\Psi_{IMj}}=&\mathcal{N}\mathrm{e}^{z\hat{I}_-}\mathrm{e}^{s\hat{j}_-}\ket{IMI}\ket{jj}=\nonumber\\
@@ -961,18 +962,17 @@ Besides the electric transition operator, the wave-functions for the wobbling ba
     \label{wave-function-TSD1}
 \end{align}
 
-The complex variables $(z;s)$ correspond to the classical coordinates $(r,\varphi;f,\psi)$ through the transformations from Section \ref{equations-of-motion-section} (see Eqs. \ref{z-s-variables}, and \ref{changed-rho-sigma-variables} - \ref{eq-of-motion-approach-w1}). Keep in mind that the set $(r,\varphi;f,\psi)$ brought the equations of motion to a canonical form and their explicit form was specified in Eq. \ref{eq-of-motion-explicit-coordinates}. The classical coordinates $(r,\varphi;f,\psi)$ were expressed as per the re-quantization procedure applied in Eqs. \ref{canonical-coordinates-quantized} - \ref{canonical-transformations-ab-qp} in terms of the creation/annihilation operators $(a^\dagger,a;b^\dagger,b)$. For the boson creation and annihilation operators $(a^\dagger,a;b^\dagger,b)$ there corresponds a vacuum state $\ket{\varnothing}_I$. Any arbitrary state $\ket{\Psi_{IMj}}$ can be spanned from the vacuum via the relation \cite{raduta2017semiclassical}:
-\begin{align}
-    \ket{m,n}_I=\frac{1}{\sqrt{m!n!}}\left(a^\dagger\right)^m\left(b^\dagger\right)^n\ket{\varnothing}_I\ ,\ n,k=1,2,3,\dots\ .
-\end{align}
-
-It was determined that the CEF (Eq. \ref{full-classical-energy-function}) is minimal in the point $p_0$, which was given Eq. \ref{cef-minimum-point-p0}. Evaluating the wave-function from Eq. \ref{wave-function-TSD1} around this minimum point, the expression of $\ket{\Psi_{IMj}}$ becomes:
+The complex variables $(z;s)$ correspond to the classical coordinates $(r,\varphi;f,\psi)$ through the transformations from Section \ref{equations-of-motion-section} (see Eqs. \ref{z-s-variables}, and \ref{changed-rho-sigma-variables} - \ref{eq-of-motion-approach-w1}). Keep in mind that the set $(r,\varphi;f,\psi)$ brought the equations of motion to a canonical form and their explicit form was specified in Eq. \ref{eq-of-motion-explicit-coordinates}. It was determined that the CEF given in Eq. \ref{full-classical-energy-function} is minimal in the point $p_0$ (Eq. \ref{cef-minimum-point-p0}). Evaluating the wave-function from Eq. \ref{wave-function-TSD1} around this minimum point, the expression of $\ket{\Psi_{IMj}}$ becomes:
 \begin{align}
     \ket{\Psi_{IMj}}|_{p_0}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ket{\varnothing}_I\ ,
     \label{wave-function-TSD1-p0}
 \end{align}
+where $\ket{\varnothing}_I$ is the vacuum state for the boson creation and annihilation operators $(a^\dagger,a;b^\dagger,b)$ that emerged via the re-quantization procedure applied in Eqs. \ref{canonical-coordinates-quantized} - \ref{canonical-transformations-ab-qp} for the classical coordinates $(r,\varphi;f,\psi)$. Any arbitrary state $\ket{\Psi_{IMj}}$ can be spanned from the vacuum as \cite{raduta2017semiclassical}:
+\begin{align}
+    \ket{m,n}_I=\frac{1}{\sqrt{m!n!}}\left(a^\dagger\right)^m\left(b^\dagger\right)^n\ket{\varnothing}_I\ ,\ n,k=1,2,3,\dots\ .
+\end{align}
 
-The wave-functions needed to be used in the calculus of transition probabilities can be developed from the following exploit: expansion up to first-order (abbreviated `1st or.') in the coordinates $(r,\varphi;f,\psi)$ and then perform re-quantization of the coordinates by means of the aforementioned recipe. Thus, from the wave-function of Eq. \ref{wave-function-TSD1-p0} one obtains:
+Regarding the wave-functions used in the numerical calculations for $\mathbf{W_1}$ picture, these can be constructed from the expansion up to first-order (abbreviated `1st or.') in the coordinates $(r,\varphi;f,\psi)$ and then perform re-quantization of the coordinates. Thus, from the wave-function of Eq. \ref{wave-function-TSD1-p0} one obtains:
 \begin{align}
     \ket{\Psi_{IMj}}|_{p_0}^{\text{1st or.}}\equiv&\ket{\Psi_{IMj}^{(1)}}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\times\nonumber\\
                            &\times\left\{1+\frac{\iu}{\sqrt{2}}\left[\left(\frac{K}{I}k_1+\frac{I-K}{k_1}\right)a^\dagger+\left(\frac{\Omega}{j}k_2+\frac{j-\Omega}{k_2}\right)b^\dagger\right]\right\}\ket{\varnothing}_I\ .
@@ -988,7 +988,7 @@ The wave-function $\ket{\Psi_{IMj}^{(1)}}$ can be applied for the transitions co
 \end{align}
 where the two vacuum states are defined in Appendix D from Ref. \cite{raduta2017semiclassical}.
 
-From the considerations discussed in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum}, the spectrum depicted in Eq. \ref{lu163-absolute-energies-tsd1234} and the collection of wobbling phonon numbers provided in Tables \ref{lu-163-phonon-numbers} - \ref{lu-167-experimental-data-table}, it occurs that only the first phonon $\Gamma_1^\dagger$ (corresponding to the motion of the core) will generate excited phonon states. This results in the straightforward structure of the bands TSD3 from $^{163,165}$Lu:
+From the considerations made in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum}, the spectrum depicted in Eq. \ref{lu163-absolute-energies-tsd1234} and the collection of wobbling phonon numbers provided in Tables \ref{lu-163-phonon-numbers} - \ref{lu-167-experimental-data-table}, it occurs that only the first phonon $\Gamma_1^\dagger$ (corresponding to the motion of the core) will generate excited phonon states. This results in the straightforward structure of the bands TSD3 from $^{163,165}$Lu:
 \begin{align}
     \ket{\Phi_{IMj}}=\ket{\Psi_{I-1M-1j}^{(1)}}\Gamma_1^\dagger|\varnothing)_{I-1}\ .
     \label{wave-function-TSD3}
