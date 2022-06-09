@@ -976,7 +976,7 @@ where $\ket{\varnothing}_I$ is the vacuum state for the boson creation and annih
     \ket{m,n}_I=\frac{1}{\sqrt{m!n!}}\left(a^\dagger\right)^m\left(b^\dagger\right)^n\ket{\varnothing}_I\ ,\ n,k=1,2,3,\dots\ .
 \end{align}
 
-Regarding the wave-functions utilized for the numerical calculations in the $\mathbf{W_1}$ picture, these can be created from the expansion up to first-order (abbreviated `1st or.') in the coordinates $(r,\varphi;f,\psi)$ and then perform re-quantization of the coordinates. Thus, from the wave-function of Eq. \ref{wave-function-TSD1-p0} one obtains:
+Regarding the wave-functions utilized for the numerical calculations in the $\mathbf{W_1}$ picture, these can be created from the expansion of Eq. \ref{wave-function-TSD1-p0} up to first-order (abbreviated `1st or.') in the coordinates $(r,\varphi;f,\psi)$, and then perform re-quantization of the coordinates. Thus, the wave-function becomes:
 \begin{align}
     \ket{\Psi_{IMj}}|_{p_0}^{\text{1st or.}}\equiv&\ket{\Psi_{IMj}^{(1)}}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\times\nonumber\\
                            &\times\left\{1+\frac{\iu}{\sqrt{2}}\left[\left(\frac{K}{I}k_1+\frac{I-K}{k_1}\right)a^\dagger+\left(\frac{\Omega}{j}k_2+\frac{j-\Omega}{k_2}\right)b^\dagger\right]\right\}\ket{\varnothing}_I\ .
@@ -985,18 +985,12 @@ Regarding the wave-functions utilized for the numerical calculations in the $\ma
 
 Looking at Eq. \ref{wave-function-TSD1-p0-first-order} it can be seen that the first-order expansion is reflected through the presence of $a^\dagger$ and $b^\dagger$ as independent variables (that is, no mixed or quadratic components). The canonicity factors $k_1,k_2$ defined in Eq. \ref{canonicity-factors} also show up for every coordinate. Lastly, $K,\Omega$ are the projections of the total and single-particle angular momentum vectors in the intrinsic coordinate system, respectively.
 
-The wave-function $\ket{\Psi_{IMj}^{(1)}}$ can be used for the transitions between zero-phonon bands, which comprise TSD1-2 and TSD4 in $^{161,163,165,167}$Lu. However, transitions in and out of a one-wobbling-phonon band (such as TSD3 in $^{163,165}$Lu) require a wave-function built as an excitation of its ground-band partner. In $\mathbf{W_1}$ this can be inferred from the renormalization specified in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum}. Hence, a state $I$ 
-%%%%%%
-from the one-phonon band is obtained with the activation of the $I-1$ state 
-
-from the neighboring zero-phonon partner with $n_{w_1}$ phonon operators $\Gamma_1^\dagger$ and $n_{w_2}$ phonon operators $\Gamma_2^\dagger$, each applied on the vacuum states $|\varnothing)_{I-1}$ and $|\varnothing)_j$:
+The wave-function $\ket{\Psi_{IMj}^{(1)}}$ can be used for the transitions between zero-phonon bands, which comprise TSD1-2 and TSD4 in $^{161,163,165,167}$Lu. However, transitions in and out of a one-wobbling-phonon band (such as TSD3 in $^{163,165}$Lu) require a wave-function built as an excitation of its ground-band partner. In $\mathbf{W_1}$ this can be inferred by the renormalization specified in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum}. Hence, a state $I$ belonging to the one-phonon band is obtained with the activation of the $I-1$ state from the neighboring zero-phonon partner with phonon operators $\Gamma_1^\dagger$ $\Gamma_2^\dagger$, each applied separately $n_{w_1}$ and $n_{w_2}$ times on the vacuum states $|\varnothing)_{I-1}$ and $|\varnothing)_j$:
 \begin{align}
     \ket{\Phi_{IMj}}=\ket{\Psi_{I-1M-1j}^{(1)}}\left\{\frac{1}{\sqrt{n_{w_1}!}}\left(\Gamma_1^\dagger\right)^{n_{w_1}}|\varnothing)_{I-1}\otimes\frac{1}{\sqrt{n_{w_2}!}}\left(\Gamma_2^\dagger\right)^{n_{w_2}}|\varnothing)_j\right\}\ ,
     \label{wave-function-TSD-excited-phonon-state}
 \end{align}
-where the two vacuum states are defined in Appendix D 
-
-from Ref. \cite{raduta2017semiclassical}.
+where the two vacuum states are defined in Appendix D from Ref. \cite{raduta2017semiclassical}.
 
 % From the considerations made in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum}, the spectrum depicted in Eq. \ref{lu163-absolute-energies-tsd1234}, and the collection of wobbling phonon numbers provided in Tables \ref{lu-163-phonon-numbers} - \ref{lu-167-experimental-data-table}, 
 % % re-do phrasing
