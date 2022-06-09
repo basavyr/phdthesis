@@ -993,22 +993,22 @@ Remarking the fact that when prolate nucleus rotates about an axis that is perpe
 
 Another important quantity that can be used as a `test' for collectivity and deformation within nuclei is the $E2$ transition probability (of quadrupole type). This is because the ground state of even-even nuclei is $0^+$ and the first excited state (typically $2^+$) can only decay via the electric quadrupole interaction as $E2$ radiation \cite{casten2000nuclear}, meaning that deformation effects can be understood from these low-lying transitions. The general expression for calculating a transition `strength' is given in terms of the initial $\ket{\Psi_i}$ and final $\ket{\Psi_f}$ states \cite{matta2017exotic}:
 \begin{align}
-    B(E2;\ I_i\to I_f)=\frac{1}{2I_i+1}\left|\bra{\Psi_f}\left|\mathcal{M}(E2)\right|\ket{\Psi_i}\right|^2\ ,
+    B(E2;\ I_i\to I_f)=c\cdot\left|\bra{\Psi_f}\left|\mathcal{M}(E2)\right|\ket{\Psi_i}\right|^2\ ,
     \label{eq-general-reduced-E2}
 \end{align}
-where $\mathcal{M}(E2)$ is the quadrupole transition operator. In fact, Eq. \ref{eq-general-reduced-E2} tells that the reduced transition probabilities can be extracted from the `matrix elements' of this operator. Equivalently, the reduced quadrupole transition probability $B(E2)$ can be given in terms of the Clebsch-Gordan coefficients \cite{bohr1998nuclear}:
+where $\mathcal{M}(E2)$ is the quadrupole transition operator, and $c$ represents a factor that typically depends on a specific convention which is employed within the model (e.g., Rose's convention \cite{rose1995elementary} or Faessler's convention \cite{toki1975asymmetric}, and so on ) . In fact, Eq. \ref{eq-general-reduced-E2} tells that the reduced transition probabilities can be extracted from the `matrix elements' of this operator. Equivalently, the reduced quadrupole transition probability $B(E2)$ can be given in terms of the Clebsch-Gordan coefficients \cite{bohr1998nuclear}:
 \begin{align}
-    B(E2;\ I_i\to I_f)=\frac{5}{16\pi}e^2Q_0^2\left|\bra{I_iK20}\ket{I_2K}\right|^2]\ ,
+    B(E2;\ I_i\to I_f)=\frac{5}{16\pi}e^2Q_0^2\bra{I_iK20}\ket{I_fK}^2\ ,
     \label{eq-general-reduced-E2-clebsch-gordan}
 \end{align}
-where the coefficient can also be written as $\bra{I_iK20}\ket{I_2K}\equiv C^{I_i2I_f}_{K0K}$. In the case of $0^+\to 2^+$ transition, the reduced probability will be given by \cite{ring2004nuclear}:
+where the coefficient can also be written as $\bra{I_iK20}\ket{I_fK}\equiv C^{I_i2I_f}_{K0K}$. In the case of $0^+\to 2^+$ transition, the reduced probability will be given by \cite{casten2000nuclear}:
 \begin{align}
     B(E2;\ 0^+\to 2^+)=\frac{5}{16\pi}e^2Q_0^2\ .
 \end{align}
 
 From the quadratic dependence of the intrinsic quadrupole moment on $\beta$, large values of $\beta$ that are specific to deformed nuclei ($\beta\approx 0.3$) will lead to values for $B(E2)$ which are one-two orders of magnitude higher than those specific to nearly spherical nuclei ($\beta\approx 0.05$). Such a systematic is the main cause why higher $B(E2)$ values indicate large nuclear deformations.
 
-In nuclei, usually the valence nucleons are causing some core polarizations, which as a result will affect the `final' electric quadrupole moment. In fact, the single-particle quadrupole moment is given by the following expression:
+Usually, in nuclei, the valence nucleons are causing some core polarizations, which will affect the `final' electric quadrupole moment. In fact the single-particle quadrupole moment is given by the following expression \cite{ring2004nuclear}:
 \begin{align}
     Q_\text{sp}(j)=-\frac{2j-1}{2j+2}\frac{e_\text{eff}}{e}\langle r^2\rangle\ .
     \label{single-particle-quadrupole-moment}
