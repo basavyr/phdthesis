@@ -985,33 +985,25 @@ Regarding the wave-functions utilized for the numerical calculations in the $\ma
 
 Looking at Eq. \ref{wave-function-TSD1-p0-first-order} it can be seen that the first-order expansion is reflected through the presence of $a^\dagger$ and $b^\dagger$ as independent variables (that is, no mixed or quadratic components). The canonicity factors $k_1,k_2$ defined in Eq. \ref{canonicity-factors} also show up for every coordinate. Lastly, $K,\Omega$ are the projections of the total and single-particle angular momentum vectors in the intrinsic coordinate system, respectively.
 
-The wave-function $\ket{\Psi_{IMj}^{(1)}}$ can be used for the transitions between zero-phonon bands, which comprise TSD1-2 and TSD4 in $^{161,163,165,167}$Lu. However, transitions in and out of a one-wobbling-phonon band (such as TSD3 in $^{163,165}$Lu) require a wave-function built as an excitation of its ground-band partner. In $\mathbf{W_1}$ this can be inferred by the renormalization specified in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum}. Hence, a state $I$ belonging to the one-phonon band is obtained with the activation of the $I-1$ state from the neighboring zero-phonon partner with phonon operators $\Gamma_1^\dagger$ $\Gamma_2^\dagger$, each applied separately $n_{w_1}$ and $n_{w_2}$ times on the vacuum states $|\varnothing)_{I-1}$ and $|\varnothing)_j$:
+The wave-function $\ket{\Psi_{IMj}^{(1)}}$ can be used for the transitions between zero-phonon bands, which comprise TSD1-2 and TSD4 in $^{161,163,165,167}$Lu. However, transitions in and out of a one-wobbling-phonon band (such as TSD3 in $^{163,165}$Lu) require a wave-function built as an excitation of its ground-band partner. In $\mathbf{W_1}$ this can be inferred by the renormalization specified in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum}. Hence, a state $I$ belonging to the one-phonon band is obtained with the activation of the $I-1$ state from the neighboring zero-phonon partner with phonon operators $\{\Gamma_1^\dagger\ ,\ \Gamma_2^\dagger\}$, each applied separately $n_{w_1}$ and $n_{w_2}$ times on the vacuum states $|\varnothing)_{I-1}$ and $|\varnothing)_j$:
 \begin{align}
     \ket{\Phi_{IMj}}=\ket{\Psi_{I-1M-1j}^{(1)}}\left\{\frac{1}{\sqrt{n_{w_1}!}}\left(\Gamma_1^\dagger\right)^{n_{w_1}}|\varnothing)_{I-1}\otimes\frac{1}{\sqrt{n_{w_2}!}}\left(\Gamma_2^\dagger\right)^{n_{w_2}}|\varnothing)_j\right\}\ ,
     \label{wave-function-TSD-excited-phonon-state}
 \end{align}
-where the two vacuum states are defined in Appendix D from Ref. \cite{raduta2017semiclassical}.
+where the two vacuum states are defined in Appendix D from Ref. \cite{raduta2017semiclassical}. Based on the considerations made in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum} + the spectrum depicted in Eq. \ref{lu163-absolute-energies-tsd1234} + the collection of wobbling phonon numbers provided in Tables \ref{lu-163-phonon-numbers} - \ref{lu-167-experimental-data-table}, it appears that \emph{only the first phonon $\Gamma_1^\dagger$ (corresponding to the motion of the core) will generate excited states}. This results in the straightforward structure of the band TSD3 from $^{163,165}$Lu:
+\begin{align}
+    \ket{\Phi_{IMj}}=\ket{\Psi_{I-1M-1j}^{(1)}}\Gamma_1^\dagger|\varnothing)_{I-1}\ .
+    \label{wave-function-TSD3}
+\end{align}
 
-% From the considerations made in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum}, the spectrum depicted in Eq. \ref{lu163-absolute-energies-tsd1234}, and the collection of wobbling phonon numbers provided in Tables \ref{lu-163-phonon-numbers} - \ref{lu-167-experimental-data-table}, 
-% % re-do phrasing
-% it occurs that \emph{only the first phonon $\Gamma_1^\dagger$ (corresponding to the motion of the core) will generate excited phonon states}. 
-
-% This results in
-
-% the straightforward structure of the bands TSD3 from $^{163,165}$Lu:
-% \begin{align}
-%     \ket{\Phi_{IMj}}=\ket{\Psi_{I-1M-1j}^{(1)}}\Gamma_1^\dagger|\varnothing)_{I-1}\ .
-%     \label{wave-function-TSD3}
-% \end{align}
-
-With the expressions of the E2 transition operator granted by Eq. \ref{electric-quadrupole-operator-lab} and wave-functions defined according to Eqs. \ref{wave-function-TSD1-p0-first-order} and \ref{wave-function-TSD3}, the matrix elements of $\mathcal{M}(E2,\mu)$ can be finally constructed, where the superscript `(1)` from $\ket{\Psi_{I-1M-1j}^{(1)}}$ will be dismissed hereafter. The reduced transition probabilities are defined more generally as \cite{toki1975asymmetric}:
+With the expressions of the E2 transition operator granted by Eq. \ref{electric-quadrupole-operator-lab} and wave-functions defined according to Eqs. \ref{wave-function-TSD1-p0-first-order} and \ref{wave-function-TSD3}, the matrix elements of $\mathcal{M}(E2,\mu)$ can be finally constructed. The reduced transition probabilities are defined more generally as \cite{toki1975asymmetric}:
 \begin{align}
     B(E2;I_i\to I_f)=&\sum_{M_iM_f\mu}\left|\bra{\Psi_{I_iM_ij}}\mathcal{M}(E2,\mu)\ket{\Psi_{I_fM_fj}}\right|^2=\nonumber\\
                                             =&\left|\bra{\Psi_{I_i}}\left|\mathcal{M}(E2)\right|\ket{\Psi_{I_f}}\right|^2\ .
                                             \label{reduced-BE2-transitions-toki}
 \end{align}
 
-The initial and final states from Eq. \ref{reduced-BE2-transitions-toki} are represented by $I_i$ and $I_f$, respectively. Moreover, the subscript signifying the single-particle angular momentum was dropped because its value does not change. The last term from the equality has no dependence on the projections $M$, and it was obtained by means of Wigner-Eckart theorem:
+The initial and final states from Eq. \ref{reduced-BE2-transitions-toki} are represented by $I_i$ and $I_f$, respectively. Moreover, the subscript signifying the single-particle angular momentum and the superscript `(1)` from $\ket{\Psi_{I-1M-1j}^{(1)}}$ were dropped. The last term from the equality has no dependence on the projections $M$, and it was obtained by applying the Wigner-Eckart theorem:
 \begin{align}
     \bra{\Psi_{I_iM_ij}}\mathcal{M}(\lambda,\mu)\ket{\Psi_{I_iM_ij}}=C_{M_f\mu M_i}^{I_f\lambda I_i}\bra{\Psi_{I_i}}|\mathcal{M}(\lambda)|\ket{\Psi_{I_f}}\ .
 \end{align}  
