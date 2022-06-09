@@ -1003,20 +1003,32 @@ With the expressions of the E2 transition operator granted by Eq. \ref{electric-
                                             \label{reduced-BE2-transitions-toki}
 \end{align}
 
-The initial and final states from Eq. \ref{reduced-BE2-transitions-toki} are represented by $I_i$ and $I_f$, respectively. Moreover, the subscript signifying the single-particle angular momentum and the superscript `(1)` from $\ket{\Psi_{I-1M-1j}^{(1)}}$ were dropped. The last term from the equality has no dependence on the projections $M$, and it was obtained by applying the Wigner-Eckart theorem:
+The initial and final states from Eq. \ref{reduced-BE2-transitions-toki} are represented by $I_i$ and $I_f$, respectively. Moreover, the subscript signifying the single-particle angular momentum and the superscript `(1)` that appear in $\ket{\Psi_{I-1M-1j}^{(1)}}$ were dropped. The last term of the equality has no dependence on the projections $M$, and it was obtained by applying the Wigner-Eckart theorem:
 \begin{align}
     \bra{\Psi_{I_iM_ij}}\mathcal{M}(\lambda,\mu)\ket{\Psi_{I_iM_ij}}=C_{M_f\mu M_i}^{I_f\lambda I_i}\bra{\Psi_{I_i}}|\mathcal{M}(\lambda)|\ket{\Psi_{I_f}}\ .
 \end{align}  
 
-From the structure of $\mathcal{M}(E2,\mu)$ from Eq. \ref{quadrupole-transition-operator-terms} and the probabilities specified in Eq. \ref{reduced-BE2-transitions-toki}, it results that there will be two sets of reduced matrix elements, i.e., $\bra{\Psi_{I_i}}|T_2^\text{coll}|\ket{\Psi_{I_f}}$ and $\bra{\Psi_{I_i}}|T_2^\text{sp}|\ket{\Psi_{I_f}}$, respectively.  Their analytical expressions are given explicitly, in accordance to the $\mathbf{W_0}$ picture, in Appendix D from \cite{raduta2017semiclassical}.
+From the structure of $\mathcal{M}(E2,\mu)$ given in Eq. \ref{quadrupole-transition-operator-terms} and the probabilities specified in Eq. \ref{reduced-BE2-transitions-toki}, it results that there will be two sets of reduced matrix elements, i.e., $\bra{\Psi_{I_i}}|T_2^\text{coll}|\ket{\Psi_{I_f}}$ and $\bra{\Psi_{I_i}}|T_2^\text{sp}|\ket{\Psi_{I_f}}$, respectively.  Their analytical expressions are given explicitly in Appendix D from \cite{raduta2017semiclassical}.
 
-Because the formalism $\mathbf{W_1}$ adopts a set of MOI determined freely by fitting Eq. \ref{chi-2-fitting-function}, one cannot infer their actual nature (that is neither hydrodynamical nor rigid). Moreover, from the calculated parameters $\mathcal{P}_\text{fit}$ shown in Table \ref{numerical-fitting-parameters-Lu-isotopes} it was concluded that the maximal MOI is $\mathcal{I}_1$ for each isotope. Accordingly, the quadrupole components $Q_{0}$ and $Q_{2}$ give the degree of elongation and asymmetry of the charge/mass distribution with respect to this axis. In order to keep a consistent numerical procedure, the two quadrupole moments should also be considered as free quantities when computing the transition probabilities (Eq. \ref{reduced-BE2-transitions-toki}). Consequently, the components are evaluated per each isotope by fixing one intraband transition from TSD1 (first excited to yrast) and one interband transition $\text{TSD2}\to\text{TSD1}$ (band-head $I_0$ in TSD2 to $I_0-1$ in TSD1). With this method, the values $Q_0=18.43\ \mathrm{e}b$ and $Q_2=19.81\ \mathrm{e}b$ are obtained for $^{163}$Lu. The results for the other isotopes are graphically represented in Fig. \ref{quadrupole-moments-fit-numerical-results}, where a change of ordering between the two quadrupole components can be observed at $^{165}$Lu. Besides the change of ordering, the magnitude of the components drops quite low compared to the neighboring nuclei. Remarking the fact that the isotope $^{167}$Lu has an almost identical set of quadrupole moments.
+Because the formalism $\mathbf{W_1}$ adopts a set of MOI determined freely by fitting Eq. \ref{chi-2-fitting-function}, one cannot infer their actual nature (that is neither hydrodynamical nor rigid). Moreover, the calculated parameters $\mathcal{P}_\text{fit}$ shown in Table \ref{numerical-fitting-parameters-Lu-isotopes} indicate that the maximal MOI is $\mathcal{I}_1$ for each isotope. Accordingly, the quadrupole components $Q_{0}$ and $Q_{2}$ give the degree of elongation and asymmetry of the charge/mass distribution with respect to this axis. In order to keep a consistent numerical procedure, the two quadrupole moments should also be considered as free quantities when computing the transition probabilities (Eq. \ref{reduced-BE2-transitions-toki}). Consequently, the components are evaluated per each isotope by fixing one intraband transition from TSD1 (first excited to yrast) and one interband transition $\text{TSD2}\to\text{TSD1}$ (band-head $I_b$ in TSD2 to $I_b-1$ in TSD1). With this method, the values $Q_0=18.43\ \mathrm{e}b$ and $Q_2=19.81\ \mathrm{e}b$ are attained for $^{163}$Lu. The results for the other isotopes are graphically represented in Fig. \ref{quadrupole-moments-fit-numerical-results}, where a change of ordering between the two quadrupole components can be observed at $^{165}$Lu. Besides that, the magnitude of the components drops quite low compared to the neighboring nuclei. Remarking the fact that the isotope $^{167}$Lu has an almost identical set of quadrupole moments.
 \begin{figure}
     \centering
     \includegraphics[scale=0.65]{Chapters/Figures/Lu-exp-energies/fig19.pdf}
     \caption{The calculated quadrupole moments $Q_0$ and $Q_2$ from \ref{electric-quadrupole-operator-lab}. The unit for $Q$ is $\mathrm{e}\cdot b$. See text for details on their numerical determination.}
     \label{quadrupole-moments-fit-numerical-results}
 \end{figure}
+
+The quadrupole transition moment $Q_I$ can be also calculated for a state $I$ in terms of the reduced transition probability $B(E2; I\to I-2)$. The probability of the transition $I\to I-2$ is expressed in terms of the moment $Q_I$ as \cite{hagemann1984signature}:
+\begin{align}
+    B(E2;I\to I-2)=\frac{5}{16\pi}(C_{K0K}^{I2I-2})^2Q_I^2\, 
+    \label{reduced-BE2-hagemann}
+\end{align}
+meaning that one can extract $Q_I$ for each state from a band using the following definition:
+\begin{align}
+    Q_I=\left[\frac{16\pi}{5}\cdot\frac{\bra{\Psi_{I}}|\mathcal{M}(E2)|\ket{\Psi_{I-2}}}{C_{K0K}^{I2I-2}}\right]^{1/2}\ ,
+    \label{quadrupole-transition-moment-QI}
+\end{align}
+which will be adopted within the calculations.
 
 \subsubsection{M1 Transitions}
 
