@@ -1019,7 +1019,7 @@ Because the formalism $\mathbf{W_1}$ adopts a set of MOI determined freely by fi
     \label{quadrupole-moments-fit-numerical-results}
 \end{figure}
 
-The \emph{quadrupole transition moment} $Q_I$ can be also calculated for a state $I$ in terms of the reduced transition probability $B(E2; I\to I-2)$. Their unusually large values are a clear indicator for triaxial deformations. The probability of the transition $I\to I-2$ is expressed in terms of the moment $Q_I$ as \cite{hagemann1984signature}:
+The \emph{quadrupole transition moment} $Q_I$ can be also calculated for a state $I$ in terms of the reduced transition probability $B(E2; I\to I-2)$. Their unusually large values (measured in units of $b$) are a clear indicator for triaxial deformations. The probability of the transition $I\to I-2$ is expressed in terms of the moment $Q_I$ as \cite{hagemann1984signature}:
 \begin{align}
     B(E2;I\to I-2)=\frac{5}{16\pi}(C_{K0K}^{I2I-2})^2Q_I^2\, 
     \label{reduced-BE2-hagemann}
@@ -1031,8 +1031,14 @@ meaning that one can extract $Q_I$ for each state from a band using the followin
 \end{align}
 which will be adopted throughout the calculations. Keep in mind that, in practice, this quantity cannot be inferred self-consistently, but only through the already known $B(E2)$ transition probabilities (or equivalently, the reduced m.e.). As such, when the experimental $Q_I$ values are discussed, they are in fact obtained directly from the experimental $B(E2)$ quantities.
 
-In addition to the quadrupole moment for transitions $I \to I-2$, the \emph{static quadrupole moment} can also be studied \cite{bohr1998nuclear,chen2020g,chen2020static}. This quantity gives a measure of nuclear charge distribution associated with the collective rotational motion of the nucleus, and it is calculated as:
-% FORMULA FOR THE STATIC QUADRUPOLE MOMENT
+In addition to the quadrupole moment for transitions $I \to I-2$, the \emph{static quadrupole moment} can also be studied \cite{bohr1998nuclear}. This quantity gives a measure of nuclear charge distribution associated with the collective rotational motion of the nucleus \cite{chen2020g,chen2020static}, and it is in fact given by the diagonal m.e. of $\mathcal{M}(E2)$ (that is $I_i=I_f$, unlike $Q_I$, where $I_f=I_i-2$).
+\begin{align}
+    Q_\text{static}=C_{K2K}^{I2I}C_{I0I}^{I2I}Q_I
+    \label{static-quadrupole-moment}
+\end{align}
+
+Looking at Eq. \ref{static-quadrupole-moment}
+
 \subsubsection{M1 Transitions}
 
 For the magnetic transitions within wobbling states, the corresponding operator is also expressed as a collective plus a single particle components, keeping thus a consistency with Eq. \ref{quadrupole-transition-operator-terms}:
