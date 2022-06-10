@@ -1031,13 +1031,33 @@ meaning that one can extract $Q_I$ for each state from a band using the followin
 \end{align}
 which will be adopted throughout the calculations. Keep in mind that, in practice, this quantity cannot be inferred self-consistently, but only through the already known $B(E2)$ transition probabilities (or equivalently, the reduced m.e.). As such, when the experimental $Q_I$ values are discussed, they are in fact obtained directly from the experimental $B(E2)$ quantities.
 
-In addition to the quadrupole moment for in-band transitions $I \to I-2$, the \emph{static quadrupole moment} (SQM) can be studied \cite{bohr1998nuclear}. This quantity gives a measure of nuclear charge distribution associated with the collective rotational motion of the nucleus \cite{chen2020g,chen2020static}, and it arises as the diagonal m.e. of $\mathcal{M}(E2)$ (that is $I_i=I_f$, unlike $Q_I$, where $\Delta_I{i\to f}=2$). From Eqs. \ref{reduced-BE2-transitions-toki}, \ref{reduced-BE2-hagemann}, and Eq. \ref{quadrupole-transition-moment-QI} it results that the SQM can be expressed straight from the transition quadrupole moment via the relation:
+In addition to the quadrupole moment for in-band transitions $I \to I-2$, the \emph{static quadrupole moment} (SQM) can be studied \cite{bohr1998nuclear}. This quantity gives a measure of nuclear charge distribution associated with the collective rotational motion of the nucleus \cite{chen2020g,chen2020static}, and it arises as the diagonal m.e. of $\mathcal{M}(E2)$ (that is $I_i=I_f$, unlike $Q_I$, where $\Delta_I{i\to f}=2$). From Eqs. \ref{reduced-BE2-transitions-toki}, \ref{reduced-BE2-hagemann}, and Eq. \ref{quadrupole-transition-moment-QI} it results that the SQM can be expressed straight from the transition quadrupole moment via the relation \cite{bohr1998nuclear}:
 \begin{align}
     Q_\text{SQM}=C_{K2K}^{I2I}C_{I0I}^{I2I}Q_I\ .
     \label{static-quadrupole-moment}
 \end{align}
 
 Indeed, by  Looking at Eq. \ref{static-quadrupole-moment}, the SQM is nothing else than the measured quadrupole moment for a given state $I$, which was previously discussed in Section \ref{intro-EM-chapter3} as having the general expression provided in Eq. \ref{quadrupole-moment-spectro}.
+
+In order to test the validity of the current interpretation, the reduced transition probabilities $B(E2)$ are calculated with the help of Eq. \ref{reduced-BE2-transitions-toki} and compared to the experimental data for each isotope. The numerical results are shown in Table \ref{interband-E2-numerical-results}. Unfortunately, experimental data is only evaluated for $^{163}$Lu, meaning that for the other isotopes the quality of the model cannot by directly inferred. Nevertheless, from the similarities of the isotopes in regards to the other collective quantities that were throguhout the previous sections (e.g., dynamical MOI, reference energy, and so on) one expects a consistency across the electromagnetic transitions as well.
+\begin{table}
+    \centering
+    \begin{tabular}{|cc|cc|cccc|}
+    \hline
+    \multicolumn{2}{|c|}{} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-2)$\\ $[\mathrm{e}^2b^2]$\end{tabular}} & \multicolumn{2}{c|}{} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-2)$\\ $[\mathrm{e}^2b^2]$\end{tabular}} \\ \hline
+    \multicolumn{1}{|c|}{TSD1} & $I$ & \multicolumn{1}{c|}{Theory} & Experiment & \multicolumn{1}{c|}{TSD2} & \multicolumn{1}{c|}{$I$} & \multicolumn{1}{c|}{Theory} & Experiment \\ \hline
+    \multicolumn{1}{|c|}{\multirow{8}{*}{$^{161}$Lu}} & 41/2 & \multicolumn{1}{c|}{2.80} & n/a & \multicolumn{1}{c|}{\multirow{8}{*}{$^{161}$Lu}} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{2.84} & n/a \\ \cline{2-4} \cline{6-8} 
+    \multicolumn{1}{|c|}{} & 45/2 & \multicolumn{1}{c|}{2.83} & n/a & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{2.86} & n/a \\ \cline{2-4} \cline{6-8} 
+    \multicolumn{1}{|c|}{} & 49/2 & \multicolumn{1}{c|}{2.85} & n/a & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{2.88} & n/a \\ \cline{2-4} \cline{6-8} 
+    \multicolumn{1}{|c|}{} & 53/2 & \multicolumn{1}{c|}{2.87} & n/a & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{2.89} & n/a \\ \cline{2-4} \cline{6-8} 
+    \multicolumn{1}{|c|}{} & 57/2 & \multicolumn{1}{c|}{2.88} & n/a & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{2.54} & n/a \\ \cline{2-4} \cline{6-8} 
+    \multicolumn{1}{|c|}{} & 61/2 & \multicolumn{1}{c|}{2.90} & n/a & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{67/2} & \multicolumn{1}{c|}{2.51} & n/a \\ \cline{2-4} \cline{6-8} 
+    \multicolumn{1}{|c|}{} & 65/2 & \multicolumn{1}{c|}{2.91} & n/a & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{71/2} & \multicolumn{1}{c|}{2.49} & n/a \\ \cline{2-4} \cline{6-8} 
+    \multicolumn{1}{|c|}{} & 69/2 & \multicolumn{1}{c|}{2.92} & \textbf{n/a} & \multicolumn{1}{c|}{} & \multicolumn{3}{c|}{} \\ \hline
+    \end{tabular}
+    \caption{The reduced intraband transition probabilities for $^{161,163,165,167}$Lu obtained through Eq. \ref{reduced-BE2-transitions-toki} are compared with the experimental data (where available). The experimental data for $^{163}$Lu are taken from Ref. \cite{reich2010nuclear}.}
+    \label{interband-E2-numerical-results}
+\end{table}
 
 \subsubsection{M1 Transitions}
 
