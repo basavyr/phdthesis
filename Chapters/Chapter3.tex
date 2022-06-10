@@ -960,6 +960,7 @@ Usually, the graphical representation of the MOI (kinematic or dynamic) as funct
 An important indicator of nuclear deformation is the \emph{electric quadrupole moment} \cite{hamamoto2016interplay}, which measures the `departure' of the nuclear shape away from spherical symmetry (through elongation and/or asymmetry). The most general expression of the intrinsic quadrupole moment for a nucleus that is rotating about the $z$-axis is given in terms of its \emph{charge density distribution} \cite{casten2000nuclear}:
 \begin{align}
     Q_0=\int(3z^2-r^2)\rho(r)_\text{charge}\text{d}v\ .
+    \label{general-quadrupole-moment-Q0-charge}
 \end{align}
 This shows how the nuclear charge distribution inside the nucleus plays a pivotal role in determining the nuclear deformation. A relationship between the deformation parameter $\beta$ and the quadrupole moment itself can be approximated (in second order of $\beta$) as \cite{krane1991introductory}:
 \begin{align}
@@ -989,22 +990,18 @@ where the quantum number $K$ is again the projection of $I$ onto the symmetry (d
     \label{fig-averaged-prolate-density}
 \end{figure}
 
-Another important quantity that can be used as a `test' for collectivity and deformation within nuclei is the \emph{electric quadrupole transition probability}, or denoted $B(E2)$ for short. The general expression for calculating a transition `strength' is given in terms of the initial $\ket{\Psi_i}$ and final $\ket{\Psi_f}$ states \cite{matta2017exotic}:
-\begin{align}
-    B(E2;\ I_i\to I_f)=c\cdot\left|\bra{\Psi_f}\left|\mathcal{M}(E2)\right|\ket{\Psi_i}\right|^2\ ,
-    \label{eq-general-reduced-E2}
-\end{align}
-where $\mathcal{M}(E2)$ is the quadrupole transition operator, and $c$ represents a factor that typically depends on a specific convention which is employed from textbook descriptions (e.g., Rose's convention \cite{rose1995elementary} or Faessler's convention \cite{toki1975asymmetric}, and so on ) . In fact, Eq. \ref{eq-general-reduced-E2} tells that the reduced transition probabilities can be extracted from the `matrix elements' of this operator. Equivalently, the reduced quadrupole transition probability $B(E2)$ can be given in terms of the Clebsch-Gordan coefficients \cite{bohr1998nuclear}:
+Another important quantity that can be used as a `test' for collectivity and deformation within nuclei is the \emph{electric quadrupole transition probability}, or denoted $B(E2)$ for short. The reduced quadrupole transition probability $B(E2)$ can be given in terms of the quadrupole moment introduced in Eq. \ref{general-quadrupole-moment-Q0-charge} through the following form \cite{bohr1998nuclear}:
 \begin{align}
     B(E2;\ I_i\to I_f)=\frac{5}{16\pi}e^2Q_0^2\bra{I_iK20}\ket{I_fK}^2\ ,
-    \label{eq-general-reduced-E2-clebsch-gordan}
+    \label{reduced-E2-clebsch-gordan}
 \end{align}
-where the coefficient can also be written as $\bra{I_iK20}\ket{I_fK}\equiv C^{I_i2I_f}_{K0K}$. In the case of $0^+\to 2^+$ transition, the reduced probability will be given by \cite{casten2000nuclear}:
+where the squared factor $\bra{I_iK20}\ket{I_fK}^2$ is the Clebsch-Gordan coefficient, also written as $\bra{I_iK20}\ket{I_fK}\equiv C^{I_i2I_f}_{K0K}$. In the case of $0^+\to 2^+$ transition, the reduced probability will be given by \cite{casten2000nuclear}:
 \begin{align}
     B(E2;\ 0^+\to 2^+)=\frac{5}{16\pi}e^2Q_0^2\ .
+    \label{reduced-E2-0Plus-2Plus-Transition}
 \end{align}
 
-From the quadratic dependence of the intrinsic quadrupole moment on $\beta$, large values of $\beta$ that are specific to deformed nuclei ($\beta\approx 0.3$) will lead to values for $B(E2)$ which are one-two orders of magnitude higher than those specific to nearly spherical nuclei ($\beta\approx 0.05$). Such a systematic is the main cause why higher $B(E2)$ values indicate large nuclear deformations.
+The transition probability provided in Eq. \ref{reduced-E2-clebsch-gordan} is in fact a special case (i.e., the involved transitions are not affected by a change of the projection $K$), and a more general treatment of $B(E2)$ will be properly employed in a future chapter, when discussing the transition probabilities in several odd-mass nuclei. From the quadratic dependence of the intrinsic quadrupole moment on $\beta$, high values (e.g. $\beta\approx 0.3$) will lead to $B(E2)$ that are one or even two orders of magnitude higher than those specific to nearly spherical nuclei ($\beta\approx 0.05$). Such a systematic is the main cause why higher $B(E2)$ values indicate large nuclear deformations.
 
 Usually, in nuclei, the valence nucleons are causing some core polarizations, which will affect the `final' electric quadrupole moment. In fact the single-particle quadrupole moment is given by the following expression \cite{ring2004nuclear}:
 \begin{align}
