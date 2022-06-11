@@ -1044,7 +1044,7 @@ In order to test the validity of the current interpretation, the reduced transit
     \centering
     \begin{tabular}{|c|c|c|c|c|ccc|}
     \hline
-    \multicolumn{2}{|c|}{} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-2)$\\ $[\mathrm{e}^2b^2]$\end{tabular}} & \multicolumn{2}{c|}{} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-2)$\\ $[\mathrm{e}^2b^2]$\end{tabular}} \\ \hline
+    \multicolumn{2}{|c|}{} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-2)$\\ $[\mathrm{e}^2\cdot b^2]$\end{tabular}} & \multicolumn{2}{c|}{} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-2)$\\ $[\mathrm{e}^2\cdot b^2]$\end{tabular}} \\ \hline
     \multicolumn{1}{|c|}{TSD1} & $I$ & \multicolumn{1}{c|}{Theory} & Experiment & \multicolumn{1}{c|}{TSD2} & \multicolumn{1}{c|}{$I$} & \multicolumn{1}{c|}{Theory} & Experiment \\ \hline
     \multicolumn{1}{|c|}{\multirow{8}{*}{$^{161}$Lu}} & 41/2 & \multicolumn{1}{c|}{2.80} & - & \multicolumn{1}{c|}{\multirow{8}{*}{$^{161}$Lu}} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{2.84} & - \\ \cline{2-4} \cline{6-8} 
     \multicolumn{1}{|c|}{} & 45/2 & \multicolumn{1}{c|}{2.83} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{2.86} & - \\ \cline{2-4} \cline{6-8} 
@@ -1084,29 +1084,75 @@ In order to test the validity of the current interpretation, the reduced transit
 \end{table}
 
 For calculation of the transition quadrupole moment $Q_I$ (Eq. \ref{quadrupole-transition-moment-QI}) and the SMQ (Eq. \ref{static-quadrupole-moment}), the results are compared with the experimental data in Table \ref{quadrupole-QI-QSQM-numerical-results}.
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
-% \usepackage{graphicx}
-\begin{table}[]
+\begin{table}
     \centering
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|cc|cc|cc|cccccc|}
+    \begin{tabular}{|c|c|c|c|c|c|c|ccccc|}
     \hline
     \multicolumn{2}{|c|}{} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$Q_I$\\ $[b]$\end{tabular}} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$Q_\text{SQM}$\\ $[b]$\end{tabular}} & \multicolumn{2}{c|}{} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$Q_I$\\ $[b]$\end{tabular}} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$Q_\text{SQM}$\\ $[b]$\end{tabular}} \\ \hline
     \multicolumn{1}{|c|}{TSD1} & $I$ & \multicolumn{1}{c|}{Th} & Exp & \multicolumn{1}{c|}{Th} & Exp & \multicolumn{1}{c|}{TSD2} & \multicolumn{1}{c|}{$I$} & \multicolumn{1}{c|}{Th} & \multicolumn{1}{c|}{Exp} & \multicolumn{1}{c|}{Th} & Exp \\ \hline
-    \multicolumn{1}{|c|}{\multirow{8}{*}{$^{161}$Lu}} & 41/2 & \multicolumn{1}{c|}{8.89} & - & \multicolumn{1}{c|}{} & - & \multicolumn{1}{c|}{\multirow{8}{*}{$^{161}$Lu}} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{} & - \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & 45/2 & \multicolumn{1}{c|}{8.91} & - & \multicolumn{1}{c|}{} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{} & - \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & 49/2 & \multicolumn{1}{c|}{8.92} & - & \multicolumn{1}{c|}{} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{} & - \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & 53/2 & \multicolumn{1}{c|}{8.94} & - & \multicolumn{1}{c|}{} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{} & - \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & 57/2 & \multicolumn{1}{c|}{8.95} & - & \multicolumn{1}{c|}{} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{} & - \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & 61/2 & \multicolumn{1}{c|}{8.96} & - & \multicolumn{1}{c|}{} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{67/2} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{} & - \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & 65/2 & \multicolumn{1}{c|}{8.97} & - & \multicolumn{1}{c|}{} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{71/2} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{} & - \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & 69/2 & \multicolumn{1}{c|}{8.98} & - & \multicolumn{1}{c|}{} & - & \multicolumn{1}{c|}{} & \multicolumn{5}{c|}{} \\ \hline
+    \multicolumn{1}{|c|}{\multirow{8}{*}{$^{161}$Lu}} & 41/2 & \multicolumn{1}{c|}{8.89} & - & \multicolumn{1}{c|}{-4.13} & - & \multicolumn{1}{c|}{\multirow{8}{*}{$^{161}$Lu}} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{8.92} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.15} & - \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{|c|}{} & 45/2 & \multicolumn{1}{c|}{8.91} & - & \multicolumn{1}{c|}{-4.17} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{8.93} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.18} & - \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{|c|}{} & 49/2 & \multicolumn{1}{c|}{8.92} & - & \multicolumn{1}{c|}{-4.20} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{8.95} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.21} & - \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{|c|}{} & 53/2 & \multicolumn{1}{c|}{8.94} & - & \multicolumn{1}{c|}{-4.23} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{8.96} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.24} & - \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{|c|}{} & 57/2 & \multicolumn{1}{c|}{8.95} & - & \multicolumn{1}{c|}{-4.25} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{8.97} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.26} & - \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{|c|}{} & 61/2 & \multicolumn{1}{c|}{8.96} & - & \multicolumn{1}{c|}{-4.27} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{67/2} & \multicolumn{1}{c|}{8.98} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.28} & - \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{|c|}{} & 65/2 & \multicolumn{1}{c|}{8.97} & - & \multicolumn{1}{c|}{-4.28} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{71/2} & \multicolumn{1}{c|}{8.98} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.29} & - \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{|c|}{} & 69/2 & \multicolumn{1}{c|}{8.98} & - & \multicolumn{1}{c|}{-4.30} & - & \multicolumn{1}{c|}{} & \multicolumn{5}{c|}{} \\ \hline
+    \multirow{8}{*}{$^{163}$Lu} & 41/2 & 8.89 & 9.93 & -4.71 & -4.62 & \multirow{8}{*}{$^{163}$Lu} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{8.71} & \multicolumn{1}{c|}{8.51} & \multicolumn{1}{c|}{-4.76} & -3.99 \\ \cline{2-6} \cline{8-12} 
+    & 45/2 & 8.77 & 9.34 & -4.75 & -4.37 &  & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{8.62} & \multicolumn{1}{c|}{8.67} & \multicolumn{1}{c|}{-4.80} & -4.09 \\ \cline{2-6} \cline{8-12} 
+    & 49/2 & 8.66 & 8.32 & -4.78 & -3.92 &  & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{8.53} & \multicolumn{1}{c|}{8.88} & \multicolumn{1}{c|}{-4.83} & -4.21 \\ \cline{2-6} \cline{8-12} 
+    & 53/2 & 8.57 & 8.93 & -4.81 & -4.22 &  & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{8.46} & \multicolumn{1}{c|}{7.82} & \multicolumn{1}{c|}{-4.85} & -3.72 \\ \cline{2-6} \cline{8-12} 
+    & 57/2 & 8.50 & 8.37 & -4.84 & -3.97 &  & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{8.39} & \multicolumn{1}{c|}{7.91} & \multicolumn{1}{c|}{-4.87} & -3.77 \\ \cline{2-6} \cline{8-12} 
+    & 61/2 & 8.43 & 7.45 & -4.86 & -3.55 &  & \multicolumn{1}{c|}{67/2} & \multicolumn{1}{c|}{8.34} & \multicolumn{1}{c|}{6.66} & \multicolumn{1}{c|}{-4.89} & -3.19 \\ \cline{2-6} \cline{8-12} 
+    & 65/2 & 8.36 & 7.37 & -4.88 & -3.52 &  & \multicolumn{1}{c|}{71/2} & \multicolumn{1}{c|}{8.28} & \multicolumn{1}{c|}{6.68} & \multicolumn{1}{c|}{-4.90} & -3.20 \\ \cline{2-6} \cline{8-12} 
+    & 69/2 & 8.31 & 7.63 & -4.90 & -3.65 &  & \multicolumn{5}{c|}{} \\ \hline
+    \multirow{8}{*}{$^{165}$Lu} & 41/2 & 10.12 & - & -4.71 & - & \multirow{8}{*}{$^{165}$Lu} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{10.15} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.76} & - \\ \cline{2-6} \cline{8-12} 
+    & 45/2 & 10.14 & - & -4.75 & - &  & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{10.17} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.80} & - \\ \cline{2-6} \cline{8-12} 
+    & 49/2 & 10.16 & - & -4.78 & - &  & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{10.19} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.83} & - \\ \cline{2-6} \cline{8-12} 
+    & 53/2 & 10.18 & - & -4.81 & - &  & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{10.20} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.85} & - \\ \cline{2-6} \cline{8-12} 
+    & 57/2 & 10.19 & - & -4.84 & - &  & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{10.21} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.87} & - \\ \cline{2-6} \cline{8-12} 
+    & 61/2 & 10.21 & - & -4.86 & - &  & \multicolumn{1}{c|}{67/2} & \multicolumn{1}{c|}{10.22} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.89} & - \\ \cline{2-6} \cline{8-12} 
+    & 65/2 & 10.22 & - & -4.88 & - &  & \multicolumn{1}{c|}{71/2} & \multicolumn{1}{c|}{10.23} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.90} & - \\ \cline{2-6} \cline{8-12} 
+    & 69/2 & 10.23 & - & -4.90 & - &  & \multicolumn{5}{c|}{} \\ \hline
+    \multirow{8}{*}{$^{167}$Lu} & 41/2 & 8.90 & - & -4.13 & - & \multirow{8}{*}{$^{167}$Lu} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{8.92} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.15} & - \\ \cline{2-6} \cline{8-12} 
+    & 45/2 & 8.91 & - & -4.17 & - &  & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{8.94} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.18} & - \\ \cline{2-6} \cline{8-12} 
+    & 49/2 & 8.92 & - & -4.20 & - &  & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{8.95} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.21} & - \\ \cline{2-6} \cline{8-12} 
+    & 53/2 & 8.94 & - & -4.23 & - &  & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{8.96} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.24} & - \\ \cline{2-6} \cline{8-12} 
+    & 57/2 & 8.95 & - & -4.25 & - &  & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{8.97} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.26} & - \\ \cline{2-6} \cline{8-12} 
+    & 61/2 & 8.96 & - & -4.27 & - &  & \multicolumn{1}{c|}{67/2} & \multicolumn{1}{c|}{8.98} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.28} & - \\ \cline{2-6} \cline{8-12} 
+    & 65/2 & 8.97 & - & -4.28 & - &  & \multicolumn{1}{c|}{71/2} & \multicolumn{1}{c|}{8.98} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.29} & - \\ \cline{2-6} \cline{8-12} 
+    & 69/2 & 8.98 & - & -4.30 & - &  & \multicolumn{5}{c|}{} \\ \hline
     \end{tabular}%
     }
-    \caption{The quadrupole transition moment $Q_I$ and the static quadrupole moment $Q_\text{SQM}$ are calculated for each isotope and compared with the available experimental data.}
+    \caption{The quadrupole transition moment $Q_I$ from Eq. \ref{quadrupole-transition-moment-QI} and the static quadrupole moment $Q_\text{SQM}$ given in Eq. \ref{static-quadrupole-moment} are calculated for each isotope and compared with the available experimental data. For the calculation of $Q_\text{SQM}$, the value for $K$ was fixed to $K=1/2$. The experimental data are taken from Refs. \cite{gorgen2004quadrupole,jensen2002wobbling,reich2010nuclear}.}
     \label{quadrupole-QI-QSQM-numerical-results}
-    \end{table}
+\end{table}
+
+The interband transitions $I\to I-1$ were evaluated for the isotopes and the comparison between the theoretical results and the experimental data is provided in Table \ref{interband-E2-numerical-results}.
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+    \centering
+    \begin{tabular}{|cccc|clc|cc|}
+    \hline
+    \multicolumn{2}{|c|}{Nucleus} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-1)$\\ $[\mathrm{e}^2\cdot b^2]$\end{tabular}} & \multicolumn{3}{c|}{Nucleus} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-1)$\\ $[\mathrm{e}^2\cdot b^2]$\end{tabular}} \\ \hline
+    \multicolumn{1}{|c|}{\multirow{6}{*}{$^{161}$Lu}} & \multicolumn{1}{c|}{$I$} & \multicolumn{1}{c|}{Th} & Exp & \multicolumn{2}{c|}{\multirow{6}{*}{$^{165}$Lu}} & $I$ & \multicolumn{1}{c|}{Th} & Exp \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{0.54} & - & \multicolumn{2}{c|}{} & 47/2 & \multicolumn{1}{c|}{0.37} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{0.47} & - & \multicolumn{2}{c|}{} & 51/2 & \multicolumn{1}{c|}{0.34} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{0.42} & - & \multicolumn{2}{c|}{} & 55/2 & \multicolumn{1}{c|}{0.32} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{0.37} & - & \multicolumn{2}{c|}{} & 59/2 & \multicolumn{1}{c|}{0.29} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{0.33} & - & \multicolumn{2}{c|}{} & 63/2 & \multicolumn{1}{c|}{0.27} & - \\ \hline
+    \multicolumn{1}{|c|}{\multirow{5}{*}{$^{163}$Lu}} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{0.54} & 0.54 & \multicolumn{2}{c|}{\multirow{6}{*}{$^{167}$Lu}} & 39/2 & \multicolumn{1}{c|}{0.66} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{0.49} & 0.54 & \multicolumn{2}{c|}{} & 47/2 & \multicolumn{1}{c|}{0.54} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{0.44} & 0.70 & \multicolumn{2}{c|}{} & 51/2 & \multicolumn{1}{c|}{0.49} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{0.34} & 0.65 & \multicolumn{2}{c|}{} & 55/2 & \multicolumn{1}{c|}{0.45} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{0.36} & 0.66 & \multicolumn{2}{c|}{} & 59/2 & \multicolumn{1}{c|}{0.41} & - \\ \cline{1-4} \cline{7-9} 
+    \multicolumn{4}{|c|}{} & \multicolumn{2}{c|}{} & 63/2 & \multicolumn{1}{c|}{0.38} & - \\ \hline
+    \end{tabular}
+    \caption{Comparison.}
+    \label{interband-E2-numerical-results}
+\end{table}
 
 \subsubsection{M1 Transitions}
 
