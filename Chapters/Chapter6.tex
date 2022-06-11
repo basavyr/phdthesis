@@ -1083,7 +1083,7 @@ In order to test the validity of the current interpretation, the reduced transit
     \label{intraband-E2-numerical-results}
 \end{table}
 
-For calculation of the transition quadrupole moment $Q_I$ (Eq. \ref{quadrupole-transition-moment-QI}) and the SMQ (Eq. \ref{static-quadrupole-moment}), the results are compared with the experimental data in Table \ref{quadrupole-QI-QSQM-numerical-results}.
+For calculation of the transition quadrupole moment $Q_I$ (Eq. \ref{quadrupole-transition-moment-QI}) and the SMQ (Eq. \ref{static-quadrupole-moment}), the results are compared with the experimental data in Table \ref{quadrupole-QI-QSQM-numerical-results}. The numerical results for $Q_\text{SQM}$ are evaluated by fixing $K=1/2$ and then applying the formula. 
 \begin{table}
     \centering
     \resizebox{\textwidth}{!}{%
@@ -1130,9 +1130,7 @@ For calculation of the transition quadrupole moment $Q_I$ (Eq. \ref{quadrupole-t
 \end{table}
 
 The interband transitions $I\to I-1$ were evaluated for the isotopes and the comparison between the theoretical results and the experimental data is provided in Table \ref{interband-E2-numerical-results}.
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
-\begin{table}[]
+\begin{table}
     \centering
     \begin{tabular}{|cccc|clc|cc|}
     \hline
@@ -1150,9 +1148,16 @@ The interband transitions $I\to I-1$ were evaluated for the isotopes and the com
     \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{0.36} & 0.66 & \multicolumn{2}{c|}{} & 59/2 & \multicolumn{1}{c|}{0.41} & - \\ \cline{1-4} \cline{7-9} 
     \multicolumn{4}{|c|}{} & \multicolumn{2}{c|}{} & 63/2 & \multicolumn{1}{c|}{0.38} & - \\ \hline
     \end{tabular}
-    \caption{Comparison.}
+    \caption{The reduced interband transition probabilities connecting states $I\in\text{TSD2}\to I-1\in\text{TSD1}$ for the Lu isotopes. Experimental data are taken from Ref. \cite{reich2010nuclear}.}
     \label{interband-E2-numerical-results}
 \end{table}
+
+Concerning the static quadrupole moments presented in Table \ref{quadrupole-moments-fit-numerical-results}, by keeping the value of $K$ fixed across each state, then for sufficiently large spins will result in $Q_\text{SQM}(I)\approx Q_I/2$, which can be actually observed from the table. Such a behavior translates in the total a.m. becoming perpendicular to the $1$-axis. On the other hand, if $K=I$ any variation emerging from rotational motion becomes negligible and $Q_\text{SQM}(I)$ tends to $Q_I$ \cite{bohr1998nuclear}. A graphical representation for $Q_\text{SQM}(I)$ with the two methods (i.e., fixed $K=1/2$ as in Table \ref{quadrupole-moments-fit-numerical-results} and $K=I$) for all isotopes can be seen in Fig. \ref{static-quadrupole-fixed-K-nonfixed-K}.
+\begin{figure}
+    \centering
+    \caption{The static quadrupole moment from Eq. \ref{static-quadrupole-moment} graphically represented as a function of total spin $I$ for $^{161,163,165,167}$Lu. The red lines are evaluated by keeping $K$ fixed to $K=1/2$, while the black lines are given by evaluating $C_{K0K}^{I2I}$ with $K=I$. See text for more details.}
+    \label{static-quadrupole-fixed-K-nonfixed-K}
+\end{figure}
 
 \subsubsection{M1 Transitions}
 
