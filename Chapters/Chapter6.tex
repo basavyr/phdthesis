@@ -1021,7 +1021,7 @@ Because the formalism $\mathbf{W_1}$ adopts a set of MOI determined freely by fi
 
 The \emph{quadrupole transition moment} $Q_I$ can be also calculated for a state $I$ in terms of the reduced transition probability $B(E2; I\to I-2)$. Their unusually large values (measured in units of $b$) are a clear indicator for triaxial deformations. The probability of the transition $I\to I-2$ is expressed in terms of the moment $Q_I$ as \cite{hagemann1984signature}:
 \begin{align}
-    B(E2;I\to I-2)=\frac{5}{16\pi}(C_{K0K}^{I2I-2})^2Q_I^2\, 
+    B(E2;I\to I-2)=\frac{5}{16\pi}(C_{K0K}^{I2I-2})^2Q_I^2\ , 
     \label{reduced-BE2-hagemann}
 \end{align}
 meaning that one can extract $Q_I$ for each state from a band using the following definition:
@@ -1031,15 +1031,21 @@ meaning that one can extract $Q_I$ for each state from a band using the followin
 \end{align}
 which will be adopted throughout the calculations. Keep in mind that, in practice, this quantity cannot be inferred self-consistently, but only through the already known $B(E2)$ transition probabilities (or equivalently, the reduced m.e.). As such, when the experimental $Q_I$ values are discussed, they are in fact obtained directly from the experimental $B(E2)$ quantities.
 
-In addition to the quadrupole moment for in-band transitions $I \to I-2$, the \emph{static quadrupole moment} (SQM) can be studied \cite{bohr1998nuclear}. This quantity gives a measure of nuclear charge distribution associated with the collective rotational motion of the nucleus \cite{chen2020g,chen2020static}, and it arises as the diagonal m.e. of $\mathcal{M}(E2)$ (that is $I_i=I_f$, unlike $Q_I$, where $\Delta I_{i\to f}=2$). From Eqs. \ref{reduced-BE2-transitions-toki}, \ref{reduced-BE2-hagemann}, and Eq. \ref{quadrupole-transition-moment-QI} it results that the SQM can be expressed straight from the transition quadrupole moment via the relation \cite{bohr1998nuclear}:
+In addition to the quadrupole moment for in-band transitions $I \to I-2$, the \emph{static quadrupole moment} (SQM) can be studied \cite{bohr1998nuclear}. It gives a measure of nuclear charge distribution associated with the collective rotational motion of the nucleus \cite{chen2020g,chen2020static}, and it arises as the diagonal m.e. of $\mathcal{M}(E2)$ (that is $I_i=I_f$, unlike $Q_I$, where $\Delta I_{i\to f}=2$). From Eqs. \ref{reduced-BE2-transitions-toki}, \ref{reduced-BE2-hagemann}, and Eq. \ref{quadrupole-transition-moment-QI} it results that the SQM can be expressed straight from the transition quadrupole moment via the relation \cite{bohr1998nuclear}:
 \begin{align}
     Q_\text{SQM}(I)=C_{K0K}^{I2I}\ C_{I0I}^{I2I}\ Q_I\ .
     \label{static-quadrupole-moment}
 \end{align}
 
-Looking at Eq. \ref{static-quadrupole-moment} it can be seen that the SQM is nothing else than the measured quadrupole moment for a given state $I$, which was previously discussed in Section \ref{intro-EM-chapter3} and its the general expression was provided in Eq. \ref{quadrupole-moment-spectro}. Large magnitudes should also be expected for this quantity, as it is strictly related to the intraband quadrupole moments and implicitly on the $B(E2;I\to I-2)$ values.
+Looking at Eq. \ref{static-quadrupole-moment} it can be seen that the SQM is nothing else than the measured quadrupole moment for a given state $I$, which was previously discussed in Section \ref{intro-EM-chapter3} and its general expression was provided in Eq. \ref{quadrupole-moment-spectro}.
 
-In order to test the validity of the current interpretation, the reduced transition probabilities $B(E2)$ are calculated with the help of Eq. \ref{reduced-BE2-transitions-toki} and compared to the experimental data for each isotope. The numerical results are shown in Table \ref{intraband-E2-numerical-results} for the intraband transitions in TSD1 and TSD2. Unfortunately, experimental data could only be evaluated for $^{163}$Lu, meaning that for the other isotopes the quality of the model cannot by directly inferred. Nevertheless, from the similarities of the isotopes in regards to the other collective quantities that were assessed throughout the previous sections (e.g., dynamical MOI, reference energy, and so on) one expects a consistency across the electromagnetic transitions as well.
+In order to test the validity of the current interpretation, the reduced transition probabilities $B(E2)$ are calculated with the help of Eq. \ref{reduced-BE2-transitions-toki} and compared to the experimental data for each isotope.
+
+The numerical results for the intraband transitions in TSD1 and TSD2, respectively, are shown in Table \ref{table-intraband-E2-numerical-results}.
+
+For calculation of the transition quadrupole moment $Q_I$ (Eq. \ref{quadrupole-transition-moment-QI}) and the SQM (Eq. \ref{static-quadrupole-moment}), the results are compared with the experimental data in Table \ref{table-quadrupole-QI-QSQM-numerical-results}.
+
+The interband transitions $I\to I-1$ were evaluated and compared to the experimental data is provided in Table \ref{table-interband-E2-numerical-results}.
 \begin{table}
     \centering
     \begin{tabular}{|c|c|c|c|c|ccc|}
@@ -1080,10 +1086,29 @@ In order to test the validity of the current interpretation, the reduced transit
     & 69/2 & 2.92 & - &  & \multicolumn{3}{c|}{}                                     \\ \hline
     \end{tabular}
     \caption{The reduced intraband transition probabilities for $^{161,163,165,167}$Lu obtained through Eq. \ref{reduced-BE2-transitions-toki} are compared with the experimental data (where available). The experimental data for $^{163}$Lu are taken from Ref. \cite{reich2010nuclear}.}
-    \label{intraband-E2-numerical-results}
+    \label{table-intraband-E2-numerical-results}
 \end{table}
-
-For calculation of the transition quadrupole moment $Q_I$ (Eq. \ref{quadrupole-transition-moment-QI}) and the SMQ (Eq. \ref{static-quadrupole-moment}), the results are compared with the experimental data in Table \ref{quadrupole-QI-QSQM-numerical-results}. The interband transitions $I\to I-1$ were evaluated for the isotopes and the comparison between the theoretical results and the experimental data is provided in Table \ref{interband-E2-numerical-results}.
+\begin{table}
+    \centering
+    \begin{tabular}{|cccc|clc|cc|}
+    \hline
+    \multicolumn{2}{|c|}{Nucleus} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-1)$\\ $[\mathrm{e}^2\cdot b^2]$\end{tabular}} & \multicolumn{3}{c|}{Nucleus} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-1)$\\ $[\mathrm{e}^2\cdot b^2]$\end{tabular}} \\ \hline
+    \multicolumn{1}{|c|}{\multirow{6}{*}{$^{161}$Lu}} & \multicolumn{1}{c|}{$I$} & \multicolumn{1}{c|}{Th} & Exp & \multicolumn{2}{c|}{\multirow{6}{*}{$^{165}$Lu}} & $I$ & \multicolumn{1}{c|}{Th} & Exp \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{0.54} & - & \multicolumn{2}{c|}{} & 47/2 & \multicolumn{1}{c|}{0.37} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{0.47} & - & \multicolumn{2}{c|}{} & 51/2 & \multicolumn{1}{c|}{0.34} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{0.42} & - & \multicolumn{2}{c|}{} & 55/2 & \multicolumn{1}{c|}{0.32} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{0.37} & - & \multicolumn{2}{c|}{} & 59/2 & \multicolumn{1}{c|}{0.29} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{0.33} & - & \multicolumn{2}{c|}{} & 63/2 & \multicolumn{1}{c|}{0.27} & - \\ \hline
+    \multicolumn{1}{|c|}{\multirow{5}{*}{$^{163}$Lu}} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{0.54} & 0.54 & \multicolumn{2}{c|}{\multirow{6}{*}{$^{167}$Lu}} & 39/2 & \multicolumn{1}{c|}{0.66} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{0.49} & 0.54 & \multicolumn{2}{c|}{} & 47/2 & \multicolumn{1}{c|}{0.54} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{0.44} & 0.70 & \multicolumn{2}{c|}{} & 51/2 & \multicolumn{1}{c|}{0.49} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{0.34} & 0.65 & \multicolumn{2}{c|}{} & 55/2 & \multicolumn{1}{c|}{0.45} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{0.36} & 0.66 & \multicolumn{2}{c|}{} & 59/2 & \multicolumn{1}{c|}{0.41} & - \\ \cline{1-4} \cline{7-9} 
+    \multicolumn{4}{|c|}{} & \multicolumn{2}{c|}{} & 63/2 & \multicolumn{1}{c|}{0.38} & - \\ \hline
+    \end{tabular}
+    \caption{The reduced interband transition probabilities connecting states $I\in\text{TSD2}\to I-1\in\text{TSD1}$ for the Lu isotopes. Experimental data are taken from Ref. \cite{reich2010nuclear}.}
+    \label{table-interband-E2-numerical-results}
+\end{table}
 \begin{table}
     \centering
     \resizebox{\textwidth}{!}{%
@@ -1126,31 +1151,10 @@ For calculation of the transition quadrupole moment $Q_I$ (Eq. \ref{quadrupole-t
     \end{tabular}%
     }
     \caption{The quadrupole transition moment $Q_I$ from Eq. \ref{quadrupole-transition-moment-QI} and the static quadrupole moment $Q_\text{SQM}$ given in Eq. \ref{static-quadrupole-moment} are calculated for each isotope and compared with the available experimental data. For the calculation of $Q_\text{SQM}$, the value for $K$ was fixed to $K=1/2$. The experimental data are taken from Refs. \cite{gorgen2004quadrupole,jensen2002wobbling,reich2010nuclear}.}
-    \label{quadrupole-QI-QSQM-numerical-results}
-\end{table}
-\begin{table}
-    \centering
-    \begin{tabular}{|cccc|clc|cc|}
-    \hline
-    \multicolumn{2}{|c|}{Nucleus} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-1)$\\ $[\mathrm{e}^2\cdot b^2]$\end{tabular}} & \multicolumn{3}{c|}{Nucleus} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-1)$\\ $[\mathrm{e}^2\cdot b^2]$\end{tabular}} \\ \hline
-    \multicolumn{1}{|c|}{\multirow{6}{*}{$^{161}$Lu}} & \multicolumn{1}{c|}{$I$} & \multicolumn{1}{c|}{Th} & Exp & \multicolumn{2}{c|}{\multirow{6}{*}{$^{165}$Lu}} & $I$ & \multicolumn{1}{c|}{Th} & Exp \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{0.54} & - & \multicolumn{2}{c|}{} & 47/2 & \multicolumn{1}{c|}{0.37} & - \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{0.47} & - & \multicolumn{2}{c|}{} & 51/2 & \multicolumn{1}{c|}{0.34} & - \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{0.42} & - & \multicolumn{2}{c|}{} & 55/2 & \multicolumn{1}{c|}{0.32} & - \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{0.37} & - & \multicolumn{2}{c|}{} & 59/2 & \multicolumn{1}{c|}{0.29} & - \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{0.33} & - & \multicolumn{2}{c|}{} & 63/2 & \multicolumn{1}{c|}{0.27} & - \\ \hline
-    \multicolumn{1}{|c|}{\multirow{5}{*}{$^{163}$Lu}} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{0.54} & 0.54 & \multicolumn{2}{c|}{\multirow{6}{*}{$^{167}$Lu}} & 39/2 & \multicolumn{1}{c|}{0.66} & - \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{0.49} & 0.54 & \multicolumn{2}{c|}{} & 47/2 & \multicolumn{1}{c|}{0.54} & - \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{0.44} & 0.70 & \multicolumn{2}{c|}{} & 51/2 & \multicolumn{1}{c|}{0.49} & - \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{0.34} & 0.65 & \multicolumn{2}{c|}{} & 55/2 & \multicolumn{1}{c|}{0.45} & - \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{0.36} & 0.66 & \multicolumn{2}{c|}{} & 59/2 & \multicolumn{1}{c|}{0.41} & - \\ \cline{1-4} \cline{7-9} 
-    \multicolumn{4}{|c|}{} & \multicolumn{2}{c|}{} & 63/2 & \multicolumn{1}{c|}{0.38} & - \\ \hline
-    \end{tabular}
-    \caption{The reduced interband transition probabilities connecting states $I\in\text{TSD2}\to I-1\in\text{TSD1}$ for the Lu isotopes. Experimental data are taken from Ref. \cite{reich2010nuclear}.}
-    \label{interband-E2-numerical-results}
+    \label{table-quadrupole-QI-QSQM-numerical-results}
 \end{table}
 
-Concerning the static quadrupole moments presented in Table \ref{quadrupole-QI-QSQM-numerical-results}, by keeping the value of $K$ fixed across each state, then for sufficiently large spins will result in $Q_\text{SQM}(I)\approx -Q_I/2$, which can be actually observed from the table with results. Such a behavior translates in the total a.m. becoming perpendicular to the $1$-axis. For $K=I$ it means that any shape small-fluctuation emerging from rotational motion becomes negligible and $Q_\text{SQM}(I)$ tends to $Q_I$ \cite{bohr1998nuclear}. A graphical representation for $Q_\text{SQM}(I)$ with fixed $K=1/2$ can be seen for $^{163}$Lu in Fig. \ref{static-quadrupole-fixed-K-TSD1} for TSD1 and Fig. \ref{static-quadrupole-fixed-K-TSD2} for TSD2. Since this is the only isotope that has actual experimental numbers, the representations for the other isotopes were ignored. The figures also contain the limit $-Q_I/2$, where one considered the average value for $Q_I$ across the entire band.
+Concerning the static quadrupole moments presented in Table \ref{table-quadrupole-QI-QSQM-numerical-results}, by keeping the value of $K$ fixed across each state, then for sufficiently large spins will result in $Q_\text{SQM}(I)\approx -Q_I/2$, which can be actually observed from the table with results. Such a behavior translates in the total a.m. becoming perpendicular to the $1$-axis. For $K=I$ it means that any shape small-fluctuation emerging from rotational motion becomes negligible and $Q_\text{SQM}(I)$ tends to $Q_I$ \cite{bohr1998nuclear}. A graphical representation for $Q_\text{SQM}(I)$ with fixed $K=1/2$ can be seen for $^{163}$Lu in Fig. \ref{static-quadrupole-fixed-K-TSD1} for TSD1 and Fig. \ref{static-quadrupole-fixed-K-TSD2} for TSD2. Since this is the only isotope that has actual experimental numbers, the representations for the other isotopes were ignored. The figures also contain the limit $-Q_I/2$, where one considered the average value for $Q_I$ across the entire band.
 \begin{figure}
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/Q_SQM_163Lu.pdf}
@@ -1165,6 +1169,9 @@ Concerning the static quadrupole moments presented in Table \ref{quadrupole-QI-Q
     \caption{The static quadrupole moment from Eq. \ref{static-quadrupole-moment} graphically represented as a function of total spin $I$ for the band TSD2 in $^{163}$Lu. The data are evaluated by keeping $K$ fixed to $K=1/2$ in the \textbf{left} inset, while $K=I$ in the \textbf{right} inset. The magenta line on the left inset represents the theoretical $-\langle Q_I\rangle/2$. See text for more details.}
     \label{static-quadrupole-fixed-K-TSD2}
 \end{figure}
+
+%concluding remark
+Unfortunately, experimental data could is only available for $^{163}$Lu, meaning that the quality of the model cannot by directly inferred concerning the other nuclei. Nevertheless, from the similarities of the isotopes in regards to the other collective quantities that were assessed throughout the previous sections (e.g., dynamical MOI, reference energy, and so on) one expects a consistency across the electromagnetic transitions as well.
 
 \subsubsection{M1 Transitions}
 
