@@ -100,15 +100,15 @@ These states are in the quantal space $S_\text{qt}$ corresponding to the Hamilto
 \subsection{Classical Equations of Motion}
 \label{equations-of-motion-section}
 
-Returning to the trial function $\ket{\Psi_{IjM}}$ from Eq. \ref{trial-function-appeoach-w1}, defined as a coherent state with products between  $\ket{IMK}$ (Eq. \ref{IMK-wigner-functions}) and $\ket{j\Omega}$ (Eq. \ref{j-Omega-single-particle-states}), its expression must be further discussed in terms of $z$ and $s$. Indeed, these two variables represent complex functions of time, and they are associated with the motion of the core and the odd-particle, respectively. Their expressions are:
+Returning to the trial function $\ket{\Psi_{IMj}}$ from Eq. \ref{trial-function-appeoach-w1}, defined as a coherent state with products between  $\ket{IMK}$ (Eq. \ref{IMK-wigner-functions}) and $\ket{j\Omega}$ (Eq. \ref{j-Omega-single-particle-states}), its expression must be further discussed in terms of $z$ and $s$. Indeed, these two variables represent complex functions of time, and they are associated with the motion of the core and the odd-particle, respectively. Their expressions are:
 \begin{align}
     z=\rho e^{i\varphi}\ ,\ s=\sigma e^{i\psi}\ .
     \label{z-s-variables}
 \end{align}
-The next step would be to evaluate the averages of both $\hat{H}$ and the time derivative $\frac{\partial}{\partial t}$ on the variational state $\ket{\Psi_{IjM}}$ as:
+The next step would be to evaluate the averages of both $\hat{H}$ and the time derivative $\frac{\partial}{\partial t}$ on the variational state $\ket{\Psi_{IMj}}$ as:
 \begin{align}
-    \left\langle \hat{H} \right\rangle&=\bra{\Psi_{IjM}}\hat{H}\ket{\Psi_{IjM}}\nonumber\\
-    \left\langle \frac{\partial}{\partial t} \right\rangle&=\bra{\Psi_{IjM}}\frac{\partial}{\partial t}\ket{\Psi_{IjM}}\ .
+    \left\langle \hat{H} \right\rangle&=\bra{\Psi_{IMj}}\hat{H}\ket{\Psi_{IMj}}\nonumber\\
+    \left\langle \frac{\partial}{\partial t} \right\rangle&=\bra{\Psi_{IMj}}\frac{\partial}{\partial t}\ket{\Psi_{IMj}}\ .
     \label{hamiltonian-average}
 \end{align}
 The expressions of these quantities were defined in Ref. \cite{raduta2017semiclassical} with respect to the variables $z$ and $s$. However, it would be more useful to change the form of $\rho$ and $\sigma$ in the following way:
@@ -117,13 +117,13 @@ The expressions of these quantities were defined in Ref. \cite{raduta2017semicla
     \sigma \to f&=\frac{2j}{1+\sigma^2}\ ,\ 0\leq f\leq 2j\ .
     \label{changed-rho-sigma-variables}
 \end{align}
-These two new variables keep the same correspondence, meaning that $r$ is related to the core and $f$ is related to the odd-particle. Moreover, by doing such a transformation, the TDVE (Eq. \ref{tdve-approach-w1}) will provide the equations of motion in a canonical form (unlike the initial $\rho$ and $\sigma$). In fact, this was the reason behind the change of variable. The set of equations of motion are:
+These two new variables keep the same correspondence, meaning that $r$ is related to the core and $f$ is related to the odd-particle. Moreover, by doing such a transformation, the TDVE (Eq. \ref{tdve-approach-w1}) will provide the equations of motion in a canonical form (unlike the initial $\rho$ and $\sigma$). In fact, this was the reason behind the change of variable. The set of equations of motion is \cite{raduta2020approach}:
 \begin{align}
     \frac{\partial \mathcal{H}}{\partial r}=\dot{\varphi}\ ,\ \frac{\partial \mathcal{H}}{\partial \varphi}=-\dot{r}\ ,\nonumber\\
     \frac{\partial \mathcal{H}}{\partial f}=\dot{\psi}\ ,\ \frac{\partial \mathcal{H}}{\partial \psi}=-\dot{f}\ ,
     \label{eq-of-motion-approach-w1}
 \end{align}
-where $\mathcal{H}$ is just the average of $\hat{H}$ on the trial function, as defined in Eq. \ref{hamiltonian-average}. It now plays the role of \emph{classical energy function} (CEF) and moreover, it is a constant of motion, implying that the energy of the system must be conserved. Remarking the fact that the \emph{classical image} of the initial problem (i.e., the Hamiltonian of an odd-$A$ triaxial nucleus) is now properly reached, through the equations of motion (Eq. \ref{eq-of-motion-approach-w1}) in the canonical form. The explicit form of the equations of motion provided by VP are \cite{raduta2020approach}:
+where $\mathcal{H}$ is just the average of $\hat{H}$ on the trial function, as defined in Eq. \ref{hamiltonian-average}. It now plays the role of \emph{classical energy function} (CEF) and moreover, it is a constant of motion, implying that the energy of the system must be conserved. Remarking the fact that the \emph{classical image} of the initial problem (i.e., the Hamiltonian of an odd-$A$ triaxial nucleus) is now properly reached, through the equations of motion (Eq. \ref{eq-of-motion-approach-w1}) in the canonical form. The explicit form of the equations of motion attained by the VP are \cite{raduta2020approach}:
 \begin{align}
     \dot{\varphi}=&\frac{2i-1}{I}(I-r)\left(A_1\cos^2\varphi+A_2\sin^2\varphi-A_3\right)-\nonumber\\
                  &-2\sqrt{\frac{f(2j-f)}{r(2I-r)}}(I-r)\left(A_1\cos\varphi\cos\psi+A_2\sin\varphi\sin\psi\right)+2A_3(j-f)\ ,\nonumber\\
@@ -166,7 +166,7 @@ Since the expression is quite lengthy, some \emph{canonical factors} were introd
 
 \subsubsection{Canonical Factors - Qualitative Analysis}
 
-It is worth analyzing the behavior of the canonical factors defined in Eq. \ref{classical-energy-function-A-factors}, since their evolution with respect to the generalized coordinates and MOI ordering will provide a better understanding regarding the behavior of the CES, as it will be shown in the following sections. Firstly, the factor $\mathcal{A}_\varphi$ is graphically represented for different orderings of the inertia parameter $A_k$. This is shown in Fig. \ref{fig-A-varphi-canonical}. Because both $\mathcal{A}_\varphi$ and $\mathcal{A}_\psi$ have similar expressions (only the coordinate is changed), the plots are equivalent.
+It is worth analyzing the behavior of the canonical factors defined in Eq. \ref{classical-energy-function-A-factors}, since their evolution with respect to the generalized coordinates and MOI ordering will provide a better understanding regarding the behavior of the CES, as it will be shown in the following sections. Firstly, the factor $\mathcal{A}_\varphi$ is graphically represented in Fig. \ref{fig-A-varphi-canonical} for different orderings of $A_k$. Because $\mathcal{A}_\varphi$ and $\mathcal{A}_\psi$ have similar expressions (only the coordinate is changed), the plots are equivalent.
 \begin{figure}
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/A_varphi_1.pdf}
@@ -175,7 +175,7 @@ It is worth analyzing the behavior of the canonical factors defined in Eq. \ref{
     \label{fig-A-varphi-canonical}
 \end{figure}
 
-For the mixed term $\mathcal{A}_{\varphi,psi}$ from Eq. \ref{classical-energy-function-A-factors} it is more suitable to create a contour plot, since it depends on both canonical coordinates $(\varphi,\psi)$. As such, representations with different MOI orderings have been depicted in Fig. \ref{fig-A-mixed-canonical}, by lettings both coordinates vary inside the interval $[0,\pi]$.
+For the mixed term $\mathcal{A}_{\varphi\psi}$ from Eq. \ref{classical-energy-function-A-factors} it is more suitable to create a contour plot, as it depends on both canonical coordinates $(\varphi,\psi)$. As such, representations with different MOI orderings have been depicted in Fig. \ref{fig-A-mixed-canonical}, by lettings the coordinates vary inside the interval $[0,\pi]$.
 \begin{figure}
     \centering
     \includegraphics[width=0.99\textwidth]{Chapters/Figures/A_mixed.pdf}
@@ -183,7 +183,7 @@ For the mixed term $\mathcal{A}_{\varphi,psi}$ from Eq. \ref{classical-energy-fu
     \label{fig-A-mixed-canonical}
 \end{figure}
 
-Lastly, the factor $\mathcal{A}_gamma$ must also be represented as a contour plot, because it depends on the canonical coordinates of the single-particle, namely the set $(f,\psi)$. Its graphical representation for a few values of $\gamma$ shown in Fig. \ref{fig-A-gamma-canonical}.
+Lastly, the factor $\mathcal{A}_{\gamma}$ must also be represented as a contour plot, because it depends on the canonical coordinates of the single-particle, namely the set $(f,\psi)$. Its graphical representation for a few values of $\gamma$ shown in Fig. \ref{fig-A-gamma-canonical}.
 \begin{figure}
     \centering
     \includegraphics[width=0.99\textwidth]{Chapters/Figures/A_gamma.pdf}
@@ -191,7 +191,7 @@ Lastly, the factor $\mathcal{A}_gamma$ must also be represented as a contour plo
     \label{fig-A-gamma-canonical}
 \end{figure}
 
-From the representations shown in Figs. \ref{fig-A-varphi-canonical} - \ref{fig-A-gamma-canonical}, one can interpret the results as possible conditions for stability of an odd-$A$ system with regards to the wobbling regime. More precisely, smaller values of $\mathcal{A}$ will correspond to a lower total energy. Keep in mind that all these canonical factors take part in the structure of the CEF, meaning that lower energies could imply a greater stability to some extent.
+From the representations shown in Figs. \ref{fig-A-varphi-canonical} - \ref{fig-A-gamma-canonical}, one can interpret the results as possible conditions for the stability of an odd-$A$ system in regards to the wobbling regime. More precisely, smaller values of $\mathcal{A}$ will correspond to a lower total energy. Keep in mind that all these canonical factors take part in the structure of the CEF, meaning that lower energies could imply a greater degree of stability to some extent.
 
 \subsubsection{Critical Region}
 
