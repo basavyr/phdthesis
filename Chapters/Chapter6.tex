@@ -45,13 +45,13 @@ where $\hat{H}_\text{sp}$ represents the quasi-particle that moves inside the qu
     \hat{H}_\text{sp}=\epsilon_j+\frac{V}{j(j+1)}\left[\cos\gamma\left(3j_3^3-\mathbf{j}_\mathcal{Q}^2\right)-\sqrt{3}\sin\gamma\left(j_1^2-j_2^2\right)\right]\ ,
     \label{single-particle-ham-approach-w1}
 \end{align}
-with $\epsilon_j$ is the intrinsic energy of the particle from the corresponding $j$-shell (as it was discussed in Section \ref{tprm-model}). The total angular momentum of the odd-particle + core system is $\mathbf{I}=\mathbf{R}_\mathscr{C}+\mathbf{j}_{\mathcal{Q}_p}$. The components of the total angular momentum are: $$\mathbf{I}=\{\hat{I}_1,\hat{I}_2,\hat{I}_3\}\ ,$$ while the a.m. components for the $\mathcal{Q}_p$ are given as $$\mathbf{j}_{\mathcal{Q}_p}=\{\hat{j}_1,\hat{j}_2,\hat{j}_3\}\ .$$ The axes labelling for the triaxial ellipsoid is $(1,2,3)$. Knowing this, one can express the rotor part as:
+with $\epsilon_j$ as the intrinsic energy of the particle from the corresponding $j$-shell (as it was discussed in Section \ref{tprm-model}). The total angular momentum of the core + odd-particle system is $\mathbf{I}=\mathbf{R}_\mathscr{C}+\mathbf{j}_{\mathcal{Q}}$. The components of the total angular momentum are $\mathbf{I}=\{\hat{I}_1,\hat{I}_2,\hat{I}_3\}$ and the a.m. components for $\mathcal{Q}$ are $\mathbf{j}_{\mathcal{Q}}=\{\hat{j}_1,\hat{j}_2,\hat{j}_3\}$. The axes labelling for the triaxial ellipsoid is $(1,2,3)$. Knowing this, one can express the rotor part as \cite{raduta2020approach}:
 \begin{align}
     \hat{H}_\text{rot}=\sum_{k=1}^3A_k(\hat{I}_k-\hat{j}_k)^2\ ,
     \label{rotor-ham-approach-w1}
 \end{align}
 where the inertial factors $A_k$ are expressed in terms of the three MOI:$$A_k=\frac{1}{2\mathcal{I}_k}\ .$$
-Note that the Hamiltonian from Eq. \ref{rotor-ham-approach-w1} is just as the one expressed in Eq. \ref{general-rotor-hamiltonian}, except that here, the components of $\mathbf{R}_\mathscr{C}$ are given in terms of $\mathbf{I}$ and $\mathbf{j}_{\mathcal{Q}_p}$.
+Note that the Hamiltonian from Eq. \ref{rotor-ham-approach-w1} is just as the one expressed in Eq. \ref{general-rotor-hamiltonian}, except that here, the components of $\mathbf{R}_\mathscr{C}$ are given in terms of $\mathbf{I}$ and $\mathbf{j}_{\mathcal{Q}}$.
 
 Obviously, the next task would be to obtain the eigenvalues of the Hamiltonian, finding thus the energies of the system. One can proceed with the diagonalization technique of $\hat{H}$ using a set of states that manifest the invariance to rotations by $\pi$ around a particular axis (the $D_2$ symmetry \cite{bohr1998nuclear}), since the Hamiltonian exhibits this property. However, it is more practical to describe the system only through a few variables that have a classical counterpart. By doing so, the system's dynamics will keep a classical analogy to that of a rotating body lacking axial symmetry. The semi-classical approach that best fits this requirement is the Time-Dependent Variational Principle (TDVP), to which one associates the Time-Dependent Variational Equation (TDVE). When applying VP on an initial problem, it is necessary to have a variational state constructed in such a way that it embeds all the relevant degrees of freedom for the underlying physics. Furthermore, the VP will induce a time dependence on the variables comprising the variational state itself \cite{budaca2018tilted}. Additionally, for each variable (usually complex) parametrizing the state, the TDVE will yield its equation of motion, thus finding the `connection' between the initial quantal variable (belonging to $S_\text{qt})$ and the classical variable (belonging to $S_\text{cls}$).
 
@@ -71,7 +71,7 @@ where the ladder operators for the total and single-particle a.m. are represente
 \begin{align}
     \mathcal{N}=\left(1+|z|^2\right)^{-I}\left(1+|s|^2\right)^{-j}\ .
 \end{align}
-The states that are involved in $\Psi_\text{trial}$ are as follow: $\ket{IMK}$ represent the Wigner-D functions (i.e., eigenstates of $\hat{I}^2$ and $\hat{I}_3$), while $\ket{j\Omega}$ are the wave-functions of the odd quasi-particle $\mathcal{Q}$ (the eigenstates of $\hat{j}^2$ and $\hat{j}_-$). Notice that for both cases, the trial function contains the extremal states, namely the states of maximum projection $(K=I,\Omega=j)$. For $\ket{IMK}$, one has:
+The states that are involved in $\Psi_\text{trial}$ are as follow: $\ket{IMK}$ represent the Wigner-D functions (i.e., eigenstates of $\hat{I}^2$ and $\hat{I}_3$), while $\ket{j\Omega}$ are the wave-functions of the odd quasi-particle (the eigenstates of $\hat{j}^2$ and $\hat{j}_-$). Notice that for both cases, the trial function contains the extremal states, namely the states of maximum projection $(K=I,\Omega=j)$. For $\ket{IMK}$, one has:
 \begin{align}
     \ket{IMK}&=\sqrt{\frac{2I+1}{8\pi^2}}\mathcal{D}_{MK}^I\ , \nonumber\\
     \ket{IM-K}&=\sqrt{\frac{2I+1}{8\pi^2}}\mathcal{D}_{M-K}^I\ .
@@ -90,7 +90,7 @@ The wave-functions are expressed in terms of the projections $\Omega=-j,\dots,j$
     &=\sqrt{\frac{2I+1}{16\pi^2}}\sum_K C_K \left[\mathcal{D}_{MK}^I\ket{\chi}+(-1)^{I-1/2}\mathcal{D}_{M-K}^I\ket{\bar{\chi}}\right]\ ,
     \label{total-wavefunction-oddA-general}
 \end{align}
-where the entire summation must be evaluated under the restriction $(K-\Omega)=even$, resulting in both $K$ and $\Omega$ to have the following values:
+where the entire summation must be evaluated under the restriction $(K-\Omega)=even$, resulting in both $K$ and $\Omega$ having the values:
 \begin{align}
     \dots,-\frac{11}{2},-\frac{7}{2},-\frac{3}{2},\frac{1}{2},\frac{5}{2},\frac{9}{2},\frac{13}{2},\dots\ .
 \end{align}
@@ -332,7 +332,7 @@ where the free term becomes the \emph{minimal energy} $\mathcal{H}_\text{min}^I$
     \label{phononic-term-tsd-energies}
 \end{align}
 
-The term from Eq. \ref{phononic-term-tsd-energies} can be regarded as originating from $\mathcal{H}_\mathscr{C}+\mathcal{H}_\mathcal{Q}+\mathcal{H}_\text{mixed}$. This was obtained from the linearization procedure mentioned at the start of the section. The energy of the odd-particle belonging to a particular $j$-shell (as per $\hat{H}_\text{sp}$ from Eq. \ref{single-particle-ham-approach-w1}) is represented by $\epsilon_j$, which should be adopted as a constant/fixed value. Notice that $\mathcal{H}_\text{min}^I$ from Eq. \ref{tsd-bands-compressed-spectrum} is in fact the \emph{free term} that appears in Eq. \ref{classical-energy-function-terms} and it does not depend on the coordinates $(r, \varphi\ ;\ f, \psi)$. The coloring from Eq. \ref{tsd-bands-compressed-spectrum} is consistent with the one from Eq. \ref{classical-energy-function-terms} so that the analogy between each component can be viewed. Putting together Eq. \ref{tsd-bands-compressed-spectrum} and Eq. \ref{phononic-term-tsd-energies}, the general spectrum of an odd-mass triaxial nucleus will be:
+The term from Eq. \ref{phononic-term-tsd-energies} can be regarded as originating from $\mathcal{H}_\mathscr{C}+\mathcal{H}_\mathcal{Q}+\mathcal{H}_\text{mixed}$. This was obtained from the linearization procedure mentioned at the start of the section. The energy of the odd-particle belonging to a particular $j$-shell (as per $\hat{H}_\text{sp}$ from Eq. \ref{single-particle-ham-approach-w1}) is represented by $\epsilon_j$, which should be adopted as a constant/fixed value. Notice that $\mathcal{H}_\text{min}^I$ from Eq. \ref{tsd-bands-compressed-spectrum} is in fact the \emph{free term} that appears in Eq. \ref{classical-energy-function-terms} and it does not depend on the coordinates $(r, \varphi\ ;\ f, \psi)$. The coloring from Eq. \ref{tsd-bands-compressed-spectrum} is consistent with the one from Eq. \ref{classical-energy-function-terms} such that the analogy between each component can be viewed. Putting together Eq. \ref{tsd-bands-compressed-spectrum} and Eq. \ref{phononic-term-tsd-energies}, the general spectrum of an odd-mass triaxial nucleus will be:
 \begin{align}
     E_{I,n_1,n_2}=\epsilon_j+\mathcal{H}_\text{min}^I+\hbar\Omega_1^I\left(n_{w_1}+\frac{1}{2}\right)+\hbar\Omega_2^I\left(n_{w_2}+\frac{1}{2}\right)\ .
     \label{tsd-bands-general-spectrum}
