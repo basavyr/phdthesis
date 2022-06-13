@@ -686,9 +686,9 @@ One can summarize the characteristics of each isotope mentioned above into a set
     \begin{tabular}{|c|c|c|c|c|c|}
     \hline
     Band & Spins                        & $\mathcal{Q}$ & $\mathscr{C}$         & $(n_{w_1},n_{w_2})$ & $I_b$                   \\ \hline
-    TSD1 & $25/2^+,29/2^+,\dots,89/2^+$ & $j_1=13/2^+$  & $6^+,8^+,10^+\dots$   & $(0,0)$             & \multirow{3}{*}{$25/2$} \\ \cline{1-5}
-    TSD2 & $35/2^+,39/2^+,\dots,91/2^+$ & $j_1=13/2^+$  & $11^+,13^+,15^+\dots$ & $(0,0)$             &                         \\ \cline{1-5}
-    TSD3 & $41/2^+,45/2^+,\dots,81/2^+$ & $j_1=13/2^+$  & $\text{TSD2}+\Gamma^\dagger$ & $(1,0)$             &                         \\ \hline
+    TSD1 & $25/2^+,29/2^+,\dots,89/2^+$ & $j^\pi=13/2^+$  & $6^+,8^+,10^+\dots$   & $(0,0)$             & \multirow{3}{*}{$25/2$} \\ \cline{1-5}
+    TSD2 & $35/2^+,39/2^+,\dots,91/2^+$ & $j^\pi=13/2^+$  & $11^+,13^+,15^+\dots$ & $(0,0)$             &                         \\ \cline{1-5}
+    TSD3 & $41/2^+,45/2^+,\dots,81/2^+$ & $j^\pi=13/2^+$  & $\text{TSD2}+\Gamma^\dagger$ & $(1,0)$             &                         \\ \hline
     \end{tabular}%
     }
     \caption{The data concerning spin and parity assignments for $^{165}$Lu that are required for the numerical calculations of the excitation energies. The wobbling phonon numbers from Eq. \ref{phononic-term-tsd-energies} are also shown. For all three TSD bands there is only one single-particle, i.e., $\mathcal{Q}_1$. The even/odd dissimilarity between core states of the two bands are emphasized through the fourth column ($\mathscr{C}$). The band-head $I_b$ for the isotope is also given in the last column.}
@@ -700,15 +700,15 @@ One can summarize the characteristics of each isotope mentioned above into a set
     \begin{tabular}{|c|c|c|c|c|c|}
     \hline
     Band & Spins                        & $\mathcal{Q}$ & $\mathscr{C}$         & $(n_{w_1},n_{w_2})$ & $I_b$                   \\ \hline
-    TSD1 & $25/2^+,29/2^+,\dots,89/2^+$ & $j_1=13/2^+$  & $6^+,8^+,10^+\dots$   & $(0,0)$             & \multirow{2}{*}{$25/2$} \\ \cline{1-5}
-    TSD2 & $35/2^+,39/2^+,\dots,91/2^+$ & $j_1=13/2^+$  & $11^+,13^+,15^+\dots$ & $(0,0)$             &                         \\ \hline
+    TSD1 & $25/2^+,29/2^+,\dots,89/2^+$ & $j^\pi=13/2^+$  & $6^+,8^+,10^+\dots$   & $(0,0)$             & \multirow{2}{*}{$25/2$} \\ \cline{1-5}
+    TSD2 & $35/2^+,39/2^+,\dots,91/2^+$ & $j^\pi=13/2^+$  & $11^+,13^+,15^+\dots$ & $(0,0)$             &                         \\ \hline
     \end{tabular}%
     }
     \caption{The data concerning spin and parity assignments for $^{167}$Lu that are required for the numerical calculations of the excitation energies. The wobbling phonon numbers (from Eq. \ref{phononic-term-tsd-energies}) are also shown. For both bands, there is only one single-particle, i.e., $\mathcal{Q}_1$. The even/odd dissimilarity between core states of the two bands are emphasized through the fourth column ($\mathscr{C}$). The band-head $I_b$ for the isotope is also given in the last column.}
     \label{lu-167-experimental-data-table}
 \end{table}
 
-Putting together the set of absolute energies from Eq. \ref{lu163-absolute-energies-tsd1234} and the discussion in reference to the excitation energy of a state $I$, one can define a general formula that will illustrate the analytical formalism for the wobbling states used in the fitting procedure:
+Putting together the set of absolute energies from Eq. \ref{lu163-absolute-energies-tsd1234} and the discussion in reference to the excitation energy of a state $I$, one can define a general formula that will illustrate the analytical formalism for the wobbling states to be used in the fitting procedure:
 \begin{align}
     E_{I_b}^\text{TSD1}(^A\text{Lu\ ;\ abs})=&\epsilon_{13/2}+\mathcal{H}_\text{min}^{I_b}+\mathcal{F}_{00}^{I_b}\ ,\label{absolute-energy-fitting-model}\\
     E_{I,n_{w_1},n_{w_2}}^\text{TSDN}(^A\text{Lu\ ;\ exc})=&\left(\epsilon_{j}+\mathcal{H}_\text{min}^I+\mathcal{F}^I_{n_{w_1}n_{w_1}}\right)-E_{I_b}^\text{TSD1}(^A\text{Lu\ ;\ abs})\ ,
@@ -724,24 +724,24 @@ With the theoretical and experimental excitation energies evaluated per every nu
 \begin{table}
     \centering
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{cccccccccc}
+    \begin{tabular}{ccccccccc}
     \hline
     \hline
-    Isotope & $\mathcal{Q}$ & Bands & $\mathcal{I}_1$ $\left[\hbar^2/\text{MeV}\right]$ & $\mathcal{I}_2$ $\left[\hbar^2/\text{MeV}\right]$ & $\mathcal{I}_3$ $\left[\hbar^2/\text{MeV}\right]$ & $V$ [MeV] & $\gamma$ [$^\circ$] & n.o.s & $E_\text{rms}$ [MeV] \\ \hline
-    $^{161}$Lu & $j_1=13/2$ & TSD1-2 & 87.555 & 2.773  & 22.744 & 2.933 & 20    & 29 & 0.168 \\
-    $^{163}$Lu & $j_1=13/2$ & TSD1-3 & 63.2   & 20     & 10     & 3.1   & 17    & 52 & 0.264 \\
-               & $j_2=9/2$  & TSD4   & 67     & 34.5   & 50     & 0.7   & 17    & 10 & 0.057 \\
-    $^{165}$Lu & $j_1=13/2$ & TSD1-3 & 77.295 & 16.184 & 4.399  & 1.673 & 20    & 42 & 0.125 \\
-    $^{167}$Lu & $j_1=13/2$ & TSD1-2 & 87.032 & 10.895 & 3.758  & 8.167 & 19.48 & 30 & 0.165 \\
+    Isotope &  Bands & $\mathcal{I}_1$ $\left[\hbar^2/\text{MeV}\right]$ & $\mathcal{I}_2$ $\left[\hbar^2/\text{MeV}\right]$ & $\mathcal{I}_3$ $\left[\hbar^2/\text{MeV}\right]$ & $V$ [MeV] & $\gamma$ [$^\circ$] & n.o.s & $E_\text{rms}$ [MeV] \\ \hline
+    $^{161}$Lu & TSD1-2 & 87.555 & 2.773  & 22.744 & 2.933 & 20    & 29 & 0.168 \\
+    $^{163}$Lu & TSD1-3 & 63.2   & 20     & 10     & 3.1   & 17    & 52 & 0.264 \\
+               & TSD4   & 67     & 34.5   & 50     & 0.7   & 17    & 10 & 0.057 \\
+    $^{165}$Lu & TSD1-3 & 77.295 & 16.184 & 4.399  & 1.673 & 20    & 42 & 0.125 \\
+    $^{167}$Lu & TSD1-2 & 87.032 & 10.895 & 3.758  & 8.167 & 19.48 & 30 & 0.165 \\
      \hline
      \hline
     \end{tabular}%
     }
-    \caption{The fitting parameters $\mathcal{P}_\text{fit}$, i.e., the moments of inertia, the single-particle potential strength, and the triaxiality $\gamma$ for each Lu isotope. Numerical results were obtained through the fitting procedure described in text. The number of wobbling states and the root-mean-square error are also given.}
+    \caption{The fitting parameters $\mathcal{P}_\text{fit}$, i.e., the moments of inertia, the single-particle potential strength, and the triaxiality $\gamma$ for each Lu isotope. Numerical results were obtained through the fitting procedure described in text. The number of wobbling states and the root-mean-square error are also given in the last two columns.}
     \label{numerical-fitting-parameters-Lu-isotopes}
 \end{table}
 
-To evidentiate the dependence of the three MOI with respect to the atomic mass $A$, the numerical values of $\mathcal{I}_k$ from Table \ref{numerical-fitting-parameters-Lu-isotopes} are graphically represented in Fig. \ref{MOIs-A-behavior-Lu-isotopes}, where one remarks a change in their ordering at $A=163$. Indeed, such a change can be regarded as a \emph{phase transition}. Moreover, there is a similar ordering for $^{161}$Lu and the band TSD4 from $^{163}$Lu, while the order $\mathcal{I}_2$ and $\mathcal{I}_3$ is reversed for the other nuclides.
+To evidentiate the dependence of the three MOI with respect to the atomic mass $A$, the numerical values of $\mathcal{I}_k$ from Table \ref{numerical-fitting-parameters-Lu-isotopes} are graphically represented in Fig. \ref{MOIs-A-behavior-Lu-isotopes}, where one remarks a change in their ordering at $A=163$. Indeed, such a change can be regarded as a \emph{phase transition}. Moreover, there is a similar ordering concerning $\mathcal{I}_1$ and $\mathcal{I}_2$ between $^{161}$Lu and TSD4 from $^{163}$Lu, while the same order is reversed for the other nuclides.
 \begin{figure}
     \centering
     \includegraphics[scale=0.65]{Chapters/Figures/fig1_moivalues.pdf}
