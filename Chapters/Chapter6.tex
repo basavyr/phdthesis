@@ -715,7 +715,14 @@ Putting together the set of absolute energies from Eq. \ref{lu163-absolute-energ
 \end{align}
 where $^A$Lu represents the isotope that is evaluated (i.e., $A\in\{161,163,165,167\}$), $I$ is the state belonging to a triaxial band $N$ from $^A$Lu ($I\in\text{TSD}N\ ,\ I>I_b$), and the labels `$\text{abs}$/$\text{exc}$' symbolize the absolute/excitation energy, respectively. Additionally, $I_b$ is the band-head of the corresponding nucleus given explicitly in the last column of Tables \ref{lu-161-experimental-data-table} - \ref{lu-167-experimental-data-table} and $j$ is either $j=13/2$ ($\mathcal{Q}_1$) for TSD1-3 or $j=9/2$ ($\mathcal{Q}_2$) for TSD4. The energy from Eq. \ref{absolute-energy-fitting-model} corresponds to the absolute energy of the band-head, which was firstly depicted for $^{163}$Lu in Eq. \ref{lu163-absolute-energy-band-head}. For simplicity, the subscripts $n_{w_1}$ and $n_{w_2}$ appearing in $E_{I_b}^\text{TSD1}(^A\text{Lu\ ;\ abs})$ have been dropped entirely because TSD1 has $n_{w_1}=n_{w_2}=0$. Moreover, the quasi-particle involved in the particle + rotor coupling for the ground bands is $\mathcal{Q}_1$ (Table \ref{lu-163-phonon-numbers}) across the entire mass region.
 
-Concluding the current section, Eq. \ref{general-excitation-energy-fitting-model} provides the final ingredient towards the determination of the energy spectra for all Lu isotopes. Indeed, the $\chi^2$-function can be minimized using $E_{I,n_{w_1},n_{w_2}}^{\text{TSD}N}(^A\text{Lu\ ;\ exc})$ as input for each nucleus and the data collected in Tables \ref{lu-161-experimental-data-table} - \ref{lu-167-experimental-data-table}, obtaining thus a set of numbers that comprise $\mathcal{P}_\text{fit}$.
+Concluding the current section, Eq. \ref{general-excitation-energy-fitting-model} provides the final ingredient towards the determination of the energy spectra for the whole group of nuclides. Indeed, the $\chi^2$-function can be minimized using $E_{I,n_{w_1},n_{w_2}}^{\text{TSD}N}(^A\text{Lu\ ;\ exc})$ as the model and the data collected in Tables \ref{lu-161-experimental-data-table} - \ref{lu-167-experimental-data-table} will be used as input data in order to achieve an optimal set of fitting parameters (i.e., Eq. \ref{fitting-parameters-p-fit}). The full workflow is depicted in Fig. \ref{fitting-workflow-fig}.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.99\textwidth]{Chapters/Figures/fitting_procedure_chi2.pdf}
+    % \includegraphics[scale=0.5]{Chapters/Figures/fitting_procedure_chi2.pdf}
+    \caption{Fitting workflow.}
+    \label{fitting-workflow-fig}
+\end{figure}
 
 \subsection{Numerical Parameters}
 
