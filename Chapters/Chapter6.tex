@@ -59,12 +59,12 @@ Obviously, the next task would be to obtain the eigenvalues of the Hamiltonian, 
 
 The discussion regarding the TDVP and TDVE from above can therefore be summarized in the following equation that must be associated to the quantal Hamiltonian ($\hat{H}\subset S_\text{qt}$) defined in Eq. \ref{total-ham-approach-w1}:
 \begin{align}
-    \delta\int_0^t\bra{\Psi_{IMj}}\hat{H}-i\frac{\partial}{\partial t'}\ket{\Psi_{IMj}}dt'=0\ .
+    \delta\int_0^t\bra{\Psi_{IM;j}}\hat{H}-i\frac{\partial}{\partial t'}\ket{\Psi_{IM;j}}dt'=0\ .
     \label{tdve-approach-w1}
 \end{align}
-Obviously, the variational state $\ket{\Psi_{IMj}}\equiv\Psi_\text{trial}$ (also known as the \emph{trial function}) must be chosen in such a way that it comprises the entire space $S_\text{qt}$ of the original quantal Hamiltonian. This can be achieved if $\Psi_\text{trial}$ is a \emph{coherent state} \cite{glauber1963coherent}, which due to its \emph{completeness} property will span all the basis vector states from $S_\text{qt}$. Keep in mind that for $S_\text{qt}$ the states belong to the Hilbert space of $\hat{H}$. For the present case, the trial function is defined as:
+Obviously, the variational state $\ket{\Psi_{IM;j}}\equiv\Psi_\text{trial}$ (also known as the \emph{trial function}) must be chosen in such a way that it comprises the entire space $S_\text{qt}$ of the original quantal Hamiltonian. This can be achieved if $\Psi_\text{trial}$ is a \emph{coherent state} \cite{glauber1963coherent}, which due to its \emph{completeness} property will span all the basis vector states from $S_\text{qt}$. Keep in mind that for $S_\text{qt}$ the states belong to the Hilbert space of $\hat{H}$. For the present case, the trial function is defined as:
 \begin{align}
-    \Psi_\text{trial}\equiv\ket{\Psi_{IMj}}=\mathcal{N}e^{z\hat{I}_-}e^{s\hat{j}_-}\ket{IMI}\ket{jj}\ ,
+    \Psi_\text{trial}\equiv\ket{\Psi_{IM;j}}=\mathcal{N}e^{z\hat{I}_-}e^{s\hat{j}_-}\ket{IMI}\ket{jj}\ ,
     \label{trial-function-appeoach-w1}
 \end{align}
 where the ladder operators for the total and single-particle a.m. are represented by $\hat{I}_-$ and $\hat{j}_-$, respectively. The factor $\mathcal{N}$ is the normalization constant, which keeps the trial function normalized to unity. Its value is given by \cite{raduta2007semiclassical,raduta2020new}:
@@ -100,15 +100,15 @@ These states are in the quantal space $S_\text{qt}$ corresponding to the Hamilto
 \subsection{Classical Equations of Motion}
 \label{equations-of-motion-section}
 
-Returning to the trial function $\ket{\Psi_{IMj}}$ from Eq. \ref{trial-function-appeoach-w1}, defined as a coherent state with products between  $\ket{IMK}$ (Eq. \ref{IMK-wigner-functions}) and $\ket{j\Omega}$ (Eq. \ref{j-Omega-single-particle-states}), its expression must be further discussed in terms of $z$ and $s$. Indeed, these two variables represent complex functions of time, and they are associated with the motion of the core and the odd-particle, respectively. Their expressions are:
+Returning to the trial function $\ket{\Psi_{IM;j}}$ from Eq. \ref{trial-function-appeoach-w1}, defined as a coherent state with products between  $\ket{IMK}$ (Eq. \ref{IMK-wigner-functions}) and $\ket{j\Omega}$ (Eq. \ref{j-Omega-single-particle-states}), its expression must be further discussed in terms of $z$ and $s$. Indeed, these two variables represent complex functions of time, and they are associated with the motion of the core and the odd-particle, respectively. Their expressions are:
 \begin{align}
     z=\rho e^{i\varphi}\ ,\ s=\sigma e^{i\psi}\ .
     \label{z-s-variables}
 \end{align}
-The next step would be to evaluate the averages of both $\hat{H}$ and the time derivative $\frac{\partial}{\partial t}$ on the variational state $\ket{\Psi_{IMj}}$ as:
+The next step would be to evaluate the averages of both $\hat{H}$ and the time derivative $\frac{\partial}{\partial t}$ on the variational state $\ket{\Psi_{IM;j}}$ as:
 \begin{align}
-    \left\langle \hat{H} \right\rangle&=\bra{\Psi_{IMj}}\hat{H}\ket{\Psi_{IMj}}\nonumber\\
-    \left\langle \frac{\partial}{\partial t} \right\rangle&=\bra{\Psi_{IMj}}\frac{\partial}{\partial t}\ket{\Psi_{IMj}}\ .
+    \left\langle \hat{H} \right\rangle&=\bra{\Psi_{IM;j}}\hat{H}\ket{\Psi_{IM;j}}\nonumber\\
+    \left\langle \frac{\partial}{\partial t} \right\rangle&=\bra{\Psi_{IM;j}}\frac{\partial}{\partial t}\ket{\Psi_{IM;j}}\ .
     \label{hamiltonian-average}
 \end{align}
 The expressions of these quantities were defined in Ref. \cite{raduta2017semiclassical} with respect to the variables $z$ and $s$. However, it would be more useful to change the form of $\rho$ and $\sigma$ in the following way:
@@ -958,31 +958,31 @@ which looks quite similar with Eq. \ref{quadrupole-components-q20-q22} given in 
 
 Besides the electric transition operator, the wave-functions for the wobbling bands considered in the current picture are also needed. The ground-bands are constructed from the variational principle (the trial function from Eq. \ref{tdve-approach-w1}):
 \begin{align}
-    \ket{\Psi_{IMj}}=&\mathcal{N}\mathrm{e}^{z\hat{I}_-}\mathrm{e}^{s\hat{j}_-}\ket{IMI}\ket{jj}=\nonumber\\
+    \ket{\Psi_{IM;j}}=&\mathcal{N}\mathrm{e}^{z\hat{I}_-}\mathrm{e}^{s\hat{j}_-}\ket{IMI}\ket{jj}=\nonumber\\
     =&\sum_{K\Omega}\frac{z^{I-K}s^{j-\Omega}}{\left(1+|z|^2\right)^I\left(1+|s|^2\right)^j}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ .
     \label{wave-function-TSD1}
 \end{align}
 
-The complex variables $(z;s)$ correspond to the classical coordinates $(r,\varphi;f,\psi)$ via the transformations employed in Section \ref{equations-of-motion-section} (see Eqs. \ref{z-s-variables}, and \ref{changed-rho-sigma-variables} - \ref{eq-of-motion-approach-w1}). Keep in mind that the set $(r,\varphi;f,\psi)$ brings the equations of motion to a canonical form, which is explicitly given in Eq. \ref{eq-of-motion-explicit-coordinates} - \ref{eq-of-motion-explicit-momenta}. It was determined that the CEF from in Eq. \ref{full-classical-energy-function} is minimal in the point $p_0$ (Eq. \ref{cef-minimum-point-p0}). Evaluating the wave-function specified in Eq. \ref{wave-function-TSD1} around this minimum point, the expression of $\ket{\Psi_{IMj}}$ turns out to be \cite{raduta2020approach,raduta2020towards}:
+The wave-function labelling - $IM;j$ - signifies the separated components for total angular momentum ($I$) and the single-particle one ($j$). Note that the complex variables $(z;s)$ correspond to the classical coordinates $(r,\varphi;f,\psi)$ via the transformations employed in Section \ref{equations-of-motion-section} (see Eqs. \ref{z-s-variables}, and \ref{changed-rho-sigma-variables} - \ref{eq-of-motion-approach-w1}). Keep in mind that the set $(r,\varphi;f,\psi)$ brings the equations of motion to a canonical form, which is explicitly given in Eq. \ref{eq-of-motion-explicit-coordinates} - \ref{eq-of-motion-explicit-momenta}. It was determined that the CEF from in Eq. \ref{full-classical-energy-function} is minimal in the point $p_0$ (Eq. \ref{cef-minimum-point-p0}). Evaluating the wave-function specified in Eq. \ref{wave-function-TSD1} around this minimum point, the expression of $\ket{\Psi_{IM;j}}$ turns out to be \cite{raduta2020approach,raduta2020towards}:
 \begin{align}
-    \ket{\Psi_{IMj}}|_{p_0}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ket{\varnothing}_I\ ,
+    \ket{\Psi_{IM;j}}|_{p_0}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ket{\varnothing}_I\ ,
     \label{wave-function-TSD1-p0}
 \end{align}
-where $\ket{\varnothing}_I$ is the vacuum state for the boson creation and annihilation operators $(a^\dagger,a;b^\dagger,b)$ that emerged by means of the re-quantization procedure applied in Eqs. \ref{canonical-coordinates-quantized} - \ref{canonical-transformations-ab-qp} for the classical coordinates $(r,\varphi;f,\psi)$. Any arbitrary state $\ket{\Psi_{IMj}}$ can be spanned from the vacuum as \cite{raduta2017semiclassical}:
+where $\ket{\varnothing}_I$ is the vacuum state for the boson creation and annihilation operators $(a^\dagger,a;b^\dagger,b)$ that emerged by means of the re-quantization procedure applied in Eqs. \ref{canonical-coordinates-quantized} - \ref{canonical-transformations-ab-qp} for the classical coordinates $(r,\varphi;f,\psi)$. Any arbitrary state $\ket{\Psi_{IM;j}}$ can be spanned from the vacuum as \cite{raduta2017semiclassical}:
 \begin{align}
     \ket{m,n}_I=\frac{1}{\sqrt{m!n!}}\left(a^\dagger\right)^m\left(b^\dagger\right)^n\ket{\varnothing}_I\ ,\ n,k=1,2,3,\dots\ .
 \end{align}
 
 Regarding the wave-functions utilized for the numerical calculations in the $\mathbf{W_1}$ picture, these can be created from the expansion of Eq. \ref{wave-function-TSD1-p0} up to first-order (abbreviated `1st or.') in the coordinates $(r,\varphi;f,\psi)$, and then perform re-quantization of the coordinates. Thus, the wave-function becomes:
 \begin{align}
-    \ket{\Psi_{IMj}}|_{p_0}^{\text{1st or.}}\equiv&\ket{\Psi_{IMj}^{(1)}}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\times\nonumber\\
+    \ket{\Psi_{IM;j}}|_{p_0}^{\text{1st or.}}\equiv&\ket{\Psi_{IM;j}^{(1)}}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\times\nonumber\\
                            &\times\left\{1+\frac{\iu}{\sqrt{2}}\left[\left(\frac{K}{I}k_1+\frac{I-K}{k_1}\right)a^\dagger+\left(\frac{\Omega}{j}k_2+\frac{j-\Omega}{k_2}\right)b^\dagger\right]\right\}\ket{\varnothing}_I\ .
     \label{wave-function-TSD1-p0-first-order}
 \end{align}
 
 Looking at Eq. \ref{wave-function-TSD1-p0-first-order} it can be seen that the first-order expansion is reflected through the presence of $a^\dagger$ and $b^\dagger$ as independent variables (that is, no mixed or quadratic components). The canonicity factors $k_1,k_2$ defined in Eq. \ref{canonicity-factors} also show up for every coordinate. Lastly, $K,\Omega$ are the projections onto the rotational axis of the total and single-particle angular momentum vectors in the intrinsic coordinate system, respectively.
 %%%%%%%% REMOVE PARTNER DUPLICATE
-The wave-function $\ket{\Psi_{IMj}^{(1)}}$ can be used for the transitions between zero-phonon bands, which comprise TSD1-2 and TSD4 in $^{161,163,165,167}$Lu. However, transitions in and out of a one-wobbling-phonon band (such as TSD3 in $^{163,165}$Lu) require a wave-function built as an excitation of its ground-band partner. In $\mathbf{W_1}$ this can be inferred by the renormalization specified in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum}. Hence, a state $I$ belonging to the one-phonon band is obtained with the activation of the $I-1$ state from the neighboring zero-phonon partner with phonon operators $\{\Gamma_1^\dagger\ ,\ \Gamma_2^\dagger\}$, each applied separately $n_{w_1}$ and $n_{w_2}$ times on the vacuum states $|\varnothing)_{I-1}$ and $|\varnothing)_j$:
+The wave-function $\ket{\Psi_{IM;j}^{(1)}}$ can be used for the transitions between zero-phonon bands, which comprise TSD1-2 and TSD4 in $^{161,163,165,167}$Lu. However, transitions in and out of a one-wobbling-phonon band (such as TSD3 in $^{163,165}$Lu) require a wave-function built as an excitation of its ground-band partner. In $\mathbf{W_1}$ this can be inferred by the renormalization specified in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum}. Hence, a state $I$ belonging to the one-phonon band is obtained with the activation of the $I-1$ state from the neighboring zero-phonon partner with phonon operators $\{\Gamma_1^\dagger\ ,\ \Gamma_2^\dagger\}$, each applied separately $n_{w_1}$ and $n_{w_2}$ times on the vacuum states $|\varnothing)_{I-1}$ and $|\varnothing)_j$:
 \begin{align}
     \ket{\Phi_{IMj}}=\ket{\Psi_{I-1M-1j}^{(1)}}\left\{\frac{1}{\sqrt{n_{w_1}!}}\left(\Gamma_1^\dagger\right)^{n_{w_1}}|\varnothing)_{I-1}\otimes\frac{1}{\sqrt{n_{w_2}!}}\left(\Gamma_2^\dagger\right)^{n_{w_2}}|\varnothing)_j\right\}\ ,
     \label{wave-function-TSD-excited-phonon-state}
@@ -1005,7 +1005,7 @@ The initial and final states from Eq. \ref{reduced-BE2-transitions-toki} are rep
     \bra{\Psi_{I_iM_ij}}\mathcal{M}(\lambda,\mu)\ket{\Psi_{I_iM_ij}}=C_{M_f\mu M_i}^{I_f\lambda I_i}\bra{\Psi_{I_i}}|\mathcal{M}(\lambda)|\ket{\Psi_{I_f}}\ .
 \end{align}  
 
-From the structure of $\mathcal{M}(E2,\mu)$ given in Eq. \ref{quadrupole-transition-operator-terms} and the probabilities specified in Eq. \ref{reduced-BE2-transitions-toki}, it results that there will be two sets of reduced matrix elements, i.e., $\bra{\Psi_{I_i}}|T_2^\text{coll}|\ket{\Psi_{I_f}}$ and $\bra{\Psi_{I_i}}|T_2^\text{sp}|\ket{\Psi_{I_f}}$, respectively.  Their analytical expressions are given explicitly in Appendix D from \cite{raduta2017semiclassical}. The matrix elements $\bra{\Psi_{I_i}}|\mathcal{M}(E2)|\ket{\Psi_{I_f}}$ is calculated in units of $\mathrm{e}\cdot\text{fm}^2$. Recall that when $B(E2)$ was firstly discussed (Section \ref{intro-EM-chapter3} with Eq. \ref{reduced-E2-clebsch-gordan}) no inference on the transition operator's matrix elements was done, while here one finally adopts them.
+From the structure of $\mathcal{M}(E2,\mu)$ given in Eq. \ref{quadrupole-transition-operator-terms} and the probabilities specified in Eq. \ref{reduced-BE2-transitions-toki}, it results that there will be two sets of reduced matrix elements, i.e., $\bra{\Psi_{I_i}}|T_2^\text{coll}|\ket{\Psi_{I_f}}$ and $\bra{\Psi_{I_i}}|T_2^\text{sp}|\ket{\Psi_{I_f}}$, respectively.  Their analytical expressions are given explicitly in Appendix D from \cite{raduta2017semiclassical}. The matrix element $\bra{\Psi_{I_i}}|\mathcal{M}(E2)|\ket{\Psi_{I_f}}$ is calculated in units of $\mathrm{e}\cdot\text{fm}^2$. Recall that when $B(E2)$ was firstly discussed (Section \ref{intro-EM-chapter3} with Eq. \ref{reduced-E2-clebsch-gordan}) no inference on the transition operator's matrix elements was done, while here one finally adopts them.
 
 Because the formalism $\mathbf{W_1}$ adopts a set of MOI determined freely by fitting Eq. \ref{chi-2-fitting-function}, one cannot assume their actual nature (that is neither hydrodynamical nor rigid). Moreover, the calculated parameters $\mathcal{P}_\text{fit}$ shown in Table \ref{numerical-fitting-parameters-Lu-isotopes} indicate that the maximal MOI is $\mathcal{I}_1$ for each isotope. Accordingly, the quadrupole components $Q_{0}$ and $Q_{2}$ give the degree of elongation and asymmetry of the charge/mass distribution with respect to this axis. In order to keep a consistent numerical procedure, the two quadrupole moments should also be considered as free quantities when computing the transition probabilities (Eq. \ref{reduced-BE2-transitions-toki}). Consequently, the components are evaluated per each isotope by fixing one intraband transition from TSD1 (first excited to yrast) and one interband transition $\text{TSD2}\to\text{TSD1}$ (band-head $I_b$ in TSD2 to $I_b-1$ in TSD1). With this method, the values $Q_0=18.43\ \mathrm{e}b$ and $Q_2=19.81\ \mathrm{e}b$ are attained for $^{163}$Lu. The results for the other isotopes are collected and graphically represented in Fig. \ref{quadrupole-moments-fit-numerical-results}, where a change of ordering between the two quadrupole components can be observed at $^{165}$Lu. Besides that, the magnitude of the components drops quite low compared to the neighboring nuclei. Remarking the fact that the isotope $^{167}$Lu has an almost identical set of quadrupole moments.
 \begin{figure}
