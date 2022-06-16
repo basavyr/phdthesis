@@ -956,14 +956,14 @@ which looks quite similar with Eq. \ref{quadrupole-components-q20-q22} given in 
     \label{quadrupole-transition-operator-terms}
 \end{align}
 
-Besides the electric transition operator, the wave-functions for the wobbling bands considered in the current picture are also needed. The ground-bands are constructed from the variational principle (the trial function from Eq. \ref{tdve-approach-w1}):
+Besides the electric transition operator, the wave-functions for the wobbling bands considered in the current picture are also needed. The ground-bands are attained from the variational principle (the trial function from Eq. \ref{tdve-approach-w1}):
 \begin{align}
     \ket{\Psi_{IM;j}}=&\mathcal{N}\mathrm{e}^{z\hat{I}_-}\mathrm{e}^{s\hat{j}_-}\ket{IMI}\ket{jj}=\nonumber\\
     =&\sum_{K\Omega}\frac{z^{I-K}s^{j-\Omega}}{\left(1+|z|^2\right)^I\left(1+|s|^2\right)^j}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ .
     \label{wave-function-TSD1}
 \end{align}
 
-The wave-function labelling - $IM;j$ - signifies the separated components for total angular momentum ($I$) and the single-particle one ($j$). Note that the complex variables $(z;s)$ correspond to the classical coordinates $(r,\varphi;f,\psi)$ via the transformations employed in Section \ref{equations-of-motion-section} (see Eqs. \ref{z-s-variables}, and \ref{changed-rho-sigma-variables} - \ref{eq-of-motion-approach-w1}). Keep in mind that the set $(r,\varphi;f,\psi)$ brings the equations of motion to a canonical form, which is explicitly given in Eq. \ref{eq-of-motion-explicit-coordinates} - \ref{eq-of-motion-explicit-momenta}. It was determined that the CEF from in Eq. \ref{full-classical-energy-function} is minimal in the point $p_0$ (Eq. \ref{cef-minimum-point-p0}). Evaluating the wave-function specified in Eq. \ref{wave-function-TSD1} around this minimum point, the expression of $\ket{\Psi_{IM;j}}$ turns out to be \cite{raduta2020approach,raduta2020towards}:
+The wave-function labelling - $IM;j$ - signifies the separated components for total angular momentum ($I$) and the single-particle one ($j$). Note that the complex variables $(z;s)$ correspond to the classical coordinates $(r,\varphi;f,\psi)$ via the transformations employed in Section \ref{equations-of-motion-section} (see Eqs. \ref{z-s-variables}, and \ref{changed-rho-sigma-variables} - \ref{eq-of-motion-approach-w1}). Keep in mind that the set $(r,\varphi;f,\psi)$ brings the equations of motion to a canonical form, which are explicitly given in Eq. \ref{eq-of-motion-explicit-coordinates} - \ref{eq-of-motion-explicit-momenta}. It was determined that the CEF from in Eq. \ref{full-classical-energy-function} is minimal in the point $p_0$ (Eq. \ref{cef-minimum-point-p0}). Evaluating the wave-function specified in Eq. \ref{wave-function-TSD1} around this minimum point, the expression of $\ket{\Psi_{IM;j}}$ turns out to be \cite{raduta2020approach,raduta2020towards}:
 \begin{align}
     \ket{\Psi_{IM;j}}|_{p_0}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ket{\varnothing}_I\ ,
     \label{wave-function-TSD1-p0}
@@ -973,27 +973,26 @@ where $\ket{\varnothing}_I$ is the vacuum state for the boson creation and annih
     \ket{m,n}_I=\frac{1}{\sqrt{m!n!}}\left(a^\dagger\right)^m\left(b^\dagger\right)^n\ket{\varnothing}_I\ ,\ n,k=1,2,3,\dots\ .
 \end{align}
 
-Regarding the wave-functions utilized for the numerical calculations in the $\mathbf{W_1}$ picture, these can be created from the expansion of Eq. \ref{wave-function-TSD1-p0} up to first-order (abbreviated `1st or.') in the coordinates $(r,\varphi;f,\psi)$, and then perform re-quantization of the coordinates. Thus, the wave-function becomes:
+Regarding the wave-functions utilized for the numerical calculations in the $\mathbf{W_1}$ picture, these can be constructed from the expansion of Eq. \ref{wave-function-TSD1-p0} up to first-order (abbreviated `1st or.') in the coordinates $(r,\varphi;f,\psi)$, and then perform re-quantization of the coordinates. Thus, the wave-function becomes:
 \begin{align}
     \ket{\Psi_{IM;j}}|_{p_0}^{\text{1st or.}}\equiv&\ket{\Psi_{IM;j}^{(1)}}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\times\nonumber\\
                            &\times\left\{1+\frac{\iu}{\sqrt{2}}\left[\left(\frac{K}{I}k_1+\frac{I-K}{k_1}\right)a^\dagger+\left(\frac{\Omega}{j}k_2+\frac{j-\Omega}{k_2}\right)b^\dagger\right]\right\}\ket{\varnothing}_I\ .
     \label{wave-function-TSD1-p0-first-order}
 \end{align}
 
-Looking at Eq. \ref{wave-function-TSD1-p0-first-order} it can be seen that the first-order expansion is reflected through the presence of $a^\dagger$ and $b^\dagger$ as independent variables (that is, no mixed or quadratic components). The canonicity factors $k_1,k_2$ defined in Eq. \ref{canonicity-factors} also show up for every coordinate. Lastly, $K,\Omega$ are the projections onto the rotational axis of the total and single-particle angular momentum vectors in the intrinsic coordinate system, respectively.
-%%%%%%%% REMOVE PARTNER DUPLICATE
-The wave-function $\ket{\Psi_{IM;j}^{(1)}}$ can be used for the transitions between zero-phonon bands, which comprise TSD1-2 and TSD4 in $^{161,163,165,167}$Lu. However, transitions in and out of a one-wobbling-phonon band (such as TSD3 in $^{163,165}$Lu) require a wave-function built as an excitation of its ground-band partner. In $\mathbf{W_1}$ this can be inferred by the renormalization specified in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum}. Hence, a state $I$ belonging to the one-phonon band is obtained with the activation of the $I-1$ state from the neighboring zero-phonon partner with phonon operators $\{\Gamma_1^\dagger\ ,\ \Gamma_2^\dagger\}$, each applied separately $n_{w_1}$ and $n_{w_2}$ times on the vacuum states $|\varnothing)_{I-1}$ and $|\varnothing)_j$:
-\begin{align}
-    \ket{\Phi_{IMj}}=\ket{\Psi_{I-1M-1j}^{(1)}}\left\{\frac{1}{\sqrt{n_{w_1}!}}\left(\Gamma_1^\dagger\right)^{n_{w_1}}|\varnothing)_{I-1}\otimes\frac{1}{\sqrt{n_{w_2}!}}\left(\Gamma_2^\dagger\right)^{n_{w_2}}|\varnothing)_j\right\}\ ,
-    \label{wave-function-TSD-excited-phonon-state}
-\end{align}
-where the two vacuum states are defined in Appendix D from Ref. \cite{raduta2017semiclassical}. Based on the considerations made in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum} + the spectrum depicted in Eq. \ref{lu163-absolute-energies-tsd1234} + the collection of wobbling phonon numbers provided in Tables \ref{lu-163-phonon-numbers} - \ref{lu-167-experimental-data-table}, it appears that \emph{only the first phonon $\Gamma_1^\dagger$ (corresponding to the motion of the core) will generate excited states}. This results in the straightforward structure of the band TSD3 from $^{163,165}$Lu:
-\begin{align}
-    \ket{\Phi_{IMj}}=\ket{\Psi_{I-1M-1j}^{(1)}}\Gamma_1^\dagger|\varnothing)_{I-1}\ .
-    \label{wave-function-TSD3}
-\end{align}
+Looking at Eq. \ref{wave-function-TSD1-p0-first-order} it can be seen that the first-order expansion is reflected through the presence of $a^\dagger$ and $b^\dagger$ as independent variables (that is, no mixed or quadratic components). The canonicity factors $k_1,k_2$ defined in Eq. \ref{canonicity-factors} also show up for every coordinate. Lastly, $K,\Omega$ are the projections onto the rotational axis of the total and single-particle angular momentum vectors in the intrinsic coordinate system, respectively. 
+%The wave-function $\ket{\Psi_{IM;j}^{(1)}}$ can be used for the transitions between zero-phonon bands, which comprise TSD1-2 and TSD4 in $^{161,163,165,167}$Lu. However, transitions in and out of a one-wobbling-phonon band (such as TSD3 in $^{163,165}$Lu) require a wave-function built as an excitation of its ground-band partner. In $\mathbf{W_1}$ this can be inferred by the renormalization specified in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum}. Hence, a state $I$ belonging to the one-phonon band is obtained with the activation of the $I-1$ state from the neighboring zero-phonon partner with phonon operators $\{\Gamma_1^\dagger\ ,\ \Gamma_2^\dagger\}$, each applied separately $n_{w_1}$ and $n_{w_2}$ times on the vacuum states $|\varnothing)_{I-1}$ and $|\varnothing)_j$:
+% \begin{align}
+%     \ket{\Phi_{IMj}}=\ket{\Psi_{I-1M-1j}^{(1)}}\left\{\frac{1}{\sqrt{n_{w_1}!}}\left(\Gamma_1^\dagger\right)^{n_{w_1}}|\varnothing)_{I-1}\otimes\frac{1}{\sqrt{n_{w_2}!}}\left(\Gamma_2^\dagger\right)^{n_{w_2}}|\varnothing)_j\right\}\ ,
+%     \label{wave-function-TSD-excited-phonon-state}
+% \end{align}
+% where the two vacuum states are defined in Appendix D from Ref. \cite{raduta2017semiclassical}. Based on the considerations made in Eqs. \ref{tsd-bands-compressed-spectrum} - \ref{tsd-bands-general-spectrum} + the spectrum depicted in Eq. \ref{lu163-absolute-energies-tsd1234} + the collection of wobbling phonon numbers provided in Tables \ref{lu-163-phonon-numbers} - \ref{lu-167-experimental-data-table}, it appears that \emph{only the first phonon $\Gamma_1^\dagger$ (corresponding to the motion of the core) will generate excited states}. This results in the straightforward structure of the band TSD3 from $^{163,165}$Lu:
+% \begin{align}
+%     \ket{\Phi_{IMj}}=\ket{\Psi_{I-1M-1j}^{(1)}}\Gamma_1^\dagger|\varnothing)_{I-1}\ .
+%     \label{wave-function-TSD3}
+% \end{align}
 
-With the expressions of the E2 transition operator granted by Eq. \ref{electric-quadrupole-operator-lab} and wave-functions defined according to Eqs. \ref{wave-function-TSD1-p0-first-order} and \ref{wave-function-TSD3}, the matrix elements of $\mathcal{M}(E2,\mu)$ can be finally constructed. The reduced transition probabilities are defined more generally as \cite{toki1975asymmetric}:
+With the expressions of the E2 transition operator granted by Eq. \ref{electric-quadrupole-operator-lab} and wave-functions from Eq. \ref{wave-function-TSD1-p0-first-order}, the matrix elements of $\mathcal{M}(E2,\mu)$ can be finally constructed. The reduced transition probabilities are defined more generally as \cite{toki1975asymmetric}:
 \begin{align}
     B(E2;I_i\to I_f)=&\sum_{M_iM_f\mu}\left|\bra{\Psi_{I_iM_ij}}\mathcal{M}(E2,\mu)\ket{\Psi_{I_fM_fj}}\right|^2=\nonumber\\
                                             =&\left|\bra{\Psi_{I_i}}\left|\mathcal{M}(E2)\right|\ket{\Psi_{I_f}}\right|^2\ .
