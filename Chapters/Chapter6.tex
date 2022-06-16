@@ -716,12 +716,11 @@ where $^A$Lu represents the isotope that is evaluated (i.e., $A\in\{161,163,165,
 %Moreover, the quasi-particle involved in the particle + rotor coupling for the ground bands is $\mathcal{Q}_1$ across the entire mass region.
 % reference for Q1 and Q2 particle notations (Table \ref{lu-163-phonon-numbers})
 
-Concluding the current section, Eq. \ref{general-excitation-energy-fitting-model} provides the final ingredient towards the determination of the energy spectra for the whole group of nuclides. Indeed, the $\chi^2$-function can be minimized using $E_{I,n_{w_1},n_{w_2}}^{\text{TSD}N}(^A\text{Lu\ ;\ exc})$ as the model and the data collected in Tables \ref{lu-161-experimental-data-table} - \ref{lu-167-experimental-data-table} will be adopted as input data in order to achieve an optimal set of fitting parameters (i.e., Eq. \ref{fitting-parameters-p-fit}). The full workflow is depicted in Fig. \ref{fitting-workflow-fig}.
+Concluding the current section, Eq. \ref{general-excitation-energy-fitting-model} provides the final ingredient towards the determination of the energy spectra for the whole group of nuclides. Indeed, the $\chi^2$-function can be minimized using $E_{I,n_{w_1},n_{w_2}}^{\text{TSD}N}(^A\text{Lu\ ;\ exc})$ as the model and the data collected in Tables \ref{lu-161-experimental-data-table} - \ref{lu-167-experimental-data-table} will be adopted as input. The full workflow is depicted in Fig. \ref{fitting-workflow-fig}.
 \begin{figure}
     \centering
     \includegraphics[width=0.99\textwidth]{Chapters/Figures/fitting_procedure_chi2.pdf}
-    %%%% ADD PROPER CAPTION
-    \caption{A schematic representation showing how the overall workflow in solving the minimization of $\chi^2$-function works. First, the excitation energy of a particular state $I$ belonging to one of the wobbling bands is.}
+    \caption{A schematic representation showing the overall workflow of solving the minimization of $\chi^2$-function (Eq. \ref{chi-2-fitting-function}). Initially, the absolute energy of the band-head $I_b$ (Eq. \ref{absolute-energy-fitting-model} - red color) is subtracted from every state $I$ (Eq. \ref{tsd-bands-compressed-spectrum}) in order to obtain the excitation energy (Eq. \ref{general-excitation-energy-fitting-model} blue color). This is applied for every state within all of the isotope's bands. Next, the inputs from Tables \ref{lu-163-table-info} - \ref{lu-167-experimental-data-table} are used in the minimization of $\chi^2$. The fitting function returns the set of parameters $\mathcal{P}_\text{fit}$ (Eq. \ref{fitting-parameters-p-fit}) that best reproduce the experimental results.}
     \label{fitting-workflow-fig}
 \end{figure}
 
