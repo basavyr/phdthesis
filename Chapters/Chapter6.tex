@@ -80,7 +80,7 @@ The states $\ket{IMK}$ that are involved in $\Psi_\text{trial}$ represent the Wi
     \label{IMK-wigner-functions}
 \end{align}
 
-The vector states $\ket{j\Omega}$ describe the general wave-function for a particle \cite{hecht1962asymmetric}:
+The vector states $\ket{j\Omega}$ describe the general wave-function for a particle $\chi$ with the structure \cite{hecht1962asymmetric}:
 \begin{align}
     \ket{\chi}=\sum_{j\Omega}c_{j\Omega}\ket{j\Omega}\ ,
     % \ket{\bar{\chi}}=\sum_{j\Omega}c_{j-\Omega}\ket{\bar{\chi}_{j\Omega}}=&\sum_{j\Omega}c_{j-\Omega}\ket{j-\Omega}=\sum_{j\Omega}(-1)^{j-1/2}c_{j\Omega}\ket{j-\Omega}\ .
@@ -102,7 +102,7 @@ where the coefficients $c_{j\Omega}$ should be a priori known.
 \subsection{Classical Equations of Motion}
 \label{equations-of-motion-section}
 
-Returning to the trial function $\ket{\Psi_{IM;j}}$ from Eq. \ref{trial-function-appeoach-w1}, defined as a coherent state with products between  $\ket{IMK}$ (Eq. \ref{IMK-wigner-functions}) and $\ket{j\Omega}$ (Eq. \ref{j-Omega-single-particle-states}), its expression must be further discussed in terms of $z$ and $s$. Indeed, these two variables represent complex functions of time, and they are associated with the motion of the core and the odd-particle, respectively. Their expressions are:
+Returning to the trial function $\ket{\Psi_{IM;j}}$ from Eq. \ref{trial-function-appeoach-w1}, its expression must be further discussed in terms of $z$ and $s$. Indeed, these two variables represent complex functions of time, and they are associated with the motion of the core and the odd-particle, respectively. Their expressions are:
 \begin{align}
     z=\rho e^{i\varphi}\ ,\ s=\sigma e^{i\psi}\ .
     \label{z-s-variables}
@@ -951,23 +951,25 @@ The spherical harmonics from Eq. \ref{electric-quadrupole-operator-lab} emerge f
     Q_{0}=\frac{3}{4\pi}ZR^2\beta\cos\gamma\ ,\ Q_{2}=\frac{3}{4\pi}ZR^2\beta\sin\gamma/\sqrt{2}\ ,
     \label{quadrupole-components-Q0-Q2}
 \end{align}
-
 which looks quite similar with Eq. \ref{quadrupole-components-q20-q22} given in Chapter \ref{chapter-5} and Eq. \ref{quadrupole-moment-Q0} from Chapter \ref{chapter-3}. Since the triaxial system can be regarded as a collective core + a single particle, the electric transition operator defined in $\mathbf{W_1}$ can be described as an operator separated into a \emph{collective} term and a \emph{single-particle} term. As a matter of fact, it can be seen from Eq. \ref{electric-quadrupole-operator-lab} that the term inside squared brackets is the collective one, while the summation $r^2Y_2^\nu$ comprises the odd-proton's contribution, which can be both condensed into \cite{raduta2020approach}:
 \begin{align}
     \mathcal{M}(E2,\mu)\equiv T_{2\mu}^\text{coll}+T_{2\mu}^\text{sp}\ .
     \label{quadrupole-transition-operator-terms}
 \end{align}
 
-Besides the electric transition operator, the wave-functions for the wobbling bands considered in the current picture are also needed. The ground-bands are attained from the variational principle (the trial function from Eq. \ref{tdve-approach-w1}):
+Besides the electric transition operator, the wave-functions for the wobbling bands considered in the current picture are also needed. The ground-bands are attained from the variational principle (the trial function from Eqs. \ref{tdve-approach-w1} - \ref{trial-function-appeoach-w1}):
 \begin{align}
     \ket{\Psi_{IM;j}}=&\mathcal{N}\mathrm{e}^{z\hat{I}_-}\mathrm{e}^{s\hat{j}_-}\ket{IMI}\ket{jj}=\nonumber\\
-    =&\sum_{K\Omega}\frac{z^{I-K}s^{j-\Omega}}{\left(1+|z|^2\right)^I\left(1+|s|^2\right)^j}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ .
+    % adopt formula from Budaca's work
+    % =&\sum_{K\Omega}\frac{z^{I-K}s^{j-\Omega}}{\left(1+|z|^2\right)^I\left(1+|s|^2\right)^j}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ .
+    =&\sum_{K=-I}^I\sum_{\Omega=-j}^j\sqrt{\frac{(2I)!}{(I-K)!(I+K)!}}\sqrt{\frac{(2j)!}{(j-\Omega)!(j+\Omega)!}}\times\nonumber\\
+    &\times\frac{z^{I+K}}{(1+|z|^2)^I}\frac{s^{j+\Omega}}{(1+|s|^2)^j}\ket{IMK}\ket{j\Omega}\ ,
     \label{wave-function-TSD1}
 \end{align}
-
-The wave-function labelling - $IM;j$ - signifies the separated components for total angular momentum ($I$) and the single-particle one ($j$). Note that the complex variables $(z;s)$ correspond to the classical coordinates $(r,\varphi;f,\psi)$ via the transformations employed in Section \ref{equations-of-motion-section} (see Eqs. \ref{z-s-variables}, and \ref{changed-rho-sigma-variables} - \ref{eq-of-motion-approach-w1}). Keep in mind that the set $(r,\varphi;f,\psi)$ brings the equations of motion to a canonical form, which are explicitly given in Eq. \ref{eq-of-motion-explicit-coordinates} - \ref{eq-of-motion-explicit-momenta}. It was determined that the CEF from in Eq. \ref{full-classical-energy-function} is minimal in the point $p_0$ (Eq. \ref{cef-minimum-point-p0}). Evaluating the wave-function specified in Eq. \ref{wave-function-TSD1} around this minimum point, the expression of $\ket{\Psi_{IM;j}}$ turns out to be \cite{raduta2020approach,raduta2020towards}:
+where the expansion in terms of $K$ and $\Omega$ components is consistent with the one employed in Ref. \cite{budaca2018semiclassical}. Note that the complex variables $(z;s)$ correspond to the classical coordinates $(r,\varphi;f,\psi)$ via the transformations employed in Section \ref{equations-of-motion-section} (see Eqs. \ref{z-s-variables}, and \ref{changed-rho-sigma-variables} - \ref{eq-of-motion-approach-w1}). Keep in mind that the set $(r,\varphi;f,\psi)$ brings the equations of motion to a canonical form, which are explicitly given in Eq. \ref{eq-of-motion-explicit-coordinates} - \ref{eq-of-motion-explicit-momenta}. It was determined that the CEF from in Eq. \ref{full-classical-energy-function} is minimal in the point $p_0$ (Eq. \ref{cef-minimum-point-p0}). Evaluating the wave-function specified in Eq. \ref{wave-function-TSD1} around this minimum point, the expression of $\ket{\Psi_{IM;j}}$ turns out to be \cite{raduta2020approach,raduta2020towards}:
 \begin{align}
     \ket{\Psi_{IM;j}}|_{p_0}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ket{\varnothing}_I\ ,
+    % \ket{\Psi_{IM;j}}|_{p_0}=\frac{1}{2^{I+j}}\sum_{K\Omega}\binom{2I}{I-K}^{1/2}\binom{2j}{j-\Omega}^{1/2}\ket{IMK}\ket{j\Omega}\ket{\varnothing}_I\ ,
     \label{wave-function-TSD1-p0}
 \end{align}
 where $\ket{\varnothing}_I$ is the vacuum state for the boson creation and annihilation operators $(a^\dagger,a;b^\dagger,b)$ that emerged by means of the re-quantization procedure applied in Eqs. \ref{canonical-coordinates-quantized} - \ref{canonical-transformations-ab-qp} for the classical coordinates $(r,\varphi;f,\psi)$. Any arbitrary state $\ket{\Psi_{IM;j}}$ can be spanned from the vacuum as \cite{raduta2017semiclassical}:
