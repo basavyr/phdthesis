@@ -67,22 +67,24 @@ Obviously, the variational state $\ket{\Psi_{IM;j}}\equiv\Psi_\text{trial}$ (als
     \Psi_\text{trial}\equiv\ket{\Psi_{IM;j}}=\mathcal{N}e^{z\hat{I}_-}e^{s\hat{j}_-}\ket{IMI}\ket{jj}\ ,
     \label{trial-function-appeoach-w1}
 \end{align}
-where the ladder operators for the total and single-particle a.m. are represented by $\hat{I}_-$ and $\hat{j}_-$, respectively. The factor $\mathcal{N}$ is the normalization constant, which keeps the trial function normalized to unity. Its value is given by \cite{raduta2007semiclassical,raduta2020new}:
+where the ladder operators for the total and single-particle a.m. are represented by $\hat{I}_-$ and $\hat{j}_-$, respectively. The factor $\mathcal{N}$ is the normalization constant, which keeps the trial function normalized to unity. Its value is specified accordingly to Refs. \cite{raduta2007semiclassical,raduta2020new} as:
 \begin{align}
     \mathcal{N}=\left(1+|z|^2\right)^{-I}\left(1+|s|^2\right)^{-j}\ .
 \end{align}
-The states that are involved in $\Psi_\text{trial}$ are as follow: $\ket{IMK}$ represent the Wigner-D functions (i.e., eigenstates of $\hat{I}^2$ and $\hat{I}_3$), while $\ket{j\Omega}$ are the wave-functions of the odd quasi-particle (the eigenstates of $\hat{j}^2$ and $\hat{j}_3$). Notice that the trial function is expressed explicitly in terms of the \emph{extremal states}, i.e., their maximal projections $K=I$ and $\Omega=j$, respectively. For $\ket{IMK}$, one has:
+The states $\ket{IMK}$ that are involved in $\Psi_\text{trial}$ represent the Wigner-D functions (eigenstates of $\hat{I}^2$ and $\hat{I}_3$), while $\ket{j\Omega}$ are wave-functions of the odd quasi-particle (eigenstates of $\hat{j}^2$ and $\hat{j}_3$). Notice that the trial function is explicitly given in terms of the \emph{extremal states}, i.e., the projections are maximal $K=I$ and $\Omega=j$, respectively. The normalized states for the total angular momentum are:
 \begin{align}
-    \ket{IMK}&=\sqrt{\frac{2I+1}{8\pi^2}}\mathcal{D}_{MK}^I\ , \nonumber\\
-    \ket{IM-K}&=\sqrt{\frac{2I+1}{8\pi^2}}\mathcal{D}_{M-K}^I\ .
+    % \ket{IMK}=\sqrt{\frac{2I+1}{8\pi^2}}\mathcal{D}_{MK}^I\ ,\ \ket{IM-K}=\sqrt{\frac{2I+1}{8\pi^2}}\mathcal{D}_{M-K}^I\ .
+    \ket{IMK}=\sqrt{\frac{2I+1}{8\pi^2}}\mathcal{D}_{MK}^I\ .
     \label{IMK-wigner-functions}
 \end{align}
-The second equation denotes the \emph{time-reversed} states, which are obtained by changing the projection $K$ to $-K$. The single-particle states can be defined more generally as \cite{hecht1962asymmetric}:
+
+The vector states $\ket{j\Omega}$ describe the general wave-function for a particle \cite{hecht1962asymmetric}:
 \begin{align}
-    \ket{\chi}=&\sum_{j\Omega}c_{j\Omega}\ket{\chi_{j\Omega}}=\sum_{j\Omega}c_{j\Omega}\ket{j\Omega}\ ,\nonumber\\
-    \ket{\bar{\chi}}=\sum_{j\Omega}c_{j-\Omega}\ket{\bar{\chi}_{j\Omega}}=&\sum_{j\Omega}c_{j-\Omega}\ket{j-\Omega}=\sum_{j\Omega}(-1)^{j-1/2}c_{j\Omega}\ket{j-\Omega}\ .
+    \ket{\chi}=\sum_{j\Omega}c_{j\Omega}\ket{j\Omega}\stackrel{\text{not.}}{\equiv}\sum_{j\Omega}c_{j\Omega}\ket{\chi_{j\Omega}}\ ,
+    % \ket{\bar{\chi}}=\sum_{j\Omega}c_{j-\Omega}\ket{\bar{\chi}_{j\Omega}}=&\sum_{j\Omega}c_{j-\Omega}\ket{j-\Omega}=\sum_{j\Omega}(-1)^{j-1/2}c_{j\Omega}\ket{j-\Omega}\ .
     \label{j-Omega-single-particle-states}
 \end{align}
+where the coefficients $c_{j\Omega}$ must be a priori known.
 
 % The wave-functions are expressed in terms of the projections $\Omega=-j,\dots,j$. The states $\ket{\bar{\chi}_{j\Omega}}$ are the time-reversed ones and they are degenerate with $\ket{\chi_{j\Omega}}$. Because of the $D_2$ symmetry for $\hat{H}$, the total wave-function can be formulated as a sum over the components $K, \Omega$ and over $j$. Denoting the total wave-function of the odd-mass nucleus as $\ket{\Psi}_\text{odd}$ (not to be confused with the trial function $\Psi_\text{trial}$), it must comprise both the intrinsic ($\mathbf{I}=\mathbf{R}_\mathscr{C}+\mathbf{j}_\mathcal{Q}$) and the single-particle ($\mathbf{j}_\mathcal{Q}$) degrees of freedom, namely:
 % \begin{align}
