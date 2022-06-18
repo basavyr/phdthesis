@@ -1182,11 +1182,13 @@ The magnetic transition operator adopted in the present formalism is defined as:
 \end{align}
 which is in accordance to the general definition from Ref. \cite{toki1975asymmetric}. The factor $\mu_N$ from Eq. \ref{magnetic-dipole-transition-operator} represents the nuclear magneton $\mu_N=\mathrm{e}\hbar/2m_\text{p}c$, $g_R=Z/A$ is the gyromagnetic factor for the core, $g_j$ is the proton's free gyromagnetic factor ($g$-factor) \cite{tiesinga2021codata} and $\mathcal{D}_{\mu\nu}^1$ is the Wigner-$\mathcal{D}$ function expressing the magnetic operator in the lab system. The spherical components $R=\{R_{-1},R_0,R_{+1}\}$ and $j=\{j_{-1},j_0,j_{+1}\}$ are defined in terms of the cartesian ones via the relations outlined in Ref. \cite{varshalovich1988quantum}. The single-particle $g$-factor is quenched by the constant $q=0.430$ in order to take into account the polarization effects, which are not included in the free factor. Indeed, such a quenching is necessary due to the interaction of the odd-proton with the currents that are distributed inside the core. The same quenching factor is applied to every isotope. The wave-functions involved in the m.e. of the $\mathcal{M}(M1)$ transition operator are expressed in terms of the angular momenta for the collective core $\mathbf{R}_\mathscr{C}$ and the odd proton $\mathbf{j}_\mathcal{Q}$. This leads to the structure:
 \begin{align}
-    \ket{\Psi_{IM;j}}=\frac{1}{\sqrt{2j+1}}\sum_{M_R\Omega}C_{M_R\Omega M}^{RjI}C_{RK}\ket{RM_RK}\ket{j\Omega}\ ,
+    \ket{\Phi_{IM;j}}=\frac{1}{\sqrt{2j+1}}\sum_{M_R\Omega}C_{M_R\Omega M}^{RjI}C_{RK}\ket{RM_RK}\ket{j\Omega}\ ,
+    \label{wave-function-magnetic}
 \end{align}
 where $M_R$ is the projection of the core's a.m. onto the quantization axis (in the lab frame). The quantum numbers $K$ and $\Omega$ still signify the projections of $\mathbf{I}$ and $\mathbf{j}_\mathcal{Q}$ onto the quantization axis (in the intrinsic frame). Obviously, the term $C_{RK}$ is equivalent with the factors given in Eq. \ref{CIK-binomial-coefficient}. Note that this wave-function has a different shape than the one from Eq. \ref{wave-function-TSD1-p0-first-order}, where the summation was in terms of the state vectors $\ket{IMK}$ and not $\ket{RM_RK}$. Having the wave-function allows to finally evaluate the m.e. of the magnetic dipole transition operator $\mathcal{M}(M1)$, obtaining the reduced $B(M1)$ transition probabilities \cite{raduta2017semiclassical}:
 \begin{align}
-    B(M1;I_i\to I_j)=\sum_{M_iM_f\mu}\left|\bra{\Phi_{I_iM_i}}|\mathcal{M}(M1,\mu)\ket{\Phi_{I_fM_f}}\right|^2
+    B(M1;I_i\to I_f)=&\sum_{M_iM_f\mu}\left|\bra{\Phi_{I_iM_i}}|\mathcal{M}(M1,\mu)\ket{\Phi_{I_fM_f}}\right|^2=\nonumber\\
+                     &=\left|\bra{\Phi_{I_i}}|\mathcal{M}(M1)|\ket{\Phi_{I_f}}\right|^2\ .
     \label{reduced-BM1-transition}
 \end{align}
 
