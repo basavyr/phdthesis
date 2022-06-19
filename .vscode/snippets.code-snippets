@@ -73,4 +73,12 @@
 		],
 		"description": "write an isotope of the form $^{$1}$$2"
 	},
+	"all-isotopes": {
+		"scope": "latex",
+		"prefix": "isotopes",
+		"body": [
+			"\\$^{161,163,165,167}\\$Lu $1",
+		],
+		"description": "write all Lu isotopes"
+	},
 }
