@@ -1246,12 +1246,20 @@ Taking a look at the branching ratios illustrated in Figs. \ref{figs-BE2-IN-OUT}
 
 Besides the reduced transition probabilities, the \emph{static magnetic moments} $\mu_I$ can be evaluated in accordance with the definition given by Bohr \cite{bohr1998nuclear}:
 \begin{align}
-    \mu_I=g_RI+(g_K-g_R)\frac{K^2}{I+1}\ ,
+    \mu_I=g_RI+g'\frac{K^2}{I+1}\ ,
     \label{static-magnetic-moment}
 \end{align}
-where the difference $(g_K-g_R)$ is directly extracted from $B(M1;I\to I-1)$ transitions, while the projection $K$ remains unchanged from $I$ to $I-1$, and also $K>1/2$. It follows that the expression of $(g_K-g_R)$ is given by the following rule \cite{bohr1998nuclear}:
+where the difference $g'$ is directly extracted from $B(M1;I\to I-1)$ transitions, while the projection $K$ remains unchanged from $I$ to $I-1$ and also $K>1/2$. The factor $g_R$ is the same as the one from Eq. \ref{magnetic-dipole-transition-operator}, with its value $g_R=Z/A$. It follows that the expression of $g'$ is given by the following rule \cite{bohr1998nuclear}:
 \begin{align}
-    (g_K-g_R)=\sqrt{\frac{4\pi}{3}}\frac{1}{\mu_N}\left[\frac{B(M1;I\to I-1)}{K^2\ \left(C_{K\ 0\ K}^{I\ 1\ I-1}\right)^2}\right]^{1/2}\ .
+    g'=\sqrt{\frac{4\pi}{3}}\frac{1}{\mu_N}\left[\frac{B(M1;I\to I-1)}{K^2\ \left(C_{K\ 0\ K}^{I\ 1\ I-1}\right)^2}\right]^{1/2}\ .
 \end{align}
 
-By firstly evaluating $(g_K-g_R)$, one can then determine the static moments from Eq. \ref{static-magnetic-moment}. Some results concerning states from TSD2 in $^{163}$Lu are shown in comparison with the experimental estimates.
+By firstly evaluating $g'$, one can then determine the static moments from Eq. \ref{static-magnetic-moment}. Some results concerning states from TSD2 in $^{163}$Lu are shown in comparison with the experimental estimates in Fig. \ref{muI-static-magnetic-moment}, where obviously the good agreement is verified due to the consistency across the $B(M1)$ values (see Table \ref{table-M1-delta-numerical-results}).
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.75]{Chapters/Figures/static-muI.pdf}
+    \caption{The static magnetic moment $\mu_I$ for $^{163}$Lu, calculated according to Eq. \ref{static-magnetic-moment} by fixing $K=I-1$ for every $I$ state belonging to TSD2 that decays into $I-1\in\text{TSD1}$.}
+    \label{muI-static-magnetic-moment}
+\end{figure}
+
+Concluding this section on electromagnetic transitions, several points should be outlined concerning the $\mathbf{W_1}$ formalism. Indeed, starting from the definition of the general multipole operator (Eq. \ref{multipole-operator-lab}), the electric quadrupole transition operator $\mathcal{M}(E2,\mu)$ (Eq. \ref{electric-quadrupole-operator-lab}) and the magnetic dipole transition operator $\mathcal{M}(M1,\mu)$ (Eq. \ref{magnetic-dipole-transition-operator}) were analyzed. Remarking the fact that they are composed of a term describing the collective core and a term related to the odd proton. Their matrix elements were required in order to obtained the transition probabilities (of $E2$ and $M1$ nature, respectively) between the wobbling states. In the case of $E2$ transitions, the wave-function used for determining $\bra{\Psi_{I_i}}|\mathcal{M}(E2)|\ket{\Psi_{I_f}}$ was constructed in terms of $\ket{IMK}$ and $\ket{j\Omega}$ (see definition in Eq. \ref{wave-function-TSD1-p0-first-order}). For $M1$ transitions, the wave-function in $\bra{\Phi_{I_i}}|\mathcal{M}(M1)|\ket{\Phi_{I_f}}$ was expressed in terms of the collective core $\mathbf{R}_\mathscr{C}$ by following Eq. \ref{wave-function-magnetic}. The results for the transition probabilities were thus evaluated numerically and listed throughout Tables \ref{table-intraband-E2-numerical-results} - \ref{table-M1-delta-numerical-results}. The static quadrupole moments were also evaluated using Eq. \ref{static-quadrupole-moment}, and they are graphically represented in Figs. \ref{static-quadrupole-fixed-K-TSD1} - \ref{static-quadrupole-fixed-K-TSD2}. Mixing ratios (Eq. \ref{mixing-ratio-Lu-isotopes}), branching ratios, and $B(M1)/B(E2)_\text{in}$ were also compared with the experimental data (where available) in Table \ref{table-M1-delta-numerical-results} and Figs. \ref{figs-BE2-IN-OUT} - \ref{figs-ratio-BM1-BE2-IN-OUT}. Lastly, using the definition of the static magnetic moment given employed in Eq. \ref{static-magnetic-moment}, the theoretical values were compared to the experimental ones in Fig. \ref{muI-static-magnetic-moment}. A good agreement for all quantities is observed, which together with the results regarding the excitation energies indicate that indeed the $\mathbf{W_1}$ formalism proves to be an effective and accurate tool in studying the wobbling motion in a semi-classical picture.
