@@ -98,12 +98,26 @@ In the $\mathbf{W_2}$ model the Hamiltonian of the triaxial system is unchanged,
     E_{I,0,0}^\text{TSD4}=&{\color{blue}\epsilon_{13/2}^2}+\mathcal{H}_\text{min}^I+\mathcal{F}_{00}^I\ ,\ I^\pi=47/2^-,51/2^-,55/2^-\dots\ ,
     \label{tsd-energies-lu163-parity-partners}
 \end{align}
-where one kept a consistent labelling of the energies as in the previous approach. This set of equations contains different single-particle energies, which is in contrast with $\mathbf{W_2}$. This single-particle re-normalization is employed as per Refs. \cite{poenaru2021parity,poenaru2021extensive1,poenaru2021extensive2} because of the signature partners TSD1-TSD2 and the parity partners TSD2-TSD4. Actually, the two shifts are attained from the mean-field corrections due to the parity change $\pi=+1\to \pi=-1$ for TSD4 (signified by blue color in Eq. \ref{tsd-energies-lu163-parity-partners}) and the alternating signature between TSD1-2 (signified by the red color in Eq. \ref{tsd-energies-lu163-parity-partners}). The unfavored as well as the negative parity states will induce the mean-field corrections in the excitation energies $\epsilon_{13/2}^1-\epsilon_{13/2}=0.3$ MeV and $\epsilon_{13/2}^2-\epsilon_{13/2}=0.6$ MeV, respectively, according to the calculations done by the team in Ref. \cite{poenaru2021parity}. The two corrections come at the cost of the unique fitting procedure that is now applied simultaneously for $^{163}$Lu, as compared to $\mathbf{W_1}$.
+where one kept a consistent labelling of the energies as in the previous approach. This set of equations contains different single-particle energies, which is in contrast with $\mathbf{W_1}$. This single-particle re-normalization is employed as per Refs. \cite{poenaru2021parity,poenaru2021extensive1,poenaru2021extensive2} because of the signature partners TSD1-TSD2 and the parity partners TSD2-TSD4. Actually, the two shifts are attained from the mean-field corrections due to the parity change $\pi=+1\to \pi=-1$ for TSD4 (signified by blue color in Eq. \ref{tsd-energies-lu163-parity-partners}) and the alternating signature between TSD1-2 (signified by the red color in Eq. \ref{tsd-energies-lu163-parity-partners}). The unfavored as well as the negative parity states will induce the mean-field corrections in the excitation energies $\epsilon_{13/2}^1-\epsilon_{13/2}=0.3$ MeV and $\epsilon_{13/2}^2-\epsilon_{13/2}=0.6$ MeV, respectively, according to the calculations done by the team in Ref. \cite{poenaru2021parity}. The two corrections come at the cost of the unique fitting procedure that is now applied simultaneously for $^{163}$Lu, as compared to $\mathbf{W_1}$.
 
 Looking at the spectrum of Eq. \ref{tsd-energies-lu163-parity-partners}, it should be obvious that the fitting parameters are the same ones as per the $\mathbf{W_1}$ method, namely $\mathcal{P}_\text{fit}$ from Eq. \ref{fitting-parameters-p-fit}. As such, proceeding with the method illustrated in Fig. \ref{fitting-workflow-fig} and Eq. \ref{chi-2-fitting-function}, a new numerical implementation is obtained, with the results and discussions shown in the following section.
 
 \section{Numerical Results}
 
-Because $^{163}$Lu is the only isotope to have positive and negative parity parity bands in the same collective structure, the $\mathbf{W_2}$ will be tested on this isotope. In what follows, the numerical results concerning the spectrum of excitation energies will be presented. The excitation energies are defined as per the rule from Eq. \ref{excitation-energy-general-formula}, and their values are used in the minimization of the $\chi^2$-function (Eq. \ref{chi-2-fitting-function}). The methodology is the one described graphically in Fig. \ref{fitting-workflow-fig}.
-
-Firstly, the normalization adopted in $\mathbf{W_2}$ is sketched in Table. Furthermore, with the extracted information from this table, a set of fitting parameters can be obtained.
+Because $^{163}$Lu is the only isotope to have positive and negative parity parity bands in the same collective structure, the $\mathbf{W_2}$ will be tested on this isotope. In what follows, the numerical results concerning the spectrum of excitation energies will be presented. The excitation energies are defined as per the rule from Eq. \ref{excitation-energy-general-formula}, and their values are used in the minimization of the $\chi^2$-function (Eq. \ref{chi-2-fitting-function}). The methodology is the one described graphically in Fig. \ref{fitting-workflow-fig}. Firstly, the normalization adopted in $\mathbf{W_2}$ is sketched in Table \ref{lu163-table-info}. Furthermore, with the information from this table, a set of fitting parameters can be attained.
+\begin{table}
+    \centering
+      \begin{tabular}{llllll}
+      \hline
+      Band & $n_s$ & $\mathbf{j}_\mathcal{Q}$ & $\mathbf{R}_\mathscr{C}$ - Sequence & $\mathbf{I}$ - Sequence & Coupling  \\
+      \hline
+      \hline
+         TSD1 & 21 & $\mathcal{Q}_1$ & $\mathscr{C}_1=0^+,2^+,4^+,\dots$   & $13/2^+,17/2^+,21/2^+,\dots$ & $C'_1$        \\
+         TSD2 & 17 & $\mathcal{Q}_1$ & $\mathscr{C}_2^+=1^+,3^+,5^+,\dots$ & $27/2^+,31/2^+,35/2^+,\dots$ & $C'_2$        \\
+         TSD3 & 14 & $\mathcal{Q}_1$ & 1-phonon exc.                       & $33/2^+,37/2^+,41/2^+,\dots$ & \\
+         TSD4 & 11 & $\mathcal{Q}_1$ & $\mathscr{C}_2^-=1^-,3^-,5^-,\dots$ & $47/2^-,51/2^-,55/2^-,\dots$ & $C'_3$        \\
+         \hline
+    \end{tabular}
+    \caption{The number of energy states $n_s$ within each wobbling band, the valence nucleon that is $j^\pi=13/2^+$, the core's a.m. $\mathbf{R}_\mathscr{C}$, the nucleus' a.m. $\mathbf{I}$, and the corresponding coupling scheme that was established according to the \texttt{W2} model.}
+    \label{lu163-table-info}
+\end{table}
