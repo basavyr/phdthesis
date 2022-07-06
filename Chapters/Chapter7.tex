@@ -172,7 +172,7 @@ Taking the moments of inertia given by the $\mathbf{W_2}$ model, a direct compar
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/parity-partners-plots/rigid-mois-fit.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/parity-partners-plots/hydrodynamic-mois-fit.pdf}
-    \caption{The rigid (\textbf{left}) and hydrodynamical (\textbf{right}) MOI as function of $\gamma$. The scaling factors for both types of MOI are determined by fixing $\mathcal{I}^\text{rig}_1$ and $\mathcal{I}_1^\text{irr}$ to the fitted $\mathcal{I}_1$ with the deformation parameters $(\beta,\gamma)=(0.38,22^\circ)$. The black, red, and blue points represented the numerical values of $\mathcal{I}_1$, $\mathcal{I}_2$, and $\mathcal{I}_3$ from Table \ref{lu163-parameters-parity-fitting}, respectively.}
+    \caption{The rigid (\textbf{left}) and hydrodynamical (\textbf{right}) MOI as function of $\gamma$. The scaling factors for both types of MOI are determined by fixing $\mathcal{I}^\text{rig}_1$ and $\mathcal{I}_1^\text{irr}$ to the fitted $\mathcal{I}_1$ with the deformation parameters $(\beta,\gamma)=(0.38,22^\circ)$. The black, red, and blue points represented the numerical values of $\mathcal{I}_1$, $\mathcal{I}_2$, and $\mathcal{I}_3$ from Table \ref{lu163-parameters-parity-fitting}, respectively. The value $\gamma=22^\circ$ from the fit is marked with the dashed magenta line just to guide the eye.}
     \label{w2-mois-comparison}
 \end{figure}
 
@@ -184,4 +184,21 @@ According to the structure described in the beginning of this chapter, the above
 
 \section{Energy Function - Geometrical Interpretation}
 
-From the Hamiltonian given by Eq. \ref{total-ham-approach-w1}, with the rotor term in Eq. \ref{rotor-ham-approach-w1} and the single-particle term in Eq. \ref{single-particle-ham-approach-w1}, one obtained the classical energy function by taking its average on the trial function (Eq. \ref{trial-function-appeoach-w1}). The structure of the CEF was firstly given in Section \ref{classical-energy-function-subsection} through Eq. \ref{full-classical-energy-function}. The calculations were considered for the MOI ordering $\mathcal{I}_1>\mathcal{I}_2>\mathcal{I}_3$, which is still valid. The minimum point of $\mathcal{H}$ was found to be $p_0=(0,I;0,j)$ (recall Eq. \ref{cef-minimum-point-p0}). These considerations are still important here.
+From the Hamiltonian given by Eq. \ref{total-ham-approach-w1} (i.e., sum of the single-particle term in Eq. \ref{single-particle-ham-approach-w1} and the rotor term in Eq. \ref{rotor-ham-approach-w1}), one obtained the classical energy function by taking the Hamiltonian's average on the trial function (Eq. \ref{trial-function-appeoach-w1}). The structure of the CEF was firstly given in Section \ref{classical-energy-function-subsection} and even a qualitative analysis of its sub-terms has been employed in Figs. \ref{fig-A-varphi-canonical} - \ref{fig-A-gamma-canonical}. The minimum point of $\mathcal{H}$ was found to be $p_0=(0,I;0,j)$ (recall Eq. \ref{cef-minimum-point-p0}). These considerations are still important here. Going back to the expression of $\mathcal{H}$ from Eq. \ref{full-classical-energy-function}, it can be given in a compact from as \cite{poenaru2021extensive2}:
+\begin{align}
+    \left. \mathcal{H}\ \right\vert_{p_0}=I\left(I-\frac{1}{2}\right)\sin^2\theta\cdot \mathcal{A}_\varphi-2A_1Ij\sin\theta+T_\text{core}+T_\text{sp}\ ,
+\end{align}
+where the last two terms are independent of the polar angles $(\theta,\varphi)$ and they are defined as \cite{poenaru2021extensive2}:
+\begin{align}
+    T_\text{core}&=\frac{I}{2}(A_1+A_2)+A_3I^2\ ,\\
+    T_\text{s.p.}&=\frac{j}{2}(A_2+A_3)+A_1j^2-V\frac{2j-1}{j+1}\sin\left(\gamma+\frac{\pi}{6}\right)\ .
+    \label{core-sp-sub-terms}
+\end{align}
+
+It would be instructive to see how the core factor from Eq. \ref{core-sp-sub-terms} behaves under different $A_k$ orderings and also how the single-particle term evolves for different $j$. Two such comparisons are depicted in Fig. 
+
+% finish 
+is useful to express it in terms of the angular momentum components. The total angular momentum $\mathbf{I}$ has the Cartesian components defined as:
+\begin{align}
+    \mathbf{I}=\left\{I_1,I_2,I_3\right\}\stackrel{not.}{=}\left\{x_1,x_2,x_3\right\}\ .
+\end{align} 
