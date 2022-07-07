@@ -182,11 +182,17 @@ Lastly, the single-particle potential strength should be discussed. It has a val
 
 According to the structure described in the beginning of this chapter, the above sections conclude part $1)$ of the research, which was supposed to describe the concept of Parity Partners, to re-define the excitation energy spectrum and apply it to $^{163}$Lu, and finally to give a some context on the interpretation of the free parameters. Since all points were properly covered, and one can go further to part $2)$ of this study, where the classical energy function must be re-evaluated under the assumptions of $\mathbf{W_2}$ approach.
 
-\section{Energy Function - Geometrical Interpretation}
+\section{Classical Energy Function (CEF)}
 
-From the Hamiltonian given by Eq. \ref{total-ham-approach-w1} (i.e., sum of the single-particle term in Eq. \ref{single-particle-ham-approach-w1} and the rotor term in Eq. \ref{rotor-ham-approach-w1}), one obtained the classical energy function by taking the Hamiltonian's average on the trial function (Eq. \ref{trial-function-appeoach-w1}). The structure of the CEF was firstly given in Section \ref{classical-energy-function-subsection} and even a qualitative analysis of its sub-terms has been employed in Figs. \ref{fig-A-varphi-canonical} - \ref{fig-A-gamma-canonical}. The minimum point of $\mathcal{H}$ was found to be $p_0=(0,I;0,j)$ (recall Eq. \ref{cef-minimum-point-p0}). These considerations are still important here. Going back to the expression of $\mathcal{H}$ from Eq. \ref{full-classical-energy-function}, it can be given in a compact from as \cite{poenaru2021extensive2}:
+From the Hamiltonian given by Eq. \ref{total-ham-approach-w1} (i.e., sum of the single-particle term in Eq. \ref{single-particle-ham-approach-w1} and the rotor term in Eq. \ref{rotor-ham-approach-w1}), one obtained the classical energy function by taking the Hamiltonian's average on the trial function (Eq. \ref{trial-function-appeoach-w1}). The structure of the CEF was firstly given in Section \ref{classical-energy-function-subsection} and even a qualitative analysis of its sub-terms has been employed in Figs. \ref{fig-A-varphi-canonical} - \ref{fig-A-gamma-canonical}. The minimum point of $\mathcal{H}$ was found to be $p_0=(0,I;0,j)$ (recall Eq. \ref{cef-minimum-point-p0}). These considerations are still important here. Adopting the polar coordinate system $(\theta,\varphi)$, the Cartesian components of the total angular momentum can be expressed as:
+\begin{align}
+    \mathbf{I}=&\left\{I_1,I_2,I_3\right\}\stackrel{not.}{=}\left\{x_1,x_2,x_3\right\}\ ,\nonumber\\
+    x_1=I\sin\theta\cos\varphi\ ,&\ x_2=I\sin\theta\sin\varphi\ ,\ x_3=I\cos\theta\ ,
+\end{align}
+where the quantization axis is chosen as the $3$-axis. Going back to the expression of $\mathcal{H}$ from Eq. \ref{full-classical-energy-function} and evaluating it in the minimum point using the new coordinate system, a compact form is achieved \cite{poenaru2021extensive2}:
 \begin{align}
     \left. \mathcal{H}\ \right\vert_{p_0}=I\left(I-\frac{1}{2}\right)\sin^2\theta\cdot \mathcal{A}_\varphi-2A_1Ij\sin\theta+T_\text{core}+T_\text{sp}\ ,
+    \label{CEF-minimum-point-Tcore-Tsp}
 \end{align}
 where the last two terms are independent of the polar angles $(\theta,\varphi)$ and they are defined as \cite{poenaru2021extensive2}:
 \begin{align}
@@ -195,16 +201,15 @@ where the last two terms are independent of the polar angles $(\theta,\varphi)$ 
     \label{core-sp-sub-terms}
 \end{align}
 
-It would be instructive to see how the core factor from Eq. \ref{core-sp-sub-terms} behaves under different $A_k$ orderings and also how the single-particle term evolves for different $j$. Two such comparisons are depicted in Fig \ref{fig-t-core-sp-terms}. 
+It would be instructive to see how the core factor from Eq. \ref{core-sp-sub-terms} behaves under different $A_k$ orderings and also how the single-particle term evolves for different $j$. Two such comparisons are depicted in Fig \ref{fig-t-core-sp-terms}. The variations of $T_\text{sp}$ at different $j$ values are not significant. On the other hand, the $A_k$ ordering affects $T_\text{core}$ with a large amount, especially for higher spins.
 \begin{figure}
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/parity-partners-plots/t-core.pdf}
     \includegraphics[width=0.5\textwidth]{Chapters/Figures/parity-partners-plots/t-sp.pdf}
-    \caption{The terms}
+    \caption{\textbf{Right:} The term $T_\text{core}$ from Eq. \ref{core-sp-sub-terms} as function of the angular momentum $I$ at different orderings for $A_k$ (the arbitrary values $0.05, 0.025, 0.011\ \hbar^{-2}\text{MeV}$ were interchanged between each factor). The magenta line is for the inertia factors provided by the fit. \textbf{Left:} The term $T_\text{sp}$ from Eq. \ref{core-sp-sub-terms}, evaluated for three different single-particle angular momenta using the potential strength and the three MOI from Table \ref{lu163-parameters-parity-fitting}.}
     \label{fig-t-core-sp-terms}
 \end{figure}
-% finish 
-% is useful to express it in terms of the angular momentum components. The total angular momentum $\mathbf{I}$ has the Cartesian components defined as:
-% \begin{align}
-%     \mathbf{I}=\left\{I_1,I_2,I_3\right\}\stackrel{not.}{=}\left\{x_1,x_2,x_3\right\}\ .
-% \end{align} 
+
+\subsection{CEF - Stability Regions}
+
+The classical energy function from Eq. \ref{CEF-minimum-point-Tcore-Tsp} is expressed as using the classical coordinates that describe the dynamics of the core (i.e., $r,\varphi$) and the valence nucleon (i.e., $f,\psi$). However, $\mathcal{H}(r,\varphi;f,\psi)$ is nothing else than the average of $\hat{H}$ on the trial function. Going back into the quantal picture, the physical interpretation of Eq. \ref{CEF-minimum-point-Tcore-Tsp} is thus: \emph{the expectation value of the Hamiltonian} or \emph{the allowed energy states that the total system can have}. For this reason, analyzing the CEF around the critical points is crucial for identifying stability of the system concerning its the rotational motion. In this subsection, such calculations will be performed, namely the critical points of $\mathcal{H}$ will be identified and then graphical representations in the.
