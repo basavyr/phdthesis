@@ -349,7 +349,7 @@ Concerning the two numbers from Eq. \ref{tsd-bands-general-spectrum}, i.e., $n_{
 \subsection{Alternative Approach}
 \label{Omega-1-2-alternative-method}
 
-In the following, a different description for the phonon term $\mathcal{F}_{n_{w_1}n_{w_2}}^I$ from Eq. \ref{phononic-term-tsd-energies} will be made and nevertheless the method will provide similar results regarding $\Omega_1$ and $\Omega_2$. This approach will help to understand the definition of the wave-functions of the triaxial bands that will be described later on. Starting again with the CEF from Eq. \ref{classical-energy-function-terms} and expanding it around $p_0$ up to second order, the obtained equation will be \cite{raduta2020approach}:
+In the following, a different description for the phonon term $\mathcal{F}_{n_{w_1}n_{w_2}}^I$ from Eq. \ref{phononic-term-tsd-energies} will be made and, nevertheless, the method will provide similar results regarding $\Omega_1$ and $\Omega_2$. This approach will help to understand the definition of the wave-functions of the triaxial bands that will be described later on. Starting again with the CEF from Eq. \ref{classical-energy-function-terms} and expanding it around $p_0$ up to second order, the obtained equation will be \cite{raduta2020approach}:
 \begin{align}
     \mathcal{H}=&{\color{blue}\mathcal{H}_\text{min}^I}+\nonumber\\
                 &+{\color{red}\bigg\{}\frac{1}{2I}\left[(2I-1)(A_3-A_1)+2jA_1\right]r'^{2}+\frac{I}{2}\left[(2I-1)(A_2-A_1)+2jA_1\right]\varphi'^2+\nonumber\\
@@ -363,7 +363,7 @@ where the primed coordinates $r',\varphi',f',\psi'$ are the deviations from the 
     r'=(r-r_0)\ ,\ \varphi'=(\varphi-\varphi_0)\ ,\nonumber\\
     f'=(f-f_0)\ ,\ \psi'=(\psi-\psi_0)\ .
 \end{align}
-Note that the curly brackets from Eq. \ref{classical-energy-function-deviations} are only used to emphasize the three terms $\mathcal{H}_\mathscr{C}(r,\varphi)+\mathcal{H}_\mathcal{Q}(f,\psi)+\mathcal{H}_\text{mixed}(r,\varphi;f,\psi)$, so that one can clearly see which are the terms with separate canonical variables and which are the mixed ones. Again one illustrates the grouped factors as per Eq. \ref{classical-energy-function-terms} through a similar coloring. It is clear from this expression that $\mathcal{H}_\text{min}^I$ is none other than the free term $\mathcal{H}_\text{free}$.
+Note that the curly brackets from Eq. \ref{classical-energy-function-deviations} are used to emphasize the three terms $\mathcal{H}_\mathscr{C}(r,\varphi)+\mathcal{H}_\mathcal{Q}(f,\psi)+\mathcal{H}_\text{mixed}(r,\varphi;f,\psi)$, so that one can clearly see the which are the terms with separated canonical variables and which are the mixed ones. Again one illustrates the grouped factors as per Eq. \ref{classical-energy-function-terms} through a similar coloring. It is clear from this expression that $\mathcal{H}_\text{min}^I$ is the free term $\mathcal{H}_\text{free}$.
 
 \paragraph*{\textit{i) Non-coupling terms}}
 Ignoring the coupling terms from Eq. \ref{classical-energy-function-deviations}, the CEF will consist in the sum of two independent harmonic oscillators with the frequencies:
@@ -392,13 +392,13 @@ with the terms $S$, $S'$, $T$, and $T'$ defined as:
 The positiveness for $V$ will make sure that the conditions given for $\omega_2$ are always satisfied.
 
 \paragraph*{\textit{ii) Coupling terms}}
-In order to treat the terms that contain products $r'f'$ and $\varphi'\psi'$ from the expansion in Eq. \ref{classical-energy-function-deviations}, a \emph{quantization} should be employed on the canonical variables. Indeed, from the classical coordinates (obtained via the TDVE) of the phase space $S_\text{cls}$, one can also go back to a quantum $S_\text{qt}$ space, where each coordinate will have a corresponding (quantal) operator defined in that space. Such a change was properly implemented in \cite{raduta2020approach}, resulting in the following transformations:
+For treating the terms from the expansion given in Eq. \ref{classical-energy-function-deviations} that contain products of the type $r'\cdot f'$ and $\varphi'\cdot \psi'$, a \emph{quantization} should be employed on the canonical variables. Indeed, from the classical coordinates (obtained via the TDVE) of the phase space $S_\text{cls}$, one can also go back to a quantum $S_\text{qt}$ space, where each coordinate will have a corresponding (quantal) operator defined in that space. Such a change was properly implemented in \cite{raduta2020approach}, resulting in the following transformations:
 \begin{align}
-    \varphi\to&\hat{q}_1\ ,\ r\to\hat{p}_1\ ,\ \left[\hat{q}_1,\hat{p}_1\right]=\iu\ ,\nonumber\\
-    \psi\to&\hat{q}_2\ ,\ f\to\hat{p}_2\ ,\ \left[\hat{q}_2,\hat{p}_2\right]=\iu\ .
+    \varphi\to\hat{q}_1\ ,\ r\to\hat{p}_1\ ,\ \left[\hat{q}_1,\hat{p}_1\right]&=\iu\ ,\nonumber\\
+    \psi\to\hat{q}_2\ ,\ f\to\hat{p}_2\ ,\ \left[\hat{q}_2,\hat{p}_2\right]&=\iu\ .
     \label{canonical-coordinates-quantized}
 \end{align}
-The notation of the operators is consistent with the fact that $(\varphi,\psi)$ represent the canonical coordinates and $(r,f)$ depict the canonical momenta. Furthermore, each set of operators a corresponding creation and annihilation operator defined as:
+The notation of the operators is consistent with the fact that $(\varphi,\psi)$ represent the canonical coordinates and $(r,f)$ depict the canonical momenta. Furthermore, each set has a corresponding creation and annihilation operator defined as:
 \begin{align}
     a^\dagger=\frac{1}{\sqrt{2}k_1}\left(k_1^2\hat{q}_1+ \iu \hat{p}_1\right)\ ,\ a=\frac{1}{\sqrt{2}k_1}\left(k_1^2\hat{q}_1+ \iu \hat{p}_1\right)\ ,
     \label{creation-operators-a}
@@ -408,28 +408,28 @@ for the variables $(r,\varphi)$ of the core and:
     b^\dagger=\frac{1}{\sqrt{2}k_2}\left(k_2^2\hat{q}_2+ \iu \hat{p}_2\right)\ ,\ b=\frac{1}{\sqrt{2}k_2}\left(k_2^2\hat{q}_2+ \iu \hat{p}_2\right)\ ,
     \label{creation-operators-b}
 \end{align}
-for the single-particle variables $(f,\psi)$. With the terms defined in Eqs. \ref{creation-operators-a} - \ref{creation-operators-b}, the operators $(\hat{q}_1,\hat{p}_1)$ and $(\hat{q}_2,\hat{p}_2)$ will acquire the following form:
+for the single-particle variables $(f,\psi)$. Using the terms defined in Eqs. \ref{creation-operators-a} - \ref{creation-operators-b}, the operators $(\hat{q}_1,\hat{p}_1)$ and $(\hat{q}_2,\hat{p}_2)$ will acquire the following form:
 \begin{align}
     \hat{q}_1=&\frac{1}{\sqrt{2}k_1}\left(a^\dagger+a\right)\ ,\ \hat{p}_1=\frac{\iu k_1}{\sqrt{2}}\left(a^\dagger-a\right)\ ,\nonumber\\
     \hat{q}_2=&\frac{1}{\sqrt{2}k_2}\left(b^\dagger+b\right)\ ,\ \hat{p}_2=\frac{\iu k_2}{\sqrt{2}}\left(b^\dagger-b\right)\ .
     \label{canonical-transformations-ab-qp}
 \end{align}
 
-The transformations that go from $(\hat{q}_1,\hat{p}_1)$ and $(\hat{q}_2,\hat{p}_2)$ to $(a^\dagger, a)$ and $(b^\dagger, b)$ are \emph{canonical}. The two constant factors $k_1$ and $k_2$ that appear in Eqs. \ref{creation-operators-a} - \ref{canonical-transformations-ab-qp} are called \emph{canonicity factors} (firstly introduced by the team in \cite{raduta2017semiclassical}), and they are fixed such that `dangerous' terms like $(a^\dagger)^2+a^2$ and $(b^\dagger)^2+b^2$ do not appear in the two frequencies. One should not confuse them with the canonical factors $\mathcal{A}$, which were defined in Eq. \ref{classical-energy-function-A-factors} as a way of expressing the CEF. The expressions for $k_1$ and $k_2$ are \cite{raduta2020approach}:
+The transformations that go from $(\hat{q}_1,\hat{p}_1)$ and $(\hat{q}_2,\hat{p}_2)$ to $(a^\dagger, a)$ and $(b^\dagger, b)$ are \emph{canonical}. The two constant factors $k_1$ and $k_2$ that appear in Eqs. \ref{creation-operators-a} - \ref{canonical-transformations-ab-qp} are called \emph{canonicity factors} \cite{raduta2017semiclassical}, and they are fixed such that `dangerous' terms like $(a^\dagger)^2+a^2$ and $(b^\dagger)^2+b^2$ do not appear in the two frequencies. One should not confuse them with the canonical factors $\mathcal{A}$, which were defined in Eq. \ref{classical-energy-function-A-factors} as a way of expressing the CEF. The expressions for $k_1$ and $k_2$ are \cite{raduta2020approach}:
 \begin{align}
     k_1=&\left[\frac{(2I-1)(A_2-A_1)+2jA_1}{(2I-1)(A_3-A_1)+2jA_1}\cdot I^2\right]^{1/4}\, \nonumber\\
     k_2=&\left[\frac{(2j-1)(A_2-A_1)+2IA_1+V\frac{2j-1}{j(j+1)}2\sqrt{3}\sin\gamma}{(2j-1)(A_3-A_1)+2IA_1+V\frac{2j-1}{j(j+1)}\sqrt{3}\left(\sqrt{3}\cos\gamma+\sin\gamma\right)}\cdot j^2\right]^{1/4}\ .
     \label{canonicity-factors}
 \end{align}
-It can be seen that the canonicity factors from Eq. \ref{canonicity-factors} exhibit a behavior $f(x)\propto x^{1/2}$ with respect to the total and single-particle angular momentum, respectively. Moreover, the triaxiality parameter and the single-particle potential strength only affect $k_2$, which is consistent with the particle + core system, i.e., the single-particle will drive the entire system to a large degree of deformation and it will stabilize the structure.
-
-Introducing a set of additional notations (in a similar fashion as for the calculations done in Eqs. \ref{S-parameter-equations-set1} and \ref{S-parameter-equations-set2}):
+It can be seen that the canonicity factors from Eq. \ref{canonicity-factors} exhibit a behavior $f(x)\propto x^{1/2}$ with respect to the total and single-particle angular momentum, respectively. Moreover, the triaxiality parameter and the single-particle potential strength only affect $k_2$.
+% which is consistent with the particle + core system, i.e., the single-particle will drive the entire system to a large degree of deformation and it will stabilize the structure. 
+In a similar fashion as for the calculations done in Eqs. \ref{S-parameter-equations-set1} and \ref{S-parameter-equations-set2}, one can introduce a set of additional notations:
 \begin{align}
     \Delta_{31}=&(2I-1)(A_3-A_1)+2jA_1\ ,\ \Delta_{21}=(2I-1)(A_2-A_1)+2jA_1\ ,\nonumber\\
     \Sigma_{31}=&(2j-1)(A_3-A_1)+2IA_1\ ,\ \Sigma_{21}=(2j-1)(A_2-A_1)+2IA_1\ ,
     \label{Sigma-Delta-factors}
 \end{align}
-while the factors $G_1$ and $G_2$ from Eq. \ref{P-Q-G1-G2-factors} will be kept the same. Compared to the calculations from Eqs. \ref{S-parameter-equations-set1} - \ref{S-parameter-equations-set2}, no prior factorization for the inertia factors is made here. With the notations given in Eq. \ref{Sigma-Delta-factors}, the two oscillator frequencies and the canonicity factors achieve a more practical shape, namely:
+where the factors $G_1$ and $G_2$ from Eq. \ref{P-Q-G1-G2-factors} will be kept the same. Compared to the calculations from Eqs. \ref{S-parameter-equations-set1} - \ref{S-parameter-equations-set2}, no prior factorization for the inertia factors is made here. With the notations given in Eq. \ref{Sigma-Delta-factors}, the two oscillator frequencies and the canonicity factors achieve a more practical shape, namely:
 \begin{align}
     \omega_1=&\left(\Delta_{31}\cdot\Delta_{21}\right)^{1/2}\ ,\nonumber\\
     \omega_2=&\left(\Sigma_{31}+VG_1\right)^{1/2}\cdot\left(\Sigma_{21}+VG_2\right)^{1/2}\ ,
