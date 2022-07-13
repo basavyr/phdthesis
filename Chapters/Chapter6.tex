@@ -917,9 +917,9 @@ Usually, the dynamic MOI is sensitive to the single-particle effects, such as sp
 
 \subsection{Electromagnetic Transitions}
 
-In this section, the electromagnetic transitions for $^{161,163,165,167}$Lu will be calculated within the $\mathbf{W_1}$ formalism and compared with the available experimental data. For collective phenomena, one usually expects two `main' characteristics to arise: a) the transitions between neighboring bands to be predominantly of E2 character and b) the states have large quadrupole moments. In fact, as it was discussed in Chapters \ref{chapter4} and \ref{chapter-5}, the large quadrupole moments and large mixing ratios $\delta$ are regarded as essential `tests' for wobbling behavior.
+In this section, the electromagnetic transitions for $^{161,163,165,167}$Lu will be calculated within the $\mathbf{W_1}$ formalism and compared with the experimental data. For collective phenomena, one usually expects two `main' characteristics to arise: $a)$ the transitions between neighboring bands to be predominantly of E2 character and $b)$ the states have large quadrupole moments. In fact, as it was discussed in Chapters \ref{chapter4} and \ref{chapter-5}, the large quadrupole moments and large mixing ratios are regarded as essential `tests' for wobbling behavior.
 
-For the numerical application, in the first part the electric quadrupole E2 transitions will be discussed, while in the second part the magnetic dipole M1 transitions are addressed. Concerning the states, the transitions between two states inside the same band (=intraband) as well as the transitions between adjacent bands (=interband) need to be evaluated. Because of the collective nature of the wobbling bands, the spin difference within a band is $\Delta I=2$ units of angular momentum, while two states from adjacent bands only differ by one unit $\Delta I=1$ (recall Fig. \ref{wobbling-geometry-tilting-sketch} from the discussion in Chapter \ref{chapter-5}). A schematic representation that illustrates the difference between interband/intraband transitions can be seen in Fig. \ref{schematic-interband-intraband-E2}. Therein, the E2 transitions are sketched for levels belonging to the same band and levels from different bands, and for each band the allowed spin sequences are exemplified. The magnetic transitions for wobbling states have a dipole nature, which means that they take place between states that differentiate by one unit of angular momentum. Experimental observations point out that in collective spectra these M1 transitions are typically quite small in comparison with the E2 ones. Moreover, the `competition' between E2 and M1 for a state $I$ is reflected in the mixing ratio $\delta$, which is expected to be large for the studied isotopes. 
+For the numerical application, the electric quadrupole E2 transitions will be discussed in the first part, while the magnetic dipole M1 transitions are addressed in the second part. Concerning the transitions, the \emph{intraband} as well as the \emph{interband} ones need to be evaluated. Because of the collective nature of the wobbling bands, the spin difference within a band is $\Delta I=2$ units of angular momentum, while two states from adjacent bands only differ by one unit $\Delta I=1$ (recall Fig. \ref{wobbling-geometry-tilting-sketch} from the discussion in Chapter \ref{chapter-5}). A schematic representation that illustrates the difference between interband/intraband transitions can be seen in Fig. \ref{schematic-interband-intraband-E2}. Therein, the E2 transitions are sketched for levels belonging to the same band and levels from different bands, and for each band the allowed spin sequences are exemplified. The magnetic transitions for wobbling states have a dipole nature. Experimental observations point out that in collective spectra these M1 transitions are typically quite small in comparison with the E2 ones. Moreover, the `competition' between E2 and M1 for a state $I$ is reflected in the mixing ratio $\delta$, which is expected to be large for the studied isotopes. 
 \begin{figure}
     \centering
     \includegraphics[scale=1.1]{Chapters/Figures/transitions-wobbling-states.pdf}
@@ -927,7 +927,7 @@ For the numerical application, in the first part the electric quadrupole E2 tran
     \label{schematic-interband-intraband-E2}
 \end{figure}
 
-The transition probabilities between states that comprise the excited spectra can be determined from the matrix elements (m.e.) of the \emph{electromagnetic transition operators} (recall discussion in Section \ref{intro-EM-chapter3} from Chapter \ref{chapter-3}). The calculations are made in the laboratory (lab) system, meaning that the multipole operators must be expressed in terms of the \emph{intrinsic} ones via the Wigner-$\mathcal{D}$ functions \cite{toki1975asymmetric,bohr1998nuclear}:
+The transition probabilities between states that comprise the excited spectra are be determined from the matrix elements (m.e.) of the \emph{electromagnetic transition operators} (recall discussion in Section \ref{intro-EM-chapter3} from Chapter \ref{chapter-3}). The calculations are made in the laboratory (lab) system, meaning that the multipole operators must be expressed in terms of the \emph{intrinsic} ones via the Wigner-$\mathcal{D}$ functions \cite{toki1975asymmetric,bohr1998nuclear}:
 \begin{align}
     \mathcal{M}(\lambda,\mu)=\sum_\nu\mathcal{D}_{\mu\nu}^\lambda\mathcal{M}(\lambda,\nu)\ ,
     \label{multipole-operator-lab}
@@ -936,7 +936,7 @@ where $\mathcal{M}(\lambda,\mu)$ represents the lab operator and $\mathcal{M}(\l
 
 \subsubsection{E2 Transitions}
 
-For the E2 transitions, one has to replace $\lambda=2$ in Eq. \ref{multipole-operator-lab}, and the \emph{quadrupole transition operator} becomes \cite{toki1975asymmetric,raduta2020towards}:
+For the E2 transitions, one has to replace $\lambda=2$ in Eq. \ref{multipole-operator-lab} and the \emph{quadrupole transition operator} becomes \cite{toki1975asymmetric,raduta2020towards}:
 \begin{align}
     \mathcal{M}(E2,\mu)=\left[\mathcal{D}_{\mu0}^2Q_0-\left(D_{\mu 2}^2+D_{\mu -2}^2\right)Q_2\right]+\mathrm{e}\sum_{\nu=-2,0,2}\mathcal{D}_{\mu\nu}^2r^2Y_2^\nu\ .
     \label{electric-quadrupole-operator-lab}
@@ -973,10 +973,11 @@ with the two factors $C_{IK}$ and $C_{j\Omega}$ expressed in terms of the binomi
     C_{IK}=\frac{1}{2^I}\binom{2I}{I-K}^{1/2}\ ,\ C_{j\Omega}=\frac{1}{2^j}\binom{2j}{j-\Omega}^{1/2}\ ,
     \label{CIK-binomial-coefficient}
 \end{align}
-and $\ket{\varnothing}_I$ being the vacuum state for the boson creation and annihilation operators $(a^\dagger,a;b^\dagger,b)$ that emerged by means of the re-quantization procedure applied in Eqs. \ref{canonical-coordinates-quantized} - \ref{canonical-transformations-ab-qp} for the classical coordinates $(r,\varphi;f,\psi)$. Any arbitrary state $\ket{\Psi_{IM;j}}$ can be spanned from the vacuum as \cite{raduta2017semiclassical}:
-\begin{align}
-    \ket{m,n}_I=\frac{1}{\sqrt{m!n!}}\left(a^\dagger\right)^m\left(b^\dagger\right)^n\ket{\varnothing}_I\ ,\ m,n=1,2,3,\dots\ .
-\end{align}
+and $\ket{\varnothing}_I$ being the vacuum state for the boson creation and annihilation operators $(a^\dagger,a;b^\dagger,b)$ that emerged by means of the re-quantization procedure applied in Eqs. \ref{canonical-coordinates-quantized} - \ref{canonical-transformations-ab-qp} for the classical coordinates $(r,\varphi;f,\psi)$.
+% Any arbitrary state $\ket{\Psi_{IM;j}}$ can be spanned from the vacuum as \cite{raduta2017semiclassical}:
+% \begin{align}
+%     \ket{m,n}_I=\frac{1}{\sqrt{m!n!}}\left(a^\dagger\right)^m\left(b^\dagger\right)^n\ket{\varnothing}_I\ ,\ m,n=1,2,3,\dots\ .
+% \end{align}
 
 Regarding the wave-functions that will be utilized for the numerical calculations of $B(E2)$ and $B(M1)$ in the $\mathbf{W_1}$ picture, these can be constructed from the expansion of $\ket{\Psi_{IM;j}}$ up to first-order (abbreviated `1st or.') in the coordinates $(r,\varphi;f,\psi)$ around the point $p_0$, and then perform re-quantization of the coordinates, which results in Eq. \ref{wave-function-TSD1-p0} acquiring the new structure \cite{raduta2017semiclassical,raduta2020approach,raduta2020towards}:
 \begin{align}
@@ -1009,13 +1010,13 @@ The initial and final states from Eq. \ref{reduced-BE2-transitions-toki} are rep
     \bra{\Psi_{I_iM_i;j}}\mathcal{M}(\lambda,\mu)\ket{\Psi_{I_fM_f;j}}=C_{M_f\mu M_i}^{I_f\lambda I_i}\bra{\Psi_{I_i}}|\mathcal{M}(\lambda)|\ket{\Psi_{I_f}}\ .
 \end{align}  
 
-From the structure of $\mathcal{M}(E2,\mu)$ given in Eq. \ref{quadrupole-transition-operator-terms} and the probabilities specified in Eq. \ref{reduced-BE2-transitions-toki}, it results that there will be two sets of reduced matrix elements, i.e., $\bra{\Psi_{I_i}}|T_2^\text{coll}|\ket{\Psi_{I_f}}$ and $\bra{\Psi_{I_i}}|T_2^\text{sp}|\ket{\Psi_{I_f}}$, respectively.  Their analytical expressions are given explicitly in Appendix D from \cite{raduta2017semiclassical}. The matrix element $\bra{\Psi_{I_i}}|\mathcal{M}(E2)|\ket{\Psi_{I_f}}$ is calculated in units of $\mathrm{e}\cdot\text{fm}^2$ or $\mathrm{e}\cdot b$, such that $B(E2)$ is measured in $\mathrm{e}^2\cdot b^2$. Recall that when $B(E2)$ was firstly discussed (Section \ref{intro-EM-chapter3} with Eq. \ref{reduced-E2-clebsch-gordan}) no inference on the transition operator's matrix elements was done, while here one finally adopts them.
+From the structure of $\mathcal{M}(E2,\mu)$ given in Eq. \ref{quadrupole-transition-operator-terms} and the probabilities specified in Eq. \ref{reduced-BE2-transitions-toki}, it results that there will be two sets of reduced matrix elements, i.e., $\bra{\Psi_{I_i}}|T_2^\text{coll}|\ket{\Psi_{I_f}}$ and $\bra{\Psi_{I_i}}|T_2^\text{sp}|\ket{\Psi_{I_f}}$, respectively.  Their analytical expressions are given explicitly in Appendix D from \cite{raduta2017semiclassical}. The matrix element $\bra{\Psi_{I_i}}|\mathcal{M}(E2)|\ket{\Psi_{I_f}}$ is calculated in units of $\mathrm{e}\cdot\text{fm}^2$ or $\mathrm{e}\cdot b$, such that $B(E2)$ is measured in $\mathrm{e}^2\cdot b^2$. Recall that when $B(E2)$ was firstly discussed (Section \ref{intro-EM-chapter3} with Eq. \ref{reduced-E2-clebsch-gordan}) there was no inference on the transition operator's matrix elements, while here one finally adopts them.
 
-Because the formalism $\mathbf{W_1}$ adopts a set of free MOI by fitting Eq. \ref{chi-2-fitting-function}, one cannot assume their actual nature (that is neither hydrodynamical nor rigid). Moreover, the calculated parameters $\mathcal{P}_\text{fit}$ shown in Table \ref{numerical-fitting-parameters-Lu-isotopes} indicate that the maximal MOI is $\mathcal{I}_1$ for each isotope. Accordingly, the quadrupole components $Q_{0}$ and $Q_{2}$ give the degree of elongation and asymmetry of the charge/mass distribution with respect to this axis. In order to keep a consistent numerical procedure, the two quadrupole moments should also be considered as free quantities when computing the transition probabilities (Eq. \ref{reduced-BE2-transitions-toki}). Consequently, the components are evaluated per each isotope by fixing one intraband transition from TSD1 (first excited to yrast) and one interband transition $\text{TSD2}\to\text{TSD1}$ (band-head $I_b$ in TSD2 to $I_b-1$ in TSD1). With this method, the values $Q_0=18.43\ \mathrm{e}b$ and $Q_2=19.81\ \mathrm{e}b$ are determined for $^{163}$Lu. The results for the other isotopes are collected and graphically represented in Fig. \ref{quadrupole-moments-fit-numerical-results}, where a change of ordering between the two quadrupole components can be observed at $^{165}$Lu. Besides that, the magnitude of the components drops quite low compared to the neighboring nuclei. Remarking the fact that the isotope $^{167}$Lu has an almost identical set of quadrupole moments.
+Because the formalism $\mathbf{W_1}$ uses a set of free MOI by fitting Eq. \ref{chi-2-fitting-function}, no assumption on their actual nature (that is neither hydrodynamical nor rigid) is made. Moreover, the calculated parameters $\mathcal{P}_\text{fit}$ shown in Table \ref{numerical-fitting-parameters-Lu-isotopes} indicate that the maximal MOI is $\mathcal{I}_1$ for each isotope. Accordingly, the quadrupole components $Q_{0}$ and $Q_{2}$ give the degree of elongation and asymmetry of the charge/mass distribution with respect to this axis. In order to keep a consistent numerical procedure, the two quadrupole moments should also be considered as free quantities when computing the transition probabilities (Eq. \ref{reduced-BE2-transitions-toki}). Consequently, the components are evaluated per each isotope by fixing one intraband transition from TSD1 (first excited to yrast) and one interband transition $\text{TSD2}\to\text{TSD1}$ (band-head $I_b$ in TSD2 to $I_b-1$ in TSD1). With this method, the values $Q_0=18.43\ \mathrm{e}b$ and $Q_2=19.81\ \mathrm{e}b$ are determined for $^{163}$Lu. The results for the other isotopes are collected and graphically represented in Fig. \ref{quadrupole-moments-fit-numerical-results}, where a change of ordering between the two quadrupole components can be observed at $^{165}$Lu. Besides that, the magnitude of the components drops quite low compared to the neighboring nuclei. Remarking the fact that the isotope $^{167}$Lu has an almost identical set of quadrupole moments.
 \begin{figure}
     \centering
     \includegraphics[scale=0.65]{Chapters/Figures/Lu-exp-energies/fig19.pdf}
-    \caption{The calculated quadrupole moments $Q_0$ and $Q_2$ from \ref{electric-quadrupole-operator-lab}. The unit for $Q$ is $\mathrm{e}\cdot b$. See text for details on their numerical determination.}
+    \caption{The calculated quadrupole moments $Q_0$ and $Q_2$ from \ref{electric-quadrupole-operator-lab}. The unit for $Q$ is $\mathrm{e}\cdot b$. See text for details on their numerical determination. Figure is taken as is from Ref. \cite{raduta2020approach}.}
     \label{quadrupole-moments-fit-numerical-results}
 \end{figure}
 
@@ -1037,7 +1038,7 @@ In addition to the quadrupole moment for in-band transitions $I \to I-2$, the \e
     \label{static-quadrupole-moment}
 \end{align}
 
-In order to test the validity of the current interpretation, the reduced transition probabilities $B(E2)$ are calculated using Eq. \ref{reduced-BE2-transitions-toki} and compared with the experimental data for each isotope. The numerical results for the intraband transitions in TSD1 and TSD2, respectively, are shown in Table \ref{table-intraband-E2-numerical-results}. Furthermore, Table \ref{table-interband-E2-numerical-results} shows the interband transitions $I\to I-1$, which where evaluated as $B(E2;I\to I-1)=\left|\bra{\Psi_I}|\mathcal{M}(E2)|\ket{\Psi_{I-2}}\right|^2$. Both the transition quadrupole moment $Q_I$ (Eq. \ref{quadrupole-transition-moment-QI}) and the SQM (Eq. \ref{static-quadrupole-moment}) are compared with the experimental data in Table \ref{table-quadrupole-QI-QSQM-numerical-results}.
+In order to test the validity of the current interpretation, the reduced transition probabilities $B(E2)$ are calculated using Eq. \ref{reduced-BE2-transitions-toki} and compared with the experimental data for each isotope. The numerical results for the intraband transitions in TSD1 and TSD2 are shown in Table \ref{table-intraband-E2-numerical-results}. Furthermore, Table \ref{table-interband-E2-numerical-results} shows the interband transitions $I\to I-1$, which where evaluated as $B(E2;I\to I-1)=\left|\bra{\Psi_I}|\mathcal{M}(E2)|\ket{\Psi_{I-2}}\right|^2$. Both the transition quadrupole moment $Q_I$ (Eq. \ref{quadrupole-transition-moment-QI}) and the SQM (Eq. \ref{static-quadrupole-moment}) are compared with the experimental data in Table \ref{table-quadrupole-QI-QSQM-numerical-results}.
 \begin{table}
     \centering
     \begin{tabular}{|c|c|c|c|c|ccc|}
@@ -1098,7 +1099,7 @@ In order to test the validity of the current interpretation, the reduced transit
     \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{0.36} & 0.66 & \multicolumn{2}{c|}{} & 59/2 & \multicolumn{1}{c|}{0.41} & - \\ \cline{1-4} \cline{7-9} 
     \multicolumn{4}{|c|}{} & \multicolumn{2}{c|}{} & 63/2 & \multicolumn{1}{c|}{0.38} & - \\ \hline
     \end{tabular}
-    \caption{The reduced interband transition probabilities connecting states $I\in\text{TSD2}\to I-1\in\text{TSD1}$ for the Lu isotopes. Experimental data are taken from Ref. \cite{reich2010nuclear}.}
+    \caption{The reduced interband transition probabilities for connecting states $I\in\text{TSD2}\to I-1\in\text{TSD1}$. Experimental data are taken from Ref. \cite{reich2010nuclear}.}
     \label{table-interband-E2-numerical-results}
 \end{table}
 \begin{table}
@@ -1162,7 +1163,7 @@ Concerning the static quadrupole moments presented in Table \ref{table-quadrupol
     \label{static-quadrupole-fixed-K-TSD2}
 \end{figure}
 
-Unfortunately, experimental data is only available for $^{163}$Lu, meaning that the quality of the model cannot by directly inferred from the comparison of the transition probabilities and moments in the other nuclei. Nevertheless, from the similarities of the isotopes in regards to the collective quantities assessed throughout the previous sections (e.g., dynamical MOI, reference energy, and so on) one expects a consistency across the electromagnetic transitions as well.
+Unfortunately, experimental data are only available for $^{163}$Lu, meaning that the quality of the model cannot be tested directly by comparisons of the transition probabilities in the other nuclei. Nevertheless, from the similarities of the isotopes in regards to the collective quantities assessed throughout the previous sections (e.g., dynamical MOI, alignments, and so on) one expects a consistency across the electromagnetic transitions as well.
 
 \subsubsection{M1 Transitions}
 
