@@ -38,6 +38,7 @@ The two factors $t_{1,2}$ are expressed in terms of the inertial parameters as \
 \begin{align}
     t_1&=I(A_2+A_1-2A_3)\ , \\
     t_2&=I(A_2-A_1)\ .
+    \label{t1-t2-terms}
 \end{align}
 
 Notice the linear dependence of the two parameters on the total angular momentum $I$. Moreover, depending on the values of $A_k$, the contribution of $t_{1,2}$ can be negative. Their behavior is shown within the right inset of Fig. \ref{fig-even-even-wobbling-energies}. Although the Hamiltonian $H_w$ is considered to have an oscillatory-like behavior, its general expression does not look like a harmonic Hamiltonian. Nevertheless, Eq. \ref{wob-ham-non-diagonal} can be brought to a diagonalized form by introducing a new set of boson creation and annihilation operators. These operators will be written as linear combinations of $(b^\dagger,b)$ \cite{bohr1998nuclear}:
@@ -90,7 +91,7 @@ An alternative way of depicting the wobbling term $H_w$ from Eq. \ref{wob-ham-no
     H_w=(A_1-A_3)I_1^2+(A_2-A_3)I_2^2=T_\text{kin}+T_\text{pot}\ ,
     \label{wobbling-hamiltonian-kin-pot-term}
 \end{align}
-where according to Ref. \cite{wen2015wobbling}, one could group the terms into purely \emph{kinetic} and \emph{potential} components. This way of expressing $H_w$ is instructive because it keeps a close contact with the classical picture of understanding the total energy. An example with the behavior of $T_\text{kin}$ and $T_\text{pot}$ w.r.t. the first and second angular momentum components, respectively, can be seen in Fig. \ref{kin-pot-wobbling-ham-example} for different MOI ratios.
+where according to Ref. \cite{wen2015wobbling}, one could group the terms into purely \emph{kinetic} and \emph{potential} components. This way of expressing $H_w$ is instructive because it keeps a close contact with the classical picture of understanding the total energy. An example with the behavior of $T_\text{kin}$ and $T_\text{pot}$ with respect to $I_1$ and $I_2$, respectively, can be seen in Fig. \ref{kin-pot-wobbling-ham-example} for different MOI ratios.
 \begin{figure}
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/kin-pot-terms.pdf}
@@ -99,17 +100,14 @@ where according to Ref. \cite{wen2015wobbling}, one could group the terms into p
     \label{kin-pot-wobbling-ham-example}
 \end{figure}
 
-As a quantitative analysis of the wobbling frequency and the rotor energy, one can take three arbitrary values for the moments of inertia (and, implicitly, the inertia factors $A_k$) and see the behavior of both $E_{I,n}$ and $\hbar\omega_w$ with increasing angular momentum and wobbling phonon number. Keep in mind that depending on the value of the wobbling phonon number, different spin sequences will be allowed. More precisely, from the invariance of the rotor w.r.t. rotations by $\pi$ about the principal axes for even-even nuclei, the signature quantum number $\alpha$ can take the values 0 and 1. Each wobbling band will have an alternating signature, starting with $\alpha=0$ for $n_w=0$ then $\alpha=1$ for $n_w=1$ and so on: even spin sequences appear for even values of $n_w$ and odd spin sequences appear for odd values of $n_w$ (see Fig. \ref{fig-even-even-wobbling-energies}).
+As a qualitative analysis of the wobbling frequency and the rotor energy, one can take three arbitrary values for the moments of inertia and study the behavior of both $E_{I,n}$ and $\hbar\omega_w$ with increasing angular momentum and wobbling phonon number. Keep in mind that depending on the value of the wobbling phonon number, different spin sequences will be allowed. More precisely, from the invariance of the rotor w.r.t. rotations by $\pi$ about the principal axes for even-even nuclei, the signature quantum number $\alpha$ can take the values 0 and 1. Each wobbling band will have an alternating signature, starting with $\alpha=0$ for $n_w=0$ then $\alpha=1$ for $n_w=1$ and so on: even spin sequences appear for even values of $n_w$ and odd spin sequences appear for odd values of $n_w$ (see Fig. \ref{fig-even-even-wobbling-energies}).
 
-The rotor energy from Eq. \ref{eq-wobbling-energy-evenA} is graphically represented for an arbitrary set of moments of inertia as a function of the nuclear angular momentum $I$ in the left inset of Fig. \ref{fig-even-even-wobbling-energies}. This pedagogical example contains rotational bands up to $n_w=5$ in the wobbling phonon number. From Fig. \ref{fig-even-even-wobbling-energies}, one can see the linear dependence on the total angular momentum for the wobbling frequency $\hbar\omega_w$ (the right inset) and the similar increasing trend of both the wobbling energy and frequency with respect to total spin.
-
+The rotor energy from Eq. \ref{eq-wobbling-energy-evenA} is graphically represented for an arbitrary set of moments of inertia as a function of the nuclear angular momentum $I$ in the left inset of Fig. \ref{fig-even-even-wobbling-energies}. This pedagogical example contains rotational bands up to $n_w=5$ in the wobbling phonon number. From Fig. \ref{fig-even-even-wobbling-energies}, one can see the linear dependence on the total angular momentum for the wobbling frequency $\hbar\omega_w$ (the right inset) and the similar increasing trend of both the wobbling energy and frequency with respect to $I$.
 \begin{figure}
     \centering
-    % \includegraphics[scale=0.74]{Chapters/Figures/wobblingFreq-evenA.pdf}
-    % \includegraphics[scale=0.7]{Chapters/Figures/wobbling-evenA.pdf}
     \includegraphics[scale=0.755]{Chapters/Figures/wobblingFreq-evenA.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/wobbling-evenA.pdf}
-    \caption{\textbf{Left:} The energy spectrum for an even-even nucleus with three different moments of inertia, with the main rotation around the $3$-axis, according to Eq. \ref{eq-wobbling-energy-evenA}. Each wobbling band has alternating signature number $\alpha$ (starting with $\alpha=0$ for the ground state $n_w=0$ band). Notice the even/odd spin sequences for each band. \textbf{Right:}: The wobbling frequency (as given by Eq. \ref{wobbling-frequency-even-A}) plotted together with the linear terms $t_1$ and $t_2$ that are used to express $\hbar\omega_w$. Same set of MOI were used across both figures and the unit for $\mathcal{I}_i$ is $\hbar^2\ \text{MeV}^{-1}$.}
+    \caption{\textbf{Left:} The energy spectrum for an even-even triaxial nucleus, with the main rotation around the $3$-axis, according to Eq. \ref{eq-wobbling-energy-evenA}. \textbf{Right:} The wobbling frequency (as per Eq. \ref{wobbling-frequency-even-A}) plotted together with the linear terms $t_1$ and $t_2$ (Eq. \ref{t1-t2-terms}), which are used to express $\hbar\omega_w$. The unit for $\mathcal{I}_k\ ,\ k=1,2,3$ is $\hbar^2\ \text{MeV}^{-1}$.}
     \label{fig-even-even-wobbling-energies}
 \end{figure}
 
