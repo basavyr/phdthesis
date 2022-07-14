@@ -340,11 +340,13 @@ Returning to the QTR Hamiltonian from Eq. \ref{oddA-QTR-general-hamiltonian}, if
     \label{hamiltonian-qtr-FA}
 \end{align}
 
-The subscript `QTR' from Eq. \ref{oddA-QTR-general-hamiltonian} will be dismissed hereafter. By using such a constraint in the QTR Hamiltonian, the angular momentum for $\mathcal{Q}$ becomes just a number (i.e., $\mathbf{j}_{\mathcal{Q}}\to j$). Unless it is specifically mentioned, when $j$ appears in equations, it represents the angular momentum value of the fixed quasi-particle, and not the vector $\mathbf{j}_\mathcal{Q}$. Regarding the angular momentum components, these can be re-written as:
+The subscript `QTR' from Eq. \ref{oddA-QTR-general-hamiltonian} will be dismissed hereafter. By using such a constraint in the QTR Hamiltonian, the angular momentum for $\mathcal{Q}$ becomes just a number (i.e., $\mathbf{j}_{\mathcal{Q}}\to j$).
+%Unless it is specifically mentioned, when $j$ appears in equations, it represents the angular momentum value of the fixed quasi-particle, and not the vector $\mathbf{j}_\mathcal{Q}$.
+Regarding the angular momentum components, these can be re-written as:
 \begin{align}
     \hat{I}_3=\sqrt{\mathscr{I}^2-\hat{I}_1^2-\hat{I}_1^2}\approx\mathscr{I}-\frac{1}{2}\left(\frac{\hat{I}_1^2}{\mathscr{I}}+\frac{\hat{I}_2^2}{\mathscr{I}}\right)\ ,
 \end{align}
-where the `eigenvalue' of $\mathbf{I}$ is denoted as $\mathscr{I}=\sqrt{I(I+1)}$. Note that this is in fact a second-order expansion in terms of the square-root function. If the factor $A_3$ is also expressed in terms of $j$ and $\mathscr{I}$ (e.g., introducing a \emph{reduced} inertia parameter) via the relation:
+where the eigenvalue of $\mathbf{I}$ is denoted as $\mathscr{I}=\sqrt{I(I+1)}$. Note that this is in fact a second-order expansion in terms of the square-root function. If the factor $A_3$ is also expressed in terms of $j$ and $\mathscr{I}$ (e.g., introducing a so-called \emph{reduced} inertia parameter) via the relation:
 \begin{align}
     \mathscr{A}_3=A_3\left(1-\frac{j}{\mathscr{I}}\right)\ ,
     \label{reduced-inertia-parameter-A3}
@@ -360,18 +362,18 @@ The reduced inertia parameter $\mathscr{A}_3$ is graphically represented in Fig.
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/reducedInertia_fig1.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/reducedInertia_fig2.pdf}
-    \caption{The reduced inertia parameter defined in Eq. \ref{reduced-inertia-parameter-A3} as a function of spin. \textbf{Left:} The angular momentum of the quasi-particle is fixed (i.e., $j=13/2$) and different values for $A_3$ are attributed. The vertical grid-line corresponds to the value of $j$ at which $\mathscr{A}_3$ becomes positive. The horizontal dotted grid-lines correspond to the numerical values of $A_3$. \textbf{Right:} The value of $A_3$ is fixed and different a.m. values for $j$ are considered. Note that $I$ is used to define $\mathscr{I}$ which appears in the expression of $\mathscr{A}_3$.}
+    \caption{The reduced inertia parameter defined in Eq. \ref{reduced-inertia-parameter-A3} as a function of spin. \textbf{Left:} The angular momentum of the quasi-particle is fixed (i.e., $j=13/2$) and different values for $A_3$ are attributed. The vertical grid-line corresponds to the value of $j$ at which $\mathscr{A}_3$ becomes positive. The horizontal dashed lines correspond to the numerical values of $A_3$ indicated in the legend. \textbf{Right:} The value of $A_3$ is fixed and different a.m. values for $j$ are considered. Note that $I$ is used to define $\mathscr{I}$, which appears in the expression of $\mathscr{A}_3$.}
     \label{reduced-inertia-A3-figs}
 \end{figure}
 
-The Hamiltonian for an odd-$A$ triaxial nucleus has an expression which at a first glance looks quite similar to the simple wobbler (Eq. \ref{general-rotor-ham-evenA}), except that the coefficients of the first and second components $\hat{I}_{1,2}$ of the total a.m. contain a contribution coming from the quasi-particle itself (through the `reduced' inertia parameter $\mathscr{A}_3$ given in Eq. \ref{reduced-inertia-parameter-A3}). It is important to mention the fact that one can typically apply HA method for the QTR Hamiltonian only when $\hat{I}_1^2+\hat{I}_2^2<<I(I+1)$ \cite{bohr1998nuclear,frauendorf2014transverse}.
+The Hamiltonian for an odd-$A$ triaxial nucleus has an expression which at a first glance looks quite similar to the simple wobbler (Eq. \ref{general-rotor-ham-evenA}), except that the coefficients of the first and second components $\hat{I}_{1,2}$ of the total a.m. contain a contribution coming from the quasi-particle itself (through the reduced inertia parameter $\mathscr{A}_3$ given in Eq. \ref{reduced-inertia-parameter-A3}). It is important to mention the fact that one can typically apply HA method for the QTR Hamiltonian only when $\hat{I}_1^2+\hat{I}_2^2<<I(I+1)$ \cite{bohr1998nuclear,frauendorf2014transverse}.
 
 As it was the case for the simple wobbler (recall Eq. \ref{wobbling-frequency-even-A}), a wobbling frequency can be deduced from Eq. \ref{HA-QTR-Hamiltonian} by following a similar procedure. Thus, through an analogy with Eq. \ref{wobbling-frequency-even-A}, the QTR frequency is:
 \begin{align}
     \hbar\omega_w=2\mathscr{I}\sqrt{\left(A_1-\mathscr{A}_3\right)\left(A_2-\mathscr{A}_3\right)}\ ,
     \label{wobbling-frequency-odd-A-inertiaParams}
 \end{align}
-or by expressing the factors $A_k$ in terms of the three moments of inertia:
+or in terms of the three moments of inertia:
 \begin{align}
     \hbar\omega_w=\frac{j}{\mathcal{I}_3}\sqrt{\left[1+\frac{\mathscr{I}}{j}\left(\frac{\mathcal{I}_3}{\mathcal{I}_1}-1\right)\right]\left[1+\frac{\mathscr{I}}{j}\left(\frac{\mathcal{I}_3}{\mathcal{I}_2}-1\right)\right]}\ .
     \label{wobbling-frequency-odd-A-MOI}
@@ -380,7 +382,7 @@ The wobbling frequency for a longitudinal wobbler requires the condition:
 \begin{align}
     \mathcal{I}_3>(\mathcal{I}_1,\mathcal{I}_1)\ \equiv\ A_3<(A_1,A_2)\ ,
 \end{align}
-meaning that the total system rotates around the $3$-axis (intermediate axis with largest MOI as $\mathcal{I}_3=\mathcal{I}_m$). For LW, both the $(\mathcal{I}_3/\mathcal{I}_1-1)$ and $(\mathcal{I}_3/\mathcal{I}_2-1)$ are positive, meaning that the wobbling frequency increases with $I$.
+meaning that the total system rotates around the $3$-axis (intermediate axis with largest MOI as $\mathcal{I}_3=\mathcal{I}_m$). For LW, both $(\mathcal{I}_3/\mathcal{I}_1-1)$ and $(\mathcal{I}_3/\mathcal{I}_2-1)$ are positive, meaning that the wobbling frequency increases with $I$.
 For the transverse wobbling, the MOI condition requires:
 \begin{align}
     \mathcal{I}_3>\mathcal{I}_1\ \text{and}\ \mathcal{I}_3<\mathcal{I}_2\ ,
@@ -389,7 +391,7 @@ or, equivalently:
 \begin{align}
     A_3<A_1\ \text{and}\ A_3>A_2\ .
 \end{align}
-The wobbling frequency is thus an increasing function of $\mathscr{I}$ for the longitudinal regime, while for the transverse behavior it increases until it reaches a maximum value $\hbar\omega_w^\text{max}$ and then it starts to \emph{decrease}. It is eventually reaching zero at a \emph{critical spin value} $\mathscr{I}_\text{crit}=j\mathcal{I}_2/(\mathcal{I}_2-\mathcal{I}_3)$. In Fig. \ref{wobbling-freq-oddA}, the behavior of $\hbar\omega_w$ with respect to spin is plotted for a typical longitudinal wobbler (left inset) and a transverse wobbler (right inset). The maximum value for the frequency in TW regime is achieved at a value for $\mathscr{I}$:
+The wobbling frequency is thus an increasing function of $\mathscr{I}$ for the longitudinal regime, while for the transverse behavior it increases until it reaches a maximum value $\hbar\omega_w^\text{max}$ and then it starts to \emph{decrease}. It eventually reaches zero at a \emph{critical spin value} $\mathscr{I}_\text{crit}=j\mathcal{I}_2/(\mathcal{I}_2-\mathcal{I}_3)$. In Fig. \ref{wobbling-freq-oddA}, the behavior of $\hbar\omega_w$ with respect to spin is plotted for a typical longitudinal wobbler (left inset) and a transverse wobbler (right inset). The maximum value for the frequency in TW regime is achieved at:
 \begin{align}
     \mathscr{I}=\frac{j}{2}\left(\frac{\mathcal{I}_1}{\mathcal{I}_1-\mathcal{I}_3}+\frac{\mathcal{I}_2}{\mathcal{I}_2-\mathcal{I}_3}\right)\ .
     \label{wobb-freq-oddA-maxval}
@@ -398,7 +400,7 @@ The wobbling frequency is thus an increasing function of $\mathscr{I}$ for the l
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/wobb_freq_oddA-LW.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/wobb_freq_oddA-TW.pdf}
-    \caption{The wobbling frequency for an odd-$A$ nucleus, with the $\mathcal{Q}$'s a.m. $j=13/2$, coupled to the core $\mathscr{C}$. \textbf{Left:} The \emph{longitudinal wobbler} case with two sets of MOI, where only $\mathcal{I}_2$ differs. \textbf{Right:} The \emph{transverse wobbler} case with two sets of MOI, where only $\mathcal{I}_2$ is different. Note the vertical grid-lines in the right inset, signifying the critical angular momentum where the wobbling frequency reaches zero. The maximum value reached in the TW regime is given by Eq. \ref{wobb-freq-oddA-maxval}. The unit for MOI is $\hbar^2\text{MeV}^{-1}$.}
+    \caption{The wobbling frequency for an odd-$A$ nucleus with $j=13/2$. \textbf{Left:} The \emph{longitudinal wobbler} case with two sets of MOI, where only $\mathcal{I}_2$ changes. \textbf{Right:} The \emph{transverse wobbler} case with two sets of MOI, where only $\mathcal{I}_2$ is different. Note the vertical grid-lines in the right inset that signify the critical angular momentum where the wobbling frequency reaches zero. The maximum value reached in the TW regime is given by Eq. \ref{wobb-freq-oddA-maxval}. The unit for MOI is $\hbar^2\text{MeV}^{-1}$.}
     \label{wobbling-freq-oddA}
 \end{figure}
 
