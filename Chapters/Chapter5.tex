@@ -209,8 +209,7 @@ Besides the excited spectrum obtained in Fig. \ref{plot-ba130-excitation-energie
 
 \subsubsection{Transition Probabilities}
 
-Another step regarding the calculations for $^{130}$Ba consists of the electromagnetic transition probabilities. For this investigation some prior quantities are required. Firstly, the reduced transition probabilities $B(E2)$ (both the interband and the intraband) depend on the components $Q_{20}$ and $Q_{22}$ of the quadrupole moment. These two can be evaluated numerically using the expressions from Eq. \ref{quadrupole-components-q20-q22}, while the intrinsic quadrupole moment is furthermore evaluated using Eq. \ref{quadrupole-moment-Q0}. From the microscopic calculations performed by Chen et al. in Ref. \cite{chen2019transverse}, they determined that this isotope has a stable triaxial minimum located at $(\beta_2,\gamma)=(0.24,21.5^\circ)$. Within the following computations, this set of deformation parameters will be used. Taking the value of $\beta_2=0.24$, the intrinsic quadrupole moment $Q_0$ is readily obtained from Eq. \ref{quadrupole-moment-Q0}. The transition probabilities from Eqs. \ref{intraband-probability-simple-wobbler}, \ref{interband-probability-simple-wobbler-1}, and \ref{interband-probability-simple-wobbler-2} also depend on the two factors $w_{1,2}$ defined in Eq. \ref{eqs-w1-w2-terms-wobbling}, which are functions of the three moments of inertia. Thus, the quality of the fitting procedure will also reflect the calculus for the transition probabilities through $\mathcal{P}_\text{fit}$. The numerical values for $Q_0$, $w_{1,2}$, and $Q_{20,22}$ are presented in Table \ref{transition-parameters-ba130}. Having the deformation parameters, the $w_{1,2}$ terms, and the quadrupole components, one can evaluate the reduced transition probabilities. 
-
+Another step is the calculation of electromagnetic transition probabilities. Firstly, the reduced transition probabilities $B(E2)$ (both the interband and the intraband) depend on the components $Q_{20}$ and $Q_{22}$ of the quadrupole moment. These two can be evaluated numerically using the expressions from Eq. \ref{quadrupole-components-q20-q22}, while the intrinsic quadrupole moment is furthermore evaluated using Eq. \ref{quadrupole-moment-Q0}. From the microscopic calculations performed by Chen et al. in Ref. \cite{chen2019transverse}, they have determined that this isotope has a stable triaxial minimum located at $(\beta_2,\gamma)=(0.24,21.5^\circ)$. This set of deformation parameters will be used within the following computations. Taking the value of $\beta_2=0.24$, the intrinsic quadrupole moment $Q_0$ is readily obtained from Eq. \ref{quadrupole-moment-Q0}. The transition probabilities from Eqs. \ref{intraband-probability-simple-wobbler}, \ref{interband-probability-simple-wobbler-1}, and \ref{interband-probability-simple-wobbler-2} also depend on the two factors $w_{1,2}$ defined in Eq. \ref{eqs-w1-w2-terms-wobbling}, which are functions of the three moments of inertia. Thus, the quality of the fitting procedure will also be reflected in the results for transition probabilities. The numerical values for $Q_0$, $w_{1,2}$, and $Q_{20,22}$ are presented in Table \ref{transition-parameters-ba130}.
 \begin{table}
     \centering
     \begin{tabular}{|c|c|c|}
@@ -230,22 +229,20 @@ Another step regarding the calculations for $^{130}$Ba consists of the electroma
     \label{transition-parameters-ba130}
 \end{table}
 
-The graphical representation from Fig. \ref{BE2out-transitions-130ba} shows the interband transition probabilities $B(E2)_\text{out}$ for states $(n_w=1,I)\to(n_w=0,I-1)$. These values are determined with the parameters defined in Table \ref{transition-parameters-ba130}. A constant decrease with spin can be observed, and an overall agreement with theoretical calculations from Ref. \cite{chen2019transverse} is observed (see inset $a$ from Fig. 4 in \cite{chen2019transverse}).
-
+Having the deformation parameters, the $w_{1,2}$ terms, and the quadrupole components, one can further evaluate the reduced transition probabilities. The graphical representation from Fig. \ref{BE2out-transitions-130ba} shows the interband transition probabilities $B(E2)_\text{out}$ for states $(n_w=1,I)\to(n_w=0,I-1)$. These values are determined with the parameters defined in Table \ref{transition-parameters-ba130}. A constant decrease with spin can be observed, and an overall agreement with theoretical calculations from Ref. \cite{chen2019transverse} is observed (see inset $a$ from Fig. 4 in \cite{chen2019transverse}).
 \begin{figure}
     \centering
-    \includegraphics[scale=0.75]{Chapters/Figures/BE2-out-130Ba.pdf}
+    \includegraphics[scale=0.8]{Chapters/Figures/BE2-out-130Ba.pdf}
     \caption{The interband quadrupole transition probabilities (Eq. \ref{interband-probability-simple-wobbler-1}) from the first excited wobbling band (B2) to the yrast band (B1) for $^{130}$Ba.}
     \label{BE2out-transitions-130ba}
 \end{figure}
 
-Considering the interband transitions $B(E2)_\text{out}$ calculated above and the constant value for $B(E2)_\text{in}$ (typical for the HA), the ratios $B(E2)_\text{out}/B(E2)_\text{in}$ can also be evaluated. These values are good indicators if a nucleus has a strong deformation and for collective behavior (such as the wobbling motion), they typically lie within $0.2\sim 0.5$. In Table \ref{BE2-out-in-ratio-130Ba}, the obtained ratios are compared with the experimental ones, where a decent agreement can be seen, and also a decreasing trend with spin can be observed.
-
+Considering the interband transitions $B(E2)_\text{out}$ and the constant value for $B(E2)_\text{in}$ (typical for the HA), the ratios $B(E2)_\text{out}/B(E2)_\text{in}$ can be assessed. In Table \ref{BE2-out-in-ratio-130Ba}, the obtained ratios are compared with the experimental ones, where a good agreement can be seen. Additionally, a decreasing trend with respect to the angular momentum is observed.
 \begin{table}
     \centering
     \begin{tabular}{|c|cc|}
     \hline
-    \multirow{2}{*}{$I$} & \multicolumn{2}{c|}{$\frac{B(E2)_\text{out}}{B(E2)_\text{in}}$} \\ \cline{2-3} 
+    \multirow{2}{*}{$I$} & \multicolumn{2}{c|}{$B(E2)_\text{out}/B(E2)_\text{in}$} \\ \cline{2-3} 
                          & \multicolumn{1}{c|}{Experimental}          & Calculated         \\ \hline
     11                   & \multicolumn{1}{c|}{}                      & 0.37           \\ \hline
     13                   & \multicolumn{1}{c|}{0.32}                  & 0.32           \\ \hline
@@ -256,7 +253,7 @@ Considering the interband transitions $B(E2)_\text{out}$ calculated above and th
     23                   & \multicolumn{1}{c|}{}                      & 0.18           \\ \hline
     25                   & \multicolumn{1}{c|}{}                      & 0.16           \\ \hline
     \end{tabular}%
-    \caption{The ratios $\frac{B(E2)_\text{out}}{B(E2)_\text{in}}$ for $^{130}$Ba. The interband transitions signify the change from a state $I$ in band B2 to a state $I-1$ in band B1. The experimental data (where available) were taken from Ref. \cite{petrache2019diversity,chen2019transverse}.}
+    \caption{The ratios $B(E2)_\text{out}/B(E2)_\text{in}$ for $^{130}$Ba. The interband transitions signify the change from a state $I$ in band B2 to a state $I-1$ in band B1. The experimental data (where available) are taken from Ref. \cite{petrache2019diversity,chen2019transverse}.}
     \label{BE2-out-in-ratio-130Ba}
 \end{table}
 
