@@ -102,7 +102,7 @@ where according to Ref. \cite{wen2015wobbling}, one could group the terms into p
 
 As a qualitative analysis of the wobbling frequency and the rotor energy, one can take three arbitrary values for the moments of inertia and study the behavior of both $E_{I,n}$ and $\hbar\omega_w$ with increasing angular momentum and wobbling phonon number. Keep in mind that depending on the value of the wobbling phonon number, different spin sequences will be allowed. More precisely, from the invariance of the rotor w.r.t. rotations by $\pi$ about the principal axes for even-even nuclei, the signature quantum number $\alpha$ can take the values 0 and 1. Each wobbling band will have an alternating signature, starting with $\alpha=0$ for $n_w=0$ then $\alpha=1$ for $n_w=1$ and so on: even spin sequences appear for even values of $n_w$ and odd spin sequences appear for odd values of $n_w$ (see Fig. \ref{fig-even-even-wobbling-energies}).
 
-The rotor energy from Eq. \ref{eq-wobbling-energy-evenA} is graphically represented for an arbitrary set of moments of inertia as a function of the nuclear angular momentum $I$ in the left inset of Fig. \ref{fig-even-even-wobbling-energies}. This pedagogical example contains rotational bands up to $n_w=5$ in the wobbling phonon number. From Fig. \ref{fig-even-even-wobbling-energies}, one can see the linear dependence on the total angular momentum for the wobbling frequency $\hbar\omega_w$ (the right inset) and the similar increasing trend of both the wobbling energy and frequency with respect to $I$.
+The rotor energy from Eq. \ref{eq-wobbling-energy-evenA} is graphically represented for an arbitrary set of moments of inertia as a function of the nuclear angular momentum $I$ in the left inset of Fig. \ref{fig-even-even-wobbling-energies}. This pedagogical example contains rotational bands up to $n_w=5$ in the wobbling phonon number. From Fig. \ref{fig-even-even-wobbling-energies}, one can see the quadratic and linear behavior for the energy $E$ and the wobbling frequency, respectively, both with increasing trends.
 \begin{figure}
     \centering
     \includegraphics[scale=0.755]{Chapters/Figures/wobblingFreq-evenA.pdf}
@@ -111,24 +111,25 @@ The rotor energy from Eq. \ref{eq-wobbling-energy-evenA} is graphically represen
     \label{fig-even-even-wobbling-energies}
 \end{figure}
 
-Another instructive analysis would be the evolution of the components of $\mathbf{I}$ as functions of the polar and azimuthal angles $\theta,\varphi$. Indeed, expressing the three angular momentum components as:
+Another instructive study would be the evolution of the components of $\mathbf{I}$ expressed in polar coordinates. Indeed, by expressing the three angular momentum components in terms of the polar and azimuthal angles $\theta,\varphi$:
 \begin{align}
     I_1&=I'\sin\theta\cos\varphi\ ,\\
     I_2&=I'\sin\theta\sin\varphi\ ,\\
     I_3&=I'\cos\theta\ ,
     \label{angular-momentum-polar-components}
 \end{align}
-where $I'=\sqrt{I(I+1)}$, one can make a graphical representation for them, by letting $\theta$ and $\varphi$ vary within their corresponding intervals. In Fig. \ref{figs-angular-momentum-components-polar}, the quantities $I_1$ and $I_2$ are represented in the $(\theta,\varphi)$ plane for a fixed spin value $I=10\hbar$. Since the third component $I_3$ is independent of the azimuthal angle $\varphi$, it has been dismissed.
-
+where $I'=\sqrt{I(I+1)}$, then one can make a set of graphical representations. In Fig. \ref{figs-angular-momentum-components-polar}, the quantities $I_1$ and $I_2$ are represented in the $(\theta,\varphi)$ plane for a fixed spin value $I=10\hbar$. Since the third component $I_3$ is independent of the azimuthal angle $\varphi$, it has been dismissed.
 \begin{figure}
     \centering
-    \includegraphics[scale=0.66]{Chapters/Figures/angular_components-TRM-1.pdf}
-    \includegraphics[scale=0.66]{Chapters/Figures/angular_components-TRM-2.pdf}
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/angular_components-TRM-1.pdf}
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/angular_components-TRM-2.pdf}
+    % \includegraphics[scale=0.66]{Chapters/Figures/angular_components-TRM-1.pdf}
+    % \includegraphics[scale=0.66]{Chapters/Figures/angular_components-TRM-2.pdf}
     \caption{The geometrical representation of the first and second component of the total angular momentum $\mathbf{I}$ as functions of the polar angles, according to Eq. \ref{angular-momentum-polar-components}.}
     \label{figs-angular-momentum-components-polar}
 \end{figure}
 
-The other relevant observables that can be calculated for simple wobbler within the HA are the two quadrupole moments $Q_{20,22}$ and the intraband + interband $B(E2)$ transition probabilities. The quadrupole components are expressed in terms of the intrinsic quadrupole moment $Q_0$ and the triaxiality parameter as \cite{shoji2006microscopic}:
+Other relevant observables that can be calculated for simple wobbler are the two quadrupole moments $Q_{20,22}$ and the intraband/interband $B(E2)$ transition probabilities. The quadrupole components are expressed in terms of the intrinsic quadrupole moment $Q_0$ and the triaxiality parameter as \cite{shoji2006microscopic}:
 \begin{align}
     Q_{20}=Q_0\cos\gamma\ ,\ Q_{22}=\frac{1}{\sqrt{2}}Q_0\sin\gamma\ .
     \label{quadrupole-components-q20-q22}
@@ -148,7 +149,7 @@ and also the interband transitions:
 
 Notice that for the intraband transitions, going from the state $I$ to $I-2$ will only depend on the quadrupole component $Q_{22}$ squared (Eq. \ref{quadrupole-components-q20-q22}), thus making the transitions spin-independent.
 
-\subsubsection*{Triaxial rotor energy vs. wobbling energy}
+\subsection{Triaxial rotor energy vs. wobbling energy}
 
 An important discussion should be made regarding the nomenclature for energies when referring to wobbling motion. As shown in Eq. \ref{eq-wobbling-energy-evenA}, the energy spectrum for a simple wobbler can be determined for every phonon number and spin sequences. However, that is the `full' spectrum  of the wobbler, which is composed of the \emph{yrast} states with $n_w=0$ and the \emph{excited states} having $n_w=1,\dots$ and so on. On the other hand, the so-called \emph{wobbling energies} are defined in terms of these `absolute values' (i.e., $E_{I,n}$) with the following rules \cite{wen2015wobbling}:
 \begin{align}
