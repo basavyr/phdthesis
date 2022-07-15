@@ -346,18 +346,20 @@ Regarding the angular momentum components, these can be re-written as:
 \begin{align}
     \hat{I}_3=\sqrt{\mathscr{I}^2-\hat{I}_1^2-\hat{I}_1^2}\approx\mathscr{I}-\frac{1}{2}\left(\frac{\hat{I}_1^2}{\mathscr{I}}+\frac{\hat{I}_2^2}{\mathscr{I}}\right)\ ,
 \end{align}
-where the eigenvalue of $\mathbf{I}$ is denoted as $\mathscr{I}=\sqrt{I(I+1)}$. Note that this is in fact a second-order expansion in terms of the square-root function. If the factor $A_3$ is also expressed in terms of $j$ and $\mathscr{I}$ (e.g., introducing a so-called \emph{reduced} inertia parameter) via the relation:
+where $\mathscr{I}$ are the eigenvalues of the total angular momentum, and they are defined as $\mathscr{I}=\sqrt{I(I+1)}$.
+%Note that this is in fact a second-order expansion in terms of the square-root function.
+If the factor $A_3$ is also expressed in terms of $j$ and $\mathscr{I}$ through the introduction of a so-called \emph{reduced} inertia parameter:
 \begin{align}
     \mathscr{A}_3=A_3\left(1-\frac{j}{\mathscr{I}}\right)\ ,
     \label{reduced-inertia-parameter-A3}
 \end{align}
-then the QTR Hamiltonian achieves the following form:
+then the QTR Hamiltonian acquires the following form:
 \begin{align}
     \hat{H}={\color{black}A_3(\mathscr{I}-j)^2}+{\color{black}(A_1-\mathscr{A}_3)\hat{I}_1^2+(A_2-\mathscr{A}_3)\hat{I}_2^2}\ .
     \label{HA-QTR-Hamiltonian}
 \end{align}
 
-The reduced inertia parameter $\mathscr{A}_3$ is graphically represented in Fig. \ref{reduced-inertia-A3-figs}, where the evolution w.r.t. spin is studied for different values of $A_3$ but fixed $j$ (left inset) and fixed $A_3$ but different $j$ (right inset). Keep in mind that the value of the spin $I$ defines the quantity $\mathscr{I}$ which enters in Eq. \ref{reduced-inertia-parameter-A3}.
+The reduced inertia parameter $\mathscr{A}_3$ is graphically represented in Fig. \ref{reduced-inertia-A3-figs}, where the evolution w.r.t. spin is studied for different values of $A_3$ and $j$. Keep in mind that the value of the spin $I$ defines the quantity $\mathscr{I}$ which enters in Eq. \ref{reduced-inertia-parameter-A3}.
 \begin{figure}
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/reducedInertia_fig1.pdf}
@@ -378,7 +380,7 @@ or in terms of the three moments of inertia:
     \hbar\omega_w=\frac{j}{\mathcal{I}_3}\sqrt{\left[1+\frac{\mathscr{I}}{j}\left(\frac{\mathcal{I}_3}{\mathcal{I}_1}-1\right)\right]\left[1+\frac{\mathscr{I}}{j}\left(\frac{\mathcal{I}_3}{\mathcal{I}_2}-1\right)\right]}\ .
     \label{wobbling-frequency-odd-A-MOI}
 \end{align}
-The wobbling frequency for a longitudinal wobbler requires the condition:
+For a longitudinal wobbler requires, the wobbling frequency requires the condition:
 \begin{align}
     \mathcal{I}_3>(\mathcal{I}_1,\mathcal{I}_1)\ \equiv\ A_3<(A_1,A_2)\ ,
 \end{align}
