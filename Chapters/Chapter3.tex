@@ -158,68 +158,69 @@ For odd-odd nuclei, one can find the ground-state (g.s.) spin and parity via the
 \subsection{Deformed Shell Model - Nilsson Model}
 \label{nilsson-model-section}
 
-The idea that some nuclei are deformed in their ground-state was enforced experimentally a long time ago by measuring quantities such as density distributions, nuclear quadrupole moments \cite{casten2000nuclear} and so on. The non-spherical shapes are given by the existence of nucleonic configurations that lie away from the major shell closure. In Chapter \ref{chapter-2} the description of the nuclear shapes was treated, using the well-known formula for the parametrization of the nuclear radius in terms of the collective coordinates (see Eq. \ref{nuclear-shape}), resulting in the known nuclear shapes: \emph{spherical}, \emph{axially-symmetric} (that is prolate or oblate), and \emph{axially-asymmetric} (or triaxial). 
+The idea that some nuclei are deformed in their ground-state was enforced experimentally a long time ago when measuring quantities such as density distributions, nuclear quadrupole moments \cite{casten2000nuclear}. The non-spherical shapes are given by the existence of nucleonic configurations that lie away from the major shell closure. In Chapter \ref{chapter-2} the description of the nuclear shapes was treated, using the well-known formula for the parametrization of the nuclear radius in terms of the collective coordinates (see Eq. \ref{nuclear-shape}), resulting in the \emph{spherical}, \emph{axially-symmetric}, and \emph{axially-asymmetric} nuclear shapes.
 
-Developed by Nilsson in 1955 \cite{nilsson1955binding} for treating the \emph{deformed nuclei} proved to be a big pillar within the nuclear community, especially for the study of medium and heavy nuclei. In essence, this tools is a modified shell model which allows for deformations to be taken into account by the use of the \emph{anisotropic harmonic oscillator} (AHO). Similarly as for the basic shell model, the goal is to obtain an expression for the single-particle energies of a nucleon. The basic Hamiltonian corresponding to this kind of system is shown below \cite{bertulani2007nuclear}:
+Developed by Nilsson in 1955 \cite{nilsson1955binding} for treating the \emph{deformed nuclei}, it is a modified shell model which allows for deformations to be taken into account by the use of the \emph{anisotropic harmonic oscillator} (AHO). Similarly as for the basic shell model, the goal is to obtain an expression for the single-particle energies of a nucleon. The basic Hamiltonian corresponding to this kind of system is shown below \cite{bertulani2007nuclear}:
 \begin{align}
     H=H_0+a_1\vec{l}\cdot\vec{s}+a_2l^2\ ,
     \label{nilsson-simple-hamiltonian}
 \end{align}
-where $H_0$ is a Hamiltonian for the AHO. The general expression for this kind of oscillator is of the form:
+where $H_0$ is the AHO term. The general expression for this kind of oscillator is:
 \begin{align}
     H_\text{AHO}\equiv H_0=-\frac{\hbar^2}{2m}\nabla^2+\frac{1}{2}m(\omega_x^2x^2+\omega_y^2y^2+\omega_z^2z^2)\ .
 \end{align}
-In the general expression of the single-particle Hamiltonian, the constants $a_1$ and $a_2$ are usually determined via adjustments to the experimental results. It can be seen that the centrifugal-like term $l^2$, which simulates a flattening of the oscillator potential, and the $\vec{l}\cdot\vec{s}$ term are still present here, as it was the case for the spherical shell model. However, the explicit form of Eq. \ref{nilsson-simple-hamiltonian} is as follows:
+
+In the expression of the single-particle Hamiltonian, the constants $a_1$ and $a_2$ are usually determined via adjustments to the experimental results. It can be seen that both the centrifugal-like term $l^2$, which simulates a flattening of the oscillator potential, and the $\vec{l}\cdot\vec{s}$ term are also present here, as it was the case for the spherical shell model. However, the explicit form of Eq. \ref{nilsson-simple-hamiltonian} is as follows:
 \begin{align}
     H_\text{Nil}=-\frac{\hbar^2}{2m}\nabla^2+&\frac{1}{2}m(\omega_x^2x^2+\omega_y^2y^2+\omega_z^2z^2)-2\kappa\hbar\omega_0(\vec{l}\cdot\vec{s})\nonumber\\&-2\kappa\hbar\omega_0\mu\left(l^2-\langle l^2\rangle_N\right)\ .
     \label{eq-full-nilsson-ham}
 \end{align}
-Obviously, the parameters $\kappa$ and $\mu$ act as strength parameters for the spin-orbit coupling term and the centrifugal term, respectively. The last term is a correction, which was originally considered as $\mu l^2$, but it was pointed by Gustafson et al. \cite{gustafson1967nuclear} that the shift in energy is way too large for big values of $N$ (principal quantum number). As a result, taking the current expression for the correction term helps to compensate. The three \emph{oscillator frequencies} are chosen to be inversely proportional to the semi-axis lengths of the deformed ellipsoid (denoted by $a_x$, $a_y$, and $a_z$) such that:
+
+The parameters $\kappa$ and $\mu$ act as strength parameters for the spin-orbit coupling term and the centrifugal term, respectively. The last term is a correction, which was introduced by Gustafson et al. \cite{gustafson1967nuclear}.
+%The last term is a correction, which was originally considered as $\mu l^2$, but it was pointed by Gustafson et al. \cite{gustafson1967nuclear} that the shift in energy is way too large for big values of $N$ (principal quantum number). As a result, taking the current expression for the correction term helps to compensate.
+The three \emph{oscillator frequencies} are chosen to be inversely proportional to the semi-axis lengths of the deformed ellipsoid (denoted by $a_x$, $a_y$, and $a_z$) such that:
 \begin{align}
     \omega_r=\omega_0\frac{R_0}{a_r}\ ,\ r=x,y,z\ .
 \end{align}
-For the spherical case, the oscillator frequency $\hbar\omega_0$ is set to $41A^{-1/3}$ MeV (calculation for this value arise from the shell model with SHO \cite{bertulani2007nuclear}). For the axially-symmetric case, one can choose the $z$-axis as symmetry axis, implying that thw oscillator frequencies along the $x$ and $y$ axes are equivalent (that is $\omega_x=\omega_y\equiv\omega_\perp$).
 
-Following the calculations done in \cite{bertulani2007nuclear}, one can express the two relevant oscillator frequencies in terms of a deformation parameter $\epsilon_2$ (whose dependence on the quadrupole deformation parameter $\beta_2$ has been shown in Eq. \ref{epsilon-beta-relation}) as such:
+For the spherical case, the oscillator frequency $\hbar\omega_0$ is set to $41A^{-1/3}$ MeV (calculation for this value arise from the shell model with SHO \cite{bertulani2007nuclear}). For the axially-symmetric case, one can choose the $z$-axis as symmetry axis, implying that the oscillator frequencies along the $x$ and $y$ axes are equivalent (that is $\omega_x=\omega_y\equiv\omega_\perp$). Following the calculations done in \cite{bertulani2007nuclear}, one can express the two relevant oscillator frequencies in terms of a deformation parameter $\epsilon_2$ (whose dependence on the quadrupole deformation parameter $\beta_2$ has been shown in Eq. \ref{epsilon-beta-relation}) as such:
 \begin{align}
     \omega_\perp^2=\omega_0^2\left(1+\frac{2}{3}\epsilon_2\right)\ ,\\
     \omega_z^2=\omega_0^2\left(1-\frac{4}{3}\epsilon_2\right)\ .
     \label{oscillator-frequencies-nilsson}
 \end{align}
+
 Moreover, a dependence on the deformation parameter itself is employed for the frequency $\omega_0$ that appears in the expressions for $\omega_\perp$ and $\omega_z$, respectively:
 \begin{align}
     \omega_0=\left(1-\frac{4}{3}\epsilon_2^2-\frac{16}{27}\epsilon_2^3\right)^{-1/6}\ ,
     \label{omega-0-oscillator-frequency}
 \end{align}
-where $\bar{\omega}_0$ can be considered a constant written as $\bar{\omega}_0=(\omega_x\omega_y\omega_z)^{1/3}=\text{const}$ (coming from the harmonic oscillator at zero deformation and also considering the conservation of the nuclear volume).
-
-The energy eigenvalues $\epsilon_q$ for the nucleonic state $\psi_q$ belonging to a deformed nucleus can be determined within the Nilsson model by solving the Schrödinger equation associated to each nucleon in particular:
+where $\bar{\omega}_0$ can be considered a constant written as $\bar{\omega}_0=(\omega_x\omega_y\omega_z)^{1/3}=\text{const}$. This is coming from the harmonic oscillator at zero deformation and by considering the conservation of the nuclear volume. The energy eigenvalues $\epsilon_q$ for the nucleonic state $\psi_q$ belonging to a deformed nucleus can be determined by solving the Schrödinger equation associated to each nucleon in particular:
 \begin{align}
     H_\text{Nil}\psi_q=\epsilon_q\psi_q\ ,
     \label{nilsson-schrodiner-equation}
 \end{align}
-where the index $q$ denotes a set with all the relevant quantum numbers. This set is also called the \emph{asymptotic quantum numbers}, and they are used to specify a \emph{Nilsson orbital}. The well-known notation is as follows (still considering the $z$-axis as the symmetry axis):
+where the index $q$ denotes a set with all the relevant quantum numbers. This set is also called the \emph{asymptotic quantum numbers}, which are used to specify a \emph{Nilsson orbital}. The well-known notation is as follows (still considering the $z$-axis as the symmetry axis):
 \begin{align}
     \Omega^\pi\left[Nn_z\Lambda\right]\ .
     \label{nilsson-notation}
 \end{align}
 \begin{itemize}
     \item $\Lambda$ is the projection of the particle's orbital a.m. along the symmetry axis (component of $l$ along $z$)
-    \item $N$ the principal quantum number of the major shell. It also determines the parity as $\pi=(-1)^N$, making the notation from Eq. \ref{nilsson-notation} somewhat redundant in terms of explicitly specifying it
-    \item $n_z$ is the number of oscillator quanta along the symmetry axis. More precisely, it gives the number of nodes for the wave-function of that particle along the direction of the $z$-axis
+    \item $N$ the principal quantum number of the major shell. It also determines the parity as $\pi=(-1)^N$, making the notation from Eq. \ref{nilsson-notation} somewhat redundant
+    \item $n_z$ is the number of oscillator quanta along the symmetry axis. More precisely, it gives the number of nodes for the wave-function along the direction of the $z$-axis
     \item $\Omega$ is the projection of the particle's total a.m. along the symmetry axis (i.e., $\mathbf{j}$). Moreover, the projection of the intrinsic spin of a nucleon onto the symmetry axis can have the values $\Sigma=\pm\frac{1}{2}$, so that $\Omega=\Lambda+\Sigma=\pm\frac{1}{2}$.
 \end{itemize}
 
-Fig. \ref{fig-nilsson-quantum-numbers} shows the geometrical meaning of the asymptotic quantum numbers for the Nilsson model. Indeed, for a single nucleon orbiting a deformed core, the vector $\mathbf{R}$ represents the angular momentum of a \emph{rotating nucleus} (having a collective character, since it emphasizes the motion of the nucleus as a whole), the vector $\mathbf{I}$ represents the total a.m. of the entire nucleus, $\mathbf{j}$ is the total a.m. of the single-particle (that is $\mathbf{j}=\mathbf{j}+\mathbf{s}$). However, two more quantum numbers should be mentioned: the projection of the total a.m. $\mathbf{I}$ onto the symmetry axis, denoted by $K$, and the projection of the same vector onto the laboratory axis, referred to as $M$.
-
+Fig. \ref{fig-nilsson-quantum-numbers} shows the geometrical meaning of the asymptotic quantum numbers for the Nilsson model. Indeed, for a single nucleon orbiting a deformed core, the vector $\mathbf{R}$ represents the angular momentum of a \emph{rotating nucleus}, the vector $\mathbf{I}$ represents the total a.m. of the entire nucleus, $\mathbf{j}$ is the total a.m. of the single-particle (that is $\mathbf{j}=\mathbf{l}+\mathbf{s}$). However, two more quantum numbers should be mentioned: the projection of the total a.m. $\mathbf{I}$ onto the symmetry axis, denoted by $K$, and the projection of the same vector onto the laboratory axis, referred to as $M$.
 \begin{figure}
     \centering
-    \includegraphics[scale=1]{Chapters/Figures/nilsson_quantum_numbers.pdf}
-    \caption{A schematic drawing that shows the geometrical interpretation of the Nilsson asymptotic quantum numbers (see text). This figure is inspired from Ref. \cite{garnsworthy2007neutron}}
+    \includegraphics[width=0.99\textwidth]{Chapters/Figures/nilsson_quantum_numbers.pdf}
+    \caption{A schematic showing a geometrical interpretation of the Nilsson's asymptotic quantum numbers. This figure is inspired from Ref. \cite{garnsworthy2007neutron}}
     \label{fig-nilsson-quantum-numbers}
 \end{figure}
 
-Regarding the quantum numbers sketched in Fig. \ref{fig-nilsson-quantum-numbers}, there is an important aspect which needs to be specified about the two projections $K$ and $\Omega$, respectively, since it would make the understanding of the orbital motion of nucleons more concise. Indeed, it is clear that compared to the spherical case, where different orientations are irrelevant to the energy spectrum of nucleons, here in the deformed case, different directions in space lead to different energies. The orientation is in fact specified by the \emph{magnetic sub-state} of the nucleon, i.e., the projection of the total angular momentum on the symmetry axis. This projections is denoted by $\Omega$ for the single-particle, however, because the rotational angular momentum $\mathbf{R}$ in the axially deformed is perpendicular to the symmetry axis for low-lying states, then it will have no contribution to $K$, meaning that one can use $\Omega$ and $K$ interchangeably.
+Regarding the quantum numbers sketched in Fig. \ref{fig-nilsson-quantum-numbers}, there is an important aspect which needs to be specified about the projections $K$ and $\Omega$, respectively. Indeed, it is clear that compared to the spherical case, where different orientations are irrelevant to the energy spectrum of nucleons, in the deformed case different directions in space lead to different energies. The orientation is in fact specified by the \emph{magnetic sub-state} of the nucleon, i.e., the projection of the total angular momentum on the symmetry axis. This projections is denoted by $\Omega$ for the single-particle, however, because the rotational angular momentum $\mathbf{R}$ in the axially deformed is perpendicular to the symmetry axis for low-lying states, then it will have no contribution to $K$, meaning that one can use $\Omega$ and $K$ interchangeably.
 
 \subsection{Single-particle states in deformed nuclei}
 
