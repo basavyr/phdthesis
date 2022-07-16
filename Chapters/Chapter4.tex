@@ -100,7 +100,7 @@ with the alternating signs corresponding to the proton and neutron, respectively
     C_\beta=\frac{195}{j(j+1)}\frac{1}{A^{1/3}}\beta_2\ .
 \end{align}
 
-It is worth giving some quantitative results concerning the quadrupole potential and the single-particle Hamiltonian described above. As such, a simple numerical application will be employed, obtaining graphical representations with the behavior of these quantities with respect to the deformation parameters. Firstly, the potential $\hat{H}_\text{int}^\text{quad}$ will be analyzed in the polar plane defined by the angles $(\theta,\varphi)$ (since the spherical harmonics are defined in terms of them). For nuclei near the $A\approx 160$ region, it is common to have values of $\beta_2\in\left[0.2,0.4\right]$ and $\gamma\approx 20^\circ$, so for testing purposes one can fix $\beta_2$ and $\gamma$ within those ranges. Therefore, the quadrupole potential $\hat{H}_\text{int}^\text{quad}$ can be numerically evaluated for known polar angles, and the results can be seen in Figs. \ref{figs-deformed-quadrupole-potential-1} - \ref{figs-deformed-quadrupole-potential-2}.
+It is worth giving some quantitative results concerning the quadrupole potential and the single-particle Hamiltonian described above. As such, a simple numerical application will be employed, obtaining graphical representations with the behavior of these quantities with respect to the deformation parameters. Firstly, the potential $\hat{H}_\text{int}^\text{quad}$ will be analyzed in the polar plane defined by the angles $(\theta,\varphi)$. For nuclei near the $A\approx 160$ region, it is common to have values of $\beta_2\in\left[0.2,0.4\right]$ and $\gamma\approx 20^\circ$, so for testing purposes one can take $\beta_2$ and $\gamma$ within those ranges. Therefore, the quadrupole potential $\hat{H}_\text{int}^\text{quad}$ can be numerically evaluated, and the results can be seen in Figs. \ref{figs-deformed-quadrupole-potential-1} - \ref{figs-deformed-quadrupole-potential-2}.
 \begin{figure}
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/quadrupole-potentialV-1.pdf}
@@ -112,7 +112,7 @@ It is worth giving some quantitative results concerning the quadrupole potential
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/quadrupole-potentialV-3.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/quadrupole-potentialV-4.pdf}
-    \caption{The quadrupole potential $\hat{H}_\text{int}^\text{quad}$ as defined in Eq. \ref{quadrupole-deformed-potential-V}, represented as a function of the angular coordinates $\theta$ and $\varphi$. Calculations were done with fixed parameters $\beta_2$, $\gamma$, and for $A=163$.}
+    \caption{The quadrupole potential $\hat{H}_\text{int}^\text{quad}$ as defined in Eq. \ref{quadrupole-deformed-potential-V}. Calculations were done with fixed parameters $\beta_2$, $\gamma$, and $A=163$.}
     \label{figs-deformed-quadrupole-potential-2}
 \end{figure}
 
@@ -131,18 +131,18 @@ These matrix elements will be functions of deformation parameters as well as the
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/singleParticle-hdiag-1.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/singleParticle-hdiag-2.pdf}
-    \caption{The evolution of the diagonal matrix elements $h_{jk}$ defined in Eqs. \ref{hdiag-equation-general}-\ref{hdiag-equation} w.r.t. the quadrupole parameter $\beta_2$, for one proton on a deformed $j$-shell and at a fixed triaxiality parameter $\gamma$. See text for details.}
+    \caption{The evolution of the diagonal matrix elements $h_{jk}$ defined in Eqs. \ref{hdiag-equation-general}-\ref{hdiag-equation} w.r.t. the quadrupole parameter $\beta_2$, for one proton on a deformed $j$-shell and a fixed triaxiality parameter $\gamma$. See text for details.}
     \label{hdiag-beta-evolution}
 \end{figure}
 \begin{figure}
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/hdiag-gamma-1.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/hdiag-gamma-2.pdf}
-    \caption{The evolution of the diagonal matrix elements $h_{jk}$ defined in Eqs. \ref{hdiag-equation-general}-\ref{hdiag-equation} w.r.t. the triaxiality parameter $\gamma$, for one proton on a deformed $j$-shell and at a fixed deformation parameter $\beta_2$. See text for details.}
+    \caption{The evolution of the diagonal matrix elements $h_{jk}$ defined in Eqs. \ref{hdiag-equation-general}-\ref{hdiag-equation} w.r.t. the triaxiality parameter $\gamma$ for one proton on a deformed $j$-shell and a fixed deformation parameter $\beta_2$. See text for details.}
     \label{hdiag-gamma-evolution}
 \end{figure}
 
-In reference to this numerical application, one can observe the fact that since only the cosine function is present in the diagonal components of $h$, the single-particle energies are independent on the sign of $\gamma$ (since cosine is an even function). However, this is not the case when calculations are done for the non-diagonal elements, since states with different $k$ will add contributions to $h$ via the sine function. For the evolution of $h_{jk}$ wr.t. $\gamma$, one can see that the lines in Fig. \ref{hdiag-beta-evolution} (especially ones from the right inset) are almost similar, indicating that the diagonal components are not very sensitive to nuclear triaxiality. On the other hand, a difference in $\beta_2$ between the components will result in large gaps.
+In reference to this evaluation, one can observe the fact that the single-particle energies are independent on the sign of $\gamma$ (since cosine is an even function). However, this is not the case when calculations are done for the non-diagonal elements, because states with different $k$ will add contributions to $h$ via the sine function. For the evolution of $h_{jk}$ wr.t. $\gamma$, one can see that the lines in Fig. \ref{hdiag-beta-evolution} are almost similar, indicating that the diagonal components are not very sensitive to nuclear triaxiality. On the other hand, a difference in $\beta_2$ between the components will result in large gaps.
 
 Going back to the general Hamiltonian given in Eq. \ref{triaxial-prm-general-hamiltonian} and putting together Eqs. \ref{quadrupole-deformed-potential-beta}-\ref{single-particle-nilsson-defored-potential}, it can be brought to a `final' form. With this, rotor part, the single-particle contributions, and the quadrupole deformation of the mean-field are clearly depicted \cite{ring2004nuclear}:
 \begin{align}
