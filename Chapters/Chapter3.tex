@@ -375,25 +375,24 @@ The collective model is one of the most `complete' tools in describing the nucle
 
 \subsection{Bohr Hamiltonian}
 
-As a first step, the concept of a nuclear liquid drop is used to construct the Hamiltonian of the problem. The droplet is said to exhibit excitations shape (or surface) oscillations which have a dynamical character. These shape oscillations are illustrated in Fig. \ref{fig-nuclear-vibration}, where one can interpret that as a vibrating nucleus with a spherical equilibrium shape. Since the collective coordinates are time-dependent, at each moment in time, the nuclear radius $R$ at moment $t$ will locate a point on the surface in the direction given by the radial coordinates $\theta,\varphi$.
+As a first step, the concept of a nuclear liquid drop is used to construct the Hamiltonian. The droplet exhibits shape and surface oscillations, which have a dynamical character. These shape oscillations are illustrated in Fig. \ref{fig-nuclear-vibration}, where a vibrating nucleus is represented, having a spherical equilibrium shape. Since the collective coordinates are time-dependent, at each moment in time, the nuclear radius $R$ will be defined in the direction given by the radial coordinates $\theta,\varphi$. By using Eq. \ref{nuclear-shape} that characterizes the \emph{vibrations} of a nuclear surface, one can give the Hamiltonian of \emph{collective} nature as:
+\begin{align}
+    H_\text{coll}\equiv T+V=\frac{1}{2}\sum_{\lambda\mu}\left[B_\lambda\left|\frac{\text{d}\alpha_{\lambda\mu}}{\text{d}t}\right|^2+C_\lambda|\alpha_{\lambda\mu}|^2\right]\ .
+    \label{collective-hamiltonian-stiffness-inertia}
+\end{align}
 \begin{figure}
     \centering
-    \includegraphics[scale=1.1]{Chapters/Figures/shape_oscillations.pdf}
-    \caption{The vibration of a nucleus whose equilibrium shape is a spheroid, with nuclear radius $R_0$ (\emph{average nuclear radius}) and the nuclear radius $R$ at a different moment in time.}
+    \includegraphics[width=0.99\textwidth]{Chapters/Figures/shape_oscillations.pdf}
+    \caption{The vibration of a nucleus whose equilibrium shape is a spheroid, with nuclear radius $R_0$ (\emph{average nuclear radius}) and the nuclear radius $R$ at a different moment in time. The equilibrium shape is represented by the red color, while the surface vibration is represented by the blue color. The oscillations are depicted through the double arrows.}
     \label{fig-nuclear-vibration}
 \end{figure}
 
-By using Eq. \ref{nuclear-shape} which characterizes the \emph{vibrations} of a nuclear surface (via the collective coordinates $\alpha_{\lambda\mu}$), one can give the expression of an initial Hamiltonian of \emph{collective} nature as:
-\begin{align}
-    H_\text{coll}\equiv T+V=\frac{1}{2}\sum_{\lambda\mu}\left[B_\lambda\left|\frac{\text{d}\alpha_{\lambda\mu}}{\text{d}t}\right|^2+C_\lambda|\alpha_{\lambda\mu}|^2\right]\ ,
-    \label{collective-hamiltonian-stiffness-inertia}
-\end{align}
-Hamiltonian which is in fact both invariant under rotation and time reversal \cite{messiah2014quantum}.  The real numbers $B_\lambda$ and $C_\lambda$ represent \emph{inertial} and \emph{stiffness} parameters for the nuclear matter. The spectrum of such a Hamiltonian after a canonical quantization (see calculations in Ref. \cite{ring2004nuclear} or \cite{bertulani2007nuclear}) will have a harmonic-like structure, depending on the value of $\lambda$. Indeed, by looking at the expression from Eq. \ref{collective-hamiltonian-stiffness-inertia} one can see that it can be brought to a form:
+The Hamiltonian is invariant under rotations and also invariant under time reversal \cite{messiah2014quantum}. The real numbers $B_\lambda$ and $C_\lambda$ represent the \emph{inertial} and \emph{stiffness} parameters. After a canonical quantization, the spectrum of such a Hamiltonian will have a harmonic-like structure, depending on the value of $\lambda$ (see calculations in Refs. \cite{ring2004nuclear,bertulani2007nuclear}). Indeed, by looking at the expression from Eq. \ref{collective-hamiltonian-stiffness-inertia}, one can see that it can be brought to a form:
 \begin{align}
     H_\text{coll}^\text{osc}=\frac{p^2}{2m}+\frac{1}{2}kr^2\ ,
     \label{eq-bohr-hamiltonian-oscillator-simple}
 \end{align}
-which is typical to a harmonic oscillator Hamiltonian. The frequency of oscillation of such a Hamiltonian is given by the relation $\omega=\sqrt{k/m}$. The vibrations can now be understood in terms of a sum of harmonic oscillator frequencies, where each frequency is given by $\lambda$:
+which is typical to a harmonic oscillator Hamiltonian. The frequency of oscillation is given by the relation $\omega=\sqrt{k/m}$. The vibrations can now be understood in terms of a sum of harmonic oscillator frequencies, where each frequency is given by $\lambda$:
 \begin{align}
 \omega_\lambda=\sqrt{\frac{C_\lambda}{B_\lambda}}\ .
 \end{align}
@@ -408,13 +407,12 @@ showing a quadratic dependence with the average nuclear radius. The nuclear dens
     C_\lambda=(\lambda-1)(\lambda+2)\sigma R_0^2-\frac{3}{2\pi}\frac{\lambda-1}{2\lambda+1}\frac{(Ze)^2}{R_0}\ .
     \label{stiffness-parameters-C}
 \end{align}
-With these ingredients, one can sketch a form of $H_\text{coll}$ similar to Eq. \ref{eq-bohr-hamiltonian-oscillator-simple} in the following manner:
+
+With these ingredients, one can sketch a collective Hamiltonian similar to Eq. \ref{eq-bohr-hamiltonian-oscillator-simple} in the following manner:
 \begin{align}
     H_\text{coll}=\sum_{\lambda\mu}\hbar\omega_\lambda\left(N_{\lambda\mu}+\frac{1}{2}\right)\ ,
 \end{align}
-where indeed, the typical harmonic oscillator spectrum should be expected for the final collective spectra of nuclei.
-
-The recipe for further manipulation of the Bohr's collective Hamiltonian from Eq. \ref{collective-hamiltonian-stiffness-inertia} is quite a lengthy process \cite{bohr1998nuclear,ring2004nuclear}, with several considerations that are beyond the scope of the current work. Shortly, for the quadrupole deformed nuclei, the expression of the potential term $V$ will be a function that depends on the parameters $(\beta,\gamma)$, potential that is defined as a quadratic approximation in the vicinity of a deformed minimum point $p_0|_\text{min}=(\beta_,\gamma_0)$. This starts from the general assumption that the nucleus has the deformation $p_0$ in the ground state, and the excitations are rotations and small oscillations around this \emph{equilibrium} deformation point. Thus $V(\beta,\gamma)$ can be written as:
+where indeed, the typical harmonic oscillator spectrum should be expected for the final collective spectra of nuclei. The recipe for further manipulation of the Bohr's collective Hamiltonian from Eq. \ref{collective-hamiltonian-stiffness-inertia} is quite a lengthy process \cite{bohr1998nuclear,ring2004nuclear}, with several considerations beyond the scope of the current work. Shortly, for the quadrupole deformed nuclei, the expression of the potential term $V$ will be a function that depends on the parameters $(\beta,\gamma)$. The potential will be defined as a quadratic approximation in the vicinity of a deformed minimum point $p_0|_\text{min}=(\beta_,\gamma_0)$. This starts from the general assumption that the nucleus has the deformation $p_0$ in the ground state, and excitations around the \emph{equilibrium} point. Thus $V(\beta,\gamma)$ can be written as:
 \begin{align}
     V(\beta,\gamma)=\frac{1}{2}C_{0}\left(\alpha_{20}(\beta,\gamma)-\alpha_{20}^0\right)^2+\frac{1}{2}C_{2}\left(\alpha_{22}(\beta,\gamma)-\alpha_{22}^0\right)\ .
     \label{bohr-collective-potential}
