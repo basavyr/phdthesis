@@ -633,50 +633,52 @@ which for the $K=0$ bands reaches the simplified form $I_x^2=(I+\frac{1}{2})^2$.
 
 % A more concise definition for the rotational frequency is related to the transition between two consecutive states $I+1\to I-1$ within a rotational band: a unique value of $\omega$ is attributed to the spin $I$, which is defined as a mean value of the two angular momenta from the corresponding transition. Such a construction will yield a set of discrete points $\omega(I)$, and one can obtain a `continuous' function $\omega(I)$ together with its inverse $I(\omega)$, thus making the term $I$ from Eq. \ref{aligned-angular-momentum} to be in fact $I(\omega)$.
 
-The rotational frequency is used to represent many quantities which characterize collective motion and nuclear deformation. For example, representing the total angular momentum $I$ (or the aligned one $I_x$) as a function of $\omega$ can check wether multiple bands have the same nature. Moreover, as it will be shown in the following section, representing the MOI as function of $\omega$ will also get an insight on the intrinsic structure of the nucleus and the coupling schemes involved in the occurrence of the excited spectra. Another interesting feature that is present in high-spin spectra of some nuclei is the so-called \emph{backbending} phenomena, where due to the Coriolis effect, nucleons can suffer a de-pairing, leading to their angular momentum to orient along the rotational axis, thus leading to a sharp increase in the MOI \cite{ring2004nuclear,kvasil2004backbending}. These kind of effects are correlated to high deformation, increased rotation, and change in the nucleonic alignment.
+The rotational frequency is used to represent many quantities which characterize collective motion and nuclear deformation. By representing the total or the aligned angular momenta as functions of $\omega$ can show wether multiple bands have the same nature. Moreover, representing the MOI as function of $\omega$ will also give an insight on the intrinsic structure of the nucleus. Another interesting feature that is present in high-spin spectra of nuclei is the so-called \emph{backbending} phenomena. This phenomenon appears due to the Coriolis effect: nucleons can suffer a de-pairing that leads makes their a.m. to align with the rotational axis, causing a sharp increase in the MOI \cite{ring2004nuclear,kvasil2004backbending}. These kind of effects are correlated to high deformation, increased rotation, and change in the nucleonic alignment.
 
 \subsubsection{Moments of Inertia}
 
-This is a crucial quantity which describes the degree of deformation for the nucleus (rotational ellipsoid), since the asymmetry between the three MOI dictates the shape of the nuclear matter (remember discussion from Chapter \ref{chapter-2}). It was already mentioned that it is possible to retrieve an \emph{experimental} value for a moment of inertia by inferring the energy spacing between consecutive levels of a collective spectrum. A classification of types of MOI was done in Eq. \ref{eq-irrotational-rigid-mois}, where the dependence of $\mathcal{I}$ on the deformation parameters (and even the mass parameter $B_\lambda$ that originates from the initial Bohr Hamiltonian \ref{collective-hamiltonian-stiffness-inertia}) was shown.
-
-In order to get values for MOIs from the experimental data, two quantities are required: the spins and energies of two consecutive levels within an excited spectrum. The most general expression for the MOI can be written as \cite{ahmad2021backbending}:
+This is a crucial quantity which describes the degree of deformation for the nucleus, as the asymmetry between the three MOI dictates the shape of the nuclear matter (remember discussion from Chapter \ref{chapter-2}). It was already mentioned that it is possible to retrieve an \emph{experimental} value for a moment of inertia by inferring the energy spacing between consecutive levels of a collective spectrum. A classification of types of MOI was done in Eq. \ref{eq-irrotational-rigid-mois}, where the dependence of $\mathcal{I}$ on the deformation parameters and even the mass parameter $B_\lambda$ was shown. The most general expression for the MOI can be written as \cite{ahmad2021backbending}:
 \begin{align}
     \mathcal{I}=\frac{\hbar^2}{2}\left(\frac{\text{d}E}{\text{d}J(J+1)}\right)^{-1}\ ,
 \end{align}
-where the classical angular momentum $J$ is related to its quantum equivalent via the correction $J=I+1/2$ (see Eq. \ref{aligned-angular-momentum}). Practically, the derivative can be expressed in terms of the aligned angular momentum $I_x$ defined above.
-
-Moreover, there are two types of MOI which give information about the structure of nuclei with respect to spin: \emph{kinematic MOI} and \emph{dynamic MOI}. The kinematic MOI is given by \cite{wu1992relation}:
+where the classical angular momentum $J$ is related to its quantum equivalent via the correction $J=I+1/2$ (see Eq. \ref{aligned-angular-momentum}). Practically, the derivative can be expressed in terms of the aligned angular momentum $I_x$ defined above. Moreover, there are two types of MOI which give information about the structure of nuclei with respect to spin: \emph{kinematic MOI} and \emph{dynamic MOI}. The kinematic MOI is given by \cite{wu1992relation}:
 \begin{align}
-    \mathcal{I}^{(1)}=\frac{\hbar I_x}{\omega}=\hbar^2 I_x\left(\frac{\text{d}E}{\text{d}I_x}\right)^{-1}\ .
+    \mathcal{I}^{(1)}=\frac{\hbar I_x}{\omega}=\hbar^2 I_x\left(\frac{\text{d}E}{\text{d}I_x}\right)^{-1}\ ,
     \label{kinematic-moi-general}
 \end{align}
-
-One can see why the aligned angular momentum is important, since its variation w.r.t. the energies lead to theoretical determinations of the kinematic MOI. From the observed intraband $E2$ transitions one can extract the (kinematic) moment of inertia via the rule:
-\begin{align}
-    \mathcal{I}^{(1)}(I-1)=\hbar^2\frac{2I-1}{E_\gamma(I,I-2)}\ ,
-    \label{kinematic-moi-energy-levels}
-\end{align}
-where $E_\gamma(I,I-2)$ represents the energy difference between two consecutive levels $E(I)$ and $E(I-2)$. The dependence on $I$ for this type of MOI makes its experimental determination to require some spin assignments to each state of the excited spectrum. On the other hand, the dynamic moment of inertia is expressed as \cite{wu1992relation}:
+% One can see why the aligned angular momentum is important, since its variation w.r.t. the energies lead to theoretical determinations of the kinematic MOI. From the observed intraband $E2$ transitions one can extract the (kinematic) moment of inertia via the rule:
+% \begin{align}
+%     \mathcal{I}^{(1)}(I-1)=\hbar^2\frac{2I-1}{E_\gamma(I,I-2)}\ ,
+%     \label{kinematic-moi-energy-levels}
+% \end{align}
+% where $E_\gamma(I,I-2)$ represents the energy difference between two consecutive levels $E(I)$ and $E(I-2)$. The dependence on $I$ for this type of MOI makes its experimental determination to require some spin assignments to each state of the excited spectrum.
+while the dynamic moment of inertia is expressed as \cite{wu1992relation}:
 \begin{align}
     \mathcal{I}^{(2)}(I)=\hbar\frac{\text{d}I_x}{\text{d}\omega}=\hbar^2\left(\frac{\text{d}^2E}{\text{d}I_x^2}\right)^{-1}\ ,
     \label{dynamic-moi-general}
 \end{align}
-while $\mathcal{I}^{(2)}$ expressed in terms of the energy differences has the following form:
+or, equivalently, as:
 \begin{align}
     \mathcal{I}^{(2)}(I)=\hbar^2\frac{4}{\Delta E_\gamma(I)}=\hbar^2\frac{4}{E_\gamma(I+2,I)-E_\gamma(I,I-2)}\ .
     \label{dynamic-moi-energy-levels}
 \end{align}
-Note that any calculations for the dynamical MOI does not require prior knowledge about the spin assignments of the energy states. These two types of MOI are usually represented as function of the rotational frequency $\omega$. Since the total spin $I$ can be expressed as a function of rotational frequency, plotting the kinematic/dynamic MOI as function of angular momentum is also preferred. In the present work, these quantities are of high interest (graphical representations for different nuclei will be shown in a future chapter), their relative behavior will help characterize bands with similar nucleonic structure.
 
-An alternative description of the quantitative analysis of these MOI can be done through the so-called $ab$ formula \cite{wu1992relation,wu1992spin}, where the energies corresponding to the rotational spectrum are parametrized as: $E(I)=a\left(\sqrt{1+bI(I+1)}-1\right)$. Fitting the experimental data will produce a set of parameters $(a,b)$ that will be used to get expressions for the kinematic and dynamic MOI:
-\begin{align}
-    \mathcal{I}^{(1)}=\mathcal{I}_0\left[1-\frac{(\hbar\omega)^2}{a^2b}\right]^{-1/2}\ ,\\
-    \mathcal{I}^{(2)}=\mathcal{I}_0\left[1-\frac{(\hbar\omega)^2}{a^2b}\right]^{-3/2}\ ,
-\end{align}
-with the factor $\mathcal{I}_0$ defined as the \emph{band-head} moment of inertia: $\mathcal{I}_0=\frac{\hbar^2}{ab}$. In fact, such an approach of determining the MOIs of several odd-$A$ nuclei will consist in a future work of the same team.
+%Note that any calculations for the dynamical MOI does not require prior knowledge about the spin assignments. These two types of MOI are usually represented as function of the rotational frequency $\omega$. Since the total spin $I$ can be expressed as a function of rotational frequency, plotting the kinematic/dynamic MOI as function of angular momentum is also preferred. In the present work, these quantities are of high interest (graphical representations for different nuclei will be shown in a future chapter), their relative behavior will help characterize bands with similar nucleonic structure.
 
-As mentioned, the sharp or abrupt irregularities of the MOI with respect to the increase in rotational frequency is known as backbending. The Figs. \ref{fig-hfNuclei-mois}-\ref{fig-ErYbnuclei-mois} show some experimental data in which the quantity $\frac{2\mathcal{I}}{\hbar^2}$ as function of the squared rotational frequency is graphically represented.
+% An alternative description for these MOI can be done through the so-called $ab$ formula \cite{wu1992relation,wu1992spin}, where the energies corresponding to the rotational spectrum are parametrized as:
+% \begin{align}
+%     E(I)=a\left(\sqrt{1+bI(I+1)}-1\right)
+%     \label{ab-formula}
+% \end{align}
 
+% Fitting the experimental data will produce a set of parameters $a$ and $b$ that will be used to get expressions for the kinematic and dynamic MOI:
+% \begin{align}
+%     \mathcal{I}^{(1)}=\mathcal{I}_0\left[1-\frac{(\hbar\omega)^2}{a^2b}\right]^{-1/2}\ ,\\
+%     \mathcal{I}^{(2)}=\mathcal{I}_0\left[1-\frac{(\hbar\omega)^2}{a^2b}\right]^{-3/2}\ ,
+% \end{align}
+% where $\mathcal{I}_0$ is defined as the \emph{band-head} moment of inertia: $\mathcal{I}_0=\hbar^2/(ab)$. In fact, such an approach of determining the MOIs of several odd-$A$ nuclei will consist in a future work of the same team. 
+
+As mentioned, the sharp or abrupt irregularities of the MOI with respect to the increase in rotational frequency is known as backbending. The Figs. \ref{fig-hfNuclei-mois} - \ref{fig-ErYbnuclei-mois} show experimental MOI as function of the squared rotational frequency.
 \begin{figure}
     \centering
     \includegraphics[scale=0.51]{Chapters/Figures/mois_Hf162-164.pdf}
@@ -684,7 +686,6 @@ As mentioned, the sharp or abrupt irregularities of the MOI with respect to the 
     \caption{The moment of inertia as a function of rotational frequencies for three even-even nuclei. \textbf{Left:} The MOI for $^{162,164}$Hf nuclei, with their corresponding rotational ground-state bands. \textbf{Right:} The MOI for the first two rotational bands in $^{166}$Hf. Experimental data for these two nuclei are taken from Ahmad et al. \cite{ahmad2021backbending}.}
     \label{fig-hfNuclei-mois}
 \end{figure}
-
 \begin{figure}
     \centering
     \includegraphics[scale=0.5]{Chapters/Figures/mois_Er158.pdf}
