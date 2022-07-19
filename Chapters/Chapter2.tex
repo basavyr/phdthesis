@@ -136,38 +136,27 @@ where the parameter $\beta_2$ is called the \emph{quadrupole deformation paramet
     \label{nuclear-radius-elongation}
 \end{figure}
 
-Taking a look at Fig. \ref{nuclear-radius-elongation}, one can see the variations of the three axes with $\gamma$. When $\gamma=0^\circ$ the nucleus is elongated along the $z'$ axis, but the $x'$ and $y'$ axes are identical (the prolate case) - axial shape. As $\gamma$ increases, the $x'$ axis grows, while the other two axes decrease in size, making a region with \emph{triaxial shapes} - all three axes are unequal in magnitude. Symmetry is reached again at $\gamma=60^\circ$, however the $x'$ and $z'$ axes are equal this time but longer than $y'$ axis, making the nucleus look like a flattened shape (the oblate case) - axial shape. This pattern is repeated every $\gamma=60^\circ$, where axial shapes emerge, with alternating prolate/oblate shapes.
-
-It is possible to summarize the various nuclear shapes that can occur with the help of a diagram within in the $(\beta,\gamma)$ plane. The repeating pattern of the nuclear shapes is graphically represented in Fig. \ref{beta-gamma-plane}. One can see that the oblate axially symmetric shapes that occur at $\gamma=60^\circ,180^\circ$ and $300^\circ$ are identical, and only the axes naming scheme differs. The triaxial shapes are also repeated each $60^\circ$.
-
+Taking a look at Fig. \ref{nuclear-radius-elongation}, one can see the variations of the three axes with respect to $\gamma$. When $\gamma=0^\circ$, the nucleus is elongated along the $z'$ axis, but the $x'$ and $y'$ axes are identical (the prolate case). As $\gamma$ increases, the $x'$ axis grows, while the other two axes decrease in size, making a region with \emph{triaxial shapes}. Symmetry is reached again at $\gamma=60^\circ$, where $x'$ and $z'$ axes are equal but longer than $y'$ axis, making the nucleus look like a flattened shape (the oblate case). This pattern is repeated every $\gamma=60^\circ$, where alternating prolate/oblate shapes occur. It is possible to summarize the various nuclear shapes with a graphical representation within in the $(\beta,\gamma)$ plane. In Fig. \ref{beta-gamma-plane} one can the oblate shapes at $\gamma=60^\circ,180^\circ,300^\circ$, while prolate shapes appear at $\gamma=0^\circ,120^\circ,240^\circ$.
 \begin{figure}
     \centering
-    \includegraphics[scale=0.65]{Chapters/Figures/beta_gamma_plane.pdf}
+    \includegraphics[width=0.99\textwidth]{Chapters/Figures/beta_gamma_plane.pdf}
     \caption{Beta-gamma plane divided into six regions. The first part, delimited from $\gamma=0^\circ$ to $\gamma=60^\circ$ can be considered as the representative one, while the others can be reproduced from this interval.}
     \label{beta-gamma-plane}
 \end{figure}
 
-Regarding the characteristics of Fig. \ref{beta-gamma-plane}, the triaxial regions have basically identical shapes, only the axes orientations are different. Moreover, the associated Euler angles are also different, leading to the conclusion that identical physical shapes - including the space orientation - can be represented by different sets of deformation parameters $(\beta,\gamma)$ and Euler angles.
+\subsection{Non-Axial quadrupole deformations}
 
-\subsubsection{Non-Axial quadrupole deformations}
-
-Besides the nuclei characterized by a \emph{spheroidal} shape, where two of the three principal axes have the same length and the quadrupole deformation parameter $\beta_2$ is the key parameter that describes this kind of shapes, there are also \emph{triaxial} nuclei (or non-axial deformed nuclei).
-
-The triaxial shapes are defined by the $\gamma$ degree of freedom: the parameter which describes the asymmetry between the length of the three axis of the nucleus (e.g., it describes a stretching along an axis that is perpendicular to the symmetry axis). The nuclear radius for the axially-asymmetric quadrupole deformations is given by:
+Besides the nuclei characterized by a \emph{spheroidal} shape where two of the principal axes are equal, there are also \emph{triaxial} (or non-axial) nuclei. The triaxial shapes are defined by the $\gamma$ degree of freedom: a parameter which dictates the asymmetry between the three axes of the nucleus (e.g., it describes a stretching along an axis that is perpendicular to the symmetry axis). The nuclear radius for the axially-asymmetric quadrupole deformations is given by:
 \begin{align}
     R(\theta,\varphi)=R_0\left(1+\beta_2\cos\gamma Y_2^0(\theta,\varphi)+\frac{1}{\sqrt{2}}\sin\gamma(Y_2^2(\theta,\varphi)+Y_2^{-2}(\theta,\varphi))\right)\ ,
     \label{non-axial-quadrupole}
 \end{align}
-
-which is different from Eq. \ref{quadrupole-radius}. As it was already mentioned, the values $\gamma=0^\circ$ and $\gamma=60^\circ$ correspond to symmetric prolate and oblate shapes, respectively. Between these values, the triaxial region exist, with \emph{maximal triaxiality} reached at $\gamma=30^\circ$. The deformation parameters $(\beta,\gamma)$ are also called the Hill-Wheeler set \cite{wong2008introductory}.
-
-In Eq. \ref{non-axial-quadrupole}, the spherical harmonics are expressed as follows:
+which is different from Eq. \ref{quadrupole-radius}. The values $\gamma=0^\circ$ and $\gamma=60^\circ$ correspond to symmetric prolate and oblate shapes, respectively. Between these values, the triaxial region exist, with \emph{maximal triaxiality} reached at $\gamma=30^\circ$. The deformation parameters $(\beta,\gamma)$ are also called the Hill-Wheeler set \cite{wong2008introductory}. In Eq. \ref{non-axial-quadrupole}, the spherical harmonics are expressed as follows:
 \begin{align}
     Y_2^0(\theta,\varphi)&=\frac{1}{4}\sqrt{\frac{5}{\pi}}\left(3\cos(\theta)^2-1\right)\ , \nonumber\\
     Y_2^2(\theta,\varphi)&=\frac{1}{4}e^{2i\varphi}\sqrt{\frac{15}{2\pi}}\sin(\theta)^2\ ,\nonumber\\
-    Y_2^{-2}(\theta,\varphi)&=\frac{1}{4}e^{-2i\varphi}\sqrt{\frac{15}{2\pi}}\sin(\theta)^2\ ,
+    Y_2^{-2}(\theta,\varphi)&=\frac{1}{4}e^{-2i\varphi}\sqrt{\frac{15}{2\pi}}\sin^2\theta\ ,
 \end{align}
-
 and substituting these terms in $R(\theta,\varphi)$, Eq. \ref{non-axial-quadrupole} will become \cite{andersson1976nuclear,bohr1998nuclear}:
 \begin{align}
     R(\theta,\varphi)=R_0\left[1+\sqrt{\frac{5}{16\pi}}\beta\left(\cos\gamma(3\cos\theta^2-1)+\sqrt{3}\sin\gamma\sin\theta^2\cos2\varphi\right)\right]\ .
