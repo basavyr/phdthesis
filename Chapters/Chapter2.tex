@@ -75,51 +75,47 @@ The multipole deformations for the cases $\lambda=1,2,3$ and $\lambda=4$ are sho
 
 One of the most important excitation modes (vibrational degrees of freedom) is the quadrupole deformation, corresponding to $\lambda=2$. In the case of pure quadrupole deformation, the nuclear surface will be given by the following expression:
 \begin{align}
-    R(\theta,\varphi)=R\left(1+\sum_\mu\alpha_{2\mu}Y_2^\mu(\theta,\varphi)\right)\ . \label{quadrupole-surface}
+    R(\theta,\varphi)=R\left(1+\sum_{\mu=-2}^{2}\alpha_{2\mu}Y_2^\mu(\theta,\varphi)\right)\ . \label{quadrupole-surface}
 \end{align}
 
-From this expression, the term $\alpha_{00}$ is of second order in $\alpha_{2\mu}$ and it can be neglected further on. This term also reflects the conservation of volume \cite{greiner1996nuclear,ring2004nuclear}. The real and independent degrees of freedom from the above expression are: $\alpha_{20}$, the real and imaginary parts of $\alpha_{21}$, and the real and imaginary parts of $\alpha_{22}$, respectively.
-
-More insight in regard to the quadrupole shape of the nucleus can be achieved if one expresses $R$ in terms of Cartesian coordinates. The spherical harmonics will attain a new form, depending on the Cartesian components of the unit vector pointing in a direction defined by $(\theta,\varphi)$:
+From this expression, the term $\alpha_{00}$ is of second order in $\alpha_{2\mu}$ and it can be neglected further on. This term also reflects the conservation of volume \cite{greiner1996nuclear,ring2004nuclear}. The real and independent degrees of freedom from the above expression are: $\alpha_{20}$, the real and imaginary parts of $\alpha_{21}$, and the real and imaginary parts of $\alpha_{22}$. More insight in regard to the quadrupole shape of the nucleus can be achieved if one expresses $R$ in terms of Cartesian coordinates. The spherical harmonics will attain a new form, depending on the Cartesian components of the unit vector pointing in a direction defined by $(\theta,\varphi)$:
 \begin{align}
     \xi=\sin\theta\cos\varphi\ ,\ \eta=\sin\theta\sin\varphi\ ,\ \zeta=\cos\theta\ ,
 \end{align}
-with the condition $\xi^2+\eta^2+\zeta^2=1$. With the expressions of the spherical harmonics as functions of $(\xi,\eta,\zeta)$, the nuclear radius will change accordingly (Cartesian expression $R=R(\xi,\eta,\zeta)$). A relationship between the Cartesian components and the spherical ones for the deformation can be also obtained if one writes all coefficients $\alpha_{2\mu}$ as functions of $\alpha_{ij}$ (with $i,j=\xi,\eta,\zeta$). Since the Cartesian deformations can be regarded as closely related to a stretch/contraction of the nucleus in a given direction, a first interpretation of the physical meaning behind the parameters $\alpha_{2\mu}$ can be established:
+with the condition $\xi^2+\eta^2+\zeta^2=1$. With the expressions of the spherical harmonics as functions of $(\xi,\eta,\zeta)$, the nuclear radius will change accordingly. A relationship between the Cartesian components and the spherical ones for the deformation can be also obtained if all coefficients $\alpha_{2\mu}$ are written as functions of $\alpha_{ij}$ (with $i,j=\xi,\eta,\zeta$). Since the Cartesian deformations give the stretch/contraction of the nucleus in a given direction, a first interpretation of the physical meaning behind the parameters $\alpha_{2\mu}$ can be established:
 \begin{itemize}
     \item $\alpha_{20}$: describes the stretching of the $z$ axis with respect to the $y$ and $x$ axes.
     \item $\alpha_{2-2}$ and $\alpha_{22}$: give the relative length of the $x$ axis compared to the $y$ axis. Moreover, it also gives the oblique deformation in the $x-y$ plane.
     \item $\alpha_{2-1}$ and $\alpha_{21}$: describe an oblique deformation, but with respect to the $z$ axis.
 \end{itemize}
 
-With the set of parameters defined above, the shape and orientation of the nucleus can have arbitrary values (the coefficients $\alpha_{2\mu}$ are mixing the shape and orientation), thus making the parametrization somewhat problematic. In order to fix that, the geometry can be changed if one considers the \emph{principal axis system} (the PA reference system is a coordinate system in which the moments of inertia associated with the nucleus are diagonal). 
-When using this reference frame, the number of parameters is still unchanged, however their physical significance becomes clearer. By denoting the new coordinate system with primed letters, nuclear radius will be described as a function $R=R(\xi',\eta',\zeta')$, with the conditions that $\alpha'_{ij}=0\ ,\ i\neq j$. The condition will further imply that the newly expressed parameters ($\alpha'_{2\mu}$) have the following form:
+With the set of parameters defined above, the shape and orientation of the nucleus can have arbitrary values (the coefficients $\alpha_{2\mu}$ are mixing the shape and orientation), making the parametrization somewhat problematic. In order to fix that, the geometry can be changed if one considers the \emph{principal axis system}
+% (the PA reference system is a coordinate system in which the moments of inertia associated with the nucleus are diagonal). 
+When using this reference frame, the number of parameters is still unchanged, however their physical significance becomes clearer. By denoting the new coordinate system with primed letters, the nuclear radius will be described as a function $R=R(\xi',\eta',\zeta')$, with the conditions that $\alpha'_{ij}=0\ ,\ i\neq j$. The condition will further imply that the newly expressed parameters ($\alpha'_{2\mu}$) have the following form:
 \begin{align}
     \alpha'_{2 \pm 1}&=0\ , \nonumber \\
     \alpha'_{2 \pm 2}&\equiv a_2\ , \nonumber \\
     \alpha'_{20}&\equiv a_0\ ,
 \end{align}
-where the conveniently denoted terms $a_2$ and $a_0$ are some functions that depend on the Cartesian components $\alpha_{\xi,\xi}\ ,\ \alpha_{\eta,\eta}\ ,\ \alpha_{\zeta,\zeta}$. From this set of equations the physical significance of the five real and independent parameters is clearer:
+where the conveniently denoted terms $a_2$ and $a_0$ depend on the Cartesian components $\alpha_{\xi,\xi}\ ,\ \alpha_{\eta,\eta}\ ,\ \alpha_{\zeta,\zeta}$. From this set of equations the physical significance of the five real and independent parameters is as follows:
 \begin{itemize}
     \item $a_0$ is indicating the stretch of $z'$ axis w.r.t. the $x'$ and $y'$ axes.
     \item $a_2$ is indicating the asymmetry between the lengths of $x'$ and $y'$ axes, respectively.
-    \item the three \emph{Euler angles} $\mathbf{\Theta}=(\theta_1,\theta_2,\theta_3)$. These angles will determine the orientation of the PA system $(x',y',z')$ with respect to the laboratory-fixed frame $(x,y,z)$.
+    \item the three \emph{Euler angles} $\mathbf{\Theta}=(\theta_1,\theta_2,\theta_3$ that determine the orientation of the PA system $(x',y',z')$ with respect to the laboratory-fixed frame $(x,y,z)$.
 \end{itemize}
 
-One can now clearly see the advantage of working within the PA system: rotation and shape vibration degrees of freedom can be completely separated. A change in the Euler angles will result in a pure rotation of the nucleus (without changing its shape), while a change in shape will be affected exclusively by the $a_0$ and $a_2$ parameters. If $a_2=0$, then the nucleus has a shape with axial symmetry around the $z$ axis (equal axis lengths along the $x$ and $y$ directions).
-
-Another way of describing the excitations of quadrupole type is to adopt the parameters introduced by A. Bohr \cite{bohr1954rotational}. These two parameters can be viewed as a set of polar coordinates in the space generated by $(a_0,a_2)$ and they are defined as:
+The advantage in working within this coordinate system is clearly emphasized: rotation and shape vibration degrees of freedom are completely separated. A change in the Euler angles will emerge as a pure rotation of the nucleus, while a change in shape will be affected exclusively by the $a_0$ and $a_2$ parameters. If $a_2=0$, then the nucleus has is symmetric around the $z$-axis (equal lengths along the $x$ and $y$ directions). Another way of describing the excitations of quadrupole type is to adopt the parameters introduced by Bohr in Ref. \cite{bohr1954rotational}. These two parameters can be viewed as a set of polar coordinates in the space generated by $a_0$ and $a_2$, namely:
 \begin{align}
     a_0&=\beta_2\cos\gamma\ , \nonumber \\
     a_2&=\frac{1}{\sqrt{2}}\beta_2\sin\gamma\ , \label{bohr-deformation-params}
 \end{align}
-where the numeric factor $\frac{1}{2}$ was added such that the following relation holds true:
+where the numeric factor $1/2$ was added such that the following relation holds true:
 \begin{align}
     \sum_\mu\left|\alpha_{2\mu}\right|^2=\sum_\mu\left|\alpha'_{2\mu}\right|^2=a_0^2+2a_2^2=\beta_2^2\ .
     \label{quadrupole-param-sum}
 \end{align}
-It is worth mentioning that the Eq. \ref{quadrupole-param-sum} is rotationally invariant, having the same value in the laboratory and the principal axes systems.
 
-Now that the shape of the nucleus (i.e., the nuclear surface radius $R$) can be described consistently with via the parameters defined in Eq. \ref{bohr-deformation-params}, one can calculate the stretching of the nuclear radius along any of the directions is given in terms of $(\beta,\gamma)$ as follows:
+It is worth mentioning that the Eq. \ref{quadrupole-param-sum} is rotationally invariant, having the same value in the laboratory and the principal axes systems. Now that the shape of the nucleus (i.e., the nuclear surface radius $R$) can be described consistently with via the parameters defined in Eq. \ref{bohr-deformation-params}, one can calculate the stretching of the nuclear radius along any of the directions is given in terms of $(\beta,\gamma)$ as follows:
 \begin{align}
     \delta R_k=\sqrt{\frac{5}{4\pi}}\beta\cos(\gamma-\frac{2\pi k}{3})\ .
 \end{align}
