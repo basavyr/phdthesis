@@ -115,31 +115,24 @@ where the numeric factor $1/2$ was added such that the following relation holds 
     \label{quadrupole-param-sum}
 \end{align}
 
-It is worth mentioning that the Eq. \ref{quadrupole-param-sum} is rotationally invariant, having the same value in the laboratory and the principal axes systems. Now that the shape of the nucleus (i.e., the nuclear surface radius $R$) can be described consistently with via the parameters defined in Eq. \ref{bohr-deformation-params}, one can calculate the stretching of the nuclear radius along any of the directions is given in terms of $(\beta,\gamma)$ as follows:
+It is worth mentioning that Eq. \ref{quadrupole-param-sum} is rotationally invariant, having the same value in the laboratory and the principal axes systems. Now that the shape of the nucleus (i.e., the nuclear surface radius $R$) can be described consistently with via the parameters defined in Eq. \ref{bohr-deformation-params}, one can calculate the stretching of the nuclear radius along any of the directions is given in terms of $(\beta,\gamma)$ as follows:
 \begin{align}
     \delta R_k=\sqrt{\frac{5}{4\pi}}\beta\cos(\gamma-\frac{2\pi k}{3})\ .
+    \label{axes-stretching}
 \end{align}
 
-\subsubsection{Axial quadrupole deformations}
+\subsection{Axial quadrupole deformations}
 
 Using this set of new coordinates, the expression of the nuclear radius for axially quadrupole-deformed nuclei is given as:
 \begin{align}
-    R(\theta,\varphi)=R_0\left(1+\beta_2 Y_2^0(\theta,\varphi)\right)\ . \label{quadrupole-radius}
+    R(\theta,\varphi)=R_0\left(1+\beta_2 Y_2^0(\theta,\varphi)\right)\ ,
+    \label{quadrupole-radius}
 \end{align}
-
-In Eq. \ref{quadrupole-radius}, the parameter $\beta_2$ is called the \emph{quadrupole deformation parameter}, and its value dictates whether the nucleus is \emph{oblate} - $\beta_2<0$ (i.e., a flattened sphere), \emph{prolate} - $\beta_2>0$ (i.e., an elongated sphere, like a rugby ball), or \emph{spherical} - $\beta_2=0$.  The nuclear shapes that are characterized only by $\beta_2$ (i.e., $\gamma=0$) have shapes that correspond to spheroids. These shapes are axially symmetric, meaning that they only have one deformed axis. For the spherical case $\beta_2=0$, all three axes have the same lengths, meaning that the shape of the nucleus is in fact a sphere.
-
-For the axially-symmetric quadrupole deformations, the parameter $\beta_2$ can be related to the axes of the spheroid via the formula \cite{greiner1996nuclear}:
-\begin{align}
-    \delta R_k=\sqrt{\frac{5}{4\pi}}\beta_2\cos\left(\gamma-\frac{2\pi k}{3}\right)\ ,
-    \label{axes-stretching}
-\end{align}
-with $k=1,2,3$ indices that correspond to each of the three principal axes $x'$, $y'$, and $z'$, respectively. The stretching of the nuclear axis in a particular direction (denoted by $k$ in the above formula) varies according to the change in $\gamma$, for a fixed value of $\beta_2$.
-
+where the parameter $\beta_2$ is called the \emph{quadrupole deformation parameter}, and its value dictates whether the nucleus is \emph{oblate} (i.e., a flattened sphere), \emph{prolate} (i.e., an elongated sphere, like a rugby ball), or \emph{spherical}. The nuclear shapes that are characterized only by $\beta_2$ (i.e., $\gamma=0$) have shapes that correspond to spheroids. These shapes are axially symmetric, meaning that they only have one deformed axis. For the axially-symmetric quadrupole deformations, the parameter $\beta_2$ can be related to the axes of the spheroid via Eq. \ref{axes-stretching}.
 \begin{figure}
     \centering
-    \includegraphics[scale=0.65]{Chapters/Figures/nuclear-radius-elongation.pdf}
-    \caption{A graphical representation with the stretching of the nuclear axis $\delta R_k$ for $k=1,2,3$, corresponding to the increase in axis lengths along the $x$, $y$, and the $z$ directions, respectively. The representation used an arbitrary value for the quadrupole deformation $\beta_2=0.3$. Figure was reproduced according to the calculations done in \cite{greiner1996nuclear}.}
+    \includegraphics[scale=0.7]{Chapters/Figures/nuclear-radius-elongation.pdf}
+    \caption{Graphical representation with the stretching of the nuclear axes $\delta R_k\ ,\ k=1,2,3$, corresponding to the increase in axis lengths along the $x$, $y$, and $z$ directions. The representation used an arbitrary value $\beta_2=0.3$. Figure was reproduced according to the calculations done in Ref. \cite{greiner1996nuclear}.}
     \label{nuclear-radius-elongation}
 \end{figure}
 
