@@ -153,11 +153,11 @@ Besides the nuclei characterized by a \emph{spheroidal} shape where two of the p
 \end{align}
 which is different from Eq. \ref{quadrupole-radius}. The values $\gamma=0^\circ$ and $\gamma=60^\circ$ correspond to symmetric prolate and oblate shapes, respectively. Between these values, the triaxial region exist, with \emph{maximal triaxiality} reached at $\gamma=30^\circ$. The deformation parameters $(\beta,\gamma)$ are also called the Hill-Wheeler set \cite{wong2008introductory}. In Eq. \ref{non-axial-quadrupole}, the spherical harmonics are expressed as follows:
 \begin{align}
-    Y_2^0(\theta,\varphi)&=\frac{1}{4}\sqrt{\frac{5}{\pi}}\left(3\cos(\theta)^2-1\right)\ , \nonumber\\
-    Y_2^2(\theta,\varphi)&=\frac{1}{4}e^{2i\varphi}\sqrt{\frac{15}{2\pi}}\sin(\theta)^2\ ,\nonumber\\
+    Y_2^0(\theta,\varphi)&=\frac{1}{4}\sqrt{\frac{5}{\pi}}\left(3\cos^2\theta-1\right)\ , \nonumber\\
+    Y_2^2(\theta,\varphi)&=\frac{1}{4}e^{2i\varphi}\sqrt{\frac{15}{2\pi}}\sin^2\theta\ ,\nonumber\\
     Y_2^{-2}(\theta,\varphi)&=\frac{1}{4}e^{-2i\varphi}\sqrt{\frac{15}{2\pi}}\sin^2\theta\ ,
 \end{align}
-and substituting these terms in $R(\theta,\varphi)$, Eq. \ref{non-axial-quadrupole} will become \cite{andersson1976nuclear,bohr1998nuclear}:
+and substituting these terms in $R(\theta,\varphi)$, the structure Eq. \ref{non-axial-quadrupole} will become \cite{andersson1976nuclear,bohr1998nuclear}:
 \begin{align}
     R(\theta,\varphi)=R_0\left[1+\sqrt{\frac{5}{16\pi}}\beta\left(\cos\gamma(3\cos\theta^2-1)+\sqrt{3}\sin\gamma\sin\theta^2\cos2\varphi\right)\right]\ .
 \end{align}
@@ -171,7 +171,8 @@ Regarding the nuclear shapes that were described in Fig. \ref{beta-gamma-plane},
     \item for $\gamma=60^\circ,240^\circ$, the symmetry axis is the $y$-axis of the intrinsic frame
 \end{itemize}
 
-\subsubsection{Lund Convention}
+\subsection{Lund Convention}
+\label{subsection:lund-convention}
 
 The so-called Lund convention \cite{andersson1976nuclear} somewhat solves this repetitiveness, by selecting a rotational axis according to the set of rules described below:
 \begin{itemize}
@@ -181,64 +182,62 @@ The so-called Lund convention \cite{andersson1976nuclear} somewhat solves this r
     \item The rotation around the medium/intermediate axis ($i$-axis) implies the constraint on the triaxiality parameter $-60^\circ\leq\gamma\leq 0^\circ$.
 \end{itemize}
 
-Fig. \ref{lund-convention-graph} aims at depicting the mechanism behind the Lund convention. The graphical representations organized in Table \ref{table-ellipsoidal-shapes} show the possible nuclear shapes, depending on the number of deformation axes; namely, if there is only one deformation axis, then the nuclear shape is \emph{axial-symmetric} (oblate or prolate) and if there are two deformation axes, then the nucleus is \emph{triaxial} (axially-asymmetric). 
+% Fig. \ref{lund-convention-graph} aims at depicting the mechanism behind the Lund convention. The graphical representations organized in Table \ref{table-ellipsoidal-shapes} show the possible nuclear shapes, depending on the number of deformation axes; namely, if there is only one deformation axis, then the nuclear shape is \emph{axial-symmetric} (oblate or prolate) and if there are two deformation axes, then the nucleus is \emph{triaxial} (axially-asymmetric). 
+% \begin{figure}
+%     \centering
+%     \includegraphics[scale=0.3]{Chapters/Figures/lund-convention-plot.pdf}
+%     \caption{Representation of the nuclear shapes in the $(\beta,\gamma)$ plane, using the Lund convention \cite{andersson1976nuclear} previously discussed. The figure was taken from the work of Matta \cite{matta2017exotic}.}
+%     \label{lund-convention-graph}
+% \end{figure}
+% \begin{table}
+%     \centering
+%     \begin{tabular}{|c|c|c|c|}
+%         \hline 
+%         \multicolumn{4}{|c|}{\includegraphics[scale=0.7]{Chapters/Figures/tabular_ellipse.pdf}}\\ \hline 
+%         Shape    & \begin{tabular}[c]{@{}c@{}} n.o.\\ deformed axes\end{tabular} & Side view ($zx$-plane) & Top view ($yx$-plane) \\ \hline
+%         Prolate  & 1                                                              &   \includegraphics[scale=0.7]{Chapters/Figures/ellipse_prolate_1.pdf}   &     \includegraphics[scale=0.7]{Chapters/Figures/ellipse_prolate_2.pdf}      \\ \hline
+%         Oblate   & 1                                                              &   \includegraphics[scale=0.7]{Chapters/Figures/ellipse_oblate_1.pdf}    &     \includegraphics[scale=0.7]{Chapters/Figures/ellipse_oblate_2.pdf}       \\ \hline
+%         Triaxial & 2                                                              &   \includegraphics[scale=0.7]{Chapters/Figures/ellipse_triaxial_1.pdf}  &     \includegraphics[scale=0.7]{Chapters/Figures/ellipse_triaxial_2.pdf}      \\ \hline
+%         \end{tabular}
+%     \caption{Deformed ellipsoidal shapes of the nuclei. A generic ellipsoid is shown at the top of the table. The parameters $a$, $b$, and $c$ represent lengths of differing magnitude of the nuclear ellipsoid.}
+%     \label{table-ellipsoidal-shapes}
+% \end{table}
 
-\begin{figure}
-    \centering
-    \includegraphics[scale=0.3]{Chapters/Figures/lund-convention-plot.pdf}
-    \caption{Representation of the nuclear shapes in the $(\beta,\gamma)$ plane, using the Lund convention \cite{andersson1976nuclear} previously discussed. The figure was taken from the work of Matta \cite{matta2017exotic}.}
-    \label{lund-convention-graph}
-\end{figure}
+\subsubsection{Alternative description of the quadrupole deformation}
 
-\begin{table}[ht]
-    \centering
-    \begin{tabular}{|c|c|c|c|}
-        \hline 
-        \multicolumn{4}{|c|}{\includegraphics[scale=0.7]{Chapters/Figures/tabular_ellipse.pdf}}\\ \hline 
-        Shape    & \begin{tabular}[c]{@{}c@{}} n.o.\\ deformed axes\end{tabular} & Side view ($zx$-plane) & Top view ($yx$-plane) \\ \hline
-        Prolate  & 1                                                              &   \includegraphics[scale=0.7]{Chapters/Figures/ellipse_prolate_1.pdf}   &     \includegraphics[scale=0.7]{Chapters/Figures/ellipse_prolate_2.pdf}      \\ \hline
-        Oblate   & 1                                                              &   \includegraphics[scale=0.7]{Chapters/Figures/ellipse_oblate_1.pdf}    &     \includegraphics[scale=0.7]{Chapters/Figures/ellipse_oblate_2.pdf}       \\ \hline
-        Triaxial & 2                                                              &   \includegraphics[scale=0.7]{Chapters/Figures/ellipse_triaxial_1.pdf}  &     \includegraphics[scale=0.7]{Chapters/Figures/ellipse_triaxial_2.pdf}      \\ \hline
-        \end{tabular}
-    \caption{Deformed ellipsoidal shapes of the nuclei. A generic ellipsoid is shown at the top of the table. The parameters $a$, $b$, and $c$ represent lengths of differing magnitude of the nuclear ellipsoid.}
-    \label{table-ellipsoidal-shapes}
-    \end{table}
-
-    \subsubsection{Alternative description of the quadrupole deformation}
-
-    Considering the Lund convention and the Eq. \ref{axes-stretching}, one can re-write the set of stretching values as follows:
-    \begin{align}
-        \frac{R_x-R_0}{R_0}&=\sqrt{\frac{5}{4\pi}}\beta_2\cos\left(\gamma-\frac{2}{3}\pi\right)\ , \\
-        \frac{R_y-R_0}{R_0}&=\sqrt{\frac{5}{4\pi}}\beta_2\cos\left(\gamma-\frac{4}{3}\pi\right)\ , \\
-        \frac{R_z-R_0}{R_0}&=\sqrt{\frac{5}{4\pi}}\beta_2\cos\gamma. \\
-    \end{align}
+Considering the Lund convention and the Eq. \ref{axes-stretching}, one can re-write the set of stretching values as follows:
+\begin{align}
+    \frac{R_x-R_0}{R_0}&=\sqrt{\frac{5}{4\pi}}\beta_2\cos\left(\gamma-\frac{2}{3}\pi\right)\ , \\
+    \frac{R_y-R_0}{R_0}&=\sqrt{\frac{5}{4\pi}}\beta_2\cos\left(\gamma-\frac{4}{3}\pi\right)\ , \\
+    \frac{R_z-R_0}{R_0}&=\sqrt{\frac{5}{4\pi}}\beta_2\cos\gamma. \\
+\end{align}
 
 For the axially symmetric deformation (i.e., $\gamma=0$), the quadrupole parameter $\beta_2$ can be derived as follows:
 \begin{align}
     \beta_2=\frac{4}{3}\sqrt{\frac{\pi}{5}}\frac{\tilde{R}}{R_0}\ ,
 \end{align}
-
-where $\tilde{R}=(R_z-R_x)$ is the difference between the major ($R_z$) and minor ($R_x$) axes of the ellipsoid. This equation for $\beta_2$ shows how for oblate deformations, $\beta2<0$ (implying that $R_z<R_x$), while for prolate deformations $\beta_2>0$ (implying that $R_z>R_x$). Within literature, usual values for $\beta_2$ range from 0.2 - 0.3 (known as \emph{normal deformation}) to 0.4 - 0.6 (known as strong or \emph{superdeformation}). 
-
-Another possible description of the nuclear deformation that is specific to small deformations, is given in terms of the parameter $\epsilon_2$, with the connection to $\beta_2$ via the formula \cite{casten2000nuclear}:
+where $\tilde{R}=(R_z-R_x)$ is the difference between the major ($R_z$) and minor ($R_x$) axes of the ellipsoid. This equation for $\beta_2$ shows how for oblate deformations, $\beta2<0$ (implying that $R_z<R_x$), while for prolate deformations $\beta_2>0$ (implying that $R_z>R_x$). Within literature, usual values for $\beta_2$ range from 0.2 - 0.3 (known as \emph{normal deformation}) to 0.4 - 0.6 (known as strong or \emph{superdeformation}). Very often, an alternative description of the nuclear deformation is used in terms of the parameter $\epsilon_2$ that relates to $\beta_2$ via the formula \cite{casten2000nuclear}:
 \begin{align}
     \epsilon_2\approx=\frac{\tilde{R}}{R_0}=\frac{3}{4}\sqrt{\frac{5}{\pi}}\beta_2=0.946\beta_2\ .
     \label{epsilon-beta-relation}
 \end{align}
 
-\subsection{Nuclear Shapes and Softness}
+% \subsection{Nuclear Shapes and Softness}
 
-Regarding Table \ref{table-ellipsoidal-shapes}, a discussion about the implications of the nuclear shapes in terms of some specific phenomena is necessary. Indeed, the shell-model (which will be briefly discussed in the next chapter) considers the motion of the individual nucleons, that are \emph{confined} in nucleonic orbitals, where each nucleon will occupy an orbit with a quantized value of angular momentum. The interpretation of the gamma-ray spectra of different nuclei can be properly described through the excitations if individual nucleons between different orbits, but only for nuclei that are near closed shells. 
-Unfortunately, the same cannot be said about nuclei that lie far from a shell closure, where tools like \emph{Collective Model} - C.M. \cite{bohr1998nuclear} help understand the properties of these nuclei. One can see that any additional nucleon to the closed shells will imply a departure from the spherical view of a nucleus, with deformations along one of the axis of that nucleus. With the help of C.M., the energy spectrum of many nuclei can be understood and described in terms of 1) a rotation around an axis that is perpendicular to the deformation axis, but also in terms of a 2) motion of the nucleus as a whole (i.e., collective behavior) in tandem with one coming from a single nucleon (i.e., single-particle behavior).
-As an example, nuclei in the region $N=82$ were extensively studied, and the properties of a given nuclide are not only determined by the specific orbital occupied by valence nucleons (e.g., proton orbitals such as $s_{1/2}$, $h_{11/2}$ or neutron orbitals such as $f_{7/2}$, $h_{9/2}$), but also the proportion of each shell that is filled with protons and neutrons, respectively. The nuclei in this closed shell $N=82$ region are considered as perfect examples of evolutions from the single-particle motion, and the evolution to a collective behavior can be emphasized around the \emph{midshell} at $N=104$. 
-These midshell nuclei have a deformation that is present along only one axis: \emph{axially symmetric}. Every orbital will cause the nucleus to change its shape towards either a prolate or an oblate one. The change in prolate/oblate type of deformation will depend on the value of the quadrupole moment \cite{lewis2019lifetime}, quantity used to evaluate the so-called Nilsson levels \cite{ragnarsson2005shapes} (a detailed discussion about the Nilsson orbitals will be made in the following chapter), or Nilsson diagrams: single-particle energies as a function of nuclear deformation. The slope of a Nilsson level is related to the expectation value of the quadrupole moment, via the expression \cite{andersson1976nuclear}:
-\begin{align}
-    \frac{d e_k}{d\beta}=-\bra{j}q\ket{j}\, 
-\end{align}
-with $e_k$ representing the energy of the single-particle state $\ket{j}$, $\beta$ is the deformation, and $q$ is the quadrupole operator. Each nucleon that occupies an orbit with a given slope will contribute to an overall deformation: one nucleon that occupies a downward sloping orbital which for positive $\beta$ will drive the nucleus to a prolate shape, while the other type of nucleon that occupies an upward sloping orbital will drive the nucleus to an oblate shape. The competition between these two polarizing effects will result in the axial asymmetry.
+% A discussion about the implications of the nuclear shapes in terms of some specific phenomena is necessary. Indeed, the shell-model (which will be briefly discussed in the next chapter) considers the motion of the individual nucleons, that are \emph{confined} in nucleonic orbitals, where each nucleon will occupy an orbit with a quantized value of angular momentum. The interpretation of the gamma-ray spectra of different nuclei can be properly described through the excitations if individual nucleons between different orbits, but only for nuclei that are near closed shells. 
 
-In triaxial nuclei (\emph{axially-asymmetric}), a number of low-lying nuclear configurations can exist, leading to different shapes. When the nucleus has a dynamic degree of triaxiality (via the $\gamma$ deformation parameter), it is said to be a $\gamma$-\emph{soft nucleus}. 
+% Unfortunately, the same cannot be said about nuclei that lie far from a shell closure, where tools like \emph{Collective Model} - C.M. \cite{bohr1998nuclear} help understand the properties of these nuclei. One can see that any additional nucleon to the closed shells will imply a departure from the spherical view of a nucleus, with deformations along one of the axis of that nucleus. With the help of C.M., the energy spectrum of many nuclei can be understood and described in terms of 1) a rotation around an axis that is perpendicular to the deformation axis, but also in terms of a 2) motion of the nucleus as a whole (i.e., collective behavior) in tandem with one coming from a single nucleon (i.e., single-particle behavior).
 
-The $\gamma$-soft nuclei tend to exist when both the protons and neutrons occupy the top and bottom of their shells, respectively. The opposite also holds true \cite{chen2014collective}. The conditions for $\gamma$-soft nuclear deformations are realized, for example, in $N \approx 90$ nuclei, where the Fermi surfaces are located near the top of the proton shell ($h_{11/2}$) and bottom of the neutron shell ($i_{13/2}$).
+% As an example, nuclei in the region $N=82$ were extensively studied, and the properties of a given nuclide are not only determined by the specific orbital occupied by valence nucleons (e.g., proton orbitals such as $s_{1/2}$, $h_{11/2}$ or neutron orbitals such as $f_{7/2}$, $h_{9/2}$), but also the proportion of each shell that is filled with protons and neutrons, respectively. The nuclei in this closed shell $N=82$ region are considered as perfect examples of evolutions from the single-particle motion, and the evolution to a collective behavior can be emphasized around the \emph{midshell} at $N=104$. 
 
-It is interesting that a single nucleus does not necessarily holds a single fixed shape. If the potential energy surface (PES) is relatively flat with respect to the triaxiality parameter $\gamma$ (meaning that there is no constrain with regards to the minimum value of $\gamma$), the shape can oscillate within an interval of deformation. Such a feature characterizes the $\gamma$-softness of the nucleus itself.
+% These midshell nuclei have a deformation that is present along only one axis: \emph{axially symmetric}. Every orbital will cause the nucleus to change its shape towards either a prolate or an oblate one. The change in prolate/oblate type of deformation will depend on the value of the quadrupole moment \cite{lewis2019lifetime}, quantity used to evaluate the so-called Nilsson levels \cite{ragnarsson2005shapes} (a detailed discussion about the Nilsson orbitals will be made in the following chapter), or Nilsson diagrams: single-particle energies as a function of nuclear deformation. The slope of a Nilsson level is related to the expectation value of the quadrupole moment, via the expression \cite{andersson1976nuclear}:
+% \begin{align}
+%     \frac{d e_k}{d\beta}=-\bra{j}q\ket{j}\, 
+% \end{align}
+% where $e_k$ represents the energy of the single-particle state $\ket{j}$, $\beta$ is the deformation, and $q$ is the quadrupole operator. Each nucleon that occupies an orbit with a given slope will contribute to an overall deformation: one nucleon that occupies a downward sloping orbital which for positive $\beta$ will drive the nucleus to a prolate shape, while the other type of nucleon that occupies an upward sloping orbital will drive the nucleus to an oblate shape. The competition between these two polarizing effects will result in the axial asymmetry.
+
+% In triaxial nuclei (\emph{axially-asymmetric}), a number of low-lying nuclear configurations can exist, leading to different shapes. When the nucleus has a dynamic degree of triaxiality (via the $\gamma$ deformation parameter), it is said to be a $\gamma$-\emph{soft nucleus}. 
+
+% The $\gamma$-soft nuclei tend to exist when both the protons and neutrons occupy the top and bottom of their shells, respectively. The opposite also holds true \cite{chen2014collective}. The conditions for $\gamma$-soft nuclear deformations are realized, for example, in $N \approx 90$ nuclei, where the Fermi surfaces are located near the top of the proton shell ($h_{11/2}$) and bottom of the neutron shell ($i_{13/2}$).
+
+% It is interesting that a single nucleus does not necessarily holds a single fixed shape. If the potential energy surface (PES) is relatively flat with respect to the triaxiality parameter $\gamma$ (meaning that there is no constrain with regards to the minimum value of $\gamma$), the shape can oscillate within an interval of deformation. Such a feature characterizes the $\gamma$-softness of the nucleus itself.
