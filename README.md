@@ -6,6 +6,8 @@
 
 **Topic:** Nuclear structure ⚛️
 
+**Thesis:** Access the actual thesis 📁 [here](https://github.com/basavyr/phdthesis/raw/main/phdthesis.pdf)
+
 ## Issues
 
 Check the currently opened issues with regards to the thesis development [here](https://github.com/basavyr/phdthesis/issues).
