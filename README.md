@@ -4,7 +4,7 @@
 
 **Topic:** Nuclear structure ⚛️
 
-**Thesis:** Download and read the latest version [here](https://github.com/basavyr/phdthesis/raw/main/phdthesis.pdf) 📁
+**Thesis:** Download and read the latest version [here](https://github.com/basavyr/phdthesis/raw/main/monalisa.pdf) 📁
 
 ## Issues
 
