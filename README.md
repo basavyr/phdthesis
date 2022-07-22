@@ -1,10 +1,10 @@
 **Title:** *A Systematic Description of the Wobbling Motion in Odd-Mass Nuclei Within a Semi-Classical Formalism*
 
-**Author:** Robert Poenaru ✉️ <robert.poenaru@protonmail.ch>
+**Author:** Robert Poenaru <robert.poenaru@protonmail.ch> ✉️
 
 **Topic:** Nuclear structure ⚛️
 
-**Thesis:** Access the actual thesis 📁 [here](https://github.com/basavyr/phdthesis/raw/main/phdthesis.pdf)
+**Thesis:** Download and read it [here](https://github.com/basavyr/phdthesis/raw/main/phdthesis.pdf) 📁
 
 ## Issues
 
