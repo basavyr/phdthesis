@@ -14,6 +14,6 @@ Check the currently opened issues with regards to the thesis development [here](
 
 See all the figures that are used within the thesis [here](https://github.com/basavyr/phdthesis/tree/main/Chapters/Figures). Graphical representations of various quantities and schematic diagrams are available.
 
-## Resleases
+## Releases
 
 Check the current and previous releases of the project [here](https://github.com/basavyr/phdthesis/releases).
