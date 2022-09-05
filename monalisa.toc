@@ -17,16 +17,16 @@
 \contentsline {subsection}{\numberline {3.2.1}Deformed Shell Model - Nilsson Model}{27}{subsection.64}%
 \contentsline {subsection}{\numberline {3.2.2}Single-particle states in deformed nuclei}{31}{subsection.75}%
 \contentsline {subsection}{\numberline {3.2.3}Nilsson orbitals}{34}{subsection.81}%
-\contentsline {section}{\numberline {3.3}Collective Model}{41}{section.93}%
+\contentsline {section}{\numberline {3.3}Collective Model}{42}{section.93}%
 \contentsline {subsection}{\numberline {3.3.1}Bohr Hamiltonian}{42}{subsection.94}%
-\contentsline {subsection}{\numberline {3.3.2}Nuclear Vibration}{45}{subsection.109}%
+\contentsline {subsection}{\numberline {3.3.2}Nuclear Vibration}{46}{subsection.109}%
 \contentsline {subsection}{\numberline {3.3.3}Nuclear Rotation}{48}{subsection.114}%
 \contentsline {subsection}{\numberline {3.3.4}Superimposed Rotations and Vibrations}{52}{subsection.119}%
 \contentsline {subsection}{\numberline {3.3.5}Collective Quantities}{54}{subsection.131}%
-\contentsline {subsubsection}{\numberline {3.3.5.1}R - Energy Ratio}{54}{subsubsection.132}%
+\contentsline {subsubsection}{\numberline {3.3.5.1}R - Energy Ratio}{55}{subsubsection.132}%
 \contentsline {subsubsection}{\numberline {3.3.5.2}Rotational Frequencies}{55}{subsubsection.134}%
-\contentsline {subsubsection}{\numberline {3.3.5.3}Moments of Inertia}{56}{subsubsection.140}%
-\contentsline {subsubsection}{\numberline {3.3.5.4}Electric Quadrupole Moment}{58}{subsubsection.147}%
+\contentsline {subsubsection}{\numberline {3.3.5.3}Moments of Inertia}{57}{subsubsection.140}%
+\contentsline {subsubsection}{\numberline {3.3.5.4}Electric Quadrupole Moment}{59}{subsubsection.147}%
 \contentsline {chapter}{\numberline {4}Triaxial Nuclei and Their Signatures}{65}{chapter.158}%
 \contentsline {section}{\numberline {4.1}Non-axial nuclei}{65}{section.159}%
 \contentsline {subsection}{\numberline {4.1.1}Triaxial Rotor Model}{66}{subsection.160}%
