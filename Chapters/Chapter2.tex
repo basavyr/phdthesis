@@ -53,7 +53,7 @@ where $R$ denotes the nuclear radius. The radius is given as a function of spher
 
 \subsection{Multipole deformations}
 
-In the expansion of the nuclear surface defined by Eq. 
+In the expansion of the nuclear radius defined by Eq. 
 \ref{nuclear-shape}, the different values for $\lambda$ will determine different effects regarding the physical aspects of the nucleus. As such, the first values of $\lambda$ will be examined in terms of their physical meaning.
 \begin{description}
     \item[Monopole mode] This corresponds to the first value of $\lambda=0$. This is the simplest mode of \emph{deformation} of a nuclear surface. Within this approximation, the spherical harmonic $Y_0^0$ is constant, which would imply that any non-vanishing values for $\alpha_{00}$ will correspond to the change in radius of the nucleus. This kind of excitation is also called \emph{breathing mode} of the nucleus \cite{greiner1996nuclear,bohr1998nuclear}. The energy required for this kind of excitation mode is very large, since it implies a compression of the nuclear matter. As a result, this mode is irrelevant in the low-lying excited spectra of atomic nuclei.
@@ -111,13 +111,13 @@ The advantage in working within this coordinate system is clearly emphasized: ro
     a_2&=\frac{1}{\sqrt{2}}\beta_2\sin\gamma\ ,
     \label{bohr-deformation-params}
 \end{align}
-where the numeric factor $1/2$ was added such that the following relation holds true:
+where the numeric factor $1/\sqrt{2}$ was added such that the following relation holds true:
 \begin{align}
     \sum_\mu\left|\alpha_{2\mu}\right|^2=\sum_\mu\left|\alpha'_{2\mu}\right|^2=a_0^2+2a_2^2=\beta_2^2\ .
     \label{quadrupole-param-sum}
 \end{align}
 
-It is worth mentioning that Eq. \ref{quadrupole-param-sum} is rotationally invariant, having the same value in the laboratory and the principal axes systems. Now that the shape of the nucleus (i.e., the nuclear surface radius $R$) can be described consistently with via the parameters defined in Eq. \ref{bohr-deformation-params}, one can calculate the stretching of the nuclear radius along any of the directions is given in terms of $(\beta,\gamma)$ as follows:
+It is worth mentioning that Eq. \ref{quadrupole-param-sum} is rotationally invariant, having the same value in the laboratory and the principal axes systems. Now that the shape of the nucleus (i.e., the nuclear surface radius $R$) can be described consistently with the parameters defined in Eq. \ref{bohr-deformation-params}, one can calculate the stretching of the nuclear radius along any of the directions is given in terms of $(\beta,\gamma)$ as follows:
 \begin{align}
     \delta R_k=\sqrt{\frac{5}{4\pi}}\beta\cos(\gamma-\frac{2\pi k}{3})\ .
     \label{axes-stretching}
@@ -133,7 +133,7 @@ Using this set of new coordinates, the expression of the nuclear radius for axia
 where the parameter $\beta_2$ is called the \emph{quadrupole deformation parameter}, and its value dictates whether the nucleus is \emph{oblate} (i.e., a flattened sphere), \emph{prolate} (i.e., an elongated sphere, like a rugby ball), or \emph{spherical}. The nuclear shapes that are characterized only by $\beta_2$ (i.e., $\gamma=0$) have shapes that correspond to spheroids. These shapes are axially symmetric, meaning that they only have one deformed axis. For the axially-symmetric quadrupole deformations, the parameter $\beta_2$ can be related to the axes of the spheroid via Eq. \ref{axes-stretching}.
 \begin{figure}
     \centering
-    \includegraphics[scale=0.7]{Chapters/Figures/nuclear-radius-elongation.pdf}
+    \includegraphics[scale=0.8]{Chapters/Figures/nuclear-radius-elongation.pdf}
     \caption{Graphical representation with the stretching of the nuclear axes $\delta R_k\ ,\ k=1,2,3$, corresponding to the increase in axis lengths along the $x$, $y$, and $z$ directions. The representation used an arbitrary value $\beta_2=0.3$. Figure was reproduced according to the calculations done in Ref. \cite{greiner1996nuclear}.}
     \label{nuclear-radius-elongation}
 \end{figure}
@@ -161,7 +161,7 @@ which is different from Eq. \ref{quadrupole-radius}. The values $\gamma=0^\circ$
 \end{align}
 and substituting these terms in $R(\theta,\varphi)$, the structure Eq. \ref{non-axial-quadrupole} will become \cite{andersson1976nuclear,bohr1998nuclear}:
 \begin{align}
-    R(\theta,\varphi)=R_0\left[1+\sqrt{\frac{5}{16\pi}}\beta\left(\cos\gamma(3\cos\theta^2-1)+\sqrt{3}\sin\gamma\sin\theta^2\cos2\varphi\right)\right]\ .
+    R(\theta,\varphi)=R_0\left[1+\sqrt{\frac{5}{16\pi}}\beta\left(\cos\gamma(3\cos^2\theta-1)+\sqrt{3}\sin\gamma\sin^2\theta\cos2\varphi\right)\right]\ .
 \end{align}
 
 Regarding the nuclear shapes that were described in Fig. \ref{beta-gamma-plane}, the redundancies of the $(\beta,\gamma)$ variables are:
