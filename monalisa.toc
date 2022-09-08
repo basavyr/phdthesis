@@ -17,14 +17,14 @@
 \contentsline {subsection}{\numberline {3.1.2}Single-particle states in deformed nuclei}{21}{subsection.48}%
 \contentsline {section}{\numberline {3.2}Collective Model}{27}{section.54}%
 \contentsline {subsection}{\numberline {3.2.1}Bohr Hamiltonian}{27}{subsection.55}%
-\contentsline {subsection}{\numberline {3.2.2}Nuclear Vibration}{29}{subsection.64}%
-\contentsline {subsection}{\numberline {3.2.3}Nuclear Rotation}{32}{subsection.69}%
-\contentsline {subsection}{\numberline {3.2.4}Superimposed Rotations and Vibrations}{36}{subsection.74}%
-\contentsline {subsection}{\numberline {3.2.5}Collective Quantities}{38}{subsection.86}%
-\contentsline {subsubsection}{\numberline {3.2.5.1}R - Energy Ratio}{38}{subsubsection.87}%
-\contentsline {subsubsection}{\numberline {3.2.5.2}Rotational Frequencies}{39}{subsubsection.89}%
-\contentsline {subsubsection}{\numberline {3.2.5.3}Moments of Inertia}{40}{subsubsection.95}%
-\contentsline {subsubsection}{\numberline {3.2.5.4}Electric Quadrupole Moment}{42}{subsubsection.102}%
+\contentsline {section}{\numberline {3.3}Nuclear Vibration}{29}{section.64}%
+\contentsline {section}{\numberline {3.4}Nuclear Rotation}{32}{section.69}%
+\contentsline {section}{\numberline {3.5}Superimposed Rotations and Vibrations}{36}{section.74}%
+\contentsline {section}{\numberline {3.6}Collective Quantities}{38}{section.86}%
+\contentsline {subsection}{\numberline {3.6.1}R - Energy Ratio}{39}{subsection.87}%
+\contentsline {subsection}{\numberline {3.6.2}Rotational Frequencies}{39}{subsection.89}%
+\contentsline {subsection}{\numberline {3.6.3}Moments of Inertia}{41}{subsection.95}%
+\contentsline {subsubsection}{\numberline {3.6.3.1}Electric Quadrupole Moment}{43}{subsubsection.102}%
 \contentsline {chapter}{\numberline {4}Triaxial Nuclei and Their Signatures}{49}{chapter.113}%
 \contentsline {section}{\numberline {4.1}Non-axial nuclei}{49}{section.114}%
 \contentsline {subsection}{\numberline {4.1.1}Triaxial Rotor Model}{50}{subsection.115}%

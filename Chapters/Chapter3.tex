@@ -195,7 +195,7 @@ The dependence of the two types of MOI on the triaxiality parameter $\gamma$ (an
 
 In the following two subsections, each type of degree of freedom will be described, giving the main characteristics of the energy spectra associated with the two motions. 
 
-\subsection{Nuclear Vibration}
+\section{Nuclear Vibration}
 
 The energy spectrum is composed of levels built from the oscillator frequencies. The absorption or emission of vibration-like energy quanta (i.e., phonons) when the nucleus transitions to a higher or a lower energy state will be in terms of dipole, quadrupole, octupole, etc. vibrating phonons. These excitations will generate the ground and excited states, resulting in a `collection' of \emph{vibrational bands}. Since the quadrupole effects are of interest within the current work, a spectrum specific to quadrupole vibrations $\lambda=2$ phonons can be seen in Fig. \ref{fig-vibrational-bands}.
 \begin{figure}
@@ -234,7 +234,7 @@ Since the quadrupole vibrations carry an angular momentum of $\lambda=2$, there 
     \label{rotation-vibration-geometrics}
 \end{figure}
 
-\subsection{Nuclear Rotation}
+\section{Nuclear Rotation}
 
 The rotational-kinetic term from $H_\text{coll}$ is called the \emph{rotational energy}, and its expression is given by \cite{corrigan1976exact}:
 \begin{align}
@@ -280,7 +280,7 @@ In the above expression, $\mathcal{I}_\perp$ corresponds to an axis that is perp
 
 The spectra of a simple rigid rotator assumes that the projection $K$ of the total angular momentum for the ground-state of even-even nuclei is $K=0$. So the next step is to consider more general cases of nuclear rotation. There are two general cases of rotational bands that can occur, and both require the coupling scheme of a rotor with a valence nucleon, such that the angular momentum will be $\mathbf{I}=\mathbf{R}+\mathbf{j}$ (so both situations will correspond to odd-$A$ nuclei). The two situations are called \emph{Deformation aligned bands} and \emph{Rotation aligned bands} \cite{uwitonze2015assignment}. These are detailed in Appendix \ref{appendix:ral-dal-signature-scheme}.
 
-\subsection{Superimposed Rotations and Vibrations}
+\section{Superimposed Rotations and Vibrations}
 
 Up until now, the collective rotations and vibrations were discussed separately. The small vibrations of the nuclear surface lead to band structures constructed via the quadrupole phonons carrying $\lambda=2$ units of angular momentum. The proper picture of a rotating deformed nucleus consists of a stable \emph{equilibrium shape} that is determined by $i)$ the \emph{rapid internal motion of the nucleons} within the nuclear potential and $ii)$ their entire distribution doing a \emph{slow rotation} having a negligible effect on the nuclear structure or on the individual nucleonic orbits.
 
@@ -327,12 +327,12 @@ Consequently, the spectrum of a typical nucleus in which both vibration and rota
     \label{collective-rotation-vibration-energy-levels}
 \end{figure}
 
-\subsection{Collective Quantities}
+\section{Collective Quantities}
 \label{c3-collective-quantities}
 
-In this section, some important quantities that are strictly related to the collective nature of nuclei will be described. Indeed, one can understand nuclear deformation, energy spectra, and behavior of nuclei with respect to spin by studying quantities such as \emph{rotational frequencies}, \emph{moments of inertia}, \emph{quadrupole moments}, and so on. The comparison with experimental data for these quantities can help validate the theoretical assertions that are initially made, which represents the crucial test of any developed model.
+In this section, some important quantities that are strictly related to the collective nature of nuclei will be described. Indeed, one can understand nuclear deformation, energy spectra, and behavior of nuclei with respect to spin by studying quantities such as \emph{rotational frequencies}, \emph{moments of inertia}, \emph{quadrupole moments}, and so on. The comparison with experimental data for these quantities can help validate the theoretical assertions that are initially made, which represents a crucial test of any model.
 
-\subsubsection{R - Energy Ratio}
+\subsection{R - Energy Ratio}
 
 As discussed before, the energy ratio between the first excited $4^+$ state to the first excited $2^+$ state is a very good test of rotational or vibrational spectra of nuclei. The evolution of this ratio across the mass number $A$ and a classification between \emph{vibrational} vs. \emph{rotational} character is made in Fig. \ref{4state-2state-ratio}.
 \begin{figure}
@@ -342,7 +342,7 @@ As discussed before, the energy ratio between the first excited $4^+$ state to t
     \label{4state-2state-ratio}
 \end{figure}
 
-\subsubsection{Rotational Frequencies}
+\subsection{Rotational Frequencies}
 
 In the classical limit the angular frequency:
 \begin{align}
@@ -353,17 +353,18 @@ describes the kinetic energy of a rotating object. Indeed, $\omega$ is frequency
     E=\frac{1}{2}\mathcal{I}\omega^2\ ,
 \end{align}
 
-The above expression can also be given in terms of the angular momentum $l_\text{cls.}$, such that the final energy becomes $E_\text{cls.}=l_\text{cls.}^2/(2\mathcal{I})$. Quantum mechanically, it was shown that $l^2$ is expressed as $\hat{l}^2_\text{quantum}=\hbar^2 l(l+1)$. Bengtsson et al. \cite{bengtsson1979quasiparticle} calculated the so-called \emph{Routhians} (single-particle energies within the rotating frame of reference), and they found a \emph {canonical relation} between the energies and rotational frequencies:
+The above expression can also be given in terms of the angular momentum $l_\text{cls.}$, such that the final energy becomes $E_\text{cls.}=l_\text{cls.}^2/(2\mathcal{I})$. Quantum mechanically, it was shown that $l^2$ is expressed as $\hat{l}^2_\text{quantum}=\hbar^2 l(l+1)$. Bengtsson et al. \cite{bengtsson1979quasiparticle} calculated the so-called \emph{Routhians} (single-particle energies within the rotating frame of reference), and they found a \emph {canonical} relation between the energies and rotational frequencies:
 \begin{align}
     \omega=\frac{\text{d}E(I)}{\text{d}I_x}\ ,
     \label{rotational-frequency-canonical-definition}
 \end{align}
-where the term $I_x$ is called the \emph{aligned angular momentum}, and usually it denotes the experimental spin of every state minus a reference value (see Harris \cite{harris1965higher}). The signature property discussed in Appendix \ref{appendix:ral-dal-signature-scheme} plays a pivotal role in determining $I_x(I)$, since the projection $K$ of the angular momentum onto the deformation axis must be taken into account:
+where the term $I_x$ is called the \emph{aligned angular momentum}, and it usually denotes the experimental spin of every state minus a reference value \cite{harris1965higher}. The signature property discussed in Appendix \ref{appendix:ral-dal-signature-scheme} plays a pivotal role in determining $I_x(I)$, since the projection $K$ of the angular momentum onto the deformation axis must be taken into account:
 \begin{align}
     I_x(I)=\sqrt{\left(I+\frac{1}{2}\right)^2-K^2}\ ,
     \label{aligned-angular-momentum}
 \end{align}
-which for the $K=0$ bands reaches the simplified form $I_x^2=(I+\frac{1}{2})^2$. The value of $K$ is typically the band-head's angular momentum \cite{bengtsson1979quasiparticle,bengtsson1984signature}. Alternatively, for a sequence of states where $\Delta I=2\hbar$, the rotational frequency is usually calculated as:
+
+In the case of $K=0$ bands, the aligned angular momentum reaches a simplified form $I_x^2=(I+\frac{1}{2})^2$. The value of $K$ is typically the band-head's angular momentum \cite{bengtsson1979quasiparticle,bengtsson1984signature}. Alternatively, for a sequence of states where $\Delta I=2\hbar$, the rotational frequency is usually calculated as:
 \begin{align}
     \omega\equiv\hbar\omega_\text{rot}(I)=\frac{E_\gamma(I\to I-2)}{2}\ .
     \label{rotational-frequency-canonical}
@@ -373,7 +374,7 @@ which for the $K=0$ bands reaches the simplified form $I_x^2=(I+\frac{1}{2})^2$.
 
 The rotational frequency is used to represent many quantities that characterize collective motion and nuclear deformation. Representing the total or the aligned angular momenta as functions of $\omega$ can show wether multiple bands have the same nature. Moreover, representing the MOI as function of $\omega$ will also give an insight on the intrinsic structure of the nucleus. Another interesting feature that is present in high-spin spectra of nuclei is the so-called \emph{backbending} phenomena. This phenomenon appears due to the Coriolis effect: nucleons can suffer a de-pairing that makes their a.m. to align with the rotational axis, causing a sharp increase in the MOI \cite{ring2004nuclear,kvasil2004backbending}. These kind of effects are correlated to high deformation, increased rotation, and change in the nucleonic alignment.
 
-\subsubsection{Moments of Inertia}
+\subsection{Moments of Inertia}
 
 This is a crucial quantity that describes the degree of deformation and asymmetry of the nuclear shape (remember discussion from Chapter \ref{chapter-2}). It is possible to retrieve an \emph{experimental} value for the MOI by inferring the energy spacing between consecutive levels of a collective spectrum. A classification of types of MOI was done in Eq. \ref{eq-irrotational-rigid-mois}, where the MOI dependence on the deformation parameters and even the mass parameter $B_\lambda$ was shown. The most general expression for the MOI can be written as \cite{ahmad2021backbending}:
 \begin{align}
