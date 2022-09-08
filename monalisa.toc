@@ -87,7 +87,8 @@
 \contentsline {section}{\numberline {A.1}Shell model}{194}{section.438}%
 \contentsline {section}{\numberline {A.2}Nilsson Orbitals}{202}{section.462}%
 \contentsline {chapter}{\numberline {B}Bohr's Collective Model}{209}{appendix.474}%
-\contentsline {chapter}{\numberline {C}Two-State Mixing}{212}{appendix.484}%
-\contentsline {chapter}{\numberline {D}Rotational Bands in Nuclei}{217}{appendix.499}%
-\contentsline {section}{\numberline {D.1}Deformation Aligned Bands}{218}{section.501}%
-\contentsline {section}{\numberline {D.2}Rotation Aligned Bands}{219}{section.507}%
+\contentsline {section}{\numberline {B.1}The Hamiltonian}{209}{section.475}%
+\contentsline {chapter}{\numberline {C}Two-State Mixing}{212}{appendix.485}%
+\contentsline {chapter}{\numberline {D}Rotational Bands in Nuclei}{217}{appendix.500}%
+\contentsline {section}{\numberline {D.1}Deformation Aligned Bands}{218}{section.502}%
+\contentsline {section}{\numberline {D.2}Rotation Aligned Bands}{219}{section.508}%
