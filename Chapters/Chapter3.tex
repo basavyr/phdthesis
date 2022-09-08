@@ -145,7 +145,7 @@ The collective model is one of the most `complete' tools in describing the nucle
 
 \subsection{Bohr Hamiltonian}
 
-As a first step, the concept of a nuclear liquid drop is used to construct the Hamiltonian. The droplet exhibits shape and surface oscillations, which have a dynamical character. These shape oscillations are illustrated in Fig. \ref{fig-nuclear-vibration}, where a vibrating nucleus is represented, having a spherical equilibrium shape. Since the collective coordinates are time-dependent, at each moment in time, the nuclear radius $R$ will be defined in the direction given by the radial coordinates $\theta,\varphi$. By using Eq. \ref{nuclear-shape} that characterizes the \emph{vibrations} of a nuclear surface, one can give the Hamiltonian of \emph{collective} nature as:
+As a first step, the concept of a nuclear liquid drop is used to construct the Hamiltonian. The droplet exhibits shape and surface oscillations, which have a dynamical character. These shape oscillations are illustrated in Fig. \ref{fig-nuclear-vibration}, where a vibrating nucleus is represented, having a spherical \emph{equilibrium} shape. Since the collective coordinates are time-dependent, at each moment in time, the nuclear radius $R$ will be defined in the direction given by the radial coordinates $\theta,\varphi$. By using Eq. \ref{nuclear-shape} that characterizes the \emph{vibrations} of a nuclear surface, one can give the Hamiltonian of \emph{collective} nature as \cite{bertulani2007nuclear}:
 \begin{align}
     H_\text{coll}\equiv T+V=\frac{1}{2}\sum_{\lambda\mu}\left[B_\lambda\left|\frac{\text{d}\alpha_{\lambda\mu}}{\text{d}t}\right|^2+C_\lambda|\alpha_{\lambda\mu}|^2\right]\ .
     \label{collective-hamiltonian-stiffness-inertia}
@@ -157,36 +157,7 @@ As a first step, the concept of a nuclear liquid drop is used to construct the H
     \label{fig-nuclear-vibration}
 \end{figure}
 
-The Hamiltonian is invariant under rotations and also invariant under time reversal \cite{messiah2014quantum}. The real numbers $B_\lambda$ and $C_\lambda$ represent the \emph{inertial} and \emph{stiffness} parameters. After a canonical quantization, the spectrum of such a Hamiltonian will have a harmonic-like structure, depending on the value of $\lambda$ (see calculations in Refs. \cite{ring2004nuclear,bertulani2007nuclear}). Indeed, by looking at the expression from Eq. \ref{collective-hamiltonian-stiffness-inertia}, one can see that it can be brought to a form:
-\begin{align}
-    H_\text{coll}^\text{osc}=\frac{p^2}{2m}+\frac{1}{2}kr^2\ ,
-    \label{eq-bohr-hamiltonian-oscillator-simple}
-\end{align}
-which is typical to a harmonic oscillator Hamiltonian. The frequency of oscillation is given by the relation $\omega=\sqrt{k/m}$. The vibrations can now be understood in terms of a sum of harmonic oscillator frequencies, where each frequency is given by $\lambda$:
-\begin{align}
-\omega_\lambda=\sqrt{\frac{C_\lambda}{B_\lambda}}\ .
-\end{align}
-
-The inertia term $B_\lambda$ (also called the \emph{mass parameter}) has the following expression \cite{ring2004nuclear}:
-\begin{align}
-    B_\lambda=\rho \frac{mR_0^5}{\lambda}=\frac{3}{4\pi\lambda}AmR_0^2\ ,
-    \label{inertia-parameters-B}
-\end{align}
-showing a quadratic dependence with the average nuclear radius. The nuclear density of nucleons with mass $m$ is given by $\rho$. The stiffness parameter $C_\lambda$ is usually expressed in terms of the \emph{surface tension} $\sigma$, assuming that the nuclear matter exhibits an irrotational flow and the nuclear charge is distributed uniformly over the entire volume \cite{ring2004nuclear}:
-\begin{align}
-    C_\lambda=(\lambda-1)(\lambda+2)\sigma R_0^2-\frac{3}{2\pi}\frac{\lambda-1}{2\lambda+1}\frac{(Ze)^2}{R_0}\ .
-    \label{stiffness-parameters-C}
-\end{align}
-
-With these ingredients, one can sketch a collective Hamiltonian similar to Eq. \ref{eq-bohr-hamiltonian-oscillator-simple} in the following manner:
-\begin{align}
-    H_\text{coll}=\sum_{\lambda\mu}\hbar\omega_\lambda\left(N_{\lambda\mu}+\frac{1}{2}\right)\ ,
-\end{align}
-where indeed, the typical harmonic oscillator spectrum emerges. The recipe for further manipulation of the Bohr's collective Hamiltonian from Eq. \ref{collective-hamiltonian-stiffness-inertia} is a lengthy process \cite{bohr1998nuclear,ring2004nuclear}, with several considerations beyond the scope of the current work. Shortly, for the quadrupole deformed nuclei, the expression of the potential term $V$ will be a function that depends on the parameters $(\beta,\gamma)$. The potential will be defined as a quadratic approximation in the vicinity of a deformed minimum point $p_0|_\text{min}=(\beta_,\gamma_0)$. This starts from the general assumption that the nucleus has the deformation $p_0$ in the ground state, and excitations around the \emph{equilibrium} point. Thus $V(\beta,\gamma)$ can be written as:
-\begin{align}
-    V(\beta,\gamma)=\frac{1}{2}C_{0}\left(\alpha_{20}(\beta,\gamma)-\alpha_{20}^0\right)^2+\frac{1}{2}C_{2}\left(\alpha_{22}(\beta,\gamma)-\alpha_{22}^0\right)\ .
-    \label{bohr-collective-potential}
-\end{align}
+The Hamiltonian is invariant under rotations and also invariant under time reversal \cite{messiah2014quantum}. The real numbers $B_\lambda$ and $C_\lambda$ represent the \emph{inertial} and \emph{stiffness} parameters. After a canonical quantization, the spectrum of such a Hamiltonian will have a harmonic-like structure, depending on the value of $\lambda$ (for the sake of completeness, more calculations are sketched in Appendix \ref{appendix:bohr-model}.
 
 Choosing the body-fixed axis as a reference system will simplify the results, since the system's axes coincide with the principal axes of the ellipsoid itself. Assuming this coordinate system and an axial ellipsoid, the kinetic term from $H_\text{coll}$ can be decomposed into a \emph{rotational} and a \emph{vibrational} part, i.e., $T=T_\text{vib}+T_\text{rot}$. Their expressions are given in terms of the deformation parameters $(\beta,\gamma)$, the mass parameters $B_2$ (for the quadrupole deformations) and the stiffness parameters $C_2$. Thus, the vibrational term is \cite{li2022model}:
 \begin{align}
