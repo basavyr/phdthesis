@@ -24,7 +24,7 @@
 \contentsline {subsection}{\numberline {3.6.1}R - Energy Ratio}{39}{subsection.87}%
 \contentsline {subsection}{\numberline {3.6.2}Rotational Frequencies}{39}{subsection.89}%
 \contentsline {subsection}{\numberline {3.6.3}Moments of Inertia}{41}{subsection.95}%
-\contentsline {subsubsection}{\numberline {3.6.3.1}Electric Quadrupole Moment}{43}{subsubsection.102}%
+\contentsline {subsection}{\numberline {3.6.4}Electric Quadrupole Moment}{43}{subsection.102}%
 \contentsline {chapter}{\numberline {4}Triaxial Nuclei and Their Signatures}{49}{chapter.113}%
 \contentsline {section}{\numberline {4.1}Non-axial nuclei}{49}{section.114}%
 \contentsline {subsection}{\numberline {4.1.1}Triaxial Rotor Model}{50}{subsection.115}%
