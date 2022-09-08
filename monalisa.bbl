@@ -111,12 +111,6 @@ Biswarup Das.
   Region}.
 \newblock PhD thesis, HOMI BHABHA NATIONAL INSTITUTE, 2018.
 
-\bibitem{hamamoto2016interplay}
-Ikuko Hamamoto.
-\newblock Interplay between one-particle and collective degrees of freedom in
-  nuclei.
-\newblock {\em Physica Scripta}, 91(2):023004, 2016.
-
 \bibitem{ragnarsson2005shapes}
 Ingemar Ragnarsson and Sven Gvsta~Nilsson.
 \newblock Shapes and shells in nuclear structure.
@@ -198,6 +192,12 @@ TM~Corrigan, FJ~Margetan, and SA~Williams.
 \newblock Exact solution of the quadrupole surface vibration hamiltonian in
   body-fixed coordinates.
 \newblock {\em Physical Review C}, 14(6):2279, 1976.
+
+\bibitem{hamamoto2016interplay}
+Ikuko Hamamoto.
+\newblock Interplay between one-particle and collective degrees of freedom in
+  nuclei.
+\newblock {\em Physica Scripta}, 91(2):023004, 2016.
 
 \bibitem{raduta2017semiclassical}
 AA~Raduta, R~Poenaru, and L~Gr Ixaru.
