@@ -145,11 +145,7 @@ The collective model is one of the most `complete' tools in describing the nucle
 
 \subsection{Bohr Hamiltonian}
 
-As a first step, the concept of a nuclear liquid drop is used to construct the Hamiltonian. The droplet exhibits shape and surface oscillations, which have a dynamical character. These shape oscillations are illustrated in Fig. \ref{fig-nuclear-vibration}, where a vibrating nucleus is represented, having a spherical \emph{equilibrium} shape. Since the collective coordinates are time-dependent, at each moment in time, the nuclear radius $R$ will be defined in the direction given by the radial coordinates $\theta,\varphi$. By using Eq. \ref{nuclear-shape} that characterizes the \emph{vibrations} of a nuclear surface, one can give the Hamiltonian of \emph{collective} nature as \cite{bertulani2007nuclear}:
-\begin{align}
-    H_\text{coll}\equiv T+V=\frac{1}{2}\sum_{\lambda\mu}\left[B_\lambda\left|\frac{\text{d}\alpha_{\lambda\mu}}{\text{d}t}\right|^2+C_\lambda|\alpha_{\lambda\mu}|^2\right]\ .
-    \label{collective-hamiltonian-stiffness-inertia}
-\end{align}
+As a first step, the concept of a nuclear liquid drop is used to construct the Hamiltonian. The droplet exhibits shape and surface oscillations, which have a dynamical character. These shape oscillations are illustrated in Fig. \ref{fig-nuclear-vibration}, where a vibrating nucleus is represented, having a spherical \emph{equilibrium} shape.
 \begin{figure}
     \centering
     \includegraphics[width=0.99\textwidth]{Chapters/Figures/shape_oscillations.pdf}
@@ -157,24 +153,6 @@ As a first step, the concept of a nuclear liquid drop is used to construct the H
     \label{fig-nuclear-vibration}
 \end{figure}
 
-The Hamiltonian is invariant under rotations and also invariant under time reversal \cite{messiah2014quantum}. The real numbers $B_\lambda$ and $C_\lambda$ represent the \emph{inertial} and \emph{stiffness} parameters. After a canonical quantization, the spectrum of such a Hamiltonian will have a harmonic-like structure, depending on the value of $\lambda$ (for the sake of completeness, more calculations are sketched in Appendix \ref{appendix:bohr-model}.
-
-Choosing the body-fixed axis as a reference system will simplify the results, since the system's axes coincide with the principal axes of the ellipsoid itself. Assuming this coordinate system and an axial ellipsoid, the kinetic term from $H_\text{coll}$ can be decomposed into a \emph{rotational} and a \emph{vibrational} part, i.e., $T=T_\text{vib}+T_\text{rot}$. Their expressions are given in terms of the deformation parameters $(\beta,\gamma)$, the mass parameters $B_2$ (for the quadrupole deformations) and the stiffness parameters $C_2$. Thus, the vibrational term is \cite{li2022model}:
-\begin{align}
-    T_\text{vib}=\frac{1}{2}B_2\left(\dot{\beta}^2+\beta^2\dot{\gamma}^2\right)\ ,
-    \label{kinetic-vibrational-energy-collective}
-\end{align}
-and the rotational term is \cite{li2022model}:
-\begin{align}
-    T_\text{rot}=\frac{1}{2}\sum_i^3\mathcal{I}_i\omega_i^2\ ,
-    \label{kinetic-rotational-energy-collective}
-\end{align}
-where the three principal axes of the ellipsoid are indexed by $i=1,2,3$. In the expression of $T_\text{rot}$, two crucial physical quantities arise, namely the angular velocities around each body-fixed axis and the functions $\mathcal{I}_k$ that will eventually play the role of \emph{moments of inertia}. 
-%The moments of inertia are functions $\mathcal{I}_k(\beta,\gamma$) that are defined more generally as \cite{ring2004nuclear}:
-% \begin{align}
-%     \mathcal{I}_k=4B_2\beta^2\sin^2\left(\gamma-\frac{2\pi}{3}k\right)\ .
-% \end{align}
-% In the case of fixed deformation, then the rotational kinetic term represents the energy of a rotor with the moments of inertia $\mathcal{I}_{1,2,3}$, i.e., a \emph{pure rotor}. When the deformation parameters are changing, the rotational and vibrational degrees of freedom will become coupled by the deformation dependence of $\mathcal{I}_k$, leading to a situation that is not specific to a pure rotor. In fact, the functions $\mathcal{I}_k$ will not represent the moments of inertia (MOI) for a rigid rotor anymore. However, a comparison between $\mathcal{I}$, the rigid-like $\mathcal{I}_k^\text{rig}$ MOI, and irrotational-like MOI $\mathcal{I}_k^\text{irr}$ is done experimentally, from determinations of the energy spacing between the first excited states. 
 There are two types of moments of inertia that describe the nuclear rotation: the rigid-like MOI and the irrotational (hydrodynamical) MOI, having the following expressions \cite{bohr1954rotational,ring2004nuclear}:
 \begin{align}
     \mathcal{I}_k^\text{rig}&=\frac{2}{5}mAR_0^2\left(1-\sqrt{\frac{5}{4\pi}\beta\cos\left(\gamma-\frac{2\pi}{3}k\right)}\right)\ ,\\

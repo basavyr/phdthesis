@@ -152,16 +152,6 @@ James Rainwater.
 \newblock Nuclear energy level argument for a spheroidal nuclear model.
 \newblock {\em Physical Review}, 79(3):432, 1950.
 
-\bibitem{messiah2014quantum}
-Albert Messiah.
-\newblock {\em Quantum mechanics}.
-\newblock Courier Corporation, 2014.
-
-\bibitem{li2022model}
-ZP~Li and D~Vretenar.
-\newblock Model for collective motion.
-\newblock {\em arXiv preprint arXiv:2203.07608}, 2022.
-
 \bibitem{kitao2002nuclear}
 K~Kitao, Y~Tendow, and A~Hashizume.
 \newblock Nuclear data sheets fo a= 120.
@@ -186,6 +176,11 @@ Bai Erjun and Huo Junde.
 Alan~L Nichols, Balraj Singh, and Jagdish~K Tuli.
 \newblock Nuclear data sheets for a= 62.
 \newblock {\em Nuclear Data Sheets}, 113(4):973--1114, 2012.
+
+\bibitem{li2022model}
+ZP~Li and D~Vretenar.
+\newblock Model for collective motion.
+\newblock {\em arXiv preprint arXiv:2203.07608}, 2022.
 
 \bibitem{corrigan1976exact}
 TM~Corrigan, FJ~Margetan, and SA~Williams.
@@ -888,6 +883,11 @@ Roger~D Woods and David~S Saxon.
 Brian~R Martin and Graham Shaw.
 \newblock {\em Particle physics}.
 \newblock John Wiley \& Sons, 2017.
+
+\bibitem{messiah2014quantum}
+Albert Messiah.
+\newblock {\em Quantum mechanics}.
+\newblock Courier Corporation, 2014.
 
 \bibitem{wang2007exotic}
 Xiaofeng Wang.
