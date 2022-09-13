@@ -1,8 +1,15 @@
 \documentclass[a4paper, 12pt, oneside]{Thesis}
 
 
-\usepackage{float}
+% set the math environment
 \usepackage{amsmath}
+\usepackage{mathtools}
+% change the equation reference between parentheses
+% \newtagform{brackets}{(}{)}
+% \usetagform{brackets}
+
+
+\usepackage{float}
 \usepackage{amssymb}
 \usepackage{multirow}
 \usepackage{xcolor}
@@ -128,7 +135,7 @@ Finally, I would like to believe that by reading this thesis, our work and achie
 \mainmatter	  % Begin normal, numeric (1,2,3...) page numbering
 
 % chapters
-\input{Chapters/Chapter1} % Introduction
+\input{Chapters/Chapter1} % Chapter 1 // Introduction
 \input{Chapters/Chapter2} % Chapter 2
 \input{Chapters/Chapter3} % Chapter 3
 \input{Chapters/Chapter4} % Chapter 4
@@ -138,8 +145,15 @@ Finally, I would like to believe that by reading this thesis, our work and achie
 \input{Chapters/Chapter8} % Chapter 8
 
 % appendices 
-\input{Chapters/Appendix1.tex}
-\input{Chapters/Appendix2.tex}
+\appendix
+% shell model
+\input{Chapters/Appendix_ShellModel.tex}
+% bohr model
+% \input{Chapters/Appendix_Bohr.tex}
+% two-state mixing
+\input{Chapters/Appendix_TwoState.tex}
+% rotational bands
+\input{Chapters/Appendix_RotationalBands.tex}
 
 % references
 \bibliography{bibliography}

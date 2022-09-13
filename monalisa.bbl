@@ -79,58 +79,15 @@ R~Casten and Richard~F Casten.
 \newblock {\em Nuclear structure from a simple perspective}, volume~23.
 \newblock Oxford University Press on Demand, 2000.
 
-\bibitem{weizsacker1935theorie}
-CF~von Weizs{\"a}cker.
-\newblock Zur theorie der kernmassen.
-\newblock {\em Zeitschrift f{\"u}r Physik}, 96(7):431--458, 1935.
-
-\bibitem{krane1991introductory}
-Kenneth~S Krane.
-\newblock {\em Introductory nuclear physics}.
-\newblock John Wiley \& Sons, 1991.
-
-\bibitem{raman2001transition}
-Subramanyan Raman, CW~Nestor~Jr, and P~Tikkanen.
-\newblock Transition probability from the ground to the first-excited 2+ state
-  of even--even nuclides.
-\newblock {\em Atomic Data and Nuclear Data Tables}, 78(1):1--128, 2001.
-
-\bibitem{matta2017exotic}
-James~Till Matta.
-\newblock {\em Exotic Nuclear Excitations: The Transverse Wobbling Mode in 135
-  Pr}.
-\newblock Springer, 2017.
-
-\bibitem{woods1954diffuse}
-Roger~D Woods and David~S Saxon.
-\newblock Diffuse surface optical model for nucleon-nuclei scattering.
-\newblock {\em Physical Review}, 95(2):577, 1954.
-
-\bibitem{martin2017particle}
-Brian~R Martin and Graham Shaw.
-\newblock {\em Particle physics}.
-\newblock John Wiley \& Sons, 2017.
-
-\bibitem{lewis2019lifetime}
-Michael~Christopher Lewis.
-\newblock {\em Lifetime Measurements of Excited States in 163 W and the
-  Properties of Multiparticle Configurations in 156 Lu}.
-\newblock The University of Liverpool (United Kingdom), 2019.
+\bibitem{nilsson1955binding}
+Sven~G{\"o}sta Nilsson.
+\newblock Binding states of individual nucleons in strongly deformed nuclei.
+\newblock {\em Dan. Mat. Fys. Medd.}, 29(CERN-55-30):1--69, 1955.
 
 \bibitem{bertulani2007nuclear}
 Carlos~A Bertulani.
 \newblock {\em Nuclear physics in a nutshell}.
 \newblock Princeton University Press, 2007.
-
-\bibitem{gallagher1958coupling}
-CJ~Gallagher~Jr and SA~Moszkowski.
-\newblock Coupling of angular momenta in odd-odd nuclei.
-\newblock {\em Physical Review}, 111(5):1282, 1958.
-
-\bibitem{nilsson1955binding}
-Sven~G{\"o}sta Nilsson.
-\newblock Binding states of individual nucleons in strongly deformed nuclei.
-\newblock {\em Dan. Mat. Fys. Medd.}, 29(CERN-55-30):1--69, 1955.
 
 \bibitem{gustafson1967nuclear}
 C~Gustafson, IL~Lamm, B~Nilsson, and SG~Nilsson.
@@ -143,17 +100,16 @@ Adam~Benjamin Garnsworthy.
 \newblock {\em Neutron-proton interactions in heavy self-conjugate nuclei}.
 \newblock University of Surrey (United Kingdom), 2007.
 
+\bibitem{krane1991introductory}
+Kenneth~S Krane.
+\newblock {\em Introductory nuclear physics}.
+\newblock John Wiley \& Sons, 1991.
+
 \bibitem{das2018nuclear}
 Biswarup Das.
 \newblock {\em Nuclear Structure Studies At High Angular Momentum In Mass 100
   Region}.
 \newblock PhD thesis, HOMI BHABHA NATIONAL INSTITUTE, 2018.
-
-\bibitem{hamamoto2016interplay}
-Ikuko Hamamoto.
-\newblock Interplay between one-particle and collective degrees of freedom in
-  nuclei.
-\newblock {\em Physica Scripta}, 91(2):023004, 2016.
 
 \bibitem{ragnarsson2005shapes}
 Ingemar Ragnarsson and Sven Gvsta~Nilsson.
@@ -236,6 +192,12 @@ TM~Corrigan, FJ~Margetan, and SA~Williams.
 \newblock Exact solution of the quadrupole surface vibration hamiltonian in
   body-fixed coordinates.
 \newblock {\em Physical Review C}, 14(6):2279, 1976.
+
+\bibitem{hamamoto2016interplay}
+Ikuko Hamamoto.
+\newblock Interplay between one-particle and collective degrees of freedom in
+  nuclei.
+\newblock {\em Physica Scripta}, 91(2):023004, 2016.
 
 \bibitem{raduta2017semiclassical}
 AA~Raduta, R~Poenaru, and L~Gr Ixaru.
@@ -440,6 +402,18 @@ Akaa~Daniel Ayangeakaa.
 \newblock {\em Exotic Modes of Collective Excitations: Nuclear Tidal Waves and
   Chirality}.
 \newblock PhD thesis, University of Notre Dame, 2013.
+
+\bibitem{matta2017exotic}
+James~Till Matta.
+\newblock {\em Exotic Nuclear Excitations: The Transverse Wobbling Mode in 135
+  Pr}.
+\newblock Springer, 2017.
+
+\bibitem{lewis2019lifetime}
+Michael~Christopher Lewis.
+\newblock {\em Lifetime Measurements of Excited States in 163 W and the
+  Properties of Multiparticle Configurations in 156 Lu}.
+\newblock The University of Liverpool (United Kingdom), 2019.
 
 \bibitem{sensharma2021wobbling}
 Nirupama Sensharma.
@@ -893,6 +867,27 @@ Kosai Tanabe and Kazuko Sugawara-Tanabe.
 \newblock Reply to “comment on ‘stability of the wobbling motion in an
   odd-mass nucleus and the analysis of pr 135’”.
 \newblock {\em Physical Review C}, 97(6):069802, 2018.
+
+\bibitem{weizsacker1935theorie}
+CF~von Weizs{\"a}cker.
+\newblock Zur theorie der kernmassen.
+\newblock {\em Zeitschrift f{\"u}r Physik}, 96(7):431--458, 1935.
+
+\bibitem{raman2001transition}
+Subramanyan Raman, CW~Nestor~Jr, and P~Tikkanen.
+\newblock Transition probability from the ground to the first-excited 2+ state
+  of even--even nuclides.
+\newblock {\em Atomic Data and Nuclear Data Tables}, 78(1):1--128, 2001.
+
+\bibitem{woods1954diffuse}
+Roger~D Woods and David~S Saxon.
+\newblock Diffuse surface optical model for nucleon-nuclei scattering.
+\newblock {\em Physical Review}, 95(2):577, 1954.
+
+\bibitem{martin2017particle}
+Brian~R Martin and Graham Shaw.
+\newblock {\em Particle physics}.
+\newblock John Wiley \& Sons, 2017.
 
 \bibitem{wang2007exotic}
 Xiaofeng Wang.
