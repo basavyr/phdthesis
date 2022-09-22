@@ -1,26 +1,26 @@
 \chapter{Triaxial Nuclei and Their Signatures}
 \label{chapter4}
 
-In the following chapter, some theoretical background necessary for understanding triaxiality will be presented, showing examples from literature and also results obtained by this team. It is also instructive to realize why the nuclear community focuses their attention to the highly deformed nuclei, and moreover, nuclei which depart from spheroidal shapes.
+In the following chapter, a theoretical background on triaxiality will be presented. It is important to understand why the nuclear community focuses their attention on highly deformed nuclei. Moreover, having a clear picture with the unique characteristics of these nuclei helps one to identify and construct a set of \emph{fingerprints} that will be considered `tests' when searching and studying the nuclei.
 %Presenting the theoretical formalism that is used to describe triaxial nuclei, and mention the \emph{fingerprints} of nuclear triaxiality is that last step before diving into the recently developed framework for odd-$A$ nuclei which the team created, and showing the results. 
 
 \section{Non-axial nuclei}
 
-The discussion regarding excitation energies of a rigid rotator from the previous chapter was focused on pure rotators or nuclei with axially symmetric shapes (i.e,, prolate or oblate). Remember that deformation is still required in order to define a collective spectra with rotational character. Moreover, the relevant quantities that are involved in the rotational motion for a deformed nucleus are the moments of inertia corresponding to the principal axes of the deformed ellipsoid: $\mathcal{I}_{1,2,3}$, and within previous calculations, two moments of inertia were supposed to be identical.
+The discussion regarding excitation energies of a rigid rotor from the previous chapter was focused on pure rotors or nuclei with axially symmetric shapes (i.e,, prolate or oblate). Remember that deformation is still required in order to define a collective spectra with rotational character. Moreover, the relevant quantities that are involved in the rotational motion for a deformed nucleus are the moments of inertia corresponding to the principal axes of the deformed ellipsoid: $\mathcal{I}_{1,2,3}$, and within previous calculations, two moments of inertia were supposed to be identical.
 
-Even though calculations are performed with the rigid-like MOI or the irrotational-like, their dependence on the deformation parameters $\beta_2$ and $\gamma$ is present (recall expressions given in Eq. \ref{eq-irrotational-rigid-mois}). Taking a closer look at their evolution with $\gamma$, one can see that indeed, similar MOI can only occur at certain values (see Fig. \ref{fig-irrotational-rigid-mois}). As such, the nuclei can be regarded (when referring to their ground state) as such:
+Even though calculations are performed with the rigid-like MOI or the irrotational-like, their dependence on the deformation parameters $\beta_2$ and $\gamma$ is present (recall expressions given in Eq. \ref{eq-irrotational-rigid-mois}). Taking a closer look at their evolution with $\gamma$, one can see that indeed, similar MOI can only occur at certain values (see Fig. \ref{fig-irrotational-rigid-mois}). When referring to their ground state, nuclei can be regarded as such:
 \begin{itemize}
     \item \textbf{Spherical:} all MOI are equal and no deformations are present
     \item \textbf{Axially-symmetric:} two identical MOI and $\beta_2$ parameter plays a role in characterizing the nuclear shapes 
     \item \textbf{Triaxial:} all three MOI are different, the quadrupole deformation $\beta_2$ and also the triaxiality parameter $\gamma$ are describing the nuclear shapes
 \end{itemize}
 
-Most of the isotopes are either spherical either symmetric in their ground state \cite{budaca2018tilted}, but triaxial shapes might also occur as ground-state \cite{moller2006global}.
+Most of the isotopes are either spherical or symmetric in their ground state \cite{budaca2018tilted}, but triaxial shapes might occur as ground state \cite{moller2006global}.
 %The apparition of triaxial nuclei implies some kind of `stability' on the $\gamma$-parameter, since a dynamical character of the triaxiality will indicate transitional states rather than nuclear stability. 
 A rigid (fixed) value for $\gamma$ is required such that triaxial stable nuclei can exist.
 %Thus, one can distinguish between the $\gamma$-soft nuclei in which this parameter has a dynamical character and the $\gamma$-rigid ones, which could in fact exhibit stable triaxial deformation \cite{dracoulis2013isomers}.
 Thus, one can distinguish between the $\gamma$-soft and $\gamma$-rigid nuclei.
-Even more interesting are the structures which occur at very large values of quadrupole deformation $\beta_2$ and $\gamma\approx 30^\circ$ (where maximal triaxiality occurs). It will be shown that these last nuclei will lead to band structures that are called \emph{Triaxial Strongly Deformed} bands (TSD for short) \cite{odegaard2001evidence,jensen2002evidence}. Triaxial nuclei are a special class of nuclei in which there is an asymmetry between the moments of inertia (given by a $\gamma$ value within the corresponding interval), and moreover, the quadrupole deformation is high enough such that it stabilizes the entire system.
+Even more interesting are the structures occurring at very large values of quadrupole deformation $\beta_2$ and $\gamma\approx 30^\circ$ (where maximal triaxiality occurs). It will be shown that these nuclei will lead to band structures that are called \emph{Triaxial Strongly Deformed} bands (TSD) \cite{odegaard2001evidence,jensen2002evidence}. Triaxial nuclei are a special class of nuclei, where an asymmetry between the moments of inertia (given by a $\gamma$ value within the corresponding interval), and moreover, the quadrupole deformation is high enough such that it stabilizes the entire system.
 
 \subsection{Triaxial Rotor Model}
 \label{trm-model}
@@ -32,17 +32,18 @@ The general Hamiltonian for a \emph{triaxial system} is given in terms of the co
 \end{align}
 where the indices correspond to each of the principal axes of the rotational ellipsoid.
 %(principal axes are the ones in which the components of the MOI tensor are diagonal).
-More often, the notations $A_{1,2,3}=\frac{\hbar^2}{2\mathcal{I}_{1,2,3}}$ are used in the Hamiltonian's expression, leading to $A_1\neq A_2\neq A_3$ for the triaxial nuclei. Shi et al. \cite{wen2015wobbling} show a very straightforward way of obtaining the eigenvalues for the \emph{triaxial rigid rotor}, following the quantum treatment made by Davydov and Filippov for the rigid rotor without symmetry axis \cite{davydov1958rotational}:
+More often, the notations $A_{1,2,3}=\hbar^2/\left(2\mathcal{I}_{1,2,3}\right)$ are used in the Hamiltonian's expression, leading to $A_1\neq A_2\neq A_3$ for the triaxial nuclei. Shi et al. \cite{wen2015wobbling} show a very straightforward way of obtaining the eigenvalues for the \emph{triaxial rigid rotor}, following the quantum treatment made by Davydov and Filippov for the rigid rotor without symmetry axis \cite{davydov1958rotational}:
 \begin{align}
     \hat{H}&=\hat{H}_\text{diag}+\hat{H}_\text{non-diag}\ ,\nonumber\\
     \hat{H}_\text{diag}&=\left[\frac{1}{2}\left(A_1+A_2\right)\left(\hat{I}^2-\hat{I}_3^2\right)+A_3\hat{I}_3^2\right]\ ,\nonumber\\
     \hat{H}_\text{non-diag}&=\frac{1}{4}\left(A_1-A_2\right)\left(\hat{I}_+^2+\hat{I}_-^2\right)\ .
 \end{align}
-This way of expressing the Hamiltonian is useful because there is a clear difference between a diagonal term and one that mixes states with different $\Delta K=\pm2$ quantum number. It is important to emphasize that this kind of Hamiltonian is still invariant to rotations with $\pi$ around the principal axes. This is useful because one can solve the eigenvalue problem with the basis $\ket{IMK}$, were the wave-function is described as \cite{wen2015wobbling}:
+Expressing the Hamiltonian in this way is useful, because there is a clear difference between a diagonal term and one that mixes states with different $K$ (i.e., $\Delta K=\pm2$). It is important to emphasize that this kind of Hamiltonian is still invariant to rotations with $\pi$ around the principal axes, meaning that the eigenvalue problem can be solved with the basis $\ket{IMK}$, were the wave-function is described as \cite{wen2015wobbling}:
 \begin{align}
     \ket{IMK}=\sqrt{\frac{2I+1}{16\pi^2(1+\delta_{K0})}}\left[\ket{IMK}+(-)^I\ket{IM-K}\right]\ ,
 \end{align}
-where $\ket{IM\pm K}$ are the Wigner $\mathcal{D}$-functions, which determine the \emph{orientation} of the nucleus itself. The $K$ quantum number is the projection of $I$ onto the 3-axis of the body-fixed frame (intrinsic frame of reference), and the $M$ represents the projection of $I$ onto the $z$-axis of the laboratory frame. This wave-function is quite similar to the one defined in Eq. \ref{RAL-bands-wave-function}, when the decoupled states in the Rotation Aligned Bands were studied. Indeed, using this basis, the total Hamiltonian can be diagonalized as such \cite{wen2015wobbling}:
+where $\ket{IM\pm K}$ are the Wigner $\mathcal{D}$-functions, which determine the \emph{orientation} of the nucleus itself. The $K$ quantum number is the projection of $I$ onto the 3-axis of the body-fixed frame (intrinsic frame of reference), and $M$ represents the projection of $I$ onto the $z$-axis of the laboratory frame. %This wave-function is quite similar to the one defined in Eq. \ref{RAL-bands-wave-function}, when the decoupled states in the Rotation Aligned Bands were studied. 
+Indeed, by using this basis, the total Hamiltonian can be diagonalized as such \cite{wen2015wobbling}:
 \begin{align}
     \hat{H}_{IK}=\frac{1}{2}(A_1+A_2)\left[I(I+1)-K^2\right]+A_3K^2\ ,
 \end{align}
@@ -50,12 +51,13 @@ with the notation $H_{IK}\equiv\bra{IK}\hat{H}\ket{IK}$. The non-diagonal term w
 \begin{align}
     \hat{H}_{IK\pm2}=\frac{1}{4}(A_1-A_2)\sqrt{(I\mp K)(I\pm K +1)(I \mp K -1)(I\pm K +2)}\ ,
 \end{align}
-where $\hat{H}_{IK\pm 2}\equiv \bra{IK}\hat{H}\ket{I\pm K}$. Finally, using these matrix elements, the energies can be obtained by solving the eigenvalue equation for given spins $I$. Such calculations were performed by the team for an even-even nucleus $^{158}$Er (see Fig. 8 from  \cite{raduta2017semiclassical}) and the results of the diagonalization procedure were in complete agreement with alternative descriptions for $\hat{H}$.
+where $\hat{H}_{IK\pm 2}\equiv \bra{IK}\hat{H}\ket{IK\pm 2}$. %Finally, using these matrix elements, the energies can be obtained by solving the eigenvalue equation for given spins $I$.
+Such calculations were performed by the team for $^{158}$Er (see Fig. 8 from  \cite{raduta2017semiclassical}) and the results of the diagonalization procedure were in complete agreement with alternative descriptions for $\hat{H}$.
 
 \subsection{Triaxial Particle + Rotor Model}
 \label{tprm-model}
 
-In this section, a discussion will be made about the Hamiltonian for a system composed of one single-particle and a triaxial core, which is usually applied to odd-$A$ nuclei. In fact, the main framework that will be described in the following chapters is founded and developed by the current team using the triaxial PRM \cite{davydov1958rotational}. Davydov et al. developed the triaxial PRM model for explaining the low-lying collective spectra of $2^+$ states within some transitional nuclei. The Hamiltonian of this system is composed of a term which corresponds to the even-even core and another one for a single-particle \emph{moving in a quadrupole deformed mean-field}:
+In this section, a discussion will be made about the Hamiltonian for a system composed of one single-particle and a triaxial core, which is usually applied to odd-$A$ nuclei. In fact, the main framework that will be described in the following chapters is developed by the current team starting from the triaxial PRM \cite{davydov1958rotational}. Davydov et al. developed the triaxial PRM model for explaining the low-lying collective spectra of $2^+$ states within some transitional nuclei. The Hamiltonian of this system is composed of a term for the even-even core and another one for a single-particle \emph{moving in a quadrupole deformed mean-field}:
 \begin{align}
     \hat{H}=\hat{H}_\text{rot}+\hat{H}'_\text{sp}\ .
     \label{triaxial-prm-general-hamiltonian}
@@ -78,7 +80,7 @@ However, the generalized expressions from Eqs. \ref{quadrupole-deformed-potentia
     \hat{H}_\text{int}^\text{quad}=\frac{V}{j(j+1)}\left[\cos\gamma(3j_z^2-\mathbf{j}^2)-\sqrt{3}\sin\gamma(j_x^2-j_y^2)\right]\ ,
     \label{single-particle-nilsson-defored-potential}
 \end{align}
-where the entire interaction strength between the particle and the core is embedded in the \emph{single-particle potential strength} $V$. This parameter is very important in the present research, since the theoretical results regarding energy spectra are obtained through the numerical determination of $V$ (as it will be shown in the following chapters). Obviously, the three components of the single-particle angular momentum are represented by $j_x$, $j_y$, and $j_z$.
+where the entire interaction strength between the particle and the core is embedded in the \emph{single-particle potential strength} $V$. This parameter is very important in the present research, since the theoretical results regarding energy spectra are obtained through the numerical determination of $V$. Obviously, the three components of the single-particle angular momentum are represented by $j_x$, $j_y$, and $j_z$.
 
 Peng et al. \cite{peng2003description} gave a description for odd-odd nuclei within $A\approx 100$ and $A\approx 130$ mass regions using a Hamiltonian in which two valence nucleons were coupled to the triaxial core. Indeed, their Hamiltonian was constructed in the following way:
 \begin{align}
@@ -89,18 +91,18 @@ where $\hat{H}_\text{coll}$ is the typical rotor Hamiltonian (such as the one de
     \hat{H}_\text{intr}=h_p+h_n\ .
     \label{intrinsic-proton-neutron-hamiltonian}
 \end{align}
-
 The term $\hat{H}_\text{intr}$ can be viewed as an intrinsic part that describes the deformation of the core and the motion of the nucleons within the mean-field. A remarking feature of this approach is that the problem can be extrapolated to a case with multiple protons and neutrons, invoking some sort of `scalability' of their model. The single-particle energies for protons and neutrons from Eq. \ref{intrinsic-proton-neutron-hamiltonian} have a similar form as the one stated in Eq. \ref{single-particle-nilsson-defored-potential}, namely it is given as:
 \begin{align}
     h_{p(n)}=\pm\frac{1}{2}C_\beta\left[\left(j_3^2-\frac{j(j+1)}{3}\right)\cos\gamma+\frac{1}{2\sqrt{3}}(j_+^2+j_-^2)\sin\gamma\right]\ ,
     \label{single-particle-energies-hpn}
 \end{align}
-with the alternating signs corresponding to the proton and neutron, respectively. Note the switch of axes labelling from $(x,y,z)$ to $(1,2,3)$, and the introduction of ladder operators $(j_+,j_-)$. The \emph{coupling parameter} $C_\beta$ is a measure of energy (typically expressed in MeV) with its value depending linearly on $\beta_2$:
+with the alternating signs corresponding to the proton and neutron, respectively. Note the switch of axes labelling from $(x,y,z)$ to $(1,2,3)$, and the introduction of ladder operators $(j_+,j_-)$. The \emph{coupling parameter} $C_\beta$ is a measure of energy (typically expressed in MeV) and its value depends linearly on $\beta_2$:
 \begin{align}
     C_\beta=\frac{195}{j(j+1)}\frac{1}{A^{1/3}}\beta_2\ .
 \end{align}
 
-It is worth giving some quantitative results concerning the quadrupole potential and the single-particle Hamiltonian described above. As such, a simple numerical application will be employed, obtaining graphical representations with the behavior of these quantities with respect to the deformation parameters. Firstly, the potential $\hat{H}_\text{int}^\text{quad}$ will be analyzed in the polar plane defined by the angles $(\theta,\varphi)$. For nuclei near the $A\approx 160$ region, it is common to have values of $\beta_2\in\left[0.2,0.4\right]$ and $\gamma\approx 20^\circ$, so for testing purposes one can take $\beta_2$ and $\gamma$ within those ranges. Therefore, the quadrupole potential $\hat{H}_\text{int}^\text{quad}$ can be numerically evaluated, and the results can be seen in Figs. \ref{figs-deformed-quadrupole-potential-1} - \ref{figs-deformed-quadrupole-potential-2}.
+It is worth giving quantitative results on the quadrupole potential and the single-particle Hamiltonian described above. As such, a simple numerical application will be employed, obtaining graphical representations with the behavior of these quantities with respect to the deformation parameters. Firstly, the potential $\hat{H}_\text{int}^\text{quad}$ will be analyzed in the polar plane defined by the angles $(\theta,\varphi)$. For nuclei near the $A\approx 160$ region, it is common to have values of $\beta_2\in\left[0.2,0.4\right]$ and $\gamma\approx 20^\circ$. %, so for testing purposes one can take $\beta_2$ and $\gamma$ within those ranges. 
+The quadrupole potential $\hat{H}_\text{int}^\text{quad}$ is numerically evaluated, and the results can be seen in Figs. \ref{figs-deformed-quadrupole-potential-1} - \ref{figs-deformed-quadrupole-potential-2}.
 \begin{figure}
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/quadrupole-potentialV-1.pdf}
@@ -116,7 +118,7 @@ It is worth giving some quantitative results concerning the quadrupole potential
     \label{figs-deformed-quadrupole-potential-2}
 \end{figure}
 
-Concerning the numerical evaluation of $h$ given in Eq. \ref{single-particle-energies-hpn} (hereafter, the indices $p,n$ are dismissed), one can take the diagonal components of $h$ and apply the rules only for one proton. As a result, the \emph{mixing terms} $j_+$ and $j_-$ from $h$ will not contribute at all, since their action on protonic states $\ket{jk}$ will give zero. Only the $(j_3^2-j(j+1)/3)$ term will affect the diagonal components of $h$. For a proton state $\ket{jk}$, where $k=-j,\dots,j$, the diagonal element $\bra{jk}h\ket{jk}$ will be:
+Concerning the numerical evaluation of $h$ given in Eq. \ref{single-particle-energies-hpn} (hereafter, the indices $p,n$ are dismissed), one can take the diagonal components of $h$ and apply the rules only for one proton. As a result, the \emph{mixing terms} $j_+$ and $j_-$ from $h$ will not contribute at all, since their average with the protonic states $\ket{jk}$ will give zero. Only the $(j_3^2-j(j+1)/3)$ term will affect the diagonal components of $h$. For a proton state $\ket{jk}$, where $k=-j,\dots,j$, the diagonal element $\bra{jk}h\ket{jk}$ will be:
 \begin{align}
     h_{jk}\equiv\bra{jk}h\ket{jk}=\frac{1}{2}C_\beta\cos\gamma\bra{jk}\left(j_3^2-\frac{j(j+1)}{3}\right)\ket{jk}\ ,
     \label{hdiag-equation-general}
@@ -126,19 +128,19 @@ which can be simplified to:
     h_{jk}=\frac{1}{2}C_\beta\cos\gamma\left(k^2-\frac{j(j+1)}{3}\right)\ .
     \label{hdiag-equation}
 \end{align}
-These matrix elements will be functions of deformation parameters as well as the projection $k$ of the particle's angular momentum onto the $3$-axis. Since $j_3$ is applied twice on $\ket{jk}$ state, the final result will be $k^2$, so only the positive values can be considered for the numerical application $k=1/2,\dots,j$. The qualitative evolution of $h_{jk}$ as function of $\beta_2$ and $\gamma$ is studied for a nucleus with $A=167$ in which the odd-particle is either a proton in the $h_{11/2}$-shell or in the $i_{13/2}$-shell. The behavior of $h_{jk}$ w.r.t. the quadrupole deformation parameter can be seen in Fig. \ref{hdiag-beta-evolution}, while Fig. \ref{hdiag-gamma-evolution} shows the behavior of $h_{jk}$ w.r.t. the triaxiality parameter $\gamma$.
+These matrix elements will be functions of deformation parameters and projection $k$ of the particle's angular momentum onto the $3$-axis. Since $j_3$ is applied twice on $\ket{jk}$ state, the final result will be $k^2$, so only the positive values can be considered for the numerical application $k=1/2,\dots,j$. The qualitative evolution of $h_{jk}$ as function of $\beta_2$ and $\gamma$ is studied for a nucleus with $A=167$ in which the odd-particle is either a proton in the $h_{11/2}$-shell or in the $i_{13/2}$-shell. The behavior of $h_{jk}$ w.r.t. the quadrupole deformation parameter can be seen in Fig. \ref{hdiag-beta-evolution}, while Fig. \ref{hdiag-gamma-evolution} shows the behavior of $h_{jk}$ w.r.t. the triaxiality parameter $\gamma$.
 \begin{figure}
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/singleParticle-hdiag-1.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/singleParticle-hdiag-2.pdf}
-    \caption{The evolution of the diagonal matrix elements $h_{jk}$ defined in Eqs. \ref{hdiag-equation-general}-\ref{hdiag-equation} w.r.t. the quadrupole parameter $\beta_2$, for one proton on a deformed $j$-shell and a fixed triaxiality parameter $\gamma$. See text for details.}
+    \caption{The evolution of the diagonal matrix elements $h_{jk}$ defined in Eqs. \ref{hdiag-equation-general} - \ref{hdiag-equation} w.r.t. the quadrupole parameter $\beta_2$, for one proton on a deformed $j$-shell and a fixed triaxiality parameter $\gamma$. See text for details.}
     \label{hdiag-beta-evolution}
 \end{figure}
 \begin{figure}
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/hdiag-gamma-1.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/hdiag-gamma-2.pdf}
-    \caption{The evolution of the diagonal matrix elements $h_{jk}$ defined in Eqs. \ref{hdiag-equation-general}-\ref{hdiag-equation} w.r.t. the triaxiality parameter $\gamma$ for one proton on a deformed $j$-shell and a fixed deformation parameter $\beta_2$. See text for details.}
+    \caption{The evolution of the diagonal matrix elements $h_{jk}$ defined in Eqs. \ref{hdiag-equation-general} - \ref{hdiag-equation} w.r.t. the triaxiality parameter $\gamma$ for one proton on a deformed $j$-shell and a fixed deformation parameter $\beta_2$. See text for details.}
     \label{hdiag-gamma-evolution}
 \end{figure}
 
@@ -156,7 +158,7 @@ In reference to this evaluation, one can observe the fact that the single-partic
 %     \item the Coriolis effect will always tend to align the particle with the core, in terms of their a.m.
 % \end{itemize}
 
-Concluding this section, the energy spectrum for an odd-$A$ nucleus can be described using the triaxial PRM. It is a starting ground for many theoretical descriptions that aim at confirming and even predicting phenomena specific to highly deformed shapes.
+Concluding this section, the energy spectrum for an odd-$A$ nucleus can be described using the triaxial PRM. It is a starting ground for many theoretical descriptions that aim at confirming and predicting phenomena specific to highly deformed nuclei.
 
 \section{Stable Triaxial Deformation}
 \label{potential-energy-surfaces-section}
@@ -185,7 +187,7 @@ These solutions will consist of graphical representations in the $(\beta,\gamma)
     \label{pes-example-set-2}
 \end{figure}
 
-Within the $A\approx160$ mass region there are multiple nuclei in which TSD bands are identified. Best example are the results concerning Lu-Hf isotopes, where more than 20 such bands were experimentally confirmed \cite{gu2007theoretical}. It is interesting that the nuclei with even $N$ (especially the Lu isotopes) have ground TSD bands emerging from a configuration based on the $\pi=i_{13/2}$ nucleon. In fact, Ødegård et al. \cite{odegaard2001evidence} point out the fact that nuclei with proton number $Z\approx 71$ and neutron number $N\approx 94$ have stable triaxial shapes around the values $(\beta_2,\gamma)=(0.38,\pm 20^\circ)$.
+Within the $A\approx160$ mass region there are several nuclei in which TSD bands are identified. Best example are the results concerning Lu-Hf isotopes, where more than 20 such bands were experimentally confirmed \cite{gu2007theoretical}. It is interesting that the nuclei with even $N$ (especially the Lu isotopes) have ground TSD bands emerging from a configuration based on the $\pi=i_{13/2}$ nucleon. In fact, Ødegård et al. \cite{odegaard2001evidence} point out the fact that nuclei with proton number $Z\approx 71$ and neutron number $N\approx 94$ have stable triaxial shapes around the values $(\beta_2,\gamma)=(0.38,\pm 20^\circ)$.
 % Given the degree of shell filling, only some specific triaxial shapes with fixed value of $\gamma$ are favored by the aligned particle (see Ref. \cite{hamamoto1983intrinsic} for more details). In the case of $^{163}$Lu, the aligned proton from $j=13/2$ shell favors a triaxiality of $\gamma=20^\circ$ (see Fig. \ref{pes-example-set-2}). Similarly, other nuclei will have different high-$j$ nucleon configurations which will drive the system to large triaxial deformations, by favoring a particular value of $\gamma$.
 Now that the stability of asymmetric nuclear shapes has been visualized in terms of energy surfaces and deformation parameters, it is instructive to understand how one can identify triaxial nuclei (both experimentally and theoretically). This will be done in the following section.
 
@@ -199,7 +201,7 @@ Within recent years, it has been shown that triaxiality plays an important role 
     \item Nuclear fragmentation \cite{palumbo1985splitting}
 \end{itemize}
 
-On the experimental side, a tremendous effort was made in order to construct setups that can study nuclei at very high spins (were collective phenomena previously discussed appear). Unfortunately, measuring triaxiality directly is still quite challenging \cite{hamamoto2016interplay,budaca2018tilted}. Over the last 25 years, with the advance in technology of detectors \cite{henning2012stability}, some large facilities were built, with the sole purpose of studying with great degree of precision high-spin states of nuclei. Facilities such as the EUROBALL \cite{simpson1997euroball} or GAMMASPHERE \cite{lee1990gammasphere} opened \emph{new frontiers} on the nuclear physics at high-spin; being able to measure excited spectra of nuclei having angular momentum within the range $60-80\hbar$. Regarding the reactions involved, most of the measurements of highly excited (and rapidly rotating) are obtained through \emph{Fusion-Evaporation Reactions}. Since this work does not focus on the experimental setups and procedures, only some literature covering these reactions are mentioned: \cite{gu2007theoretical,henning2012stability,ayangeakaa2013exotic,matta2017exotic,das2018nuclear,lewis2019lifetime,sensharma2021wobbling}.
+On the experimental side, a tremendous effort was made in order to construct setups that can study nuclei at very high spins (were collective phenomena previously discussed appear). Unfortunately, measuring triaxiality directly is still quite challenging \cite{hamamoto2016interplay,budaca2018tilted}. Over the last 25 years, with the advance in technology of detectors \cite{henning2012stability}, some large facilities were built, with the sole purpose of studying with great degree of precision high-spin states of nuclei. Facilities such as the EUROBALL \cite{simpson1997euroball} or GAMMASPHERE \cite{lee1990gammasphere} opened \emph{new frontiers} on the nuclear physics at high-spin; being able to measure excited spectra of nuclei having angular momentum within the range $60-80\hbar$. Regarding the reactions involved, most of the measurements of highly excited (and rapidly rotating) are obtained through \emph{Fusion-Evaporation Reactions}. Since this work does not focus on the experimental setups and procedures, only some literature covering these reactions are mentioned \cite{gu2007theoretical,henning2012stability,ayangeakaa2013exotic,matta2017exotic,das2018nuclear,lewis2019lifetime,sensharma2021wobbling}.
 
 Even though stable triaxiality is an elusive phenomenon, \emph{two clear fingerprints} are known to pinpoint asymmetric nuclear shapes: \textbf{wobbling motion} and \textbf{chiral symmetry breaking}. There has been an extensive study of these two phenomena, and both indicate a clear lack of symmetry for the underlying nuclei. Since wobbling is the main focus of this work, a brief introduction for chiral symmetry breaking will be made below, while a separated chapter will be devoted to the experimental evidence and theoretical studies regarding wobbling motion.
 
@@ -208,9 +210,9 @@ Even though stable triaxiality is an elusive phenomenon, \emph{two clear fingerp
 
 Firstly introduced by Frauendorf \cite{frauendorf1997tilted}, it concerns nuclei in which the nucleonic configurations lead to a system that lacks \emph{chiral symmetry}, meaning that the \emph{left-handed} version is not identical with the \emph{right-handed} one. The two systems can be transformed into each other via the chiral operator by combining a rotation with the time-reversal operator: $\chi_\text{chiral}=\mathcal{T}\mathcal{R}(\pi)$. The left/right handedness of the nuclear system comes from the coupling of three different angular momenta, typically a valence proton, a valence neutron, and a rotational core. As such, the chiral symmetry breaking is expected to appear in odd-odd nuclei.
 
-In that pioneering work, Frauendorf showed that for a triaxial nucleus, the collective angular momentum $\mathbf{R}$ will align along the intermediate ($m$) axis of the deformed ellipsoid (note that the $m$-axis is also the axis with largest MOI). The energy is minimized when the triaxial system rotates about the largest MOI, and for irrotational-like flow this corresponds to the $m$-axis. Regarding the valence nucleons (particles or holes), the location of their corresponding Fermi level will dictate the alignment with the ellipsoid \cite{frauendorf1997tilted,starosta2001chiral}. For a valence proton with the energy located in the bottom part of the high-$j$ subshell, it will align its a.m. with the short $s$-axis of the ellipsoid. Furthermore, a valence neutron located in the upper part of the shell will align its a.m. with the long $l$-axis. This type of alignment is related to the overlap between the quasi-particle wave-function and that of the triaxial core. For the particles + core coupling, a \emph{maximal overlap of their wave-functions will minimize the interaction energy}, hence the particle will align its a.m. with the short axis. On the other hand, for the hole + core coupling, \emph{the energy is minimized for a minimal overlap of the wave-functions}, meaning that the hole will tend to align its a.m. with the long axis.
+In that pioneering work, Frauendorf showed that for a triaxial nucleus, the collective angular momentum $\mathbf{R}$ will align along the intermediate ($m$) axis of the deformed ellipsoid (note that the $m$-axis is also the axis with largest MOI). The energy is minimized when the triaxial system rotates about the largest MOI, and for irrotational-like flow this corresponds to the $m$-axis. Regarding the valence nucleons (particles or holes), the location of their corresponding Fermi level will influence the alignment with the ellipsoid \cite{frauendorf1997tilted,starosta2001chiral}. For a valence proton located in the bottom part of the high-$j$ subshell, its a.m. will align with the short $s$-axis of the ellipsoid. Furthermore, a valence neutron located in the upper part of the shell will align its a.m. with the long $l$-axis. This type of alignment is related to the overlap between the quasi-particle wave-function and that of the triaxial core. For the particle + core coupling, a \emph{maximal overlap of their wave-functions will minimize the interaction energy}, hence the particle will align its a.m. with the short axis. On the other hand, for the hole + core coupling, \emph{the energy is minimized for a minimal overlap of the wave-functions}, meaning that the hole will tend to align its a.m. with the long axis. A further discussion on the overlap will be detailed in the next chapter.
 
-When the chiral symmetry is broken in the intrinsic frame of reference (body-fixed frame), the restoration of the symmetry (through quantum tunnelling \cite{zhang2007chiral}) in the laboratory frame will manifest itself as the emergence of two almost degenerate doublet bands with $\Delta I=1\hbar$ \cite{frauendorf1997tilted}. This interesting behavior has been drawing a lot of attention lately, with most of the experimental identifications around the transitional nuclei $A\approx 130$. Great amount of research towards a complete spectroscopy has been done in Refs. \cite{starosta2001chiral,meng2008chiral,budaca2018tilted,budaca2018semiclassical,budaca2021chiral}. Examples of experimental chiral doublets are shown in Figs. \ref{chiral-bands-1} - \ref{chiral-bands-2} for some odd-odd nuclei.
+When the chiral symmetry is broken in the intrinsic frame of reference (body-fixed frame), the restoration of the symmetry in the laboratory frame (through quantum tunnelling \cite{zhang2007chiral}) will manifest itself as the emergence of two (almost) degenerate doublet bands with $\Delta I=1\hbar$ \cite{frauendorf1997tilted}. This interesting behavior has been drawing a lot of attention lately, with most of the experimental identifications around the transitional nuclei $A\approx 130$. Over the years, a great amount of research towards a complete spectroscopy of chiral nuclei has been done in Refs. \cite{starosta2001chiral,meng2008chiral,budaca2018semiclassical,budaca2021chiral} and Refs. \cite{raduta2014new, raduta2014description, raduta2015semi, raduta2015possible, raduta2016specific, raduta2017alternative}. Examples of experimental chiral doublets for some odd-odd nuclei are shown in Figs. \ref{chiral-bands-1} - \ref{chiral-bands-2}.
 \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{Chapters/Figures/Chiral_136Pm.pdf}
@@ -231,6 +233,8 @@ The geometrical interpretation of the left-handed and right-handed systems can b
     \caption{Left- and right-handed chiral systems for a triaxial odd-odd nucleus, indicating the mutually perpendicular angular momentum vectors. The two valence nucleons are colored with blue (proton) and magenta (neutron). These figures were inspired from \cite{starosta2001chiral}. Considering the discussion regarding alignments, the proton a.m. $\mathbf{j}_\pi$ is aligned with the $s$-axis, the neutron a.m. $\mathbf{j}_\nu$ with the $l$-axis, and the even-even core a.m. $\mathbf{R}$ with the $m$-axis of the ellipsoid. The alignments for the core and the particles are described in text.}
     \label{chiral-geometry}
 \end{figure}
+
+\newpage % force pictures to render before the wobbling subsection
 
 \subsection{Wobbling Motion}
 
