@@ -443,18 +443,6 @@ J~Meng, B~Qi, SQ~Zhang, and SY~Wang.
 \newblock Chiral symmetry in atomic nuclei.
 \newblock {\em Modern Physics Letters A}, 23(27n30):2560--2567, 2008.
 
-\bibitem{raduta2016new}
-AA~Raduta, Al~H Raduta, and CM~Petrache.
-\newblock New type of chiral motion in even--even nuclei: the 138nd case.
-\newblock {\em Journal of Physics G: Nuclear and Particle Physics},
-  43(9):095107, 2016.
-
-\bibitem{raduta2016specific}
-AA~Raduta.
-\newblock Specific features and symmetries for magnetic and chiral bands in
-  nuclei.
-\newblock {\em Progress in Particle and Nuclear Physics}, 90:241--298, 2016.
-
 \bibitem{budaca2018semiclassical}
 R~Budaca.
 \newblock Semiclassical description of chiral geometry in triaxial nuclei.
@@ -465,6 +453,41 @@ R~Budaca.
 \newblock From chiral vibration to tilted-axis wobbling within broken chiral
   symmetry.
 \newblock {\em Physics Letters B}, 817:136308, 2021.
+
+\bibitem{raduta2014new}
+AA~Raduta, CM~Raduta, and Amand Faessler.
+\newblock A new picture for the chiral symmetry properties within a
+  particle--core framework.
+\newblock {\em Journal of Physics G: Nuclear and Particle Physics},
+  41(3):035105, 2014.
+
+\bibitem{raduta2014description}
+AA~Raduta and CM~Raduta.
+\newblock Description of the chiral bands in 188,190os.
+\newblock {\em arXiv preprint arXiv:1407.5059}, 2014.
+
+\bibitem{raduta2015semi}
+AA~Raduta and CM~Raduta.
+\newblock Semi-phenomenological description of the chiral bands in 188,190 os.
+\newblock {\em Journal of Physics G: Nuclear and Particle Physics},
+  42(6):065105, 2015.
+
+\bibitem{raduta2015possible}
+AA~Raduta, Al~H Raduta, and CM~Petrache.
+\newblock Possible chiral symmetry in 138nd.
+\newblock {\em arXiv preprint arXiv:1512.08656}, 2015.
+
+\bibitem{raduta2016specific}
+AA~Raduta.
+\newblock Specific features and symmetries for magnetic and chiral bands in
+  nuclei.
+\newblock {\em Progress in Particle and Nuclear Physics}, 90:241--298, 2016.
+
+\bibitem{raduta2017alternative}
+AA~Raduta, CM~Raduta, and Al~H Raduta.
+\newblock Alternative description of chiral properties in 138nd.
+\newblock {\em Journal of Physics G: Nuclear and Particle Physics},
+  44(4):045102, 2017.
 
 \bibitem{mccutchan2018nuclear}
 EA~Mccutchan.
