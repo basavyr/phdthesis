@@ -50,9 +50,9 @@
 \contentsline {section}{\numberline {5.4}Concluding Remarks}{98}{section.224}%
 \contentsline {chapter}{\numberline {6}A New Theoretical Formalism}{99}{chapter.225}%
 \contentsline {section}{\numberline {6.1}Previous Work - Foundation}{99}{section.226}%
-\contentsline {section}{\numberline {6.2}Re-interpretation of The Wobbling Motion}{102}{section.228}%
-\contentsline {subsection}{\numberline {6.2.1}Variational Principle}{104}{subsection.232}%
-\contentsline {subsection}{\numberline {6.2.2}Classical Equations of Motion}{105}{subsection.238}%
+\contentsline {section}{\numberline {6.2}Re-interpretation of the Wobbling Motion}{102}{section.228}%
+\contentsline {subsection}{\numberline {6.2.1}Variational Principle}{103}{subsection.232}%
+\contentsline {subsection}{\numberline {6.2.2}Classical Equations of Motion}{104}{subsection.238}%
 \contentsline {subsection}{\numberline {6.2.3}Classical Energy Function (CEF)}{107}{subsection.245}%
 \contentsline {subsubsection}{\numberline {6.2.3.1}Canonical Factors - Qualitative Analysis}{107}{subsubsection.248}%
 \contentsline {subsubsection}{\numberline {6.2.3.2}Critical Region}{108}{subsubsection.252}%
