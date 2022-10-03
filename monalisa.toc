@@ -57,7 +57,7 @@
 \contentsline {subsubsection}{\numberline {6.2.3.1}Canonical Factors - Qualitative Analysis}{107}{subsubsection.248}%
 \contentsline {subsubsection}{\numberline {6.2.3.2}Critical Region}{108}{subsubsection.252}%
 \contentsline {subsection}{\numberline {6.2.4}Wobbling Frequencies}{110}{subsection.255}%
-\contentsline {subsection}{\numberline {6.2.5}Alternative Approach}{116}{subsection.272}%
+\contentsline {subsection}{\numberline {6.2.5}An Alternative Approach}{116}{subsection.272}%
 \contentsline {section}{\numberline {6.3}A New Band Structure in Lu Isotopes}{124}{section.298}%
 \contentsline {subsection}{\numberline {6.3.1}Variational States}{125}{subsection.299}%
 \contentsline {subsection}{\numberline {6.3.2}Fitting Parameters}{128}{subsection.308}%
