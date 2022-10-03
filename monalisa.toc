@@ -62,7 +62,7 @@
 \contentsline {subsection}{\numberline {6.3.1}Variational States}{125}{subsection.299}%
 \contentsline {subsection}{\numberline {6.3.2}Fitting Parameters}{128}{subsection.308}%
 \contentsline {section}{\numberline {6.4}Numerical Results in Lu Isotopes}{130}{section.314}%
-\contentsline {subsection}{\numberline {6.4.1}Numerical Parameters}{133}{subsection.325}%
+\contentsline {subsection}{\numberline {6.4.1}Numerical Parameters}{134}{subsection.325}%
 \contentsline {subsection}{\numberline {6.4.2}Energies}{136}{subsection.329}%
 \contentsline {subsection}{\numberline {6.4.3}Alignment}{139}{subsection.335}%
 \contentsline {subsection}{\numberline {6.4.4}Reference Energy}{141}{subsection.340}%
