@@ -48,28 +48,28 @@
 \contentsline {subsection}{\numberline {5.3.4}Wobbling around A=180}{92}{subsection.215}%
 \contentsline {subsection}{\numberline {5.3.5}Wobbling - Experimental Chart}{95}{subsection.221}%
 \contentsline {section}{\numberline {5.4}Concluding Remarks}{98}{section.224}%
-\contentsline {chapter}{\numberline {6}A New Theoretical Formalism}{99}{chapter.225}%
+\contentsline {chapter}{\numberline {6}New Theoretical Formalism}{99}{chapter.225}%
 \contentsline {section}{\numberline {6.1}Previous Work - Foundation}{99}{section.226}%
-\contentsline {section}{\numberline {6.2}Re-interpretation of The Wobbling Motion}{102}{section.228}%
-\contentsline {subsection}{\numberline {6.2.1}Variational Principle}{104}{subsection.232}%
-\contentsline {subsection}{\numberline {6.2.2}Classical Equations of Motion}{105}{subsection.238}%
+\contentsline {section}{\numberline {6.2}Re-interpretation of the Wobbling Motion}{102}{section.228}%
+\contentsline {subsection}{\numberline {6.2.1}Variational Principle}{103}{subsection.232}%
+\contentsline {subsection}{\numberline {6.2.2}Classical Equations of Motion}{104}{subsection.238}%
 \contentsline {subsection}{\numberline {6.2.3}Classical Energy Function (CEF)}{107}{subsection.245}%
 \contentsline {subsubsection}{\numberline {6.2.3.1}Canonical Factors - Qualitative Analysis}{107}{subsubsection.248}%
 \contentsline {subsubsection}{\numberline {6.2.3.2}Critical Region}{108}{subsubsection.252}%
 \contentsline {subsection}{\numberline {6.2.4}Wobbling Frequencies}{110}{subsection.255}%
-\contentsline {subsection}{\numberline {6.2.5}Alternative Approach}{116}{subsection.272}%
+\contentsline {subsection}{\numberline {6.2.5}An Alternative Approach}{116}{subsection.272}%
 \contentsline {section}{\numberline {6.3}A New Band Structure in Lu Isotopes}{124}{section.298}%
 \contentsline {subsection}{\numberline {6.3.1}Variational States}{125}{subsection.299}%
 \contentsline {subsection}{\numberline {6.3.2}Fitting Parameters}{128}{subsection.308}%
 \contentsline {section}{\numberline {6.4}Numerical Results in Lu Isotopes}{130}{section.314}%
-\contentsline {subsection}{\numberline {6.4.1}Numerical Parameters}{133}{subsection.325}%
+\contentsline {subsection}{\numberline {6.4.1}Numerical Parameters}{134}{subsection.325}%
 \contentsline {subsection}{\numberline {6.4.2}Energies}{136}{subsection.329}%
 \contentsline {subsection}{\numberline {6.4.3}Alignment}{139}{subsection.335}%
 \contentsline {subsection}{\numberline {6.4.4}Reference Energy}{141}{subsection.340}%
 \contentsline {subsection}{\numberline {6.4.5}Dynamic MOI}{144}{subsection.345}%
 \contentsline {subsection}{\numberline {6.4.6}Electromagnetic Transitions}{146}{subsection.349}%
 \contentsline {subsubsection}{\numberline {6.4.6.1}E2 Transitions}{148}{subsubsection.352}%
-\contentsline {subsubsection}{\numberline {6.4.6.2}M1 Transitions}{156}{subsubsection.371}%
+\contentsline {subsubsection}{\numberline {6.4.6.2}M1 Transitions}{154}{subsubsection.371}%
 \contentsline {section}{\numberline {6.5}Concluding Remarks}{161}{section.383}%
 \contentsline {chapter}{\numberline {7}Novel Description of the Wobbling Bands}{164}{chapter.386}%
 \contentsline {section}{\numberline {7.1}Parity Partner Bands}{165}{section.387}%
