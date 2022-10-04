@@ -48,7 +48,7 @@
 \contentsline {subsection}{\numberline {5.3.4}Wobbling around A=180}{92}{subsection.215}%
 \contentsline {subsection}{\numberline {5.3.5}Wobbling - Experimental Chart}{95}{subsection.221}%
 \contentsline {section}{\numberline {5.4}Concluding Remarks}{98}{section.224}%
-\contentsline {chapter}{\numberline {6}A New Theoretical Formalism}{99}{chapter.225}%
+\contentsline {chapter}{\numberline {6}New Theoretical Formalism}{99}{chapter.225}%
 \contentsline {section}{\numberline {6.1}Previous Work - Foundation}{99}{section.226}%
 \contentsline {section}{\numberline {6.2}Re-interpretation of the Wobbling Motion}{102}{section.228}%
 \contentsline {subsection}{\numberline {6.2.1}Variational Principle}{103}{subsection.232}%
