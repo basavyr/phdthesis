@@ -81,7 +81,7 @@
 \contentsline {section}{\numberline {7.3}Classical Energy Function (CEF)}{177}{section.413}%
 \contentsline {subsection}{\numberline {7.3.1}CEF - Stability Regions}{178}{subsection.418}%
 \contentsline {subsection}{\numberline {7.3.2}Classical 3D Trajectories}{183}{subsection.427}%
-\contentsline {section}{\numberline {7.4}Concluding Remarks}{188}{section.437}%
+\contentsline {section}{\numberline {7.4}Concluding Remarks}{187}{section.437}%
 \contentsline {chapter}{\numberline {8}Conclusions}{190}{chapter.438}%
 \contentsline {chapter}{\numberline {A}Shell Model}{195}{appendix.439}%
 \contentsline {section}{\numberline {A.1}Shell model}{195}{section.440}%
