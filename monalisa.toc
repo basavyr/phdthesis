@@ -79,14 +79,14 @@
 \contentsline {subsection}{\numberline {7.2.1}Energy spectrum}{170}{subsection.404}%
 \contentsline {subsection}{\numberline {7.2.2}Interpretation of the parameter set}{174}{subsection.410}%
 \contentsline {section}{\numberline {7.3}Classical Energy Function (CEF)}{177}{section.413}%
-\contentsline {subsection}{\numberline {7.3.1}CEF - Stability Regions}{178}{subsection.419}%
-\contentsline {subsection}{\numberline {7.3.2}Classical 3D Trajectories}{183}{subsection.428}%
-\contentsline {section}{\numberline {7.4}Concluding Remarks}{188}{section.438}%
-\contentsline {chapter}{\numberline {8}Conclusions}{190}{chapter.439}%
-\contentsline {chapter}{\numberline {A}Shell Model}{195}{appendix.440}%
-\contentsline {section}{\numberline {A.1}Shell model}{195}{section.441}%
-\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{203}{section.465}%
-\contentsline {chapter}{\numberline {B}Two-State Mixing}{210}{appendix.477}%
-\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{215}{appendix.492}%
-\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{216}{section.494}%
-\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{217}{section.500}%
+\contentsline {subsection}{\numberline {7.3.1}CEF - Stability Regions}{178}{subsection.418}%
+\contentsline {subsection}{\numberline {7.3.2}Classical 3D Trajectories}{183}{subsection.427}%
+\contentsline {section}{\numberline {7.4}Concluding Remarks}{187}{section.437}%
+\contentsline {chapter}{\numberline {8}Conclusions}{190}{chapter.438}%
+\contentsline {chapter}{\numberline {A}Shell Model}{195}{appendix.439}%
+\contentsline {section}{\numberline {A.1}Shell model}{195}{section.440}%
+\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{203}{section.464}%
+\contentsline {chapter}{\numberline {B}Two-State Mixing}{210}{appendix.476}%
+\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{215}{appendix.491}%
+\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{216}{section.493}%
+\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{217}{section.499}%
