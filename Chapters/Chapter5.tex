@@ -1,565 +1,382 @@
-\chapter{Wobbling Motion in Nuclei}
-\label{chapter-5}
+\chapter{Novel Description of the Wobbling Bands}
+\label{chapter-7-novel}
 
-The pioneering work of Bohr and Mottelson \cite{bohr1998nuclear}, which was done more than 50 years ago, lead to some interesting features regarding the collective phenomena in triaxial nuclei. Namely, they pointed out that a specific precessional motion of the nucleus's spin will take place when the rotational energy is sufficient. The angular momentum for triaxial nuclei is not aligned to any of the principal axes of the ellipsoid, but it \emph{precesses} and \emph{wobbles} around one of these axes. They called this phenomenon \textbf{wobbling motion} (w.m.). The asymmetry of the three MOI makes the rotation (in the quantum mechanical sense) to be possible around any of the three axes.
+A unique picture for the description of wobbling bands in odd nuclei will be developed in this chapter. This formalism is based on the $\mathbf{W_1}$ approach, which was systematically treated in the previous chapter. Its validity was shown through the comparison with the experimental measurements for different quantities. This new model will also follow a semi-classical picture, with the goal of fully describing the wobbling spectra of nuclei where both positive- and negative-parity bands admixture occurs. Consequently, the new method will be tested on $^{163}$Lu, since the fourth wobbling band (TSD4) consists of states where the parity $\pi$ is negative.
 
-As such, a \emph{main} rotation around the axis with the largest MOI will be the most energetically favorable, but the other two directions will also contribute to this main rotation, leading to a unique characteristic of triaxial nuclei. The non-uniformity nature of w.m. was firstly studied for the `pure' rigid-rotators that correspond to the even-even nuclei. In this case, the w.m. can be treated as small amplitude oscillations of the total angular momentum $\mathbf{I}$ around the axis with the largest MOI.
+The work that will be depicted here is in fact based on three papers published by the team. Indeed, in Ref. \cite{poenaru2021parity}, the key concept standing behind this interpretation were pointed out and new results concerning the excitation energies were obtained, while in Refs. \cite{poenaru2021extensive1,poenaru2021extensive2}, the authors took the model even further to calculate other quantities such as Routhians, rotational frequencies, and wobbling energies. Moreover, the geometrical interpretation of the \emph{Classical Energy Function} (CEF) was extensively studied in terms of its behavior near the critical points, meaning that an interest is devoted in finding stable/unstable wobbling motion. On top of that, graphical representations with two constants of motion, i.e., the total energy and the total angular momentum are realized for this nucleus, pointing out the \emph{allowed} classical trajectories of the system. As it will be shown, the information retrieved from these figures proves to be an efficient way of understanding this collective phenomenon unique to triaxial nuclei. The classical study of the wobbling picture for $^{163}$Lu in \cite{poenaru2021extensive2} is a remarking characteristic of the model, as the alternative treatments from the literature are based on quantal pictures that do not have a clear and `easy-to-grasp' physical meaning regarding the system dynamics. In addition, the study of collective motion in terms of stability diagrams in relation to a classical set of coordinates is another first within the literature.
 
-\section{Wobbling Motion in Even-Even Nuclei}
-
-The analytical expressions for wobbling excitations were firstly evaluated by Bohr and Mottelson using the so-called \emph{Harmonic Approximation} (HA). This can be described as a small-amplitude limit for the Triaxial Rigid Rotor Hamiltonian that was discussed in Chapter \ref{chapter4} (see Section \ref{trm-model}). In this limit, the projection of the total angular momentum onto the axis with largest MOI can be approximated $I_3\approx I$, meaning that the nucleus will do most of its rotation around this axis, with some `disturbance' from the other two principal axes of the triaxial rotor. 
-
-For the description of this simple wobbler, one can consider the case when the $3$-axis has the largest MOI and the ordering is:
-\begin{align}
-    \mathcal{I}_3>\mathcal{I}_2>\mathcal{I}_1\ \text{or}\ A_3<A_2<A_1\ .
-\end{align}
-
-Following this ordering, the Hamiltonian can be written as:
-\begin{align}
-    \hat{H}_\text{rot}={\color{red}A_3I_3^2}+{\color{blue}\left(A_1I_1^2+A_2I_2^2\right)}\ ,
-    \label{general-rotor-ham-evenA}
-\end{align}
-where the different colors try to emphasize \emph{a main rotation around the $3$-axis} (represented by red color) and \emph{the precession + oscillation of the total angular momentum} (represented by blue color).
-
-The wobbling excitations causing oscillations with small amplitudes for $\mathbf{I}$ about the $3$-axis are assumed to have a harmonic-like behavior, meaning that the final energy spectrum will have the typical $\hbar\omega(n+1/2)$ behavior. The oscillatory motion can be explained as `vibrations' of the total angular momentum around a steady position, where each wobbling excitation consists of an additional vibrating phonon. Therefore, one can express the Hamiltonian in terms of \emph{boson} creation and annihilation operators \cite{bohr1998nuclear}:
-\begin{align}
-    b^\dagger=\frac{1}{\sqrt{2I}}I_+\ ,\ b=\frac{1}{\sqrt{2I}}I_-\ ,\ \left[b,b^\dagger\right]\approx 1\ .
-\end{align}
-
-This initial quantization allows one to write Eq. \ref{general-rotor-ham-evenA} as a rotational term and a wobbling-specific one:
-\begin{align}
-    \hat{H}_\text{rot}&={\color{red}A_3I_3^2}+{\color{blue}H_w}\ ,\label{rot-ham-non-diagonal} \\
-    {\color{blue}H_w}&={\color{blue}t_1\left(n+\frac{1}{2}\right)+\frac{1}{2}t_2(b^\dagger b^\dagger + bb)}\ ,
-    \label{wob-ham-non-diagonal}
-\end{align}
-where the \emph{number of boson excitations} is denoted by $n$ and it is given by $n=b^\dagger b$. 
-%Each wobbling quanta will carry an angular momentum of one unit less with respect to the $3$-axis.
-The two factors $t_{1,2}$ are expressed in terms of the inertial parameters as \cite{bohr1998nuclear}:
-\begin{align}
-    t_1&=I(A_2+A_1-2A_3)\ , \\
-    t_2&=I(A_2-A_1)\ .
-    \label{t1-t2-terms}
-\end{align}
-
-Notice the linear dependence of the two parameters on the total angular momentum $I$. Moreover, depending on the values of $A_k$, the contribution of $t_{1,2}$ can be negative. Their behavior is shown within the right inset of Fig. \ref{fig-even-even-wobbling-energies}. Although the Hamiltonian $H_w$ is considered to have an oscillatory-like behavior, its general expression does not look like a harmonic Hamiltonian. Nevertheless, Eq. \ref{wob-ham-non-diagonal} can be brought to a diagonalized form by introducing a new set of boson creation and annihilation operators. These operators will be written as linear combinations of $(b^\dagger,b)$ \cite{bohr1998nuclear}:
-\begin{align}
-    c^\dagger=w_1b^\dagger-w_2b\ ,\\
-    c=w_1b-w_2b^\dagger\ ,
-\end{align}
-where the two coefficients $w_{1,2}$ are defined in terms of $t_{1,2}$ as \cite{bohr1998nuclear}:
-\begin{align}
-    w_1&=\left[\frac{1}{2}\left(\frac{t_1}{\sqrt{t_1^2-t_2^2}}+1\right)\right]^{1/2}\ ,\nonumber\\
-    w_2&=\left[\frac{1}{2}\left(\frac{t_1}{\sqrt{t_1^2-t_2^2}}-1\right)\right]^{1/2}\ .
-    \label{eqs-w1-w2-terms-wobbling}
-\end{align}
-
-The terms $w_{1,2}$ verify the condition $w_1^2-w_2^2=1$ and they make the `dangerous' products $b^\dagger b^\dagger$ and $bb$ vanish \cite{oi2006semi}. Note that $w_{1,2}$ are constant functions of spin, unlike the coefficients $t_{1,2}$. In addition, by introducing a number operator $\hat{n}=c^\dagger c$ and an excitation quanta $\hbar\omega_w$ defined as \cite{bohr1998nuclear}:
-\begin{align}
-    \hbar\omega_w=\sqrt{t_1^2-t_2^2}=2I\sqrt{(A_1-A_3)(A_2-A_3)}\ ,
-    \label{wobbling-frequency-even-A}
-\end{align}
-then the final harmonic-like expression of $H_w$ can be given:
-\begin{align}
-    H_w=\hbar\omega_w\left(\hat{n}+\frac{1}{2}\right)\ .
-    \label{wob-ham-diagonal}
-\end{align}
-
-In this expression, the quanta $\hbar\omega_w$ defined in Eq. \ref{wobbling-frequency-even-A} in terms of $t_{1,2}$ is called \emph{wobbling frequency}, and it is increasing linearly with the total angular momentum. Accordingly, Eq. \ref{rot-ham-non-diagonal} can be re-written with the wobbling Hamiltonian defined in Eq. \ref{wob-ham-diagonal}:
-\begin{align}
-    \hat{H}_\text{rot}=A_3I(I+1)+\hbar\omega_w\left(\hat{n}+\frac{1}{2}\right)\ .
-    \label{rot-wob-ham-diagonal}
-\end{align}
-
-The eigenvalues of the rotor Hamiltonian can be expressed in terms of a \emph{wobbling phonon number} $n_w$ (the eigenvalue of the number operator $\hat{n}=c^\dagger c$) and a \emph{wobbling frequency} (defined in Eq. \ref{wobbling-frequency-even-A}):
-\begin{align}
-    E_{I,n_w}={\color{red}A_3I(I+1)}+{\color{blue}\hbar\omega_w\left(n_w+\frac{1}{2}\right)}\ .
-    \label{eq-wobbling-energy-evenA}
-\end{align}
-
-The spectrum of an even-even wobbling nucleus is finally represented in Eq. \ref{eq-wobbling-energy-evenA}. Notice again the two colored terms that illustrate the energies coming from the rotation around the $3$-axis and the disturbed motion with small oscillations around the other two axes. Consequently, the wobbling character of the system will be generated by the latter harmonic term. The wobbling phonon number $n_w$ is related to the `strength' of the tilting for $\mathbf{I}$, suggesting that an increasing number for $n_w$ will result in oscillations with larger amplitudes around the other two axes. The phonon number takes only integer values $n_w=0,1,\dots$. Inset $b)$ from Fig. \ref{wobbling-geometry-tilting-sketch}, shows a sketch with the tilting effect that the wobbling phonon number has on the total angular momentum vector. For completeness, the collective structure of two wobbling bands generated through phonon excitations is exemplified in inset $a)$ from Fig. \ref{wobbling-geometry-tilting-sketch}.
-\begin{figure}
-    \centering
-    \includegraphics[scale=0.72]{Chapters/Figures/wobbling_n_schematic-1.pdf}
-    \includegraphics[scale=0.6]{Chapters/Figures/wobbling_n_schematic-2.pdf}
-    \caption{\textbf{Left:} A typical wobbling structure for even-even nuclei. The yrast band contains even angular momenta since the band has signature $\alpha=0$, while the first excited band has odd spins and $\alpha=1$. \textbf{Right:} The increase of tilting angle between the rotational axis (the $3$-axis in this case) and the total angular momentum $\mathbf{I}$. With each wobbling phonon number, the total angular momentum generates a `stronger' precessional motion (illustrated by the colored ellipses).}
-    \label{wobbling-geometry-tilting-sketch}    
-\end{figure}
-
-An alternative way of depicting the wobbling term $H_w$ from Eq. \ref{wob-ham-non-diagonal} (or Eq. \ref{wob-ham-diagonal}) would be to express it more generally in terms of $I_1$ and $I_2$. When doing so, one achieves the following form (assuming that rotation is around the $3$-axis) \cite{oi2006semi}:
-\begin{align}
-    % H_w={\color{magenta}(A_1-A_3)I_1^2}+{\color{orange}(A_2-A_3)I_2^2}={\color{magenta}T_\text{kin}}+{\color{orange}T_\text{pot}}\ ,
-    H_w=(A_1-A_3)I_1^2+(A_2-A_3)I_2^2=T_\text{kin}+T_\text{pot}\ ,
-    \label{wobbling-hamiltonian-kin-pot-term}
-\end{align}
-where according to Ref. \cite{wen2015wobbling}, one could group the terms into purely \emph{kinetic} and \emph{potential} components. This way of expressing $H_w$ is instructive because it keeps a close contact with the classical picture of understanding the total energy. An example with the behavior of $T_\text{kin}$ and $T_\text{pot}$ with respect to $I_1$ and $I_2$, respectively, can be seen in Fig. \ref{kin-pot-wobbling-ham-example} for different MOI ratios.
-\begin{figure}
-    \centering
-    \includegraphics[width=0.49\textwidth]{Chapters/Figures/kin-pot-terms.pdf}
-    \includegraphics[width=0.49\textwidth]{Chapters/Figures/kin-pot-terms-2.pdf}
-    \caption{The kinetic and potential terms from Eq. \ref{wobbling-hamiltonian-kin-pot-term} are graphically represented as function of $I_1$ and $I_2$, respectively. The a.m. components vary from $0$ to $10\hbar$. The MOI for each curve are as follows: $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:25:20$ (red), $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:25:40$ (blue), $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:25:60$ (black), $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=30:25:10$ (magenta). The unit for MOI is $\hbar^2\text{MeV}^{-1}$.}
-    \label{kin-pot-wobbling-ham-example}
-\end{figure}
-
-As a qualitative analysis of the wobbling frequency and the rotor energy, one can take three arbitrary values for the moments of inertia and study the behavior of both $E_{I,n}$ and $\hbar\omega_w$ with increasing angular momentum and wobbling phonon number. Keep in mind that depending on the value of the wobbling phonon number, different spin sequences will be allowed. More precisely, from the invariance of the rotor w.r.t. rotations by $\pi$ about the principal axes for even-even nuclei, the signature quantum number $\alpha$ can take the values 0 and 1. Each wobbling band will have an alternating signature, starting with $\alpha=0$ for $n_w=0$ then $\alpha=1$ for $n_w=1$ and so on: even spin sequences appear for even values of $n_w$ and odd spin sequences appear for odd values of $n_w$ (see Fig. \ref{fig-even-even-wobbling-energies}).
-
-The rotor energy from Eq. \ref{eq-wobbling-energy-evenA} is graphically represented for an arbitrary set of moments of inertia as a function of the nuclear angular momentum $I$ in the left inset of Fig. \ref{fig-even-even-wobbling-energies}. This pedagogical example contains rotational bands up to $n_w=5$ in the wobbling phonon number. From Fig. \ref{fig-even-even-wobbling-energies}, one can see the quadratic and linear behavior for the energy $E$ and the wobbling frequency, respectively, both with increasing trends.
-\begin{figure}
-    \centering
-    \includegraphics[scale=0.755]{Chapters/Figures/wobblingFreq-evenA.pdf}
-    \includegraphics[width=0.49\textwidth]{Chapters/Figures/wobbling-evenA.pdf}
-    \caption{\textbf{Left:} The energy spectrum for an even-even triaxial nucleus, with the main rotation around the $3$-axis, according to Eq. \ref{eq-wobbling-energy-evenA}. \textbf{Right:} The wobbling frequency (as per Eq. \ref{wobbling-frequency-even-A}) plotted together with the linear terms $t_1$ and $t_2$ (Eq. \ref{t1-t2-terms}), which are used to express $\hbar\omega_w$. The unit for $\mathcal{I}_k\ ,\ k=1,2,3$ is $\hbar^2\ \text{MeV}^{-1}$.}
-    \label{fig-even-even-wobbling-energies}
-\end{figure}
-
-Another instructive study would be the evolution of the components of $\mathbf{I}$ expressed in polar coordinates. Indeed, by expressing the three angular momentum components in terms of the polar and azimuthal angles $\theta,\varphi$:
-\begin{align}
-    I_1&=I'\sin\theta\cos\varphi\ ,\\
-    I_2&=I'\sin\theta\sin\varphi\ ,\\
-    I_3&=I'\cos\theta\ ,
-    \label{angular-momentum-polar-components}
-\end{align}
-where $I'=\sqrt{I(I+1)}$, then one can make a set of graphical representations. In Fig. \ref{figs-angular-momentum-components-polar}, the quantities $I_1$ and $I_2$ are represented in the $(\theta,\varphi)$ plane for a fixed spin value $I=10\hbar$. Since the third component $I_3$ is independent of the azimuthal angle $\varphi$, it has been dismissed.
-\begin{figure}
-    \centering
-    \includegraphics[width=0.49\textwidth]{Chapters/Figures/angular_components-TRM-1.pdf}
-    \includegraphics[width=0.49\textwidth]{Chapters/Figures/angular_components-TRM-2.pdf}
-    % \includegraphics[scale=0.66]{Chapters/Figures/angular_components-TRM-1.pdf}
-    % \includegraphics[scale=0.66]{Chapters/Figures/angular_components-TRM-2.pdf}
-    \caption{The geometrical representation of the first and second component of the total angular momentum $\mathbf{I}$ as functions of the polar angles, according to Eq. \ref{angular-momentum-polar-components}.}
-    \label{figs-angular-momentum-components-polar}
-\end{figure}
-
-Other relevant observables that can be calculated for simple wobbler are the two quadrupole moments $Q_{20,22}$ and the intraband/interband $B(E2)$ transition probabilities. The quadrupole components are expressed in terms of the intrinsic quadrupole moment $Q_0$ and the triaxiality parameter as \cite{shoji2006microscopic}:
-\begin{align}
-    Q_{20}=Q_0\cos\gamma\ ,\ Q_{22}=\frac{1}{\sqrt{2}}Q_0\sin\gamma\ .
-    \label{quadrupole-components-q20-q22}
-\end{align}
-
-These components can be furthermore used to determine the intraband $B(E2)$ transition probabilities \cite{wen2015wobbling}:
-\begin{align}
-    B(E2;(n,I)\to(n,I-2))=\frac{5}{16\pi}Q_{22}^2\ ,
-    \label{intraband-probability-simple-wobbler}
-\end{align}
-and also the interband transitions:
-\begin{align}
-    B(E2;(n,I)\to(n-1,I-1))&=\frac{5}{16\pi}\frac{n}{I}\left(\sqrt{3}Q_{20}w_1+\sqrt{2}Q_{22}w_2\right)^2\ , \label{interband-probability-simple-wobbler-1}\\
-    B(E2;(n,I)\to(n+1,I-1))&=\frac{5}{16\pi}\frac{n+1}{I}\left(\sqrt{3}Q_{20}w_2+\sqrt{2}Q_{22}w_1\right)^2\ .
-    \label{interband-probability-simple-wobbler-2}
-\end{align}
-
-Notice that for the intraband transitions, going from the state $I$ to $I-2$ will only depend on the quadrupole component $Q_{22}$ squared (Eq. \ref{quadrupole-components-q20-q22}), thus making the transitions spin-independent.
-
-\subsection{Triaxial rotor energy vs. wobbling energy}
-
-An important discussion regarding the nomenclature of the energy should be made. As it was shown in Eq. \ref{eq-wobbling-energy-evenA}, the energy spectrum for a simple wobbler can be determined for every phonon number and spin sequences. However, that is the full (i.e., `absolute') spectrum  of the wobbler, which is composed of the \emph{yrast} band with $n_w=0$ and the \emph{excited band} having $n_w=1,2,\dots$. On the other hand, for every state $I$ within the collective bands, a set of quantities can be determined from the absolute energies ($E_{I,n}$) by following the rules \cite{wen2015wobbling}:
-\begin{align}
-    E_\text{wob}(I_\text{even})&=E_{I,n}-E_{I,0}\ , \label{eq-wobbling-energy-definition-evenA} \\
-    % E_\text{wob}(I_\text{even})&=E_{I,n}-E_{I,0}\ ,\nonumber \\
-    E_\text{wob}(I_\text{odd})&=E_{I,n}-\frac{1}{2}\left(E_{I-1,0}+E_{I+1,0}\right)\ ,
-    \label{eq-wobbling-energy-definition-oddA}
-\end{align}
-to which the community refers to as \emph{wobbling energies}. But often in literature, the energies calculated via Eq. \ref{eq-wobbling-energy-evenA} are also referred to as wobbling energies, which is not the same as Eqs. \ref{eq-wobbling-energy-definition-evenA} - \ref{eq-wobbling-energy-definition-oddA}, so a distinction should be made clear.
-
-\subsection{Testing the Harmonic Approximation}
-\label{ba-130-numerical-calculations}
-
-It is worth going further and apply the HA formalism in even-even nuclei for an existing nucleus. As it will be discussed in a follow-up section, it turns out that experimental observations for wobbling structures in even-mass isotopes have been very scarce. Nevertheless, very recently, Petrache et al. identified a large collection of band structures in $^{130}$Ba \cite{petrache2019diversity}. Two of them are reported to be of wobbling nature \cite{chen2019transverse}. As such, one can take $^{130}$Ba as a testing example and check if the energy formula given in Eq. \ref{eq-wobbling-energy-evenA} can be applied for this isotope.
-
-The method described in here will be based on a \emph{fitting procedure}, namely a set of parameters will be extracted from the expression of $E_{I,n}$ and they will be adjusted such that the experimental data is best reproduced by the theoretical model. This kind of approach works really well for `well-behaved' model functions and also if the input data is large enough. More often than not, if the model function contains parameters with a clear physical meaning, then the fitting becomes a suitable tool. In fact, in the following chapters, the developed formalism will verify the experimental data through similar fitting procedures (although their `core'-implementation will be more complex).
-
-Looking at the energy formula from Eq. \ref{eq-wobbling-energy-evenA}, two fitting parameters would seem relevant, namely the largest moment of inertia $\mathcal{I}_3$ and the wobbling frequency $\hbar\omega$. However, the wobbling frequency is furthermore dependent on the other two moments of inertia (as per Eq. \ref{wobbling-frequency-even-A}), meaning that one can use the set $\mathcal{P}_\text{fit}=\left[\mathcal{I}_1,\mathcal{I}_2,\mathcal{I}_3\right]$ as appropriate fitting parameters. The wobbling phonon number $n_w$ is attributed as follows: $n_w=0$ for the yrast band (denoted throughout calculations with B1) and $n_w=1$ for the first excited band (denoted with B2). The band B1 has signature $\alpha=0$ so it has even spins, while B2 has odd spins. The experimental data regarding spins and energies for the two bands correspond to the measurements done in Ref. \cite{petrache2019diversity}.
-
-\subsubsection{Energy Spectrum}
-
-Indeed, by following the fitting method described above, a set $\mathcal{P}_\text{fit}$ is obtained. The parameters, i.e., the three moments of inertia are shown in Table \ref{table-params-ba130}. Remarking the fact that the largest MOI is the one corresponding to the $3$-axis. With these parameters, the theoretical energies are determined numerically and the two bands are compared to the measured data in Fig. \ref{plot-ba130-excitation-energies}. Concerning the fitted energies, instead of working with the `absolute energies' (Eq. \ref{eq-wobbling-energy-evenA}), the \emph{excitation energies} were used \cite{raduta2017semiclassical,raduta2018wobbling,raduta2020towards}. These are determined by subtracting the band-head energy of B1 (that is the $I_b=10^+$ level) from every excited state of B1 and B2. By doing so, the accuracy of the results will be improved. The excitation energy for a spin state $I$ is given as:
-\begin{align}
-    E(I)=E_\text{abs}(I)-E_\text{abs}(I_b)\ ,
-    \label{excitation-energy-general-formula}
-\end{align}
-where `abs.' signifies the absolute value for $E$ at that particular spin state ($I>I_b$) and $I_b$ is the band-head state within the yrast band.
-\begin{table}
-    \centering
-    \resizebox{0.35\textwidth}{!}{%
-    \begin{tabular}{|cccc|}
-    \hline
-    \multicolumn{4}{|c|}{$\mathcal{P}_\text{fit}$}                                                                                                                      \\ \hline
-    \multicolumn{1}{|c|}{$\mathcal{I}_1$} & \multicolumn{1}{c|}{$\mathcal{I}_2$} & \multicolumn{1}{c|}{$\mathcal{I}_3$} & \multicolumn{1}{c|}{Unit}                     \\ \hline
-    \multicolumn{1}{|c|}{27}              & \multicolumn{1}{c|}{22}              & \multicolumn{1}{c|}{43}              & \multicolumn{1}{c|}{$\hbar^2\text{MeV}^{-1}$} \\ \hline
-    \end{tabular}%
-    }
-    \caption{The parameter set $\mathcal{P}_\text{fit}$ obtained from the fitting procedure of the excitation energies of the two wobbling bands (B1 and B2) for $^{130}$Ba. The model function corresponds to the energy of a simple wobbler (see Eq. \ref{eq-wobbling-energy-evenA}).}
-    \label{table-params-ba130}
-\end{table}
-\begin{figure}
-    \centering
-    \includegraphics[width=0.46\textwidth]{Chapters/Figures/ba130-band1.pdf}
-    \includegraphics[width=0.46\textwidth]{Chapters/Figures/ba130-band2.pdf}
-    \caption{Comparison between the experimental and theoretical excitation energies (Eq. \ref{excitation-energy-general-formula}) for the two wobbling bands of $^{130}$Ba (B1 and B2). Experimental data are taken from Ref. \cite{petrache2019diversity}. The theoretical data was obtained by fitting Eq. \ref{eq-wobbling-energy-evenA} as described in text, with the parameters defined in Table \ref{table-params-ba130}. Note that the band-head $I^\pi=10^+$ state from B1 is missing from the spectrum, since it was subtracted from each level.}
-    \label{plot-ba130-excitation-energies}
-\end{figure}
-
-Besides the excited spectrum obtained in Fig. \ref{plot-ba130-excitation-energies}, other quantities such as the rotational frequency (Eq. \ref{rotational-frequency-canonical}) for the two bands in $^{130}$Ba are compared with experimental values in Fig. \ref{wobbling-energies-130ba-expVSth}, and the obtained results agree with the measured data quite well. Note that both frequencies are increasing functions of angular momentum, although for B1, at spin $I\geq 24\hbar$, there seems to be less of an increase, which is not fully reproduced by the fitted values. Moreover, having the excitation energies for the two bands, one can evaluate the theoretical wobbling energies as defined in Eq. \ref{eq-wobbling-energy-definition-oddA} and compare them with the experimental values. The two quantities are graphically represented in Fig. \ref{wobbling-energies-130ba-expVSth}. Remarking the fact that there is an opposite behavior for the two curves, namely the experimental wobbling energies decrease with angular momentum, while the theoretical ones are constantly increasing. Unfortunately, it turns out that by using the Hamiltonian for a \emph{simple wobbler} is not enough to completely describe the collective motion in this isotope.
-\begin{figure}
-    \centering
-    \includegraphics[scale=0.8]{Chapters/Figures/ba130-wobbling-energies-edited.pdf}
-    \includegraphics[scale=0.75]{Chapters/Figures/ba130-rotational-frequencies.pdf}
-    \caption{\textbf{Left:} The wobbling energies for $^{130}$Ba calculated with Eq. \ref{eq-wobbling-energy-definition-oddA} (see text for explanation on the green region). For the first state of B2, the energy was determined as $E_\text{wob}(11^+)=E_\text{B2}(11^+)-\frac{1}{2}E_\text{B1}(12^+)$ since the band-head state of B1 is zero (as per the definition of excitation energy given in Eq. \ref{excitation-energy-general-formula}). \textbf{Right:} The rotational frequencies for the two wobbling bands of $^{130}$Ba, calculated using Eq. \ref{rotational-frequency-canonical}.}
-    \label{wobbling-energies-130ba-expVSth}
-\end{figure}
-
-\subsubsection{Transition Probabilities}
-
-Another step is the calculation of electromagnetic transition probabilities. Firstly, the reduced transition probabilities $B(E2)$ (both the interband and the intraband) depend on the components $Q_{20}$ and $Q_{22}$ of the quadrupole moment. These two can be evaluated numerically using the expressions from Eq. \ref{quadrupole-components-q20-q22}, while the intrinsic quadrupole moment is furthermore evaluated using Eq. \ref{quadrupole-moment-Q0}. From the microscopic calculations performed by Chen et al. in Ref. \cite{chen2019transverse}, they have determined that this isotope has a stable triaxial minimum located at $(\beta_2,\gamma)=(0.24,21.5^\circ)$. This set of deformation parameters will be used within the following computations. Taking the value of $\beta_2=0.24$, the intrinsic quadrupole moment $Q_0$ is readily obtained from Eq. \ref{quadrupole-moment-Q0}. The transition probabilities from Eqs. \ref{intraband-probability-simple-wobbler}, \ref{interband-probability-simple-wobbler-1}, and \ref{interband-probability-simple-wobbler-2} also depend on the two factors $w_{1,2}$ defined in Eq. \ref{eqs-w1-w2-terms-wobbling}, which are functions of the three moments of inertia. Thus, the quality of the fitting procedure will also be reflected in the results for transition probabilities. The numerical values for $Q_0$, $w_{1,2}$, and $Q_{20,22}$ are presented in Table \ref{transition-parameters-ba130}.
-\begin{table}
-    \centering
-    \begin{tabular}{|c|c|c|}
-    % \begin{tabular}{|p{0.15\linewidth}|p{0.25\linewidth}|p{0.5\linewidth}|}
-    \hline
-    Parameters & Calculated values & Observations                                               \\ \hline
-    $\beta_2$  & 0.24              & Taken from Ref. \cite{chen2019transverse}                 \\ \hline
-    $\gamma$   & $21.4^\circ$      & Taken from Ref. \cite{chen2019transverse}                 \\ \hline
-    $w_1$      & 1.008             & Evaluated with $\mathcal{P}_\text{fit}$                    \\ \hline
-    $w_2$      & 0.132             & Evaluated with $\mathcal{P}_\text{fit}$                    \\ \hline
-    $Q_0$      & $390.376\times10^{-2}$ $\text{eb}$ & As per Eq. \ref{quadrupole-moment-Q0}                                                           \\ \hline
-    $Q_{20}$   & $363.213\times10^{-2}$ $\text{eb}$ & As per Eq. \ref{quadrupole-components-q20-q22}                                                            \\ \hline
-    $Q_{22}$   & $101.168\times10^{-2}$ $\text{eb}$ & As per Eq. \ref{quadrupole-components-q20-q22}                                                            \\ \hline
-    $B(E2)_\text{in}$ &        0.0509 $(eb)^2$          & Eq. \ref{intraband-probability-simple-wobbler}              \\ \hline
-    \end{tabular}%
-    \caption{The numerical values for the quantities which are required to determine the quadrupole transition probabilities $B(E2)$ defined in Eqs. \ref{intraband-probability-simple-wobbler} - \ref{interband-probability-simple-wobbler-2}. The parameter set $\mathcal{P}_\text{fit}$ was obtained through the fitting procedure and the values are shown in Table \ref{table-params-ba130}. The intraband transition probabilities $B(E2)$ are evaluated for states $(n,I)\to(n,I-2)$.}
-    \label{transition-parameters-ba130}
-\end{table}
-
-Having the deformation parameters, the $w_{1,2}$ terms, and the quadrupole components, one can further evaluate the reduced transition probabilities. The graphical representation from Fig. \ref{BE2out-transitions-130ba} shows the interband transition probabilities $B(E2)_\text{out}$ for states $(n_w=1,I)\to(n_w=0,I-1)$. These values are determined with the parameters defined in Table \ref{transition-parameters-ba130}. A constant decrease with spin can be observed, and an overall agreement with theoretical calculations from Ref. \cite{chen2019transverse} is observed (see inset $a$ from Fig. 4 in \cite{chen2019transverse}).
-\begin{figure}
-    \centering
-    \includegraphics[scale=0.8]{Chapters/Figures/BE2-out-130Ba.pdf}
-    \caption{The interband quadrupole transition probabilities (Eq. \ref{interband-probability-simple-wobbler-1}) from the first excited wobbling band (B2) to the yrast band (B1) for $^{130}$Ba.}
-    \label{BE2out-transitions-130ba}
-\end{figure}
-
-Considering the interband transitions $B(E2)_\text{out}$ and the constant value for $B(E2)_\text{in}$ (typical for the HA), the ratios $B(E2)_\text{out}/B(E2)_\text{in}$ can be assessed. In Table \ref{BE2-out-in-ratio-130Ba}, the obtained ratios are compared with the experimental ones, where a good agreement can be seen. Additionally, a decreasing trend with respect to the angular momentum is observed.
-\begin{table}
-    \centering
-    \begin{tabular}{|c|cc|}
-    \hline
-    \multirow{2}{*}{$I$} & \multicolumn{2}{c|}{$B(E2)_\text{out}/B(E2)_\text{in}$} \\ \cline{2-3} 
-                         & \multicolumn{1}{c|}{Experimental}          & Calculated         \\ \hline
-    11                   & \multicolumn{1}{c|}{}                      & 0.37           \\ \hline
-    13                   & \multicolumn{1}{c|}{0.32}                  & 0.32           \\ \hline
-    15                   & \multicolumn{1}{c|}{0.36}                  & 0.27           \\ \hline
-    17                   & \multicolumn{1}{c|}{0.22}                  & 0.24           \\ \hline
-    19                   & \multicolumn{1}{c|}{0.22}                  & 0.21           \\ \hline
-    21                   & \multicolumn{1}{c|}{0.41}                  & 0.19           \\ \hline
-    23                   & \multicolumn{1}{c|}{}                      & 0.18           \\ \hline
-    25                   & \multicolumn{1}{c|}{}                      & 0.16           \\ \hline
-    \end{tabular}%
-    \caption{The ratios $B(E2)_\text{out}/B(E2)_\text{in}$ for $^{130}$Ba. The interband transitions signify the change from a state $I$ in band B2 to a state $I-1$ in band B1. The experimental data (where available) are taken from Ref. \cite{petrache2019diversity,chen2019transverse}.}
-    \label{BE2-out-in-ratio-130Ba}
-\end{table}
-
-\subsubsection{General Discussion}
-
-The spectrum of this even-even nucleus has been quantitatively reproduced quite well. Moreover, the obtained values for the tree MOI indicate a triaxial nucleus with main rotation around the third axis. However the approximation should not be considered a `realistic' tool in describing $^{130}$Ba. This is because in another work, Chen et al. \cite{chen2019transverse} (and also followed quickly by Wang et al. \cite{wang2020two}) found through microscopic calculations that the wobbling motion does not occur as per a pure triaxial rotator, but it emerges from the coupling of two quasi-particles $\pi(h_{11/2})^2$ with a triaxial core. In fact, their work shows that $^{130}$Ba is the first nucleus in which a configuration with two quasi-particles generates stable triaxial deformation in an even-even nucleus. Consequently, the implementation adopted here only shows that $^{130}$Ba does behave as a wobbler, but this pure triaxial rotator model \emph{hides} contributions coming from single-particle configuration in the final Hamiltonian. This translates to the fact that Eq. \ref{eq-wobbling-energy-evenA} contains the effect of the two $h_{11/2}$ protons hidden within $\hbar\omega_w$. In fact, looking back at $E_\text{wob}$ from Fig. \ref{wobbling-energies-130ba-expVSth}, the discrepancy of the two lines is a clear indicator that some other terms should be taken into account. The experimental wobbling energy from Fig. \ref{wobbling-energies-130ba-expVSth} does show an increasing trend for large spins ($I\geq 23\hbar$) which is also matched by the theoretical model (the green region marked inside the plot), suggesting a \emph{transition} with respect to the motion of the nucleus. The transition between decreasing/increasing behavior will be discussed on the next section, dedicated to the odd-mass nuclei.
-
-A quenching factor was necessary for the calculation of the transition probabilities in order to compensate for the magnitude of $w_{1,2}$. Nevertheless, this simple and straightforward formalism proves to be a decent tool. The calculations presented here are unique to this research, and they will be considered towards a separate forthcoming publication.
-
-Concluding this section on wobbling motion of even-even nuclei, a final sketch is depicted in Fig. \ref{simple-wobbler-geometrical-schematic}, where the main axes of the triaxial ellipsoid are represented and denoted with $m$, $s$, and $l$-axis (medium, short and long, respectively). The precession motion of the total angular momentum (the a.m. of the core itself) will be around the $m$-axis, having the largest moment of inertia.
-\begin{figure}
-    \centering
-    \includegraphics[scale=0.6]{Chapters/Figures/simple_wobbler-schematic.pdf}
-    \caption{A schematic representation of a \emph{simple wobbler}, where the total angular momentum is doing a precessional motion about the axis with the largest MOI. In this particular sketch, the axis with the largest MOI is denoted by $m$ for intermediate/medium. The long and short axes are labelled $l$ and $s$, respectively. The small-amplitude oscillations of $\mathbf{R}_\mathscr{C}$ are depicted with the (black) encircled sine wave. Notation of the angular momentum is consistent with Table \ref{notation-table-wobbling}. This figure was adapted from Ref. \cite{poenaru2021extensive1} and inspired from Ref. \cite{sensharma2020longitudinal}.}
-    \label{simple-wobbler-geometrical-schematic}
-\end{figure}
-
-\section{Wobbling Motion in Odd-Mass Nuclei}
-\label{chapter-5-odd-wobbling-theory}
-
-The previous discussion regarding the \emph{simple wobbler} was specific to nuclei with even number of nucleons. However, wobbling motion also occurs in odd-mass isotopes. In fact, it turns out that across the chart of nuclides, most of the wobblers are odd-$A$. The reason for this has to do with the triaxial nature of a nucleus. In simple terms, it is `easier' for a (non-axial) deformed system to achieve stability if there is a valence nucleon in a high-$j$ shell which couples to a triaxial core and then drives the entire system to large deformation.
-% (remember that different nucleon orbitals will favor specific $\gamma$ values for reaching stable minima).
-
-As an example, stable triaxial shapes with large deformations $\beta_2\approx0.4$ can emerge for nuclei in the region $N\approx 94$. These are built on the configuration of an odd nucleon (i.e., the $i_{13/2}$ proton) that couples to a triaxial even-even core. This highly aligned nucleon will play a crucial role in generating wobbling excitations for these nuclei, by driving the nuclear shape towards large deformations and stabilizing the TSD structure. Based on this, the description for wobbling motion in an odd-mass system will require the usage of a typical Particle-Rotor-Model. The model Hamiltonian can be expressed as \cite{frauendorf2014transverse}:
-\begin{align}
-    \hat{H}_\text{QTR}=H_\text{coupl}+\sum_{k=1}^{3}A_k(\hat{I}_k-\hat{j}_k)^2\ ,
-    \label{oddA-QTR-general-hamiltonian}
-\end{align}
-where $\hat{I}_k-\hat{j}_k$ are the core's angular momentum components. The term $H_\text{coupl}$ defines the interacting forces between the valence nucleon and the core. This model is known as \emph{Quasi-Particle Triaxial Rotor} (QTR) and it has been developed by Frauendorf et al. in Ref. \cite{frauendorf2014transverse}.
-%(the term quasi-particle adopted here signifies the fact that both a particle or a hole can similarity couple to the core).
-The Hamiltonian given in Eq. \ref{oddA-QTR-general-hamiltonian} is treated by Frauendorf in the so-called \emph{Frozen Alignment} (FA) approximation. The idea behind FA is that the a.m. for the quasi-particle is rigidly aligned along one of the principal axes of the core. An interesting result was obtained from the description of the QTR Hamiltonian within this approximation. Namely, two possible wobbling modes can occur: the \emph{longitudinal wobbling} and \emph{transverse wobbling}. These two scenarios arise from the alignment of the quasi-particle with the axis having the largest MOI. The quasi-particle + core system is regarded as a valence nucleon moving in a quadrupole deformed mean-field generated by the core, so the coupling term $H_\text{coupl}$ can be considered a single-particle term, such as the one presented in Eqs. \ref{quadrupole-deformed-potential-beta}-\ref{single-particle-nilsson-defored-potential} or Eq. \ref{single-particle-energies-hpn}.
-
-In order to avoid repeating certain words, some notations will be adopted throughout the following sections and chapters. Namely, a quasi-particle will be denoted with $\mathcal{Q}$. Additionally, a quasi-particle with \emph{hole} character will be referred to as $\mathcal{Q}_h$ while a quasi-particle with \emph{particle} character will be labelled as $\mathcal{Q}_p$. Finally, the core will be denoted with $\mathscr{C}$. These notations can be seen in Table \ref{notation-table-wobbling}.
-\begin{table}
-    \centering
-    \resizebox{0.8\textwidth}{!}{%
-    \begin{tabular}{|c|c|c|}
-    \hline
-    Object                                                       & Notation                    & Angular momentum             \\ \hline
-    quasi-particle                                                 & $\mathcal{Q}$               & $\mathbf{j}_{\mathcal{Q}}$   \\ \hline
-    q-p with \emph{particle} character & $\mathcal{Q}_p$             & $\mathbf{j}_{\mathcal{Q}_p}$ \\ \hline
-    q-p with \emph{hole} character     & $\mathcal{Q}_h$             & $\mathbf{j}_{\mathcal{Q}_h}$ \\ \hline
-    triaxial even-even core                                        & $\mathscr{C}$               & $\mathbf{R}_\mathscr{C}$    \\ \hline
-    total system                        & $\mathcal{Q}+\mathscr{C}$ & $\mathbf{I}$                             \\ \hline
-    \end{tabular}%
-    }
-    \caption{The adopted notations for describing odd-$A$ nuclei by means of particles and angular momenta. These symbols will be used throughout the rest of the work.}
-    \label{notation-table-wobbling}
-\end{table}
-
-The existence of minima within the energy function signify stable structures in the nucleus (see discussion on PES given in Section \ref{potential-energy-surfaces-section}). In order to minimize the system's energy, a $\mathcal{Q}_p$ ($\mathcal{Q}_h$) will tend to create a specific coupling with $\mathscr{C}$, such that their density distribution overlap becomes maximal (minimal). A maximal (minimal) overlap for $\mathcal{Q}_p+\mathscr{C}$ ($\mathcal{Q}_h+\mathscr{C}$) will minimize the attractive (repulsive) short-range interaction between the two. In terms of the coupling, one can have \cite{frauendorf2014transverse}:
+This chapter will be structured as follows: $1)$ a part that will cover the energy spectrum of $^{163}$Lu (as per Ref. \cite{poenaru2021extensive1}) and $2)$ a part that will be focused on the classical view of the stability and trajectories (according to the investigations from Ref. \cite{poenaru2021extensive2}). More concisely, part $1)$ will cover:
 \begin{itemize}
-    \item the angular momentum for a high-$j$ $\mathcal{Q}_p$ (i.e., $\mathbf{j}_{\mathcal{Q}_p}$) will align itself with the short ($s$-axis) of $\mathscr{C}$ 
-    \item the angular momentum for a high-$j$ $\mathcal{Q}_h$ (i.e., $\mathbf{j}_{\mathcal{Q}_h}$) will make an alignment with the long ($l$-axis) of $\mathscr{C}$
-    \item the angular momentum for any $\mathcal{Q}$ (i.e., $\mathbf{j}_{\mathcal{Q}}$) from a half-filled high-$j$ shell will align itself with the intermediate ($m$-axis) of $\mathscr{C}$
+    \item introduction of \emph{Signature Partner} + \emph{Parity Partner Bands}
+    \item new analytical formula for the wobbling spectrum for $^{163}$Lu
+    \item numerical calculations for the excitation energies
+    \item interpretation of the free parameters in relation to other studies
+\end{itemize}
+while part $2)$ will be focused on:
+\begin{itemize}
+    \item formalism of the energy function employed in the context of Parity Partner Bands
+    \item analytical expressions for CEF in the critical regions
+    \item contour plots are constructed with the obtained CEF(s)
+    \item \emph{nuclear trajectories} (i.e., intersection curves of the energy and angular momentum) 
 \end{itemize}
 
-Going back to the discussion on longitudinal and transverse wobbling modes, it is the $\mathcal{Q}+\mathscr{C}$ coupling that dictates what wobbling mode will arise. More precisely, if the a.m. for $\mathcal{Q}$ aligns itself \emph{along} the $m$-axis, then the motion is considered \emph{longitudinal wobbling} (LW). On the other hand, if the a.m. for $\mathcal{Q}$ aligns itself \emph{perpendicular} to the $m$-axis, then the motion is considered as \emph{transverse wobbling} (TW). One can encounter two different situations that could lead to transverse wobbling. If a $\mathcal{Q}_p$ comes from the bottom of a deformed $j$-shell, it will align its a.m. with the $s$-axis (i.e., $s\perp m$). Moreover, if a $\mathcal{Q}_h$ comes from the top of a deformed $j$-shell, it will tend to align its a.m. with the $l$-axis (i.e., $l\perp m$), which is consistent with the discussion made in Section \ref{chiral-section}. These three scenarios are summarized in three \emph{workflow diagrams} that depict wobbling motion (stable triaxial structures), starting from the quasi-particle position within a $j$-shell and ending with the emerging wobbling behavior. The TW is shown in Figs. \ref{advanced-quasiparticle-coupling-1}-\ref{advanced-quasiparticle-coupling-2}, while the same analogy is presented in Fig. \ref{advanced-quasiparticle-coupling-3} for LW.
-\begin{figure}
-    \centering
-    \input{Chapters/Figures/tikz-diagrams/scheme-1.tikz}
-    \caption{The workflow of a quasi-particle with particle character $\mathcal{Q}_p$ in its coupling with a triaxial rotor $\mathscr{C}$. Each of the five `steps' represents a characteristic involved in the wobbling motion, as described in text. Namely, for $\mathcal{Q}_p$ coming from the bottom of a $j$-shell and coupling with the $s$-axis of the even-even core $\mathscr{C}$ \textbf{(1)} will maximize the density overlap \textbf{(2)}, which will minimize their interaction \textbf{(3)}, minimizing the total energy \textbf{(4)}, and finally stabilizing the triaxial structure \textbf{(5)} to a TW. The long $l$-axis has been ignored within the drawings. In the bottom-most picture, the precessional cone of the total a.m. is shown, oscillating along the $s$-axis.}
-    \label{advanced-quasiparticle-coupling-1}
-\end{figure}
-\begin{figure}
-    \centering
-    \input{Chapters/Figures/tikz-diagrams/scheme-2.tikz}
-    \caption{The workflow of a quasi-particle with hole character $\mathcal{Q}_h$ in its coupling with a triaxial rotor $\mathscr{C}$. Each of the five `steps' represents a characteristic involved in the wobbling motion, as described in text. Namely, for $\mathcal{Q}_h$ coming from the top of a $j$-shell and coupling with the $l$-axis of the even-even core $\mathscr{C}$ \textbf{(1)} will minimize the density overlap \textbf{(2)}, which will minimize their interaction \textbf{(3)}, minimizing the total energy \textbf{(4)}, and finally stabilizing the triaxial structure \textbf{(5)} to a TW. The short $s$-axis has been ignored within the drawings. In the bottom-most picture, the precessional cone of the total a.m. is shown, oscillating along the $l$-axis.}
-    \label{advanced-quasiparticle-coupling-2}
-\end{figure}
-\begin{figure}
-    \centering
-    \input{Chapters/Figures/tikz-diagrams/scheme-3.tikz}
-    \caption{The workflow of a particle $\mathcal{Q}_p$ in its coupling with a triaxial rotor $\mathscr{C}$ within LW mode. Each of the five `steps' represents a characteristic involved in the wobbling motion, as described in text. Namely, for $\mathcal{Q}_p$ coming from the middle of a $j$-shell and coupling with the $m$-axis of the even-even core $\mathscr{C}$ \textbf{(1)} will maximize the density overlap \textbf{(2)}, which will minimize their interaction \textbf{(3)}, minimizing the total energy \textbf{(4)}, and finally stabilizing the triaxial structure \textbf{(5)}. In the bottom-most picture, the precessional cone of the total a.m. is shown, oscillating along the $m$-axis.}
-    \label{advanced-quasiparticle-coupling-3}
-\end{figure}
+Obviously, for both parts some general discussions will be made, emphasizing the main results that emerge from the considerations.
 
-For increasing rotating motion, the Coriolis effect kicks in, trying to align the angular momentum of $\mathcal{Q}$ with the axis of rotation (i.e., the $m$-axis). This creates a change from $(s)\to (m)$-axis for $\mathcal{Q}_p$ and a realignment $(l) \to (m)$-axis for $\mathcal{Q}_h$. This realignment will result in a transition from one wobbling regime to another, meaning that the system will undergo a phase transition. The transition takes place at some `critical' value of $I$. In a recent work made by this team \cite{poenaru2021extensive1,poenaru2021extensive2} such a transition is discussed within a semi-classical approach. However, the FA approximation makes a constraint on the quasi-particle, meaning that its angular momentum is always aligned along one of the principal axes of the triaxial ellipsoid. Consequently, the Coriolis effect is left out when discussing TW or LW behavior.
-% and a change in regime caused by Coriolis effect will make the transverse/longitudinal wobbling motion to become unstable.
+\section{Parity Partner Bands}
+\label{parity-partners-renormalizaion}
 
-Returning to the QTR Hamiltonian from Eq. \ref{oddA-QTR-general-hamiltonian}, if one applies a small-amplitude limit for wobbling vibrations about the three-axis (i.e., a Harmonic Approximation such as the one used for the simple wobbler), and also the quasi-particle $\mathcal{Q}$ is fixed along the three-axis (making it \emph{frozen}), then the Hamiltonian will acquire the following form:
+Recalling the main features that were adopted in the $\mathbf{W_1}$ formalism for the odd$-A$ $^{163}$Lu nucleus, all its wobbling properties were described through the TDVE (Eq. \ref{tdve-approach-w1}), which was used in the bands TSD1-2 and TSD4. The band TSD3 was interpreted as the one-wobbling-phonon band built as an excitation on top of TSD2. On the other hand, TSD1-2 were considered Signature Partner Bands, with the \emph{favored} signature for the former and the \emph{unfavored} signature for the latter. They are created by the odd proton $i_{13/2}$ ($\mathcal{Q}_1$ from Table \ref{lu-163-phonon-numbers}), where the valence proton will couple to an even-even core $\mathscr{C}_1=0^+,2^+,4^+,\dots$ for TSD1 and $\mathscr{C}_2=1^+,3^+,5^+,\dots$ for TSD2. For consistency reasons, the same notations used in $\mathbf{W_1}$ will be kept here. Both $\mathscr{C}_1$ and $\mathscr{C}_2$ are of positive parity (as per the renormalization from Eq. \ref{renormalized-bands-structure-TSD124}).
+
+Although the variational principle was applied to TSD4 as ground-state with zero-wobbling-phonon numbers, a different valence nucleon was coupled with the rotational core. More precisely, the $h_{9/2}$ proton ($\mathcal{Q}_2$ from Table \ref{lu-163-phonon-numbers}) coupled with the core $\mathscr{C}_2$. Obviously, the total nucleus' parity was given in terms of the positive parity of the core states and the negative parity proton. In the wobbling bands of $^{163}$Lu, the parities can be summarized as:
 \begin{align}
-    \hat{H}=A_3(\hat{I}_3-j)^2+A_1\hat{I}_1^2+A_2\hat{I}_2^2\ .
-    \label{hamiltonian-qtr-FA}
+    \pi_\text{TSD1}=&\pi_{\mathscr{C}_1}\pi_{\mathcal{Q}_1}=+\ ,\nonumber\\
+    \pi_\text{TSD2}=&\pi_{\mathscr{C}_2}\pi_{\mathcal{Q}_1}=+\ ,\nonumber\\
+    \pi_\text{TSD3}=&\pi_\text{TSD2}\pi_{\Gamma^\dagger}=+\ ,\nonumber\\
+    \pi_\text{TSD4}=&\pi_{\mathscr{C}_2}\pi_{\mathcal{Q}_2}=-\ ,
+    \label{aw1-parity-list-TSD-bands}
+\end{align}
+where for TSD3, the positive parity is given by the fact that the phonon operator applied to TSD2 does not change the parity, even though the spins are increased by one unit.
+
+Despite the fact that the $\mathbf{W_1}$ model successfully describes the wobbling phenomenon in triaxial nuclei, it still encounters a major inconsistency within its formalism: \emph{two different quasi-particles arise in the coupling mechanism that is typical to a Particle-Rotor-Model}. Although there are other studies where such couplings are required (i.e., Ref. \cite{nandi2020first} also employs the $\mathcal{Q}_{1,2}$ quasi-particles in order to study the wobbling mechanism in $^{183}$Au), achieving a unified coupling scheme would make this model a more `robust' tool for odd-mass triaxial nuclei. It is worth investigating if instead of dealing with two valence nucleons (one for TSD1-3 and one for TSD4) all bands can be created by the same nucleon. This would result in a single fitting procedure for the excited spectrum, which will be shown later. Since the intruder $i_{13/2}$ causes the triaxiality in TSD1-3 and because of the similarities between this group with TSD4, the quasi-particle $\mathcal{Q}_1$ seems to be a proper candidate to the new coupling renormalization. Indeed, adopting only the $i_{13/2}$ proton, the coupling schemes in $^{163}$Lu will be expressed in a compact form as \cite{poenaru2021extensive1}:
+\begin{enumerate}
+    \item Coupling $C_1'$: the $\mathcal{Q}_1$ proton aligns itself with the (positive) core of even spin states $\mathscr{C}_1=0^+,2^+,4^+,\dots$.
+    \item Coupling $C_2'$: the $\mathcal{Q}_1$ proton couples with the (positive) core of odd spin states $\mathscr{C}_2^+=1^+,3^+,5^+,\dots$.
+    \item Coupling $C_3'$: the $\mathcal{Q}_1$ proton couples with the (negative) core of odd spin states $\mathscr{C}_2^-=1^-,3^-,5^-,\dots$.
+\end{enumerate}
+
+Here, the two cores used in $C_2'$ and $C_3'$, respectively, are labelled with the superscripts $+$ and $-$ in order to distinguish them by the opposite parity. Obviously, these new couplings $\left\{C_1',C_2',C_3'\right\}$ preserve the rules outlined in Eq. \ref{aw1-parity-list-TSD-bands}. It is conspicuous that $C_1'$ corresponds to TSD1, $C_2'$ to the band TSD2, and lastly $C_3'$ defines the band TSD4. No changes are applied to TSD3, which is the one-wobbling-phonon band. Hereafter, this new formalism will be referred to as $\mathbf{W_2}$, to be differentiated from $\mathbf{W_1}$.
+
+Even though TSD4 is now considered a zero-phonon band generated by the quasi-particle $\mathcal{Q}_1$, a relationship between with its other neighboring bands must be established. In the $\mathbf{W_1}$ approach it was proven \cite{raduta2020approach} that signature (recall Eq. \ref{signature-quantum-number}) is a good quantum number and that the wave-function admits states with both positive and negative signatures. This lead to TSD1 and TSD2 being signature partners, since their similar properties and spin differences pointed towards this consideration. Looking at the two sequences $\mathscr{C}_2^+$ and $\mathscr{C}_2^-$ that were assigned as triaxial even-even cores to TSD2 and TSD4, it could suggest that they are \emph{Parity Partner Bands} \cite{poenaru2021parity}. This idea assumes that two rotational structures can co-exist near the same deformation region. Additionally, the two partners have $\Delta I=2$ between states belonging to the same band and $\Delta = 1$ for adjacent states, with energy states following a $\propto I(I+1)$ trend and opposite parities.
+
+\subsection{Parity of the wave-function}
+
+Since the renormalization of the band TSD4 is based on the idea that it is the parity partner of TSD2, a discussion about the parity quantum number within this semi-classical picture should be in order. Namely, one has to check how the trial function employed in the VP (Eq. \ref{tdve-approach-w1}) behaves under a parity transformation. The parity transformation in quantum mechanics (also called \emph{space reflection}) is the operation through which the coordinate axes change sign. An example of such a general transformation can be given in terms of the Cartesian system:
+\begin{align}
+    (x,y,z)\stackrel{\hat{P}}{\longrightarrow}(-x,-y,-z)
 \end{align}
 
-The subscript `QTR' from Eq. \ref{oddA-QTR-general-hamiltonian} will be dismissed hereafter. By using such a constraint in the QTR Hamiltonian, the angular momentum for $\mathcal{Q}$ becomes just a number (i.e., $\mathbf{j}_{\mathcal{Q}}\to j$).
-%Unless it is specifically mentioned, when $j$ appears in equations, it represents the angular momentum value of the fixed quasi-particle, and not the vector $\mathbf{j}_\mathcal{Q}$.
-Regarding the angular momentum components, these can be re-written as:
+The wave-function can at most change a sign under the parity transformation, meaning that one can have:
 \begin{align}
-    \hat{I}_3=\sqrt{\mathscr{I}^2-\hat{I}_1^2-\hat{I}_1^2}\approx\mathscr{I}-\frac{1}{2}\left(\frac{\hat{I}_1^2}{\mathscr{I}}+\frac{\hat{I}_2^2}{\mathscr{I}}\right)\ ,
+    \hat{P}\Psi(\mathbf{r})=\Psi(-\mathbf{r})=\Psi(\mathbf{r})\ ,
 \end{align}
-where $\mathscr{I}$ are the eigenvalues of the total angular momentum, and they are defined as $\mathscr{I}=\sqrt{I(I+1)}$.
-%Note that this is in fact a second-order expansion in terms of the square-root function.
-If the factor $A_3$ is also expressed in terms of $j$ and $\mathscr{I}$ through the introduction of a so-called \emph{reduced} inertia parameter:
+for the \emph{positive parity states} and:
 \begin{align}
-    \mathscr{A}_3=A_3\left(1-\frac{j}{\mathscr{I}}\right)\ ,
-    \label{reduced-inertia-parameter-A3}
+    \hat{P}\Psi(\mathbf{r})=\Psi(-\mathbf{r})=-\Psi(\mathbf{r})\ ,
 \end{align}
-then the QTR Hamiltonian acquires the following form:
+for the \emph{negative parity states}. In the case of the core, the parity transformation (parity operator) is defined as the product between the complex conjugation operator and a rotation of angle $\pi$ around the quantization axis. Moreover, the total parity of an odd-mass nucleus can be defined as the product between the parity operator of the core and the single-particle one:
 \begin{align}
-    \hat{H}={\color{black}A_3(\mathscr{I}-j)^2}+{\color{black}(A_1-\mathscr{A}_3)\hat{I}_1^2+(A_2-\mathscr{A}_3)\hat{I}_2^2}\ .
-    \label{HA-QTR-Hamiltonian}
+    \hat{P}_T=\hat{P}_\text{core}\otimes\hat{P}_\text{sp}\ .
+    \label{parity-operator-aw2}
 \end{align}
 
-The reduced inertia parameter $\mathscr{A}_3$ is graphically represented in Fig. \ref{reduced-inertia-A3-figs}, where the evolution w.r.t. spin is studied for different values of $A_3$ and $j$. Keep in mind that the value of the spin $I$ defines the quantity $\mathscr{I}$ which enters in Eq. \ref{reduced-inertia-parameter-A3}.
+The trial function was defined in terms of the set of variables $(z,s)$  through Eq. \ref{z-s-variables}, which were further expressed using $(r,\varphi;f,\psi)$ according to the transformations Eq. \ref{changed-rho-sigma-variables}. When acting with the parity operator defined in Eq. \ref{parity-operator-aw2} on the this trial function, the change of coordinates follows the rule:
+\begin{align}
+    % \hat{P}_T\Psi_{IM;j}(r,\varphi;f,\psi)=\Psi_{IM;j}(r,\varphi+\pi;f,\psi+\pi)\stackrel{not.}{=}\bar{\Psi}\ ,
+    \hat{P}_T\Psi_{IM;j}(r,\varphi;f,\psi)=\Psi_{IM;j}(r,\varphi+\pi;f,\psi+\pi)\equiv\bar{\Psi}\ ,
+\end{align}
+and the invariance of the classical energy function to rotations with $\pi$ around the quantization axis gives:
+\begin{align}
+    \mathcal{H}(r,\varphi;f,\psi)=\mathcal{H}(r,\varphi+\pi;f,\psi+\pi)\ .
+\end{align}
+
+The remarking feature of the last two equations is that the wave-function describing the triaxial system and its image through the action of $\hat{P}_T$ form a set of two linearly dependent functions, which differ only by a multiplicative constant $p$, where $|p|=1$. Consequently, $p$ can either be $+1$ or $-1$ resulting in the following relationship:
+\begin{align}
+    \bar{\Psi}=&p\Psi\nonumber\ ,\\
+    \bar{\Psi}(r,\varphi;f,\psi)=&\pm\Psi(r,\varphi;f,\psi)\ .
+\end{align}
+
+This important result shows that the triaxial rotor admits eigenfunctions with positive and negative parity, so the trial function describes wobbling bands with both parities. For the case of $\Psi(r,\varphi;f,\psi)$ and the Hamiltonian describing $^{163}$Lu, \emph{TSD4 band can emerge from the coupling of the same odd proton as the other bands TSD1, TSD2, and TSD3}. Concluding this discussion, it was shown that parity is a good quantum number and the bands TSD2 and TSD4 can, indeed, be considered parity partners, i.e., they are generated by the coupling of a triaxial even-even core with an identical odd quasi-particle. Another interesting characteristic coming out from this work is related to the energies in both bands, where the states of TSD2 lie lower than those of its negative partner. New experimental data on wobbling nuclei comprising both positive and negative parity bands could encourage pursuing a study on the relative energy spacings between the partners and see if a general pattern can be inferred.
+
+\subsection{Redefined Energy Spectrum}
+
+The Hamiltonian of the triaxial system remains unchanged in $\mathbf{W_2}$ and the Variational Principle from Eq. \ref{tdve-approach-w1} keeps the same structure. However, instead of obtaining an energy spectrum  for the TSD bands as the one defined in Eqs. \ref{tsd-bands-general-spectrum}, \ref{lu163-absolute-energies-tsd1234}, a different class of equations has to be used. From the phonon term $\mathcal{F}_{n_{w_1}n_{w_2}}^I$ (Eq. \ref{phononic-term-tsd-energies}) and the minimal energy $\mathcal{H}_\text{min}^I$ (Eq. \ref{minimal-energy-term-hmin}), the modified spectrum of $^{163}$Lu is given as \cite{poenaru2021parity}:
+\begin{align}
+    E_{I,0,0}^\text{TSD1}=&\epsilon_{13/2}+\mathcal{H}_\text{min}^I+\mathcal{F}_{00}^I\nonumber\ ,\ I^\pi=13/2^+,17/2^+,21/2^+\dots\ ,\\
+    E_{I,0,0}^\text{TSD2}=&{\color{red}\epsilon_{13/2}^1}+\mathcal{H}_\text{min}^I+\mathcal{F}_{00}^I\nonumber\ ,\ I^\pi=27/2^+,31/2^+,35/2^+\dots\ ,\\
+    E_{I,1,0}^\text{TSD3}=&\epsilon_{13/2}+\mathcal{H}_\text{min}^{I-1}+\mathcal{F}_{10}^{I-1}\nonumber\ ,\ I^\pi=33/2^+,37/2^+,41/2^+\dots\ ,\\
+    E_{I,0,0}^\text{TSD4}=&{\color{blue}\epsilon_{13/2}^2}+\mathcal{H}_\text{min}^I+\mathcal{F}_{00}^I\ ,\ I^\pi=47/2^-,51/2^-,55/2^-\dots\ ,
+    \label{tsd-energies-lu163-parity-partners}
+\end{align}
+where one kept a consistent notation with the previous approach. The analytical terms from Eq. \ref{tsd-energies-lu163-parity-partners} contain different single-particle energies, which is in contrast to $\mathbf{W_1}$. This renormalization implies a change in the particle + core interaction, in the sense that the single-particle mean-field of the unfavored partner states (TSD2) and negative partner states (TSD4) are affected by the alternating signature between TSD1-2 (signified by the red color in Eq. \ref{tsd-energies-lu163-parity-partners}) and parity change $\pi=+1\to \pi=-1$ for TSD4 (signified by blue color in Eq. \ref{tsd-energies-lu163-parity-partners}) \cite{poenaru2021parity,poenaru2021extensive1,poenaru2021extensive2}. Actually, the two corrections come at the cost of the \emph{unified} fitting procedure that is now applied to $^{163}$Lu, as compared to $\mathbf{W_1}$. Looking at the spectrum of Eq. \ref{tsd-energies-lu163-parity-partners}, it is obvious that the same fitting parameters from Eq. \ref{fitting-parameters-p-fit} will be used here.
+
+\section{Numerical Results}
+\label{aw2-numerical-results}
+
+Proceeding with the workflow illustrated in Fig. \ref{fitting-workflow-fig}, a new numerical implementation should be performed. The results and discussions are presented in the current section. Because $^{163}$Lu is the only isotope to have positive and negative parity bands in the same collective structure, the model is tested on this nucleus.
+
+Firstly, the normalization adopted in $\mathbf{W_2}$ is sketched in Table \ref{lu163-table-info}, and with the information from this table, one can proceed with the minimization of the $\chi^2$-function. The validity of the theory will be checked by calculating the excitation energies as per Eq. \ref{general-excitation-energy-fitting-model} and the wobbling energies defined according to Eq. \ref{eq-wobbling-energy-definition-oddA}.
+\begin{table}
+    \centering
+    \begin{tabular}{llllll}
+    \hline
+    Band & $n_s$ & $\mathbf{j}_\mathcal{Q}$ & $\mathbf{R}_\mathscr{C}$ - Sequence & $\mathbf{I}$ - Sequence & Coupling  \\
+    \hline
+    \hline
+    TSD1 & $21$ & $\mathcal{Q}_1$ & $\mathscr{C}_1=0^+,2^+,4^+,\dots$   & $13/2^+,17/2^+,21/2^+,\dots$ & $C'_1$        \\
+    TSD2 & $17$ & $\mathcal{Q}_1$ & $\mathscr{C}_2^+=1^+,3^+,5^+,\dots$ & $27/2^+,31/2^+,35/2^+,\dots$ & $C'_2$        \\
+    TSD3 & $14$ & $\mathcal{Q}_1$ & 1-phonon exc.                       & $33/2^+,37/2^+,41/2^+,\dots$ & \\
+    TSD4 & $11$ & $\mathcal{Q}_1$ & $\mathscr{C}_2^-=1^-,3^-,5^-,\dots$ & $47/2^-,51/2^-,55/2^-,\dots$ & $C'_3$        \\
+    \hline
+    \end{tabular}
+    \caption{The number of energy states $n_s$ within each wobbling band of $^{163}$Lu, the valence nucleon that is $j^\pi=13/2^+$, the core's a.m. $\mathbf{R}_\mathscr{C}$, the nucleus' a.m. $\mathbf{I}$, and the corresponding coupling scheme as per Section \ref{parity-partners-renormalizaion}.}
+    \label{lu163-table-info}
+\end{table}
+
+\subsection{Energy spectrum}
+
+In what follows, the spectrum of excitation energies will be analyzed. Table \ref{lu163-parameters-parity-fitting} shows the results of the fitting method in the $\mathbf{W_2}$ formalism, where the three moments of inertia, the single particle potential strength, and the triaxiality parameter are provided.
+\begin{table}
+    \centering
+    \begin{tabular}{lllll}
+        \hline
+        $\mathcal{I}_1$ [$\hbar^2$/\text{MeV}] & $\mathcal{I}_2$ [$\hbar^2$/\text{MeV}]& $\mathcal{I}_3$ [$\hbar^2$/\text{MeV}] & $\gamma$ [deg. ] & $V$ [\text{MeV}] \\
+        \hline
+        \hline
+        72              & 15              & 7               & 22       & 2.1\\
+        \hline
+    \end{tabular}
+    \caption{The parameter set $\mathcal{P}$ of Eq. \ref{fitting-parameters-p-fit} obtained by minimizing the $\chi^2$-function for $^{163}$Lu in the renormalization of $\mathbf{W_2}$. A unique fitting was applied for all four TSD bands of the isotope.}
+    \label{lu163-parameters-parity-fitting}
+\end{table}
+
+The root mean square error for the excitation energy is $E_\text{rms}\approx 79\ \text{keV}$, while the formalism $\mathbf{W_1}$ gave $E_\text{rms}\approx 240$ keV \cite{raduta2020towards}. In fact, this is the first semi-classical study of $^{163}$Lu within the literature achieving an agreement of under $100\ \text{keV}$ with the experimental measurements for the wobbling spectrum \cite{poenaru2021extensive1}. Note that there is a three-fold improvement on the theoretical calculations, as opposed to $\mathbf{W_1}$.
+
+In reference to the excitation energies, when the band-head $E_{13/2}^\text{TSD1}$ is subtracted, the single-particle mean-field corrections present in Eq. \ref{tsd-energies-lu163-parity-partners} become $\epsilon_{13/2}^1-\epsilon_{13/2}$ and $\epsilon_{13/2}^2-\epsilon_{13/2}$ for TSD2 and TSD4, respectively. These corrections are slightly varied such that a consistency with the measured data is maintained. Throughout the calculations, the two quantities are $\epsilon_{13/2}^1-\epsilon_{13/2}=0.3\ \text{MeV}$ and $\epsilon_{13/2}^2-\epsilon_{13/2}=0.6\ \text{MeV}$. Evaluating the signature splitting between the first two states and the terminus states in TSD2 (i.e., $E^\text{TSD2}_{27/2}-E^\text{TSD2}_{25/2}$ and $E^\text{TSD2}_{91/2}-E^\text{TSD2}_{89/2}$) with the parameter set $\mathcal{P}_\text{fit}$, the values $0.492\ \text{MeV}$ and $0.936\ \text{MeV}$ are obtained, which agree with the estimates made by Jensen et al. \cite{jensen2002wobbling}.
+
+The excitation energies are graphically represented in Figs. \ref{results-parity-partners-163lu-1} - \ref{results-parity-partners-163lu-2}, where only the first and last spin values are labelled for each band. Remarkable is the very small differences across the states belonging to TSD1-3, while for TSD4 there is a small downward shift in the region $47/2\leq I\leq 55/2$ and an upward shift when $I\geq 75/2$. A possible reason for the over-estimation of high-spin states might be the \emph{ad-hoc} mean-field correction that was adopted for TSD4 (recall Eq. \ref{tsd-energies-lu163-parity-partners}). On the other hand, the classical energy function provided by the VP seems to have a steep minimum, causing the system to be more cranked near $I=47/2$.
 \begin{figure}
     \centering
-    \includegraphics[width=0.49\textwidth]{Chapters/Figures/reducedInertia_fig1.pdf}
-    \includegraphics[width=0.49\textwidth]{Chapters/Figures/reducedInertia_fig2.pdf}
-    \caption{The reduced inertia parameter defined in Eq. \ref{reduced-inertia-parameter-A3} as a function of spin. \textbf{Left:} The angular momentum of the quasi-particle is fixed (i.e., $j=13/2$) and different values for $A_3$ are attributed. The vertical grid-line corresponds to the spin value at which $\mathscr{A}_3$ becomes positive. The horizontal dashed lines correspond to the numerical values of $A_3$ indicated in the legend. \textbf{Right:} The value of $A_3$ is fixed and different values for $j$ are considered.
-    %Note that $I$ is used to define $\mathscr{I}$, which appears in the expression of $\mathscr{A}_3$.}
-    }
-    \label{reduced-inertia-A3-figs}
-\end{figure}
-
-The Hamiltonian for an odd-$A$ triaxial nucleus has an expression quite similar to the simple wobbler (Eq. \ref{general-rotor-ham-evenA}), except that the coefficients of the first and second components $\hat{I}_{1,2}$ contain a contribution coming from the quasi-particle itself (through the reduced inertia parameter $\mathscr{A}_3$ given in Eq. \ref{reduced-inertia-parameter-A3}). It is important to mention the fact that one can typically apply HA method for the QTR Hamiltonian only when $\hat{I}_1^2+\hat{I}_2^2<<I(I+1)$ \cite{bohr1998nuclear,frauendorf2014transverse}. As it was the case for the simple wobbler (recall Eq. \ref{wobbling-frequency-even-A}), a wobbling frequency can be deduced from Eq. \ref{HA-QTR-Hamiltonian} by following a similar procedure. Thus, through an analogy with Eq. \ref{wobbling-frequency-even-A}, the QTR frequency is:
-\begin{align}
-    \hbar\omega_w=2\mathscr{I}\sqrt{\left(A_1-\mathscr{A}_3\right)\left(A_2-\mathscr{A}_3\right)}\ ,
-    \label{wobbling-frequency-odd-A-inertiaParams}
-\end{align}
-or in terms of the three moments of inertia:
-\begin{align}
-    \hbar\omega_w=\frac{j}{\mathcal{I}_3}\sqrt{\left[1+\frac{\mathscr{I}}{j}\left(\frac{\mathcal{I}_3}{\mathcal{I}_1}-1\right)\right]\left[1+\frac{\mathscr{I}}{j}\left(\frac{\mathcal{I}_3}{\mathcal{I}_2}-1\right)\right]}\ .
-    \label{wobbling-frequency-odd-A-MOI}
-\end{align}
-For a longitudinal wobbler, the wobbling frequency requires the condition:
-\begin{align}
-    \mathcal{I}_3>(\mathcal{I}_1,\mathcal{I}_1)\ \equiv\ A_3<(A_1,A_2)\ ,
-\end{align}
-meaning that the total system rotates around the $3$-axis (intermediate axis with largest MOI as $\mathcal{I}_3=\mathcal{I}_m$). For LW, both $(\mathcal{I}_3/\mathcal{I}_1-1)$ and $(\mathcal{I}_3/\mathcal{I}_2-1)$ are positive, meaning that the wobbling frequency increases with $I$.
-For the transverse wobbling, the MOI condition requires:
-\begin{align}
-    \mathcal{I}_3>\mathcal{I}_1\ \text{and}\ \mathcal{I}_3<\mathcal{I}_2\ ,
-\end{align}
-or, equivalently:
-\begin{align}
-    A_3<A_1\ \text{and}\ A_3>A_2\ .
-\end{align}
-The wobbling frequency is thus an increasing function of $\mathscr{I}$ for the longitudinal regime, while for the transverse behavior it increases until it reaches a maximum value $\hbar\omega_w^\text{max}$ and then it starts to \emph{decrease}. It eventually reaches zero at a \emph{critical spin value} $\mathscr{I}_\text{crit}=j\cdot\mathcal{I}_2/(\mathcal{I}_2-\mathcal{I}_3)$. In Fig. \ref{wobbling-freq-oddA}, the behavior of $\hbar\omega_w$ with respect to spin is plotted for a typical longitudinal wobbler (left inset) and a transverse wobbler (right inset). The maximum value for the frequency in TW regime is achieved at:
-\begin{align}
-    \mathscr{I}=\frac{j}{2}\left(\frac{\mathcal{I}_1}{\mathcal{I}_1-\mathcal{I}_3}+\frac{\mathcal{I}_2}{\mathcal{I}_2-\mathcal{I}_3}\right)\ .
-    \label{wobb-freq-oddA-maxval}
-\end{align}
-\begin{figure}
-    \centering
-    \includegraphics[width=0.49\textwidth]{Chapters/Figures/wobb_freq_oddA-LW.pdf}
-    \includegraphics[width=0.49\textwidth]{Chapters/Figures/wobb_freq_oddA-TW.pdf}
-    \caption{The wobbling frequency for an odd-$A$ nucleus with $j=13/2$. \textbf{Left:} The \emph{longitudinal wobbler} case with two sets of MOI, where only $\mathcal{I}_2$ changes. \textbf{Right:} The \emph{transverse wobbler} case with two sets of MOI, where only $\mathcal{I}_2$ is different. Note the vertical grid-lines in the right inset that signify the critical angular momentum where the wobbling frequency reaches zero. The maximum value reached in the TW regime is given by Eq. \ref{wobb-freq-oddA-maxval}. The unit for MOI is $\hbar^2\text{MeV}^{-1}$.}
-    \label{wobbling-freq-oddA}
-\end{figure}
-
-In the same manner as for the simple wobbler, geometrical representations for the coupling schemes in the longitudinal and transverse wobbling motion are implemented and shown in Fig. \ref{wobbling-oddA-geometry}.
-%Besides these two wobbling regimes that emerge from FA approximation, two more wobbling modes can exist. Namely, for the \emph{yrast state} (that is the lowest energy state for a given value of angular momentum $I$, which can be regarded as a ground-state) and the \emph{excited state} of the odd particle itself. When the a.m. of the odd nucleon $\mathbf{j}_\mathcal{Q}$ starts to execute small precession around one of the principal axes of the triaxial core, then those excited states are viewed as \emph{signature partners} (since the de-alignment of the a.m. will cause the apparition of the favored and un-favored sequences, as described in Section \ref{section-ral-signature}). The yrast wobbling is simply regarded as a complete alignment of the odd-nucleon and core angular momenta with the $m$-axis, which is similar to the LW case except that there is no precessional motion for the angular momenta. These two particular cases are graphically represented in Fig. \ref{wobbling-geometry-YRAST-SPB}.
-\begin{figure}
-    \centering
-    \includegraphics[width=0.49\textwidth]{Chapters/Figures/longitudinal_wobbler-schematic.pdf}
-    \includegraphics[width=0.49\textwidth]{Chapters/Figures/transverse_wobbler-schematic.pdf}
-    \caption{Geometrical representation with the alignment scheme for a longitudinal wobbler and a transverse wobbler. The a.m. vectors for the quasi-particle, the core, and the total system are represented by $\mathbf{j}_\mathcal{Q}$, $\mathbf{R}_\mathscr{C}$, and $\mathbf{I}$, respectively. Note that the precessional motion with oscillator-like behavior of $\mathbf{I}$ is illustrated with the encircled sine wave (black color). The resulting motion of the total a.m. will consist in a precessional cone that is properly depicted in Figs. \ref{advanced-quasiparticle-coupling-1}-\ref{advanced-quasiparticle-coupling-3}.}
-    \label{wobbling-oddA-geometry}
-\end{figure}
-% \begin{figure}
-%     \centering
-%     \includegraphics[width=0.49\textwidth]{Chapters/Figures/yrast_wobbler-schematic.pdf}
-%     \includegraphics[width=0.49\textwidth]{Chapters/Figures/signaturePartner_wobbler-schematic.pdf}
-%     \caption{Geometrical representation with the alignment scheme for an yrast wobbling state and signature partner wobbling band. The the a.m. vectors for the quasi-particle, the core, and the total system are represented by $\mathbf{j}_\mathcal{Q}$, $\mathbf{R}_\mathscr{C}$, and $\mathbf{I}$, respectively. Note that the precessional motion with oscillator-like behavior of $\mathbf{I}$ is illustrated with the encircled sine wave (black color). For the signature partner wobbling, the core's a.m. is aligned with one of the principal axes. The resulting motion of the total a.m. will consist in a precessional cone that is properly depicted in Figs. \ref{advanced-quasiparticle-coupling-1}-\ref{advanced-quasiparticle-coupling-3}.}
-%     \label{wobbling-geometry-YRAST-SPB}
-% \end{figure}
-
-In this section, the collective motion specific to triaxial structures was treated, starting from an initial rotor Hamiltonian amended with a single-particle term. It was shown that based on the $\mathcal{Q}$+$\mathscr{C}$ coupling scheme, two scenarios might emerge (i.e., Fig. \ref{wobbling-oddA-geometry}). Some workflow diagrams were created for transverse and longitudinal wobbling in Figs. \ref{advanced-quasiparticle-coupling-1} - \ref{advanced-quasiparticle-coupling-3}, which explain how these two modes appear. Furthermore, the LW regime is characterized by an increase in wobbling energy with spin, while the opposite is true for TW regime. By keeping the quasi-particle's a.m. fixed along a principal axes, the expression for $\hat{H}$ was obtained via Eq. \ref{hamiltonian-qtr-FA}, which is quite close to the case of even-even nuclei (see Eq. \ref{general-rotor-ham-evenA}). The wobbling frequencies were also expressed in Eqs. \ref{wobbling-frequency-odd-A-inertiaParams} - \ref{wobbling-frequency-odd-A-MOI} and their behavior is analyzed with respect to spin in Fig. \ref{wobbling-freq-oddA}. Lastly, the reduced inertia factor $\mathscr{A}_3$ introduced in Eq. \ref{reduced-inertia-parameter-A3} is studied w.r.t. the total spin $I$, and its evolution was shown in Fig. \ref{reduced-inertia-A3-figs}.
-
-\section{Wobbling Nuclei - A Complete Catalog}
-
-In this section, an inventory of all the known wobbling nuclei will be made. It is worth mentioning that there are ongoing debates regarding the experimental measurements and their `validity' for some of these isotopes, implying that wobbling phenomenon might not be present in some of them. Any existing conjecture will be mentioned where needed. For each wobbler, the band structure, the deformation parameters, and other important observations are mentioned. Knowing the deformation parameters, one can also categorize the isotopes within regions of \emph{normal deformation} (ND structures) or \emph{strong deformation} (SD structure).
-
-Although WM was predicted theoretically more than 50 years ago by Bohr and Mottelson \cite{bohr1998nuclear}, the first experimental observation of this collective mode has been confirmed in 2001. Moreover, the predictions were initially made for even-even nuclei, but the first discovery was for the odd-$A$ $^{163}$Lu nucleus \cite{odegaard2001evidence}. The advance in technological equipment that allows high-resolution and precise measurements has been persistent over the last two decades, resulting in a large number of investigations for the nuclear matter at very high angular momentum ($I\approx 50\hbar$ or even $I\approx 80\hbar$). In the following subsections, the known wobblers are categorized based on the atomic mass $A$, whereas a final diagram is mapped at the end of the section. The mapping procedure is a useful and unique feature in this work, since it provides an easy and reliable source for retrieving information related to deformed nuclei.
-
-\subsection{Wobbling around A=100}
-
-In this region, recent measurements show that $^\mathbf{105}$\textbf{Pd} \cite{timar2019experimental} has two rotational bands as wobbling excitations. The odd quasi-particle is a neutron from the $h_{11/2}$ orbital that is coupling to the even-even core. The $\mathcal{Q}+\mathscr{C}$ coupling in which the valence nucleon is a neutron represents a rare example across the nuclide chart. The even-even nucleus $^\mathbf{112}$\textbf{Ru} \cite{hamilton2010super} is also considered to have three wobbling bands (one yrast and two excited).
-%, indicating that from the three isotopes $^{108,110,112}$Ru, this one is the only one exhibiting a stable triaxial shape. Moreover, 
-%This isotope represents one of the few examples of collective excitations emerging from even-even nuclei. 
-Additionally, some measurements on $^\mathbf{114}$\textbf{Pd} \cite{luo2013triaxial} (an isotone of the previous nucleus) show that the two bands with different signature ($\alpha=0$ and $\alpha=1$) have similar behavior with the ones from $^{112}$Ru (the excitation energies as function of angular momentum vary in the same fashion). However, the determination of mixing ratios and transition probabilities between levels was not possible, so the interpretation of these structures as wobbling bands cannot be fully ascertained \cite{lv2022experimental}. The behavior of the wobbling energy $E_\text{wob}$ as defined in Eq. \ref{eq-wobbling-energy-definition-oddA} is calculated for all the mentioned nuclei, using the available experimental data, and the results are shown in Fig. \ref{wobblers-exp-set1}.
-\begin{figure}
-    \centering
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/105Pd.pdf}
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/112Ru.pdf}
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/114Pd.pdf}
-    \caption{The experimental wobbling energy, defined through the Eq. \ref{eq-wobbling-energy-definition-oddA}, for nuclei within the $A\approx 100$ mass region.}
-    \label{wobblers-exp-set1}
-\end{figure}
-
-\subsection{Wobbling around A=130}
-
-Chakraborty et al. \cite{chakraborty2020multiphonon} identified some wobbling bands in the odd-$A$ $^\mathbf{127}$\textbf{Xe} isotope. The collective states are built on the odd $\nu h_{11/2}$ nucleon configuration, leading to the apparition of four bands, two decoupled bands (i.e., favored $\alpha=-1/2$ and un-favored $\alpha=1/2$) with zero-phonon number, and two excited ($n_w=1,2$) wobbling bands. The wobbling energies (as defined in Eq. \ref{eq-wobbling-energy-definition-oddA}) are increasing with angular momentum, indicating that $^{127}$Xe behaves as a longitudinal wobbler. 
-
-Another presumably longitudinal wobbler is the nucleus $^\mathbf{133}$\textbf{La} \cite{biswas2019longitudinal} with two wobbling bands $n_w=0$ and $n_w=1$ that exhibit enhanced $E2$ transition probabilities and mixing ratios (which are considered hallmarks of wobbling motion). The neighboring nucleus $^\mathbf{135}$\textbf{Pr} was also investigated, and three wobbling bands of TW character are reported (the yrast and $n_w=1$ bands in \cite{matta2017transverse}, and $n_w=2$ in \cite{sensharma2019two}). 
-%The remarking feature is that the wobbling energies for this isotope are decreasing functions of spin, meaning that the TW regime prevails. 
-The transition from LW to TW between $^{133}$La and its close neighbor $^{135}$Pr is a remarking feature in this mass region. An insight into this change in motion will be discussed at the end of the section. 
-
-Although there is inconclusive evidence regarding transition probabilities and mixing ratios \cite{ma1990competing,kaur2014high}, the yrast band from $^\mathbf{131}$\textbf{Ba}, which is built on the $h_{11/2}$ neutron hole (i.e., $\mathcal{Q}_h$), has an excited wobbling band with negative parity spins ranging from $13/2$ to $29/2$ \cite{petrache_2018}. If precise measurements for the transition probabilities $B(E2)$ will show enhanced values, then indication of transverse wobbling will be experimentally ascertained.
-
-The isotope $^\mathbf{133}$\textbf{Ba} is another odd-mass nucleus in which three wobbling bands have been identified by Devi et al. \cite{devi2021observation}. Besides the excited $n_w=1$ and $n_w=2$, the yrast $n_w=0$ band has a signature partner band. All four bands are of negative parity. Devi et al. found out that the wobbling energies and the alignment behave quite similarly to $^{135}$Pr, concluding that this nucleus is a transverse wobbler. The remarking characteristic of this nucleus is that a hole-like particle $\mathcal{Q}_h$ couples to the core $\mathscr{C}$. Indeed, the odd $h_{11/2}$ neutron aligns itself with the long axis of the core, causing the TW regime to appear.
-
-Within the last couple of years, a set of measurements brought light upon several even-even wobblers, although more precise measurements are required for ascribing triaxiality to this collective phenomenon. An example is the isotope that was studied in Section \ref{ba-130-numerical-calculations}, namely $^\mathbf{130}$\textbf{Ba} \cite{petrache2019diversity,chen2019transverse,wang2020two}. This nucleus exhibits wobbling via the coupling of two protons $\pi (h_{11/2})^2$ with the core $\mathscr{C}$. Such a coupling corresponds to a two-quasi-particle configuration in the nucleus, denoted here by 2-$\mathcal{Q}_h$ for holes and 2-$\mathcal{Q}_p$ for particles. Since the measurements of the transition probabilities show enhanced values and the wobbling energies decrease with spin, the isotope is regarded as a clear transverse wobbler. 
-
-Petrache et al. also discovered wobbling motion within some nuclei that were heavily studied in terms of chirality (i.e., the Nd and Ce isotopes). In their research, it was found that $^\mathbf{134}$\textbf{Ce} has two sets of wobbling bands \cite{petrache2016transverse}. The first set is based on a 2-$\mathcal{Q}_h$ configuration with two neutron holes $\nu (h_{11/2})^2$, which align with the long axis. Here the exponent signifies the number of holes relative to the notation $\mathcal{Q}_h$, and it is equivalent to the alternative notation $\nu(h_{11/2})^{-2}$ used in \cite{petrache2012tilted,lv2018evolution,chen2021microscopic}. The $n_w=0$ and $n_w=1$ bands possess negative triaxiality, meaning that is $\gamma<0$. Similarly, two more bands emerge from the coupling of the same 2-$\mathcal{Q}_h$ with the core, but their a.m. is aligned along the short axis of $\mathscr{C}$, and the triaxiality parameter $\gamma$ becomes positive. Both sets behave as transverse wobblers, but the latter set has a higher quadrupole deformation. The isotope $\mathbf{^{136}}$\textbf{Nd} has been confirmed as a transverse wobbler in the same work. Remarking the fact that this nucleus also has two sets of wobbling bands. The first set (zero- and one-phonon wobbling bands) is built on the same neutron holes, where $\mathbf{j}_{\mathcal{Q}_h}$ aligns with the long axis, giving the entire system a negative triaxiality and low quadrupole deformation. The second set has three bands (one yrast and two excited) that are built on two 2 protons $\pi(h_{11/2})^2$, which align their a.m. with the short axis, driving the system to positive $\gamma$ and a larger quadrupole deformation.
-
-Lastly, the isotope $^\mathbf{138}$\textbf{Nd} was investigated by Petrache et al. \cite{petrache2012tilted}, and some remarks about a possible wobbling behavior in the measured spectra were made. There is one excited band (labelled $L7$) that decays to the yrast band ($L6$), however, the configuration of the wobbling band is different than the yrast partner. Namely, the $L7$ band is built on a 2-$\mathcal{Q}_h$ neutron pair $\nu (h_{11/2})^2$, which aligns with the long axis (due to the hole character). % For the yrast band, the configuration was determined to be more complex: a $g_{9/2}$ proton coupled to a $\nu (h_{11/2})^2$ neutron pair and one more additional neutron in the $g_{7/2}$ orbital, making thus an `overall' $2\mathcal{Q}_p\otimes2\mathcal{Q}_h$ configuration.
-The behavior of the wobbling energy $E_\text{wob}$ as defined in Eq. \ref{eq-wobbling-energy-definition-oddA} is calculated for all the mentioned nuclei, and the results are shown in Fig. \ref{wobblers-exp-set2}. Exception is the isotope $^{138}$Nd, where a plot showing both the absolute energies is used instead. For $^{135}$Pr, the transition from a TW regime to LW which was identified in \cite{sensharma2019two} is marked by two colored regions (green for TW and red for LW).
-\begin{figure}
-    \centering
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/127Xe.pdf}
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/130Ba.pdf}
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/131Ba.pdf}
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/133Ba.pdf}
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/133La.pdf}
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/134Ce-joint.pdf}
-    % \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/134Ce-1.pdf}
-    % \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/134Ce-2.pdf}
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/135Pr-edited.pdf}
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/136Nd-joint.pdf}
-    % \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/136Nd-1.pdf}
-    % \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/136Nd-2.pdf}
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/138Nd.pdf}
-    \caption{The experimental wobbling energy, defined through the Eq. \ref{eq-wobbling-energy-definition-oddA}, for nuclei within the $A\approx 130$ mass region. For $^{134}$Ce, the two abbreviations denote the bands with lower deformation (L.D.) and higher deformation (H.D.), respectively. For $^{136}$Nd, the two configurations are represented by 2-$\mathcal{Q}_h$ for the neutron holes and 2-$\mathcal{Q}_p$ for the protons that couple with the core. See text for more details.}
-    \label{wobblers-exp-set2}
-\end{figure}
-
-\subsection{Wobbling around A=160}
-
-% A highly-aligned $\mathcal{Q}$ will favor a specific triaxial shape given by the $j$-orbital in which it belongs to \cite{hamamoto1983intrinsic}. Moreover, the degree of shell filling will dictate a particular value for the triaxiality parameter $\gamma$. In turns out that for this proton, the favored triaxiality is around $\gamma=20^\circ$, meaning that PES calculations on strongly deformed triaxial structure will show stable minima around that $\gamma$-value. The wobbling excitations appear since only a small rotational energy is needed for building excited levels above the yrast line \cite{hamamoto2016interplay}.
-
-Experimentally, this is the \emph{richest} region within the chart of nuclides characterized by wobbling motion. The first ever nucleus in which this phenomenon has been observed was $^\mathbf{163}$\textbf{Lu} \cite{odegaard2001evidence}. With a huge infrastructure available at the Euroball detector \cite{simpson1997euroball}, two \emph{triaxial strongly deformed} bands (TSD1 and TSD2) were measured. Both bands were built on the configuration of a $\mathcal{Q}_p$ proton which belongs to the $i_{13/2}$ orbital. In fact, along the $A\approx 160$ region, this \emph{intruder} will cause stability of the triaxial structures. One year later, a second excited wobbling band (TSD3) was confirmed \cite{jensen2002evidence}, and in a recent work by Raduta et al. (i.e., the current team) the third excited phonon band (TSD4) was ascribed to the wobbling character \cite{raduta2017semiclassical,raduta2020towards}. The measurements indicate large quadrupole values, positive triaxiality, and enhanced quadrupole transitions. Furthermore, quantities such as alignment, dynamic moment of inertia, and excitation energies relative to a reference show similarities across each of the four bands, with higher magnitudes than other neighboring (coexisting) normally-deformed structures \cite{jensen2004coexisting}. This is a clear indicator that stable triaxial structures exist in $^{163}$Lu. After this discovery, a large number of wobbling bands with large deformation were identified in $^\mathbf{161}$\textbf{Lu} \cite{bringel2005evidence}, $^\mathbf{165}$\textbf{Lu} \cite{schonwasser2003one}, $^\mathbf{167}$\textbf{Lu} \cite{amro2003wobbling}, and $^\mathbf{167}$\textbf{Ta} \cite{hartley2009wobbling}.
-
-It is worth mentioning that the isotopes have large spins, meaning that they are also rapidly rotating. When fast rotation occurs, both the core as well as the particle angular momentum will align with the intermediate axis, meaning that these wobblers behave as longitudinal wobblers. However, qualitatively, the wobbling energies have a decreasing trend with spin $I$, typical for a transverse-like character. Keep in mind that for large angular momentum values, the TW/LW description becomes unstable. For the high-spin region, the wobbling mechanism is explained through a `top-on-top' model \cite{hamamoto2002wobbling,tanabe2006algebraic} (analogy with the classical asymmetric top). The behavior of the wobbling energy $E_\text{wob}$ as defined in Eq. \ref{eq-wobbling-energy-definition-oddA} is calculated for all the mentioned nuclei, using the available experimental data, and the results are shown in Fig. \ref{wobblers-exp-set3}.
-\begin{figure}
-    \centering
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/161Lu.pdf}
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/163Lu.pdf}
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/165Lu.pdf}
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/167Lu.pdf}
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/167Ta.pdf}
-    \caption{The experimental wobbling energy, defined through the Eq. \ref{eq-wobbling-energy-definition-oddA}, for nuclei within the $A\approx 160$ mass region.}
-    \label{wobblers-exp-set3}
-\end{figure}
-
-\subsection{Wobbling around A=180}
-
-A set of new measurements show wobbling structures in the heavy-nuclei region, such as the isotopes $^\mathbf{183}$\textbf{Au} \cite{nandi2020first} and $^\mathbf{187}$\textbf{Au} \cite{sensharma2020longitudinal,sensharma2021wobbling}. In the former, two wobbling bands were identified, one built on a positive parity proton $i_{13/2}$ and one built on a negative parity proton $h_{9/2}$. The remarking feature of this nucleus is that even though both protons align perpendicular to the intermediate axis (typical to a TW regime) the wobbling energies exhibit a decrease (the $n_w=1$ band built on the positive parity proton). As a matter of fact, Nandi et al. speculate that these states represent the initial increasing part of the wobbling energy as function of spin for a transverse wobbler. Remember that the wobbling frequency of a TW system (Eqs. \ref{wobbling-frequency-odd-A-inertiaParams} - \ref{wobbling-frequency-odd-A-MOI}) has an increasing part in the low-spin region and only after a critical $\mathscr{I}$ value (i.e., Eq. \ref{wobb-freq-oddA-maxval}) the frequency starts to decrease (according to Fig. \ref{wobbling-freq-oddA}). Moreover, an interesting remark is raised, suggesting that the increasing/decreasing trend of the wobbling energies must not be considered as the sole indicator for LW/TW regime (this discussion is also emphasized in a recent work done by Poenaru and Raduta \cite{poenaru2021extensive1,poenaru2021extensive2}). The $^{187}$Au nucleus exhibits longitudinal wobbling motion, having one yrast and one excited band, both built on the $h_{9/2}$ proton, located at the middle of the shell, exhibiting longitudinal behavior (since the $\mathcal{Q}$ will align its a.m. along the $m$-axis of the core). The behavior of the wobbling energy $E_\text{wob}$ as defined in Eq. \ref{eq-wobbling-energy-definition-oddA} is calculated for the two nuclei using the available experimental data, and the results are shown in Fig. \ref{wobblers-exp-set4}.
-\begin{figure}
-    \centering
-    \includegraphics[width=0.33\textwidth]{Chapters/Figures/wobblers/183Au_2-edited.pdf}
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/183Au_1.pdf}
-    \includegraphics[width=0.32\textwidth]{Chapters/Figures/wobblers/187Au.pdf}
-    \caption{The experimental wobbling energy, defined through the Eq. \ref{eq-wobbling-energy-definition-oddA}, for nuclei within the $A\approx 180$ mass region. Data are taken from references cited in text for each isotope. Note that for $^{183}$Au, there are two configurations which cause wobbling motion, namely, the protons $\pi i_{13/2}$ (positive parity) and $\pi h_{9/2}$ (negative parity). Nandi et al. \cite{nandi2020first} suspect that the behavior of the former band is justified by a transverse-like wobbling frequency which increases up to a certain spin before it stats to decrease. This is illustrated via the small inset inside the first figure, where the wobbling frequencies for a TW nucleus are sketched (according to Eq. \ref{wobbling-frequency-odd-A-MOI} and Fig. \ref{wobbling-freq-oddA}).}
-    \label{wobblers-exp-set4}
-\end{figure}
-
-\subsubsection*{Evidence Against Wobbling Motion}
-
-% Recently, the interpretation of nuclei around the $A \approx 130$ as wobblers was questioned by several teams \cite{nomura2021examining,nomura2022questioning,lv2022evidence,guo2020risk}. This is due to the fact that in the low-spin region, the wobbling mode (which consists of phonon-like excitations) will compete with single-particle excitations. As such, a clear difference must be made between the two modes. Experimentally, it was shown that signatures for wobbling excitations are the enhanced quadrupole moments and large mixing ratios $\delta(E2/M1)$ (competition between E2 or M1 transitions). However, new re-evaluations on the experimental data for $A\approx 100-130$ point out that the obtained results might have large imprecisions due to improper calibrations. The experimental transition probabilities are obtained from techniques that are beyond the scope of this work, but for reference one can check \cite{lv2022evidence}. Consequently, it is of crucial importance to have precise determination of the experimental quantities such as E2/M1 mixing ratios between bands, in order to be certain of the actual nature of the studied isotopes.
-
-For collective excitations, the dominant E2 character of the linking transitions between the $n_w=1$ and yrast bands must have mixing ratios larger than unity. Keep in mind that the mixing ratio for a particular $\Delta I=1$ transition is typically defined as \cite{krane1970determination,nomura2021examining}:
-\begin{align}
-    \delta=c\cdot E_\gamma\frac{\bra{I_f}|\mathcal{M}(E2)|\ket{I_i}}{\bra{I_f}|\mathcal{M}(M1)|\ket{I_i}}, 
-\end{align}
-where $E_\gamma=E(I_i)-E(I_f)$, $\mathcal{M}(E2)$ is the reduced matrix element corresponding to the electric quadrupole moment, and $\mathcal{M}(M1)$ is the matrix element of the magnetic dipole moment. The mixing ratio is expected to be $\delta >1$ for wobbling excitations. Apparently, after new measurements (re-evaluations) performed on $^{105}$Pd, $^{135}$Pr, $^{133}$La, $^{133}$Ba, $^{135}$Pr, the mixing ratios are in fact $\delta<1$, meaning that the magnetic transitions are more enhanced. The magnetic dominance would rule out wobbling mode. These newly conducted measurements lead to mixing ratios less than one, which is in favor of an entire re-evaluation, in particular for $^{133}$La \cite{hua2020comment} and $^{135}$Pr \cite{guo2021comment,lv2022evidence}.
-
-Besides the wobbling motion, other collective phenomena can arise in the yrast and excited bands of triaxial nuclei. One example is the so-called Tilted-Axis-Precession (TiP) \cite{lawrie2020tilted}, which is a very recent description for the rotational properties of non-axial nuclei. Lawrie et al. showed that tilted precession behaves quite similarly to wobbling motion, and at low spins there can be a `competition' between the two. Remarking the fact that TiP effect implies a precession of the total angular momentum which does not require the quantization of the energy in terms of vibrational phonons. Moreover, the precession does not have to be around one of the principal axes of the triaxial ellipsoid. This interesting process was in fact used to describe the motion in $^{135}$Nd \cite{lv2021tilted} and it seems to be drawing a lot of attention lately.
-
-\subsubsection*{The Transition Between Wobbling Regimes}
-
-The already discussed isotopes $^{133}$La and $^{135}$Pr show an interesting phenomenon, where the former exhibits an increasing wobbling energy, while the latter (with only two extra nucleons) reveals a decreasing trend. This rather `abrupt' change in the $\mathcal{Q}+\mathscr{C}$ coupling, (i.e., parallel alignment of $\mathcal{Q}$ with the core in the first case, and perpendicular alignment in the second) was explained by Biswas et al. \cite{biswas2019longitudinal}. Indeed, in both nuclei the $\mathcal{Q}_p$ ($h_{11/2}$ proton) is expected to align with the $s$-axis, such that the two isotones must exhibit transverse wobbling. But the situation can be understood in the following way: the $\mathcal{Q}_p$ in $^{135}$Pr aligns its a.m. with the short axis of the triaxial core, and a TW will arise since the $m$-axis has the largest MOI. However, for $^{133}$La, besides the $h_{11/2}$ proton, an extra pair of protons (positive-parity) will align gradually with the $s$-axis of the triaxial density distribution. It is this additional alignment that increases the effective MOI of the short axis, which achieves a higher magnitude than the one along the $m$-axis. This re-arrangement will finally result in the LW behavior of the isotope.
-
-The LW/TW behavior within the two nuclei can also be understood in terms of angular momentum behavior w.r.t. the rotational frequency (i.e., the backbending curves, such as the ones presented in Figs. \ref{fig-hfNuclei-mois} - \ref{fig-ErYbnuclei-mois}). For $^{133}$La, there is a rather constant and gradual increase in spin with the rotational frequency. On the other hand, $^{135}$Pr shows a strong backbend with increasing spin, although rather late. Additionally, both nuclei show rotation around the short axis close to the yrast line (since the proton will align its a.m. with that axis). For $^{135}$Pr, $\mathcal{I}_s$ is smaller than $\mathcal{I}_m$, and with increasing spin it becomes convenient to add more and more collective angular momentum on the $m$-axis. Consequently, the wobbling frequency will start to decrease with increasing spin and so does the final wobbling energy. Such a mechanism clearly leads to a transverse regime. At the same time, the ratio $\mathcal{I}_s/\mathcal{I}_m$ is closer to $1$ for $^{133}$La, meaning that the medium axis is no longer preferred by the collective rotation, and the $s$-axis will start to gain angular momentum. The increase of collective a.m. along the short axis causes the wobbling frequency to increase with spin, which is specific to the longitudinal character. The evolution with rotational frequency of the total angular momentum in both nuclei can be seen in Fig. \ref{spin-vs-rotationalFreq-133-135}. Notice the gradual increase of the yrast band for $^{133}$La vs. the sharp backbend present in $^{135}$Pr.
-\begin{figure}
-    \begin{center}
-        \includegraphics[width=0.49\textwidth]{Chapters/Figures/133La_wob-edited.pdf}
-        \includegraphics[width=0.49\textwidth]{Chapters/Figures/135Pr_wob-edited.pdf}
-        \caption{The angular momentum evolution with respect to the (experimental) rotational frequency $\omega_\text{rot}$ for $^{133}$La (\textbf{left}) and $^{135}$Pr (\textbf{right}). The backbending region for the latter nucleus is illustrated within the colored sector. Since the MOI of the $s$-axis is smaller, more and more collective a.m. will be added to this axis, causing a decrease in the wobbling frequency (TW). The dotted magenta line represents the angular momentum value for the odd proton.}
-        \label{spin-vs-rotationalFreq-133-135}
-    \end{center}
-\end{figure}
-
-\subsection{Wobbling - Experimental Chart}
-
-All the currently known wobblers were grouped in four main regions based on their masses, namely, $A\approx 100, 130, 160$ and $180$. Following up, a chart showing all wobblers with some important values will be constructed. Values such as the quadrupole deformation parameter, triaxiality parameter, and wobbling regime are indexed. This is an inedited representation of the nuclides and the first \emph{unified depiction} of wobbling nuclei in terms of their deformation parameters. The scheme can be seen in Fig. \ref{wobbling-diagram-chart}, however, the reader should firstly refer to Fig. \ref{wobbling-diagrams-legend} that acts as a legend.
-\begin{figure}
-    \centering
-    \includegraphics[width=0.99\textwidth]{Chapters/Figures/wobblers-chart-legend.pdf}
-    \caption{Example of a wobbling nucleus that appears in the chart shown in Fig. \ref{wobbling-diagram-chart}. This particular case is for $^{187}$Au.}
-    \label{wobbling-diagrams-legend}
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/parity-partners-plots/tsd1.pdf}
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/parity-partners-plots/tsd2.pdf}
+    \caption{The excitation energies (Eq. \ref{general-excitation-energy-fitting-model}) of $^{163}$Lu for the bands TSD1 and TSD2, obtained in the $\mathbf{W_2}$ formalism using Eq. \ref{tsd-energies-lu163-parity-partners}. Calculations were done with the parameters presented in Table \ref{lu163-parameters-parity-fitting}.}
+    \label{results-parity-partners-163lu-1}
 \end{figure}
 \begin{figure}
     \centering
-    \includegraphics[width=0.96\textwidth]{Chapters/Figures/wobblers-chart.pdf}
-    \caption{Unified chart showing all the currently known wobblers. See Fig. \ref{wobbling-diagrams-legend} for legend. \emph{Strong deformation} is marked with red color for $\beta_2$.}
-    \label{wobbling-diagram-chart}
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/parity-partners-plots/tsd3.pdf}
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/parity-partners-plots/tsd4.pdf}
+    \caption{The excitation energies (Eq. \ref{general-excitation-energy-fitting-model}) of $^{163}$Lu for the bands TSD3 and TSD4 , obtained in the $\mathbf{W_2}$ formalism using Eq. \ref{tsd-energies-lu163-parity-partners}. Calculations were done with the parameters presented in Table \ref{lu163-parameters-parity-fitting}.}
+    \label{results-parity-partners-163lu-2}
 \end{figure}
+
+Regarding the wobbling energy given as relative differences between the first excited band and yrast one, the results are represented in Fig. \ref{163Lu-wobbling-energy-parity-partners}. The first excited band is in fact TSD3 and the yrast partner is TSD2. From the evolution of $E_\text{wob}$ it can be seen that the calculated values reflect an increasing trend with angular momentum, suggesting that $^{163}$Lu behaves as a longitudinal wobbler. This is in contrast to other interpretations that show a decreasing w.r.t. to $I$ \cite{frauendorf2014transverse,frauendorf2018comment,tanabe2018reply}. However, within these studies, the wobbling energies are obtained from TSD2 (first excited band) and TSD1 (yrast band), and such a consideration does not hold here since TSD2 is obtained variationally as a ground band. Still, by analyzing the experimental data from Fig. \ref{163Lu-wobbling-energy-parity-partners}, a slight increase with spin can be observed. Certainly, from the lower spin limit and up to $I\approx 37/2$, the energy is increasing, but after a \emph{critical value} $I\geq 39/2$ it starts to decrease. The identification of a critical region in which the nucleus might change its wobbling regime is a remarking feature of the current research. The increasing behavior of the theoretical data also shows a quenching in the high-spin limit, pointing out the change in the wobbling regime as well.
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.85]{Chapters/Figures/Wobbling-Energy-Parity-Partners.pdf}
+    \caption{Wobbling energy for $^{163}$Lu obtained in the $\mathbf{W_2}$ formalism and compared with the experimental results. The theoretical values were calculated with Eq. \ref{eq-wobbling-energy-definition-oddA}.}
+    \label{163Lu-wobbling-energy-parity-partners}
+\end{figure}
+
+Also worth discussing is the difference $\delta_{42}=E_I^\text{TSD4}-E_I^\text{TSD2}$, where the almost constant value $\delta_{42}\approx 0.3\ \text{MeV}$ is observed, suggesting that the states with the same angular momentum from TSD2 and TSD4 might emerge from the parity projection of a single wave-function lacking reflection symmetry (hence the change $\pi=+\to\pi=-$). For the sake of completeness, the two wobbling frequencies $\Omega_{1,2}$ that comprise the phonon term $\mathcal{F}^I_{n_{w_1}n_{w_2}}$ defined in Eq. \ref{phononic-term-tsd-energies} are represented as function of the total angular momentum in Fig. \ref{lu163-wobbling-frequencies-parity}. It can be seen that the solution $\Omega_2$ is much larger over the entire spin range, indicating that the odd proton's a.m. exhibits a more pronounced precessional motion than that of the core. Indeed, the difference is only about $1.5-2\ \text{MeV}$ for low $I$ and it goes to $3.5-4\ \text{MeV}$ in the large spin limit. Nevertheless, this is expected because the condition $\Omega_2>\Omega_1$ was fixed in Eq. \ref{omega-1-2-3-4-solutions}.
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.85]{Chapters/Figures/parity-partners-plots/wobblingFrequency.pdf}
+    \caption{The wobbling frequencies, i.e., the two solutions of Eq. \ref{wobbling-freq-oddA} as function of the total spin. Calculations are made with the parameter set provided in Table \ref{lu163-parameters-parity-fitting}.}
+    \label{lu163-wobbling-frequencies-parity}
+\end{figure}
+
+\subsection{Interpretation of the parameter set}
+
+The set $\mathcal{P}_\text{fit}$ attained after the minimization procedure of the $\chi^2$-function is given in Table \ref{lu163-parameters-parity-fitting}. However, the fitting method only gives the numerical values, without providing context on the physical interpretation of the results themselves. As such, in this subsection one should make a quantitative analysis for the five parameters and see how the current model compares with existing studies. Concerning the magnitudes of the three moments of inertia, it is clear that the system rotates around the $1$-axis, as the largest MOI corresponds to this axis. Moreover, the $1$-axis MOI is much larger than the other two, signifying the nature of small-amplitude vibrations that are typical to a triaxial rotor (i.e., large rotational motion around $\mathcal{I}_1$ and a fluctuation generated by the anisotropy of $\mathcal{I}_{2,3}$). A graphical representation where the three moments of inertia are compared with the $\mathbf{W_1}$ formalism is shown in Fig. \ref{moi-comparison-w1-w2-formalisms}. Looking at the plot, it can be seen that $\mathcal{I}_1$ is the largest across all the fitting procedures, although $\mathbf{W_2}$ provides the largest one. It should be pointed out that these are \emph{effective} MOI of the system, that is the particle + triaxial-rotor. There is no spin dependence inferred for the three quantities, so a possible change in their ordering cannot be studied with the current description. Since the current approach is not a microscopic one, no presumptions on that causes the MOI ordering can be stated (e.g., orbital mixing and so on). As a matter of fact, the nature of the three MOI for a real nucleus is neither rigid nor irrotational (see discussion from Chapter \ref{section-nuclear-models} and Eq. \ref{experimental-MOI-vs-rig-irr}).
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.75]{Chapters/Figures/parity-partners-plots/W1-W2-Mois.pdf}
+    \caption{Comparison between the MOI obtained in the approach $\mathbf{W_2}$ (current chapter) and $\mathbf{W_1}$ (as per Chapter \ref{chapter-6-aw1-formalism}). Note that there was a separate minimization of the $\chi^2$-function for TSD4 within the previous formalism. The numerical values for $\mathcal{I}_{1,2,3}$ are taken from Tables \ref{numerical-fitting-parameters-Lu-isotopes} and \ref{lu163-parameters-parity-fitting}.}
+    \label{moi-comparison-w1-w2-formalisms}
+\end{figure}
+
+Taking the moments of inertia given by the $\mathbf{W_2}$ model, a direct comparison with the rigid and hydrodynamical (irrotational) ones is made in Fig. \ref{w2-mois-comparison}. The rigid values are calculated using the first formula from Eq. \ref{eq-irrotational-rigid-mois} and the hydrodynamical values are attained using the second formula. It is noteworthy that the MOI provided by the fit suggest an irrotational-like behavior rather than a rigid-like for the triaxial system, since there is a larger discrepancy between the MOI of the $2$- and $3$-axes in the rigid case.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/parity-partners-plots/rigid-mois-fit.pdf}
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/parity-partners-plots/hydrodynamic-mois-fit.pdf}
+    \caption{The rigid (\textbf{left}) and hydrodynamical (\textbf{right}) MOI as function of $\gamma$. The scaling factors for both types of MOI are determined by fixing $\mathcal{I}^\text{rig}_1$ and $\mathcal{I}_1^\text{irr}$ to the fitted $\mathcal{I}_1$ with the deformation parameters $(\beta,\gamma)=(0.38,22^\circ)$. The black, red, and blue points represented the numerical values of $\mathcal{I}_1$, $\mathcal{I}_2$, and $\mathcal{I}_3$ from Table \ref{lu163-parameters-parity-fitting}, respectively. The value $\gamma=22^\circ$ from the fit is marked with the dashed magenta line just to guide the eye.}
+    \label{w2-mois-comparison}
+\end{figure}
+
+Going further with the analysis of the parameters, a value of $\gamma=22^\circ$ is obtained. The agreement with the predicted minimum of $^{163}$Lu \cite{jensen2002wobbling,jensen2004coexisting} is quite good, as the experimental minimum for the TSD structures is identified at $(\beta,\gamma)=(0.38,20^\circ)$ (recall Fig. \ref{pes-example-set-2}). Other studies that describe the wobbling properties of $^{163}$Lu take the triaxiality parameter fixed a priori (see Refs. \cite{tanabe2006algebraic,tanabe2017stability} for example), but the current approach determines $\gamma$ self-consistently. Remarkable the fact that the obtained value is slightly bigger than the one from $\mathbf{W_1}$ ($\gamma=17^\circ$). This might be caused by the larger ratios for $\mathcal{I}_1/\mathcal{I}_2=4.8$ and $\mathcal{I}_1/\mathcal{I}_3=10.2$ in $\mathbf{W_2}$ than the ones from $\mathbf{W_1}$ ($\mathcal{I}_1/\mathcal{I}_2=3.1$ and $\mathcal{I}_1/\mathcal{I}_3=6.3$, respectively), which also indicate a larger triaxiality.
+
+Lastly, the single-particle potential strength should be discussed. It has a value of $V=2.1\ \text{MeV}$ and in $\mathbf{W_1}$ this parameter was $V^{\text{TSD1,2,3}}=3.1\ \text{MeV}$ and $V^\text{TSD4}=0.7\ \text{MeV}$. An explanation for its decrease in the present case might be due to the upward shift in the energy caused by the unfavored partner, or due to the energetic shift of the parity partner. Nevertheless, a quenching effect on the quadrupole deformation of the triaxial system due to either the signature splitting or the parity symmetry breaking is observed. Still, the obtained value seems to be consistent with the previous calculations, as $V$ is close to the average value of the two $V$'s from $\mathbf{W_1}$. Other interpretations developed using a similar single-particle term in the Hamiltonian adopted values around $V=1.6\ \text{MeV}$ \cite{tanabe2017stability}, however, that was for an isotope with smaller quadrupole deformation $\beta_2=0.18$.
+
+According to the structure described in the beginning of this chapter, the above sections conclude part $1)$ of the research, which was supposed to describe the concept of Parity Partners, to re-define the excitation energy spectrum and apply it to $^{163}$Lu, and finally to give a some context on the interpretation of the free parameters. Since all points were properly covered, and one can go further to part $2)$ of this study, where the classical energy function must be re-evaluated under the assumptions of $\mathbf{W_2}$ approach.
+
+\section{Classical Energy Function (CEF)}
+
+From the Hamiltonian given by Eq. \ref{total-ham-approach-w1} (i.e., sum of the single-particle term in Eq. \ref{single-particle-ham-approach-w1} and the rotor term in Eq. \ref{rotor-ham-approach-w1}), one obtained the classical energy function by taking the Hamiltonian's average on the trial function (Eq. \ref{trial-function-appeoach-w1}). The structure of the CEF was firstly given in Section \ref{classical-energy-function-subsection} and even a qualitative analysis of its sub-terms has been employed in Figs. \ref{fig-A-varphi-canonical} - \ref{fig-A-gamma-canonical}. The minimum point of $\mathcal{H}$ was found to be $p_0=(0,I;0,j)$ (recall Eq. \ref{cef-minimum-point-p0}). These considerations are still important here. Adopting the polar coordinate system $(\theta,\varphi)$, the Cartesian components of the total angular momentum can be expressed as:
+\begin{align}
+    % \mathbf{I}=&\left\{I_1,I_2,I_3\right\}\stackrel{not.}{=}\left\{x_1,x_2,x_3\right\}\ ,\nonumber\\
+    % x_1=I\sin\theta\cos\varphi\ ,&\ x_2=I\sin\theta\sin\varphi\ ,\ x_3=I\cos\theta\ ,
+    \mathbf{I}=&\left\{I_1,I_2,I_3\right\}\equiv\left\{x_1,x_2,x_3\right\}\ ,\nonumber\\
+    x_1=I\sin\theta\cos\varphi\ ,&\ x_2=I\sin\theta\sin\varphi\ ,\ x_3=I\cos\theta\ ,
+    \label{polar-coordinates-total-AM}
+\end{align}
+where the quantization axis is chosen as the $3$-axis. Going back to the expression of $\mathcal{H}$ from Eq. \ref{full-classical-energy-function} and evaluating it in the minimum point using the new coordinate system, a compact form is achieved \cite{poenaru2021extensive2}:
+\begin{align}
+    \left. \mathcal{H}\ \right\vert_{p_0}=I\left(I-\frac{1}{2}\right)\sin^2\theta\cdot \mathcal{A}_\varphi-2A_1Ij\sin\theta+T_\text{core}+T_\text{sp}\ ,
+    \label{CEF-minimum-point-Tcore-Tsp}
+\end{align}
+where the last two terms are independent of the polar angles $(\theta,\varphi)$ and they are defined as \cite{poenaru2021extensive2}:
+\begin{align}
+    T_\text{core}&=\frac{I}{2}(A_1+A_2)+A_3I^2\ ,\nonumber\\
+    T_\text{s.p.}&=\frac{j}{2}(A_2+A_3)+A_1j^2-V\frac{2j-1}{j+1}\sin\left(\gamma+\frac{\pi}{6}\right)\ .
+    \label{core-sp-sub-terms}
+\end{align}
+
+It would be instructive to see how $T_\text{core}$ behaves under different $A_k$ orderings and also how the single-particle term evolves for different $j$. Two such comparisons are depicted in Fig \ref{fig-t-core-sp-terms}. It can be seen that the variations of $T_\text{sp}$ at different $j$ values are not significant. On the other hand, the $A_k$ ordering affects $T_\text{core}$ with a large amount, especially for higher spins.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.48\textwidth]{Chapters/Figures/parity-partners-plots/t-core.pdf}
+    \includegraphics[width=0.495\textwidth]{Chapters/Figures/parity-partners-plots/t-sp.pdf}
+    \caption{\textbf{Right:} The term $T_\text{core}$ from Eq. \ref{core-sp-sub-terms} as function of the angular momentum $I$ at different orderings for $A_k$ (the arbitrary values $0.05, 0.025, 0.011\ \hbar^{-2}\text{MeV}$ were interchanged between each factor). The magenta line is for the inertia factors provided by the fit. \textbf{Left:} The term $T_\text{sp}$ from Eq. \ref{core-sp-sub-terms}, evaluated for three different single-particle angular momenta using the potential strength and the three MOI from Table \ref{lu163-parameters-parity-fitting}.}
+    \label{fig-t-core-sp-terms}
+\end{figure}
+
+\subsection{CEF - Stability Regions}
+
+The classical energy function from Eq. \ref{CEF-minimum-point-Tcore-Tsp} is expressed by classical coordinates that relate to the dynamics of the core (i.e., $r,\varphi$) and the valence nucleon (i.e., $f,\psi$). However, $\mathcal{H}(r,\varphi;f,\psi)$ is nothing else than the average of $\hat{H}$ with the trial function. Thus, going back into the quantal picture, the physical interpretation of Eq. \ref{CEF-minimum-point-Tcore-Tsp} is: \emph{the expectation value of the Hamiltonian} or, equivalently, \emph{the allowed energy states of the system}. For this reason, analyzing the CEF around the critical points is crucial for identifying a stability of the system. 
+
+In this subsection, such calculations will be performed, namely the critical points of $\mathcal{H}$ will be identified and then graphical representations in the polar plane $(\theta,\varphi)$ will be made. If there are extremal points with minimum character present, then the so-called regions of stability could be pinpointed. These regions should indicate if there are any allowed rotational states for the system.
+
+Firstly, all the critical points for $\mathcal{H}$ with minimum character are given in Table \ref{critical_points_h}. The intervals of variation for $\theta$ and $\varphi$ are fixed to $\theta\in[0,\pi]$ and $\varphi\in[0,2\pi]$, respectively. Some numerical evaluations for the CEF can be realized in this coordinate space. These are sketched as \emph{contour plots} for different spins in $^{163}$Lu. For the sake of completeness, contour plots for two spin states from each band will be constructed and the critical points from Table \ref{critical_points_h} are also drawn in these figures. The plots are shown in Figs. \ref{contour-cef-polar-tsd1} - \ref{contour-cef-polar-tsd4}.
+\begin{table}
+    \centering
+    \begin{tabular}{cccc}
+    \hline
+    Minimal point & $\theta$ [rad] & $\varphi$ [rad] & $A_k$ ordering \\
+    \hline
+    \hline
+    $m_1$ & $\pi/2$ &   $0$     &   $A_3>A_2>A_1$   \\
+    $m_2$ & $\pi/2$ &   $\pi$   &   $A_3>A_2>A_1$   \\
+    $m_3$ & $\pi/2$ &   $2\pi$  &   $A_3>A_2>A_1$   \\
+    \hline
+    \end{tabular}
+    \caption{The minimum points of $\mathcal{H}$ for a fixed ordering of the inertia factors. The orderings are chosen in agreement with the fit parameters from Table \ref{lu163-parameters-parity-fitting}.}
+    \label{critical_points_h}
+\end{table}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/parity-partners-plots/contour-tsd1-1.pdf}
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/parity-partners-plots/contour-tsd1-2.pdf}
+    \caption{The classical energy function (Eq. \ref{CEF-minimum-point-Tcore-Tsp}) as function of the polar coordinates for two states from TSD1 (i.e., $I=25/2^+$ and $53/2^+$), evaluated using the fit parameters from Table \ref{lu163-parameters-parity-fitting}. The minimum points of $\mathcal{H}$ are marked by the red dots. See text for explanation on the dashed contour styling.}
+    \label{contour-cef-polar-tsd1}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/parity-partners-plots/contour-tsd2-1.pdf}
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/parity-partners-plots/contour-tsd2-2.pdf}
+    \caption{The classical energy function (Eq. \ref{CEF-minimum-point-Tcore-Tsp}) as function of the polar coordinates for two states from TSD2 (i.e., $I=31/2^+$ and $91/2^+$), evaluated using the fit parameters from Table \ref{lu163-parameters-parity-fitting}. The minimum points of $\mathcal{H}$ are marked by the red dots. See text for explanation on the dashed contour styling.}
+    \label{contour-cef-polar-tsd2}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/parity-partners-plots/contour-tsd3-1.pdf}
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/parity-partners-plots/contour-tsd3-2.pdf}
+    \caption{The classical energy function (Eq. \ref{CEF-minimum-point-Tcore-Tsp}) as function of the polar coordinates for two states from TSD3 (i.e., $I=33/2^+$ and $57/2^+$), evaluated using the fit parameters from Table \ref{lu163-parameters-parity-fitting}. The minimum points of $\mathcal{H}$ are marked by the red dots. See text for explanation on the dashed contour styling.}
+    \label{contour-cef-polar-tsd3}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/parity-partners-plots/contour-tsd4-1.pdf}
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/parity-partners-plots/contour-tsd4-2.pdf}
+    \caption{The classical energy function (Eq. \ref{CEF-minimum-point-Tcore-Tsp}) as function of the polar coordinates for two states from TSD4 (i.e., $I=47/2^-$ and $83/2^-$), evaluated using the fit parameters from Table \ref{lu163-parameters-parity-fitting}. The minimum points of $\mathcal{H}$ are marked by the red dots. See text for explanation on the dashed contour styling.}
+    \label{contour-cef-polar-tsd4}
+\end{figure}
+
+Looking at the set of graphics depicted in Figs. \ref{contour-cef-polar-tsd1} - \ref{contour-cef-polar-tsd4}, some remarking features emerge. They have some similarities, suggesting resembling collective properties, but also some discrepancies, caused by the different depths of the minima. A primary common feature consists of the set of equi-energy curves that surround a sole minimum point for the low values of $\mathcal{H}(\theta,\varphi)$. Around the minimum point $m_2$ there are closed trajectories (marked by the solid black lines) and as the energy increases (keeping the angular momentum fixed) there is a \emph{critical region} at which the orbits surround all minima (highlighted by the dashed lines). The lack of localization for these orbits indicate an \emph{unstable motion} of the nucleus and they could be related to a phase transition, where the system undergoes a sudden change in its rotational character. Indeed, examining Fig. \ref{contour-cef-polar-tsd2}, which has quite deep minima (as the maximal values reach $\approx 120\ \text{MeV}$), there are about five stable trajectories that surround $m_{1,2,3}$. Beyond those trajectories, the wobbling motion becomes unstable. From an equilibrium standpoint, such `excited' states cannot be reached by the nucleus, hence the rotational motion occurs near the minimum points. Discussion on the stability of the wobbling motion will be reiterated in the next section, but it is worth mentioning that such a description for the dynamics of a nucleus in terms of classical orbits is a unique feature of this research.
+
+Additionally, the CEF is studied quantitatively in one of its minimum points (i.e., the $m_1=(\pi/2,0)$ point from Table \ref{critical_points_h}) w.r.t. the total angular momentum. As the depth of the contour plots changes across the different spin states, it would be instructive to see how these modifications are affected by $I$. As a result, a graphical representation of $\mathcal{H}$ in the point $m_2$ has been sketched in Fig. \ref{CEF-m2-I-dependence}. As a final step in this analysis, Fig. \ref{CEF-theta-phi-dependence} shows the behavior of $\mathcal{H}$ with respect to different values of $I$, by keeping one polar coordinate fixed and varying the other. The fixed values are taken to coincide with the minimum point $m_1$.
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.75]{Chapters/Figures/parity-partners-plots/H-minimal-m1.pdf}
+    \caption{The CEF from Eq. \ref{CEF-minimum-point-Tcore-Tsp} is evaluated in one of its minimum points ($m_1=(\pi/2,0)$ given in Table \ref{critical_points_h}) and plotted with respect to the angular momentum. The calculations are done using the fitting parameters from Table \ref{lu163-parameters-parity-fitting}.}
+    \label{CEF-m2-I-dependence}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{Chapters/Figures/parity-partners-plots/H-minimal-m1-phi.pdf}
+    \includegraphics[width=0.485\textwidth]{Chapters/Figures/parity-partners-plots/H-minimal-m1-theta.pdf}
+    \caption{The evolution of $\mathcal{H}$ for different values of $I$, obtained by keeping one polar coordinate fixed and letting the other one vary in its normal interval. \textbf{Left:} The coordinate $\theta$ is fixed to $\theta=\pi/2$ and $\varphi=[0,2\pi]$. \textbf{Right:} The coordinate $\varphi$ is fixed to $\varphi=0$ and $\theta=[0,\pi]$.}
+    \label{CEF-theta-phi-dependence}
+\end{figure}
+
+By expressing the classical energy function in terms of the polar coordinates, an analytical structure of Eq. \ref{CEF-minimum-point-Tcore-Tsp} is properly obtained. This function provides an insight into the precessional motion of the angular momentum, which according to the calculations made for $^{163}$Lu in the $\mathbf{W_2}$ approach, is the $1$-axis (largest MOI is $\mathcal{I}_1$). The representations shown in Figs. \ref{contour-cef-polar-tsd1} - \ref{contour-cef-polar-tsd4} depict three regions, i.e., i) one where the triaxial ellipsoid could behave as a wobbler, having closed circular orbits around $m_{1,2,3}$ ii) a criticality region and iii) $\mathcal{H}>\mathcal{H}_\text{critical}$ beyond which the orbits become non-localized and surround all three minima. This critical value can be extracted from the left inset of Fig \ref{CEF-theta-phi-dependence} as the peak value. A simple sketch where all these regions can be clearly differentiated is made in Fig. \ref{fig-H-unstable-sketch}. Identification of a phase transition between a well-defined motion around $1$-axis and an unstable rotor is a remarking feature in the current model.
+\begin{figure}
+    \centering
+    \includegraphics[scale=1]{Chapters/Figures/parity-partners-plots/H-unstable-edited.pdf}
+    \caption{A schematic illustration showing the three regions that can be identified for a triaxial nucleus within the $\mathbf{W_2}$ formalism. The stable motion is characterized by the closed orbits around the minimal points $m_{1,2,3}$ suggesting the precession of $\mathbf{I}$ around the $1$-axis. Furthermore, for a fixed angular momentum, a critical value of $\mathcal{H}$ is marked by the thick orange lines. Beyond this region, the rotational motion becomes unstable, signaling a phase transition.}
+    \label{fig-H-unstable-sketch}
+\end{figure}
+
+\subsection{Classical 3D Trajectories}
+
+In the previous section, a study of the wobbling motion in $^{163}$Lu has been performed in terms of the classical energy function. However, the analysis was only elaborated in the space generated by the set of polar coordinates (Eq. \ref{polar-coordinates-total-AM}), restricting the geometrical interpretation of the system dynamics to a two-dimensional picture. In two recent publications \cite{poenaru2021extensive1,poenaru2021extensive2}, the team successfully gave a $3$-dimensional representation of the classical energy function. In the following, the numerical recipe for obtaining this geometry will be presented.
+
+From the classical equations of motion depicted in Chapter \ref{chapter-6-aw1-formalism}, it results that the system admits two constants of motion, i.e., the total energy and the total angular momentum. These two quantities are obviously expected to be conserved. The angular momentum can be written as the squared sum of its components:
+\begin{align}
+    I^2=x_1^2+x_2^2+x_3^2\ .
+    \label{constant-of-motion-I}
+\end{align}
+
+Using the initial CEF provided in Eq. \ref{CEF-minimum-point-Tcore-Tsp}, one can aim at expressing it in terms of $x_1$, $x_2$, and $x_3$, respectively. This would imply that the energy function explicitly contains the angular momentum components. Changing from the polar coordinates to the cartesian ones $\mathcal{H}(\theta,\varphi)\longrightarrow E(x_1,x_2,x_3)$, the following formula for the energy is obtained \cite{poenaru2021extensive2}:
+\begin{align}
+    E=&\left(1-\frac{1}{2I}\right)A_1x_1^2+\left(1-\frac{1}{2I}\right)A_2x_2^2+\left[\left(1-\frac{1}{2I}\right)A_3+A_1\frac{j}{I}\right]x_3^2\nonumber\\
+    &-I\left(I-\frac{1}{2}\right)A_3-2A_1Ij+T_\text{rot}+T_\text{sp}\ .
+    \label{constant-of-motion-E}
+\end{align}
+where $E$ is now called the \emph{energy surface} \cite{poenaru2021extensive2}. In the expression of $E$, one can notice the three coordinates $x_k$ that appear as squared terms. If some notations are introduced and some algebraic manipulations are performed, the energy surface acquires the compact form:
+\begin{align}
+    E'=\frac{x_1^2}{s_1}+\frac{x_2^2}{s_2}+\frac{x_3^2}{s_3}\ ,
+    \label{energy-surface-E}
+\end{align}
+where $E'$ is the energy after the $x_k$-free terms in the r.h.s. of Eq. \ref{constant-of-motion-E} have been subtracted from $E$. The structure of Eq. \ref{energy-surface-E} resembles a general ellipsoid (hence the name \emph{energy surface}):
+\begin{align}
+    \frac{x_1^2}{a^2}+\frac{x_2^2}{b^2}+\frac{x_3^2}{c^2}=1\ ,
+\end{align}
+where $a,b,c$ are the semi-axes of different length, which for the triaxial ellipsoid become:
+\begin{align}
+    a\to\sqrt{E's_1}\nonumber\ ,\\
+    b\to\sqrt{E's_2}\nonumber\ ,\\
+    c\to\sqrt{E's_3}\ .
+    \label{semi-axes-lenghts-E}
+\end{align}
+
+The semi-axes lengths depend on the three inertia factors $A_k$, meaning that the fit quality will be reflected into the geometrical shape of $E'$ through the parameter set $\mathcal{P}_\text{fit}$. Putting together Eq. \ref{constant-of-motion-I} (i.e., a sphere of radius $r=I$) and Eq. \ref{energy-surface-E} (an ellipsoid with semi-axes given by Eq. \ref{semi-axes-lenghts-E}), their intersection can be made in the 3-dimensional space generated by the angular momentum components $\left\{x_1,x_2,x_3\right\}$. These overlapping surfaces will give the \emph{classical trajectories}, defined as a collection of points in this space along which the total angular momentum $\mathbf{I}$ is orbiting, making a precessional motion. These trajectories will play a crucial role in characterizing the motion of the nucleus, as they will be oriented along one of the three axes $x_k\ ,\ k=1,2,3$, suggesting rotations around a particular direction preferred by the system.
+
+When the PRM Hamiltonian (Eq. \ref{total-ham-approach-w1}) is diagonalized for a given $I$, a set of $2I+1$ energies are obtained. Thus, it is mandatory to study the evolution of these trajectories when the energy increases and see their behavior with respect to the angular momentum and also energy. The intersection curves of the two constants of motion Eq. \ref{constant-of-motion-I} and Eq. \ref{constant-of-motion-E} are represented as manifolds in Figs. \ref{classical-trajectory-TSD1-plot} - \ref{classical-trajectory-TSD4-plot}, where each figure represents a rotational state within one of the four bands of $^{163}$Lu. Every representation contains three insets that reveal different nuclear phases. The first inset (left) shows the trajectory of the system given by the intersection of the angular momentum $I$ and the real energy of this state (according to the experimental data from Figs. \ref{results-parity-partners-163lu-1} - \ref{results-parity-partners-163lu-2}). Therefore, it can be regarded as the `real' nuclear trajectory. It is remarkable the fact that all the real trajectories are observed around the $x_1$-axis. The invariance of $\hat{H}$ to rotations with $\pi$ about $x_1$ makes it possible to have two distinct (although symmetrical) paths around $x_1$, i.e., one for the positive and one for the negative direction, which are depicted with red ellipses. Keep in mind that the energy surface is evaluated using the parameters $\mathcal{P}_\text{fit}$, therefore one expects $x_1$ to be the rotational axis.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.99\textwidth]{Chapters/Figures/parity-partners-plots/classical-trajectory-TSD1.pdf}
+    \caption{The nuclear trajectories for the state $I=25/2^+$ from TSD1 in $^{163}$Lu. The left inset shows the trajectory of the system corresponding to the real energy of the spin (i.e., the red ellipses that surround $x_1$). The rotational axis is marked by the red color, signifying that the nucleus wobbles around it.}
+    \label{classical-trajectory-TSD1-plot}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.99\textwidth]{Chapters/Figures/parity-partners-plots/classical-trajectory-TSD2.pdf}
+    \caption{The nuclear trajectories for the state $I=27/2^+$ from TSD2 in $^{163}$Lu. The left inset shows the trajectory of the system corresponding to the real energy of the spin (i.e., the red ellipses that surround $x_1$). The rotational axis is marked by the red color, signifying that the nucleus wobbles around it.}
+    \label{classical-trajectory-TSD2-plot}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.99\textwidth]{Chapters/Figures/parity-partners-plots/classical-trajectory-TSD3.pdf}
+    \caption{The nuclear trajectories for the state $I=33/2^+$ from TSD3 in $^{163}$Lu. The left inset shows the trajectory of the system corresponding to the real energy of the spin (i.e., the red ellipses that surround $x_1$). The rotational axis is marked by the red color, signifying that the nucleus wobbles around it.}
+    \label{classical-trajectory-TSD3-plot}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.99\textwidth]{Chapters/Figures/parity-partners-plots/classical-trajectory-TSD4.pdf}
+    \caption{The nuclear trajectories for the state $I=47/2^+$ from TSD4 in $^{163}$Lu. The left inset shows the trajectory of the system corresponding to the real energy of the spin (i.e., the red ellipses that surround $x_1$). The rotational axis is marked by the red color, signifying that the nucleus wobbles around it.}
+    \label{classical-trajectory-TSD4-plot}
+\end{figure}
+
+For low-lying states, the two orbits lie quite close to the $x_1$-axis, making the rotation more pronounced around the $x_1$ and $-x_1$ directions. As the energy increases, the precession of $\mathbf{I}$ increases as well, making the two trajectories approach each other, resulting in a \emph{tilted rotation} of the system. The tilt implies that the rotational axis is misaligned and it is moving away from its \emph{equilibrium point} \cite{poenaru2021extensive2}. Increasing the energy even further will make the two trajectories intersect with each other, marking a \emph{critical point} where the wobbling motion becomes unstable. This is represented by the middle inset throughout Figs. \ref{classical-trajectory-TSD1-plot} - \ref{classical-trajectory-TSD4-plot}. Lastly, if the energy increases beyond the critical point, a different picture emerges, where the rotational axis changes from $x_1$ to $x_3$. Such a transition is shown in the right inset of each figure, where two symmetric paths are visible along the $x_3$- and $-x_3$-directions. However, the energies at which the nucleus could undergo a change in the rotational axis are way too large for a phase transition to occur naturally in $^{163}$Lu. Concisely, the state $I=25/2^+$ from TSD1 has a real energy of about $2.6\ \text{MeV}$, while the critical value requires twice that amount. Nonetheless, this is another remarking aspect of the current formalism, showing that phase transitions between rotational modes can be identified.
+
+Comparing the description of the wobbling motion made in the 3-dimensional space and the one from the previous subsection, both are able to pinpoint regions where phase transitions for the nuclear wobbling motion can take place. Identifying the changes in the rotational character for a triaxial nucleus was successful in each case. In addition, the geometrical analysis using the energy surface $E'$ from Eq. \ref{energy-surface-E} provides a clearer interpretation of the underlying motion, since the precession of $\mathbf{I}$ is directly related to the trajectories attained by intersecting $E'$ with the angular momentum sphere.
 
 \section{Concluding Remarks}
-\label{c5-concluding-remarks}
+\label{c7-concluding-remarks}
 
-Concluding this chapter, the important discussions should be pointed out. Firstly, the formalism for wobbling motion in even-even nuclei was described, obtaining the energy spectrum and the wobbling frequency for a simple triaxial rotor (recall Eq. \ref{eq-wobbling-energy-evenA} and Eq. \ref{wobbling-frequency-even-A}). The geometrical representation of the angular momentum components in terms of the polar angles $(\theta,\varphi)$ was also realized for a given value of $I$ (see Fig. \ref{figs-angular-momentum-components-polar}). The Harmonic Approximation (HA) was tested for a known wobbler, i.e., the $^{130}$Ba isotope. Results concerning the excitation energies, quadrupole moments, and transition probabilities were evaluated and compared with the available experimental data. The agreement with the experimental data is quite good, representing a new and original set of results concerning wobbling nuclei. The next step consisted in the analysis of an odd-$A$ triaxial nucleus using the Quasi-Particle Triaxial Rotor model (QTR), whose model Hamiltonian was given by Eq. \ref{oddA-QTR-general-hamiltonian}. Two possible wobbling motions were portrayed at low spins, namely the transverse and longitudinal wobbling. The difference between the two was explained in terms of particle-rotor coupling. 
+In this chapter, a novel approach for the wobbling motion in odd-mass nuclei was presented, starting with the theoretical calculations and finally comparing the obtained results with the experimental data. Indeed, the idea of Signature Partner Bands firstly employed by the team in $\mathbf{W_1}$ was amended with the concept of Parity Partners, making a renormalization of the wobbling band structure and naming it $\mathbf{W_2}$ (see subsection\ref{parity-partners-renormalizaion}). It is shown that the Hamiltonian admits functions with both positive and negative parities, and thus $^{163}$Lu is considered as the testing nucleus. The renormalization of $\mathbf{W_2}$ gives a new energy spectrum of the four TSD bands, which is expressed by Eq. \ref{tsd-energies-lu163-parity-partners}. The same TDVE was applied to the states TSD1-2 and TSD4, except that herein, all four bands are obtained from the coupling of the same $i_{13/2}$ odd proton with a core of even spin states (TSD1) and odd spin states (TSD2,4). The coupling schemes are sketched in Table \ref{lu163-table-info}. Compared to the $\mathbf{W_1}$ method, here $^{163}$Lu is described by a single fitting procedure, and it consisted of minimizing the $\chi^2$-function from Eq. \ref{chi-2-fitting-function} w.r.t. the free parameters defined in \ref{fitting-parameters-p-fit}. 
 
-Additionally, three workflow diagrams were illustrated in Figs. \ref{advanced-quasiparticle-coupling-1} - \ref{advanced-quasiparticle-coupling-3}, required for understanding how alignments of the odd quasi-particle ($\mathcal{Q}$) with the triaxial core ($\mathscr{C}$) are realized in terms of their density distribution overlap. A wobbling frequency for the odd-$A$ case was obtained via Eq. \ref{wobbling-frequency-odd-A-MOI} through a harmonic approximation, and its behavior with angular momentum was quantitatively described for both wobbling regimes (see Fig. \ref{reduced-inertia-A3-figs}). Another set of geometrical representations were made for the wobbling modes, showing how the precession of each individual vector (i.e., the core a.m. $\mathbf{R}_\mathscr{C}$, quasi-particle a.m. $\mathbf{j}_\mathcal{Q}$, and total a.m. $\mathbf{I}$) behaves relative to the entire ellipsoid (see Figs. \ref{simple-wobbler-geometrical-schematic} and \ref{wobbling-oddA-geometry}). Lastly, an inventory with all the known wobbling nuclei was developed in a unified diagram (Fig. \ref{wobbling-diagram-chart}), which is a first within literature.
+The numerical results were presented in Section \ref{aw2-numerical-results}, where one obtained a very good agreement with the experimental data for the excitation energies (recall Figs. \ref{results-parity-partners-163lu-1} - \ref{results-parity-partners-163lu-2}), resulting in deviations of less than $100\ \text{keV}$ across the spectrum. The fitting parameters provided in Table \ref{lu163-parameters-parity-fitting} were also interpreted in terms of their numerical values, and compared with previous studies. The current model gives a realistic approximation of the triaxiality parameter and also the single-particle potential strength. In addition, the three moments of inertia obtained from the fit agree with the hydrodynamical model (i.e., the irrotational MOI) and Fig. \ref{w2-mois-comparison} shows this feature. The last major step in the study was to examine the average of the total Hamiltonian on the trial function adopted in $\mathbf{W_2}$. One started with the expression of the classical energy function in the minimum point $(0,I;0,j)$, which is defined in Eq. \ref{CEF-minimum-point-Tcore-Tsp}. Then, two subsequent investigations were made, namely i) finding the behavior fo $\mathcal{H}$ with respect to the polar coordinates $(\theta,\varphi)$ that are used to generate the angular momentum components (Eq. \ref{angular-momentum-polar-components}) and ii) extending the problem from 2D to 3D, by adopting the so-called energy surface. In the case $i)$, by creating contour plots in the polar plane, three minima are observed, each surrounded by closed orbits that indicate a stable motion. Beyond a critical value $\mathcal{H}_\text{critical}$, the orbits become non-localized and they now surround all three minimum points. In Fig. \ref{fig-H-unstable-sketch} the regions with stable and unstable character are sketched, and a phase transition between them is highlighted. The case $ii)$ aims at expressing $\mathcal{H}$ in terms of the cartesian components of $I$. This is achieved via Eq. \ref{constant-of-motion-E} that becomes the energy surface. Its intersection with the angular momentum sphere will point out nuclear trajectories, i.e., manifolds in the angular momentum space that show the precessional motion of the spin states belonging to the wobbling bands of $^{163}$Lu.
 
-With the concept of wobbling motion fully explained from a theoretical standpoint, one can get into the next step. Concisely, wobbling motion in odd-$A$ nuclei will be studied in detail using a formalism based on the Particle-Rotor Model. Analytical results for the relevant quantities will be given, and important observations will be discussed when necessary.
+The 3-dimensional technique presented in the last subsection concluded with the set of Figs. \ref{classical-trajectory-TSD1-plot} - \ref{classical-trajectory-TSD4-plot}, which are very useful for getting a grasp on the inherent dynamics of the system. Certainly, through the clear dissimilarities between each nuclear phase (precession around $x_1$, criticality, and finally precession around $x_3$), one is able to understand the geometry of the rotational motion for a triaxial nucleus. The exact energy for a given spin state $I$ at which unstable wobbling occurs (the middle inset from Figs. \ref{classical-trajectory-TSD1-plot} - \ref{classical-trajectory-TSD4-plot}) was numerically determined for all four bands. Since the entire formalism is based on the dequantization of $\hat{H}$ by virtue of the variational principle and because the CEF is strictly described in terms of the canonical coordinates $(r,\varphi;f,\psi)$, the obtained trajectories can indeed be regarded as classical quantities.
