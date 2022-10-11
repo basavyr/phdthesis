@@ -68,7 +68,7 @@
 \contentsline {subsection}{\numberline {4.4.5}Dynamic MOI}{141}{subsection.344}%
 \contentsline {subsection}{\numberline {4.4.6}Electromagnetic Transitions}{143}{subsection.348}%
 \contentsline {subsubsection}{\numberline {4.4.6.1}E2 Transitions}{145}{subsubsection.351}%
-\contentsline {subsubsection}{\numberline {4.4.6.2}M1 Transitions}{151}{subsubsection.370}%
+\contentsline {subsubsection}{\numberline {4.4.6.2}M1 Transitions}{153}{subsubsection.370}%
 \contentsline {section}{\numberline {4.5}Concluding Remarks}{158}{section.382}%
 \contentsline {chapter}{\numberline {5}Novel Description of the Wobbling Bands}{161}{chapter.385}%
 \contentsline {section}{\numberline {5.1}Parity Partner Bands}{162}{section.386}%
