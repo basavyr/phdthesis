@@ -45,7 +45,7 @@
 \contentsline {subsection}{\numberline {3.3.2}Wobbling around A=130}{85}{subsection.210}%
 \contentsline {subsection}{\numberline {3.3.3}Wobbling around A=160}{87}{subsection.212}%
 \contentsline {subsection}{\numberline {3.3.4}Wobbling around A=180}{89}{subsection.214}%
-\contentsline {subsection}{\numberline {3.3.5}Wobbling - Experimental Chart}{92}{subsection.220}%
+\contentsline {subsection}{\numberline {3.3.5}Wobbling Motion - Experimental Chart}{92}{subsection.220}%
 \contentsline {section}{\numberline {3.4}Concluding Remarks}{95}{section.223}%
 \contentsline {chapter}{\numberline {4}New Theoretical Formalism}{96}{chapter.224}%
 \contentsline {section}{\numberline {4.1}Previous Work - Foundation}{96}{section.225}%
