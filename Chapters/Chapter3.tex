@@ -20,27 +20,24 @@ Following this ordering, the Hamiltonian can be written as:
 \end{align}
 where the different colors try to emphasize \emph{a main rotation around the $3$-axis} (represented by red color) and \emph{the precession + oscillation of the total angular momentum} (represented by blue color).
 
-The wobbling excitations causing oscillations with small amplitudes for $\mathbf{I}$ about the $3$-axis are assumed to have a harmonic-like behavior, meaning that the final energy spectrum will have the typical $\hbar\omega(n+1/2)$ behavior. The oscillatory motion can be explained as `vibrations' of the total angular momentum around a steady position, where each wobbling excitation consists of an additional vibrating phonon. Therefore, one can express the Hamiltonian in terms of \emph{boson} creation and annihilation operators \cite{bohr1998nuclear}:
+The wobbling excitations causing oscillations with small amplitudes for $\mathbf{I}$ about the $3$-axis are assumed to have a harmonic-like behavior, meaning that the final energy spectrum will have the typical $\hbar\omega(n+1/2)$ behavior. The oscillatory motion can be explained as the `vibration' of the total angular momentum around a steady position, where each wobbling excitation consists of an additional vibrating phonon. Therefore, the Hamiltonian can be expressed in terms of \emph{boson} creation and annihilation operators \cite{bohr1998nuclear}:
 \begin{align}
     b^\dagger=\frac{1}{\sqrt{2I}}I_+\ ,\ b=\frac{1}{\sqrt{2I}}I_-\ ,\ \left[b,b^\dagger\right]\approx 1\ .
 \end{align}
 
-This initial quantization allows one to write Eq. \ref{general-rotor-ham-evenA} as a rotational term and a wobbling-specific one:
+This initial quantization allows one to write Eq. \ref{general-rotor-ham-evenA} as a rotational term and a wobbling-specific term:
 \begin{align}
     \hat{H}_\text{rot}&={\color{red}A_3I_3^2}+{\color{blue}H_w}\ ,\label{rot-ham-non-diagonal} \\
     {\color{blue}H_w}&={\color{blue}t_1\left(n+\frac{1}{2}\right)+\frac{1}{2}t_2(b^\dagger b^\dagger + bb)}\ ,
     \label{wob-ham-non-diagonal}
 \end{align}
-where the \emph{number of boson excitations} is denoted by $n$ and it is given by $n=b^\dagger b$. 
-%Each wobbling quanta will carry an angular momentum of one unit less with respect to the $3$-axis.
-The two factors $t_{1,2}$ are expressed in terms of the inertial parameters as \cite{bohr1998nuclear}:
+where the \emph{number of boson excitations} is denoted by $n$, and it is given by $n=b^\dagger b$. The two factors $t_{1,2}$ are expressed in terms of the inertial parameters as \cite{bohr1998nuclear}:
 \begin{align}
     t_1&=I(A_2+A_1-2A_3)\ , \\
-    t_2&=I(A_2-A_1)\ .
+    t_2&=I(A_2-A_1)\ ,
     \label{t1-t2-terms}
 \end{align}
-
-Notice the linear dependence of the two parameters on the total angular momentum $I$. Moreover, depending on the values of $A_k$, the contribution of $t_{1,2}$ can be negative. Their behavior is shown within the right inset of Fig. \ref{fig-even-even-wobbling-energies}. Although the Hamiltonian $H_w$ is considered to have an oscillatory-like behavior, its general expression does not look like a harmonic Hamiltonian. Nevertheless, Eq. \ref{wob-ham-non-diagonal} can be brought to a diagonalized form by introducing a new set of boson creation and annihilation operators. These operators will be written as linear combinations of $(b^\dagger,b)$ \cite{bohr1998nuclear}:
+with a linear dependence of the two parameters on the total angular momentum. Moreover, depending on the values of $A_k$, the contribution of $t_{1,2}$ can be negative. Their behavior is shown within the right inset of Fig. \ref{fig-even-even-wobbling-energies}. Although the Hamiltonian $H_w$ is considered to have an oscillatory-like behavior, its general expression does not look like a harmonic Hamiltonian. Nevertheless, Eq. \ref{wob-ham-non-diagonal} can be brought to a diagonalized form by introducing a new set of boson creation and annihilation operators. These operators will be written as linear combinations of $(b^\dagger,b)$ \cite{bohr1998nuclear}:
 \begin{align}
     c^\dagger=w_1b^\dagger-w_2b\ ,\\
     c=w_1b-w_2b^\dagger\ ,
@@ -52,7 +49,7 @@ where the two coefficients $w_{1,2}$ are defined in terms of $t_{1,2}$ as \cite{
     \label{eqs-w1-w2-terms-wobbling}
 \end{align}
 
-The terms $w_{1,2}$ verify the condition $w_1^2-w_2^2=1$ and they make the `dangerous' products $b^\dagger b^\dagger$ and $bb$ vanish \cite{oi2006semi}. Note that $w_{1,2}$ are constant functions of spin, unlike the coefficients $t_{1,2}$. In addition, by introducing a number operator $\hat{n}=c^\dagger c$ and an excitation quanta $\hbar\omega_w$ defined as \cite{bohr1998nuclear}:
+The terms $w_{1,2}$ verify the condition $w_1^2-w_2^2=1$, and they make the `dangerous' products $b^\dagger b^\dagger$ and $bb$ vanish \cite{oi2006semi}. Note that $w_{1,2}$ are constant functions of spin, unlike the coefficients $t_{1,2}$. In addition, by introducing a number operator $\hat{n}=c^\dagger c$ and an excitation quanta $\hbar\omega_w$ defined as \cite{bohr1998nuclear}:
 \begin{align}
     \hbar\omega_w=\sqrt{t_1^2-t_2^2}=2I\sqrt{(A_1-A_3)(A_2-A_3)}\ ,
     \label{wobbling-frequency-even-A}
