@@ -720,7 +720,7 @@ where $^A$Lu represents the isotope that is evaluated (i.e., $A\in\{161,163,165,
 Concluding the current section, Eq. \ref{general-excitation-energy-fitting-model} provides the final ingredient towards the determination of the energy spectra for the whole group of nuclides. Indeed, the $\chi^2$-function can be minimized using $E_{I,n_{w_1},n_{w_2}}^{\text{TSD}N}(^A\text{Lu\ ;\ exc})$ as a model, with the data from Tables \ref{lu-161-experimental-data-table} - \ref{lu-167-experimental-data-table} as input. The full workflow is depicted in Fig. \ref{fitting-workflow-fig} as a diagram.
 \begin{figure}
     \centering
-    \includegraphics[width=0.99\textwidth]{Chapters/Figures/fitting_procedure_chi2.pdf}
+    \includegraphics[width=0.99\textwidth]{Chapters/Figures/fitting_procedure_chi2_redesign.pdf}
     \caption{The overall workflow for solving the minimization of the $\chi^2$-function (Eq. \ref{chi-2-fitting-function}). Initially, the absolute energy of the band-head $I_b$ (Eq. \ref{absolute-energy-fitting-model} - red color) is subtracted from every state $I$ (Eq. \ref{tsd-bands-compressed-spectrum} - black color) in order to obtain the excitation energy (Eq. \ref{general-excitation-energy-fitting-model} - blue color). This is applied to the entire spectrum. Next, the inputs from Tables \ref{lu-163-table-info} - \ref{lu-167-experimental-data-table} are used in the minimization of $\chi^2$. The fitting function returns the set of parameters $\mathcal{P}_\text{fit}$ (Eq. \ref{fitting-parameters-p-fit}), finalizing thus the numerical procedure.}
     \label{fitting-workflow-fig}
 \end{figure}
