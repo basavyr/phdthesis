@@ -51,7 +51,7 @@
 \contentsline {section}{\numberline {4.1}Previous Work - Foundation}{96}{section.225}%
 \contentsline {section}{\numberline {4.2}Re-interpretation of the Wobbling Motion}{99}{section.227}%
 \contentsline {subsection}{\numberline {4.2.1}Variational Principle}{100}{subsection.231}%
-\contentsline {subsection}{\numberline {4.2.2}Classical Equations of Motion}{101}{subsection.237}%
+\contentsline {subsection}{\numberline {4.2.2}Classical Equations of Motion}{102}{subsection.237}%
 \contentsline {subsection}{\numberline {4.2.3}Classical Energy Function (CEF)}{104}{subsection.244}%
 \contentsline {subsubsection}{\numberline {4.2.3.1}Canonical Factors - Qualitative Analysis}{104}{subsubsection.247}%
 \contentsline {subsubsection}{\numberline {4.2.3.2}Critical Region}{105}{subsubsection.251}%
@@ -70,22 +70,22 @@
 \contentsline {subsubsection}{\numberline {4.4.6.1}E2 Transitions}{145}{subsubsection.351}%
 \contentsline {subsubsection}{\numberline {4.4.6.2}M1 Transitions}{153}{subsubsection.370}%
 \contentsline {section}{\numberline {4.5}Concluding Remarks}{158}{section.382}%
-\contentsline {chapter}{\numberline {5}Novel Description of the Wobbling Bands}{161}{chapter.385}%
-\contentsline {section}{\numberline {5.1}Parity Partner Bands}{162}{section.386}%
-\contentsline {subsection}{\numberline {5.1.1}Parity of the wave-function}{165}{subsection.391}%
-\contentsline {subsection}{\numberline {5.1.2}Redefined Energy Spectrum}{166}{subsection.399}%
-\contentsline {section}{\numberline {5.2}Numerical Results}{167}{section.401}%
-\contentsline {subsection}{\numberline {5.2.1}Energy spectrum}{167}{subsection.403}%
-\contentsline {subsection}{\numberline {5.2.2}Interpretation of the parameter set}{171}{subsection.409}%
-\contentsline {section}{\numberline {5.3}Classical Energy Function (CEF)}{174}{section.412}%
-\contentsline {subsection}{\numberline {5.3.1}CEF - Stability Regions}{175}{subsection.417}%
-\contentsline {subsection}{\numberline {5.3.2}Classical 3D Trajectories}{180}{subsection.426}%
-\contentsline {section}{\numberline {5.4}Concluding Remarks}{184}{section.436}%
-\contentsline {chapter}{\numberline {6}Conclusions}{187}{chapter.437}%
-\contentsline {chapter}{\numberline {A}Shell Model}{192}{appendix.438}%
-\contentsline {section}{\numberline {A.1}Shell model}{192}{section.439}%
-\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{200}{section.463}%
-\contentsline {chapter}{\numberline {B}Two-State Mixing}{207}{appendix.475}%
-\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{212}{appendix.490}%
-\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{213}{section.492}%
-\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{214}{section.498}%
+\contentsline {chapter}{\numberline {5}Novel Description of the Wobbling Bands}{161}{chapter.386}%
+\contentsline {section}{\numberline {5.1}Parity Partner Bands}{162}{section.387}%
+\contentsline {subsection}{\numberline {5.1.1}Parity of the wave-function}{165}{subsection.392}%
+\contentsline {subsection}{\numberline {5.1.2}Redefined Energy Spectrum}{166}{subsection.400}%
+\contentsline {section}{\numberline {5.2}Numerical Results}{167}{section.402}%
+\contentsline {subsection}{\numberline {5.2.1}Energy spectrum}{167}{subsection.404}%
+\contentsline {subsection}{\numberline {5.2.2}Interpretation of the parameter set}{171}{subsection.410}%
+\contentsline {section}{\numberline {5.3}Classical Energy Function (CEF)}{174}{section.413}%
+\contentsline {subsection}{\numberline {5.3.1}CEF - Stability Regions}{175}{subsection.418}%
+\contentsline {subsection}{\numberline {5.3.2}Classical 3D Trajectories}{180}{subsection.427}%
+\contentsline {section}{\numberline {5.4}Concluding Remarks}{184}{section.437}%
+\contentsline {chapter}{\numberline {6}Conclusions}{187}{chapter.438}%
+\contentsline {chapter}{\numberline {A}Shell Model}{192}{appendix.439}%
+\contentsline {section}{\numberline {A.1}Shell model}{192}{section.440}%
+\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{200}{section.464}%
+\contentsline {chapter}{\numberline {B}Two-State Mixing}{207}{appendix.476}%
+\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{212}{appendix.491}%
+\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{213}{section.493}%
+\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{214}{section.499}%
