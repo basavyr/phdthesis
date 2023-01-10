@@ -447,6 +447,7 @@ The dependence of the two types of MOI on the triaxiality parameter $\gamma$ (an
 In the following two subsections, each type of degree of freedom will be described, giving the main characteristics of the energy spectra associated with the two motions. 
 
 \subsection{Nuclear Vibration}
+\label{subsection-nuclear-vibration}
 
 The energy spectrum is composed of levels built from the oscillator frequencies. The absorption or emission of vibration-like energy quanta (i.e., phonons) when the nucleus transitions to a higher or a lower energy state will be in terms of dipole, quadrupole, octupole, etc. vibrating phonons. These excitations will generate the ground and excited states, resulting in a `collection' of \emph{vibrational bands}. Since the quadrupole effects are of interest within the current work, a spectrum specific to quadrupole vibrations $\lambda=2$ phonons can be seen in Fig. \ref{fig-vibrational-bands}.
 \begin{figure}
@@ -486,6 +487,7 @@ Since the quadrupole vibrations carry an angular momentum of $\lambda=2$, there 
 \end{figure}
 
 \subsection{Nuclear Rotation}
+\label{subsection-nuclear-rotation}
 
 The rotational-kinetic term from $H_\text{coll}$ is called the \emph{rotational energy}, and its expression is given by \cite{corrigan1976exact}:
 \begin{align}
@@ -626,6 +628,7 @@ In the case of $K=0$ bands, the aligned angular momentum reaches a simplified fo
 The rotational frequency is used to represent many quantities that characterize collective motion and nuclear deformation. Representing the total or the aligned angular momenta as functions of $\omega$ can show wether multiple bands have the same nature. Moreover, representing the MOI as function of $\omega$ will also give an insight on the intrinsic structure of the nucleus. Another interesting feature that is present in high-spin spectra of nuclei is the so-called \emph{backbending} phenomena. This phenomenon appears due to the Coriolis effect: nucleons can suffer a de-pairing that makes their a.m. to align with the rotational axis, causing a sharp increase in the MOI \cite{ring2004nuclear,kvasil2004backbending}. These kind of effects are correlated to high deformation, increased rotation, and change in the nucleonic alignment.
 
 \subsubsection{Moments of Inertia}
+\label{subsection-moments-of-inertia}
 
 This is a crucial quantity that describes the degree of deformation and asymmetry of the nuclear shape (remember discussion from Section \ref{section-nuclear-shapes}). It is possible to retrieve an \emph{experimental} value for the MOI by inferring the energy spacing between consecutive levels of a collective spectrum. A classification of types of MOI was done in Eq. \ref{eq-irrotational-rigid-mois}, where the MOI dependence on the deformation parameters and even the mass parameter $B_\lambda$ was shown. The most general expression for the MOI can be written as \cite{ahmad2021backbending}:
 \begin{align}
@@ -783,7 +786,7 @@ It is important to understand why the nuclear community focuses their attention 
 
 \subsection{Non-axial nuclei}
 
-In order to define a collective spectra with rotational character for a nucleus, deformation is required. A discussion regarding excitation energies focused on pure rotors or nuclei with axially symmetric shapes (i.e., prolate or oblate) is made in Appendix \ref{appendix:ral-dal-signature-scheme}. The relevant quantities that are involved in the rotational motion for a deformed nucleus are the moments of inertia corresponding to the principal axes of the deformed ellipsoid: $\mathcal{I}_{1,2,3}$.
+In order to define a collective spectra with rotational character for a nucleus, deformation is required. A discussion regarding excitation energies focused on pure rotors or nuclei with axially symmetric shapes (i.e., prolate or oblate) is made in Appendix \ref{appendix:ral-dal-signature-scheme}. The relevant quantities that are involved in the rotational motion for a deformed nucleus are the moments of inertia (introduced in Section \ref{subsection-moments-of-inertia}) corresponding to the principal axes of the deformed ellipsoid: $\mathcal{I}_{1,2,3}$.
 
 Even though calculations are performed with the rigid-like MOI or the irrotational-like, their dependence on the deformation parameters $\beta_2$ and $\gamma$ is present (recall expressions given in Eq. \ref{eq-irrotational-rigid-mois}). Taking a closer look at their evolution with $\gamma$, one can see that indeed, similar MOI can only occur at certain values (see Fig. \ref{fig-irrotational-rigid-mois}). When referring to their ground state, nuclei can be regarded as such:
 \begin{itemize}
@@ -797,7 +800,7 @@ Most of the isotopes are either spherical or symmetric in their ground state \ci
 A rigid (fixed) value for $\gamma$ is required such that triaxial stable nuclei can exist.
 %Thus, one can distinguish between the $\gamma$-soft nuclei in which this parameter has a dynamical character and the $\gamma$-rigid ones, which could in fact exhibit stable triaxial deformation \cite{dracoulis2013isomers}.
 Thus, one can distinguish between the $\gamma$-soft and $\gamma$-rigid nuclei.
-Even more interesting are the structures occurring at very large values of quadrupole deformation $\beta_2$ and $\gamma\approx 30^\circ$ (where maximal triaxiality occurs). It will be shown that these nuclei will lead to band structures that are called \emph{Triaxial Strongly Deformed} bands (TSD) \cite{odegaard2001evidence,jensen2002evidence}. Triaxial nuclei are a special class of nuclei, where a complete asymmetry exists between the moments of inertia (given by $\gamma$) and the quadrupole deformation is large.
+Even more interesting are the structures occurring at very large values of quadrupole deformation $\beta_2$ and $\gamma\approx 30^\circ$ (where maximal triaxiality occurs). It will be shown that these nuclei will lead to band structures that are called \emph{Triaxial Strongly Deformed} bands (TSD) \cite{odegaard2001evidence,jensen2002evidence}. Triaxial nuclei are a special class of nuclei, where a complete asymmetry between the moments of inertia exists (given by $\gamma$) and the quadrupole deformation is large.
 
 \subsection{Triaxial Rotor Model}
 \label{trm-model}
@@ -1010,11 +1013,9 @@ The geometrical interpretation of the left-handed and right-handed systems can b
     \label{chiral-geometry}
 \end{figure}
 
-\newpage % force pictures to render before the wobbling subsection
-
 \subsection{Wobbling Motion}
 
-The second fingerprint of triaxiality is the main topic of this work, and it will be discussed in detail in the next chapter. A great amount of progress in understanding nuclear phenomena at high spin has been made by. Going back to the discussion about the triaxial shapes and their asymmetry between the MOI, this key feature leads to the possibility of defining a rotation about any of the three axis. Although most of rotational motion will be around the axis with the largest MOI (since this is energetically \emph{the cheapest} \cite{bohr1954rotational}), the other two axes will contribute to a `total' (superimposed) rotation such that the angular momentum $\mathbf{I}$ of the system will precess around a steady position. The precessional motion has oscillator-like behavior, meaning that $\mathbf{I}$ will not only precess, but its projection around the principal axes will oscillate around a steady position. The easiest way of understanding wobbling motion is through the classical analog of the \emph{spinning asymmetric top}. However, the spinning motion for a nucleus is \emph{quantized} and a typical phonon number will be attributed to the system.
+The second fingerprint of triaxiality is the main topic of this work, and it will be discussed in detail in the next chapter. A great amount of progress in understanding nuclear phenomena at high spin has been made by studying this effect. Going back to the discussion about the triaxial shapes and their asymmetry between the MOI, this key feature leads to the possibility of defining a rotation about any of the three axis. Although most of rotational motion will be around the axis with the largest MOI (since this is energetically \emph{the cheapest} \cite{bohr1954rotational}), the other two axes will contribute to a `total' (superimposed) rotation such that the angular momentum $\mathbf{I}$ of the system will precess around a steady position. The precessional motion has oscillator-like behavior, meaning that $\mathbf{I}$ will not only precess, but its projection around the principal axes will oscillate around a steady position. The easiest way of understanding wobbling motion is through the classical analog of the \emph{spinning asymmetric top}. However, the spinning motion for a nucleus is \emph{quantized} and a typical phonon number will be attributed to the system.
 
 As it will be shown in the following chapter, treating the wobbling phenomenon in a `classical' picture will lead to very good results concerning the physical quantities of interest. Moreover, there are many attempts (albeit quantum mechanical or semi-classical approximations) at describing wobbling motion in which the parameters used to describe the Hamiltonian have clear physical meaning, keeping thus a close contact with well-defined concepts regarding system dynamics.
 
