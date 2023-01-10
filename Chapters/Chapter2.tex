@@ -1,14 +1,14 @@
 \chapter{Theoretical Aspects of Nuclear Deformation}
-\label{theoretical-aspects}
+\label{chapter-2-theoretical-aspects}
 
 % DONE -> TO-DO write introduction for the chapter
 % TO-DO connect all content from the previous C2, C3, C4 into one intro
 In order to understand nuclei in terms of their shape and to get a grasp on how deformation plays a major role in affecting the dynamics of nuclear matter, it is necessary to introduce a few definitions and theoretical models. These will represent fundamental \emph{tools} in the development of the formalism, which will be presented later on. It is rather intuitive that a key characteristic related to the size and shape of the nucleus is its radius. Therefore, the first section aims at giving an insight on the nuclear radius and how it can be approximated, showing that different approximations lead to specific types of deformations. Moreover, a realistic description of nuclei would require a time-dependent behavior of their surface, i.e., via surface vibrations or surface oscillations. They will be covered as well throughout this chapter.% These oscillations near the surface give, on average, a stable overall shape.
 
-As an outline of this chapter, the parametrization of nuclear shapes and deformations will be detailed in Section \ref{nuclear-shapes}, while Section \ref{section-nuclear-models} will cover the fundamental features of some nuclear models. Lastly, Section \ref{section-triaxial-signatures} will introduce the unique characteristics of nuclei lacking symmetry in regards to their equilibrium shape. A set of conclusions that emerge from all sections will be inferred at the end of the chapter.
+As an outline of this chapter, the parametrization of nuclear shapes and deformations will be detailed in Section \ref{section-nuclear-shapes}, while Section \ref{section-nuclear-models} will cover the fundamental features of some nuclear models. Lastly, Section \ref{section-triaxial-signatures} will introduce the unique characteristics of nuclei lacking symmetry in regards to their equilibrium shape. A set of conclusions that emerge from all sections will be inferred at the end of the chapter.
 
 \section{Shape of Nuclei}
-\label{nuclear-shapes}
+\label{section-nuclear-shapes}
 
 The nuclear surface can be described through an expansion of the spherical harmonics with some time-dependent parameters as \emph{expansion coefficients}. The expression of the nuclear shape is given as \cite{greiner1996nuclear}:
 \begin{align}
@@ -77,7 +77,7 @@ The multipole deformations for the cases $\lambda=1,2,3$ and $\lambda=4$ are sho
 \end{figure}
 
 \subsection{Quadrupole Deformation}
-\label{section:quadrupole-deformation}
+\label{subsection-quadrupole-deformation}
 
 One of the most important excitation modes (vibrational degrees of freedom) is the quadrupole deformation, corresponding to $\lambda=2$. In the case of pure quadrupole deformation, the nuclear surface will be given by the following expression:
 \begin{align}
@@ -179,7 +179,7 @@ Regarding the nuclear shapes that were described in Fig. \ref{beta-gamma-plane},
 \end{itemize}
 
 \subsection{Lund Convention}
-\label{subsection:lund-convention}
+\label{subsection-lund-convention}
 
 The so-called Lund convention \cite{andersson1976nuclear} somewhat solves this repetitiveness, by selecting a rotational axis according to the set of rules described below:
 \begin{itemize}
@@ -272,9 +272,9 @@ A formalism which describes the nuclear properties is the \emph{Shell Model}. It
 % \end{align}
 
 \subsection{Deformed Shell Model - Nilsson Model}
-\label{nilsson-model-section}
+\label{subsection-nilsson-model}
 
-The idea that some nuclei are deformed in their ground-state was enforced experimentally a long time ago, when measuring quantities such as density distributions or nuclear quadrupole moments \cite{casten2000nuclear}. The non-spherical shapes are given by the existence of nucleonic configurations, which lie away from the major shell closure. In Section \ref{theoretical-aspects} from this chapter, the description of the nuclear shapes was treated using the well-known formula of the nuclear radius (see Eq. \ref{nuclear-shape}), resulting in the \emph{spherical}, \emph{axially-symmetric}, and \emph{axially-asymmetric} nuclear shapes.
+The idea that some nuclei are deformed in their ground-state was enforced experimentally a long time ago, when measuring quantities such as density distributions or nuclear quadrupole moments \cite{casten2000nuclear}. The non-spherical shapes are given by the existence of nucleonic configurations, which lie away from the major shell closure. In Section \ref{section-nuclear-shapes} from this chapter, the description of the nuclear shapes was treated using the well-known formula of the nuclear radius (see Eq. \ref{nuclear-shape}), resulting in the \emph{spherical}, \emph{axially-symmetric}, and \emph{axially-asymmetric} nuclear shapes.
 
 Developed by Nilsson in 1955 \cite{nilsson1955binding} for treating the \emph{deformed nuclei}, it is a modified shell model with deformations taken into account by the use of the \emph{anisotropic harmonic oscillator} (AHO) (see Appendix \ref{appendix:shell-model} for the simple and modified ones). Similarly as for the basic shell model, the goal is to obtain an expression for the single-particle energies of a nucleon. The basic Hamiltonian corresponding to this kind of system is shown below \cite{bertulani2007nuclear}:
 \begin{align}
@@ -387,6 +387,7 @@ Obviously, the sketch shown in Fig. \ref{nillson-orbits-splittings} is just an i
 \pagebreak
 
 \subsection{Collective Model}
+\label{subsection-collective-model}
 
 Although the previous single-particle model is able to successfully treat many nuclei, the single-nucleon motion in a deformed potential is not enough to describe phenomena such as nuclear fission or quantities like quadrupole moments of deformed nuclei \cite{townes1949nuclear}. Moreover, lifetime measurements through single-particle calculations fail to reproduce experimental data on some gamma-ray transitions of quadrupole nature \cite{goldhaber1951classification}.
 
@@ -394,6 +395,7 @@ The collective model is one of the most `complete' tools in describing the nucle
 
 \subsection{Bohr Hamiltonian}
 \label{bohr-hamiltonian}
+
 As a first step, the concept of a nuclear liquid drop is used to construct the Hamiltonian. The droplet exhibits shape and surface oscillations, which have a dynamical character. These shape oscillations are illustrated in Fig. \ref{fig-nuclear-vibration}, where a vibrating nucleus is represented, having a spherical \emph{equilibrium} shape. Since the collective coordinates are time-dependent, at each moment in time, the nuclear radius $R$ will be defined in the direction given by the radial coordinates $\theta,\varphi$. By using Eq. \ref{nuclear-shape} that characterizes the \emph{vibrations} of a nuclear surface, one can give the Hamiltonian of \emph{collective} nature as \cite{ring2004nuclear,bertulani2007nuclear}:
 \begin{align}
     H_\text{coll}\equiv T+V=\frac{1}{2}\sum_{\lambda\mu}\left[B_\lambda\left|\frac{\text{d}\alpha_{\lambda\mu}}{\text{d}t}\right|^2+C_\lambda|\alpha_{\lambda\mu}|^2\right]\ .
@@ -935,7 +937,7 @@ In reference to this evaluation, one can observe the fact that the single-partic
 Concluding this section, the energy spectrum for an odd-$A$ nucleus can be described using the triaxial PRM. It is a starting ground for many theoretical descriptions that aim at confirming and predicting phenomena specific to highly deformed nuclei.
 
 \subsection{Stable Triaxial Deformation}
-\label{potential-energy-surfaces-section}
+\label{subsection-potential-energy-surfaces}
 
 The stability of a triaxial nucleus is related to the presence (existence) of minima within the \emph{Potential Energy Surface} \cite{ring2004nuclear}. This energy surface characterizes the shape of the nucleus with respect to the deformation parameters $\beta$ and $\gamma$. 
 % One can speculate on the fact that for an ellipsoidal shape, the total energy at a fixed angular momentum, function of the deformation will be given as \cite{ring2004nuclear}:
@@ -980,7 +982,7 @@ On the experimental side, a tremendous effort was made in order to construct set
 Even though stable triaxiality is an elusive phenomenon, \emph{two clear fingerprints} are known to pinpoint asymmetric nuclear shapes: \textbf{wobbling motion} and \textbf{chiral symmetry breaking}. There has been an extensive study of these two phenomena, and both indicate a clear lack of symmetry for the underlying nuclei. Since wobbling is the main focus of this work, a brief introduction for chiral symmetry breaking will be made below, while a separated chapter will be devoted to the experimental evidence and theoretical studies regarding wobbling motion.
 
 \subsection{Chiral motion}
-\label{chiral-section}
+\label{subsection-chiral-motion}
 
 Firstly introduced by Frauendorf \cite{frauendorf1997tilted}, it concerns nuclei in which the nucleonic configurations lead to a system that lacks \emph{chiral symmetry}, meaning that the \emph{left-handed} version is not identical with the \emph{right-handed} one. The two systems can be transformed into each other via the chiral operator by combining a rotation with the time-reversal operator: $\chi_\text{chiral}=\mathcal{T}\mathcal{R}(\pi)$. The left/right handedness of the nuclear system comes from the coupling of three different angular momenta, typically a valence proton, a valence neutron, and a rotational core. As such, the chiral symmetry breaking is expected to appear in odd-odd nuclei.
 
