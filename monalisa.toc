@@ -31,7 +31,7 @@
 \contentsline {subsection}{\numberline {2.3.4}Stable Triaxial Deformation}{54}{subsection.136}%
 \contentsline {subsection}{\numberline {2.3.5}Fingerprints of Triaxiality}{56}{subsection.139}%
 \contentsline {subsection}{\numberline {2.3.6}Chiral motion}{57}{subsection.140}%
-\contentsline {subsection}{\numberline {2.3.7}Wobbling Motion}{60}{subsection.144}%
+\contentsline {subsection}{\numberline {2.3.7}Wobbling Motion}{59}{subsection.144}%
 \contentsline {chapter}{\numberline {3}Wobbling Motion in Nuclei}{61}{chapter.145}%
 \contentsline {section}{\numberline {3.1}Wobbling Motion in Even-Even Nuclei}{61}{section.146}%
 \contentsline {subsection}{\numberline {3.1.1}Triaxial rotor energy vs. wobbling energy}{68}{subsection.173}%
