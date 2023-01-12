@@ -68,7 +68,7 @@ Samuel~SM Wong.
 \newblock John Wiley \& Sons, 2008.
 
 \bibitem{andersson1976nuclear}
-G~Andersson, SE~Larsson, G~Leander, P~Moller, Sven~Gosta Nilsson,
+G~Andersson, SE~Larsson, G~Leander, P~M{\"o}ller, Sven~G{\"o}sta Nilsson,
   Ingemar Ragnarsson, Sven {\AA}berg, R~Bengtsson, J~Dudek, B~Nerlo-Pomorska,
   et~al.
 \newblock Nuclear shell structure at very high angular momentum.
@@ -288,13 +288,13 @@ R~Budaca.
 \newblock {\em Physical Review C}, 97(2):024302, 2018.
 
 \bibitem{moller2006global}
-Peter Moller, Ragnar Bengtsson, B Gillis Carlsson, Peter Olivius, and
+Peter M{\"o}ller, Ragnar Bengtsson, B~Gillis Carlsson, Peter Olivius, and
   Takatoshi Ichikawa.
 \newblock Global calculations of ground-state axial shape asymmetry of nuclei.
 \newblock {\em Physical review letters}, 97(16):162502, 2006.
 
 \bibitem{odegaard2001evidence}
-SW~Odegaard, GB~Hagemann, and DR~Jensen.
+SW~{\O}deg{\aa}rd, GB~Hagemann, and DR~Jensen.
 \newblock Evidence for the wobbling mode in nuclei.
 \newblock {\em Physical review letters}, 86(26):5866, 2001.
 
@@ -362,7 +362,7 @@ R~Budaca and AI~Budaca.
 \newblock {\em Nuclear Physics A}, 1017:122355, 2022.
 
 \bibitem{moller2009heavy}
-Peter Moller, Arnold~J Sierk, Takatoshi Ichikawa, Akira Iwamoto, Ragnar
+Peter M{\"o}ller, Arnold~J Sierk, Takatoshi Ichikawa, Akira Iwamoto, Ragnar
   Bengtsson, Henrik Uhrenholt, and Sven {\AA}berg.
 \newblock Heavy-element fission barriers.
 \newblock {\em Physical Review C}, 79(6):064304, 2009.
@@ -389,7 +389,7 @@ Gregoire Henning.
 \bibitem{simpson1997euroball}
 J~Simpson.
 \newblock The euroball spectrometer.
-\newblock {\em Zeitschrift fur Physik A Hadrons and Nuclei},
+\newblock {\em Zeitschrift f{\"u}r Physik A Hadrons and Nuclei},
   358(2):139--143, 1997.
 
 \bibitem{lee1990gammasphere}
@@ -398,7 +398,7 @@ I-Yang Lee.
 \newblock {\em Nuclear Physics A}, 520:c641--c655, 1990.
 
 \bibitem{ayangeakaa2013exotic}
-Daniel Ayangeakaa.
+Akaa~Daniel Ayangeakaa.
 \newblock {\em Exotic Modes of Collective Excitations: Nuclear Tidal Waves and
   Chirality}.
 \newblock PhD thesis, University of Notre Dame, 2013.
@@ -427,7 +427,7 @@ Stefan Frauendorf and Jie Meng.
 
 \bibitem{starosta2001chiral}
 K~Starosta, T~Koike, CJ~Chiara, DB~Fossan, DR~LaFosse, AA~Hecht, CW~Beausang,
-  MA~Caprio, JR~Cooper, R~Krucken, et~al.
+  MA~Caprio, JR~Cooper, R~Kr{\"u}cken, et~al.
 \newblock Chiral doublet structures in odd-odd n= 75 isotones: Chiral
   vibrations.
 \newblock {\em Physical review letters}, 86(6):971, 2001.
@@ -581,7 +581,7 @@ R~Poenaru and AA~Raduta.
 \newblock {\em Romanian Journal of Physics}, 66(9-10), 2021.
 
 \bibitem{timar2019experimental}
-J~Timar, QB~Chen, B~Kruzsicz, D~Sohler, I~Kuti, SQ~Zhang, J~Meng, P~Joshi,
+J~Tim{\'a}r, QB~Chen, B~Kruzsicz, D~Sohler, I~Kuti, SQ~Zhang, J~Meng, P~Joshi,
   R~Wadsworth, K~Starosta, et~al.
 \newblock Experimental evidence for transverse wobbling in pd 105.
 \newblock {\em Physical review letters}, 122(6):062501, 2019.
@@ -670,7 +670,7 @@ B.~F. Lv, C.~M. Petrache, A.~Astier, E.~Dupont, A.~Lopez-Martens, P.~T.
   Greenlees, H.~Badran, T.~Calverley, D.~M. Cox, T.~Grahn, J.~Hilton, R.~Julin,
   S.~Juutinen, J.~Konki, M.~Leino, J.~Pakarinen, P.~Papadakis, J.~Partanen,
   P.~Rahkila, M.~Sandzelius, J.~Saren, C.~Scholey, J.~Sorri, S.~Stolze,
-  J.~Uusitalo, A.~Herzan, B.~Cederwall, A.~Ertoprak, H.~Liu, S.~Guo, M.~L.
+  J.~Uusitalo, A.~Herz\'an, B.~Cederwall, A.~Ertoprak, H.~Liu, S.~Guo, M.~L.
   Liu, Y.~H. Qiang, J.~G. Wang, X.~H. Zhou, I.~Kuti, J.~Tim\'ar, A.~Tucholski,
   J.~Srebrny, and C.~Andreoiu.
 \newblock Evolution from gamma-soft to stable triaxiality in 136nd as a
@@ -685,27 +685,27 @@ Fang-Qi Chen and CM~Petrache.
 
 \bibitem{jensen2004coexisting}
 DR~Jensen, GB~Hagemann, I~Hamamoto, B~Herskind, G~Sletten, JN~Wilson,
-  SW~{\O}deg{\aa}rd, K~Spohr, H~Hubel, P~Bringel, et~al.
+  SW~{\O}deg{\aa}rd, K~Spohr, H~H{\"u}bel, P~Bringel, et~al.
 \newblock Coexisting wobbling and quasiparticle excitations in the triaxial
   potential well of 163 lu.
 \newblock {\em The European Physical Journal A-Hadrons and Nuclei},
   19(2):173--185, 2004.
 
 \bibitem{bringel2005evidence}
-P~Bringel, GB~Hagemann, H~Hubel, A~Al-Khatib, P~Bednarczyk, A~Burger,
+P~Bringel, GB~Hagemann, H~H{\"u}bel, A~Al-Khatib, P~Bednarczyk, A~B{\"u}rger,
   D~Curien, G~Gangopadhyay, B~Herskind, DR~Jensen, et~al.
 \newblock Evidence for wobbling excitation in 161 lu.
 \newblock {\em The European Physical Journal A-Hadrons and Nuclei},
   24(2):167--172, 2005.
 
 \bibitem{schonwasser2003one}
-G~Schonwasser, H~Hubel, GB~Hagemann, P~Bednarczyk, G~Benzoni,
+G~Sch{\"o}nwa{\ss}er, H~H{\"u}bel, GB~Hagemann, P~Bednarczyk, G~Benzoni,
   A~Bracco, P~Bringel, R~Chapman, D~Curien, J~Domscheit, et~al.
 \newblock One-and two-phonon wobbling excitations in triaxial 165lu.
 \newblock {\em Physics Letters B}, 552(1-2):9--16, 2003.
 
 \bibitem{amro2003wobbling}
-H~Amro, WC~Ma, GB~Hagemann, RM~Diamond, J~Domscheit, P~Fallon, A~Gorgen,
+H~Amro, WC~Ma, GB~Hagemann, RM~Diamond, J~Domscheit, P~Fallon, A~G{\"o}rgen,
   B~Herskind, H~H{\"u}bel, DR~Jensen, et~al.
 \newblock The wobbling mode in 167lu.
 \newblock {\em Physics Letters B}, 553(3-4):197--203, 2003.
@@ -857,7 +857,7 @@ QB~Chen, N~Kaiser, Ulf-G Mei{\ss}ner, and J~Meng.
 \newblock {\em Physics Letters B}, 807:135568, 2020.
 
 \bibitem{gorgen2004quadrupole}
-A~Gorgen, RM~Clark, M~Cromaz, P~Fallon, GB~Hagemann, H~Hubel, IY~Lee,
+A~G{\"o}rgen, RM~Clark, M~Cromaz, P~Fallon, GB~Hagemann, H~H{\"u}bel, IY~Lee,
   AO~Macchiavelli, G~Sletten, D~Ward, et~al.
 \newblock Quadrupole moments of wobbling excitations in lu 163.
 \newblock {\em Physical Review C}, 69(3):031301, 2004.
@@ -903,8 +903,13 @@ Kosai Tanabe and Kazuko Sugawara-Tanabe.
   odd-mass nucleus and the analysis of pr 135’”.
 \newblock {\em Physical Review C}, 97(6):069802, 2018.
 
+\bibitem{dyson1956general}
+Freeman~J Dyson.
+\newblock General theory of spin-wave interactions.
+\newblock {\em Physical review}, 102(5):1217, 1956.
+
 \bibitem{weizsacker1935theorie}
-CF~von Weizsacker.
+CF~von Weizs{\"a}cker.
 \newblock Zur theorie der kernmassen.
 \newblock {\em Zeitschrift f{\"u}r Physik}, 96(7):431--458, 1935.
 
