@@ -7,11 +7,26 @@ The $\mathbf{W_0}$ formalism developed by the team in Ref. \cite{raduta2017semic
 \begin{align}
     \hat{H}_R=\frac{\hat{R}_1}{2\mathcal{I}_1}+\frac{\hat{R}_2}{2\mathcal{I}_2}+\frac{\hat{R}_3}{2\mathcal{I}_3}\ ,
 \end{align}
-and angular momentum components $\hat{R}_k$. From this initial quantal problem, a variational principle brings the system into a classical view, where the eigenvalue problem becomes a system of classical equations in a phase space (see Section II.A and II.B from Ref. \cite{raduta2017semiclassical}). Furthermore, the classical coordinates belonging to that phase space were re-quantized through the Dyson boson expansion \cite{dyson1956general}. Starting with two canonical complex variables:
+and angular momentum components $\hat{R}_k$. From this initial quantal problem, a variational principle (similar recipe as the one described in Section \ref{variational-principle-section}, but only for one set of coordinates) brings the system into a classical view, where the eigenvalue problem becomes a system of classical equations in a phase space (see Section II.A and II.B from Ref. \cite{raduta2017semiclassical}). Summarizing the calculations from Ref. \cite{raduta2017semiclassical}, one obtained a pair of conjugate variables (i.e., $r$ and$\varphi$) and the classical equations of motion (recall discussion from Section \ref{equations-of-motion-section} and Eq. \ref{eq-of-motion-approach-w1}) as:
+\begin{align}
+    \frac{\partial\mathcal{H}}{\partial}=\dot{\varphi}\ ,\ \frac{\partial\mathcal{H}}{\partial\varphi}=-\dot{r}\ .
+\end{align}
+
+If the average values of the angular momentum components are expressed in terms of the variables $(r,\varphi)$, then the following equations emerge:
+\begin{align}
+    J_+^\text{cls}&\equiv\langle\hat{R}_+\rangle=\sqrt{r(2I-r)}e^{\iu\varphi}\ ,\nonumber \\
+    J_-^\text{cls}&\equiv\langle\hat{R}_-\rangle=\sqrt{r(2I-r)}e^{-\iu\varphi}\ ,\nonumber \\
+    J_3^\text{cls}&\equiv\langle\hat{R}_3\rangle=r-I\ .
+    \label{classical-am-components-boson}
+\end{align} 
+
+Furthermore, the classical coordinates belonging to that phase space were re-quantized through the \emph{Dyson boson expansion} \cite{dyson1956general}. Firstly, the quantization of complex coordinates  pair of complex functions defined on the phase space  
+
+Starting with two canonical complex variables:
 \begin{align}
     \mathcal{C}=\sqrt{2I}\sqrt{\frac{2I-r}{r}}e^{-\iu\varphi}\ ,\nonumber\\
     \mathcal{B}=\frac{1}{\sqrt{2I}}\sqrt{(2I-r)(r)}e^{\iu\varphi}\ ,
-\end{align} 
+\end{align}
 
 
 Remarkable that this is the first time within literature when this kind of representation is successfully applied to odd-$A$ nuclei.
