@@ -3,16 +3,15 @@
 
 The last part will be focused on the same wobbling phenomenon but with a different approach than the ones employed in Chapters \ref{chapter-4-aw1-formalism} and \ref{chapter-5-novel}, as this method does not share the same foundational concepts as the $\mathbf{W_1}$ and $\mathbf{W_2}$ techniques. The results shown here correspond to a recent publication made by the team in Ref. \cite{raduta2020new}, this entire chapter consisting of a summary with all the unique features.
 
-The $\mathbf{W_0}$ formalism developed by the team in Ref. \cite{raduta2017semiclassical} described the wobbling motion for even-even nuclei using a \emph{boson expansion} of the angular momentum components. The initial problem consisted in a triaxial rigid rotor with moments of inertia $\mathcal{I}k$, which described by the known rotor Hamiltonian (recall Section \ref{trm-model} and Eq. \ref{general-rotor-hamiltonian}):
+It is worth recalling a set of results that were achieved by the $\mathbf{W_0}$ formalism. Besides the odd-mass case-study performed by the team in Ref. \cite{raduta2017semiclassical}, the first part consisted in describing wobbling motion for even-even nuclei using a \emph{boson expansion} of the angular momentum components. The problem considered a triaxial rigid rotor with moments of inertia $\mathcal{I}k$, which described by the known rotor Hamiltonian (recall Section \ref{trm-model} and Eq. \ref{general-rotor-hamiltonian}):
 \begin{align}
     \hat{H}_R=\frac{\hat{R}_1}{2\mathcal{I}_1}+\frac{\hat{R}_2}{2\mathcal{I}_2}+\frac{\hat{R}_3}{2\mathcal{I}_3}\ ,
 \end{align}
-and angular momentum components $\hat{R}_k$. From this initial quantal problem, a variational principle (similar recipe as the one described in Section \ref{variational-principle-section}, but only for one set of coordinates) brings the system into a classical view, where the eigenvalue problem becomes a system of classical equations in a phase space (see Section II.A and II.B from Ref. \cite{raduta2017semiclassical}). Summarizing the calculations from Ref. \cite{raduta2017semiclassical}, one obtained a pair of conjugate variables (i.e., $r$ and $\varphi$) and two equations of motion (recall discussion from Section \ref{equations-of-motion-section} and Eq. \ref{eq-of-motion-approach-w1}) as:
+and angular momentum components $\hat{R}_k$. From this initial quantal problem, a variational principle (similar recipe as the one described in Section \ref{variational-principle-section}, but only for one set of coordinates) brings the system into a classical view, where the eigenvalue problem becomes a system of classical equations in a phase space (see Section II.A and II.B from Ref. \cite{raduta2017semiclassical}). Summarizing the calculations, one obtained $i)$ a pair of conjugate variables (i.e., $r$ and $\varphi$) and $ii)$ two equations of motion (recall discussion from Section \ref{equations-of-motion-section} and Eq. \ref{eq-of-motion-approach-w1}) as:
 \begin{align}
-    \frac{\partial\mathcal{H}}{\partial r}=\dot{\varphi}\ ,\ \frac{\partial\mathcal{H}}{\partial\varphi}=-\dot{r}\ .
+    \frac{\partial\mathcal{H}}{\partial r}=\dot{\varphi}\ ,\ \frac{\partial\mathcal{H}}{\partial\varphi}=-\dot{r}\ ,
 \end{align}
-
-If the average values of the angular momentum components are expressed in terms of the phase space coordinates $(r,\varphi)$, then the following equations emerge:
+with $\mathcal{H}$ as the average of $\hat{H}R$ with the trial function. If the average values of the angular momentum components are expressed in terms of the phase space coordinates $(r,\varphi)$, then the following equations emerge:
 \begin{align}
     J_+^\text{cls}&\equiv\langle\hat{R}_+\rangle=\sqrt{r(2I-r)}e^{\iu\varphi}\ ,\nonumber \\
     J_-^\text{cls}&\equiv\langle\hat{R}_-\rangle=\sqrt{r(2I-r)}e^{-\iu\varphi}\ ,\nonumber \\
@@ -22,20 +21,38 @@ If the average values of the angular momentum components are expressed in terms 
 with their algebra being governed by the Poisson brackets:
 \begin{align}
     \left\{J_+^\text{cls},J_-^\text{cls}\right\}=-2\iu J_3^\text{cls}\ ,\ \left\{J_\pm^\text{cls},J_3^\text{cls}\right\}=\pm\iu J_{\pm}^\text{cls}\ .
+    \label{classical-J-poisson-brackets}
 \end{align} 
 
-A pair of complex functions $f$ and $g$, which are defined in this classical phase space, will have their associated Poisson bracket defined in the following way:
+Therein, it was considered that the three functions $J_+^\text{cls}$, $J_-^\text{cls}$, $J_3^\text{cls}$ together with the Poisson brackets from Eq. \ref{classical-J-poisson-brackets}, which defines their inner product, generate a classical algebra $\text{SU}_\text{cls}(2)$. A pair of complex functions $f$ and $g$ defined in this classical phase space will have their associated Poisson bracket:
 \begin{align}
-    \left\{f,g\right\}=\frac{\partial f}{\partial \varphi}\frac{\partial g}{\partial r} - \frac{\partial f}{\partial r}\frac{\partial g}{\partial \varphi}
+    \left\{f,g\right\}=\frac{\partial f}{\partial \varphi}\frac{\partial g}{\partial r} - \frac{\partial f}{\partial r}\frac{\partial g}{\partial \varphi}\ .
 \end{align} 
 
-Furthermore, the classical coordinates belonging to that phase space were re-quantized through the \emph{Dyson boson expansion} \cite{dyson1956general}. Firstly, the quantization of complex coordinates  pair of complex functions defined on the phase space  
-
-Starting with two canonical complex variables:
+The classical coordinates belonging to that phase space were then re-quantized through the \emph{Dyson boson expansion} \cite{dyson1956general}, which signified a change of the picture from the classical $\text{SU}_\text{cls}(2)$ back to a quantized view. Firstly, the quantization starts with two canonical complex variables written in terms of the conjugate coordinates $(r, \varphi)$:
 \begin{align}
-    \mathcal{C}=\sqrt{2I}\sqrt{\frac{2I-r}{r}}e^{-\iu\varphi}\ ,\nonumber\\
-    \mathcal{B}=\frac{1}{\sqrt{2I}}\sqrt{(2I-r)(r)}e^{\iu\varphi}\ ,
+    \mathcal{C}=\sqrt{2I}\sqrt{r^{-1}(2I-r)}e^{-\iu\varphi}\ ,\nonumber\\
+    \mathcal{B}^*=\sqrt{2I}^{-1}\sqrt{r(2I-r)}e^{\iu\varphi}\ ,
+\end{align}
+and the Poisson bracket:
+\begin{align}
+    \left\{\mathcal{B}^*,\mathcal{C}\right\}=\iu\ .
 \end{align}
 
+The quantization process within the Dyson representation implies that a new set of quantal operators $b$ and $b^\dagger$ should replace the two complex coordinates, and the inner product defined by the Poisson bracket becomes the commutator operator:
+\begin{align}
+    \left(\mathcal{C},\mathcal{B}^*,\{,\}\right)\Longrightarrow\left(b,b^\dagger,-\iu \left[,\right]\right)\ .
+    \label{dyson-transformation}
+\end{align} 
+
+The transformation employed in Eq. \ref{dyson-transformation} will introduce the following set of angular momentum components:
+\begin{align}
+    \hat{J}_+^\text{D}&=\sqrt{2I}b^\dagger\ ,\nonumber\\
+    \hat{J}_-^\text{D}&=\sqrt{2I}\left(1-\frac{b^\dagger b}{2I}\right)b\ ,\nonumber\\
+    \hat{J}_3^\text{D}&=I-b^\dagger b\ .
+    \label{dyson-boson-expansion-am-components}
+\end{align}
+
+The set of angular momentum components $\hat{J}^\text{D}$ provided in Eq. \ref{dyson-boson-expansion-am-components} marks the onset of the Dyson boson representation. 
 
 Remarkable that this is the first time within literature when this kind of representation is successfully applied to odd-$A$ nuclei.
