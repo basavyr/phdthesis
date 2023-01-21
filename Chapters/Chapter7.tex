@@ -11,25 +11,26 @@ and angular momentum components $\hat{R}_k$. From this initial quantal problem, 
 \begin{align}
     \frac{\partial\mathcal{H}}{\partial r}=\dot{\varphi}\ ,\ \frac{\partial\mathcal{H}}{\partial\varphi}=-\dot{r}\ ,
 \end{align}
-with $\mathcal{H}$ as the average of $\hat{H}R$ with the trial function. If the average values of the angular momentum components are expressed in terms of the phase space coordinates $(r,\varphi)$, then the following equations emerge:
+with $\mathcal{H}$ as the average of $\hat{H}_R$ with the trial function. If the average values of the angular momentum components are expressed in terms of the phase space coordinates $(r,\varphi)$, then the following equations emerge:
 \begin{align}
     J_+^\text{cls}&\equiv\langle\hat{R}_+\rangle=\sqrt{r(2I-r)}e^{\iu\varphi}\ ,\nonumber \\
     J_-^\text{cls}&\equiv\langle\hat{R}_-\rangle=\sqrt{r(2I-r)}e^{-\iu\varphi}\ ,\nonumber \\
-    J_3^\text{cls}&\equiv\langle\hat{R}_3\rangle=r-I\ ,
+    J_3^\text{cls}&\equiv\langle\hat{R}_3\rangle=r-I\ .
     \label{classical-am-components-boson}
 \end{align} 
-with their algebra being governed by the Poisson brackets:
+
+Their algebra being governed by the Poisson brackets, which defines their inner product:
 \begin{align}
     \left\{J_+^\text{cls},J_-^\text{cls}\right\}=-2\iu J_3^\text{cls}\ ,\ \left\{J_\pm^\text{cls},J_3^\text{cls}\right\}=\pm\iu J_{\pm}^\text{cls}\ .
     \label{classical-J-poisson-brackets}
 \end{align} 
 
-Therein, it was considered that the three functions $J_+^\text{cls}$, $J_-^\text{cls}$, $J_3^\text{cls}$ together with the Poisson brackets from Eq. \ref{classical-J-poisson-brackets}, which defines their inner product, generate a classical algebra $\text{SU}_\text{cls}(2)$. A pair of complex functions $f$ and $g$ defined in this classical phase space will have their associated Poisson bracket:
+The three functions $J_+^\text{cls}$, $J_-^\text{cls}$, $J_3^\text{cls}$ together with the Poisson brackets from Eq. \ref{classical-J-poisson-brackets} generate a classical algebra $\left[\text{SU}(2)\right]_\text{cls}$. A pair of complex functions $f$ and $g$ defined in this classical phase space will have their associated Poisson bracket:
 \begin{align}
     \left\{f,g\right\}=\frac{\partial f}{\partial \varphi}\frac{\partial g}{\partial r} - \frac{\partial f}{\partial r}\frac{\partial g}{\partial \varphi}\ .
 \end{align} 
 
-The classical coordinates belonging to that phase space were then re-quantized through the \emph{Dyson boson expansion} \cite{dyson1956general}, which signified a change of the picture from the classical $\text{SU}_\text{cls}(2)$ back to a quantized view. Firstly, the quantization starts with two canonical complex variables written in terms of the conjugate coordinates $(r, \varphi)$:
+The classical coordinates belonging to that phase space were then re-quantized through the \emph{Dyson boson expansion} \cite{dyson1956general}, which signified a change of the picture from the classical $\left[\text{SU}(2)\right]_\text{cls}$ back to a quantized view. Firstly, the quantization starts with two canonical complex variables written in terms of the conjugate coordinates $(r, \varphi)$:
 \begin{align}
     \mathcal{C}=\sqrt{2I}\sqrt{r^{-1}(2I-r)}e^{-\iu\varphi}\ ,\nonumber\\
     \mathcal{B}^*=\sqrt{2I}^{-1}\sqrt{r(2I-r)}e^{\iu\varphi}\ ,
@@ -58,6 +59,6 @@ The set of angular momentum components $\hat{J}^\text{D}$ provided in Eq. \ref{d
 \begin{align}
     \left[b,b^\dagger\right]=1\ ,\ \left[b,b\right]=\left[b^\dagger,b^\dagger\right]=0\ .
     \label{boson-commutation-relations}
-\end{align} 
+\end{align}
 
 Remarkable that this is the first time within literature when this kind of representation is successfully applied to odd-$A$ nuclei.
