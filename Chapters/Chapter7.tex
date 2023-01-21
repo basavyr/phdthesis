@@ -1,9 +1,12 @@
 \chapter{Wobbling Motion Study via a Boson Description}
 \label{extra-chapter-new-boson}
 
-The last part will be focused on the same wobbling phenomenon but with a different approach than the ones employed in Chapters \ref{chapter-4-aw1-formalism} and \ref{chapter-5-novel}, as this method does not share the same foundational concepts as the $\mathbf{W_1}$ and $\mathbf{W_2}$ techniques. The results shown here correspond to a recent publication made by the team in Ref. \cite{raduta2020new}, this entire chapter consisting of a summary with all the unique features.
+The last part will be focused on the same wobbling phenomenon but with a different approach than the ones employed in Chapters \ref{chapter-4-aw1-formalism} and \ref{chapter-5-novel}, as this method does not share the same foundational concepts as the $\mathbf{W_1}$ and $\mathbf{W_2}$ techniques. The results shown here correspond to a recent publication made by the team in Ref. \cite{raduta2020new}. The structure of the chapter is organized as follows: in the first section a set of results achieved by the $\mathbf{W_0}$ formalism are briefly recalled, as some key features from that work will be used throughout this chapter. 
+%TO-DO: finish summary of chapter 6.
+\section{Angular Momentum - Boson Representation}
+\label{section-intro-boson-representation}
 
-It is worth recalling a set of results that were achieved by the $\mathbf{W_0}$ formalism. Besides the odd-mass case-study performed by the team in Ref. \cite{raduta2017semiclassical}, the first part consisted in describing wobbling motion for even-even nuclei using a \emph{boson expansion} of the angular momentum components. The problem considered a triaxial rigid rotor with moments of inertia $\mathcal{I}k$, which described by the known rotor Hamiltonian (recall Section \ref{trm-model} and Eq. \ref{general-rotor-hamiltonian}):
+Besides the odd-mass case-study performed by the team in Ref. \cite{raduta2017semiclassical}, the first part consisted in describing wobbling motion for even-even nuclei using a \emph{boson expansion} of the angular momentum components. The problem considered a triaxial rigid rotor with moments of inertia $\mathcal{I}k$, which described by the known rotor Hamiltonian (recall Section \ref{trm-model} and Eq. \ref{general-rotor-hamiltonian}):
 \begin{align}
     \hat{H}_R=\frac{\hat{R}_1}{2\mathcal{I}_1}+\frac{\hat{R}_2}{2\mathcal{I}_2}+\frac{\hat{R}_3}{2\mathcal{I}_3}\ ,
 \end{align}
@@ -64,6 +67,16 @@ The set of angular momentum components $\hat{J}^\text{D}$ provided in Eq. \ref{d
 The classical energy function $\mathcal{H}$ can be written in terms of the variables $\mathcal{C}$ and $\mathcal{B}$ and then replace them with the boson operators $b$ and $b^\dagger$. Consequently, the Dyson representation of the rotor Hamiltonian $\hat{H}_R$ is obtained, which was denoted by $\hat{H}_D$. The search for \emph{real} eigenvalues for $\hat{H}_D$ was made through the \emph{Bargmann representation} \cite{bargmann1962representations,jancovici1964collective,janssen1971boson}. This mapping associates to the operators $b,b^\dagger$ two differential operators, being very useful in obtaining a differential equation for $\hat{H}_D$:
 \begin{align}
     b^\dagger\rightarrow x\ ,\ b\rightarrow \frac{d}{dx}\ .
+    \label{bargmann-mapping-equation}
 \end{align}
+
+Indeed, by using the mapping from Eq. \ref{bargmann-mapping-equation}, the eigenvalues are obtained by solving the second order differential equation (recall Eq. 2.34 from Ref. \cite{raduta2017semiclassical}):
+\begin{align}
+    \left[p(x^4)\frac{d^2}{dx^2}+q(x^3)\frac{d}{dx}-r(x^2)\right]G=E'G\ .
+\end{align}
+
+Further calculations from that work gave the energy spectrum for $^{158}$Er, providing unique results for the even-even deformed nuclei. The \emph{transitions} from a quantal space ($\hat{H}_R$) to a classical space ($\mathcal{H}$), and then a re-quantized ($\hat{H}_D$) showed some remarkable features of the approach. In all three cases, a great agreement with the experimental data was obtained for the yrast band the first two excited bands.
+
+
 
 Remarkable that this is the first time within literature when this kind of representation is successfully applied to odd-$A$ nuclei.
