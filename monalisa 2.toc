@@ -83,12 +83,11 @@
 \contentsline {section}{\numberline {5.4}Concluding Remarks}{184}{section.437}%
 \contentsline {chapter}{\numberline {6}Wobbling Motion Study via a Boson Description}{187}{chapter.438}%
 \contentsline {section}{\numberline {6.1}Angular Momentum - Boson Representation}{187}{section.439}%
-\contentsline {section}{\numberline {6.2}Theoretical Framework}{190}{section.452}%
-\contentsline {chapter}{\numberline {7}Conclusions}{191}{chapter.453}%
-\contentsline {chapter}{\numberline {A}Shell Model}{196}{appendix.454}%
-\contentsline {section}{\numberline {A.1}Shell model}{196}{section.455}%
-\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{204}{section.479}%
-\contentsline {chapter}{\numberline {B}Two-State Mixing}{211}{appendix.491}%
-\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{216}{appendix.506}%
-\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{217}{section.508}%
-\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{218}{section.514}%
+\contentsline {chapter}{\numberline {7}Conclusions}{191}{chapter.452}%
+\contentsline {chapter}{\numberline {A}Shell Model}{196}{appendix.453}%
+\contentsline {section}{\numberline {A.1}Shell model}{196}{section.454}%
+\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{204}{section.478}%
+\contentsline {chapter}{\numberline {B}Two-State Mixing}{211}{appendix.490}%
+\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{216}{appendix.505}%
+\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{217}{section.507}%
+\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{218}{section.513}%
