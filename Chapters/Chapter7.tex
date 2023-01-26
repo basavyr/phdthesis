@@ -130,8 +130,22 @@ For this Hamiltonian, the Schrödinger equation:
 \begin{align}
     \hat{H}'\ket{\Psi}=E\ket{\Psi}\ ,
 \end{align}
-is expressed in terms of two conjugate variables $q$ and $d/dq$ with the help of a special representation of the angular momentum components. Indeed, by using the Jacobi Elliptic functions \cite{jacobi1829fundamenta,akhiezer1990elements} $\text{sn}$ ($s$), $\text{cn}$ ($c$), and $\text{dn}$ ($d$), respectively. These functions are used quite often in physics, especially in non-linear problems \cite{kovacic2016jacobi}, with their expressions:
+is expressed in terms of two conjugate variables $q$ and $d/dq$ with the help of a special representation of the angular momentum components. Indeed, by using the Jacobi Elliptic functions $\text{sn}$ ($s$), $\text{cn}$ ($c$), and $\text{dn}$ ($d$), respectively \cite{jacobi1829fundamenta,akhiezer1990elements}. These functions are used quite often in physics, especially in non-linear problems \cite{kovacic2016jacobi} and are defined as:
 \begin{align}
     s&\equiv\text{sn}(q,k)\ ,\ c\equiv\text{cn}(q,k)\ ,\ d\equiv\text{dn}(q,k)\ ,\nonumber\\
-    k=\sqrt{|u|}\ ,\ k'&=\sqrt{1-k^2}\ ,\ q=\int_0^\varphi \frac{1}{\sqrt{1-k^2\sin^2(x)}}dx\equiv F(\varphi,k)\ .
+    k&=\sqrt{|u|}\ ,\ k'=\sqrt{1-k^2}\ ,\nonumber\\
+    q&=\int_0^\varphi \frac{1}{\sqrt{1-k^2\sin^2(x)}}dx\equiv F(\varphi,k)\ .
+    \label{elliptic-functions-equation}
 \end{align}
+
+An alternative representations for the elliptic functions is in terms of the trigonometric functions:
+\begin{align}
+    s=\sin\varphi\ ,\ c=\cos\varphi\ ,\ d=\sqrt{1-k^2s^2}\ .
+\end{align}
+The behavior of $s$, $c$, and $d$ is graphically shown in Fig. \ref{elliptic-functions-plot}. It can be observed that these functions are periodic, with the periods $4K$, $4K$, and $2K$, respectively. The value of $K$ is given by replacing $\varphi=\pi/2$ in $F(\varphi,k)$ from Eq. \ref{elliptic-functions-equation}.
+\begin{figure}
+    \centering
+    \includegraphics[scale=1]{Chapters/Figures/Jacobi-Elliptic-Functions.pdf}
+    \caption{The elliptic functions sn, cd, and dn from Eq. \ref{elliptic-functions-equation} are represented as functions of $q$. The value of the \emph{elliptic modulus} $k$ is set to $1/2$.}
+    \label{elliptic-functions-plot}
+\end{figure}

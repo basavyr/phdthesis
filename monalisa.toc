@@ -85,11 +85,11 @@
 \contentsline {section}{\numberline {6.1}Angular Momentum - Boson Representation}{187}{section.439}%
 \contentsline {section}{\numberline {6.2}Theoretical Framework}{190}{section.452}%
 \contentsline {subsection}{\numberline {6.2.1}Potential Energy for thr PRM Hamiltonian}{190}{subsection.453}%
-\contentsline {chapter}{\numberline {7}Conclusions}{193}{chapter.463}%
-\contentsline {chapter}{\numberline {A}Shell Model}{198}{appendix.464}%
-\contentsline {section}{\numberline {A.1}Shell model}{198}{section.465}%
-\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{206}{section.489}%
-\contentsline {chapter}{\numberline {B}Two-State Mixing}{213}{appendix.501}%
-\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{218}{appendix.516}%
-\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{219}{section.518}%
-\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{220}{section.524}%
+\contentsline {chapter}{\numberline {7}Conclusions}{194}{chapter.465}%
+\contentsline {chapter}{\numberline {A}Shell Model}{199}{appendix.466}%
+\contentsline {section}{\numberline {A.1}Shell model}{199}{section.467}%
+\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{207}{section.491}%
+\contentsline {chapter}{\numberline {B}Two-State Mixing}{214}{appendix.503}%
+\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{219}{appendix.518}%
+\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{220}{section.520}%
+\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{221}{section.526}%
