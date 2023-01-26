@@ -149,3 +149,22 @@ The behavior of $s$, $c$, and $d$ is graphically shown in Fig. \ref{elliptic-fun
     \caption{The elliptic functions sn, cd, and dn from Eq. \ref{elliptic-functions-equation} are represented as functions of $q$. The value of the \emph{elliptic modulus} $k$ is set to $1/2$.}
     \label{elliptic-functions-plot}
 \end{figure}
+
+Referring back to the angular momentum components, these can be written in terms of the elliptic functions and the variables $q$, $d/dq$ as such:
+\begin{align}
+    \hat{I}_\pm&=i\frac{c\mp d}{k's}\left(I\pm\hat{I}_0\right)\ ,\nonumber\\
+    \hat{I}_0&=Icd-s\frac{d}{dq}=\hat{I}_1\ ,
+\end{align}
+which would make the Hamiltonian $\hat{H}'$ from Eq. \ref{hamiltonian-new-boson-ladder-operators} achieve the following shape:
+\begin{align}
+    \hat{H}'=-\frac{d^2}{dq^2}-2v_0s\frac{d}{dq}+I(I+1)s^2k^2+2v_0cdI\ .
+\end{align}
+
+By changing the wave-function $\ket{\Psi}$ to:
+\begin{align}
+    \ket{\Psi}=\left(d-kc\right)^{-\frac{v_0}{k}}\ket{\Phi}\ ,
+\end{align}
+the Schrödinger equation will have two fully separated \emph{kinetic} and \emph{potential} terms:
+\begin{align}
+    \left[-\frac{d^2}{dq^2}+V(q)\right]\ket{\Phi}=E\ket{\Phi}\ .
+\end{align}
