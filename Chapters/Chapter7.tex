@@ -191,3 +191,35 @@ and it is graphically represented in Fig. \ref{elliptic-potential-plot}. It can 
 \end{figure}
 
 Adopting the Bargmann representation, which was introduced in the previous section, for the angular momentum representation depicted in Eq. \ref{angular-momentum-elliptic-representation}, the three components $\hat{I}\mp$ and $\hat{I}_0$ become:
+\begin{align}
+    \hat{I}_+&=\iu\frac{cb^\dagger-db^\dagger}{k'sb^\dagger}\left(I+Icb^\dagger db^\dagger-sb^\dagger b\right)\ ,\nonumber\\
+    \hat{I}_-&=\iu\frac{cb^\dagger+db^\dagger}{k'sb^\dagger}\left(I-Icb^\dagger d b^\dagger+sb^\dagger b\right)\ ,\nonumber\\
+    \hat{I}_0&=Icb^\dagger db^\dagger-sb^\dagger b\ .
+    \label{angular-momentum-elliptic-bargmann}
+\end{align}
+
+This is the first time in literature when such a transformation emerges. The boson expansion of the angular momentum components obtained from the elliptic functions $s$, $c$, $d$, and the Bargmann mapping applied on the same components is the remarking feature of the work from Ref. \cite{raduta2020new}. This expansion is different that the Dyson one, which was illustrated in Section \ref{section-intro-boson-representation}.
+
+\subsection{Another boson expansion for the angular momentum}
+
+When $k=0$, the following values are obtained for the elliptic functions:
+\begin{align}
+    q=\varphi\ ,\ d=1\ , K=\frac{\pi}{2}\ ,\ k'=1\ .
+\end{align}
+
+Using these values, the components from Eq. \ref{angular-momentum-elliptic-bargmann} can be re-written, such that in the rotating frame they become:
+\begin{align}
+    \hat{I}_+&=\iu\left[-I\sin b^\dagger+\left(1-\cos b^\dagger\right)b^\dagger\right]\ ,\nonumber\\
+    \hat{I}_-&=\iu\left[I\sin b^\dagger+\left(1+\cos b^\dagger\right)b\right]\ ,\nonumber\\
+    \hat{I}_0&=I\cos b^\dagger-b\sin b^\dagger\ ,
+    \label{angular-momentum-new-expansion}
+\end{align}
+which can be simplified even more if the trigonometric functions are expanded and the leading terms are kept:
+\begin{align}
+    \hat{I}_+&=\iu\left[-Ib^\dagger+\frac{1}{2}b\left(b^\dagger\right)^2\right]\ ,\nonumber\\
+    \hat{I}_-&=2\iu b\ ,\nonumber\\
+    \hat{I}_0&=I-b^\dagger b\ .
+    \label{angular-momentum-dyson-expansion}
+\end{align}
+
+The components from Eq. \ref{angular-momentum-dyson-expansion} are similar to the ones from the Dyson boson expansion (recall Eq. \ref{dyson-transformation}), making it clear now that the representations shown in Eq. \ref{angular-momentum-elliptic-bargmann} and Eq. \ref{angular-momentum-new-expansion} are in fact generalizations of the Dyson representation.
