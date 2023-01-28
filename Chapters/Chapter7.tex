@@ -169,6 +169,7 @@ By changing the wave-function $\ket{\Psi}$ to:
 the Schrödinger equation will have two fully separated \emph{kinetic} and \emph{potential} terms:
 \begin{align}
     \left[-\frac{d^2}{dq^2}+V(q)\right]\ket{\Phi}=E\ket{\Phi}\ .
+    \label{schrodinger-equation-elliptic}
 \end{align}
 
 The potential term $V(q)$ is defined as \cite{raduta2020new}:
@@ -223,3 +224,18 @@ which can be simplified even more if the trigonometric functions are expanded an
 \end{align}
 
 The components from Eq. \ref{angular-momentum-dyson-expansion} are similar to the ones from the Dyson boson expansion (recall Eq. \ref{dyson-transformation}), making it clear now that the representations shown in Eq. \ref{angular-momentum-elliptic-bargmann} and Eq. \ref{angular-momentum-new-expansion} are in fact generalizations of the Dyson representation.
+
+\subsection{Harmonic Approximation of the Energy}
+
+One can aim at solving numerically Eq. \ref{schrodinger-equation-elliptic}, but there could be a rather simpler and more \emph{elegant} approach to this. Adopting the harmonic approximation (as described in the previous chapters) can provide valid results. First step is to analyze the stationary points of the elliptic potential $V(q)$. Its first order derivative is given by \cite{raduta2020new}:
+\begin{align}
+    \frac{d}{dq}V(q)=s\left[\left(I(I+1)k^2+v_0^2\right)2cd-(2I+1)v_0k'^2-(2I+1)v_02k^2c^2\right]\ .
+\end{align}
+
+There are five minima, located at $q=0,\pm2K,\pm4K$. Remarkable that for $q=\pm2K$ the two minima emerge for angular momentum values that are lager than $19/2$. This is emphasized in Fig. \ref{elliptic-potential-plot-2k-minima}, where it can be seen that the minima are flat at the beginning, but their depth increases with increasing values of $I$.
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.85]{Chapters/Figures/Elliptic-Potential-2K-Minima.pdf}
+    \caption{The potential $V(q)$ from Eq. \ref{elliptic-potential-formula}, near the $q=2K$ minimum point. It can be observed that the minimum character appears only for $I>19/2$.}
+    \label{elliptic-potential-plot-2k-minima}
+\end{figure}
