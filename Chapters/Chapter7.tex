@@ -331,9 +331,27 @@ The maximal MOI corresponds to the $2$-axis. The Cartesian coordinates are chang
 The energy function $H'$ can be expressed in terms of the conjugate coordinates $(x_2,\varphi_2)$:
 \begin{align}
     H'=x_2^2\left(1-u\cos^2\varphi_2-\frac{v_0}{I}\sin\varphi_2\right)+uI^2\cos^2\varphi_2+2v_0I\sin\varphi_2\ .
+    \label{classical-energy-new-boson-2-axis}
 \end{align}
 This function has a minimum value of $H'\vert_\text{min}=-2v_0I$ at $(x_2,\varphi_2)=(0,-\pi/2)$, and the second derivatives for $H'$ in that point are:
 \begin{align}
     \left.\frac{\partial^2H'}{\partial x_2^2}\right\vert_\text{min}&=2\left(2+\frac{v_0}{I}\right)\ ,\nonumber\\
     \left.\frac{\partial^2 H'}{\partial \varphi_2^2}\right\vert_\text{min}&=2\left(u+\frac{v_0}{I}\right)I^2\ .
 \end{align}
+
+If the classical energy function is expanded up to second order around the minimum point, then $H'$ will look like:
+\begin{align}
+    H'^{(2)}=-2v_0I\left(1+\frac{v_0}{I}\right)\bar{x}_2^2+\left(u+\frac{v_0}{I}\right)I^2\bar{\varphi}_2^2\ ,
+\end{align}
+where the deviation of the coordinates from the minimum point was denoted by $(\bar{x}_2,\bar{\varphi}_2)$ and the superscript $(2)$ suggests the second order expansion. This kind of function describes an oscillator with the frequency:
+\begin{align}
+    \omega^{(2)}=2\sqrt{(I+v_0)(Iu+v_0)}\ .
+\end{align}
+
+In the minimum point, the angular momentum components are $(x_1,x_2,x_3)=(-I,0,0)$ and $E=2v_0I$. In Fig. the energy function $H'$ is graphically represented for $x_2=0$ and $\varphi_2=-\pi/2$, respectively, by keeping one coordinate fixed and varying the other.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/Energy-Function-New-Boson-A1-x2-const.pdf}
+    \includegraphics[width=0.49\textwidth]{Chapters/Figures/Energy-Function-New-Boson-A1-phi2-const.pdf}
+    \caption{The classical energy $H'$ from Eq. \ref{classical-energy-new-boson-2-axis} evaluated in the minimum point.}
+\end{figure}
