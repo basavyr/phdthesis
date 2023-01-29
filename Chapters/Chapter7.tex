@@ -1,4 +1,4 @@
-\chapter{Wobbling Motion Study via a Boson Description}
+\chapter{Study of the Wobbling Motion via a Boson Description}
 \label{extra-chapter-new-boson}
 
 The last part will be focused on the same wobbling phenomenon but with a different approach than the ones employed in Chapters \ref{chapter-4-aw1-formalism} and \ref{chapter-5-novel}, as this method does not share the same foundational concepts as the $\mathbf{W_1}$ and $\mathbf{W_2}$ techniques. The results shown here correspond to a recent publication made by the team in Ref. \cite{raduta2020new}. The structure of the chapter is organized as follows: in the first section a set of results achieved by the $\mathbf{W_0}$ formalism are briefly recalled, as some key features from that work will be used throughout this chapter. 
@@ -288,3 +288,37 @@ The two wobbling frequencies, i.e., $\omega$ and $\omega'$ are both graphically 
     \caption{The two wobbling frequencies $\omega$ (Eq. \ref{omega-frequency-deepest-minima}) and $\omega'$ (Eq. \ref{wobbling-frequency-new-boson-prime}) as function of the coordinate $\theta$ for a fixed set of MOI $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=91:9:51\ \hbar^2\text{MeV}^{-1}$ and single-particle angular momentum $j=13/2$.}
     \label{wobbling-frequencies-harmonic-approx}
 \end{figure}
+
+\section{A Classical Description of the Hamiltonian}
+\label{classical-description-new-boson-section}
+
+Going further with the analysis performed in Ref. \cite{raduta2020new}, the quantal operators associated to the angular momentum are dequantized, through the algebra:
+\begin{align}
+    [\ ,\ ] \longrightarrow -\iu\{\ ,\ \}\ ,
+\end{align}
+where the Poisson brackets replacing the commutator. The dequantization procedure consists of replacing the operators $\hat{I}_k$ with the classical components of the angular momentum (i.e., $I_k$. The conjugate coordinate of $I_k$ are further denoted by $\varphi_k$ and the three angular momentum components $I_k$ are hereafter denoted by $x_k$. With this algebra, the quantal Hamiltonian from Eq. \ref{new-boson-hamiltonian-notations} will be equivalent to:
+\begin{align}
+    H'=x_2^2+ux_3^2+2v_0I_x\ .
+    \label{new-boson-h-prime-classical}
+\end{align}
+
+The equations of motion for $H'$ are (time derivatives are specified by the dot symbol):
+\begin{align}
+    \dot{x}_1&=2(1-v)x_2x_3\ ,\nonumber\\
+    \dot{x}_2&=2(x_1u-v_0)x_3\ ,\nonumber\\
+    \dot{x}_3&=-2(x_1-v_0)x_2\ .
+\end{align}
+
+The two constants of motion for this classical problem are:
+\begin{align}
+    E=x_2^2+ux_3^2+2v_0x_1\ ,
+\end{align}
+and 
+\begin{align}
+    I^2=x_1^2+x_2^2+x_3^2\ ,
+\end{align}
+which is in complete agreement with the fact the total energy and the total angular momentum are conserved.
+
+Now that the classical counterpart of $\hat{H}'$ is analytically obtained, there can be several situations that can lead to the description of the harmonic-lie motion of the even-odd system. Namely, by considering the three angular momentum components $x_1$, $x_2$, and $x_3$ in the \emph{polar coordinate system} (defined by the coordinates $\theta$ and $\varphi$), one can have:
+
+\subsubsection*{Case A1}
