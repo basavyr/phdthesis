@@ -96,7 +96,7 @@ where $k=1,2,3$, and $A_k$ is the inertia factor (used throughout the previous c
 \end{align}
 and through this expansion, the Hamiltonian from Eq. \ref{rotor-hamiltonian-new-boson} can be rewritten as:
 \begin{align}
-    \hat{H}_\text{rot}=A\hat{H}'+\left(A_1I^2-A_2j_2\right)+\sum_{k=1,2}A_k\hat{j}_k^2\ .
+    \hat{H}_\text{rot}=A\hat{H}'+\left(A_1I^2-A_2j_2I\right)+\sum_{k=1,2}A_k\hat{j}_k^2\ .
     \label{rewritten-rotor-hamiltonian-new-boson}
 \end{align}
 
@@ -154,7 +154,7 @@ where $\varphi$ is also known as the \emph{Jacobi amplitude}: $\varphi=am(q,k)$.
 Referring back to the angular momentum components, these can be written in terms of the elliptic functions and the variables $q$, $d/dq$ as such \cite{raduta2020new}:
 \begin{align}
     \hat{I}_\pm&=i\frac{c\mp d}{k's}\left(I\pm\hat{I}_0\right)\ ,\nonumber\\
-    \hat{I}_0&=Icd-s\frac{d}{dq}=\hat{I}_1\ ,
+    \hat{I}_0&=Icd-s\frac{d}{dq}\ ,
     \label{angular-momentum-elliptic-representation}
 \end{align}
 which would make the Hamiltonian $\hat{H}'$ from Eq. \ref{hamiltonian-new-boson-ladder-operators} achieve the following shape:
@@ -240,18 +240,18 @@ There are five minima, located at $q=0,\pm2K,\pm4K$. Remarkable that for $q=\pm2
     \label{elliptic-potential-plot-2k-minima}
 \end{figure}
 
-The angular momentum can be studied in terms of its orientation near the minimum points. This can be achieved if the boson expansion is written as \cite{raduta2020new}:
+The angular momentum can be studied in terms of its orientation near the minimum points. This is achieved if the boson expansion is written as \cite{raduta2020new}:
 \begin{align}
     \hat{I}_+&=\frac{\iu}{k'}\left[I\left(-d+ck^2\right)s-(c-d)\frac{d}{dq}\right]\ ,\nonumber\\
     \hat{I}_-&=\frac{\iu}{k'}\left[I\left(d+ck^2\right)s+(c+d)\frac{d}{dq}\right]\ ,\nonumber\\
     \hat{I}_0&=Icd-s\frac{d}{dq}\ ,
 \end{align}
-and for $q=\pm2K$ (that is $\varphi=\pm\pi$) one has $\hat{I}_0=-I$, while $q=0$ (i.e., $\varphi=2$) will lead to $\hat{I}_0=I$. This would mean that for the local minima, the total angular momentum will align anti-parallel with the 1-axis, and for the deep minimum $q=0$, the angular momentum is aligned along the 1-axis. Expanding the elliptic potential $V(q)$ up to second order in the coordinate, an equation that looks similar to the harmonic oscillator for $\hat{H}_\text{rot}$:
+and for $q=\pm2K$ (that is $\varphi=\pm\pi$) one has $\hat{I}_0=-I$, while $q=0$ (i.e., $\varphi=2$) will lead to $\hat{I}_0=I$. Consequently, in the local minima the total angular momentum will align anti-parallel with the $1$-axis, and for the deep minimum $q=0$ the angular momentum is aligned along the (1)-axis. Expanding the elliptic potential $V(q)$ up to second order in the coordinate, an equation that looks similar to the harmonic oscillator is obtained for the Hamiltonian $\hat{H}_\text{rot}$ (firstly introduced in Eq. \ref{rotor-hamiltonian-new-boson}):
 \begin{align}
     E_n=A_1I^2+\hbar\omega\left(n+\frac{1}{2}\right)+e_\text{sp}\ ,
     \label{energy-2nd-order-expansion-deepest-minima}
 \end{align}
-where the single-particle term has the expression:
+where the single-particle term is defined as:
 \begin{align}
     e_\text{sp}=\sum_{i=1,2}A_ij_i^2-(2I+1)A_1j_1-IA_2j_2\ .
 \end{align}
@@ -259,17 +259,28 @@ where the single-particle term has the expression:
 The frequency $\omega$ from Eq. \ref{energy-2nd-order-expansion-deepest-minima} has the expression:
 \begin{align}
     \omega^2=&\left[(2I+1)\left(A_2-A_1-\frac{A_2j_2}{I}\right)+2A_1j_1\right]\cdot\nonumber\\
-                &\cdot\left[(2I+1)(A_3-A_1)+2_A1j_1\right]-(A_3-A_1)\left(A_2-A_1-\frac{A_2j_2}{I}\right)\ .
+                &\cdot\left[(2I+1)(A_3-A_1)+2A_1j_1\right]-(A_3-A_1)\left(A_2-A_1-\frac{A_2j_2}{I}\right)\ .
     \label{omega-frequency-deepest-minima}
 \end{align}
 
-If, on the other hand, the potential is expanded around the local minimum $q=2K$, and only the quadratic terms are kept, then the following set of energies are obtained:
+On the other hand, if the potential is expanded around the local minimum $q=2K$, and only the quadratic terms are kept, then the following set of energies :
 \begin{align}
-    E_n^{(2K)}&=-\frac{(2I+1)^2}{2}\frac{2v_0}{2I+1}+\hbar\omega^{(2K)}\left(n+\frac{1}{2}\right)\ ,\nonumber\\
+    E_n^{(2K)}&=-(2I+1)v_0+\hbar\omega^{(2K)}\left(n+\frac{1}{2}\right)\ ,\nonumber\\
     \left(\omega^{(2K)}\right)^2&=\left(1+\frac{2v_0}{2I+1}\right)\left(u+\frac{2v_0}{2I+1}\right)(2I+1)^2-u\ ,
 \end{align}
 
-The two wobbling frequencies, i.e., $\omega$ and $\omega^{(2K)}$ are both graphically represented in Fig. \ref{wobbling-frequencies-harmonic-approx}.
+The Hamiltonian $\hat{H}_\text{rot}$ is connected to $\hat{H}'$ via Eq. \ref{rewritten-rotor-hamiltonian-new-boson}, meaning that the final energy spectrum of $\hat{H}'$ will be given by:
+\begin{align}
+    E_n'&=A_1I^2+\hbar\omega'\left(n+\frac{1}{2}\right)+e_\text{sp}\ ,\nonumber\\
+    e_\text{sp}&=\sum_{i=1,2}A_ij_i^2-(2I+1)A_1j_1-IA_2j_2\ ,
+\end{align}
+with the wobbling frequency $\omega'$ having the following definition:
+\begin{align}
+    \omega'^2=&\left[(2I+1)\left(A_2-A_1-\frac{A_2j_2}{I}\right)-2A_1j_1\right]\left((2I+1)(A_3-A_1)-2A_1j_1\right)-\nonumber\\
+    &-(A_3-A_1)\left(A_2-A_1-\frac{A_2j_2}{I}\right)
+\end{align}
+
+The two wobbling frequencies, i.e., $\omega$ and $\omega'$ are both graphically represented in Fig. \ref{wobbling-frequencies-harmonic-approx}.
 \begin{figure}
     \centering
     \caption{Wobbling frequency.}
