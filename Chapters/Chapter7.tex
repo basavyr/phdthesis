@@ -359,11 +359,21 @@ In the minimum point, the angular momentum components are $(x_1,x_2,x_3)=(-I,0,0
 
 \subsubsection*{Case A2}
 
-Another minimum point for $H'$ is $(0,\pi/2)$, in which the angular momentum is $(x_1,x_2,x_3)=(I,0,0)$ and the energy is $E=2v_0I$. Repeating the second order expansion for $H$, the following formula is attained:
+Another minimum point for $H'$ is $(0,\pi/2)$, in which the angular momentum is $(x_1,x_2,x_3)=(I,0,0)$ and the energy is $E=2v_0I$. Repeating the second order expansion for $H'$, the following formula is attained:
 \begin{align}
     H'^{(2)}=2v_0I+\left(1-\frac{v_0}{I}\right)\bar{x}_2^2+I^2\left(u-\frac{v_0}{I}\right)\bar{\varphi}_2^2\ ,
 \end{align}
 which describes a harmonic oscillator with a frequency:
 \begin{align}
-    \omega^{(2)}=2\sqrt{\left(1-\frac{v_0}{I}\right)\left(u-\frac{v_0}{I}\right)I^2}\ .
+    % \omega^{(2)}=2\sqrt{\left(1-\frac{v_0}{I}\right)\left(u-\frac{v_0}{I}\right)I^2}\ .
+    \omega^{(2)}=2\sqrt{(I-v_0)(uI-v_0)}\ .
 \end{align}
+
+\subsubsection*{Case A3}
+
+A third set of conjugate variables for which $H'$ is minimal is $$(x_2,\varphi_2)=(0,\arcsin\left(\frac{v_0}{Iu}\right))\ .$$ With this set of coordinates, the energy function will become after expansion:
+\begin{align}
+    H'^{(2)}=uI^2+\frac{v_0^2}{u}+(1-u)\bar{x}_2^2-u\left(I^2-\frac{v_0^2}{u^2}\right)\bar{\varphi}_2^2\ .
+\end{align}
+
+For a positive value of $u$, but confined inside $u\in(0,1)$, the coordinates consist of a \emph{saddle point} with angular momentum components $$(x_1,x_2,x_3)=\left(\frac{v_0}{u},0,\sqrt{I^2-\frac{v_0^2}{u^2}}\right)\ ,$$ and energy: $$E=\left(u+\frac{v_0^2}{u}\right)I^2\ .$$ When $u$ is negative and inside $u\in(-1,0)$, this stationary point is now a minimum.
