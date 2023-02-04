@@ -354,7 +354,7 @@ In the minimum point, the angular momentum components are $(x_1,x_2,x_3)=(-I,0,0
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/Energy-Function-New-Boson-A1-x2-const.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/Energy-Function-New-Boson-A1-phi2-const.pdf}
-    \caption{The classical energy $H'$ from Eq. \ref{classical-energy-new-boson-2-axis} evaluated in the minimum point, but for a fixed $x_2=0$ (left) and fixed $\varphi_2=-\pi/2$ (right). The calculations were done for $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:40:20\ \hbar\text{MeV}^{-1}$. The single-particle angular momentum $j=11/2$.}
+    \caption{The classical energy $H'$ from Eq. \ref{classical-energy-new-boson-2-axis} evaluated for a fixed $x_2=0$ (left) and fixed $\varphi_2=-\pi/2$ (right). The calculations were done for $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:40:20\ \hbar\text{MeV}^{-1}$. The single-particle angular momentum $j=11/2$.}
     \label{energy-function-comparison-a1-case}
 \end{figure}
 
@@ -379,7 +379,7 @@ A third set of conjugate variables for which $H'$ is minimal is: $$(x_2,\varphi_
 
 For a positive value of $u$, but confined inside $u\in(0,1)$ the coordinates consist of a \emph{saddle point} with angular momentum components: $$(x_1,x_2,x_3)=\left(\frac{v_0}{u},0,\sqrt{I^2-\frac{v_0^2}{u^2}}\right)\ ,$$ and energy: $$E=I^2u+\frac{v_0^2}{u}\ .$$
 
-Summarizing these situations, there are three stationary points for the classical description of $H'$ when the maximal MOI is along the $2$-axis, (i.e., the quantization axis). The points are provided in Table \ref{stationary-points-2-axis}, where values for $x_2$ and $\varphi_2$ are accompanied by the angular momentum components and the value of the energy. Moreover, the character of each stationary point is also mentioned.
+Summarizing the situations $A1$, $A2$, and $A3$, there are three stationary points for $H'$ when the maximal MOI is along the $2$-axis, (i.e., the quantization axis). The points are provided in Table \ref{stationary-points-2-axis}, where values for $x_2$ and $\varphi_2$ are accompanied by the angular momentum components and the value of the energy. Moreover, the character of each stationary point is also mentioned.
 \begin{table}
     \centering
     \resizebox{\textwidth}{!}{%
@@ -401,7 +401,7 @@ Summarizing these situations, there are three stationary points for the classica
     \label{stationary-points-2-axis}
 \end{table}
 
-Considering that the polar coordinates used to define the three angular momentum components can be replaced in the expression of $H'$ from Eq. \ref{new-boson-h-prime-classical}, then an energy function that will depend explicitly $\theta_2$ and $\varphi_2$. This \emph{polar representation of the classical energy function} can be represented for a given interval of $\theta_2$ and $\varphi_2$, respectively. Fixing the total angular momentum $I$, the single-particle a.m. $j$, the three MOI, and the value of $\theta$ (not to be confused with the polar $\theta_2$), a contour plot such as the one shown in Fig. \ref{new-boson-hprime-2axis-contour-plot} can be obtained. Within the contour plot, there are several stationary points: one deep minimum, one local minimum, and two saddle points. Every point lies along the $\theta_2=\pi/2$ coordinate. In order to better perceive how the minima and saddle points are located, Fig. \ref{new-boson-hprime-2axis-varphi-plot} shows the evolution of $H'$ for $\theta_2=\pi/2$. Keep in mind that both figures are evaluated at the same parameters. 
+Considering that the polar coordinates used to define the three angular momentum components can be replaced in the expression of $H'$ from Eq. \ref{new-boson-h-prime-classical}, then an energy function that will depend explicitly $\theta_2$ and $\varphi_2$. This \emph{polar representation of the classical energy function} can be represented for a given interval of $\theta_2$ and $\varphi_2$, respectively. Fixing the total angular momentum $I$, the single-particle a.m. $j$, the three MOI, and the value of $\theta$ (not to be confused with the polar $\theta_2$), a contour plot such as the one shown in Fig. \ref{new-boson-hprime-2axis-contour-plot} can be obtained. Within the contour plot, there are several stationary points: one deep minimum, one local minimum, and two saddle points. Every point lies along the $\theta_2=\pi/2$ coordinate. In order to better perceive how the minima and saddle points are located, Fig. \ref{new-boson-hprime-2axis-varphi-plot} shows the evolution of $H'$ for $\theta_2=\pi/2$. Keep in mind that both figures are evaluated for the same set of constants.
 \begin{figure}
     \begin{center}
         \includegraphics[scale=0.7]{Chapters/Figures/New-Boson-Classical-H-2axis-quantization.pdf}
@@ -416,3 +416,46 @@ Considering that the polar coordinates used to define the three angular momentum
         \label{new-boson-hprime-2axis-varphi-plot}
     \end{center}
 \end{figure}
+
+\subsubsection*{Case B1}
+
+Going further with the analysis, a second approach would be to consider the $3$-axis as the quantization axes, meaning that now the largest MOI is around this axis. The angular momentum components written in terms of the polar coordinates $(\theta_3,\varphi_3)$ will be defined in the following way:
+\begin{align}
+    x_1=I\sin\theta_3\cos\varphi_3\ ,\ x_2=I\sin\theta_3\sin\varphi_3\ ,\ x_3=I\cos\theta_3\ ,
+    \label{polar-coordinates-case-b1}
+\end{align}
+
+In the same way as the $A$-cases. the total energy $H'$ can be expressed in terms of the $x_3$ coordinate and the polar $\varphi_3$ one:
+\begin{align}
+    H'^{(2)}=x_3^2\left(u-\sin^2\varphi_3-\frac{v_0}{I}\cos\varphi_3\right)+I^2\sin^2\varphi_3+2v_0I\cos\varphi_3\ .
+    \label{classical-energy-new-boson-3-axis}
+\end{align}
+
+The first stationary point of Eq. \ref{classical-energy-new-boson-3-axis} with a minimum character is $(x_3,\varphi_3)=(0,\pi)$. For this point, the angular momentum components are $(x_1,x_2,x_3)=(-I,0,0)$, hinting to the fact that the total a.m. is oriented along the one-axis. The value of the energy in this point is $E=-2v_0I$. The harmonic Hamiltonian given in the second order expansion around this point is:
+\begin{align}
+    H'^{(2)}=-2v_0I+\left(u+\frac{v_0}{I}\right)\bar{x}_3^2+I^2\left(1+\frac{v_0}{I}\right)\bar{\varphi}_3^2\ ,
+\end{align}
+
+having a similar shape for the wobbling frequency as per $A1$ case. Similarly as for $A1$ case, the Hamiltonian $H'$ is also represented  in terms of only one coordinate at a time, where each of the coordinates are fixed to $x_3=0$ and $\varphi_3=\pi$, respectively. These plots are shown in Figs..
+
+\subsubsection*{B2 case}
+
+Another stationary point for Eq. \ref{classical-energy-new-boson-3-axis} is $(x_3,\varphi)=(0,0)$, which is also a minimum. The second order expansion of $H'$ gives:
+\begin{align}
+    H'=2v_0I+\left(u-\frac{v_0}{I}\right)\bar{x}_3^2+I^2\left(1-\frac{v_0}{I}\right)\bar{\varphi}_3^2\ ,
+\end{align}
+and moreover $(x_1,x_2,x_3)=(I,0,0)$, and $E=2v_0I$. The wobbling frequency is:
+\begin{align}
+    \omega^{(2)}=2\sqrt{\left(1-\frac{v_0}{I}\right)\left(u-\frac{v_0}{I}\right)I^2}\ .
+\end{align}
+
+\subsubsection*{B3 case}
+
+Lastly, the stationary point $(x_3,\varphi_3)=\left(0,\arccos\frac{v_0}{I}\right)$ is a maximum, giving a.m. components:
+\begin{align}
+    (x_1,x_2,x_3)=\left(v_0,\sqrt{I^2-v_0^2},0\right)\ ,
+\end{align}
+and energy $E=I^2+v_0^2\ .$ For this maximum point, the energy function $H'$ becomes:
+\begin{align}
+    H'^{(2)}=I^2+v_0^2+\left(u-1\right)\bar{x}_3^2+\left(v_0^2-I^2\right)\bar{\varphi}_3^2\ .
+\end{align}
