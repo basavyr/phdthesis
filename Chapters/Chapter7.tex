@@ -524,4 +524,17 @@ The three situations A-B-C that were analyzed can be summarized with the followi
     \item when $u\in(0,1)$, there are two saddle points: A3 and C1.
 \end{itemize}
 
-When the minimum points are considered, the total angular momentum is oriented along a principal axis (either the $1$- or $-1$-axis). However, for the maxima and saddle points, the angular momentum lies in a principal plane instead of totally aligned along a preferred axis. The A3 and C1 cases result in a total a.m. that is oriented in the $(x_1,x_3$) plane. The stationary points are of minimum, maximum, or saddle character depending on the signs of the diagonal matrix elements of Hessian associated gto $H'(\theta,\varphi)$. More precisely:
+When the minimum points are considered, the total angular momentum is oriented along a principal axis (either the $1$- or $-1$-axis). However, for the maxima and saddle points, the angular momentum lies in a principal plane instead of totally aligned along a preferred axis. The A3 and C1 cases result in a total a.m. that is oriented in the $(x_1,x_3$) plane. The stationary points are of minimum, maximum, or saddle character depending on the signs of the diagonal matrix elements of Hessian associated to $H'(\theta,\varphi)$. More precisely:
+\begin{enumerate}
+    \item \emph{minimum}: all the diagonal m.e. are positive
+    \item \emph{saddle}: one m.e. is positive and one m.e. is negative
+    \item \emph{maximum}: all the diagonal m.e. are negative
+\end{enumerate}
+
+If the Hessian is set to numerically vanish then an equation is obtained for the parameters $u$ and $v\equiv v_0/I$ at which the critical points are degenerate:
+\begin{align}
+    (1-u)(1-v^2)(v^2-u^2)(v^2-u)=0\ .
+    \label{new-boson-phase-diagram-parameter-equation}
+\end{align}
+
+Each factor from this equation will generate a curve within the $(u,v)$ plane (called a \emph{separatrix}). These separatrixes are bordering manifolds that define unique nuclear phases. This phase diagram is sketched in Fig.
