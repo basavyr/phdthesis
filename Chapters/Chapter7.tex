@@ -498,11 +498,21 @@ with the associated Hamiltonian:
 
 The Hamiltonian from Eq. \ref{classical-energy-new-boson-1-axis} has a stationary point at $(x_1,\varphi_1)=\left(\frac{v_0}{u},\frac{\pi}{2}\right)$. This is a \emph{saddle} point when $u\in(0,1)$. The second order expansion of $H'$ is therefore:
 \begin{align}
-    H^{(2)}=uI+\frac{v_0}{u}-u\bar{x}_1^2+(1-u)\left(I^2-\frac{v_0^2}{u^2}\right)\bar{\varphi}_1^2\ .
+    H'^{(2)}=uI+\frac{v_0}{u}-u\bar{x}_1^2+(1-u)\left(I^2-\frac{v_0^2}{u^2}\right)\bar{\varphi}_1^2\ .
 \end{align}
-
-
 
 \subsubsection*{Case C2}
 
-\subsubsection*{Case C3}
+The last stationary point is a maximum, given by the coordinates $(v_0,0)$, for which the a.m. components are: $$(x_1,x_2,x_3)=(v_0,\sqrt{I^2-v_0^2},0)\ ,$$ and the energy $E=I^2+v_0^2$. The Hamiltonian up to second order becomes:
+\begin{align}
+    H'^{(2)}=I^2+v_0^2-\bar{x}_1^2+(u-1)\left(I^2-v_0^2\right)\bar{\varphi}_1^2\ .
+\end{align}
+
+In Fig. \ref{new-boson-hprime-1axis-contour-plot}, a contour plot with the energy function from Eq. \ref{classical-energy-new-boson-1-axis} is shown, where three maxima and two saddle points are present. The calculation of $H'(\theta_1,\varphi_1)$ used a different set of MOI than the A-B cases. Namely, $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=80:10:50\ \hbar^2\text{MeV}^{-1}$, but $\theta$ was kept identical. The maxima from Fig \ref{new-boson-hprime-1axis-contour-plot} would illustrate that a rotation around the $1$-axis (the cranking axis for the initial system) is not possible.
+\begin{figure}
+    \begin{center}
+        \includegraphics[scale=0.7]{Chapters/Figures/New-Boson-Classical-H-1axis-quantization.pdf}
+        \caption{Contour plot for the energy $H'$ from Eq. \ref{new-boson-h-prime-classical}, defined in terms of the polar coordinates. The calculations are done for $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=80:10:50\ \hbar^2\text{MeV}^{-1}$ (i.e., the $1$-axis is the quantization axis). The single-particle angular momentum is $j=11/2$, the total angular momentum $I=19/2$, and $\theta=70^\circ$. The five stationary points are illustrated, namely three maxima (denoted by "M") and two saddle points (denoted by "s").}
+        \label{new-boson-hprime-1axis-contour-plot}
+    \end{center}
+\end{figure}
