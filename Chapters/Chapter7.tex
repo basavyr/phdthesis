@@ -391,9 +391,9 @@ Summarizing the situations $A1$, $A2$, and $A3$, there are three stationary poin
     \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}A.m. components\\ $(x_1,x_2,x_3)$\end{tabular}} &
     \multicolumn{1}{c|}{$E$} &
     \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Character \\ of the stationary point\end{tabular}} \\ \hline
-    $p_0(m)$ & $0$ &  $-\frac{\pi}{2}$    & $(-I,0,0)$ & $E=-2v_0I$ & minimum (m) \\
-    $p_1(m)$ & $0$ &  $\frac{\pi}{2}$    & $(I,0,0)$ & $E=2v_0I$ & minimum (m) \\
-    $p_2(s)$ & $0$ &  $\arcsin\left(\frac{v_0}{Iu}\right)$  & $\left(\frac{v_0}{u},0,\sqrt{I^2-\frac{v_0^2}{u^2}}\right)$ & $E=\left(I^2u+\frac{v_0^2}{u}\right)$ & saddle (s)\\
+    $p_0^A(m)$ & $0$ &  $-\frac{\pi}{2}$    & $(-I,0,0)$ & $E=-2v_0I$ & minimum (m) \\
+    $p_1^A(m)$ & $0$ &  $\frac{\pi}{2}$    & $(I,0,0)$ & $E=2v_0I$ & minimum (m) \\
+    $p_2^A(s)$ & $0$ &  $\arcsin\left(\frac{v_0}{Iu}\right)$  & $\left(\frac{v_0}{u},0,\sqrt{I^2-\frac{v_0^2}{u^2}}\right)$ & $E=\left(I^2u+\frac{v_0^2}{u}\right)$ & saddle (s)\\
     \hline
     \end{tabular}%
     }
@@ -441,7 +441,7 @@ having a similar shape for the wobbling frequency as per $A1$ case. Similarly as
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/Energy-Function-New-Boson-B1-x3-const.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/Energy-Function-New-Boson-B1-phi3-const.pdf}
-    \caption{The classical energy $H'$ from Eq. \ref{classical-energy-new-boson-3-axis} evaluated for a fixed $x_3=0$ (left) and fixed $\varphi_3=\pi$ (right). The calculations were done for $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:20:40\ \hbar\text{MeV}^{-1}$. The single-particle angular momentum $j=11/2$.}
+    \caption{The classical energy $H'$ from Eq. \ref{classical-energy-new-boson-3-axis} evaluated for a fixed $x_3=0$ (left) and fixed $\varphi_3=\pi$ (right). The calculations were done for $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:20:40\ \hbar^2\text{MeV}^{-1}$. The single-particle angular momentum $j=11/2$.}
     \label{energy-function-comparison-b1-case}
 \end{figure}
 
@@ -467,7 +467,28 @@ and energy $E=I^2+v_0^2\ .$ For this maximum point, the energy function $H'$ bec
     H'^{(2)}=I^2+v_0^2+\left(u-1\right)\bar{x}_3^2+\left(v_0^2-I^2\right)\bar{\varphi}_3^2\ .
 \end{align}
 
-The contour plot of the energy function $H'$ can be obtained in the same manner as for $A$ situations, i.e., taking the polar coordinates $(\theta_3,\varphi_3)$ that are used in the expression of the angular momentum components from Eq. \ref{polar-coordinates-case-b1}, and evaluate $H'(\theta_3,\varphi_3)$ for fixed values of $j,\ I,\ \mathcal{I}_1,\ \mathcal{I}_2,\ \mathcal{I}_3$, and $\theta$. The contour plot together with the evolution of $H'(\pi,\varphi_3)$ are drawn in Figs. \ref{new-boson-hprime-3axis-contour-plot} - \ref{new-boson-hprime-3axis-varphi-plot}. Therein, five stationary points can be observed: two maxima denoted by "M" (magenta color) and three minima denoted by "m" (red color).
+The contour plot of the energy function $H'$ can be obtained in the same manner as for $A$ situations, i.e., taking the polar coordinates $(\theta_3,\varphi_3)$ that are used in the expression of the angular momentum components from Eq. \ref{polar-coordinates-case-b1}, and evaluate $H'(\theta_3,\varphi_3)$ for fixed values of $j,\ I,\ \mathcal{I}_1,\ \mathcal{I}_2,\ \mathcal{I}_3$, and $\theta$. The contour plot together with the evolution of $H'(\pi,\varphi_3)$ are drawn in Figs. \ref{new-boson-hprime-3axis-contour-plot} - \ref{new-boson-hprime-3axis-varphi-plot}. Therein, five stationary points can be observed: two maxima denoted by "M" (magenta color) and three minima denoted by "m" (red color). All the stationary points for the B cases are identified in Table \ref{stationary-points-3-axis}, similarity as for the A situations.
+\begin{table}
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    \multicolumn{1}{|c|}{Point $p$} &
+    \multicolumn{1}{c|}{$x_3$} &
+    \multicolumn{1}{c|}{$\varphi_3$} &
+    \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}A.m. components\\ $(x_1,x_2,x_3)$\end{tabular}} &
+    \multicolumn{1}{c|}{$E$} &
+    \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Character \\ of the stationary point\end{tabular}} \\ \hline
+    $p_0^B(m)$ & $0$ &  $\pi$    & $(-I,0,0)$ & $E=-2v_0I$ & minimum (m) \\
+    $p_1^B(m)$ & $0$ &  $0$    & $(I,0,0)$ & $E=2v_0I$ & minimum (m) \\
+    $p_2^B(M)$ & $0$ &  $\arccos\left(\frac{v_0}{I}\right)$  & $\left(v_0,\sqrt{I^2-v_0^2},0\right)$ & $E=I^2\left(1+v^2\right)$ & maximum (M)\\
+    \hline
+    \end{tabular}%
+    }
+    \caption{The stationary points for the classical energy function depicted in Eq. \ref{new-boson-h-prime-classical}, when the quantization axis is the $3$-axis. Each point corresponds to the cases $B1$, $B2$, and $B3$, respectively.}
+    \label{stationary-points-3-axis}
+\end{table}
+
 \begin{figure}
     \begin{center}
         \includegraphics[scale=0.7]{Chapters/Figures/New-Boson-Classical-H-3axis-quantization.pdf}
