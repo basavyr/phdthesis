@@ -593,13 +593,20 @@ The next part of the team's work in Ref. \cite{raduta2020approach} was to obtain
 \begin{align}
     \Psi_{IM}=\Phi_{I,-I}\ket{IM,-I}\ ,
 \end{align}
-where $\ket{IMK}$ are the Wigner-D functions, which were introduced and used in the previous chapters (see Eq. \ref{IMK-wigner-functions}). When describing the rotational structure of a nucleus, one considered the first two wobbling bands as being \emph{signature partner bands}, similarly as in the wobbling description for $\mathbf{W_1}$ and $\mathbf{W_2}$. In this way, the spin sequence of the first band is $j+R$ for an even spin sequence $R=0,2,4,\dots$ (the notations for the angular momentum components in this chapter are kept consistent with the ones from the paper itself - Ref. \cite{raduta2020approach}, however, they resemble the notations used in the previous chapters for $\mathbf{R}_\mathscr{C}$, $\mathbf{j}_\mathcal{Q}$, and $\mathbf{I}$).
+where $\ket{IMK}$ are the Wigner-D functions, which were introduced and used in the previous chapters (see Eq. \ref{IMK-wigner-functions}). When describing the rotational structure of a nucleus, one considered the first two wobbling bands as being \emph{signature partner bands}, similarly as in the wobbling description for $\mathbf{W_1}$ and $\mathbf{W_2}$. In this way, the spin sequence of the first band is $j+R$ for an even spin sequence $R=0,2,4,\dots$ (the notations for the angular momentum components in this chapter are kept consistent with the ones from the paper itself - Ref. \cite{raduta2020new}, however, they resemble the notations used in the previous chapters for $\mathbf{R}_\mathscr{C}$, $\mathbf{j}_\mathcal{Q}$, and $\mathbf{I}$).
 
 For the \emph{quadrupole transition operator}, the following expression was used (slightly modified than Eq. \ref{electric-quadrupole-operator-lab}):
 \begin{align}
     \mathcal{M}\left(E_2;\mu\right)=\sqrt{\frac{5}{16\pi}}\mathrm{e}\left(Q_{20}\mathcal{D}_{\mu 0}^2+Q_{2-2}\mathcal{D}_{\mu -2}^2+Q_{22}\mathcal{D}_{\mu 2}^2\right)\ ,
 \end{align}
-with $Q_{20}$ and $Q_{2\pm2}$ denoting the $K=\{-2,0,2\}$ components of the quadrupole transition operator. From the expressions of the wave-function given in Eq. \ref{schrodinger-equation-elliptic}, it is clear that it will depend on the conjugate variables $q$ and $d/dg$. From this reason, the quadrupole components need to be also expressed as functions of these variables. If the components are firstly written in terms of the angular momentum, then by using the Bargmann representation of the a.m. components, one has:
+with $Q_{20}$ and $Q_{2\pm2}$ denoting the $K=\{-2,0,2\}$ components of the quadrupole transition operator. From the expressions of the wave-function given in Eq. \ref{schrodinger-equation-elliptic}, it is clear that it will depend on the conjugate variables $q$ and $d/dg$. From this reason, the quadrupole components need to be also expressed as functions of these variables. If the components are firstly written in terms of the angular momentum, one has:
 \begin{align}
-    Q_0=\left(\frac{1}{4}\sqrt{\frac{2}{3}\left(\hat{I}_+\hat{I}_-+\hat{I}_-\hat{I}_+\right)}+\sqrt{\frac{2}{3}}\hat{I}_1^2\right)\bar{Q}_0\ ,\ Q_\pm2=\frac{1}{2}\hat{I}_\pm^2\bar{Q}_2\ .
+    Q_{20}=\left(\frac{1}{4}\sqrt{\frac{2}{3}\left(\hat{I}_+\hat{I}_-+\hat{I}_-\hat{I}_+\right)}+\sqrt{\frac{2}{3}}\hat{I}_1^2\right)\bar{Q}_0\ ,\ Q_{2\pm2}=\frac{1}{2}\hat{I}_\pm^2\bar{Q}_2\ .
+\end{align}
+
+The factors $\bar{Q}_0$ and $\bar{Q}_2$ are the intrinsic quadrupole components. Then, by using the Bargmann representation of the a.m. components, around the minimum point $Q_{20}$ and $Q_{2\pm2}$ become \cite{raduta2020new}:
+\begin{align}
+    Q_{20}&=\frac{1}{\sqrt{6}}\left[3\bar{q}^2\frac{d^2}{d\bar{q}^2}-3(2I-1)\bar{q}\frac{d}{d\bar{q}}+I(2I-1)-I(I-1)(1+k^2)\bar{q}^2\right]\bar{Q}_0\ ,\nonumber\\
+    Q_{2\pm2}&=\frac{1}{k'^2}\left\{\left[(1+k^2)\bar{q}^2-2\right]\frac{d^2}{d\bar{q}^2}-(2I-1)(1+k^2)\bar{q}\frac{d}{d\bar{q}}\right\}\bar{Q}_2\cdot \nonumber\\
+    &\cdot\frac{1}{k'^2}\left\{I\left[(I+1)(1+k^2)+k^2(k^2+3)\right]\bar{q}^2-I(1+k^2)\right\}\bar{Q}_2
 \end{align}
