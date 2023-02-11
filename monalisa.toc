@@ -87,7 +87,7 @@
 \contentsline {subsection}{\numberline {6.2.1}Potential Energy for thr PRM Hamiltonian}{190}{subsection.453}%
 \contentsline {subsection}{\numberline {6.2.2}Another boson expansion for the angular momentum}{195}{subsection.473}%
 \contentsline {subsection}{\numberline {6.2.3}Harmonic Approximation of the Energy}{196}{subsection.477}%
-\contentsline {section}{\numberline {6.3}A Classical Description of the Hamiltonian}{199}{section.488}%
+\contentsline {section}{\numberline {6.3}Classical Description of the Hamiltonian}{199}{section.488}%
 \contentsline {section}{\numberline {6.4}Electromagnetic Transitions}{210}{section.536}%
 \contentsline {chapter}{\numberline {7}Conclusions}{212}{chapter.538}%
 \contentsline {chapter}{\numberline {A}Shell Model}{217}{appendix.539}%
