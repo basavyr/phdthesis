@@ -618,3 +618,15 @@ In order to calculate the matrix elements of the transition operator, the overla
 
 The intrinsic quadrupole moments $\bar{Q}_2$ and $\bar{Q}_0$ are taken as \emph{free parameters} within this approach, and the matrix elements for $\bra{\Psi_I}|\mathcal{M}(E2)|\ket{\Psi_{I-2}}$ (intraband) and $\bra{\Psi_I}|\mathcal{M}(E2)|\ket{\Psi_{I-1}}$ (interband) are given analytically in Eqs. (6.5) and (6.6) from Ref. \cite{raduta2020new}.
 
+The \emph{magnetic dipole transition} operator is defined as \cite{raduta2020new}:
+\begin{align}
+    \mathcal{M}\left(M1;\mu\right)=\frac{3}{4\pi}\mu_N\sum_{\nu}\left(g_R\hat{R}_\nu+g_j\hat{j}_\nu\right)\mathcal{D}_{\mu\nu}^1\equiv M_{1\mu}^\text{coll}+M_{1\mu}^\text{sp}\ ,
+\end{align}
+where the terms $R_\nu$ and $j_\nu$ are the spherical components of the core and the odd single-particle. The gyromagnetic factors of the core and the particle are denoted by $g_R$ and $g_j$, respectively. The matrix elements of the collective and single-particle transition operators $M_{1\mu}^\text{coll}$ and $M_{1\mu}^\text{sp}$ are provided in the set of Eqs. (6.10) - (6.12) from Ref. \cite{raduta2020new}. Therein, the values for the gyromagnetic factors are provided as well. These are used to finally get the analytical expression of the reduced transition probability:
+\begin{align}
+    B(M1;I\to I')=\left|\bra{\Psi_{I}}|\mathcal{M}(M1)|\ket{\Psi_{I'}}\right|^2\ .
+\end{align}
+
+\section{Numerical Results}
+
+The entire formalism developed through Ref. \cite{raduta2020new} was tested numerically for the odd-$A$ nucleus $^{135}$Pr. This odd-mass nucleus was chosen because experimental evidence point out its wobbling character \cite{matta2017transverse} (and later erratum in Ref. \cite{matta2021erratum}), although there are some ongoing debates wether the experimental measurements are valid or not \cite{guo2021comment}.
