@@ -88,11 +88,11 @@
 \contentsline {subsection}{\numberline {6.2.2}Another boson expansion for the angular momentum}{195}{subsection.473}%
 \contentsline {subsection}{\numberline {6.2.3}Harmonic Approximation of the Energy}{196}{subsection.477}%
 \contentsline {section}{\numberline {6.3}A Classical Description of the Hamiltonian}{199}{section.488}%
-\contentsline {chapter}{\numberline {7}Conclusions}{211}{chapter.535}%
-\contentsline {chapter}{\numberline {A}Shell Model}{216}{appendix.536}%
-\contentsline {section}{\numberline {A.1}Shell model}{216}{section.537}%
-\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{224}{section.561}%
-\contentsline {chapter}{\numberline {B}Two-State Mixing}{231}{appendix.573}%
-\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{236}{appendix.588}%
-\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{237}{section.590}%
-\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{238}{section.596}%
+\contentsline {chapter}{\numberline {7}Conclusions}{211}{chapter.536}%
+\contentsline {chapter}{\numberline {A}Shell Model}{216}{appendix.537}%
+\contentsline {section}{\numberline {A.1}Shell model}{216}{section.538}%
+\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{224}{section.562}%
+\contentsline {chapter}{\numberline {B}Two-State Mixing}{231}{appendix.574}%
+\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{236}{appendix.589}%
+\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{237}{section.591}%
+\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{238}{section.597}%

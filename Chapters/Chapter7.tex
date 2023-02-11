@@ -304,7 +304,7 @@ where the Poisson brackets replacing the commutator. The dequantization procedur
 
 The equations of motion for $H'$ are (time derivatives are specified by the dot symbol):
 \begin{align}
-    \dot{x}_1&=2(1-v)x_2x_3\ ,\nonumber\\
+    \dot{x}_1&=2(1-u)x_2x_3\ ,\nonumber\\
     \dot{x}_2&=2(x_1u-v_0)x_3\ ,\nonumber\\
     \dot{x}_3&=-2(x_1-v_0)x_2\ .
 \end{align}
@@ -529,7 +529,27 @@ Another stationary point for $H'$ is $(v_0,0)$, which has a maximum character, g
     H'^{(2)}=I^2+v_0-\bar{x}_1^2(u-1)\left(I^2-v_0^2\right)\bar{\varphi}_1^2\ .
 \end{align}
 
-Similarity as in the cases A-B, a contour plot showing the behavior of the energy function $H'$ would be useful. This is shown in Fig. \ref{new-boson-hprime-1axis-contour-plot}, where the calculation of $H'(\theta_1,\varphi_1)$ used a different set of MOI, namely: $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=80:10:50\ \hbar^2\text{MeV}^{-1}$. The maxima from Fig \ref{new-boson-hprime-1axis-contour-plot} would illustrate that a rotation around the $1$-axis (the cranking axis for the initial system) is not possible.
+Similarity as in the cases A-B, a contour plot showing the behavior of the energy function $H'$ would be useful. This is shown in Fig. \ref{new-boson-hprime-1axis-contour-plot}, where the calculation of $H'(\theta_1,\varphi_1)$ used a different set of MOI, namely: $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=80:10:50\ \hbar^2\text{MeV}^{-1}$. The maxima from Fig \ref{new-boson-hprime-1axis-contour-plot} would illustrate that a rotation around the $1$-axis (the cranking axis for the initial system) is not possible. The critical points for the C cases are recorded in Table \ref{stationary-points-1-axis}.
+\begin{table}
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    \multicolumn{1}{|c|}{Point $p$} &
+    \multicolumn{1}{c|}{$x_1$} &
+    \multicolumn{1}{c|}{$\varphi_1$} &
+    \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}A.m. components\\ $(x_1,x_2,x_3)$\end{tabular}} &
+    \multicolumn{1}{c|}{$E$} &
+    \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Character \\ of the stationary point\end{tabular}} \\ \hline
+    $p_0^C(s)$ & $0$ &  $\pi$    & $\left(\frac{v_0}{u},0,\sqrt{\left(I^2-\frac{v_0^2}{u}\right)}\right)$ & $E=I^2u+\frac{v_0^2}{u}$ & saddle (s) \\
+    $p_1^C(M)$ & $v_0$ &  $0$    & $\left(v_0,\sqrt{I^2-v_0^2},0\right)$ & $E=I^2+v_0^2$ & maximum (M) \\
+    \hline
+    \end{tabular}%
+    }
+    \caption{The stationary points for the classical energy function depicted in Eq. \ref{new-boson-h-prime-classical}, when the quantization axis is the $1$-axis. Each point corresponds to the cases $C1$, $C2$, respectively.}
+    \label{stationary-points-1-axis}
+\end{table}
+
 \begin{figure}
     \begin{center}
         \includegraphics[scale=0.7]{Chapters/Figures/New-Boson-Classical-H-1axis-quantization.pdf}
@@ -558,10 +578,10 @@ If the Hessian is set to numerically vanish, then an equation is obtained for th
     \label{new-boson-phase-diagram-parameter-equation}
 \end{align}
 
-Each factor from this equation will generate a curve within the $(u,v)$ plane (called a \emph{separatrix}). These separatrixes are bordering manifolds that define unique nuclear phases. This phase diagram is sketched in Fig. \ref{separatrix-diagram}.
+Each factor from this equation will generate a curve within the $(u,v)$ plane (called a \emph{separatrix}). These separatrixes are bordering manifolds that define unique nuclear phases. This phase diagram is sketched in Fig. \ref{separatrix-diagram}. For the sake of completeness, the points corresponding to the values $(u,v)$ from the bases A-B-C are all represented on the same diagram, but with $v$ taken as an absolute value, to avoid negative ranges that are obtained when the $1$-axis is the quantization axis.
 \begin{figure}
     \centering
-    \includegraphics[scale=0.65]{Chapters/Figures/new-boson-separatrix-diagram.pdf}
-    \caption{The phase diagram associated to the parametric formula given in Eq. \ref{new-boson-phase-diagram-parameter-equation}. Each of the conditions that make the equation vanish are represented by a separatrix. Different regions depict \emph{different nuclear phases}.}
+    \includegraphics[scale=0.8]{Chapters/Figures/new-boson-separatrix-diagram.pdf}
+    \caption{The phase diagram associated to the parametric formula given in Eq. \ref{new-boson-phase-diagram-parameter-equation}. Each of the conditions that make the equation vanish are represented by a separatrix, such that different regions depict \emph{different nuclear phases}. The values of $u$ and $v$ for the cases A-B-C are also represented within the plot.}
     \label{separatrix-diagram}
 \end{figure}
