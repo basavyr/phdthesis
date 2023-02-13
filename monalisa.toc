@@ -91,12 +91,12 @@
 \contentsline {section}{\numberline {6.4}Electromagnetic Transitions}{210}{section.536}%
 \contentsline {section}{\numberline {6.5}Numerical Results}{213}{section.544}%
 \contentsline {subsection}{\numberline {6.5.1}Excitation Energies}{213}{subsection.546}%
-\contentsline {subsection}{\numberline {6.5.2}Transition Probabilities}{215}{subsection.551}%
-\contentsline {chapter}{\numberline {7}Conclusions}{216}{chapter.552}%
-\contentsline {chapter}{\numberline {A}Shell Model}{221}{appendix.553}%
-\contentsline {section}{\numberline {A.1}Shell model}{221}{section.554}%
-\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{229}{section.578}%
-\contentsline {chapter}{\numberline {B}Two-State Mixing}{236}{appendix.590}%
-\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{241}{appendix.605}%
-\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{242}{section.607}%
-\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{243}{section.613}%
+\contentsline {subsection}{\numberline {6.5.2}Transition Probabilities}{215}{subsection.552}%
+\contentsline {chapter}{\numberline {7}Conclusions}{217}{chapter.553}%
+\contentsline {chapter}{\numberline {A}Shell Model}{222}{appendix.554}%
+\contentsline {section}{\numberline {A.1}Shell model}{222}{section.555}%
+\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{230}{section.579}%
+\contentsline {chapter}{\numberline {B}Two-State Mixing}{237}{appendix.591}%
+\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{242}{appendix.606}%
+\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{243}{section.608}%
+\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{244}{section.614}%
