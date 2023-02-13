@@ -657,7 +657,15 @@ where it can be seen that the analytical formulas for the first two bands are id
     \label{wobbling-frequency-new-boson}
 \end{align}
 
-For understanding Eq. \ref{excitation-energies-new-boson}, one might recall the diagram from Fig. \ref{fitting-workflow-fig}, which shows how the the excitation energies can be considered. The parameters $\mathcal{P}_\text{fit}$ obtained by fitting the experimental energies of $^{!35}$Pr with Eq. \ref{excitation-energies-new-boson} are provided in Table \ref{new-boson-fitting-parameters}.
+For understanding Eq. \ref{excitation-energies-new-boson}, one might recall the diagram from Fig. \ref{fitting-workflow-fig}, which shows how the the excitation energies can be considered. The parameters $\mathcal{P}_\text{fit}$ obtained by fitting the experimental energies of $^{!35}$Pr with Eq. \ref{excitation-energies-new-boson} are provided in Table \ref{new-boson-fitting-parameters}. It should be mentioned that that several conditions were restricted when searching for $\mathcal{P}+\text{fit}$ (i.e., some sort of \emph{validity conditions}). These are enumerated below:
+\begin{itemize}
+    \item The factor $A$ must be greater than zero (recall Eq. \ref{new-boson-hamiltonian-notations})
+    \item The factor $u$ from the same equation must be $u\in(0,1)$
+    \item The wobbling frequency $\omega_I$ as well as the one obtained by expanding $H'$ around the local minimum (that is $\omega'_I$ from Eq. \ref{wobbling-frequency-new-boson-prime}) must be real functions of $\theta$ and $\theta+\pi$
+    \item The elliptic potential from Eq. \ref{elliptic-potential-formula} must be a real function for $\theta$ and $\theta+\pi$.
+\end{itemize}
+
+With these criteria in check, the fitting procedure was performed, and results gave an RMS of about $0.170\ \text{MeV}$. The obtained results are slightly larger but not by much with other work such as Ref. \cite{chen2016wobbling} ($\approx0.160\ \text{MeV}$) and Ref. \cite{budaca2018tilted} ($\approx0.150\ \text{MeV}$).
 \begin{table}
     \centering
     \resizebox{0.85\textwidth}{!}{%
