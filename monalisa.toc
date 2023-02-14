@@ -91,7 +91,7 @@
 \contentsline {section}{\numberline {6.4}Electromagnetic Transitions}{210}{section.536}%
 \contentsline {section}{\numberline {6.5}Numerical Results}{213}{section.544}%
 \contentsline {subsection}{\numberline {6.5.1}Excitation Energies}{213}{subsection.546}%
-\contentsline {subsection}{\numberline {6.5.2}Transition Probabilities}{215}{subsection.552}%
+\contentsline {subsection}{\numberline {6.5.2}Transition Probabilities}{216}{subsection.552}%
 \contentsline {chapter}{\numberline {7}Conclusions}{217}{chapter.553}%
 \contentsline {chapter}{\numberline {A}Shell Model}{222}{appendix.554}%
 \contentsline {section}{\numberline {A.1}Shell model}{222}{section.555}%
