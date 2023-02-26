@@ -92,12 +92,12 @@
 \contentsline {section}{\numberline {6.5}Numerical Results}{213}{section.544}%
 \contentsline {subsection}{\numberline {6.5.1}Excitation Energies}{213}{subsection.546}%
 \contentsline {subsection}{\numberline {6.5.2}On the Chiral Character of the Wobbling Motion}{220}{subsection.559}%
-\contentsline {subsection}{\numberline {6.5.3}Transition Probabilities}{222}{subsection.565}%
-\contentsline {chapter}{\numberline {7}Conclusions}{223}{chapter.566}%
-\contentsline {chapter}{\numberline {A}Shell Model}{228}{appendix.567}%
-\contentsline {section}{\numberline {A.1}Shell model}{228}{section.568}%
-\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{236}{section.592}%
-\contentsline {chapter}{\numberline {B}Two-State Mixing}{243}{appendix.604}%
-\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{248}{appendix.619}%
-\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{249}{section.621}%
-\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{250}{section.627}%
+\contentsline {subsection}{\numberline {6.5.3}Transition Probabilities}{222}{subsection.566}%
+\contentsline {chapter}{\numberline {7}Conclusions}{223}{chapter.567}%
+\contentsline {chapter}{\numberline {A}Shell Model}{228}{appendix.568}%
+\contentsline {section}{\numberline {A.1}Shell model}{228}{section.569}%
+\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{236}{section.593}%
+\contentsline {chapter}{\numberline {B}Two-State Mixing}{243}{appendix.605}%
+\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{248}{appendix.620}%
+\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{249}{section.622}%
+\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{250}{section.628}%
