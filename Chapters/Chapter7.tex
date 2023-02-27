@@ -613,6 +613,7 @@ The factors $\bar{Q}_0$ and $\bar{Q}_2$ are the \emph{intrinsic quadrupole compo
 In order to calculate the matrix elements of the transition operator, the overlap factors for the interband and intraband transitions need to be determined. As per the calculations of Ref. \cite{raduta2020new}, it was shown that both $\bra{\Phi_{I,-I}}\ket{\Phi_{I-1,-I+1}}$ and $\bra{\Phi_{I,-I}}\ket{\Phi_{I-2,-I+2}}$ are very close to unity, such that they can be fixed to $1$. The reduced transition probabilities can be evaluated using the following formula:
 \begin{align}
     B(E2;I\to I')=\left|\bra{\psi_I}|\mathcal{M}(E2)|\ket{\Psi_{I'}}\right|^2
+    \label{reduced-electric-quadrupole-new-boson}
 \end{align}
 
 The intrinsic quadrupole moments $\bar{Q}_2$ and $\bar{Q}_0$ are taken as \emph{free parameters} within this approach, and the matrix elements for $\bra{\Psi_I}|\mathcal{M}(E2)|\ket{\Psi_{I-2}}$ (intraband) and $\bra{\Psi_I}|\mathcal{M}(E2)|\ket{\Psi_{I-1}}$ (interband) are given analytically in Eqs. (6.5) and (6.6) from Ref. \cite{raduta2020new}.
@@ -621,9 +622,10 @@ The \emph{magnetic dipole transition} operator is defined as \cite{raduta2020new
 \begin{align}
     \mathcal{M}\left(M1;\mu\right)=\frac{3}{4\pi}\mu_N\sum_{\nu}\left(g_R\hat{R}_\nu+g_j\hat{j}_\nu\right)\mathcal{D}_{\mu\nu}^1\equiv M_{1\mu}^\text{coll}+M_{1\mu}^\text{sp}\ ,
 \end{align}
-where the terms $R_\nu$ and $j_\nu$ are the spherical components of the core and the odd single-particle. The gyromagnetic factors of the core and the particle are denoted by $g_R$ and $g_j$, respectively. The matrix elements of the collective and single-particle transition operators $M_{1\mu}^\text{coll}$ and $M_{1\mu}^\text{sp}$ are provided in the set of Eqs. (6.10) - (6.12) from Ref. \cite{raduta2020new}. Therein, the values for the gyromagnetic factors are provided as well. These are used to finally get the analytical expression of the reduced transition probability:
+where the terms $R_\nu$ and $j_\nu$ are the spherical components of the core and the odd single-particle. The gyromagnetic factors of the core and the particle are denoted by $g_R$ and $g_j$, respectively. The matrix elements of the collective and single-particle transition operators $M_{1\mu}^\text{coll}$ and $M_{1\mu}^\text{sp}$ are provided in the set of Eqs. (6.10) - (6.12) from Ref. \cite{raduta2020new}. Therein, the values for the gyromagnetic factors are provided as well. These are used to get the analytical expression of the reduced transition probability for the magnetic dipole:
 \begin{align}
     B(M1;I\to I')=\left|\bra{\Psi_{I}}|\mathcal{M}(M1)|\ket{\Psi_{I'}}\right|^2\ .
+    \label{reduced-magnetic-dipole-new-boson}
 \end{align}
 
 \section{Numerical Results}
@@ -798,6 +800,33 @@ where it can be seen that the wobbling frequency $\omega(\theta)$ and its \emph{
 
 The two sets of excitation energies $E(\text{symm})$ and $E(\text{asymm})$ correspond to two bands of opposite chirality. Indeed, the symmetric values corresponds to a symmetric Hamiltonian and chirality $+1$, while the asymmetric values have negative chirality $-1$ and belong to an asymmetric Hamiltonian. Looking at Fig. \ref{chiral-excitation-energies-135Pr}, it can be seen that both bands are relatively close to each other, and they almost have similar behavior with respect to the total angular momentum. Nevertheless, the quadratic increase of $E(\text{symm})$ is noticeable. The rather constant energy spacing between the two bands is a feature specific to chiral bands \cite{raduta2020new} (see the chiral bands from Figs. \ref{chiral-bands-1} - \ref{chiral-bands-2}). The fact that the initial Hamiltonian contains a linear term is another feature of the chiral motion, which means that the wobbling and chiral properties seem to be somewhat connected for $^{135}$Pr. In fact, this is the first time where both phenomena are studied for the same spectra of a nucleus, and the only property that holds against a decisive character of both wobbling and chiral bands in $^{135}$Pr would be the rotational axis (i.e., for a chiral nucleus, the rotational axis lies outside any of the principal planes - recall Fig. \ref{chiral-geometry}). More experimental data on this isotope would help to conclude wether these two bands are indeed of chiral type.
 \subsection{Electromagnetic Transitions}
+
+The E2 and M1 reduced transition probabilities are calculated according to Eq. \ref{reduced-electric-quadrupole-new-boson} and Eq. \ref{reduced-magnetic-dipole-new-boson}, respectively. The initial and final wave-functions are determined from the calculus of energies, connecting in this way the electromagnetic transitions to the model Hamiltonian. As already mentioned, the numerical values for these quantities require two adjustable parameters: $\bar{Q}_0$ and $\bar{Q}_2$. The values of the parameters are:
+%TO-DO add the fitting method description
+\begin{align}
+    \bar{Q}_0=-30.02\ \mathrm{e}\cdot\text{fm}^2/\hbar^2\ ,\ \bar{Q}_2=136.39\ \mathrm{e}\cdot\text{fm}^2/\hbar^2\ .
+\end{align}
+
+The results for the $E2$ branching ratios, $E2/M1$ branching ratios and the mixing ratios $\delta$ for $^{135}$Pr are all compared with the experimental data in Table. \ref{new-boson-transitions-results}.
+\begin{table}[]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|c|cc|cc|cc|}
+    \hline &
+    \multicolumn{2}{c|}{$\frac{B(E2;I^-\rightarrow (I-1)^-)}{B(E2;I^-\rightarrow (I-2)^-)}$} &
+    \multicolumn{2}{c|}{$\frac{B(M1;I^-\rightarrow (I-1)^-)}{B(E2;I^-\rightarrow (I-2)^-)}\ \mu^2_N(\mathrm{eb})^{-2}$} &
+    \multicolumn{2}{c|}{$\delta_{I^-\rightarrow (I-1)^-}\ \text{MeV}\cdot\text{fm}$} \\ \hline
+    $I^\pi$  & Th.   & Exp.                & Th.   & Exp.                & Th.   & Exp.             \\
+    $21/2^-$ & 0.400 & $0.843\pm0.032$     & 0.08  & $0.164\pm0.014$     & 1.97  & $-1.54\pm0.009$  \\
+    $25/2^-$ & 0.450 & $0.500\pm0.025$     & 0.056 & $0.035\pm0.009$     & -2.82 & $-2.384\pm0.037$ \\
+    $29/2^-$ & 0.497 & $\geq0.261\pm0.014$ & 0.041 & $\leq0.016\pm0.004$ & -3.82 & -                \\
+    $33/2^-$ & 0.543 & -                   & 0.031 & -                   & -4.96 & -                \\ \hline
+    \end{tabular}%
+    }
+    \caption{The obtained numerical values for the electromagnetic transitions are compared with the experimental data for $^{135}$Pr. Only the states for which experimental data is available were considered.}
+    % removed caption content: $B(E2)_\text{out}/B(E2)_\text{in}$ and $B(M1)_\text{out}/B(E2)_\text{in}$ branching ratios, and also the mixing ratio $\delta$
+    \label{new-boson-transitions-results}
+    \end{table}
 
 \subsection{Concluding Remarks}
 \label{new-boson-concluding-remarks}
