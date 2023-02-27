@@ -89,7 +89,7 @@
 \contentsline {subsection}{\numberline {6.2.3}Harmonic Approximation of the Energy}{196}{subsection.477}%
 \contentsline {section}{\numberline {6.3}Classical Description of the Hamiltonian}{199}{section.487}%
 \contentsline {section}{\numberline {6.4}Electromagnetic Transitions}{210}{section.535}%
-\contentsline {section}{\numberline {6.5}Numerical Results}{213}{section.543}%
+\contentsline {section}{\numberline {6.5}Numerical Results}{212}{section.543}%
 \contentsline {subsection}{\numberline {6.5.1}Excitation Energies}{213}{subsection.545}%
 \contentsline {subsection}{\numberline {6.5.2}On the Chiral Character of the Wobbling Motion}{220}{subsection.558}%
 \contentsline {subsection}{\numberline {6.5.3}Electromagnetic Transitions}{223}{subsection.565}%
