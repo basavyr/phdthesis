@@ -85,20 +85,20 @@
 \contentsline {section}{\numberline {6.1}Angular Momentum - Boson Representation}{188}{section.439}%
 \contentsline {section}{\numberline {6.2}Theoretical Framework}{191}{section.452}%
 \contentsline {subsection}{\numberline {6.2.1}Potential Energy for the PRM Hamiltonian}{191}{subsection.453}%
-\contentsline {subsection}{\numberline {6.2.2}Another boson expansion for the angular momentum}{196}{subsection.473}%
+\contentsline {subsection}{\numberline {6.2.2}Another boson expansion for the angular momentum}{195}{subsection.473}%
 \contentsline {subsection}{\numberline {6.2.3}Harmonic Approximation of the Energy}{196}{subsection.477}%
-\contentsline {section}{\numberline {6.3}Classical Description of the Hamiltonian}{199}{section.487}%
+\contentsline {section}{\numberline {6.3}Classical Description of the Hamiltonian}{198}{section.487}%
 \contentsline {section}{\numberline {6.4}Electromagnetic Transitions}{211}{section.535}%
 \contentsline {section}{\numberline {6.5}Numerical Results}{213}{section.543}%
-\contentsline {subsection}{\numberline {6.5.1}Excitation Energies}{214}{subsection.545}%
+\contentsline {subsection}{\numberline {6.5.1}Excitation Energies}{213}{subsection.545}%
 \contentsline {subsection}{\numberline {6.5.2}On the Chiral Character of the Wobbling Motion}{220}{subsection.558}%
 \contentsline {subsection}{\numberline {6.5.3}Electromagnetic Transitions}{223}{subsection.565}%
-\contentsline {subsection}{\numberline {6.5.4}Concluding Remarks}{225}{subsection.568}%
-\contentsline {chapter}{\numberline {7}Conclusions}{228}{chapter.569}%
-\contentsline {chapter}{\numberline {A}Shell Model}{233}{appendix.570}%
-\contentsline {section}{\numberline {A.1}Shell model}{233}{section.571}%
-\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{241}{section.595}%
-\contentsline {chapter}{\numberline {B}Two-State Mixing}{248}{appendix.607}%
-\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{253}{appendix.622}%
-\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{254}{section.624}%
-\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{255}{section.630}%
+\contentsline {subsection}{\numberline {6.5.4}Concluding Remarks}{224}{subsection.568}%
+\contentsline {chapter}{\numberline {7}Conclusions}{227}{chapter.569}%
+\contentsline {chapter}{\numberline {A}Shell Model}{232}{appendix.570}%
+\contentsline {section}{\numberline {A.1}Shell model}{232}{section.571}%
+\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{240}{section.595}%
+\contentsline {chapter}{\numberline {B}Two-State Mixing}{247}{appendix.607}%
+\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{252}{appendix.622}%
+\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{253}{section.624}%
+\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{254}{section.630}%
