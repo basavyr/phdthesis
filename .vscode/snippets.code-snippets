@@ -81,4 +81,12 @@
 		],
 		"description": "write all Lu isotopes"
 	},
+	"newboson":{
+		"scope": "latex",
+		"prefix": "newboson",
+		"body": [
+			"\\cite{raduta2020new}",
+		],
+		"description": "write the reference to the new boson paper from JPG"
+	}
 }

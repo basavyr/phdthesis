@@ -903,10 +903,69 @@ Kosai Tanabe and Kazuko Sugawara-Tanabe.
   odd-mass nucleus and the analysis of pr 135’”.
 \newblock {\em Physical Review C}, 97(6):069802, 2018.
 
+\bibitem{dyson1956general}
+Freeman~J Dyson.
+\newblock General theory of spin-wave interactions.
+\newblock {\em Physical review}, 102(5):1217, 1956.
+
+\bibitem{bargmann1962representations}
+V~Bargmann.
+\newblock On the representations of the rotation group.
+\newblock {\em Reviews of Modern Physics}, 34(4):829, 1962.
+
+\bibitem{jancovici1964collective}
+B~Jancovici and DH~Schiff.
+\newblock The collective vibrations of a many-fermion system.
+\newblock {\em Nuclear Physics}, 58:678--686, 1964.
+
+\bibitem{janssen1971boson}
+D~Janssen, F~D{\"o}nau, S~Frauendorf, and RV~Jolos.
+\newblock Boson description of collective states:(i). derivation of the boson
+  transformation for even fermion systems.
+\newblock {\em Nuclear Physics A}, 172(1):145--165, 1971.
+
+\bibitem{jacobi1829fundamenta}
+Carl Gustav~Jacob Jacobi.
+\newblock {\em Fundamenta nova theoriae functionum ellipticarum}.
+\newblock Borntrager, 1829.
+
+\bibitem{akhiezer1990elements}
+Naum~Ilich Akhiezer.
+\newblock {\em Elements of the theory of elliptic functions}, volume~79.
+\newblock American Mathematical Soc., 1990.
+
+\bibitem{kovacic2016jacobi}
+Ivana Kovacic, Livija Cveticanin, Miodrag Zukovic, and Zvonko Rakaric.
+\newblock Jacobi elliptic functions: a review of nonlinear oscillatory
+  application problems.
+\newblock {\em Journal of Sound and Vibration}, 380:1--36, 2016.
+
+\bibitem{weisstein2002jacobi}
+Eric~W Weisstein.
+\newblock Jacobi elliptic functions.
+\newblock {\em https://mathworld. wolfram. com/}, 2002.
+
+\bibitem{weisstein2002jacobiamu}
+Eric~W Weisstein.
+\newblock Jacobi amplitude.
+\newblock {\em https://mathworld. wolfram. com/}, 2002.
+
+\bibitem{matta2021erratum}
+J.~T. Matta, U.~Garg, S.~Zhu, R.~Palit, S.~S. Ghugre, A.~D. Ayangeakaa,
+  R.~V.~F. Janssens, and M.~P. Carpenter.
+\newblock Erratum: Transverse wobbling in 135pr [phys. rev. lett. 114, 082501
+  (2015)].
+\newblock {\em Phys. Rev. Lett.}, 127:139902, Sep 2021.
+
+\bibitem{chen2016wobbling}
+QB~Chen, SQ~Zhang, J~Meng, et~al.
+\newblock Wobbling motion in pr 135 within a collective hamiltonian.
+\newblock {\em Physical Review C}, 94(5):054308, 2016.
+
 \bibitem{weizsacker1935theorie}
-CF~von Weizs{\"a}cker.
+CF~von Weizsacker.
 \newblock Zur theorie der kernmassen.
-\newblock {\em Zeitschrift f{\"u}r Physik}, 96(7):431--458, 1935.
+\newblock {\em Zeitschrift fur Physik}, 96(7):431--458, 1935.
 
 \bibitem{raman2001transition}
 Subramanyan Raman, CW~Nestor~Jr, and P~Tikkanen.
