@@ -37,16 +37,11 @@ The three functions $J_+^\text{cls}$, $J_-^\text{cls}$, $J_3^\text{cls}$ togethe
 
 The classical coordinates belonging to that phase space were re-quantized through the \emph{Dyson boson expansion} \cite{dyson1956general}, which signified a change of the picture from the classical $\text{SU}(2)_\text{cls}$ back to a quantized view. Firstly, the quantization starts with two canonical complex variables written in terms of the conjugate coordinates $(r, \varphi)$:
 \begin{align}
-    \mathcal{C}=\sqrt{2I}\sqrt{r^{-1}(2I-r)}e^{-\iu\varphi}\ ,\nonumber\\
-    \mathcal{B}^*=\sqrt{2I}^{-1}\sqrt{r(2I-r)}e^{\iu\varphi}\ ,
+    \mathcal{C}=\sqrt{2I}\sqrt{\frac{r}{(2I-r)}}e^{-\iu\varphi}\ ,\nonumber\\
+    \mathcal{B}^*=\frac{1}{\sqrt{2I}}\sqrt{r(2I-r)}e^{\iu\varphi}\ ,
     \label{complex-variables-dyson}
 \end{align}
-and the Poisson bracket:
-\begin{align}
-    \left\{\mathcal{B}^*,\mathcal{C}\right\}=\iu\ .
-\end{align}
-
-The quantization process within the Dyson representation implies that a new set of quantal operators $b$ and $b^\dagger$ should replace the two complex coordinates, and the inner product defined by the Poisson bracket becomes the commutator operator:
+and the Poisson bracket is: $\left\{\mathcal{B}^*,\mathcal{C}\right\}=\iu$. The quantization process within the Dyson representation implies that a new set of quantal operators $b$ and $b^\dagger$ should replace the two complex coordinates, and the inner product defined by the Poisson bracket becomes the commutator operator:
 \begin{align}
     \left(\mathcal{C},\mathcal{B}^*,\{,\}\right)\Longrightarrow\left(b,b^\dagger,-\iu \left[,\right]\right)\ .
     \label{dyson-transformation}
@@ -60,7 +55,7 @@ The transformation employed in Eq. \ref{dyson-transformation} will introduce the
     \label{dyson-boson-expansion-am-components}
 \end{align}
 
-The set of angular momentum components $\hat{J}^\text{D}$ provided in Eq. \ref{dyson-boson-expansion-am-components} marks the onset of the Dyson boson representation. A function that depends on the variables from Eq. \ref{complex-variables-dyson} can be quantized by first writing its expression in terms of $\mathcal{C}$ and $\mathcal{B}^*$ and then replacing both variables by the boson operators $b$ and $b^\dagger$. The transformation is boson-like because of the nature of $b$ and $b^\dagger$. These operators obey the boson canonical commutation relations:
+The set of angular momentum components $\hat{J}^\text{D}$ provided in Eq. \ref{dyson-boson-expansion-am-components} marks the onset of the \emph{Dyson boson representation}. A function that depends on the variables from Eq. \ref{complex-variables-dyson} can be quantized by first writing its expression in terms of $\mathcal{C}$ and $\mathcal{B}^*$ and then replacing both variables by the boson operators $b$ and $b^\dagger$. The transformation is boson-like because of the nature of $b$ and $b^\dagger$. These operators obey the boson canonical commutation relations:
 \begin{align}
     \left[b,b^\dagger\right]=1\ ,\ \left[b,b\right]=\left[b^\dagger,b^\dagger\right]=0\ .
     \label{boson-commutation-relations}
@@ -82,7 +77,7 @@ Further calculations from that work gave the energy spectrum for $^{158}$Er, pro
 \section{Theoretical Framework}
 \label{section-new-boson-theoretical-framework}
 
-The boson representation of the angular momentum operator was introduced in Section \ref{section-intro-boson-representation} since the work from Ref. \cite{raduta2020new} is based on such representations. In this paper, the team proposed a novel formalism in which the angular momentum components are expanded in terms of boson operators. In contrast to $\mathbf{W_0}$, here the even-odd mass nuclei are considered. By using the \emph{Bargmann mapping}, the eigenvalue equation associated with the model Hamiltonian is brought to a Schrödinger-like structure.
+The boson representation of the angular momentum operator was introduced in Section \ref{section-intro-boson-representation} because the study from Ref. \cite{raduta2020new} is based on such representations. In this paper, the team proposed a novel formalism in which the angular momentum components are expanded in terms of boson operators. In contrast to $\mathbf{W_0}$, here the even-odd mass nuclei are considered. By using the \emph{Bargmann mapping}, the eigenvalue equation associated with the model Hamiltonian is brought to a Schrödinger-like structure.
 % In addition, a harmonic approximation (HA) performed on this equation will lead to different analytical formulas for the wobbling frequency.
 
 \subsection{Potential Energy for the PRM Hamiltonian}
