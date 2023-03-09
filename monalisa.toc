@@ -43,63 +43,63 @@
 \contentsline {section}{\numberline {3.2}Wobbling Motion in Odd-Mass Nuclei}{75}{section.188}%
 \contentsline {section}{\numberline {3.3}Wobbling Nuclei - A Complete Catalog}{85}{section.207}%
 \contentsline {subsection}{\numberline {3.3.1}Wobbling around A=100}{86}{subsection.208}%
-\contentsline {subsection}{\numberline {3.3.2}Wobbling around A=130}{86}{subsection.210}%
-\contentsline {subsection}{\numberline {3.3.3}Wobbling around A=160}{88}{subsection.212}%
-\contentsline {subsection}{\numberline {3.3.4}Wobbling around A=180}{90}{subsection.214}%
-\contentsline {subsection}{\numberline {3.3.5}Wobbling Motion - Experimental Chart}{93}{subsection.220}%
-\contentsline {section}{\numberline {3.4}Concluding Remarks}{96}{section.223}%
-\contentsline {chapter}{\numberline {4}New Theoretical Formalism}{97}{chapter.224}%
-\contentsline {section}{\numberline {4.1}Previous Work - Foundation}{97}{section.225}%
-\contentsline {section}{\numberline {4.2}Re-interpretation of the Wobbling Motion}{100}{section.227}%
-\contentsline {subsection}{\numberline {4.2.1}Variational Principle}{101}{subsection.231}%
-\contentsline {subsection}{\numberline {4.2.2}Classical Equations of Motion}{103}{subsection.237}%
-\contentsline {subsection}{\numberline {4.2.3}Classical Energy Function (CEF)}{105}{subsection.244}%
-\contentsline {subsubsection}{\numberline {4.2.3.1}Canonical Factors - Qualitative Analysis}{105}{subsubsection.247}%
-\contentsline {subsubsection}{\numberline {4.2.3.2}Critical Region}{106}{subsubsection.251}%
-\contentsline {subsection}{\numberline {4.2.4}Wobbling Frequencies}{108}{subsection.254}%
-\contentsline {subsection}{\numberline {4.2.5}An Alternative Approach}{114}{subsection.271}%
-\contentsline {section}{\numberline {4.3}A New Band Structure in Lu Isotopes}{122}{section.297}%
-\contentsline {subsection}{\numberline {4.3.1}Variational States}{123}{subsection.298}%
-\contentsline {subsection}{\numberline {4.3.2}Fitting Parameters}{126}{subsection.307}%
-\contentsline {section}{\numberline {4.4}Numerical Results in Lu Isotopes}{128}{section.310}%
-\contentsline {subsection}{\numberline {4.4.1}Numerical Parameters}{131}{subsection.321}%
-\contentsline {subsection}{\numberline {4.4.2}Energies}{133}{subsection.325}%
-\contentsline {subsection}{\numberline {4.4.3}Alignment}{137}{subsection.331}%
-\contentsline {subsection}{\numberline {4.4.4}Reference Energy}{139}{subsection.336}%
-\contentsline {subsection}{\numberline {4.4.5}Dynamic MOI}{141}{subsection.341}%
-\contentsline {subsection}{\numberline {4.4.6}Electromagnetic Transitions}{143}{subsection.345}%
-\contentsline {subsubsection}{\numberline {4.4.6.1}E2 Transitions}{145}{subsubsection.348}%
-\contentsline {subsubsection}{\numberline {4.4.6.2}M1 Transitions}{154}{subsubsection.367}%
-\contentsline {section}{\numberline {4.5}Concluding Remarks}{159}{section.379}%
-\contentsline {chapter}{\numberline {5}Novel Description of the Wobbling Bands}{162}{chapter.383}%
-\contentsline {section}{\numberline {5.1}Parity Partner Bands}{163}{section.384}%
-\contentsline {subsection}{\numberline {5.1.1}Parity of the wave-function}{166}{subsection.389}%
-\contentsline {subsection}{\numberline {5.1.2}Redefined Energy Spectrum}{167}{subsection.397}%
-\contentsline {section}{\numberline {5.2}Numerical Results}{168}{section.399}%
-\contentsline {subsection}{\numberline {5.2.1}Energy spectrum}{168}{subsection.401}%
-\contentsline {subsection}{\numberline {5.2.2}Interpretation of the parameter set}{172}{subsection.407}%
-\contentsline {section}{\numberline {5.3}Classical Energy Function (CEF)}{175}{section.410}%
-\contentsline {subsection}{\numberline {5.3.1}CEF - Stability Regions}{176}{subsection.415}%
-\contentsline {subsection}{\numberline {5.3.2}Classical 3D Trajectories}{181}{subsection.424}%
-\contentsline {section}{\numberline {5.4}Concluding Remarks}{186}{section.434}%
-\contentsline {chapter}{\numberline {6}Study of the Wobbling Motion via a Boson Description}{188}{chapter.435}%
-\contentsline {section}{\numberline {6.1}Angular Momentum - Boson Representation}{189}{section.436}%
-\contentsline {section}{\numberline {6.2}Theoretical Framework}{192}{section.448}%
-\contentsline {subsection}{\numberline {6.2.1}Potential Energy for the PRM Hamiltonian}{192}{subsection.449}%
-\contentsline {subsection}{\numberline {6.2.2}Another boson expansion for the angular momentum}{197}{subsection.470}%
-\contentsline {subsection}{\numberline {6.2.3}Harmonic Approximation of the Energy}{197}{subsection.474}%
-\contentsline {section}{\numberline {6.3}Classical Description of the Hamiltonian}{200}{section.484}%
-\contentsline {section}{\numberline {6.4}Electromagnetic Transitions}{212}{section.532}%
-\contentsline {section}{\numberline {6.5}Numerical Results}{214}{section.540}%
-\contentsline {subsection}{\numberline {6.5.1}Excitation Energies}{215}{subsection.542}%
-\contentsline {subsection}{\numberline {6.5.2}On the Chiral Character of the Wobbling Motion}{221}{subsection.555}%
-\contentsline {subsection}{\numberline {6.5.3}Electromagnetic Transitions}{224}{subsection.562}%
-\contentsline {subsection}{\numberline {6.5.4}Concluding Remarks}{226}{subsection.565}%
-\contentsline {chapter}{\numberline {7}Conclusions}{229}{chapter.566}%
-\contentsline {chapter}{\numberline {A}Shell Model}{234}{appendix.567}%
-\contentsline {section}{\numberline {A.1}Shell model}{234}{section.568}%
-\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{242}{section.592}%
-\contentsline {chapter}{\numberline {B}Two-State Mixing}{249}{appendix.604}%
-\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{254}{appendix.619}%
-\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{255}{section.621}%
-\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{256}{section.627}%
+\contentsline {subsection}{\numberline {3.3.2}Wobbling around A=130}{87}{subsection.210}%
+\contentsline {subsection}{\numberline {3.3.3}Wobbling around A=160}{89}{subsection.212}%
+\contentsline {subsection}{\numberline {3.3.4}Wobbling around A=180}{91}{subsection.214}%
+\contentsline {subsection}{\numberline {3.3.5}Wobbling Motion - Experimental Chart}{94}{subsection.220}%
+\contentsline {section}{\numberline {3.4}Concluding Remarks}{94}{section.223}%
+\contentsline {chapter}{\numberline {4}New Theoretical Formalism}{98}{chapter.224}%
+\contentsline {section}{\numberline {4.1}Previous Work - Foundation}{98}{section.225}%
+\contentsline {section}{\numberline {4.2}Re-interpretation of the Wobbling Motion}{101}{section.227}%
+\contentsline {subsection}{\numberline {4.2.1}Variational Principle}{102}{subsection.231}%
+\contentsline {subsection}{\numberline {4.2.2}Classical Equations of Motion}{104}{subsection.237}%
+\contentsline {subsection}{\numberline {4.2.3}Classical Energy Function (CEF)}{106}{subsection.244}%
+\contentsline {subsubsection}{\numberline {4.2.3.1}Canonical Factors - Qualitative Analysis}{106}{subsubsection.247}%
+\contentsline {subsubsection}{\numberline {4.2.3.2}Critical Region}{107}{subsubsection.251}%
+\contentsline {subsection}{\numberline {4.2.4}Wobbling Frequencies}{109}{subsection.254}%
+\contentsline {subsection}{\numberline {4.2.5}An Alternative Approach}{115}{subsection.271}%
+\contentsline {section}{\numberline {4.3}A New Band Structure in Lu Isotopes}{123}{section.297}%
+\contentsline {subsection}{\numberline {4.3.1}Variational States}{124}{subsection.298}%
+\contentsline {subsection}{\numberline {4.3.2}Fitting Parameters}{127}{subsection.307}%
+\contentsline {section}{\numberline {4.4}Numerical Results in Lu Isotopes}{129}{section.310}%
+\contentsline {subsection}{\numberline {4.4.1}Numerical Parameters}{132}{subsection.321}%
+\contentsline {subsection}{\numberline {4.4.2}Energies}{134}{subsection.325}%
+\contentsline {subsection}{\numberline {4.4.3}Alignment}{138}{subsection.331}%
+\contentsline {subsection}{\numberline {4.4.4}Reference Energy}{140}{subsection.336}%
+\contentsline {subsection}{\numberline {4.4.5}Dynamic MOI}{142}{subsection.341}%
+\contentsline {subsection}{\numberline {4.4.6}Electromagnetic Transitions}{144}{subsection.345}%
+\contentsline {subsubsection}{\numberline {4.4.6.1}E2 Transitions}{146}{subsubsection.348}%
+\contentsline {subsubsection}{\numberline {4.4.6.2}M1 Transitions}{155}{subsubsection.367}%
+\contentsline {section}{\numberline {4.5}Concluding Remarks}{160}{section.379}%
+\contentsline {chapter}{\numberline {5}Novel Description of the Wobbling Bands}{163}{chapter.383}%
+\contentsline {section}{\numberline {5.1}Parity Partner Bands}{164}{section.384}%
+\contentsline {subsection}{\numberline {5.1.1}Parity of the wave-function}{167}{subsection.389}%
+\contentsline {subsection}{\numberline {5.1.2}Redefined Energy Spectrum}{168}{subsection.397}%
+\contentsline {section}{\numberline {5.2}Numerical Results}{169}{section.399}%
+\contentsline {subsection}{\numberline {5.2.1}Energy spectrum}{169}{subsection.401}%
+\contentsline {subsection}{\numberline {5.2.2}Interpretation of the parameter set}{173}{subsection.407}%
+\contentsline {section}{\numberline {5.3}Classical Energy Function (CEF)}{176}{section.410}%
+\contentsline {subsection}{\numberline {5.3.1}CEF - Stability Regions}{177}{subsection.415}%
+\contentsline {subsection}{\numberline {5.3.2}Classical 3D Trajectories}{182}{subsection.424}%
+\contentsline {section}{\numberline {5.4}Concluding Remarks}{187}{section.434}%
+\contentsline {chapter}{\numberline {6}Study of the Wobbling Motion via a Boson Description}{189}{chapter.435}%
+\contentsline {section}{\numberline {6.1}Angular Momentum - Boson Representation}{190}{section.436}%
+\contentsline {section}{\numberline {6.2}Theoretical Framework}{193}{section.448}%
+\contentsline {subsection}{\numberline {6.2.1}Potential Energy for the PRM Hamiltonian}{193}{subsection.449}%
+\contentsline {subsection}{\numberline {6.2.2}Another boson expansion for the angular momentum}{198}{subsection.470}%
+\contentsline {subsection}{\numberline {6.2.3}Harmonic Approximation of the Energy}{198}{subsection.474}%
+\contentsline {section}{\numberline {6.3}Classical Description of the Hamiltonian}{201}{section.484}%
+\contentsline {section}{\numberline {6.4}Electromagnetic Transitions}{213}{section.532}%
+\contentsline {section}{\numberline {6.5}Numerical Results}{215}{section.540}%
+\contentsline {subsection}{\numberline {6.5.1}Excitation Energies}{216}{subsection.542}%
+\contentsline {subsection}{\numberline {6.5.2}On the Chiral Character of the Wobbling Motion}{222}{subsection.555}%
+\contentsline {subsection}{\numberline {6.5.3}Electromagnetic Transitions}{225}{subsection.562}%
+\contentsline {subsection}{\numberline {6.5.4}Concluding Remarks}{227}{subsection.565}%
+\contentsline {chapter}{\numberline {7}Conclusions}{230}{chapter.566}%
+\contentsline {chapter}{\numberline {A}Shell Model}{235}{appendix.567}%
+\contentsline {section}{\numberline {A.1}Shell model}{235}{section.568}%
+\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{243}{section.592}%
+\contentsline {chapter}{\numberline {B}Two-State Mixing}{250}{appendix.604}%
+\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{255}{appendix.619}%
+\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{256}{section.621}%
+\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{257}{section.627}%
