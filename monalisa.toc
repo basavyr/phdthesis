@@ -64,12 +64,12 @@
 \contentsline {section}{\numberline {4.4}Numerical Results in Lu Isotopes}{129}{section.310}%
 \contentsline {subsection}{\numberline {4.4.1}Numerical Parameters}{132}{subsection.321}%
 \contentsline {subsection}{\numberline {4.4.2}Energies}{134}{subsection.325}%
-\contentsline {subsection}{\numberline {4.4.3}Alignment}{138}{subsection.331}%
+\contentsline {subsection}{\numberline {4.4.3}Alignment}{137}{subsection.331}%
 \contentsline {subsection}{\numberline {4.4.4}Reference Energy}{140}{subsection.336}%
-\contentsline {subsection}{\numberline {4.4.5}Dynamic MOI}{142}{subsection.341}%
-\contentsline {subsection}{\numberline {4.4.6}Electromagnetic Transitions}{144}{subsection.345}%
+\contentsline {subsection}{\numberline {4.4.5}Dynamic MOI}{143}{subsection.341}%
+\contentsline {subsection}{\numberline {4.4.6}Electromagnetic Transitions}{145}{subsection.345}%
 \contentsline {subsubsection}{\numberline {4.4.6.1}E2 Transitions}{146}{subsubsection.348}%
-\contentsline {subsubsection}{\numberline {4.4.6.2}M1 Transitions}{155}{subsubsection.367}%
+\contentsline {subsubsection}{\numberline {4.4.6.2}M1 Transitions}{153}{subsubsection.367}%
 \contentsline {section}{\numberline {4.5}Concluding Remarks}{160}{section.379}%
 \contentsline {chapter}{\numberline {5}Novel Description of the Wobbling Bands}{163}{chapter.383}%
 \contentsline {section}{\numberline {5.1}Parity Partner Bands}{164}{section.384}%
