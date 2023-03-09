@@ -178,7 +178,7 @@ The potential term $V(q)$ is defined as \cite{raduta2020new}:
 and it is graphically represented in Fig. \ref{elliptic-potential-plot}. It can be seen that $V(q)$ has a symmetry to the change of sign for the coordinate $q$. If the potential is calculated for the interval $q\in\left[-4K,4K\right]$, it has three deep symmetric wells, with degenerate minima, and two local minima surrounding $q=\pm 2K$. The states near the local minima are meta-stable, meaning that through a tunneling effect, they can transition to adjacent minima. These characteristics are illustrated in Fig. \ref{elliptic-potential-plot-deep-mininma}.
 \begin{figure}
     \centering
-    \includegraphics[scale=0.8]{Chapters/Figures/Elliptic-Potential-V.pdf}
+    \includegraphics[scale=0.7]{Chapters/Figures/Elliptic-Potential-V.pdf}
     \caption{The potential energy as function of $q$ for several values of the angular momentum $I$. For the calculation of $V(q)$, the MOI were set to $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=95:100:85\ \hbar\text{MeV}^{-2}$, $j=13/2$, and $\theta=-80^\circ$.}
     \label{elliptic-potential-plot}
 \end{figure}
@@ -190,7 +190,12 @@ and it is graphically represented in Fig. \ref{elliptic-potential-plot}. It can 
     \label{elliptic-potential-plot-deep-mininma}
 \end{figure}
 
-Adopting the Bargmann representation for the angular momentum representation depicted in Eq. \ref{angular-momentum-elliptic-representation}, the three components $\hat{I}_{\mp}$ and $\hat{I}_0$ become:
+By adopting the Bargmann representation for the angular momentum representation depicted in Eq. \ref{angular-momentum-elliptic-representation}, a set of boson operators for the variable $q$ and its first-derivative operator can be mapped:
+\begin{align}
+    q\rightarrow b^\dagger\ ,\ \frac{d}{dq}\rightarrow b\ ,
+    \label{new-boson-bargmann-mapping}
+\end{align}
+and this results in the three components $\hat{I}_{\mp}$ and $\hat{I}_0$ becoming \cite{raduta2020new}:
 \begin{align}
     \hat{I}_+&=\iu\frac{cb^\dagger-db^\dagger}{k'sb^\dagger}\left(I+Icb^\dagger db^\dagger-sb^\dagger b\right)\ ,\nonumber\\
     \hat{I}_-&=\iu\frac{cb^\dagger+db^\dagger}{k'sb^\dagger}\left(I-Icb^\dagger d b^\dagger+sb^\dagger b\right)\ ,\nonumber\\
@@ -198,23 +203,23 @@ Adopting the Bargmann representation for the angular momentum representation dep
     \label{angular-momentum-elliptic-bargmann}
 \end{align}
 
-\emph{This is the first time in literature when such a transformation emerges}. The boson expansion of the angular momentum components obtained from the elliptic functions $s$, $c$, $d$, and the Bargmann mapping applied on the same components is the remarking feature of the work from Ref. \cite{raduta2020new}. This expansion is different that the Dyson one, which was illustrated in Section \ref{section-intro-boson-representation}.
+\emph{This is the first time in literature when such a transformation emerges}. The remarkable features of the work presented in Ref. \cite{raduta2020new} are the boson expansion of angular momentum components obtained from elliptic functions $s$, $c$, and $d$, and the application of the Bargmann mapping depicted in Eq. \ref{new-boson-bargmann-mapping} to these components.
 
 \subsection{Another boson expansion for the angular momentum}
 
-When $k=0$, the following values are obtained for the elliptic functions:
+Particular attention should be paid to the case where $k=0$, as the elliptic functions will have the following values:
 \begin{align}
     q=\varphi\ ,\ d=1\ , K=\frac{\pi}{2}\ ,\ k'=1\ .
 \end{align}
 
-Using these values, the components from Eq. \ref{angular-momentum-elliptic-bargmann} can be re-written, such that in the rotating frame they become:
+Using these values, the components from Eq. \ref{angular-momentum-elliptic-bargmann} can be re-written such that in the rotating frame they become:
 \begin{align}
     \hat{I}_+&=\iu\left[-I\sin b^\dagger+\left(1-\cos b^\dagger\right)b^\dagger\right]\ ,\nonumber\\
     \hat{I}_-&=\iu\left[I\sin b^\dagger+\left(1+\cos b^\dagger\right)b\right]\ ,\nonumber\\
     \hat{I}_0&=I\cos b^\dagger-b\sin b^\dagger\ ,
     \label{angular-momentum-new-expansion}
 \end{align}
-which can be simplified even more if the trigonometric functions are expanded and the leading terms are kept:
+which can be simplified even more if the trigonometric functions are expanded and only the leading terms are kept:
 \begin{align}
     \hat{I}_+&=\iu\left[-Ib^\dagger+\frac{1}{2}b\left(b^\dagger\right)^2\right]\ ,\nonumber\\
     \hat{I}_-&=2\iu b\ ,\nonumber\\
@@ -234,7 +239,7 @@ One can aim at solving numerically Eq. \ref{schrodinger-equation-elliptic}, but 
 There are five minima, located at $q=0,\pm2K,\pm4K$. Remarkable that for $q=\pm2K$ the two minima emerge for angular momentum values that are larger than $19/2$. This is emphasized in Fig. \ref{elliptic-potential-plot-2k-minima}, where it can be seen that the minima are flat at the beginning, but their depth increases with increasing values of $I$.
 \begin{figure}
     \centering
-    \includegraphics[scale=0.85]{Chapters/Figures/Elliptic-Potential-2K-Minima.pdf}
+    \includegraphics[scale=0.8]{Chapters/Figures/Elliptic-Potential-2K-Minima.pdf}
     \caption{The potential $V(q)$ from Eq. \ref{elliptic-potential-formula}, near the $q=2K$ minimum point. It can be observed that the minimum character appears only for $I>19/2$.}
     \label{elliptic-potential-plot-2k-minima}
 \end{figure}
