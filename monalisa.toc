@@ -76,30 +76,30 @@
 \contentsline {subsection}{\numberline {5.1.1}Parity of the wave-function}{167}{subsection.389}%
 \contentsline {subsection}{\numberline {5.1.2}Redefined Energy Spectrum}{168}{subsection.397}%
 \contentsline {section}{\numberline {5.2}Numerical Results}{169}{section.399}%
-\contentsline {subsection}{\numberline {5.2.1}Energy spectrum}{169}{subsection.401}%
-\contentsline {subsection}{\numberline {5.2.2}Interpretation of the parameter set}{173}{subsection.407}%
+\contentsline {subsection}{\numberline {5.2.1}Energy spectrum}{170}{subsection.401}%
+\contentsline {subsection}{\numberline {5.2.2}Interpretation of the parameter set}{174}{subsection.407}%
 \contentsline {section}{\numberline {5.3}Classical Energy Function (CEF)}{176}{section.410}%
 \contentsline {subsection}{\numberline {5.3.1}CEF - Stability Regions}{177}{subsection.415}%
 \contentsline {subsection}{\numberline {5.3.2}Classical 3D Trajectories}{182}{subsection.424}%
 \contentsline {section}{\numberline {5.4}Concluding Remarks}{187}{section.434}%
-\contentsline {chapter}{\numberline {6}Study of the Wobbling Motion via a Boson Description}{189}{chapter.435}%
-\contentsline {section}{\numberline {6.1}Angular Momentum - Boson Representation}{190}{section.436}%
-\contentsline {section}{\numberline {6.2}Theoretical Framework}{193}{section.448}%
-\contentsline {subsection}{\numberline {6.2.1}Potential Energy for the PRM Hamiltonian}{193}{subsection.449}%
-\contentsline {subsection}{\numberline {6.2.2}Another boson expansion for the angular momentum}{198}{subsection.470}%
-\contentsline {subsection}{\numberline {6.2.3}Harmonic Approximation of the Energy}{198}{subsection.474}%
-\contentsline {section}{\numberline {6.3}Classical Description of the Hamiltonian}{201}{section.484}%
-\contentsline {section}{\numberline {6.4}Electromagnetic Transitions}{213}{section.532}%
-\contentsline {section}{\numberline {6.5}Numerical Results}{215}{section.540}%
-\contentsline {subsection}{\numberline {6.5.1}Excitation Energies}{216}{subsection.542}%
-\contentsline {subsection}{\numberline {6.5.2}On the Chiral Character of the Wobbling Motion}{222}{subsection.555}%
-\contentsline {subsection}{\numberline {6.5.3}Electromagnetic Transitions}{225}{subsection.562}%
-\contentsline {subsection}{\numberline {6.5.4}Concluding Remarks}{227}{subsection.565}%
-\contentsline {chapter}{\numberline {7}Conclusions}{230}{chapter.566}%
-\contentsline {chapter}{\numberline {A}Shell Model}{235}{appendix.567}%
-\contentsline {section}{\numberline {A.1}Shell model}{235}{section.568}%
-\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{243}{section.592}%
-\contentsline {chapter}{\numberline {B}Two-State Mixing}{250}{appendix.604}%
-\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{255}{appendix.619}%
-\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{256}{section.621}%
-\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{257}{section.627}%
+\contentsline {chapter}{\numberline {6}Study of the Wobbling Motion via a Boson Description}{190}{chapter.435}%
+\contentsline {section}{\numberline {6.1}Angular Momentum - Boson Representation}{191}{section.436}%
+\contentsline {section}{\numberline {6.2}Theoretical Framework}{194}{section.448}%
+\contentsline {subsection}{\numberline {6.2.1}Potential Energy for the PRM Hamiltonian}{194}{subsection.449}%
+\contentsline {subsection}{\numberline {6.2.2}Another boson expansion for the angular momentum}{199}{subsection.470}%
+\contentsline {subsection}{\numberline {6.2.3}Harmonic Approximation of the Energy}{199}{subsection.474}%
+\contentsline {section}{\numberline {6.3}Classical Description of the Hamiltonian}{202}{section.484}%
+\contentsline {section}{\numberline {6.4}Electromagnetic Transitions}{214}{section.532}%
+\contentsline {section}{\numberline {6.5}Numerical Results}{216}{section.540}%
+\contentsline {subsection}{\numberline {6.5.1}Excitation Energies}{217}{subsection.542}%
+\contentsline {subsection}{\numberline {6.5.2}On the Chiral Character of the Wobbling Motion}{223}{subsection.555}%
+\contentsline {subsection}{\numberline {6.5.3}Electromagnetic Transitions}{226}{subsection.562}%
+\contentsline {subsection}{\numberline {6.5.4}Concluding Remarks}{228}{subsection.565}%
+\contentsline {chapter}{\numberline {7}Conclusions}{231}{chapter.566}%
+\contentsline {chapter}{\numberline {A}Shell Model}{236}{appendix.567}%
+\contentsline {section}{\numberline {A.1}Shell model}{236}{section.568}%
+\contentsline {section}{\numberline {A.2}Nilsson Orbitals}{244}{section.592}%
+\contentsline {chapter}{\numberline {B}Two-State Mixing}{251}{appendix.604}%
+\contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{256}{appendix.619}%
+\contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{257}{section.621}%
+\contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{258}{section.627}%
