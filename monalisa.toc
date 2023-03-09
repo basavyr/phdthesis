@@ -93,7 +93,7 @@
 \contentsline {section}{\numberline {6.5}Numerical Results}{216}{section.540}%
 \contentsline {subsection}{\numberline {6.5.1}Excitation Energies}{217}{subsection.542}%
 \contentsline {subsection}{\numberline {6.5.2}On the Chiral Character of the Wobbling Motion}{223}{subsection.555}%
-\contentsline {subsection}{\numberline {6.5.3}Electromagnetic Transitions}{226}{subsection.562}%
+\contentsline {subsection}{\numberline {6.5.3}Electromagnetic Transitions}{227}{subsection.562}%
 \contentsline {subsection}{\numberline {6.5.4}Concluding Remarks}{228}{subsection.565}%
 \contentsline {chapter}{\numberline {7}Conclusions}{231}{chapter.566}%
 \contentsline {chapter}{\numberline {A}Shell Model}{236}{appendix.567}%

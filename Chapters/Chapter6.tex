@@ -6,13 +6,13 @@ This last part will be focused on the wobbling phenomenon but with a different a
 \section{Angular Momentum - Boson Representation}
 \label{section-intro-boson-representation}
 
-Besides the odd-mass case study performed by the team in Ref. \cite{raduta2017semiclassical} for $^{163}$Lu using the $\mathbf{W_0}$ formalism, the first part of that paper consisted in describing wobbling motion for even-even nuclei using a \emph{boson expansion} of the angular momentum components. The problem considered a triaxial rigid rotor with moments of inertia $\mathcal{I}_k$ described by the known rotor Hamiltonian (recall Section \ref{trm-model} and Eq. \ref{general-rotor-hamiltonian}):
+Besides the odd-mass case study performed by the team in Ref. \cite{raduta2017semiclassical} for $^{163}$Lu using the $\mathbf{W_0}$ formalism, the first part of that paper consisted in describing wobbling motion for even-even nuclei using a \emph{boson expansion} of the angular momentum components. The problem considered a triaxial rigid rotor with moments of inertia $\mathcal{I}_k$ described by the known rotor Hamiltonian (recall Section \ref{trm-model} and Eq. \eqref{general-rotor-hamiltonian}):
 \begin{align}
     \hat{H}_R=\frac{\hat{R}_1}{2\mathcal{I}_1}+\frac{\hat{R}_2}{2\mathcal{I}_2}+\frac{\hat{R}_3}{2\mathcal{I}_3}\ ,
 \end{align}
 and angular momentum components $\hat{R}_k$. The calculations were applied successfully to $^{158}$Er, where the model described rotational energies and transition probabilities very well. Since a full review of $\mathbf{W_0}$ would be out of scope, only the relevant aspects concerning the boson representation for the angular momentum will be succinctly outlined.
 
-From that initial quantal problem, a variational principle (similar recipe as the one portrayed in Section \ref{variational-principle-section}, but only for one set of coordinates) brings the system into a classical view, where the eigenvalue problem becomes a system of classical equations in a phase space (see Section II.A and II.B from Ref. \cite{raduta2017semiclassical}). Summarizing the calculations, one obtained $i)$ a pair of conjugate variables (i.e., $r$ and $\varphi$) and $ii)$ two equations of motion (recall discussion from Section \ref{equations-of-motion-section} and Eq. \ref{eq-of-motion-approach-w1}) as:
+From that initial quantal problem, a variational principle (similar recipe as the one portrayed in Section \ref{variational-principle-section}, but only for one set of coordinates) brings the system into a classical view, where the eigenvalue problem becomes a system of classical equations in a phase space (see Section II.A and II.B from Ref. \cite{raduta2017semiclassical}). Summarizing the calculations, one obtained $i)$ a pair of conjugate variables (i.e., $r$ and $\varphi$) and $ii)$ two equations of motion (recall discussion from Section \ref{equations-of-motion-section} and Eq. \eqref{eq-of-motion-approach-w1}) as:
 \begin{align}
     \frac{\partial\mathcal{H}}{\partial r}=\dot{\varphi}\ ,\ \frac{\partial\mathcal{H}}{\partial\varphi}=-\dot{r}\ ,
 \end{align}
@@ -30,7 +30,7 @@ Their algebra is governed by the Poisson brackets, which define their inner prod
     \label{classical-J-poisson-brackets}
 \end{align} 
 
-The three functions $J_+^\text{cls}$, $J_-^\text{cls}$, $J_3^\text{cls}$ together with the Poisson brackets from Eq. \ref{classical-J-poisson-brackets} generate a classical algebra $\text{SU}(2)_\text{cls}$. A pair of complex functions $f$ and $g$ defined in this classical phase space will have their associated Poisson bracket:
+The three functions $J_+^\text{cls}$, $J_-^\text{cls}$, $J_3^\text{cls}$ together with the Poisson brackets from Eq. \eqref{classical-J-poisson-brackets} generate a classical algebra $\text{SU}(2)_\text{cls}$. A pair of complex functions $f$ and $g$ defined in this classical phase space will have their associated Poisson bracket:
 \begin{align}
     \left\{f,g\right\}=\frac{\partial f}{\partial \varphi}\frac{\partial g}{\partial r} - \frac{\partial f}{\partial r}\frac{\partial g}{\partial \varphi}\ .
 \end{align} 
@@ -47,7 +47,7 @@ and the Poisson bracket is: $\left\{\mathcal{B}^*,\mathcal{C}\right\}=\iu$. The 
     \label{dyson-transformation}
 \end{align} 
 
-The transformation employed in Eq. \ref{dyson-transformation} will introduce the following set of angular momentum components:
+The transformation employed in Eq. \eqref{dyson-transformation} will introduce the following set of angular momentum components:
 \begin{align}
     \hat{J}_+^\text{D}&=\sqrt{2I}b^\dagger\ ,\nonumber\\
     \hat{J}_-^\text{D}&=\sqrt{2I}\left(1-\frac{b^\dagger b}{2I}\right)b\ ,\nonumber\\
@@ -55,7 +55,7 @@ The transformation employed in Eq. \ref{dyson-transformation} will introduce the
     \label{dyson-boson-expansion-am-components}
 \end{align}
 
-The set of angular momentum components $\hat{J}^\text{D}$ provided in Eq. \ref{dyson-boson-expansion-am-components} marks the onset of the \emph{Dyson boson representation}. A function that depends on the variables from Eq. \ref{complex-variables-dyson} can be quantized by first writing its expression in terms of $\mathcal{C}$ and $\mathcal{B}^*$ and then replacing both variables by the boson operators $b$ and $b^\dagger$. The transformation is boson-like because of the nature of $b$ and $b^\dagger$. These operators obey the boson canonical commutation relations:
+The set of angular momentum components $\hat{J}^\text{D}$ provided in Eq. \eqref{dyson-boson-expansion-am-components} marks the onset of the \emph{Dyson boson representation}. A function that depends on the variables from Eq. \eqref{complex-variables-dyson} can be quantized by first writing its expression in terms of $\mathcal{C}$ and $\mathcal{B}^*$ and then replacing both variables by the boson operators $b$ and $b^\dagger$. The transformation is boson-like because of the nature of $b$ and $b^\dagger$. These operators obey the boson canonical commutation relations:
 \begin{align}
     \left[b,b^\dagger\right]=1\ ,\ \left[b,b\right]=\left[b^\dagger,b^\dagger\right]=0\ .
     \label{boson-commutation-relations}
@@ -67,7 +67,7 @@ The classical energy function $\mathcal{H}$ can be written in terms of the varia
     \label{bargmann-mapping-equation}
 \end{align}
 
-Indeed, by applying the mapping from Eq. \ref{bargmann-mapping-equation}, the eigenvalue problem becomes equivalent to solving the second-order differential equation (recall Eq. 2.34 from Ref. \cite{raduta2017semiclassical}):
+Indeed, by applying the mapping from Eq. \eqref{bargmann-mapping-equation}, the eigenvalue problem becomes equivalent to solving the second-order differential equation (recall Eq. 2.34 from Ref. \cite{raduta2017semiclassical}):
 \begin{align}
     \left[p(x^4)\frac{d^2}{dx^2}+q(x^3)\frac{d}{dx}-r(x^2)\right]G=E'G\ .
 \end{align}
@@ -91,13 +91,13 @@ where $k=1,2,3$, and $A_k$ is the inertia factor (used throughout the previous c
 \begin{align}
     \hat{I}_2=I\left(1-\frac{1}{2}\frac{\hat{I}_1^2+\hat{I}_3^2}{I^2}\right)\ ,
 \end{align}
-and through this expansion, the Hamiltonian from Eq. \ref{rotor-hamiltonian-new-boson} can be rewritten as:
+and through this expansion, the Hamiltonian from Eq. \eqref{rotor-hamiltonian-new-boson} can be rewritten as:
 \begin{align}
     \hat{H}_\text{rot}=A\hat{H}'+\left(A_1I^2-A_2j_2I\right)+\sum_{k=1,2}A_k\hat{j}_k^2\ .
     \label{rewritten-rotor-hamiltonian-new-boson}
 \end{align}
 
-For the terms in Eq. \ref{rewritten-rotor-hamiltonian-new-boson} the following notations have been adopted \cite{raduta2020new}:
+For the terms in Eq. \eqref{rewritten-rotor-hamiltonian-new-boson} the following notations have been adopted \cite{raduta2020new}:
 \begin{align}
     \hat{H}'&=\hat{I}_2^2+u\hat{I}_3^2+2v_0\hat{I}_1\ ,\nonumber\\
     u&=\frac{A_3-A_1}{A}\ ,\nonumber\\
@@ -107,7 +107,7 @@ For the terms in Eq. \ref{rewritten-rotor-hamiltonian-new-boson} the following n
     \label{new-boson-hamiltonian-notations}
 \end{align}
 
-Taking a closer look at the Hamiltonian depicted in Eq. \ref{rewritten-rotor-hamiltonian-new-boson}, it can be seen that $\hat{H}'$ looks like the triaxial rotor Hamiltonian, but amended with a new term, which would act as a constraint on the system (\emph{cranking-like term}), making it rotate around the one-axis. In this research, the cranking axis is set to be $1$-axis. Following the same recipe as in the $\mathbf{W_0}$ case, the a.m. components are expressed in terms of the raising and lowering operators:
+Taking a closer look at the Hamiltonian depicted in Eq. \eqref{rewritten-rotor-hamiltonian-new-boson}, it can be seen that $\hat{H}'$ looks like the triaxial rotor Hamiltonian, but amended with a new term, which would act as a constraint on the system (\emph{cranking-like term}), making it rotate around the one-axis. In this research, the cranking axis is set to be $1$-axis. Following the same recipe as in the $\mathbf{W_0}$ case, the a.m. components are expressed in terms of the raising and lowering operators:
 \begin{align}
     \hat{I}_\pm=\hat{I}_2\pm\iu\hat{I}_3\ ,\ \hat{I}_0\equiv\hat{I}_1\ .
 \end{align}
@@ -118,7 +118,7 @@ The a.m. components satisfy the commutation relations (in the rotating reference
     \label{angular-momentum-ladder-transformation}
 \end{align}
 
-The transformation from Eq. \ref{angular-momentum-ladder-transformation} keeps the same commutation relations for the angular momentum components. Using these variables, the expression of $\hat{H}'$ from Eq. \ref{new-boson-hamiltonian-notations} becomes:
+The transformation from Eq. \eqref{angular-momentum-ladder-transformation} keeps the same commutation relations for the angular momentum components. Using these variables, the expression of $\hat{H}'$ from Eq. \eqref{new-boson-hamiltonian-notations} becomes:
 \begin{align}
     \hat{H}'=\frac{1-u}{4}\left(\hat{I}_+^2+\hat{I}_-^2\right)+\frac{1+u}{4}\left(\hat{I}_+\hat{I}_-+\hat{I}_-\hat{I}_+\right)+2v_0\hat{I}_0\ .
     \label{hamiltonian-new-boson-ladder-operators}
@@ -140,11 +140,11 @@ An alternative representation for the elliptic functions is in terms of the trig
 \begin{align}
     s=\sin\varphi\ ,\ c=\cos\varphi\ ,\ d=\sqrt{1-k^2s^2}\ ,
 \end{align}
-where $\varphi$ is also known as the \emph{Jacobi Amplitude}: $\varphi=\texttt{amu}(q,k)$ \cite{weisstein2002jacobiamu}. The behavior of $s$, $c$, and $d$ is graphically shown in Fig. \ref{elliptic-functions-plot}. It can be observed that these functions are periodic, with the periods $4K$, $4K$, and $2K$, respectively. The value of $K$ is given by replacing $\varphi=\pi/2$ in $F(\varphi,k)$ from Eq. \ref{elliptic-functions-equation}.
+where $\varphi$ is also known as the \emph{Jacobi Amplitude}: $\varphi=\texttt{amu}(q,k)$ \cite{weisstein2002jacobiamu}. The behavior of $s$, $c$, and $d$ is graphically shown in Fig. \ref{elliptic-functions-plot}. It can be observed that these functions are periodic, with the periods $4K$, $4K$, and $2K$, respectively. The value of $K$ is given by replacing $\varphi=\pi/2$ in $F(\varphi,k)$ from Eq. \eqref{elliptic-functions-equation}.
 \begin{figure}
     \centering
     \includegraphics[scale=0.9]{Chapters/Figures/Jacobi-Elliptic-Functions.pdf}
-    \caption{The elliptic functions sn, cd, and dn from Eq. \ref{elliptic-functions-equation} are represented as functions of $q$. The value of the \emph{elliptic modulus} $k$ is set to $1/2$.}
+    \caption{The elliptic functions sn, cd, and dn from Eq. \eqref{elliptic-functions-equation} are represented as functions of $q$. The value of the \emph{elliptic modulus} $k$ is set to $1/2$.}
     \label{elliptic-functions-plot}
 \end{figure}
 
@@ -154,7 +154,7 @@ Referring back to the angular momentum components, these can be written in terms
     \hat{I}_0&=Icd-s\frac{d}{dq}\ ,
     \label{angular-momentum-elliptic-representation}
 \end{align}
-which would make the Hamiltonian $\hat{H}'$ from Eq. \ref{hamiltonian-new-boson-ladder-operators} achieve the following shape:
+which would make the Hamiltonian $\hat{H}'$ from Eq. \eqref{hamiltonian-new-boson-ladder-operators} achieve the following shape:
 \begin{align}
     \hat{H}'=-\frac{d^2}{dq^2}-2v_0s\frac{d}{dq}+I(I+1)s^2k^2+2v_0cdI\ .
     \label{boson-hamiltonian-complete-form}
@@ -190,7 +190,7 @@ and it is graphically represented in Fig. \ref{elliptic-potential-plot}. It can 
     \label{elliptic-potential-plot-deep-mininma}
 \end{figure}
 
-By adopting the Bargmann representation for the angular momentum representation depicted in Eq. \ref{angular-momentum-elliptic-representation}, a set of boson operators for the variable $q$ and its first-derivative operator can be mapped:
+By adopting the Bargmann representation for the angular momentum representation depicted in Eq. \eqref{angular-momentum-elliptic-representation}, a set of boson operators for the variable $q$ and its first-derivative operator can be mapped:
 \begin{align}
     q\rightarrow b^\dagger\ ,\ \frac{d}{dq}\rightarrow b\ ,
     \label{new-boson-bargmann-mapping}
@@ -203,7 +203,7 @@ and this results in the three components $\hat{I}_{\mp}$ and $\hat{I}_0$ becomin
     \label{angular-momentum-elliptic-bargmann}
 \end{align}
 
-\emph{This is the first time in literature when such a transformation emerges}. The remarkable features of the work presented in Ref. \cite{raduta2020new} are the boson expansion of angular momentum components obtained from elliptic functions $s$, $c$, and $d$, and the application of the Bargmann mapping depicted in Eq. \ref{new-boson-bargmann-mapping} to these components.
+\emph{This is the first time in literature when such a transformation emerges}. The remarkable features of the work presented in Ref. \cite{raduta2020new} are the boson expansion of angular momentum components obtained from elliptic functions $s$, $c$, and $d$, and the application of the Bargmann mapping depicted in Eq. \eqref{new-boson-bargmann-mapping} to these components.
 
 \subsection{Another boson expansion for the angular momentum}
 
@@ -212,7 +212,7 @@ Particular attention should be paid to the case where $k=0$, as the elliptic fun
     q=\varphi\ ,\ d=1\ , K=\frac{\pi}{2}\ ,\ k'=1\ .
 \end{align}
 
-Using these values, the components from Eq. \ref{angular-momentum-elliptic-bargmann} can be re-written such that in the rotating frame they become:
+Using these values, the components from Eq. \eqref{angular-momentum-elliptic-bargmann} can be re-written such that in the rotating frame they become:
 \begin{align}
     \hat{I}_+&=\iu\left[-I\sin b^\dagger+\left(1-\cos b^\dagger\right)b^\dagger\right]\ ,\nonumber\\
     \hat{I}_-&=\iu\left[I\sin b^\dagger+\left(1+\cos b^\dagger\right)b\right]\ ,\nonumber\\
@@ -227,11 +227,11 @@ which can be simplified even more if the trigonometric functions are expanded an
     \label{angular-momentum-dyson-expansion}
 \end{align}
 
-The components from Eq. \ref{angular-momentum-dyson-expansion} are similar to the ones from the Dyson boson expansion (recall Eq. \ref{dyson-transformation}), making it clear now that the representations shown in Eq. \ref{angular-momentum-elliptic-bargmann} and Eq. \ref{angular-momentum-new-expansion} are generalizations of the Dyson representation.
+The components from Eq. \eqref{angular-momentum-dyson-expansion} are similar to the ones from the Dyson boson expansion (recall Eq. \eqref{dyson-transformation}), making it clear now that the representations shown in Eq. \eqref{angular-momentum-elliptic-bargmann} and Eq. \eqref{angular-momentum-new-expansion} are generalizations of the Dyson representation.
 
 \subsection{Harmonic Approximation of the Energy}
 
-One can aim at solving numerically Eq. \ref{schrodinger-equation-elliptic}, but there could be a rather simpler and more \emph{elegant} approach to this. Adopting the harmonic approximation (as described in the previous chapters) can provide valid results. The first step is to analyze the stationary points of the elliptic potential $V(q)$. Its first-order derivative is given by \cite{raduta2020new}:
+One can aim at solving numerically Eq. \eqref{schrodinger-equation-elliptic}, but there could be a rather simpler and more \emph{elegant} approach to this. Adopting the harmonic approximation (as described in the previous chapters) can provide valid results. The first step is to analyze the stationary points of the elliptic potential $V(q)$. Its first-order derivative is given by \cite{raduta2020new}:
 \begin{align}
     \frac{d}{dq}V(q)=s\left[\left(I(I+1)k^2+v_0^2\right)2cd-(2I+1)v_0k'^2-(2I+1)v_02k^2c^2\right]\ .
 \end{align}
@@ -240,7 +240,7 @@ There are five minima, located at $q=0,\pm2K,\pm4K$. Remarkable that for $q=\pm2
 \begin{figure}
     \centering
     \includegraphics[scale=0.8]{Chapters/Figures/Elliptic-Potential-2K-Minima.pdf}
-    \caption{The potential $V(q)$ from Eq. \ref{elliptic-potential-formula}, near the $q=2K$ minimum point. It can be observed that the minimum character appears only for $I>19/2$.}
+    \caption{The potential $V(q)$ from Eq. \eqref{elliptic-potential-formula}, near the $q=2K$ minimum point. It can be observed that the minimum character appears only for $I>19/2$.}
     \label{elliptic-potential-plot-2k-minima}
 \end{figure}
 
@@ -250,7 +250,7 @@ The angular momentum can be studied in terms of its orientation near the minimum
     \hat{I}_-&=\frac{\iu}{k'}\left[I\left(d+ck^2\right)s+(c+d)\frac{d}{dq}\right]\ ,\nonumber\\
     \hat{I}_0&=Icd-s\frac{d}{dq}\ ,
 \end{align}
-and for $q=\pm2K$ (that is $\varphi=\pm\pi$) one has $\hat{I}_0=-I$, while $q=0$ (i.e., $\varphi=2$) will lead to $\hat{I}_0=I$. Consequently, in the local minima, the total angular momentum will align anti-parallel with the $1$-axis, and for the deep minimum $q=0$ the angular momentum is aligned along the (1)-axis. Expanding the elliptic potential $V(q)$ up to second order in the coordinate, an equation that looks similar to the harmonic oscillator is obtained for the Hamiltonian $\hat{H}_\text{rot}$ (firstly introduced in Eq. \ref{rotor-hamiltonian-new-boson}):
+and for $q=\pm2K$ (that is $\varphi=\pm\pi$) one has $\hat{I}_0=-I$, while $q=0$ (i.e., $\varphi=2$) will lead to $\hat{I}_0=I$. Consequently, in the local minima, the total angular momentum will align anti-parallel with the $1$-axis, and for the deep minimum $q=0$ the angular momentum is aligned along the (1)-axis. Expanding the elliptic potential $V(q)$ up to second order in the coordinate, an equation that looks similar to the harmonic oscillator is obtained for the Hamiltonian $\hat{H}_\text{rot}$ (firstly introduced in Eq. \eqref{rotor-hamiltonian-new-boson}):
 \begin{align}
     E_n=A_1I^2+\hbar\omega\left(n+\frac{1}{2}\right)+e_\text{sp}\ ,
     \label{energy-2nd-order-expansion-deepest-minima}
@@ -260,7 +260,7 @@ where the single-particle term is defined as:
     e_\text{sp}=\sum_{i=1,2}A_ij_i^2-(2I+1)A_1j_1-IA_2j_2\ .
 \end{align}
 
-The frequency $\omega$ from Eq. \ref{energy-2nd-order-expansion-deepest-minima} has the expression:
+The frequency $\omega$ from Eq. \eqref{energy-2nd-order-expansion-deepest-minima} has the expression:
 \begin{align}
     \omega^2=&\left[(2I+1)\left(A_2-A_1-\frac{A_2j_2}{I}\right)+2A_1j_1\right]\cdot\nonumber\\
     &\cdot\left[(2I+1)(A_3-A_1)+2A_1j_1\right]-(A_3-A_1)\left(A_2-A_1-\frac{A_2j_2}{I}\right)\ .
@@ -273,7 +273,7 @@ The frequency $\omega$ from Eq. \ref{energy-2nd-order-expansion-deepest-minima} 
     %     \left(\omega^{(2K)}\right)^2&=\left(1+\frac{2v_0}{2I+1}\right)\left(u+\frac{2v_0}{2I+1}\right)(2I+1)^2-u\ ,
     % \end{align}
     
-    The Hamiltonian $\hat{H}_\text{rot}$ is connected to $\hat{H}'$ via Eq. \ref{rewritten-rotor-hamiltonian-new-boson}, meaning that the final energy spectrum of $\hat{H}'$ will be given by:
+    The Hamiltonian $\hat{H}_\text{rot}$ is connected to $\hat{H}'$ via Eq. \eqref{rewritten-rotor-hamiltonian-new-boson}, meaning that the final energy spectrum of $\hat{H}'$ will be given by:
     \begin{align}
         E_n'&=A_1I^2+\hbar\omega'\left(n+\frac{1}{2}\right)+e_\text{sp}\ ,\nonumber\\
         e_\text{sp}&=\sum_{i=1,2}A_ij_i^2-(2I+1)A_1j_1-IA_2j_2\ ,
@@ -290,7 +290,7 @@ The two wobbling frequencies, i.e., $\omega$ and $\omega'$ are both graphically 
 \begin{figure}
     \centering
     \includegraphics[scale=0.8]{Chapters/Figures/Wobbling-Frequencies-New-Boson.pdf}
-    \caption{The two wobbling frequencies $\omega$ (Eq. \ref{omega-frequency-deepest-minima}) and $\omega'$ (Eq. \ref{wobbling-frequency-new-boson-prime}) as function of the coordinate $\theta$ for a fixed set of MOI $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=91:9:51\ \hbar^2\text{MeV}^{-1}$ and single-particle angular momentum $j=13/2$.}
+    \caption{The two wobbling frequencies $\omega$ (Eq. \eqref{omega-frequency-deepest-minima}) and $\omega'$ (Eq. \eqref{wobbling-frequency-new-boson-prime}) as function of the coordinate $\theta$ for a fixed set of MOI $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=91:9:51\ \hbar^2\text{MeV}^{-1}$ and single-particle angular momentum $j=13/2$.}
     \label{wobbling-frequencies-harmonic-approx}
 \end{figure}
 
@@ -301,13 +301,13 @@ Going further with the analysis performed in Ref. \cite{raduta2020new}, the quan
 \begin{align}
     [\ ,\ ] \longrightarrow -\iu\{\ ,\ \}\ ,
 \end{align}
-where the Poisson brackets replace the commutator. The dequantization procedure consists of replacing the operators $\hat{I}_k$ with the classical components of the angular momentum $I_k$. The conjugate coordinate of $I_k$ are further denoted by $\varphi_k$ and the three angular momentum components $I_k$ are hereafter denoted by $x_k$. With this algebra, the quantal Hamiltonian from Eq. \ref{new-boson-hamiltonian-notations} will be equivalent to:
+where the Poisson brackets replace the commutator. The dequantization procedure consists of replacing the operators $\hat{I}_k$ with the classical components of the angular momentum $I_k$. The conjugate coordinate of $I_k$ are further denoted by $\varphi_k$ and the three angular momentum components $I_k$ are hereafter denoted by $x_k$. With this algebra, the quantal Hamiltonian from Eq. \eqref{new-boson-hamiltonian-notations} will be equivalent to:
 \begin{align}
     H'=x_2^2+ux_3^2+2v_0I_x\ .
     \label{new-boson-h-prime-classical}
 \end{align}
 
-Such an approach was also used when studying the Classical Energy Function (CEF) from Chapter \ref{chapter-5-novel} (recall Eq. \ref{polar-coordinates-total-AM}). The equations of motion for $H'$ are (time derivatives are specified by the dot symbol):
+Such an approach was also used when studying the Classical Energy Function (CEF) from Chapter \ref{chapter-5-novel} (recall Eq. \eqref{polar-coordinates-total-AM}). The equations of motion for $H'$ are (time derivatives are specified by the dot symbol):
 \begin{align}
     \dot{x}_1&=2(1-u)x_2x_3\ ,\nonumber\\
     \dot{x}_2&=2(x_1u-v_0)x_3\ ,\nonumber\\
@@ -357,7 +357,7 @@ In the minimum point, the angular momentum components are $(x_1,x_2,x_3)=(-I,0,0
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/Energy-Function-New-Boson-A1-x2-const.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/Energy-Function-New-Boson-A1-phi2-const.pdf}
-    \caption{The classical energy $H'$ from Eq. \ref{classical-energy-new-boson-2-axis} evaluated for a fixed $x_2=0$ (left) and fixed $\varphi_2=-\pi/2$ (right). The calculations were done for $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:40:20\ \hbar\text{MeV}^{-1}$. The single-particle angular momentum $j=11/2$.}
+    \caption{The classical energy $H'$ from Eq. \eqref{classical-energy-new-boson-2-axis} evaluated for a fixed $x_2=0$ (left) and fixed $\varphi_2=-\pi/2$ (right). The calculations were done for $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:40:20\ \hbar\text{MeV}^{-1}$. The single-particle angular momentum $j=11/2$.}
     \label{energy-function-comparison-a1-case}
 \end{figure}
 
@@ -400,22 +400,22 @@ Summarizing the situations $A1$, $A2$, and $A3$, there are three stationary poin
     \hline
     \end{tabular}%
     }
-    \caption{The stationary points for the classical energy function depicted in Eq. \ref{new-boson-h-prime-classical}, when the quantization axis is the $2$-axis. Each point corresponds to the cases $A1$, $A2$, and $A3$, respectively.}
+    \caption{The stationary points for the classical energy function depicted in Eq. \eqref{new-boson-h-prime-classical}, when the quantization axis is the $2$-axis. Each point corresponds to the cases $A1$, $A2$, and $A3$, respectively.}
     \label{stationary-points-2-axis}
 \end{table}
 
-Considering that the polar coordinates used to define the three angular momentum components can be replaced in the expression of $H'$ from Eq. \ref{new-boson-h-prime-classical}, then an energy function that will depend explicitly on $\theta_2$ and $\varphi_2$. This \emph{polar representation of the classical energy function} can be represented for a given interval of $\theta_2$ and $\varphi_2$, respectively. Fixing the total angular momentum $I$, the single-particle a.m. $j$, the three MOI, and the value of $\theta$ (not to be confused with the polar $\theta_2$), a contour plot such as the one shown in Fig. \ref{new-boson-hprime-2axis-contour-plot} can be obtained. Within the contour plot, there are several stationary points: one deep minimum, one local minimum, and two saddle points. Every point lies along the $\theta_2=\pi/2$ coordinate. To better perceive how the minima and saddle points are located, Fig. \ref{new-boson-hprime-2axis-varphi-plot} shows the evolution of $H'$ for $\theta_2=\pi/2$. Keep in mind that both figures are evaluated for the same set of constants.
+Considering that the polar coordinates used to define the three angular momentum components can be replaced in the expression of $H'$ from Eq. \eqref{new-boson-h-prime-classical}, then an energy function that will depend explicitly on $\theta_2$ and $\varphi_2$. This \emph{polar representation of the classical energy function} can be represented for a given interval of $\theta_2$ and $\varphi_2$, respectively. Fixing the total angular momentum $I$, the single-particle a.m. $j$, the three MOI, and the value of $\theta$ (not to be confused with the polar $\theta_2$), a contour plot such as the one shown in Fig. \ref{new-boson-hprime-2axis-contour-plot} can be obtained. Within the contour plot, there are several stationary points: one deep minimum, one local minimum, and two saddle points. Every point lies along the $\theta_2=\pi/2$ coordinate. To better perceive how the minima and saddle points are located, Fig. \ref{new-boson-hprime-2axis-varphi-plot} shows the evolution of $H'$ for $\theta_2=\pi/2$. Keep in mind that both figures are evaluated for the same set of constants.
 \begin{figure}
     \begin{center}
         \includegraphics[scale=0.7]{Chapters/Figures/New-Boson-Classical-H-2axis-quantization.pdf}
-        \caption{Contour plot for the energy $H'$ from Eq. \ref{new-boson-h-prime-classical}, defined in terms of the polar coordinates. The calculations are done for the A1-A2-A3 cases (i.e., maximal MOI is $\mathcal{I}_2)$. The single-particle angular momentum is $j=11/2$, the total angular momentum $I=19/2$, the MOI are $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:40:20\ \hbar^2\text{MeV}^{-1}$, and $\theta=70^\circ$. The four stationary points are illustrated, namely two minima - one local and one global - (denoted by "m") and two saddle points (denoted by "s").}
+        \caption{Contour plot for the energy $H'$ from Eq. \eqref{new-boson-h-prime-classical}, defined in terms of the polar coordinates. The calculations are done for the A1-A2-A3 cases (i.e., maximal MOI is $\mathcal{I}_2)$. The single-particle angular momentum is $j=11/2$, the total angular momentum $I=19/2$, the MOI are $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:40:20\ \hbar^2\text{MeV}^{-1}$, and $\theta=70^\circ$. The four stationary points are illustrated, namely two minima - one local and one global - (denoted by "m") and two saddle points (denoted by "s").}
         \label{new-boson-hprime-2axis-contour-plot}
     \end{center}
 \end{figure}
 \begin{figure}
     \begin{center}
         \includegraphics[scale=0.8]{Chapters/Figures/New-Boson-Classical-H-2-axis-varphi-plot.pdf}
-        \caption{The classical energy $H'$ from Eq. \ref{new-boson-h-prime-classical}, for a fixed $\theta_2=\pi/2$ and $\varphi\in[0,2\pi]$. The single-particle angular momentum is $j=11/2$, the total angular momentum $I=19/2$, the MOI are $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:40:20\ \hbar^2\text{MeV}^{-1}$, and $\theta=70^\circ$. The critical points present in Fig. \ref{new-boson-hprime-2axis-contour-plot} are also illustrated here by the dashed vertical lines (two minima with red color and two saddle points with blue color).}
+        \caption{The classical energy $H'$ from Eq. \eqref{new-boson-h-prime-classical}, for a fixed $\theta_2=\pi/2$ and $\varphi\in[0,2\pi]$. The single-particle angular momentum is $j=11/2$, the total angular momentum $I=19/2$, the MOI are $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:40:20\ \hbar^2\text{MeV}^{-1}$, and $\theta=70^\circ$. The critical points present in Fig. \ref{new-boson-hprime-2axis-contour-plot} are also illustrated here by the dashed vertical lines (two minima with red color and two saddle points with blue color).}
         \label{new-boson-hprime-2axis-varphi-plot}
     \end{center}
 \end{figure}
@@ -434,7 +434,7 @@ In the same way as the $A$-cases. the total energy $H'$ can be expressed in term
     \label{classical-energy-new-boson-3-axis}
 \end{align}
 
-The first stationary point of Eq. \ref{classical-energy-new-boson-3-axis} with a minimum character is $(x_3,\varphi_3)=(0,\pi)$. For this point, the angular momentum components are $(x_1,x_2,x_3)=(-I,0,0)$, hinting at the fact that the total a.m. is oriented along the one-axis. The value of the energy in this point is $E=-2v_0I$. The harmonic Hamiltonian given in the second-order expansion around this point is:
+The first stationary point of Eq. \eqref{classical-energy-new-boson-3-axis} with a minimum character is $(x_3,\varphi_3)=(0,\pi)$. For this point, the angular momentum components are $(x_1,x_2,x_3)=(-I,0,0)$, hinting at the fact that the total a.m. is oriented along the one-axis. The value of the energy in this point is $E=-2v_0I$. The harmonic Hamiltonian given in the second-order expansion around this point is:
 \begin{align}
     H'^{(2)}=-2v_0I+\left(u+\frac{v_0}{I}\right)\bar{x}_3^2+I^2\left(1+\frac{v_0}{I}\right)\bar{\varphi}_3^2\ ,
 \end{align}
@@ -444,13 +444,13 @@ having a similar shape for the wobbling frequency as per the $A1$ case. Similarl
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/Energy-Function-New-Boson-B1-x3-const.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/Energy-Function-New-Boson-B1-phi3-const.pdf}
-    \caption{The classical energy $H'$ from Eq. \ref{classical-energy-new-boson-3-axis} evaluated for a fixed $x_3=0$ (left) and fixed $\varphi_3=\pi$ (right). The calculations were done for $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:20:40\ \hbar^2\text{MeV}^{-1}$. The single-particle angular momentum $j=11/2$.}
+    \caption{The classical energy $H'$ from Eq. \eqref{classical-energy-new-boson-3-axis} evaluated for a fixed $x_3=0$ (left) and fixed $\varphi_3=\pi$ (right). The calculations were done for $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:20:40\ \hbar^2\text{MeV}^{-1}$. The single-particle angular momentum $j=11/2$.}
     \label{energy-function-comparison-b1-case}
 \end{figure}
 
 \subsubsection*{B2 case}
 
-Another stationary point for Eq. \ref{classical-energy-new-boson-3-axis} is $(x_3,\varphi)=(0,0)$, which is also a minimum. The second order expansion of $H'$ gives:
+Another stationary point for Eq. \eqref{classical-energy-new-boson-3-axis} is $(x_3,\varphi)=(0,0)$, which is also a minimum. The second order expansion of $H'$ gives:
 \begin{align}
     H'=2v_0I+\left(u-\frac{v_0}{I}\right)\bar{x}_3^2+I^2\left(1-\frac{v_0}{I}\right)\bar{\varphi}_3^2\ ,
 \end{align}
@@ -470,18 +470,18 @@ and energy $E=I^2+v_0^2\ .$ For this maximum point, the energy function $H'$ bec
     H'^{(2)}=I^2+v_0^2+\left(u-1\right)\bar{x}_3^2+\left(v_0^2-I^2\right)\bar{\varphi}_3^2\ .
 \end{align}
 
-The contour plot of the energy function $H'$ can be obtained in the same manner as for $A$ situations, i.e., taking the polar coordinates $(\theta_3,\varphi_3)$ that are used in the expression of the angular momentum components from Eq. \ref{polar-coordinates-case-b1}, and evaluate $H'(\theta_3,\varphi_3)$ for fixed values of $j,\ I,\ \mathcal{I}_1,\ \mathcal{I}_2,\ \mathcal{I}_3$, and $\theta$. The contour plot together with the evolution of $H'(\pi,\varphi_3)$ are drawn in Figs. \ref{new-boson-hprime-3axis-contour-plot} - \ref{new-boson-hprime-3axis-varphi-plot}.
+The contour plot of the energy function $H'$ can be obtained in the same manner as for $A$ situations, i.e., taking the polar coordinates $(\theta_3,\varphi_3)$ that are used in the expression of the angular momentum components from Eq. \eqref{polar-coordinates-case-b1}, and evaluate $H'(\theta_3,\varphi_3)$ for fixed values of $j,\ I,\ \mathcal{I}_1,\ \mathcal{I}_2,\ \mathcal{I}_3$, and $\theta$. The contour plot together with the evolution of $H'(\pi,\varphi_3)$ are drawn in Figs. \ref{new-boson-hprime-3axis-contour-plot} - \ref{new-boson-hprime-3axis-varphi-plot}.
 \begin{figure}
     \begin{center}
         \includegraphics[scale=0.7]{Chapters/Figures/New-Boson-Classical-H-3axis-quantization.pdf}
-        \caption{Contour plot for the energy $H'$ from Eq. \ref{new-boson-h-prime-classical}, defined in terms of the polar coordinates. The calculations are done for the B1-B2-B3 cases (i.e., maximal MOI is $\mathcal{I}_3)$. The single-particle angular momentum is $j=11/2$, the total angular momentum $I=19/2$, the MOI are $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:20:40\ \hbar^2\text{MeV}^{-1}$, and $\theta=70^\circ$. The five stationary points are illustrated, namely two maxima (denoted by "M") and three minimum points (denoted by "m"; one global and two local).}
+        \caption{Contour plot for the energy $H'$ from Eq. \eqref{new-boson-h-prime-classical}, defined in terms of the polar coordinates. The calculations are done for the B1-B2-B3 cases (i.e., maximal MOI is $\mathcal{I}_3)$. The single-particle angular momentum is $j=11/2$, the total angular momentum $I=19/2$, the MOI are $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:20:40\ \hbar^2\text{MeV}^{-1}$, and $\theta=70^\circ$. The five stationary points are illustrated, namely two maxima (denoted by "M") and three minimum points (denoted by "m"; one global and two local).}
         \label{new-boson-hprime-3axis-contour-plot}
     \end{center}
 \end{figure}
 \begin{figure}
     \begin{center}
         \includegraphics[scale=0.8]{Chapters/Figures/New-Boson-Classical-H-3-axis-varphi-plot.pdf}
-        \caption{The classical energy $H'$ from Eq. \ref{new-boson-h-prime-classical}, for a fixed $\theta_2=\pi/2$ and $\varphi\in[0,2\pi]$. The single-particle angular momentum is $j=11/2$, the total angular momentum $I=19/2$, the MOI are $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:20:40\ \hbar^2\text{MeV}^{-1}$, and $\theta=70^\circ$. The critical points present in Fig. \ref{new-boson-hprime-3axis-contour-plot} are illustrated by the dashed vertical lines (magenta for the maxima and red for the minima).}
+        \caption{The classical energy $H'$ from Eq. \eqref{new-boson-h-prime-classical}, for a fixed $\theta_2=\pi/2$ and $\varphi\in[0,2\pi]$. The single-particle angular momentum is $j=11/2$, the total angular momentum $I=19/2$, the MOI are $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=10:20:40\ \hbar^2\text{MeV}^{-1}$, and $\theta=70^\circ$. The critical points present in Fig. \ref{new-boson-hprime-3axis-contour-plot} are illustrated by the dashed vertical lines (magenta for the maxima and red for the minima).}
         \label{new-boson-hprime-3axis-varphi-plot}
     \end{center}
 \end{figure}
@@ -504,7 +504,7 @@ Analyzing the Figs. \ref{new-boson-hprime-3axis-contour-plot} -\ref{new-boson-hp
     \hline
     \end{tabular}%
     }
-    \caption{The stationary points for the classical energy function depicted in Eq. \ref{new-boson-h-prime-classical}, when the quantization axis is the $3$-axis. Each point corresponds to the cases $B1$, $B2$, and $B3$, respectively.}
+    \caption{The stationary points for the classical energy function depicted in Eq. \eqref{new-boson-h-prime-classical}, when the quantization axis is the $3$-axis. Each point corresponds to the cases $B1$, $B2$, and $B3$, respectively.}
     \label{stationary-points-3-axis}
 \end{table}
 
@@ -521,7 +521,7 @@ with the associated Hamiltonian:
     \label{classical-energy-new-boson-1-axis}
 \end{align}
 
-The Hamiltonian from Eq. \ref{classical-energy-new-boson-1-axis} has a stationary point at $(x_1,\varphi_1)=\left(\frac{v_0}{u},\frac{\pi}{2}\right)$. This is a \emph{saddle} point when $u\in(0,1)$. The second order expansion of $H'$ is therefore:
+The Hamiltonian from Eq. \eqref{classical-energy-new-boson-1-axis} has a stationary point at $(x_1,\varphi_1)=\left(\frac{v_0}{u},\frac{\pi}{2}\right)$. This is a \emph{saddle} point when $u\in(0,1)$. The second order expansion of $H'$ is therefore:
 \begin{align}
     H'^{(2)}=uI+\frac{v_0}{u}-u\bar{x}_1^2+(1-u)\left(I^2-\frac{v_0^2}{u^2}\right)\bar{\varphi}_1^2\ .
 \end{align}
@@ -550,14 +550,14 @@ Similarly as in cases A-B, a contour plot showing the behavior of the energy fun
     \hline
     \end{tabular}%
     }
-    \caption{The stationary points for the classical energy function depicted in Eq. \ref{new-boson-h-prime-classical}, when the quantization axis is the $1$-axis. Each point corresponds to the cases $C1$, and $C2$, respectively.}
+    \caption{The stationary points for the classical energy function depicted in Eq. \eqref{new-boson-h-prime-classical}, when the quantization axis is the $1$-axis. Each point corresponds to the cases $C1$, and $C2$, respectively.}
     \label{stationary-points-1-axis}
 \end{table}
 
 \begin{figure}
     \begin{center}
         \includegraphics[scale=0.7]{Chapters/Figures/New-Boson-Classical-H-1axis-quantization.pdf}
-        \caption{Contour plot for the energy $H'$ from Eq. \ref{new-boson-h-prime-classical}, defined in terms of the polar coordinates. The calculations are done for $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=80:10:50\ \hbar^2\text{MeV}^{-1}$ (i.e., the $1$-axis is the quantization axis). The single-particle angular momentum is $j=11/2$, the total angular momentum $I=19/2$, and $\theta=70^\circ$. The five stationary points are illustrated, namely three maxima (denoted by "M") and two saddle points (denoted by "s").}
+        \caption{Contour plot for the energy $H'$ from Eq. \eqref{new-boson-h-prime-classical}, defined in terms of the polar coordinates. The calculations are done for $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3=80:10:50\ \hbar^2\text{MeV}^{-1}$ (i.e., the $1$-axis is the quantization axis). The single-particle angular momentum is $j=11/2$, the total angular momentum $I=19/2$, and $\theta=70^\circ$. The five stationary points are illustrated, namely three maxima (denoted by "M") and two saddle points (denoted by "s").}
         \label{new-boson-hprime-1axis-contour-plot}
     \end{center}
 \end{figure}
@@ -582,11 +582,11 @@ If the Hessian is set to numerically vanish, then an equation is obtained for th
     \label{new-boson-phase-diagram-parameter-equation}
 \end{align}
 
-Each factor from this equation will generate a curve within the $(u,v)$ plane (called a \emph{separatrix}). These separatrixes are bordering manifolds that define unique nuclear phases. This phase diagram is sketched in Fig. \ref{separatrix-diagram}. For the sake of completeness, the points corresponding to the values $(u,v)$ from the bases A-B-C are all represented on the same diagram, but with $v$ taken as an absolute value, to avoid negative ranges that are obtained when the $1$-axis is the quantization axis. Keep in mind that the different values for these parameters emerge from the change in the ordering of the three moments of inertia (recall Eq. \ref{new-boson-hamiltonian-notations}).
+Each factor from this equation will generate a curve within the $(u,v)$ plane (called a \emph{separatrix}). These separatrixes are bordering manifolds that define unique nuclear phases. This phase diagram is sketched in Fig. \ref{separatrix-diagram}. For the sake of completeness, the points corresponding to the values $(u,v)$ from the bases A-B-C are all represented on the same diagram, but with $v$ taken as an absolute value, to avoid negative ranges that are obtained when the $1$-axis is the quantization axis. Keep in mind that the different values for these parameters emerge from the change in the ordering of the three moments of inertia (recall Eq. \eqref{new-boson-hamiltonian-notations}).
 \begin{figure}
     \centering
     \includegraphics[scale=1]{Chapters/Figures/new-boson-separatrix-diagram.pdf}
-    \caption{The phase diagram associated with the parametric formula given in Eq. \ref{new-boson-phase-diagram-parameter-equation}. Each of the conditions that make the equation vanish is represented by a separatrix, such that different regions depict \emph{different nuclear phases}. The numerical values of $u$ and $v$ obtained from cases A-B-C are also represented within the plot.}
+    \caption{The phase diagram associated with the parametric formula given in Eq. \eqref{new-boson-phase-diagram-parameter-equation}. Each of the conditions that make the equation vanish is represented by a separatrix, such that different regions depict \emph{different nuclear phases}. The numerical values of $u$ and $v$ obtained from cases A-B-C are also represented within the plot.}
     \label{separatrix-diagram}
 \end{figure}
 
@@ -597,13 +597,13 @@ The next part of the team's work in Ref. \cite{raduta2020approach} was to obtain
 \begin{align}
     \Psi_{IM}=\Phi_{I,-I}\ket{IM,-I}\ ,
 \end{align}
-where $\ket{IMK}$ are the Wigner-D functions, which were introduced and used in the previous chapters (see Eq. \ref{IMK-wigner-functions}).
+where $\ket{IMK}$ are the Wigner-D functions, which were introduced and used in the previous chapters (see Eq. \eqref{IMK-wigner-functions}).
 
-For the \emph{quadrupole transition operator}, the following expression was used (slightly modified when compared to Eq. \ref{electric-quadrupole-operator-lab}):
+For the \emph{quadrupole transition operator}, the following expression was used (slightly modified when compared to Eq. \eqref{electric-quadrupole-operator-lab}):
 \begin{align}
     \mathcal{M}\left(E_2;\mu\right)=\sqrt{\frac{5}{16\pi}}\mathrm{e}\left(Q_{2-2}\mathcal{D}_{\mu -2}^2+Q_{20}\mathcal{D}_{\mu 0}^2+Q_{22}\mathcal{D}_{\mu 2}^2\right)\ ,
 \end{align}
-with $Q_{20}$ and $Q_{2\pm2}$ denoting the $K=\{-2,0,2\}$ components of the quadrupole transition operator. From the expressions of the wave function given in Eq. \ref{schrodinger-equation-elliptic}, it is clear that it will depend on the conjugate variables $q$ and $d/dg$. For this reason, the quadrupole components need to be expressed as functions of these variables. If the components are firstly written in terms of the angular momentum, one has:
+with $Q_{20}$ and $Q_{2\pm2}$ denoting the $K=\{-2,0,2\}$ components of the quadrupole transition operator. From the expressions of the wave function given in Eq. \eqref{schrodinger-equation-elliptic}, it is clear that it will depend on the conjugate variables $q$ and $d/dg$. For this reason, the quadrupole components need to be expressed as functions of these variables. If the components are firstly written in terms of the angular momentum, one has:
 \begin{align}
     Q_{20}=\left(-\frac{1}{4}\sqrt{\frac{2}{3}}\left(\hat{I}_+\hat{I}_-+\hat{I}_-\hat{I}_+\right)+\sqrt{\frac{2}{3}}\hat{I}_1^2\right)\bar{Q}_0\ ,\ Q_{2\pm2}=\frac{1}{2}\hat{I}_\pm^2\bar{Q}_2\ .
 \end{align}
@@ -638,7 +638,7 @@ where the terms $R_\nu$ and $j_\nu$ are the spherical components of the core and
 
 The entire formalism developed through Ref. \cite{raduta2020new} was tested numerically for the odd-$A$ nucleus $^{135}$Pr. This odd-mass nucleus was chosen because experimental evidence point out its wobbling character \cite{matta2017transverse} (and later erratum in Ref. \cite{matta2021erratum}), although there are some ongoing debates about whether the experimental measurements are valid or not \cite{guo2021comment}. For this isotope, there are three confirmed wobbling bands, here denoted by B1 (band one), B2 (band two), and B3 (band three). Sensharma et. al. \cite{sensharma2019two} consider in their study for this nucleus that B1 is the yrast, B2 is the one-phonon, and finally that B3 is the two-phonon wobbling band. By contrast, a previous work by Matta et. al. \cite{matta2017transverse} only identified one such excited wobbling band.
 
-The formalism assumes that the problem is described by a Hamiltonian such as the one from Eq. \ref{rotor-hamiltonian-new-boson}, which is associated with the even-even core surrounded by an odd nucleon: the odd $h_{11/2}$ proton. The core is considered to have a set of moments of inertia $\mathcal{I}_k$ ($k=1,2,3$) that are \emph{free parameters}. Moreover, the proton is \emph{rigidly coupled} to the core and placed in the $(1,2)$-plane, with the tilting angle $\theta$. As a result, the model only considers four free parameters, i.e., three moments of inertia and the single-particle tilt:
+The formalism assumes that the problem is described by a Hamiltonian such as the one from Eq. \eqref{rotor-hamiltonian-new-boson}, which is associated with the even-even core surrounded by an odd nucleon: the odd $h_{11/2}$ proton. The core is considered to have a set of moments of inertia $\mathcal{I}_k$ ($k=1,2,3$) that are \emph{free parameters}. Moreover, the proton is \emph{rigidly coupled} to the core and placed in the $(1,2)$-plane, with the tilting angle $\theta$. As a result, the model only considers four free parameters, i.e., three moments of inertia and the single-particle tilt:
 \begin{align}
     \mathcal{P}_\text{fit}=\left[\mathcal{I}_1\ ,\ \mathcal{I}_2\ ,\ \mathcal{I}_3\ ,\ \theta\right]\ .
 \end{align}
@@ -663,12 +663,12 @@ where it can be seen that the analytical formulas for the first two bands are id
     \label{wobbling-frequency-new-boson}
 \end{align}
 
-In order to understand Eq. \ref{excitation-energies-new-boson}, one might recall the diagram from Fig. \ref{fitting-workflow-fig}, which shows how the excitation energies can be regarded. The parameters $\mathcal{P}_\text{fit}$ obtained by fitting the experimental energies of $^{!35}$Pr with Eq. \ref{excitation-energies-new-boson} are provided in Table \ref{new-boson-fitting-parameters}. It should be mentioned that several conditions were restricted when searching for $\mathcal{P}_\text{fit}$ (i.e., some sort of \emph{validity conditions}):
+In order to understand Eq. \eqref{excitation-energies-new-boson}, one might recall the diagram from Fig. \ref{fitting-workflow-fig}, which shows how the excitation energies can be regarded. The parameters $\mathcal{P}_\text{fit}$ obtained by fitting the experimental energies of $^{!35}$Pr with Eq. \eqref{excitation-energies-new-boson} are provided in Table \ref{new-boson-fitting-parameters}. It should be mentioned that several conditions were restricted when searching for $\mathcal{P}_\text{fit}$ (i.e., some sort of \emph{validity conditions}):
 \begin{itemize}
-    \item The factor $A$ must be greater than zero (recall Eq. \ref{new-boson-hamiltonian-notations})
+    \item The factor $A$ must be greater than zero (recall Eq. \eqref{new-boson-hamiltonian-notations})
     \item The factor $u$ from the same equation must be $u\in(0,1)$
-    \item The wobbling frequency $\omega_I$ as well as the one obtained by expanding $H'$ around the local minimum (that is $\omega'_I$ from Eq. \ref{wobbling-frequency-new-boson-prime}) must be real functions of $\theta$ and $\theta+\pi$
-    \item The elliptic potential from Eq. \ref{elliptic-potential-formula} must be a real function for $\theta$ and $\theta+\pi$.
+    \item The wobbling frequency $\omega_I$ as well as the one obtained by expanding $H'$ around the local minimum (that is $\omega'_I$ from Eq. \eqref{wobbling-frequency-new-boson-prime}) must be real functions of $\theta$ and $\theta+\pi$
+    \item The elliptic potential from Eq. \eqref{elliptic-potential-formula} must be a real function for $\theta$ and $\theta+\pi$.
 \end{itemize}
 \begin{table}
     \centering
@@ -679,7 +679,7 @@ In order to understand Eq. \ref{excitation-energies-new-boson}, one might recall
     91 & 9 & 51 & $-119$ & 20 & 0.174 \\ \hline
     \end{tabular}%
     }
-    \caption{The four free parameters obtained by fitting the experimental energies of $^{135}$Pr (taken from Ref. \cite{matta2017transverse}) using the set of energies from Eq. \ref{excitation-energies-new-boson}. For the moments of inertia, the unit is $\hbar^2\text{MeV}^{-1}$.}
+    \caption{The four free parameters obtained by fitting the experimental energies of $^{135}$Pr (taken from Ref. \cite{matta2017transverse}) using the set of energies from Eq. \eqref{excitation-energies-new-boson}. For the moments of inertia, the unit is $\hbar^2\text{MeV}^{-1}$.}
     \label{new-boson-fitting-parameters}
 \end{table}
 
@@ -687,68 +687,68 @@ With these criteria in check, the fitting procedure was performed and calculatio
 \begin{figure}[t] % temporary force to the top - prevents intersection with the previous itemize/table
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/135Pr-New-Boson-Band1-Energies.pdf}
-    \caption{The excitation energies $E_I^\text{exc;B1}$ in $^{135}$Pr (Eq. \ref{excitation-energies-new-boson}), calculated with the parameter set $\mathcal{P}_\text{fit}$. The experimental data are taken from Ref. \cite{sensharma2019two}.}
+    \caption{The excitation energies $E_I^\text{exc;B1}$ in $^{135}$Pr (Eq. \eqref{excitation-energies-new-boson}), calculated with the parameter set $\mathcal{P}_\text{fit}$. The experimental data are taken from Ref. \cite{sensharma2019two}.}
     \label{135pr-new-boson-band1}
 \end{figure}
 \begin{figure}[b] % temporary force to the bottom - prevents intersection with the previous figure
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/135Pr-New-Boson-Band2-Energies.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/135Pr-New-Boson-Band3-Energies.pdf}
-    \caption{The excitation energies $E_I^\text{exc;B2}$ (\textbf{left}) and $E_I^\text{exc;B3}$ (\textbf{right}) in $^{135}$Pr (Eq. \ref{excitation-energies-new-boson}), calculated with the parameter set $\mathcal{P}_\text{fit}$. The experimental data are taken from Ref. \cite{sensharma2019two}.}
+    \caption{The excitation energies $E_I^\text{exc;B2}$ (\textbf{left}) and $E_I^\text{exc;B3}$ (\textbf{right}) in $^{135}$Pr (Eq. \eqref{excitation-energies-new-boson}), calculated with the parameter set $\mathcal{P}_\text{fit}$. The experimental data are taken from Ref. \cite{sensharma2019two}.}
     \label{135pr-new-boson-band23}
 \end{figure}
 
-Taking a closer look at the numerical values from Table \ref{new-boson-fitting-parameters}, it can be seen that the fit predicted the MOI order to be of the type $\mathcal{I}_1>\mathcal{I}_3>\mathcal{I}_2$. With these values, one can graphically represent the elliptic potentials for $V(\theta)$ and $V(\theta+\pi)$, as provided by Eq. \ref{elliptic-potential-formula}. The results are shown in Fig. \ref{elliptic-potential-theta} for three values of angular momentum $I$ and the two angles.
+Taking a closer look at the numerical values from Table \ref{new-boson-fitting-parameters}, it can be seen that the fit predicted the MOI order to be of the type $\mathcal{I}_1>\mathcal{I}_3>\mathcal{I}_2$. With these values, one can graphically represent the elliptic potentials for $V(\theta)$ and $V(\theta+\pi)$, as provided by Eq. \eqref{elliptic-potential-formula}. The results are shown in Fig. \ref{elliptic-potential-theta} for three values of angular momentum $I$ and the two angles.
 \begin{figure}[b] % temporary force to the bottom
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/potential-fit-theta.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/potential-fit-theta-pi.pdf}
-    \caption{The elliptic potential from Eq. \ref{elliptic-potential-formula} as function of the coordinate $q$. The expression of $V(q)$ is evaluated for the inertia factors from Table \ref{new-boson-fitting-parameters} with $\theta=-119^\circ$ (\textbf{left}) and $\theta=61^\circ$ (\textbf{right}).}
+    \caption{The elliptic potential from Eq. \eqref{elliptic-potential-formula} as function of the coordinate $q$. The expression of $V(q)$ is evaluated for the inertia factors from Table \ref{new-boson-fitting-parameters} with $\theta=-119^\circ$ (\textbf{left}) and $\theta=61^\circ$ (\textbf{right}).}
     \label{elliptic-potential-theta}
 \end{figure}
 
 Looking at the two potentials associated with $^{135}$Pr from Fig. \ref{elliptic-potential-theta}, several features can be observed. Firstly, the deepest minimum for $\theta$ is located at $2K$, while for $\theta+\pi$ is at $q=0$ (recall that $K$ is the period of the elliptic functions used to express $V(q)$). This is remarkable since it contrasts the initial consideration of $\mathcal{I}_2$ as being the maximal MOI, which should have the global minima located at $q=0$. One reason might be the coupling between the even-even core and the odd nucleon, as their interaction can affect both the MOI's ordering and the position of the deepest minimum for the triaxial potential. It is a unique highlight of the boson description where such an effect is identified. Because the global minimum for $\theta+\pi$ stays at $q=0$, one can assert that by drastically switching the orientation angle between the odd-particle and the core, a \emph{phase transition occurs}, affecting the MOI from $\mathcal{I}_1=\mathcal{I}_\text{max}$ to $\mathcal{I}_2=\mathcal{I}_\text{max}$.
 
-Aiming at the initial assumption of $\mathcal{I}_2$ as the largest NOI, a second fitting procedure was also developed. The fit consisted of equating the excitation energies for the first two states in B1 and the second state from B2. A parameter set that suits the MOI order was obtained for $\theta=140^\circ$: $\mathcal{P}_\text{fit}=\left[13,101,53,140^\circ\right]$. However, this parameter set does not improve the quality of the initial fit, keeping the deviations from the experimental values along the same magnitude. For this set of parameters, the elliptic triaxial potential has the deepest minimum at $q=0$, which is consistent with the $\mathcal{I}_2>\mathcal{I}_{1,3}$. This solution is not valid because it violates the positivity condition for the factor $A$ from Eq. \ref{new-boson-hamiltonian-notations}.
+Aiming at the initial assumption of $\mathcal{I}_2$ as the largest NOI, a second fitting procedure was also developed. The fit consisted of equating the excitation energies for the first two states in B1 and the second state from B2. A parameter set that suits the MOI order was obtained for $\theta=140^\circ$: $\mathcal{P}_\text{fit}=\left[13,101,53,140^\circ\right]$. However, this parameter set does not improve the quality of the initial fit, keeping the deviations from the experimental values along the same magnitude. For this set of parameters, the elliptic triaxial potential has the deepest minimum at $q=0$, which is consistent with the $\mathcal{I}_2>\mathcal{I}_{1,3}$. This solution is not valid because it violates the positivity condition for the factor $A$ from Eq. \eqref{new-boson-hamiltonian-notations}.
 
-Since the potential when $\theta=-114^\circ$ has the global minimum in $q=2K$, it is worth adjusting the fitting model and using the wobbling frequency $\omega'$ from Eq. \ref{wobbling-frequency-new-boson-prime} for the excitation energies. The expression of $\omega'$ was obtained by expanding $V(q)$ up to second order in the local minima $q=\pm 2K$, making it perfectly suitable for the calculus of the excitation energies from in Eq. \ref{excitation-energies-new-boson}. Indeed, repeating the fitting procedure the results are $\mathcal{P}_\text{fit}=\left[89,12,48,-71^\circ\right]$. This also provides an RMS that is similar to the initial one. It is somewhat expected that the change in the wobbling frequency $\omega\rightarrow\omega'$ would lead to similar excitation energies, as they differ by a constant amount, independent of $I$ \cite{raduta2020new}. For the sake of completeness, the elliptic potential $V(q)$ is graphically represented for the set of MOI, $\theta$, and $\theta+\pi$ given by the alternative fitting procedures in Figs. \ref{elliptic-potential-theta2} - \ref{elliptic-potential-theta3}.
+Since the potential when $\theta=-114^\circ$ has the global minimum in $q=2K$, it is worth adjusting the fitting model and using the wobbling frequency $\omega'$ from Eq. \eqref{wobbling-frequency-new-boson-prime} for the excitation energies. The expression of $\omega'$ was obtained by expanding $V(q)$ up to second order in the local minima $q=\pm 2K$, making it perfectly suitable for the calculus of the excitation energies from in Eq. \eqref{excitation-energies-new-boson}. Indeed, repeating the fitting procedure the results are $\mathcal{P}_\text{fit}=\left[89,12,48,-71^\circ\right]$. This also provides an RMS that is similar to the initial one. It is somewhat expected that the change in the wobbling frequency $\omega\rightarrow\omega'$ would lead to similar excitation energies, as they differ by a constant amount, independent of $I$ \cite{raduta2020new}. For the sake of completeness, the elliptic potential $V(q)$ is graphically represented for the set of MOI, $\theta$, and $\theta+\pi$ given by the alternative fitting procedures in Figs. \ref{elliptic-potential-theta2} - \ref{elliptic-potential-theta3}.
 \begin{figure}
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/potential-fit2-theta.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/potential-fit2-theta-pi.pdf}
-    \caption{The triaxial potential from Eq. \ref{elliptic-potential-formula} associated to $^{135}$Pr, evaluated for the case of maximal MOI along $2$-axis. The three MOI are $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3\approx13:101:53\ \hbar^2\text{MeV}^{-1}$, $\theta=140^\circ$ (\textbf{left}), and $\theta=320^\circ$ (\textbf{right}).}
+    \caption{The triaxial potential from Eq. \eqref{elliptic-potential-formula} associated to $^{135}$Pr, evaluated for the case of maximal MOI along $2$-axis. The three MOI are $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3\approx13:101:53\ \hbar^2\text{MeV}^{-1}$, $\theta=140^\circ$ (\textbf{left}), and $\theta=320^\circ$ (\textbf{right}).}
     \label{elliptic-potential-theta2}
 \end{figure}
 \begin{figure}
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/potential-fit3-theta.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/potential-fit3-theta-pi.pdf}
-    \caption{The triaxial potential from Eq. \ref{elliptic-potential-formula} associated to $^{135}$Pr, evaluated using $\omega'$ instead of $\omega$ (see Eq. \ref{wobbling-frequency-new-boson-prime}). The MOI are: $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3\approx89:12:48\ \hbar^2\text{MeV}^{-1}$, $\theta=-71^\circ$ (\textbf{left}), and $\theta=109^\circ$ (\textbf{right}).}
+    \caption{The triaxial potential from Eq. \eqref{elliptic-potential-formula} associated to $^{135}$Pr, evaluated using $\omega'$ instead of $\omega$ (see Eq. \eqref{wobbling-frequency-new-boson-prime}). The MOI are: $\mathcal{I}_1:\mathcal{I}_2:\mathcal{I}_3\approx89:12:48\ \hbar^2\text{MeV}^{-1}$, $\theta=-71^\circ$ (\textbf{left}), and $\theta=109^\circ$ (\textbf{right}).}
     \label{elliptic-potential-theta3}
 \end{figure}
 
 Taking a look at all three sets of potentials from Figs. \ref{elliptic-potential-theta} - \ref{elliptic-potential-theta3}, it can be seen that except for the case of $\mathcal{I}_2=\mathcal{I}_\text{max}$, the $V(q)$ ranges are quite close to each other. The very large values for $V(q)$ from Fig. \ref{elliptic-potential-theta2} show that the transverse wobbling for $^{135}$Pr is unstable. Notice the alternating character of the deepest minima for the angle $\theta$ (i.e., between the plots for $\theta$ and $\theta+\pi$). The very sharp minimum points also indicate that the core + particle interaction stabilizes near $q=0,2K,\dots$. 
 
-The wobbling frequency for $^{135}$Pr can be easily determined by using the moments of inertia and the angle $\theta$ in the analytical expressions from Eq. \ref{omega-frequency-deepest-minima} for $\omega$ and Eq. \ref{wobbling-frequency-new-boson-prime} for $\omega'$, respectively. A set of graphical representations are made in Figs. \ref{wobbling-frequencies-135pr-fit1} - \ref{wobbling-frequencies-135pr-fit3} where each plot is generated using the numerical values from Table \ref{new-boson-fitting-parameters} (for the first set of plots), the fit when $\mathcal{I}_2=\mathcal{I}_\text{max}$ (second set of plots), and lastly, the fit when the excitation energies are evaluated with $\omega'$ (third set of plots).
+The wobbling frequency for $^{135}$Pr can be easily determined by using the moments of inertia and the angle $\theta$ in the analytical expressions from Eq. \eqref{omega-frequency-deepest-minima} for $\omega$ and Eq. \eqref{wobbling-frequency-new-boson-prime} for $\omega'$, respectively. A set of graphical representations are made in Figs. \ref{wobbling-frequencies-135pr-fit1} - \ref{wobbling-frequencies-135pr-fit3} where each plot is generated using the numerical values from Table \ref{new-boson-fitting-parameters} (for the first set of plots), the fit when $\mathcal{I}_2=\mathcal{I}_\text{max}$ (second set of plots), and lastly, the fit when the excitation energies are evaluated with $\omega'$ (third set of plots).
 \begin{figure}
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/omega-fit-1.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/omega-prime-fit-1.pdf}
-    \caption{The wobbling frequency as function of angular momentum for $^{135}$Pr, according to Eqs. \ref{omega-frequency-deepest-minima} (\textbf{left}) and \ref{wobbling-frequency-new-boson-prime} (\textbf{right}). The calculations are done for the parameters provided in Table \ref{new-boson-fitting-parameters}. The value $\langle\delta\rangle$ represents the average spacing between the two frequencies (see text for more details).}
+    \caption{The wobbling frequency as function of angular momentum for $^{135}$Pr, according to Eq. \eqref{omega-frequency-deepest-minima} (\textbf{left}) and Eq. \eqref{wobbling-frequency-new-boson-prime} (\textbf{right}). The calculations are done for the parameters provided in Table \ref{new-boson-fitting-parameters}. The value $\langle\delta\rangle$ represents the average spacing between the two frequencies (see text for more details).}
     \label{wobbling-frequencies-135pr-fit1}
 \end{figure}
 \begin{figure}
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/omega-fit-2.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/omega-prime-fit-2.pdf}
-    \caption{The wobbling frequency as function of angular momentum for $^{135}$Pr, according to Eqs. \ref{omega-frequency-deepest-minima} (\textbf{left}) and \ref{wobbling-frequency-new-boson-prime} (\textbf{right}). The calculations are done for the parameters obtained by fitting Eq. \ref{excitation-energies-new-boson} such that $\mathcal{I}_2=\mathcal{I}_\text{max}$. The value $\langle\delta\rangle$ represents the average spacing between the two frequencies (see text for more details).}
+    \caption{The wobbling frequency as function of angular momentum for $^{135}$Pr, according to Eq. \eqref{omega-frequency-deepest-minima} (\textbf{left}) and Eq. \eqref{wobbling-frequency-new-boson-prime} (\textbf{right}). The calculations are done for the parameters obtained by fitting Eq. \eqref{excitation-energies-new-boson} such that $\mathcal{I}_2=\mathcal{I}_\text{max}$. The value $\langle\delta\rangle$ represents the average spacing between the two frequencies (see text for more details).}
     \label{wobbling-frequencies-135pr-fit2}
 \end{figure}
 \begin{figure}
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/omega-fit-3.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/omega-prime-fit-3.pdf}
-    \caption{The wobbling frequency as function of angular momentum for $^{135}$Pr, according to Eqs. \ref{omega-frequency-deepest-minima} (\textbf{left}) and \ref{wobbling-frequency-new-boson-prime} (\textbf{right}). Results were achieved with the parameters given by a fit of Eq. \ref{excitation-energies-new-boson} using $\omega'$ in its analytical expression. The value $\langle\delta\rangle$ represents the average spacing between the two frequencies (see text for more details).}
+    \caption{The wobbling frequency as function of angular momentum for $^{135}$Pr, according to Eq. \eqref{omega-frequency-deepest-minima} (\textbf{left}) and Eq. \eqref{wobbling-frequency-new-boson-prime} (\textbf{right}). Results were achieved with the parameters given by a fit of Eq. \eqref{excitation-energies-new-boson} using $\omega'$ in its analytical expression. The value $\langle\delta\rangle$ represents the average spacing between the two frequencies (see text for more details).}
     \label{wobbling-frequencies-135pr-fit3}
 \end{figure}
 
@@ -761,7 +761,7 @@ then one can compute the average $\langle\delta\rangle$ across each of the three
 \subsection{On the Chiral Character of the Wobbling Motion}
 \label{new-boson-chiral-character}
 
-As discussed in the chapter dedicated to the signatures of triaxial nuclei (recall Section \ref{subsection-chiral-motion}), the \emph{chirality} corresponds to a transformation that brings a right-handed system into a left-handed one. The change of the sign for the a.m. defines the chiral transformation itself. Thus, the invariance to a chiral transformation is given by the conservation of the rotational energy when the rotational axis is changed. Referring back to the initial Hamiltonian from Eq. \ref{rotor-hamiltonian-new-boson}, this consists of a sum of two terms, one that is symmetric to a chiral transformation and one that is antisymmetric:
+As discussed in the chapter dedicated to the signatures of triaxial nuclei (recall Section \ref{subsection-chiral-motion}), the \emph{chirality} corresponds to a transformation that brings a right-handed system into a left-handed one. The change of the sign for the a.m. defines the chiral transformation itself. Thus, the invariance to a chiral transformation is given by the conservation of the rotational energy when the rotational axis is changed. Referring back to the initial Hamiltonian from Eq. \eqref{rotor-hamiltonian-new-boson}, this consists of a sum of two terms, one that is symmetric to a chiral transformation and one that is antisymmetric:
 \begin{align}
     \hat{H}_\text{rot}=\hat{H}_\text{symm}+\hat{H}_\text{asymm}\ .
 \end{align}
@@ -779,18 +779,18 @@ Based on the description of the chirality for $\hat{H}_\text{symm}$ and $\hat{H}
     \label{chiral-potentials-symmetric-asymmetric}
 \end{align}
 
-The symmetric and asymmetric potentials are represented as a function of the coordinate $q$ in Fig. \ref{chiral-potentials-plot}, for the moments of inertia and the single-particle orientation angle provided by fitting the excitation energies of Eq. \ref{excitation-energies-new-boson}. For keeping a concise representation, only $I=45/2$ was considered. Note the oscillatory character of $V_\text{symm}$ that is more pronounced, with very deep minima and maxima across the $q$ range. The asymmetric potential is almost flat when $q\approx2K$.
+The symmetric and asymmetric potentials are represented as a function of the coordinate $q$ in Fig. \ref{chiral-potentials-plot}, for the moments of inertia and the single-particle orientation angle provided by fitting the excitation energies of Eq. \eqref{excitation-energies-new-boson}. For keeping a concise representation, only $I=45/2$ was considered. Note the oscillatory character of $V_\text{symm}$ that is more pronounced, with very deep minima and maxima across the $q$ range. The asymmetric potential is almost flat when $q\approx2K$.
 
-The elliptic triaxial potential $V(q)$ expressed in Eq. \ref{elliptic-potential-formula} is a function that depends explicitly on the elliptic modulus $k$. Moreover, the modulus was defined in terms of the factor $u=(A_3-A_1)/A$ (recall Eq. \ref{new-boson-hamiltonian-notations}). From that formula, it is obvious that $k$ will change when $\theta$ changes, through the re-adjustment of the single-particle a.m. components $j_1$ and $j_2$. As a result, the period $K$ (which gives the location of critical points) will also depend on the orientation angle $\theta$. When comparing $V_\text{symm}$ and $V_\text{asymm}$ for a shared set of coordinates $q$, an offset $\Delta K=\left|K_\theta-K_{\theta+\pi}\right|$ is required to compensate for the difference in their periods.
+The elliptic triaxial potential $V(q)$ expressed in Eq. \eqref{elliptic-potential-formula} is a function that depends explicitly on the elliptic modulus $k$. Moreover, the modulus was defined in terms of the factor $u=(A_3-A_1)/A$ (recall Eq. \eqref{new-boson-hamiltonian-notations}). From that formula, it is obvious that $k$ will change when $\theta$ changes, through the re-adjustment of the single-particle a.m. components $j_1$ and $j_2$. As a result, the period $K$ (which gives the location of critical points) will also depend on the orientation angle $\theta$. When comparing $V_\text{symm}$ and $V_\text{asymm}$ for a shared set of coordinates $q$, an offset $\Delta K=\left|K_\theta-K_{\theta+\pi}\right|$ is required to compensate for the difference in their periods.
 \begin{figure}
     \centering
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/symmetric-potential-135Pr.pdf}
     \includegraphics[width=0.49\textwidth]{Chapters/Figures/asymmetric-potential-135Pr.pdf}
-    \caption{The symmetric \textbf{left} and asymmetric \textbf{right} potentials from Eq. \ref{chiral-potentials-symmetric-asymmetric} associated to $^{135}$Pr. The numerical evaluation is done with the fitting parameters from Table \ref{new-boson-fitting-parameters}.}
+    \caption{The symmetric \textbf{left} and asymmetric \textbf{right} potentials from Eq. \eqref{chiral-potentials-symmetric-asymmetric} associated to $^{135}$Pr. The numerical evaluation is done with the fitting parameters from Table \ref{new-boson-fitting-parameters}.}
     \label{chiral-potentials-plot}
 \end{figure}
 
-The excitation energies from Eq. \ref{excitation-energies-new-boson} can also be \emph{decomposed} into symmetric and asymmetric terms. For the yrast states (i.e., the band B1) the \emph{chiral pair} of excitation energies are defined as \cite{raduta2020new}:
+The excitation energies from Eq. \eqref{excitation-energies-new-boson} can also be \emph{decomposed} into symmetric and asymmetric terms. For the yrast states (i.e., the band B1) the \emph{chiral pair} of excitation energies are defined as \cite{raduta2020new}:
 \begin{align}
     \centering
     E_I^\text{exc;B1}(\text{symm})&=A_1I^2+\frac{1}{2}\left[\omega_I(\theta)+\omega_I(\theta+\pi)\right]\ ,\nonumber\\
@@ -801,14 +801,14 @@ where it can be seen that the wobbling frequency $\omega(\theta)$ and its \emph{
 \begin{figure}
     \centering
     \includegraphics[scale=0.8]{Chapters/Figures/chiral-excitation-energies-135Pr.pdf}
-    \caption{The symmetric and asymmetric excitation energies from Eq. \ref{excitation-energies-new-boson-symm-asymm} for $^{135}$Pr, evaluated for the parameters given in Table \ref{new-boson-fitting-parameters}. The lines connecting the dots are just to guide the eye.}
+    \caption{The symmetric and asymmetric excitation energies from Eq. \eqref{excitation-energies-new-boson-symm-asymm} for $^{135}$Pr, evaluated for the parameters given in Table \ref{new-boson-fitting-parameters}. The lines connecting the dots are just to guide the eye.}
     \label{chiral-excitation-energies-135Pr}
 \end{figure}
 
 The two sets of excitation energies $E(\text{symm})$ and $E(\text{asymm})$ correspond to two bands of opposite chirality. Indeed, the symmetric values correspond to a symmetric Hamiltonian and chirality $+1$, while the asymmetric values have negative chirality $-1$ and belong to an asymmetric Hamiltonian. Looking at Fig. \ref{chiral-excitation-energies-135Pr}, it can be seen that both bands are relatively close to each other, and they almost have similar behavior for the total angular momentum. Nevertheless, the quadratic increase of $E(\text{symm})$ is noticeable. The rather constant energy spacing between the two bands is a feature specific to chiral bands \cite{raduta2020new} (see the chiral bands from Figs. \ref{chiral-bands-1} - \ref{chiral-bands-2}). The fact that the initial Hamiltonian contains a linear term is another feature of the chiral motion, which means that the wobbling and chiral properties seem to be somewhat connected for $^{135}$Pr. This is the first time both phenomena are studied on the same family of bands, and the only property that holds against a decisive unified character of wobbling and chiral bands in $^{135}$Pr would be the rotational axis (that is, for a chiral nucleus, the rotational axis lies outside any of the principal planes - recall Fig. \ref{chiral-geometry}). More experimental data on this isotope would help to conclude whether these two bands are of a chiral type or not. 
 \subsection{Electromagnetic Transitions}
 
-The E2 and M1 reduced transition probabilities are calculated according to Eq. \ref{reduced-electric-quadrupole-new-boson} and Eq. \ref{reduced-magnetic-dipole-new-boson}, respectively. The initial and final wave functions are determined from the calculus of energies, connecting in this way the electromagnetic transitions to the model Hamiltonian. As already mentioned, the numerical values for these quantities require two adjustable parameters: $\bar{Q}_0$ and $\bar{Q}_2$. The parameters used in this work are \cite{raduta2020new}:
+The E2 and M1 reduced transition probabilities are calculated according to Eq. \eqref{reduced-electric-quadrupole-new-boson} and Eq. \eqref{reduced-magnetic-dipole-new-boson}, respectively. The initial and final wave functions are determined from the calculus of energies, connecting in this way the electromagnetic transitions to the model Hamiltonian. As already mentioned, the numerical values for these quantities require two adjustable parameters: $\bar{Q}_0$ and $\bar{Q}_2$. The parameters used in this work are \cite{raduta2020new}:
 %TO-DO add the fitting method description
 \begin{align}
     \bar{Q}_0=-30.02\ \mathrm{e}\cdot\text{fm}^2/\hbar^2\ ,\ \bar{Q}_2=136.39\ \mathrm{e}\cdot\text{fm}^2/\hbar^2\ .
@@ -842,16 +842,16 @@ From the results shown in Table \ref{new-boson-transitions-results}, it can be s
 
 Throughout Chapter \ref{extra-chapter-new-boson} a unique approach to the study of triaxial nuclei was presented. It started with the Hamiltonian specific for an even-even core interacting with a single-particle \cite{raduta2017semiclassical,raduta2018wobbling,raduta2020approach}. The coupling term, which describes the motion of the odd nucleon in a deformed mean field generated by the core is \emph{a priori ignored}, since the odd nucleon will be rigidly aligned with the core, requiring only a coupling angle for the odd nucleon. Such a property will not lead to any modifications of the energy spectrum and only a free parameter $\theta$ playing the role of coupling angle is necessary for this model.
 
-The initial Hamiltonian was expressed in terms of the angular momentum components as ladder operators in Eq. \ref{hamiltonian-new-boson-ladder-operators}. By using the Bargmann mapping for the angular momentum components \cite{bargmann1962representations}, the ladder operators become functions of boson creation and annihilation operators (see Eq. \ref{angular-momentum-elliptic-bargmann}). The Hamiltonian is further written in this boson space by doing an \emph{elliptic expansion} on the angular momentum (recall Eq. \ref{boson-hamiltonian-complete-form}). This is done via the Jacobi elliptic functions provided in Eq. \ref{elliptic-functions-equation}. Usually, these are used for describing complex but periodic systems, because they consist of generalized trigonometric functions. As a matter of fact, the rotation of the triaxial nucleus can be seen as a \emph{periodic motion}, with the wobbling frequency directly emphasizing such character.
+The initial Hamiltonian was expressed in terms of the angular momentum components as ladder operators in Eq. \eqref{hamiltonian-new-boson-ladder-operators}. By using the Bargmann mapping for the angular momentum components \cite{bargmann1962representations}, the ladder operators become functions of boson creation and annihilation operators (see Eq. \eqref{angular-momentum-elliptic-bargmann}). The Hamiltonian is further written in this boson space by doing an \emph{elliptic expansion} on the angular momentum (recall Eq. \eqref{boson-hamiltonian-complete-form}). This is done via the Jacobi elliptic functions provided in Eq. \eqref{elliptic-functions-equation}. Usually, these are used for describing complex but periodic systems, because they consist of generalized trigonometric functions. As a matter of fact, the rotation of the triaxial nucleus can be seen as a \emph{periodic motion}, with the wobbling frequency directly emphasizing such character.
 
-From the Hamiltonian's eigenvalue equation, a Schrödinger equation is reached, with a fully separated kinetic and potential term, which was given in Eq. \ref{schrodinger-equation-elliptic}. Through the adoption of the elliptic functions and the Bargmann representation, an expression for the triaxial potential is acquired (i.e., Eq. \ref{elliptic-potential-formula}). When represented as a function of the generalized coordinate $q$, the potential energy exhibits four symmetric minima: two for the positive values of $q$ and two for the negative interval (Fig. \ref{elliptic-potential-plot-deep-mininma}). The presence of multiple \emph{periodic} minima for the potential $V(q)$ is a specific feature of the elliptic functions. This is one of the reasons why elliptic representation for the initial Hamiltonian was chosen, such that the existence of periodic minima would allow for the existence of stability regions where wobbling states are allowed.
+From the Hamiltonian's eigenvalue equation, a Schrödinger equation is reached, with a fully separated kinetic and potential term, which was given in Eq. \eqref{schrodinger-equation-elliptic}. Through the adoption of the elliptic functions and the Bargmann representation, an expression for the triaxial potential is acquired (i.e., Eq. \eqref{elliptic-potential-formula}). When represented as a function of the generalized coordinate $q$, the potential energy exhibits four symmetric minima: two for the positive values of $q$ and two for the negative interval (Fig. \ref{elliptic-potential-plot-deep-mininma}). The presence of multiple \emph{periodic} minima for the potential $V(q)$ is a specific feature of the elliptic functions. This is one of the reasons why elliptic representation for the initial Hamiltonian was chosen, such that the existence of periodic minima would allow for the existence of stability regions where wobbling states are allowed.
 
-Performing a Harmonic Approximation on the energy function for the triaxial rotor, an expression containing three specific terms emerges; one term quadratic in the total angular momentum $I$, the harmonic-like wobbling term, and the single-particle term $e_\text{sp}$ (as per summation in Eq. \ref{energy-2nd-order-expansion-deepest-minima}). An alternative description for the wobbling frequency $\omega$ and total energy $E_n$ can be obtained if the elliptic potential $V(q)$ is expanded in local minima (instead of the deepest minima) and the results were given in Eqs. \ref{energy-2nd-order-expansion-local-minima} - \ref{wobbling-frequency-new-boson-prime}. The expression for this energy function was studied in Section \ref{classical-description-new-boson-section}, utilizing \emph{polar representations} constructed from the fully-classical angular momentum representation of Eq. \ref{polar-coordinates-case-a1}, Eq. \ref{polar-coordinates-case-b1}, and Eq. \ref{polar-coordinates-case-c1}. Through a set of contour plots for the classical energy function $H'$ (Eq. \ref{new-boson-h-prime-classical}), regions of stable/unstable wobbling motion could be identified, and Figs. \ref{new-boson-hprime-3axis-contour-plot} - \ref{new-boson-hprime-1axis-contour-plot} illustrate the behavior.
+Performing a Harmonic Approximation on the energy function for the triaxial rotor, an expression containing three specific terms emerges; one term quadratic in the total angular momentum $I$, the harmonic-like wobbling term, and the single-particle term $e_\text{sp}$ (as per summation in Eq. \eqref{energy-2nd-order-expansion-deepest-minima}). An alternative description for the wobbling frequency $\omega$ and total energy $E_n$ can be obtained if the elliptic potential $V(q)$ is expanded in local minima (instead of the deepest minima) and the results were given in Eqs. \eqref{energy-2nd-order-expansion-local-minima} - \eqref{wobbling-frequency-new-boson-prime}. The expression for this energy function was studied in Section \ref{classical-description-new-boson-section}, utilizing \emph{polar representations} constructed from the fully-classical angular momentum representation of Eq. \eqref{polar-coordinates-case-a1}, Eq. \eqref{polar-coordinates-case-b1}, and Eq. \eqref{polar-coordinates-case-c1}. Through a set of contour plots for the classical energy function $H'$ (Eq. \eqref{new-boson-h-prime-classical}), regions of stable/unstable wobbling motion could be identified, and Figs. \ref{new-boson-hprime-3axis-contour-plot} - \ref{new-boson-hprime-1axis-contour-plot} illustrate the behavior.
 
-Furthermore, the expression of $E_n$ is used to evaluate the numerical values for the \emph{excitation energies} of $^{135}$Pr. This isotope has three wobbling bands, and the fitting procedure adopted in the current model describes them very well, providing similar results with other existing models within the literature. Section \ref{numerical-results-new-boson} gives the results concerning excitation energies from Eq. \ref{excitation-energies-new-boson}, which are represented in Figs. \ref{135pr-new-boson-band1} - \ref{135pr-new-boson-band23}, and also the electromagnetic transition probabilities are provided in Table \ref{new-boson-transitions-results}. The triaxial potential is graphically represented for several spin states, with the parameter set $\mathcal{P}_\text{fit}$ from Table \ref{new-boson-fitting-parameters}. The symmetric behavior of $V(q)$ relative to the sign of the coordinate is clearly visible, together with the local/global minima (check Figs. \ref{elliptic-potential-theta} - \ref{elliptic-potential-theta3}). Plots for the coupling angle $\theta$ as well as the \emph{chiral partner} $\theta+\pi$ were depicted.
+Furthermore, the expression of $E_n$ is used to evaluate the numerical values for the \emph{excitation energies} of $^{135}$Pr. This isotope has three wobbling bands, and the fitting procedure adopted in the current model describes them very well, providing similar results with other existing models within the literature. Section \ref{numerical-results-new-boson} gives the results concerning excitation energies from Eq. \eqref{excitation-energies-new-boson}, which are represented in Figs. \ref{135pr-new-boson-band1} - \ref{135pr-new-boson-band23}, and also the electromagnetic transition probabilities are provided in Table \ref{new-boson-transitions-results}. The triaxial potential is graphically represented for several spin states, with the parameter set $\mathcal{P}_\text{fit}$ from Table \ref{new-boson-fitting-parameters}. The symmetric behavior of $V(q)$ relative to the sign of the coordinate is clearly visible, together with the local/global minima (check Figs. \ref{elliptic-potential-theta} - \ref{elliptic-potential-theta3}). Plots for the coupling angle $\theta$ as well as the \emph{chiral partner} $\theta+\pi$ were depicted.
 
 A very good agreement with the experimental data is obtained in this formalism. Although the model started with the hypothesis that the maximal MOI is $\mathcal{I}_2$, the fitting results show $\mathcal{I}_1=\mathcal{I}_\text{max}$. The two-fold reason for such a behavior might be: i) the \emph{re-normalization} of the three MOI, due to the linear terms present in the angular momentum and ii) the Coriolis interaction, proportional to $I_1$, which is stimulated by the highly rotating triaxial system. Nevertheless, through this classical description it is shown that a transverse wobbling behavior would not be possible, a situation that is in favor of the comments made in Ref. \cite{frauendorf2018comment}.
 
-Lastly, in Section \ref{new-boson-chiral-character}, a special analysis is exploited for the initial Hamiltonian $\hat{H}_\text{rot}$. The two unique fingerprints for triaxiality in nuclei are discussed, namely the wobbling and chiral motions. Based on the intrinsic structure of $\hat{H}_\text{rot}$, both a symmetric and an asymmetric part could be identified, where the symmetric/asymmetric character is reflected by the chiral transformation $\theta=\pi\longrightarrow\theta_\text{chiral}=\theta+\pi$. Thus, for the potential $V(q)$, a symmetric and an asymmetric term were composed (see Eq. \ref{chiral-potentials-symmetric-asymmetric}), and their graphical representations show remarkable behavior (see Fig. \ref{chiral-potentials-plot}). The same analysis could be performed for the excitation energy of the yrast band, and two energy bands were analytically obtained according to Eq. \ref{excitation-energies-new-boson-symm-asymm}. From the plot shown in Fig. \ref{chiral-excitation-energies-135Pr} for $^{135}$Pr, the two collections of energies (that is $E_I^\text{exc;B1}(\text{symm})$ and $E_I^\text{exc;B1}(\text{asymm})$, respectively) appear as two different bands, which could be interpreted as \emph{a pair of chiral bands for this isotope}. It is conspicuous that only adopting a boson description for the triaxial nucleus could lead to the emergence of both wobbling- and chiral-like energies, marking a possible start of a new unified approach in the identification of wobbling/chiral structures for other isotopes.
+Lastly, in Section \ref{new-boson-chiral-character}, a special analysis is exploited for the initial Hamiltonian $\hat{H}_\text{rot}$. The two unique fingerprints for triaxiality in nuclei are discussed, namely the wobbling and chiral motions. Based on the intrinsic structure of $\hat{H}_\text{rot}$, both a symmetric and an asymmetric part could be identified, where the symmetric/asymmetric character is reflected by the chiral transformation $\theta=\pi\longrightarrow\theta_\text{chiral}=\theta+\pi$. Thus, for the potential $V(q)$, a symmetric and an asymmetric term were composed (see Eq. \eqref{chiral-potentials-symmetric-asymmetric}), and their graphical representations show remarkable behavior (see Fig. \ref{chiral-potentials-plot}). The same analysis could be performed for the excitation energy of the yrast band, and two energy bands were analytically obtained according to Eq. \eqref{excitation-energies-new-boson-symm-asymm}. From the plot shown in Fig. \ref{chiral-excitation-energies-135Pr} for $^{135}$Pr, the two collections of energies (that is $E_I^\text{exc;B1}(\text{symm})$ and $E_I^\text{exc;B1}(\text{asymm})$, respectively) appear as two different bands, which could be interpreted as \emph{a pair of chiral bands for this isotope}. It is conspicuous that only adopting a boson description for the triaxial nucleus could lead to the emergence of both wobbling- and chiral-like energies, marking a possible start of a new unified approach in the identification of wobbling/chiral structures for other isotopes.
 
 \emph{These key points conclude this chapter on a boson description for the wobbling motion.}
