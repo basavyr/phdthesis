@@ -35,7 +35,7 @@ where $e_i$ represents the energy (eigenvalue), $\psi_i$ represents the wave-fun
     V(r)=\frac{1}{2}m(\omega_i r)^2\ ,
     \label{harmonic-potential}
 \end{align}
-with $\omega_i$ as the frequency of the basic harmonic-like motion of the particle in the nucleus. With Eq. \ref{harmonic-potential}, the motion of the nucleon has a straightforward expression:
+with $\omega_i$ as the frequency of the basic harmonic-like motion of the particle in the nucleus. With Eq. \eqref{harmonic-potential}, the motion of the nucleon has a straightforward expression:
 \begin{align}
     \frac{\hbar^2}{2m}\nabla^2\psi_i(r)+\frac{1}{2}m(\omega r)^2\psi_i(r)=e_i\psi_i(r)\ .
 \end{align}
@@ -58,7 +58,7 @@ Furthermore, the steepness of the SHO can be corrected with an \emph{attractive}
 
 For the sake of simplicity, the centrifugal term will be denoted within formulas without the vector symbol. Since the intrinsic spin of a nucleon is $s=1/2$, for a given value of $l$, there can be two values for the \emph{total angular momentum} (a.m.) $j=l\pm1/2$: one for each spin orientation with respect to the direction of the orbital a.m. Moreover, for every value of $l=0,1,2,3,4,\dots$, there is a similar notation $l=s,p,d,f,g,\dots$, respectively. Regarding the spectroscopic notation, usually, the value of $j$ is considered as a subscript; $nl_j$ (for example $1p_{1/2}$ and $1p_{3/2}$). For high enough shells, there can be splittings between $j+1/2$ and $j-1/2$ that are large enough to lower the $j+1/2$ state from one oscillator shell $n$ to one located below $n-1$. These types of levels are called \emph{intruder states}, and they have opposite parity $\pi=(-1)^l$ with respect to the shell that these levels will occupy.
 
-Going back to the expression of the $\vec{l}\cdot\vec{s}$ term from Eq. \ref{modified-harmonic-oscillator-eq} and denoting it with $V_{ls}(r)$, its contribution to the total potential can be regarded as a surface effect and it can be expressed as a function that depends on the radial coordinate as such \cite{casten2000nuclear}:
+Going back to the expression of the $\vec{l}\cdot\vec{s}$ term from Eq. \eqref{modified-harmonic-oscillator-eq} and denoting it with $V_{ls}(r)$, its contribution to the total potential can be regarded as a surface effect and it can be expressed as a function that depends on the radial coordinate as such \cite{casten2000nuclear}:
 \begin{align}
     V_{ls}(r)=-a_{ls}\frac{\partial V(r)}{\partial r}\vec{l}\cdot\vec{s}\ ,
 \end{align}
@@ -83,7 +83,7 @@ Another, more realistic potential that can be used in order to reproduce the spe
     V_\text{ws}(r)=-\frac{V_0}{1+e^{\frac{r-R_0}{a}}}\ ,
     \label{woods-saxon-potential}
 \end{align}
-where $V_0$ represents the depth of the potential ($\approx 50$ MeV, in order to reproduce the experimental separation energies for the nucleons), $a$ is the surface thickness (or \emph{diffuseness parameter}, giving information about how fast the potential drops to zero) with a value of approximately $0.5$ fm, and $R_0$ is the nuclear radius ($R_0=1.2A^{1/3}\ \text{fm}$). The nature of this potential is of \emph{central type} and Eq. \ref{woods-saxon-potential} is not enough the reproduce the higher magic numbers. As such, the addition of a spin-orbit term, similarly as in the case of MHO potential, is required \cite{martin2017particle}: 
+where $V_0$ represents the depth of the potential ($\approx 50$ MeV, in order to reproduce the experimental separation energies for the nucleons), $a$ is the surface thickness (or \emph{diffuseness parameter}, giving information about how fast the potential drops to zero) with a value of approximately $0.5$ fm, and $R_0$ is the nuclear radius ($R_0=1.2A^{1/3}\ \text{fm}$). The nature of this potential is of \emph{central type} and Eq. \eqref{woods-saxon-potential} is not enough the reproduce the higher magic numbers. As such, the addition of a spin-orbit term, similarly as in the case of MHO potential, is required \cite{martin2017particle}: 
 \begin{align}
     V_\text{total}=V_\text{ws}^\text{central}+V_{ls}(r)\vec{l}\cdot\vec{s}\ .
     \label{woods-saxon-so-potential}
@@ -110,7 +110,7 @@ The experimental evidence points to the fact that $V_{ls}(r)$ is negative, meani
 \begin{figure}
     \centering
     \includegraphics[scale=0.2]{Chapters/Figures/ws_potential_plot.png}
-    \caption{The shape of the Woods-Saxon potential, defined by Eq. \ref{woods-saxon-potential}. The parameters are arbitrarily chosen as: $V_0=50$ MeV, $R=5.57$ fm, and $a=0.5$ fm.}
+    \caption{The shape of the Woods-Saxon potential, defined by Eq. \eqref{woods-saxon-potential}. The parameters are arbitrarily chosen as: $V_0=50$ MeV, $R=5.57$ fm, and $a=0.5$ fm.}
     \label{woods-saxon-plot}
 \end{figure}
 
@@ -129,7 +129,7 @@ and the shape of a typical Woods-Saxon potential is shown in Fig. \ref{woods-sax
 \begin{figure}
     \centering
     \includegraphics[width=0.99\textwidth]{Chapters/Figures/energy_levels_WS.png}
-    \caption{The energy levels calculated for the Woods-Saxon potential given by Eq. \ref{woods-saxon-potential} (left-side), and the single-particle energies with the spin-orbit correction added, as in Eq. \ref{woods-saxon-so-potential} (right-side). Figure adapted from Ref. \cite{lewis2019lifetime}.}
+    \caption{The energy levels calculated for the Woods-Saxon potential given by Eq. \eqref{woods-saxon-potential} (left-side), and the single-particle energies with the spin-orbit correction added, as in Eq. \eqref{woods-saxon-so-potential} (right-side). Figure adapted from Ref. \cite{lewis2019lifetime}.}
     \label{woods-saxon-energy-levels}
 \end{figure}
 
@@ -156,7 +156,7 @@ As a numerical example, the $\theta$ variation is studied for the orbits $j=\{9/
 \begin{figure}
     \centering
     \includegraphics[scale=0.7]{Chapters/Figures/tilted_theta_shape.pdf}
-    \caption{The change in $\theta$ angle defined in Eq. \ref{theta-tilting-angle} with increasing values of $\Omega$, for a few orbitals $j$.}
+    \caption{The change in $\theta$ angle defined in Eq. \eqref{theta-tilting-angle} with increasing values of $\Omega$, for a few orbitals $j$.}
     \label{fig-tilting-angle-shape}
 \end{figure}
 
@@ -171,23 +171,23 @@ Remarkable, \emph{no two lines in the Nilsson diagram with similar $\Omega$ valu
 
 Taking a closer look at the Nilsson from Fig. \ref{nillson-diagram-2}, there are two orbits within the $82$-$126$ neutron gap that can be analyzed in terms of \emph{mixing}: $f_{7/2}$ and $h_{9/2}$, respectively. Obviously, the lack of deformation implies a degeneracy of these orbits, but when deformation occurs, splitting kicks in. The angle of the orbital orientation $\theta$ depends on the ratio $\Omega/j$ (recall $\theta=\arcsin(\Omega/j)\approx\Omega/j$ at low $\Omega$). Small tilting angles will occur due to i) small values of $\Omega$ or ii) high $j$. As a result, the energies for the orbits $\Omega=1/2,3/2,5/2$ belonging to the $h_{9/2}$ shell are decreasing in energy faster with deformation than those from $f_{7/2}$ orbit. Consequently, the different rates of decrease for the Nilsson energies will overcome any small spherical energy separation $f_{7/2}-h_{9/2}$, making the orbits with low $\Omega$ to approach each other, leading to a more pronounced mixing. However, as discussed in \ref{appendix:two-state}, two orbits defined by the same quantum numbers cannot cross, causing the apparition of an \emph{inflection point}. The points can be seen when looking at the $\Omega=5/2$ and $\Omega=7/2$ orbits, which correspond to $f_{7/2}$ and $h_{9/2}$.
 
-% Lastly, an alternative form of the Nilsson Hamiltonian should be expressed, taking into consideration the already studied nuclear radius (see Eq. \ref{nuclear-shape} which describes the shape of the nuclear surface) and the fact that until now, only the \emph{quadrupole} effects have been relevant to the discussion about deformed potentials in nuclei. Indeed, for quadrupole deformations, the nuclear radius can be simplified to:
+% Lastly, an alternative form of the Nilsson Hamiltonian should be expressed, taking into consideration the already studied nuclear radius (see Eq. \eqref{nuclear-shape} which describes the shape of the nuclear surface) and the fact that until now, only the \emph{quadrupole} effects have been relevant to the discussion about deformed potentials in nuclei. Indeed, for quadrupole deformations, the nuclear radius can be simplified to:
 % \begin{align}
 %     R(\theta,\varphi)=R_0\left(1+\beta Y_2^0(\theta,\varphi)\right)\ .
 %     \label{simple-quadrupole-nuclear-surface}
 % \end{align}
 
-The single-particle Hamiltonian can be written in the general form, starting from the expression Eq. \ref{eq-full-nilsson-ham}:
+The single-particle Hamiltonian can be written in the general form, starting from the expression Eq. \eqref{eq-full-nilsson-ham}:
 \begin{align}
     H_\text{Nil}=-\frac{\hbar^2}{2m}+\frac{1}{2}m(\omega_0r)^2-&\frac{4}{3}\sqrt{\frac{\pi}{5}}m(\omega_0r)^2\epsilon Y_2^0(\theta,\varphi)-2\kappa\hbar\omega_0(\vec{l}\cdot\vec{s})\nonumber\\
     &-2\kappa\hbar\omega_0\mu\left(l^2-\langle l^2\rangle_N\right)\ .
     \label{eq-nilsson-ham-spherical-harmonics}
 \end{align}
 
-The expressions for the oscillator frequencies were already defined as functions of the deformation parameter $\epsilon$ and they keep the same form  as Eqs. \ref{oscillator-frequencies-nilsson} - \ref{omega-0-oscillator-frequency}. It is worth mentioning that both forms of $H_\text{Nil}$ from Eq. \ref{eq-full-nilsson-ham} and Eq. \ref{eq-nilsson-ham-spherical-harmonics} are equivalent. Moreover, they describe the structure of the deformed nuclei in the limits of large deformations (via Eq. \ref{eq-full-nilsson-ham}) and small deformations (via Eq. \ref{eq-nilsson-ham-spherical-harmonics}). Within literature, the two parameters are taken to be $\kappa\approx 0.06$ and $\mu$ varies between $\mu=0\sim 0.7$.% As previously shown, the relationship between the $\epsilon$ and $\beta$ deformation parameters is given by $\epsilon=\frac{3}{2}\sqrt{\frac{5}{4\pi}}\beta\approx 0.95\beta$.
+The expressions for the oscillator frequencies were already defined as functions of the deformation parameter $\epsilon$ and they keep the same form  as Eqs. \eqref{oscillator-frequencies-nilsson} - \eqref{omega-0-oscillator-frequency}. It is worth mentioning that both forms of $H_\text{Nil}$ from Eq. \eqref{eq-full-nilsson-ham} and Eq. \eqref{eq-nilsson-ham-spherical-harmonics} are equivalent. Moreover, they describe the structure of the deformed nuclei in the limits of large deformations (via Eq. \eqref{eq-full-nilsson-ham}) and small deformations (via Eq. \eqref{eq-nilsson-ham-spherical-harmonics}). Within literature, the two parameters are taken to be $\kappa\approx 0.06$ and $\mu$ varies between $\mu=0\sim 0.7$.% As previously shown, the relationship between the $\epsilon$ and $\beta$ deformation parameters is given by $\epsilon=\frac{3}{2}\sqrt{\frac{5}{4\pi}}\beta\approx 0.95\beta$.
 % the formula for \epsilon nuclear deformation parameter is taken from Casten
 
-When the deformations are small, $j$ is a good quantum number, and the Eq. \ref{eq-nilsson-ham-spherical-harmonics} represents a Hamiltonian for the AHO plus a \emph{perturbation} that is proportional to $\epsilon r^2Y_2^0$. Therefore, one can consider the eigenstates of the Hamiltonian as states labelled by the quantum numbers $N$, $l$, $j$, and $m$. It is possible to obtain a shift in energies relative to $\epsilon=0$ if the angular part $Y_2^0$ is treated as a perturbation \cite{casten2000nuclear}:
+When the deformations are small, $j$ is a good quantum number, and the Eq. \eqref{eq-nilsson-ham-spherical-harmonics} represents a Hamiltonian for the AHO plus a \emph{perturbation} that is proportional to $\epsilon r^2Y_2^0$. Therefore, one can consider the eigenstates of the Hamiltonian as states labelled by the quantum numbers $N$, $l$, $j$, and $m$. It is possible to obtain a shift in energies relative to $\epsilon=0$ if the angular part $Y_2^0$ is treated as a perturbation \cite{casten2000nuclear}:
 \begin{align}
     \Delta E_{Nljm}=-\frac{4}{3}\sqrt{\frac{\pi}{5}}m\omega_2^0\epsilon\bra{Nljm}r^2Y_2^0\ket{Nljm}\ .
 \end{align}
@@ -201,7 +201,7 @@ and together with the evaluation of the matrix elements for spherical harmonics,
     \Delta E_{Nljm}=-\frac{2}{3}\hbar\omega_0\left(N+\frac{2}{3}\right)\epsilon\frac{\left[3K^2-j(j+1)\right]\left[\frac{3}{4}-j(j+1)\right]}{(2j-1)j(j+1)(2j+1)}\ ,
     \label{nilsson-energy-shifts}
 \end{align}
-where the projection $m$ was replaced with the total angular momentum projection onto $z$-axis $K$. Based on Eq. \ref{nilsson-energy-shifts}, the following properties for a Nilsson diagram emerge:
+where the projection $m$ was replaced with the total angular momentum projection onto $z$-axis $K$. Based on Eq. \eqref{nilsson-energy-shifts}, the following properties for a Nilsson diagram emerge:
 \begin{itemize}
     \item There is a $K^2$ dependence for the energy shifts
     \item The quadrupole deformation parameter ($\epsilon$ or $\beta$) shows a clear linear dependence for $\Delta E_{Nljm}$
@@ -215,7 +215,7 @@ For a value $j>1/2$, the terms $\left[3K^2-j(j+1)\right]$ and $3/4-j(j+1)$ are n
     \text{upward sloping:}&\ K>0.57j\ .
 \end{align}
 
-It was already shown that the angular orientation (i.e., the tilting angle $\theta$) of an orbit is given by $\theta=\arcsin(K/j)$. For a ratio $K/j=0.65$, the tilting angle is $\theta=40^\circ$. The physical implication is that any larger \emph{tilt} of an orbit within a prolate quadrupole deformation is energetically unfavorable. In Fig. \ref{fig-nilsson-delta-E-shift} two different $j$ orbits, namely $h_{9/2}$ and $i_{13/2}$ are studied in terms of their energy shifts according to Eq. \ref{nilsson-energy-shifts}. It can be seen that there are more downward sloping orbitals, since the quadrupole deformation parameter has been set to a positive value $\epsilon=0.22$.
+It was already shown that the angular orientation (i.e., the tilting angle $\theta$) of an orbit is given by $\theta=\arcsin(K/j)$. For a ratio $K/j=0.65$, the tilting angle is $\theta=40^\circ$. The physical implication is that any larger \emph{tilt} of an orbit within a prolate quadrupole deformation is energetically unfavorable. In Fig. \ref{fig-nilsson-delta-E-shift} two different $j$ orbits, namely $h_{9/2}$ and $i_{13/2}$ are studied in terms of their energy shifts according to Eq. \eqref{nilsson-energy-shifts}. It can be seen that there are more downward sloping orbitals, since the quadrupole deformation parameter has been set to a positive value $\epsilon=0.22$.
 \begin{figure}
     \centering
     \includegraphics[scale=0.8]{Chapters/Figures/energy_shift_nilssonDeltaE.pdf} % figure was generated with the Mathematica script from here: /Users/basavyr/Documents/Work/mathematica-useful-algorithms/Physics/nilsson-energy-shift/energy-shift.nb
@@ -223,10 +223,10 @@ It was already shown that the angular orientation (i.e., the tilting angle $\the
     \label{fig-nilsson-delta-E-shift}
 \end{figure}
 
-Based on the principal quantum number $N$, there is another important physical consequence. The dependence on $N$ will imply that the slopes of any Nilsson energy level will be \emph{steeper} for larger values of $N$. Thus, heavier nuclei will tend to deform much easier than lighter ones. The explanation was done in Refs. \cite{bohr1998nuclear,krane1991introductory,casten2000nuclear}. Shortly, a nucleon belonging to a high oscillator shell will have a large average radius (the expectation value of $r^2$ was provided in Eq. \ref{nilsson-energy-shifts} via the expression $\langle r^2 \rangle=(N+3/2)$ \cite{bertulani2007nuclear}). As the nucleus deforms, the density distribution of the nuclear matter will approach that orbit. The effect on the orbiting nucleon to decrease its energy rapidly as the nuclear matter comes closer to the orbit is due to the \emph{attractive} nature of the nuclear force. 
+Based on the principal quantum number $N$, there is another important physical consequence. The dependence on $N$ will imply that the slopes of any Nilsson energy level will be \emph{steeper} for larger values of $N$. Thus, heavier nuclei will tend to deform much easier than lighter ones. The explanation was done in Refs. \cite{bohr1998nuclear,krane1991introductory,casten2000nuclear}. Shortly, a nucleon belonging to a high oscillator shell will have a large average radius (the expectation value of $r^2$ was provided in Eq. \eqref{nilsson-energy-shifts} via the expression $\langle r^2 \rangle=(N+3/2)$ \cite{bertulani2007nuclear}). As the nucleus deforms, the density distribution of the nuclear matter will approach that orbit. The effect on the orbiting nucleon to decrease its energy rapidly as the nuclear matter comes closer to the orbit is due to the \emph{attractive} nature of the nuclear force. 
 Clearly, this effect is less obvious for a particle in a lower oscillator shell that is already very close to the rest of the nuclear matter.
 
-The centrifugal $\vec{l}^2$ and spin-orbit $\vec{l}\cdot\vec{s}$ terms from Eq. \ref{eq-nilsson-ham-spherical-harmonics} will become negligible in the limit of \emph{large deformation}, such that the Nilsson Hamiltonian will become just like an AHO. In this special case, the motion will separate into \emph{independent} oscillations in the direction of the symmetry axis and the perpendicular plane (i.e., in the direction of $z$-axis and $xy$ plane). Consequently, the good quantum numbers for this kind of situation are the $n_z$ and $(n_x+n_y)$ oscillator quantum numbers. Since the eigenvalues for a one-dimensional (and, implicitly for the three-dimensional) harmonic oscillator are established, the energy spectrum for single-particle orbits in the regime of large $\epsilon$ will be given by \cite{casten2000nuclear}:
+The centrifugal $\vec{l}^2$ and spin-orbit $\vec{l}\cdot\vec{s}$ terms from Eq. \eqref{eq-nilsson-ham-spherical-harmonics} will become negligible in the limit of \emph{large deformation}, such that the Nilsson Hamiltonian will become just like an AHO. In this special case, the motion will separate into \emph{independent} oscillations in the direction of the symmetry axis and the perpendicular plane (i.e., in the direction of $z$-axis and $xy$ plane). Consequently, the good quantum numbers for this kind of situation are the $n_z$ and $(n_x+n_y)$ oscillator quantum numbers. Since the eigenvalues for a one-dimensional (and, implicitly for the three-dimensional) harmonic oscillator are established, the energy spectrum for single-particle orbits in the regime of large $\epsilon$ will be given by \cite{casten2000nuclear}:
 \begin{align}
     E_{n_x,n_y,n_z}=\hbar\omega_x(N-n_z+1)+\hbar\omega_z\left(n_z+\frac{1}{2}\right)\ .
 \end{align}
