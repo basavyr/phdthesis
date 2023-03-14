@@ -95,7 +95,7 @@
 \contentsline {subsection}{\numberline {6.5.2}On the Chiral Character of the Wobbling Motion}{226}{subsection.554}%
 \contentsline {subsection}{\numberline {6.5.3}Electromagnetic Transitions}{230}{subsection.561}%
 \contentsline {subsection}{\numberline {6.5.4}Concluding Remarks}{231}{subsection.564}%
-\contentsline {chapter}{\numberline {7}Conclusions}{235}{chapter.565}%
+\contentsline {chapter}{\numberline {7}General Conclusions}{235}{chapter.565}%
 \contentsline {chapter}{\numberline {A}Shell Model}{241}{appendix.566}%
 \contentsline {section}{\numberline {A.1}Shell model}{241}{section.567}%
 \contentsline {section}{\numberline {A.2}Nilsson Orbitals}{249}{section.591}%
