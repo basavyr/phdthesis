@@ -1,13 +1,11 @@
 \documentclass[a4paper, 12pt, oneside]{Thesis}
 
-
-% set the math environment
 \usepackage{amsmath}
 \usepackage{mathtools}
+
 % change the equation reference between parentheses
 % \newtagform{brackets}{(}{)}
 % \usetagform{brackets}
-
 
 \usepackage{float}
 \usepackage{amssymb}
@@ -17,7 +15,6 @@
 \usepackage{siunitx}
 \usepackage{physics}
 \usepackage{graphicx}
-% \graphicspath{Figures/}  % Location of the graphics files (set up for graphics to be in PDF format)
 \usepackage{mathrsfs}
 \usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
 \usepackage{vector}  % Allows "\bvec{}" and "\buvec{}" for "blackboard" style bold vectors in maths
@@ -50,10 +47,11 @@
 % define the thesis title
 \newcommand\mytitle{A Systematic Description of the Wobbling Motion in Odd-Mass Nuclei Within a Semi-Classical Formalism}
 
-
 \bibliographystyle{unsrt}
+
 %%-------------------------------------------------------MAIN DOCUMENT---------------------------------------------------%%
 % ------------------------------------------------------------------------------------------------------------------------
+
 \begin{document}
 
 \frontmatter
@@ -86,38 +84,8 @@
 
 \title{\mytitle}
 
-% ------------ OLD TITLE -----------------
-% ----------------------------------------
-% \title{A Systematic Semi-Classical Description of the Wobbling Motion in Nuclei}
-% \authors  {\texorpdfstring
-%             {\href{robert.poenaru@drd.unibuc.ro}{Robert Poenaru}}
-%             {Robert Poenaru}
-%             }
-% \addresses  {\groupname\\\deptname\\\univname}  % Do not change this here, instead these must be set in the "Thesis.cls" file, please look through it instead
-% \date       {\today}
-% \subject    {}
-% \keywords   {}
-% \maketitle
-% \setstretch{1.3}  % It is better to have smaller font and larger line spacing than the other way round
-% % Define the page headers using the FancyHdr package and set up for one-sided printing
-% \fancyhead{}  % Clears all page headers and footers
-% \rhead{\thepage}  % Sets the right side header to show the page number
-% \lhead{}  % Clears the left side page header
-% \pagestyle{fancy}  % Finally, use the "fancy" page style to implement the FancyHdr headers
-% ----------------------------------------
-
-% The Abstract Page
-% \addtotoc{Abstract}  % Add the "Abstract" page entry to the Contents
-% \abstract{
-% \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
-% \textbf{Keywords}: \textit{nuclear shape, nuclear deformation, collective parameters, triaxiality, wobbling}.
-
-% }
-% \clearpage
-
 \setstretch{1.3}  % Reset the line-spacing to 1.3 for body text (if it has changed)
 
-% The Acknowledgements page, for thanking everyone
 \acknowledgements{
 \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
 It has been quite a journey. Firstly, I would like to express my gratitude to Prof. A. A. Raduta, my coordinator and also mentor. His patience, work ethic, and constant support gave me the necessary motivation to keep going and also improve in every aspect specific to academic research. I would also like to give big thanks to my family for the tremendous emotional help and life advices offered when needed.
@@ -147,13 +115,13 @@ Finally, I would like to believe that by reading this thesis, our work and achie
 % Appendices 
 \appendix
 % Shell Model
-\input{Chapters/Appendix_ShellModel.tex}
+\input{Chapters/Appendices/Appendix_ShellModel.tex}
 % Bohr Model
 % \input{Chapters/Appendix_Bohr.tex}
 % Two-State Mixing
-\input{Chapters/Appendix_TwoState.tex}
+\input{Chapters/Appendices/Appendix_TwoState.tex}
 % Rotational Bands
-\input{Chapters/Appendix_RotationalBands.tex}
+\input{Chapters/Appendices/Appendix_RotationalBands.tex}
 
 % References
 \bibliography{bibliography}
