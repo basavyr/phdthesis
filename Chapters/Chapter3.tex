@@ -176,15 +176,15 @@ Indeed, by following the fitting method described above, a set $\mathcal{P}_\tex
 where `abs.' signifies the absolute value for $E$ at that particular spin state ($I>I_b$) and $I_b$ is the band-head state within the yrast band.
 \begin{table}
     \centering
+    \caption{The parameter set $\mathcal{P}_\text{fit}$ obtained from the fitting procedure of the excitation energies of the two wobbling bands (B1 and B2) for $^{130}$Ba. The model function corresponds to the energy of a simple wobbler (see Eq. \eqref{eq-wobbling-energy-evenA}).}
     \resizebox{0.35\textwidth}{!}{%
-    \begin{tabular}{|cccc|}
+    \begin{tabular}{cccc}
     \hline
-    \multicolumn{4}{|c|}{$\mathcal{P}_\text{fit}$}                                                                                                                      \\ \hline
-    \multicolumn{1}{|c|}{$\mathcal{I}_1$} & \multicolumn{1}{c|}{$\mathcal{I}_2$} & \multicolumn{1}{c|}{$\mathcal{I}_3$} & \multicolumn{1}{c|}{Unit}                     \\ \hline
-    \multicolumn{1}{|c|}{27}              & \multicolumn{1}{c|}{22}              & \multicolumn{1}{c|}{43}              & \multicolumn{1}{c|}{$\hbar^2\text{MeV}^{-1}$} \\ \hline
+    \multicolumn{4}{c}{$\mathcal{P}_\text{fit}$}                                                                                                                      \\ \hline
+    \multicolumn{1}{c}{$\mathcal{I}_1$} & \multicolumn{1}{c}{$\mathcal{I}_2$} & \multicolumn{1}{c}{$\mathcal{I}_3$} & \multicolumn{1}{c}{Unit}                     \\ \hline
+    \multicolumn{1}{c}{27}              & \multicolumn{1}{c}{22}              & \multicolumn{1}{c}{43}              & \multicolumn{1}{c}{$\hbar^2\text{MeV}^{-1}$} \\ \hline
     \end{tabular}%
     }
-    \caption{The parameter set $\mathcal{P}_\text{fit}$ obtained from the fitting procedure of the excitation energies of the two wobbling bands (B1 and B2) for $^{130}$Ba. The model function corresponds to the energy of a simple wobbler (see Eq. \eqref{eq-wobbling-energy-evenA}).}
     \label{table-params-ba130}
 \end{table}
 \begin{figure}
@@ -209,7 +209,8 @@ Besides the excited spectrum obtained in Fig. \ref{plot-ba130-excitation-energie
 Another step is the calculation of electromagnetic transition probabilities. Firstly, the reduced transition probabilities $B(E2)$ (both the interband and the intraband) depend on the components $Q_{20}$ and $Q_{22}$ of the quadrupole moment. These two can be evaluated numerically using the expressions from Eq. \eqref{quadrupole-components-q20-q22}, while the intrinsic quadrupole moment is furthermore evaluated using Eq. \eqref{quadrupole-moment-Q0}. From the microscopic calculations performed by Chen et al. in Ref. \cite{chen2019transverse}, they have determined that this isotope has a stable triaxial minimum located at $(\beta_2,\gamma)=(0.24,21.5^\circ)$. This set of deformation parameters will be used within the following computations. Taking the value of $\beta_2=0.24$, the intrinsic quadrupole moment $Q_0$ is readily obtained from Eq. \eqref{quadrupole-moment-Q0}. The transition probabilities from Eqs. \eqref{intraband-probability-simple-wobbler}, \eqref{interband-probability-simple-wobbler-1}, and \eqref{interband-probability-simple-wobbler-2} also depend on the two factors $w_{1,2}$ defined in Eq. \eqref{eqs-w1-w2-terms-wobbling}, which are functions of the three moments of inertia. Thus, the quality of the fitting procedure will also be reflected in the results for transition probabilities. The numerical values for $Q_0$, $w_{1,2}$, and $Q_{20,22}$ are presented in Table \ref{transition-parameters-ba130}.
 \begin{table}
     \centering
-    \begin{tabular}{|c|c|c|}
+    \caption{The numerical values for the quantities which are required to determine the quadrupole transition probabilities $B(E2)$ defined in Eqs. \eqref{intraband-probability-simple-wobbler} - \eqref{interband-probability-simple-wobbler-2}. The parameter set $\mathcal{P}_\text{fit}$ was obtained through the fitting procedure and the values are shown in Table \ref{table-params-ba130}. The intraband transition probabilities $B(E2)$ are evaluated for states $(n,I)\to(n,I-2)$.}
+    \begin{tabular}{ccc}
     % \begin{tabular}{|p{0.15\linewidth}|p{0.25\linewidth}|p{0.5\linewidth}|}
     \hline
     Parameters & Calculated values & Observations                                               \\ \hline
@@ -222,7 +223,6 @@ Another step is the calculation of electromagnetic transition probabilities. Fir
     $Q_{22}$   & $101.168\times10^{-2}$ $\text{eb}$ & As per Eq. \eqref{quadrupole-components-q20-q22}                                                            \\ \hline
     $B(E2)_\text{in}$ &        0.0509 $(eb)^2$          & Eq. \eqref{intraband-probability-simple-wobbler}              \\ \hline
     \end{tabular}%
-    \caption{The numerical values for the quantities which are required to determine the quadrupole transition probabilities $B(E2)$ defined in Eqs. \eqref{intraband-probability-simple-wobbler} - \eqref{interband-probability-simple-wobbler-2}. The parameter set $\mathcal{P}_\text{fit}$ was obtained through the fitting procedure and the values are shown in Table \ref{table-params-ba130}. The intraband transition probabilities $B(E2)$ are evaluated for states $(n,I)\to(n,I-2)$.}
     \label{transition-parameters-ba130}
 \end{table}
 
@@ -237,20 +237,20 @@ Having the deformation parameters, the $w_{1,2}$ terms, and the quadrupole compo
 Considering the interband transitions $B(E2)_\text{out}$ and the constant value for $B(E2)_\text{in}$ (typical for the HA), the ratios $B(E2)_\text{out}/B(E2)_\text{in}$ can be assessed. In Table \ref{BE2-out-in-ratio-130Ba}, the obtained ratios are compared with the experimental ones, where a good agreement can be seen. Additionally, a decreasing trend with respect to the angular momentum is observed.
 \begin{table}
     \centering
-    \begin{tabular}{|c|cc|}
-    \hline
-    \multirow{2}{*}{$I$} & \multicolumn{2}{c|}{$B(E2)_\text{out}/B(E2)_\text{in}$} \\ \cline{2-3} 
-                         & \multicolumn{1}{c|}{Experimental}          & Calculated         \\ \hline
-    11                   & \multicolumn{1}{c|}{}                      & 0.37           \\ \hline
-    13                   & \multicolumn{1}{c|}{0.32}                  & 0.32           \\ \hline
-    15                   & \multicolumn{1}{c|}{0.36}                  & 0.27           \\ \hline
-    17                   & \multicolumn{1}{c|}{0.22}                  & 0.24           \\ \hline
-    19                   & \multicolumn{1}{c|}{0.22}                  & 0.21           \\ \hline
-    21                   & \multicolumn{1}{c|}{0.41}                  & 0.19           \\ \hline
-    23                   & \multicolumn{1}{c|}{}                      & 0.18           \\ \hline
-    25                   & \multicolumn{1}{c|}{}                      & 0.16           \\ \hline
-    \end{tabular}%
     \caption{The ratios $B(E2)_\text{out}/B(E2)_\text{in}$ for $^{130}$Ba. The interband transitions signify the change from a state $I$ in band B2 to a state $I-1$ in band B1. The experimental data (where available) are taken from Ref. \cite{petrache2019diversity,chen2019transverse}.}
+    \begin{tabular}{ccc}
+    \hline
+    \multirow{2}{*}{$I$} & \multicolumn{2}{c}{$B(E2)_\text{out}/B(E2)_\text{in}$} \\ \cline{2-3} 
+                         & \multicolumn{1}{c}{Experimental}          & Calculated         \\ \hline
+    11                   & \multicolumn{1}{c}{}                      & 0.37           \\ \hline
+    13                   & \multicolumn{1}{c}{0.32}                  & 0.32           \\ \hline
+    15                   & \multicolumn{1}{c}{0.36}                  & 0.27           \\ \hline
+    17                   & \multicolumn{1}{c}{0.22}                  & 0.24           \\ \hline
+    19                   & \multicolumn{1}{c}{0.22}                  & 0.21           \\ \hline
+    21                   & \multicolumn{1}{c}{0.41}                  & 0.19           \\ \hline
+    23                   & \multicolumn{1}{c}{}                      & 0.18           \\ \hline
+    25                   & \multicolumn{1}{c}{}                      & 0.16           \\ \hline
+    \end{tabular}%
     \label{BE2-out-in-ratio-130Ba}
 \end{table}
 
@@ -287,8 +287,9 @@ The Hamiltonian given in Eq. \eqref{oddA-QTR-general-hamiltonian} is treated by 
 In order to avoid repeating certain words, some notations will be adopted throughout the following sections and chapters. Namely, a quasi-particle will be denoted with $\mathcal{Q}$. Additionally, a quasi-particle with \emph{hole} character will be referred to as $\mathcal{Q}_h$ while a quasi-particle with \emph{particle} character will be labelled as $\mathcal{Q}_p$. Finally, the core will be denoted with $\mathscr{C}$. These notations can be seen in Table \ref{notation-table-wobbling}.
 \begin{table}
     \centering
+    \caption{The adopted notations for describing odd-$A$ nuclei by means of particles and angular momenta. These symbols will be used throughout the rest of the work.}
     \resizebox{0.8\textwidth}{!}{%
-    \begin{tabular}{|c|c|c|}
+    \begin{tabular}{ccc}
     \hline
     Object                                                       & Notation                    & Angular momentum             \\ \hline
     quasi-particle                                                 & $\mathcal{Q}$               & $\mathbf{j}_{\mathcal{Q}}$   \\ \hline
@@ -298,7 +299,6 @@ In order to avoid repeating certain words, some notations will be adopted throug
     total system                        & $\mathcal{Q}+\mathscr{C}$ & $\mathbf{I}$                             \\ \hline
     \end{tabular}%
     }
-    \caption{The adopted notations for describing odd-$A$ nuclei by means of particles and angular momenta. These symbols will be used throughout the rest of the work.}
     \label{notation-table-wobbling}
 \end{table}
 
