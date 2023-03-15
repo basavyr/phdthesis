@@ -106,10 +106,10 @@
 \contentsline {chapter}{\numberline {D}Original Contributions}{269}{appendix.634}%
 \contentsline {section}{\numberline {D.1}Published Papers During Doctoral Studies}{269}{section.635}%
 \contentsline {subsection}{\numberline {D.1.1}In-Scope ISI Indexed Papers}{270}{subsection.636}%
-\contentsline {subsection}{\numberline {D.1.2}Out-of-Scope ISI Indexed Papers}{270}{subsection.640}%
-\contentsline {subsection}{\numberline {D.1.3}Out-of-Scope Non-ISI Papers}{270}{subsection.641}%
-\contentsline {section}{\numberline {D.2}Conferences}{270}{section.642}%
-\contentsline {subsection}{\numberline {D.2.1}International}{270}{subsection.643}%
-\contentsline {subsection}{\numberline {D.2.2}National}{270}{subsection.644}%
-\contentsline {chapter}{List of Figures}{271}{dummy.645}%
-\contentsline {chapter}{List of Tables}{287}{dummy.647}%
+\contentsline {subsection}{\numberline {D.1.2}Out-of-Scope ISI Indexed Papers}{271}{subsection.643}%
+\contentsline {subsection}{\numberline {D.1.3}Out-of-Scope Non-ISI Papers}{271}{subsection.644}%
+\contentsline {section}{\numberline {D.2}Conferences}{271}{section.645}%
+\contentsline {subsection}{\numberline {D.2.1}International}{271}{subsection.646}%
+\contentsline {subsection}{\numberline {D.2.2}National}{271}{subsection.647}%
+\contentsline {chapter}{List of Figures}{272}{dummy.648}%
+\contentsline {chapter}{List of Tables}{289}{dummy.650}%
