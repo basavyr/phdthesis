@@ -304,15 +304,15 @@ Taking a look at the regions portrayed in Fig. \ref{fig-vanishing-f1-f2-F}, one 
 Regarding the solutions given in Eq. \eqref{omega-1-2-3-4-solutions}, the selected ones are $\Omega_1$ and $\Omega_2$. Considering their structure, it is important to retrieve all the conditions that grant positive square roots. These conditions are sketched in Table \ref{omega-positive-conditions}.
 \begin{table}
     \centering
+    \caption{The positivity conditions for the two solutions $\Omega_{1,2}$ given in Eq. \eqref{omega-1-2-3-4-solutions}. The trivial solution $B=C=0$ has been dismissed.}
     \resizebox{0.69\textwidth}{!}{%
-    \begin{tabular}{|c|c|}
+    \begin{tabular}{cc}
     \hline
-    Solution   & Positive square root \\ \hline
+    Solution   & Positive square root \\ \hline \hline
     $\Omega_1$ & $B<0\ \text{and}\ 0\leq C\leq B^2/4$                      \\ \hline
     $\Omega_2$ & $\left(B\leq 0\ \text{and}\ C\leq B^2/4\right)$ or $\left(B<0\ \text{and}\ C\leq 0\right)\ $                     \\ \hline
     \end{tabular}%
     }
-    \caption{The positivity conditions for the two solutions $\Omega_{1,2}$ given in Eq. \eqref{omega-1-2-3-4-solutions}. The trivial solution $B=C=0$ has been dismissed.}
     \label{omega-positive-conditions}
 \end{table}
 
@@ -521,18 +521,18 @@ Recalling the mechanism that generates the wobbling states via $\mathbf{W_0}$, t
 The isotope $^{163}$Lu has been studied successfully by the team within $\mathbf{W_0}$ and also through the current $\mathbf{W_1}$ model. In both approaches one considered the wobbling spectrum as being composed of four TSD bands. In $\mathbf{W_0}$ the bands were one ground (TSD1) and three excited (TSD2, TSD3, TSD4), which were `in line' with other studies on this isotope \cite{schonwasser2003one,jensen2004coexisting,tanabe2008selection}. The general characteristics of the four triaxial bands and their particle + core structure were already described at the beginning of the chapter from the perspective of $\mathbf{W_0}$. Experimentally, the collective structure of $^{163}$Lu is summarized in Table \ref{lu-163-table-info}.
 \begin{table}
     \centering
+    \caption{The spin, parity, and signature assignments for $^{163}$Lu taken from experimental measurements \cite{reich2010nuclear}. Concerning the notation $\pi(l_j)$, it signifies an odd proton in the $l$-orbital with angular momentum $j$. The last two columns represent the key difference between the formalisms $\mathbf{W_0}$ and $\mathbf{W_1}$.}
+    %The last two columns represent the quasi-particle $\mathcal{Q}$ and the core $\mathscr{C}$ (according to the notations from Table \ref{notation-table-wobbling}) for each TSD band as per $\mathbf{W_0}$. Note that $\mathcal{Q}$ is different for TSD4 and the core angular momentum $\mathscr{C}$ is only defined for TSD1 because the excited bands are created through $\Gamma^\dagger$ phonon operator (see Section \ref{foundation}).}
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|c|c|c|c|c|c|c|}
+    \begin{tabular}{ccccccc}
     \hline
-    Band & Spins & $\pi$ & $\alpha$ & $\pi(l_j)$ & $\mathbf{W_0}$: $\mathscr{C}+\mathcal{Q}_p$ & $\mathbf{W_1}$: $\mathscr{C}+\mathcal{Q}_p$ \\ \hline
+    Band & Spins & $\pi$ & $\alpha$ & $\pi(l_j)$ & $\mathbf{W_0}$: $\mathscr{C}+\mathcal{Q}_p$ & $\mathbf{W_1}$: $\mathscr{C}+\mathcal{Q}_p$ \\ \hline \hline
     TSD1 & $13/2,17/2 \dots 97/2$ & $+$ & $+1/2$ & $\pi(i_{13/2})$ & $0^+,2^+,4^+,\dots$ & $0^+,2^+,4^+,\dots$ \\ \hline
     TSD2 & $27/2,31/2 \dots 91/2$ & $+$ & $-1/2$ & $\pi(i_{13/2})$ & $\text{TSD1}+1\Gamma^\dagger$ & $1^+,3^+,5^+,\dots$ \\ \hline
     TSD3 & $33/2,37/2 \dots 85/2$ & $+$ & $+1/2$ & $\pi(i_{13/2})$ & $\text{TSD1}+2\Gamma^\dagger$ & $\text{TSD2}+\Gamma^\dagger$ \\ \hline
     TSD4 & $47/2,51/2 \dots 83/2$ & $-$ & $-1/2$ & $\pi(h_{9/2})$  & $\text{TSD1}+3\Gamma^\dagger$ & $1^+,3^+,5^+,\dots$ \\ \hline % TSD4 from 163Lu has odd spin states with negative parity
     \end{tabular}%
     }
-    \caption{The spin, parity, and signature assignments for $^{163}$Lu taken from experimental measurements \cite{reich2010nuclear}. Concerning the notation $\pi(l_j)$, it signifies an odd proton in the $l$-orbital with angular momentum $j$. The last two columns represent the key difference between the formalisms $\mathbf{W_0}$ and $\mathbf{W_1}$.}
-    %The last two columns represent the quasi-particle $\mathcal{Q}$ and the core $\mathscr{C}$ (according to the notations from Table \ref{notation-table-wobbling}) for each TSD band as per $\mathbf{W_0}$. Note that $\mathcal{Q}$ is different for TSD4 and the core angular momentum $\mathscr{C}$ is only defined for TSD1 because the excited bands are created through $\Gamma^\dagger$ phonon operator (see Section \ref{foundation}).}
     \label{lu-163-table-info}
 \end{table}
 
@@ -558,17 +558,17 @@ for TSD3. The two odd protons from Table \ref{lu-163-phonon-numbers} are denoted
 With the Eqs. \eqref{renormalized-bands-structure-TSD124} - \eqref{renormalized-bands-structure-TSD3} as `recipes', one can obtain the wobbling energies for $^{163}$Lu as per Eq. \eqref{tsd-bands-general-spectrum} by adopting the spins and wobbling phonon numbers of each band. These values are provided in Table \ref{lu-163-phonon-numbers}. Notice that for TSD1-2-4, the pair of phonon numbers are $(0,0)$ due to them being ground states. Moreover, the TSD3 states are activated only by the wobbling-phonon number $n_{w_1}$ (i.e., $n_{w_2}=0$), which is consistent with the theory from $\mathbf{W_0}$. As it will be seen, all four bands have the wobbling frequency $\Omega_2$ in the zero-point energy, that is $\frac{1}{2}\Omega_2^I$. In reference to TSD3, given that the band is obtained as one-phonon excitations built on top of TSD2, then by acting with the operator on a state $I$ from TSD2 it will increase the angular momentum by one unit. Consequently, for a state $I\in\{\text{TSD3}\}$ the phonon operator is indeed $\mathcal{F}_{10}^{I-1}$, where $I-1\in\{\text{TSD2}\}$.
 \begin{table}
     \centering
+    \caption{The wobbling phonon numbers $(n_{w_1},n_{w_2}$) and the phonon term $\mathcal{F}_{n_{w_1}n_{w_2}}^I$ are provided in the first three columns for $^{163}$Lu. The first ($I_0$) and terminus ($I_t$) states of each band are given in the next two columns. Last column contains the quasi-particles involved in the particle + rotor coupling, which are denoted according to Eqs. \eqref{renormalized-bands-structure-TSD124} - \eqref{renormalized-bands-structure-TSD3}.}
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|c|c|c|c|c|c|c|}
+    \begin{tabular}{ccccccc}
     \hline
-    Bands & $n_{w_1}$ & $n_{w_2}$ & $\mathcal{F}_{n_{w_1}n_{w_2}}^I$ & $I_0$    & $I_t$    & $\mathcal{Q}$    \\ \hline
+    Bands & $n_{w_1}$ & $n_{w_2}$ & $\mathcal{F}_{n_{w_1}n_{w_2}}^I$ & $I_0$    & $I_t$    & $\mathcal{Q}$    \\ \hline \hline 
     TSD1  & $0$       & $0$       & $\mathcal{F}_{00}^I=\frac{1}{2}\left(\Omega_1^I+\Omega_2^I\right)$ & $13/2^+$ & $97/2^+$ & $j^\pi=13/2^+\stackrel{not}{\equiv}\mathcal{Q}_1$ \\ \hline
     TSD2  & $0$       & $0$       & $\mathcal{F}_{00}^I=\frac{1}{2}\left(\Omega_1^I+\Omega_2^I\right)$ & $27/2^+$ & $91/2^+$ & $j^\pi=13/2^+\stackrel{not}{\equiv}\mathcal{Q}_1$ \\ \hline
     TSD3  & $1$       & $0$       & $\mathcal{F}_{10}^{I-1}=\frac{3}{2}\Omega_1^{I-1}+\frac{1}{2}\Omega_2^{I-1}$ & $33/2^+$ & $85/2^+$ & $j^\pi=13/2^+\stackrel{not}{\equiv}\mathcal{Q}_1$ \\ \hline
     TSD4  & $0$       & $0$       & $\mathcal{F}_{00}^I=\frac{1}{2}\left(\Omega_1^I+\Omega_2^I\right)$ & $47/2^-$ & $83/2^-$ & $j^\pi=9/2^-\stackrel{not}{\equiv}\mathcal{Q}_2$  \\ \hline
     \end{tabular}%
     }
-    \caption{The wobbling phonon numbers $(n_{w_1},n_{w_2}$) and the phonon term $\mathcal{F}_{n_{w_1}n_{w_2}}^I$ are provided in the first three columns for $^{163}$Lu. The first ($I_0$) and terminus ($I_t$) states of each band are given in the next two columns. Last column contains the quasi-particles involved in the particle + rotor coupling, which are denoted according to Eqs. \eqref{renormalized-bands-structure-TSD124} - \eqref{renormalized-bands-structure-TSD3}.}
     \label{lu-163-phonon-numbers}
 \end{table}
 
@@ -662,42 +662,42 @@ Naturally, calculations concerning the transition probabilities for every nucleu
 The characteristics of each isotope mentioned above are condensed into a set of tables where, for the sake of completeness, the spin and parity are also indicated. These are sketched in Tables \ref{lu-161-experimental-data-table} - \ref{lu-167-experimental-data-table}. Since the previous section contains the relevant data for $^{163}$Lu (recall Tables \ref{lu-163-table-info} and \ref{lu-163-phonon-numbers}), it has been omitted here. It is worth to point out that besides TSD4 from $^{163}$Lu, every nucleus has wobbling excitations emerging from the coupling of the $\mathcal{Q}_1$ single-particle with an even-even core. Indeed, the coupling in TSD4 is between the proton $\mathcal{Q}_2$ of negative parity and the core $\mathscr{C}_1$ of positive parity.
 \begin{table}
     \centering
+    \caption{Spin and parity assignments for $^{161}$Lu, which are required for the excitation energy calculations (first column). The single-particle and the core states are shown in the third and fourth column. The wobbling phonon numbers from Eq. \eqref{phononic-term-tsd-energies} are shown in the penultimate column. The band-head $I_b$ of this isotope is also given in the last column.}
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|c|c|c|c|c|c|}
+    \begin{tabular}{cccccc}
     \hline
-    Band & Spins                        & $\mathcal{Q}$ & $\mathscr{C}$  & $(n_{w_1},n_{w_2})$ & $I_b$                   \\ \hline
+    Band & Spins                        & $\mathcal{Q}$ & $\mathscr{C}$  & $(n_{w_1},n_{w_2})$ & $I_b$                   \\ \hline \hline
     TSD1 & $21/2^+,25/2^+,\dots,89/2^+$ & $j^\pi=13/2^+$  & $4^+,6^+,8^+\dots$   & $(0,0)$             & \multirow{2}{*}{$21/2$} \\ \cline{1-5}
     TSD2 & $31/2^+,35/2^+,\dots,79/2^+$ & $j^\pi=13/2^+$  & $9^+,11^+,13^+\dots$ & $(0,0)$             &                         \\ \hline
     \end{tabular}%
     }
-    \caption{Spin and parity assignments for $^{161}$Lu, which are required for the excitation energy calculations (first column). The single-particle and the core states are shown in the third and fourth column. The wobbling phonon numbers from Eq. \eqref{phononic-term-tsd-energies} are shown in the penultimate column. The band-head $I_b$ of this isotope is also given in the last column.}
     \label{lu-161-experimental-data-table}
 \end{table}
 \begin{table}
     \centering
+    \caption{Spin and parity assignments for $^{165}$Lu, which are required for the excitation energy calculations (first column). The single-particle and the core states are shown in the third and fourth column. The wobbling phonon numbers from Eq. \eqref{phononic-term-tsd-energies} are shown in the penultimate column. The band-head $I_b$ of this isotope is also given in the last column.}
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|c|c|c|c|c|c|}
+    \begin{tabular}{cccccc}
     \hline
-    Band & Spins                        & $\mathcal{Q}$ & $\mathscr{C}$         & $(n_{w_1},n_{w_2})$ & $I_b$                   \\ \hline
+    Band & Spins                        & $\mathcal{Q}$ & $\mathscr{C}$         & $(n_{w_1},n_{w_2})$ & $I_b$                   \\ \hline \hline
     TSD1 & $25/2^+,29/2^+,\dots,89/2^+$ & $j^\pi=13/2^+$  & $6^+,8^+,10^+\dots$   & $(0,0)$             & \multirow{3}{*}{$25/2$} \\ \cline{1-5}
     TSD2 & $35/2^+,39/2^+,\dots,91/2^+$ & $j^\pi=13/2^+$  & $11^+,13^+,15^+\dots$ & $(0,0)$             &                         \\ \cline{1-5}
     TSD3 & $41/2^+,45/2^+,\dots,81/2^+$ & $j^\pi=13/2^+$  & $\text{TSD2}+\Gamma^\dagger$ & $(1,0)$             &                         \\ \hline
     \end{tabular}%
     }
-    \caption{Spin and parity assignments for $^{165}$Lu, which are required for the excitation energy calculations (first column). The single-particle and the core states are shown in the third and fourth column. The wobbling phonon numbers from Eq. \eqref{phononic-term-tsd-energies} are shown in the penultimate column. The band-head $I_b$ of this isotope is also given in the last column.}
     \label{lu-165-experimental-data-table}
 \end{table}
 \begin{table}
     \centering
+    \caption{Spin and parity assignments for $^{167}$Lu, which are required for the excitation energy calculations (first column). The single-particle and the core states are shown in the third and fourth column. The wobbling phonon numbers from Eq. \eqref{phononic-term-tsd-energies} are shown in the penultimate column. The band-head $I_b$ of this isotope is also given in the last column.}
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|c|c|c|c|c|c|}
+    \begin{tabular}{cccccc}
     \hline
-    Band & Spins                        & $\mathcal{Q}$ & $\mathscr{C}$         & $(n_{w_1},n_{w_2})$ & $I_b$                   \\ \hline
+    Band & Spins                        & $\mathcal{Q}$ & $\mathscr{C}$         & $(n_{w_1},n_{w_2})$ & $I_b$                   \\ \hline \hline
     TSD1 & $25/2^+,29/2^+,\dots,89/2^+$ & $j^\pi=13/2^+$  & $6^+,8^+,10^+\dots$   & $(0,0)$             & \multirow{2}{*}{$25/2$} \\ \cline{1-5}
     TSD2 & $35/2^+,39/2^+,\dots,91/2^+$ & $j^\pi=13/2^+$  & $11^+,13^+,15^+\dots$ & $(0,0)$             &                         \\ \hline
     \end{tabular}%
     }
-    \caption{Spin and parity assignments for $^{167}$Lu, which are required for the excitation energy calculations (first column). The single-particle and the core states are shown in the third and fourth column. The wobbling phonon numbers from Eq. \eqref{phononic-term-tsd-energies} are shown in the penultimate column. The band-head $I_b$ of this isotope is also given in the last column.}
     \label{lu-167-experimental-data-table}
 \end{table}
 
@@ -724,21 +724,19 @@ Concluding the current section, Eq. \eqref{general-excitation-energy-fitting-mod
 With the theoretical and experimental excitation energies attributed to each nucleus, the minimization procedure of Eq. \eqref{chi-2-fitting-function} can be readily applied. Note that since the variational states from TSD4 are obtained from a different core + particle polarization, a separate fit for the states of this band will be made \cite{raduta2020towards}. Results are presented in Table \ref{numerical-fitting-parameters-Lu-isotopes}, where in order to appraise the quality of the fits, the root-mean-square error (RMS) \cite{kenney1939mathematics} for all bands is also shown. Based on the achieved statistics, it can be concluded that the current description of the excitation energies is quite good across the entire mass region.
 \begin{table}
     \centering
+    \caption{The fitting parameters $\mathcal{P}_\text{fit}$, i.e., the moments of inertia, the single-particle potential strength, and the triaxiality $\gamma$ for each Lu isotope. The number of wobbling states (n.o.s.) and the root-mean-square error are also given in the last two columns.}
     \resizebox{\textwidth}{!}{%
     \begin{tabular}{ccccccccc}
     \hline
-    \hline
-    Isotope &  Bands & $\mathcal{I}_1$ $\left[\hbar^2/\text{MeV}\right]$ & $\mathcal{I}_2$ $\left[\hbar^2/\text{MeV}\right]$ & $\mathcal{I}_3$ $\left[\hbar^2/\text{MeV}\right]$ & $V$ [MeV] & $\gamma$ [$^\circ$] & n.o.s & $E_\text{rms}$ [MeV] \\ \hline
+    Isotope &  Bands & $\mathcal{I}_1$ $\left[\hbar^2/\text{MeV}\right]$ & $\mathcal{I}_2$ $\left[\hbar^2/\text{MeV}\right]$ & $\mathcal{I}_3$ $\left[\hbar^2/\text{MeV}\right]$ & $V$ [MeV] & $\gamma$ [$^\circ$] & n.o.s & $E_\text{rms}$ [MeV] \\ \hline \hline
     $^{161}$Lu & TSD1-2 & 87.555 & 2.773  & 22.744 & 2.933 & 20    & 29 & 0.168 \\
     $^{163}$Lu & TSD1-3 & 63.2   & 20     & 10     & 3.1   & 17    & 52 & 0.264 \\
                 & TSD4   & 67     & 34.5   & 50     & 0.7   & 17    & 10 & 0.057 \\
     $^{165}$Lu & TSD1-3 & 77.295 & 16.184 & 4.399  & 1.673 & 20    & 42 & 0.125 \\
     $^{167}$Lu & TSD1-2 & 87.032 & 10.895 & 3.758  & 8.167 & 19.48 & 30 & 0.165 \\
     \hline
-    \hline
     \end{tabular}%
     }
-    \caption{The fitting parameters $\mathcal{P}_\text{fit}$, i.e., the moments of inertia, the single-particle potential strength, and the triaxiality $\gamma$ for each Lu isotope. The number of wobbling states and the root-mean-square error are also given in the last two columns.}
     \label{numerical-fitting-parameters-Lu-isotopes}
 \end{table}
 
@@ -1031,109 +1029,109 @@ In addition to the quadrupole moment for in-band transitions $I \to I-2$, the \e
 In order to test the validity of the current interpretation, the reduced transition probabilities $B(E2)$ are calculated using Eq. \eqref{reduced-BE2-transitions-toki} and compared with the experimental data for each isotope. The numerical results for the intraband transitions in TSD1 and TSD2 are shown in Table \ref{table-intraband-E2-numerical-results}. Furthermore, Table \ref{table-interband-E2-numerical-results} shows the interband transitions $I\to I-1$, which where evaluated as $B(E2;I\to I-1)=\left|\bra{\Psi_I}|\mathcal{M}(E2)|\ket{\Psi_{I-2}}\right|^2$. Both the transition quadrupole moment $Q_I$ (Eq. \eqref{quadrupole-transition-moment-QI}) and the SQM (Eq. \eqref{static-quadrupole-moment}) are compared with the experimental data in Table \ref{table-quadrupole-QI-QSQM-numerical-results}.
 \begin{table}
     \centering
-    \begin{tabular}{|c|c|c|c|c|ccc|}
-    \hline
-    \multicolumn{2}{|c|}{} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-2)$\\ $[\mathrm{e}^2\cdot b^2]$\end{tabular}} & \multicolumn{2}{c|}{} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-2)$\\ $[\mathrm{e}^2\cdot b^2]$\end{tabular}} \\ \hline
-    \multicolumn{1}{|c|}{TSD1} & $I$ & \multicolumn{1}{c|}{Theory} & Experiment & \multicolumn{1}{c|}{TSD2} & \multicolumn{1}{c|}{$I$} & \multicolumn{1}{c|}{Theory} & Experiment \\ \hline
-    \multicolumn{1}{|c|}{\multirow{8}{*}{$^{161}$Lu}} & 41/2 & \multicolumn{1}{c|}{2.80} & - & \multicolumn{1}{c|}{\multirow{8}{*}{$^{161}$Lu}} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{2.84} & - \\ \cline{2-4} \cline{6-8} 
-    \multicolumn{1}{|c|}{} & 45/2 & \multicolumn{1}{c|}{2.83} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{2.86} & - \\ \cline{2-4} \cline{6-8} 
-    \multicolumn{1}{|c|}{} & 49/2 & \multicolumn{1}{c|}{2.85} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{2.88} & - \\ \cline{2-4} \cline{6-8} 
-    \multicolumn{1}{|c|}{} & 53/2 & \multicolumn{1}{c|}{2.87} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{2.89} & - \\ \cline{2-4} \cline{6-8} 
-    \multicolumn{1}{|c|}{} & 57/2 & \multicolumn{1}{c|}{2.88} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{2.54} & - \\ \cline{2-4} \cline{6-8} 
-    \multicolumn{1}{|c|}{} & 61/2 & \multicolumn{1}{c|}{2.90} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{67/2} & \multicolumn{1}{c|}{2.51} & - \\ \cline{2-4} \cline{6-8} 
-    \multicolumn{1}{|c|}{} & 65/2 & \multicolumn{1}{c|}{2.91} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{71/2} & \multicolumn{1}{c|}{2.49} & - \\ \cline{2-4} \cline{6-8} 
-    \multicolumn{1}{|c|}{} & 69/2 & \multicolumn{1}{c|}{2.92} & - & \multicolumn{1}{c|}{} & \multicolumn{3}{c|}{} \\ \hline
-    \multirow{8}{*}{$^{163}$Lu} & 41/2 & 2.80 & 3.45 & \multirow{8}{*}{$^{163}$Lu} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{2.71} & 2.56 \\ \cline{2-4} \cline{6-8} 
-    & 45/2 & 2.74 & 3.07 &  & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{2.66} & 2.67 \\ \cline{2-4} \cline{6-8} 
-    & 49/2 & 2.69 & 2.45 &  & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{2.62} & 2.81 \\ \cline{2-4} \cline{6-8} 
-    & 53/2 & 2.64 & 2.84 &  & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{2.58} & 2.19 \\ \cline{2-4} \cline{6-8} 
-    & 57/2 & 2.60 & 2.50 &  & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{2.54} & 2.25 \\ \cline{2-4} \cline{6-8} 
-    & 61/2 & 2.56 & 1.99 &  & \multicolumn{1}{c|}{67/2} & \multicolumn{1}{c|}{2.51} & 1.60 \\ \cline{2-4} \cline{6-8} 
-    & 65/2 & 2.53 & 1.95 &  & \multicolumn{1}{c|}{71/2} & \multicolumn{1}{c|}{2.49} & 1.61 \\ \cline{2-4} \cline{6-8} 
-    & 69/2 & 2.50 & 2.10 &  & \multicolumn{3}{c|}{}                                        \\ \hline
-    \multirow{8}{*}{$^{165}$Lu} & 41/2 & 3.63 & - & \multirow{8}{*}{$^{165}$Lu} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{3.68} & - \\ \cline{2-4} \cline{6-8} 
-    & 45/2 & 3.66 & - &  & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{3.71} & - \\ \cline{2-4} \cline{6-8} 
-    & 49/2 & 3.69 & - &  & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{3.73} & - \\ \cline{2-4} \cline{6-8} 
-    & 53/2 & 3.72 & - &  & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{3.75} & - \\ \cline{2-4} \cline{6-8} 
-    & 57/2 & 3.77 & - &  & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{3.77} & - \\ \cline{2-4} \cline{6-8} 
-    & 61/2 & 3.76 & - &  & \multicolumn{1}{c|}{67/2} & \multicolumn{1}{c|}{3.78} & - \\ \cline{2-4} \cline{6-8} 
-    & 65/2 & 3.77 & - &  & \multicolumn{1}{c|}{71/2} & \multicolumn{1}{c|}{3.79} & - \\ \cline{2-4} \cline{6-8} 
-    & 69/2 & 3.79 & - &  & \multicolumn{3}{c|}{}                                     \\ \hline
-    \multirow{8}{*}{$^{167}$Lu} & 41/2 & 2.80 & - & \multirow{8}{*}{$^{167}$Lu} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{2.84} & - \\ \cline{2-4} \cline{6-8} 
-    & 45/2 & 2.83 & - &  & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{2.86} & - \\ \cline{2-4} \cline{6-8} 
-    & 49/2 & 2.85 & - &  & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{2.88} & - \\ \cline{2-4} \cline{6-8} 
-    & 53/2 & 2.87 & - &  & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{2.89} & - \\ \cline{2-4} \cline{6-8} 
-    & 57/2 & 2.88 & - &  & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{2.90} & - \\ \cline{2-4} \cline{6-8} 
-    & 61/2 & 2.90 & - &  & \multicolumn{1}{c|}{67/2} & \multicolumn{1}{c|}{2.92} & - \\ \cline{2-4} \cline{6-8} 
-    & 65/2 & 2.91 & - &  & \multicolumn{1}{c|}{71/2} & \multicolumn{1}{c|}{2.93} & - \\ \cline{2-4} \cline{6-8} 
-    & 69/2 & 2.92 & - &  & \multicolumn{3}{c|}{}                                     \\ \hline
-    \end{tabular}
     \caption{The reduced intraband transition probabilities for $^{161,163,165,167}$Lu obtained through Eq. \eqref{reduced-BE2-transitions-toki} are compared with the experimental data (where available) taken from Ref. \cite{reich2010nuclear}.}
+    \begin{tabular}{cccccccc}
+    \hline
+    \multicolumn{2}{c}{} & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-2)$\\ $[\mathrm{e}^2\cdot b^2]$\end{tabular}} & \multicolumn{2}{c}{} & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-2)$\\ $[\mathrm{e}^2\cdot b^2]$\end{tabular}} \\ \hline \hline
+    \multicolumn{1}{c}{TSD1} & $I$ & \multicolumn{1}{c}{Theory} & Experiment & \multicolumn{1}{c}{TSD2} & \multicolumn{1}{c}{$I$} & \multicolumn{1}{c}{Theory} & Experiment \\ \hline
+    \multicolumn{1}{c}{\multirow{8}{*}{$^{161}$Lu}} & 41/2 & \multicolumn{1}{c}{2.80} & - & \multicolumn{1}{c}{\multirow{8}{*}{$^{161}$Lu}} & \multicolumn{1}{c}{47/2} & \multicolumn{1}{c}{2.84} & - \\ \cline{2-4} \cline{6-8} 
+    \multicolumn{1}{c}{} & 45/2 & \multicolumn{1}{c}{2.83} & - & \multicolumn{1}{c}{} & \multicolumn{1}{c}{51/2} & \multicolumn{1}{c}{2.86} & - \\ \cline{2-4} \cline{6-8} 
+    \multicolumn{1}{c}{} & 49/2 & \multicolumn{1}{c}{2.85} & - & \multicolumn{1}{c}{} & \multicolumn{1}{c}{55/2} & \multicolumn{1}{c}{2.88} & - \\ \cline{2-4} \cline{6-8} 
+    \multicolumn{1}{c}{} & 53/2 & \multicolumn{1}{c}{2.87} & - & \multicolumn{1}{c}{} & \multicolumn{1}{c}{59/2} & \multicolumn{1}{c}{2.89} & - \\ \cline{2-4} \cline{6-8} 
+    \multicolumn{1}{c}{} & 57/2 & \multicolumn{1}{c}{2.88} & - & \multicolumn{1}{c}{} & \multicolumn{1}{c}{63/2} & \multicolumn{1}{c}{2.54} & - \\ \cline{2-4} \cline{6-8} 
+    \multicolumn{1}{c}{} & 61/2 & \multicolumn{1}{c}{2.90} & - & \multicolumn{1}{c}{} & \multicolumn{1}{c}{67/2} & \multicolumn{1}{c}{2.51} & - \\ \cline{2-4} \cline{6-8} 
+    \multicolumn{1}{c}{} & 65/2 & \multicolumn{1}{c}{2.91} & - & \multicolumn{1}{c}{} & \multicolumn{1}{c}{71/2} & \multicolumn{1}{c}{2.49} & - \\ \cline{2-4} \cline{6-8} 
+    \multicolumn{1}{c}{} & 69/2 & \multicolumn{1}{c}{2.92} & - & \multicolumn{1}{c}{} & \multicolumn{3}{c}{} \\ \hline
+    \multirow{8}{*}{$^{163}$Lu} & 41/2 & 2.80 & 3.45 & \multirow{8}{*}{$^{163}$Lu} & \multicolumn{1}{c}{47/2} & \multicolumn{1}{c}{2.71} & 2.56 \\ \cline{2-4} \cline{6-8} 
+    & 45/2 & 2.74 & 3.07 &  & \multicolumn{1}{c}{51/2} & \multicolumn{1}{c}{2.66} & 2.67 \\ \cline{2-4} \cline{6-8} 
+    & 49/2 & 2.69 & 2.45 &  & \multicolumn{1}{c}{55/2} & \multicolumn{1}{c}{2.62} & 2.81 \\ \cline{2-4} \cline{6-8} 
+    & 53/2 & 2.64 & 2.84 &  & \multicolumn{1}{c}{59/2} & \multicolumn{1}{c}{2.58} & 2.19 \\ \cline{2-4} \cline{6-8} 
+    & 57/2 & 2.60 & 2.50 &  & \multicolumn{1}{c}{63/2} & \multicolumn{1}{c}{2.54} & 2.25 \\ \cline{2-4} \cline{6-8} 
+    & 61/2 & 2.56 & 1.99 &  & \multicolumn{1}{c}{67/2} & \multicolumn{1}{c}{2.51} & 1.60 \\ \cline{2-4} \cline{6-8} 
+    & 65/2 & 2.53 & 1.95 &  & \multicolumn{1}{c}{71/2} & \multicolumn{1}{c}{2.49} & 1.61 \\ \cline{2-4} \cline{6-8} 
+    & 69/2 & 2.50 & 2.10 &  & \multicolumn{3}{c}{}                                        \\ \hline
+    \multirow{8}{*}{$^{165}$Lu} & 41/2 & 3.63 & - & \multirow{8}{*}{$^{165}$Lu} & \multicolumn{1}{c}{47/2} & \multicolumn{1}{c}{3.68} & - \\ \cline{2-4} \cline{6-8} 
+    & 45/2 & 3.66 & - &  & \multicolumn{1}{c}{51/2} & \multicolumn{1}{c}{3.71} & - \\ \cline{2-4} \cline{6-8} 
+    & 49/2 & 3.69 & - &  & \multicolumn{1}{c}{55/2} & \multicolumn{1}{c}{3.73} & - \\ \cline{2-4} \cline{6-8} 
+    & 53/2 & 3.72 & - &  & \multicolumn{1}{c}{59/2} & \multicolumn{1}{c}{3.75} & - \\ \cline{2-4} \cline{6-8} 
+    & 57/2 & 3.77 & - &  & \multicolumn{1}{c}{63/2} & \multicolumn{1}{c}{3.77} & - \\ \cline{2-4} \cline{6-8} 
+    & 61/2 & 3.76 & - &  & \multicolumn{1}{c}{67/2} & \multicolumn{1}{c}{3.78} & - \\ \cline{2-4} \cline{6-8} 
+    & 65/2 & 3.77 & - &  & \multicolumn{1}{c}{71/2} & \multicolumn{1}{c}{3.79} & - \\ \cline{2-4} \cline{6-8} 
+    & 69/2 & 3.79 & - &  & \multicolumn{3}{c}{}                                     \\ \hline
+    \multirow{8}{*}{$^{167}$Lu} & 41/2 & 2.80 & - & \multirow{8}{*}{$^{167}$Lu} & \multicolumn{1}{c}{47/2} & \multicolumn{1}{c}{2.84} & - \\ \cline{2-4} \cline{6-8} 
+    & 45/2 & 2.83 & - &  & \multicolumn{1}{c}{51/2} & \multicolumn{1}{c}{2.86} & - \\ \cline{2-4} \cline{6-8} 
+    & 49/2 & 2.85 & - &  & \multicolumn{1}{c}{55/2} & \multicolumn{1}{c}{2.88} & - \\ \cline{2-4} \cline{6-8} 
+    & 53/2 & 2.87 & - &  & \multicolumn{1}{c}{59/2} & \multicolumn{1}{c}{2.89} & - \\ \cline{2-4} \cline{6-8} 
+    & 57/2 & 2.88 & - &  & \multicolumn{1}{c}{63/2} & \multicolumn{1}{c}{2.90} & - \\ \cline{2-4} \cline{6-8} 
+    & 61/2 & 2.90 & - &  & \multicolumn{1}{c}{67/2} & \multicolumn{1}{c}{2.92} & - \\ \cline{2-4} \cline{6-8} 
+    & 65/2 & 2.91 & - &  & \multicolumn{1}{c}{71/2} & \multicolumn{1}{c}{2.93} & - \\ \cline{2-4} \cline{6-8} 
+    & 69/2 & 2.92 & - &  & \multicolumn{3}{c}{}                                     \\ \hline
+    \end{tabular}
     \label{table-intraband-E2-numerical-results}
 \end{table}
 \begin{table}
     \centering
-    \begin{tabular}{|cccc|clc|cc|}
-    \hline
-    \multicolumn{2}{|c|}{Nucleus} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-1)$\\ $[\mathrm{e}^2\cdot b^2]$\end{tabular}} & \multicolumn{3}{c|}{Nucleus} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-1)$\\ $[\mathrm{e}^2\cdot b^2]$\end{tabular}} \\ \hline
-    \multicolumn{1}{|c|}{\multirow{6}{*}{$^{161}$Lu}} & \multicolumn{1}{c|}{$I$} & \multicolumn{1}{c|}{Th} & Exp & \multicolumn{2}{c|}{\multirow{6}{*}{$^{165}$Lu}} & $I$ & \multicolumn{1}{c|}{Th} & Exp \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{0.54} & - & \multicolumn{2}{c|}{} & 47/2 & \multicolumn{1}{c|}{0.37} & - \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{0.47} & - & \multicolumn{2}{c|}{} & 51/2 & \multicolumn{1}{c|}{0.34} & - \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{0.42} & - & \multicolumn{2}{c|}{} & 55/2 & \multicolumn{1}{c|}{0.32} & - \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{0.37} & - & \multicolumn{2}{c|}{} & 59/2 & \multicolumn{1}{c|}{0.29} & - \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{0.33} & - & \multicolumn{2}{c|}{} & 63/2 & \multicolumn{1}{c|}{0.27} & - \\ \hline
-    \multicolumn{1}{|c|}{\multirow{5}{*}{$^{163}$Lu}} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{0.54} & 0.54 & \multicolumn{2}{c|}{\multirow{6}{*}{$^{167}$Lu}} & 39/2 & \multicolumn{1}{c|}{0.66} & - \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{0.49} & 0.54 & \multicolumn{2}{c|}{} & 47/2 & \multicolumn{1}{c|}{0.54} & - \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{0.44} & 0.70 & \multicolumn{2}{c|}{} & 51/2 & \multicolumn{1}{c|}{0.49} & - \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{0.34} & 0.65 & \multicolumn{2}{c|}{} & 55/2 & \multicolumn{1}{c|}{0.45} & - \\ \cline{2-4} \cline{7-9} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{0.36} & 0.66 & \multicolumn{2}{c|}{} & 59/2 & \multicolumn{1}{c|}{0.41} & - \\ \cline{1-4} \cline{7-9} 
-    \multicolumn{4}{|c|}{} & \multicolumn{2}{c|}{} & 63/2 & \multicolumn{1}{c|}{0.38} & - \\ \hline
-    \end{tabular}
     \caption{The reduced interband transition probabilities for connecting states $I\in\text{TSD2}\to I-1\in\text{TSD1}$. Experimental data are taken from Ref. \cite{reich2010nuclear}.}
+    \begin{tabular}{ccccclccc}
+    \hline
+    \multicolumn{2}{c}{Nucleus} & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-1)$\\ $[\mathrm{e}^2\cdot b^2]$\end{tabular}} & \multicolumn{3}{c}{Nucleus} & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}$B(E2;I\to I-1)$\\ $[\mathrm{e}^2\cdot b^2]$\end{tabular}} \\ \hline \hline
+    \multicolumn{1}{c}{\multirow{6}{*}{$^{161}$Lu}} & \multicolumn{1}{c}{$I$} & \multicolumn{1}{c}{Th} & Exp & \multicolumn{2}{c}{\multirow{6}{*}{$^{165}$Lu}} & $I$ & \multicolumn{1}{c}{Th} & Exp \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{47/2} & \multicolumn{1}{c}{0.54} & - & \multicolumn{2}{c}{} & 47/2 & \multicolumn{1}{c}{0.37} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{51/2} & \multicolumn{1}{c}{0.47} & - & \multicolumn{2}{c}{} & 51/2 & \multicolumn{1}{c}{0.34} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{55/2} & \multicolumn{1}{c}{0.42} & - & \multicolumn{2}{c}{} & 55/2 & \multicolumn{1}{c}{0.32} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{59/2} & \multicolumn{1}{c}{0.37} & - & \multicolumn{2}{c}{} & 59/2 & \multicolumn{1}{c}{0.29} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{63/2} & \multicolumn{1}{c}{0.33} & - & \multicolumn{2}{c}{} & 63/2 & \multicolumn{1}{c}{0.27} & - \\ \hline
+    \multicolumn{1}{c}{\multirow{5}{*}{$^{163}$Lu}} & \multicolumn{1}{c}{47/2} & \multicolumn{1}{c}{0.54} & 0.54 & \multicolumn{2}{c}{\multirow{6}{*}{$^{167}$Lu}} & 39/2 & \multicolumn{1}{c}{0.66} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{51/2} & \multicolumn{1}{c}{0.49} & 0.54 & \multicolumn{2}{c}{} & 47/2 & \multicolumn{1}{c}{0.54} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{55/2} & \multicolumn{1}{c}{0.44} & 0.70 & \multicolumn{2}{c}{} & 51/2 & \multicolumn{1}{c}{0.49} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{59/2} & \multicolumn{1}{c}{0.34} & 0.65 & \multicolumn{2}{c}{} & 55/2 & \multicolumn{1}{c}{0.45} & - \\ \cline{2-4} \cline{7-9} 
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{63/2} & \multicolumn{1}{c}{0.36} & 0.66 & \multicolumn{2}{c}{} & 59/2 & \multicolumn{1}{c}{0.41} & - \\ \cline{1-4} \cline{7-9} 
+    \multicolumn{4}{c}{} & \multicolumn{2}{c}{} & 63/2 & \multicolumn{1}{c}{0.38} & - \\ \hline
+    \end{tabular}
     \label{table-interband-E2-numerical-results}
 \end{table}
 \begin{table}
     \centering
+    \caption{The quadrupole transition moment $Q_I$ (Eq. \eqref{quadrupole-transition-moment-QI}) and the static quadrupole moment $Q_\text{SQM}$ (Eq. \eqref{static-quadrupole-moment}). For the calculation of $Q_\text{SQM}$, $K$ was fixed to $K=1/2$. The experimental data are taken from Refs. \cite{gorgen2004quadrupole,jensen2002wobbling,reich2010nuclear}. The unit of measure is consistent with the one employed by Görgen et al. \cite{gorgen2004quadrupole}.}
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|c|c|c|c|c|c|c|ccccc|}
+    \begin{tabular}{cccccccccccc}
     \hline
-    \multicolumn{2}{|c|}{} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$Q_I$\\ $[b]$\end{tabular}} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$Q_\text{SQM}$\\ $[b]$\end{tabular}} & \multicolumn{2}{c|}{} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$Q_I$\\ $[b]$\end{tabular}} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$Q_\text{SQM}$\\ $[b]$\end{tabular}} \\ \hline
-    \multicolumn{1}{|c|}{TSD1} & $I$ & \multicolumn{1}{c|}{Th} & Exp & \multicolumn{1}{c|}{Th} & Exp & \multicolumn{1}{c|}{TSD2} & \multicolumn{1}{c|}{$I$} & \multicolumn{1}{c|}{Th} & \multicolumn{1}{c|}{Exp} & \multicolumn{1}{c|}{Th} & Exp \\ \hline
-    \multicolumn{1}{|c|}{\multirow{8}{*}{$^{161}$Lu}} & 41/2 & \multicolumn{1}{c|}{8.89} & - & \multicolumn{1}{c|}{-4.13} & - & \multicolumn{1}{c|}{\multirow{8}{*}{$^{161}$Lu}} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{8.92} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.15} & - \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & 45/2 & \multicolumn{1}{c|}{8.91} & - & \multicolumn{1}{c|}{-4.17} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{8.93} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.18} & - \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & 49/2 & \multicolumn{1}{c|}{8.92} & - & \multicolumn{1}{c|}{-4.20} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{8.95} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.21} & - \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & 53/2 & \multicolumn{1}{c|}{8.94} & - & \multicolumn{1}{c|}{-4.23} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{8.96} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.24} & - \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & 57/2 & \multicolumn{1}{c|}{8.95} & - & \multicolumn{1}{c|}{-4.25} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{8.97} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.26} & - \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & 61/2 & \multicolumn{1}{c|}{8.96} & - & \multicolumn{1}{c|}{-4.27} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{67/2} & \multicolumn{1}{c|}{8.98} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.28} & - \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & 65/2 & \multicolumn{1}{c|}{8.97} & - & \multicolumn{1}{c|}{-4.28} & - & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{71/2} & \multicolumn{1}{c|}{8.98} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.29} & - \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & 69/2 & \multicolumn{1}{c|}{8.98} & - & \multicolumn{1}{c|}{-4.30} & - & \multicolumn{1}{c|}{} & \multicolumn{5}{c|}{} \\ \hline
-    \multirow{8}{*}{$^{163}$Lu} & 41/2 & 8.89 & 9.93 & -4.71 & -4.62 & \multirow{8}{*}{$^{163}$Lu} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{8.71} & \multicolumn{1}{c|}{8.51} & \multicolumn{1}{c|}{-4.76} & -3.99 \\ \cline{2-6} \cline{8-12} 
-    & 45/2 & 8.77 & 9.34 & -4.75 & -4.37 &  & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{8.62} & \multicolumn{1}{c|}{8.67} & \multicolumn{1}{c|}{-4.80} & -4.09 \\ \cline{2-6} \cline{8-12} 
-    & 49/2 & 8.66 & 8.32 & -4.78 & -3.92 &  & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{8.53} & \multicolumn{1}{c|}{8.88} & \multicolumn{1}{c|}{-4.83} & -4.21 \\ \cline{2-6} \cline{8-12} 
-    & 53/2 & 8.57 & 8.93 & -4.81 & -4.22 &  & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{8.46} & \multicolumn{1}{c|}{7.82} & \multicolumn{1}{c|}{-4.85} & -3.72 \\ \cline{2-6} \cline{8-12} 
-    & 57/2 & 8.50 & 8.37 & -4.84 & -3.97 &  & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{8.39} & \multicolumn{1}{c|}{7.91} & \multicolumn{1}{c|}{-4.87} & -3.77 \\ \cline{2-6} \cline{8-12} 
-    & 61/2 & 8.43 & 7.45 & -4.86 & -3.55 &  & \multicolumn{1}{c|}{67/2} & \multicolumn{1}{c|}{8.34} & \multicolumn{1}{c|}{6.66} & \multicolumn{1}{c|}{-4.89} & -3.19 \\ \cline{2-6} \cline{8-12} 
-    & 65/2 & 8.36 & 7.37 & -4.88 & -3.52 &  & \multicolumn{1}{c|}{71/2} & \multicolumn{1}{c|}{8.28} & \multicolumn{1}{c|}{6.68} & \multicolumn{1}{c|}{-4.90} & -3.20 \\ \cline{2-6} \cline{8-12} 
-    & 69/2 & 8.31 & 7.63 & -4.90 & -3.65 &  & \multicolumn{5}{c|}{} \\ \hline
-    \multirow{8}{*}{$^{165}$Lu} & 41/2 & 10.12 & - & -4.71 & - & \multirow{8}{*}{$^{165}$Lu} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{10.15} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.76} & - \\ \cline{2-6} \cline{8-12} 
-    & 45/2 & 10.14 & - & -4.75 & - &  & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{10.17} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.80} & - \\ \cline{2-6} \cline{8-12} 
-    & 49/2 & 10.16 & - & -4.78 & - &  & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{10.19} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.83} & - \\ \cline{2-6} \cline{8-12} 
-    & 53/2 & 10.18 & - & -4.81 & - &  & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{10.20} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.85} & - \\ \cline{2-6} \cline{8-12} 
-    & 57/2 & 10.19 & - & -4.84 & - &  & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{10.21} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.87} & - \\ \cline{2-6} \cline{8-12} 
-    & 61/2 & 10.21 & - & -4.86 & - &  & \multicolumn{1}{c|}{67/2} & \multicolumn{1}{c|}{10.22} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.89} & - \\ \cline{2-6} \cline{8-12} 
-    & 65/2 & 10.22 & - & -4.88 & - &  & \multicolumn{1}{c|}{71/2} & \multicolumn{1}{c|}{10.23} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.90} & - \\ \cline{2-6} \cline{8-12} 
-    & 69/2 & 10.23 & - & -4.90 & - &  & \multicolumn{5}{c|}{} \\ \hline
-    \multirow{8}{*}{$^{167}$Lu} & 41/2 & 8.90 & - & -4.13 & - & \multirow{8}{*}{$^{167}$Lu} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{8.92} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.15} & - \\ \cline{2-6} \cline{8-12} 
-    & 45/2 & 8.91 & - & -4.17 & - &  & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{8.94} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.18} & - \\ \cline{2-6} \cline{8-12} 
-    & 49/2 & 8.92 & - & -4.20 & - &  & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{8.95} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.21} & - \\ \cline{2-6} \cline{8-12} 
-    & 53/2 & 8.94 & - & -4.23 & - &  & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{8.96} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.24} & - \\ \cline{2-6} \cline{8-12} 
-    & 57/2 & 8.95 & - & -4.25 & - &  & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{8.97} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.26} & - \\ \cline{2-6} \cline{8-12} 
-    & 61/2 & 8.96 & - & -4.27 & - &  & \multicolumn{1}{c|}{67/2} & \multicolumn{1}{c|}{8.98} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.28} & - \\ \cline{2-6} \cline{8-12} 
-    & 65/2 & 8.97 & - & -4.28 & - &  & \multicolumn{1}{c|}{71/2} & \multicolumn{1}{c|}{8.98} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-4.29} & - \\ \cline{2-6} \cline{8-12} 
-    & 69/2 & 8.98 & - & -4.30 & - &  & \multicolumn{5}{c|}{} \\ \hline
+    \multicolumn{2}{c}{} & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}$Q_I$\\ $[b]$\end{tabular}} & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}$Q_\text{SQM}$\\ $[b]$\end{tabular}} & \multicolumn{2}{c}{} & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}$Q_I$\\ $[b]$\end{tabular}} & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}$Q_\text{SQM}$\\ $[b]$\end{tabular}} \\ \hline \hline
+    \multicolumn{1}{c}{TSD1} & $I$ & \multicolumn{1}{c}{Th} & Exp & \multicolumn{1}{c}{Th} & Exp & \multicolumn{1}{c}{TSD2} & \multicolumn{1}{c}{$I$} & \multicolumn{1}{c}{Th} & \multicolumn{1}{c}{Exp} & \multicolumn{1}{c}{Th} & Exp \\ \hline
+    \multicolumn{1}{c}{\multirow{8}{*}{$^{161}$Lu}} & 41/2 & \multicolumn{1}{c}{8.89} & - & \multicolumn{1}{c}{-4.13} & - & \multicolumn{1}{c}{\multirow{8}{*}{$^{161}$Lu}} & \multicolumn{1}{c}{47/2} & \multicolumn{1}{c}{8.92} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.15} & - \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{c}{} & 45/2 & \multicolumn{1}{c}{8.91} & - & \multicolumn{1}{c}{-4.17} & - & \multicolumn{1}{c}{} & \multicolumn{1}{c}{51/2} & \multicolumn{1}{c}{8.93} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.18} & - \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{c}{} & 49/2 & \multicolumn{1}{c}{8.92} & - & \multicolumn{1}{c}{-4.20} & - & \multicolumn{1}{c}{} & \multicolumn{1}{c}{55/2} & \multicolumn{1}{c}{8.95} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.21} & - \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{c}{} & 53/2 & \multicolumn{1}{c}{8.94} & - & \multicolumn{1}{c}{-4.23} & - & \multicolumn{1}{c}{} & \multicolumn{1}{c}{59/2} & \multicolumn{1}{c}{8.96} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.24} & - \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{c}{} & 57/2 & \multicolumn{1}{c}{8.95} & - & \multicolumn{1}{c}{-4.25} & - & \multicolumn{1}{c}{} & \multicolumn{1}{c}{63/2} & \multicolumn{1}{c}{8.97} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.26} & - \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{c}{} & 61/2 & \multicolumn{1}{c}{8.96} & - & \multicolumn{1}{c}{-4.27} & - & \multicolumn{1}{c}{} & \multicolumn{1}{c}{67/2} & \multicolumn{1}{c}{8.98} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.28} & - \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{c}{} & 65/2 & \multicolumn{1}{c}{8.97} & - & \multicolumn{1}{c}{-4.28} & - & \multicolumn{1}{c}{} & \multicolumn{1}{c}{71/2} & \multicolumn{1}{c}{8.98} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.29} & - \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{c}{} & 69/2 & \multicolumn{1}{c}{8.98} & - & \multicolumn{1}{c}{-4.30} & - & \multicolumn{1}{c}{} & \multicolumn{5}{c}{} \\ \hline
+    \multirow{8}{*}{$^{163}$Lu} & 41/2 & 8.89 & 9.93 & -4.71 & -4.62 & \multirow{8}{*}{$^{163}$Lu} & \multicolumn{1}{c}{47/2} & \multicolumn{1}{c}{8.71} & \multicolumn{1}{c}{8.51} & \multicolumn{1}{c}{-4.76} & -3.99 \\ \cline{2-6} \cline{8-12} 
+    & 45/2 & 8.77 & 9.34 & -4.75 & -4.37 &  & \multicolumn{1}{c}{51/2} & \multicolumn{1}{c}{8.62} & \multicolumn{1}{c}{8.67} & \multicolumn{1}{c}{-4.80} & -4.09 \\ \cline{2-6} \cline{8-12} 
+    & 49/2 & 8.66 & 8.32 & -4.78 & -3.92 &  & \multicolumn{1}{c}{55/2} & \multicolumn{1}{c}{8.53} & \multicolumn{1}{c}{8.88} & \multicolumn{1}{c}{-4.83} & -4.21 \\ \cline{2-6} \cline{8-12} 
+    & 53/2 & 8.57 & 8.93 & -4.81 & -4.22 &  & \multicolumn{1}{c}{59/2} & \multicolumn{1}{c}{8.46} & \multicolumn{1}{c}{7.82} & \multicolumn{1}{c}{-4.85} & -3.72 \\ \cline{2-6} \cline{8-12} 
+    & 57/2 & 8.50 & 8.37 & -4.84 & -3.97 &  & \multicolumn{1}{c}{63/2} & \multicolumn{1}{c}{8.39} & \multicolumn{1}{c}{7.91} & \multicolumn{1}{c}{-4.87} & -3.77 \\ \cline{2-6} \cline{8-12} 
+    & 61/2 & 8.43 & 7.45 & -4.86 & -3.55 &  & \multicolumn{1}{c}{67/2} & \multicolumn{1}{c}{8.34} & \multicolumn{1}{c}{6.66} & \multicolumn{1}{c}{-4.89} & -3.19 \\ \cline{2-6} \cline{8-12} 
+    & 65/2 & 8.36 & 7.37 & -4.88 & -3.52 &  & \multicolumn{1}{c}{71/2} & \multicolumn{1}{c}{8.28} & \multicolumn{1}{c}{6.68} & \multicolumn{1}{c}{-4.90} & -3.20 \\ \cline{2-6} \cline{8-12} 
+    & 69/2 & 8.31 & 7.63 & -4.90 & -3.65 &  & \multicolumn{5}{c}{} \\ \hline
+    \multirow{8}{*}{$^{165}$Lu} & 41/2 & 10.12 & - & -4.71 & - & \multirow{8}{*}{$^{165}$Lu} & \multicolumn{1}{c}{47/2} & \multicolumn{1}{c}{10.15} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.76} & - \\ \cline{2-6} \cline{8-12} 
+    & 45/2 & 10.14 & - & -4.75 & - &  & \multicolumn{1}{c}{51/2} & \multicolumn{1}{c}{10.17} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.80} & - \\ \cline{2-6} \cline{8-12} 
+    & 49/2 & 10.16 & - & -4.78 & - &  & \multicolumn{1}{c}{55/2} & \multicolumn{1}{c}{10.19} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.83} & - \\ \cline{2-6} \cline{8-12} 
+    & 53/2 & 10.18 & - & -4.81 & - &  & \multicolumn{1}{c}{59/2} & \multicolumn{1}{c}{10.20} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.85} & - \\ \cline{2-6} \cline{8-12} 
+    & 57/2 & 10.19 & - & -4.84 & - &  & \multicolumn{1}{c}{63/2} & \multicolumn{1}{c}{10.21} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.87} & - \\ \cline{2-6} \cline{8-12} 
+    & 61/2 & 10.21 & - & -4.86 & - &  & \multicolumn{1}{c}{67/2} & \multicolumn{1}{c}{10.22} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.89} & - \\ \cline{2-6} \cline{8-12} 
+    & 65/2 & 10.22 & - & -4.88 & - &  & \multicolumn{1}{c}{71/2} & \multicolumn{1}{c}{10.23} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.90} & - \\ \cline{2-6} \cline{8-12} 
+    & 69/2 & 10.23 & - & -4.90 & - &  & \multicolumn{5}{c}{} \\ \hline
+    \multirow{8}{*}{$^{167}$Lu} & 41/2 & 8.90 & - & -4.13 & - & \multirow{8}{*}{$^{167}$Lu} & \multicolumn{1}{c}{47/2} & \multicolumn{1}{c}{8.92} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.15} & - \\ \cline{2-6} \cline{8-12} 
+    & 45/2 & 8.91 & - & -4.17 & - &  & \multicolumn{1}{c}{51/2} & \multicolumn{1}{c}{8.94} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.18} & - \\ \cline{2-6} \cline{8-12} 
+    & 49/2 & 8.92 & - & -4.20 & - &  & \multicolumn{1}{c}{55/2} & \multicolumn{1}{c}{8.95} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.21} & - \\ \cline{2-6} \cline{8-12} 
+    & 53/2 & 8.94 & - & -4.23 & - &  & \multicolumn{1}{c}{59/2} & \multicolumn{1}{c}{8.96} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.24} & - \\ \cline{2-6} \cline{8-12} 
+    & 57/2 & 8.95 & - & -4.25 & - &  & \multicolumn{1}{c}{63/2} & \multicolumn{1}{c}{8.97} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.26} & - \\ \cline{2-6} \cline{8-12} 
+    & 61/2 & 8.96 & - & -4.27 & - &  & \multicolumn{1}{c}{67/2} & \multicolumn{1}{c}{8.98} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.28} & - \\ \cline{2-6} \cline{8-12} 
+    & 65/2 & 8.97 & - & -4.28 & - &  & \multicolumn{1}{c}{71/2} & \multicolumn{1}{c}{8.98} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-4.29} & - \\ \cline{2-6} \cline{8-12} 
+    & 69/2 & 8.98 & - & -4.30 & - &  & \multicolumn{5}{c}{} \\ \hline
     \end{tabular}%
     }
-    \caption{The quadrupole transition moment $Q_I$ (Eq. \eqref{quadrupole-transition-moment-QI}) and the static quadrupole moment $Q_\text{SQM}$ (Eq. \eqref{static-quadrupole-moment}). For the calculation of $Q_\text{SQM}$, $K$ was fixed to $K=1/2$. The experimental data are taken from Refs. \cite{gorgen2004quadrupole,jensen2002wobbling,reich2010nuclear}. The unit of measure is consistent with the one employed by Görgen et al. \cite{gorgen2004quadrupole}.}
     \label{table-quadrupole-QI-QSQM-numerical-results}
 \end{table}
 
@@ -1189,25 +1187,25 @@ Similarly as it was the case for $\mathcal{M}(E2)$, the m.e. of $\mathcal{M}(M1)
 where the $E2$ m.e. has units of $\mathrm{e}\cdot\text{fm}^2$ and $M1$ m.e. has units of $\mathrm{e}\cdot\text{fm}$. The transition energy between the initial and final state is represented by $E_{if}$ and its unit is $\text{MeV}$. Results obtained with the current formalism for the reduced transition probabilities $B(M1)$ and the mixing ratios $\delta$ are shown in Table \ref{table-M1-delta-numerical-results} for $^{161,163,165,167}$Lu. Looking at the data concerning the $B(M1)$ values for $^{163}$Lu, the theoretical results agree with the experimental data quite well. Indeed, there is an increase with angular momentum $I$, and it is more pronounced for the measured values. Regarding the mixing rations, it seems that the current model reproduces the sign, but the calculated ratios are almost half the observed ones. Nevertheless, $\delta$ is much larger than $1$, which is in agreement with the signature of wobbling nature for these bands.
 \begin{table}
     \centering
+    \caption{The numerical results for the reduced $M1$ transitions between states $I\in\text{TSD2}\to I-1\in\text{TSD1}$. The calculated mixing ratio $\delta(E2/M1)$ (Eq. \eqref{mixing-ratio-Lu-isotopes}) are also shown in comparison with the experimental data, which are taken from Refs. \cite{gorgen2004quadrupole,jensen2002wobbling,reich2010nuclear}.}
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|cccccc|cc|cc|cc|}
+    \begin{tabular}{cccccccccccc}
     \hline
-    \multicolumn{2}{|c|}{} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(M1)$\\ $[\mu_N^2]$\end{tabular}} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$\delta(E2/M1)$\\ $[\text{MeV}\cdot\text{fm}]$\end{tabular}} & \multicolumn{2}{c|}{} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$B(M1)$\\ $[\mu_N^2]$\end{tabular}} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}$\delta(E2/M1)$\\ $[\text{MeV}\cdot\text{fm}]$\end{tabular}} \\ \hline
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{$I$} & \multicolumn{1}{c|}{Th} & \multicolumn{1}{c|}{Exp} & \multicolumn{1}{c|}{Th} & Exp & \multicolumn{1}{c|}{} & $I$ & \multicolumn{1}{c|}{Th} & Exp & \multicolumn{1}{c|}{Th} & Exp \\ \hline
-    \multicolumn{1}{|c|}{\multirow{5}{*}{$^{161}$Lu}} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{0.018} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-1.55} & - & \multicolumn{1}{c|}{\multirow{5}{*}{$^{163}$Lu}} & 47/2 & \multicolumn{1}{c|}{0.017} & 0.017 & \multicolumn{1}{c|}{1.55} & -3.1 \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{0.018} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-1.56} & - & \multicolumn{1}{c|}{} & 51/2 & \multicolumn{1}{c|}{0.018} & 0.017 & \multicolumn{1}{c|}{-1.58} & -3.1 \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{0.019} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-1.57} & - & \multicolumn{1}{c|}{} & 55/2 & \multicolumn{1}{c|}{0.019} & 0.024 & \multicolumn{1}{c|}{-1.61} & -3.1 \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{0.019} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-1.58} & - & \multicolumn{1}{c|}{} & 59/2 & \multicolumn{1}{c|}{0.019} & 0.023 & \multicolumn{1}{c|}{-1.64} & -3.1 \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{0.020} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-1.59} & - & \multicolumn{1}{c|}{} & 63/2 & \multicolumn{1}{c|}{0.020} & 0.024 & \multicolumn{1}{c|}{-1.66} & - \\ \hline
-    \multicolumn{1}{|c|}{\multirow{6}{*}{$^{165}$Lu}} & \multicolumn{1}{c|}{47/2} & \multicolumn{1}{c|}{0.018} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-1.32} & - & \multicolumn{1}{c|}{\multirow{6}{*}{$^{167}$Lu}} & 39/2 & \multicolumn{1}{c|}{0.016} & - & \multicolumn{1}{c|}{-1.67} & -3.1 \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{51/2} & \multicolumn{1}{c|}{0.018} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-1.34} & - & \multicolumn{1}{c|}{} & 47/2 & \multicolumn{1}{c|}{0.018} & - & \multicolumn{1}{c|}{-1.65} & -5.1 \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{55/2} & \multicolumn{1}{c|}{0.019} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-1.36} & - & \multicolumn{1}{c|}{} & 51/2 & \multicolumn{1}{c|}{0.018} & - & \multicolumn{1}{c|}{-1.65} & -3.9 \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{59/2} & \multicolumn{1}{c|}{0.019} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-1.38} & - & \multicolumn{1}{c|}{} & 55/2 & \multicolumn{1}{c|}{0.019} & - & \multicolumn{1}{c|}{-1.65} & - \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{63/2} & \multicolumn{1}{c|}{0.020} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-1.40} & - & \multicolumn{1}{c|}{} & 59/2 & \multicolumn{1}{c|}{0.019} & - & \multicolumn{1}{c|}{-1.65} & - \\ \cline{2-6} \cline{8-12} 
-    \multicolumn{1}{|c|}{} & \multicolumn{5}{c|}{} & \multicolumn{1}{c|}{} & 63/2 & \multicolumn{1}{c|}{0.020} & - & \multicolumn{1}{c|}{-1.65} & - \\ \hline
+    \multicolumn{2}{c}{} & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}$B(M1)$\\ $[\mu_N^2]$\end{tabular}} & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}$\delta(E2/M1)$\\ $[\text{MeV}\cdot\text{fm}]$\end{tabular}} & \multicolumn{2}{c}{} & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}$B(M1)$\\ $[\mu_N^2]$\end{tabular}} & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}$\delta(E2/M1)$\\ $[\text{MeV}\cdot\text{fm}]$\end{tabular}} \\ \hline \hline
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{$I$} & \multicolumn{1}{c}{Th} & \multicolumn{1}{c}{Exp} & \multicolumn{1}{c}{Th} & Exp & \multicolumn{1}{c}{} & $I$ & \multicolumn{1}{c}{Th} & Exp & \multicolumn{1}{c}{Th} & Exp \\ \hline
+    \multicolumn{1}{c}{\multirow{5}{*}{$^{161}$Lu}} & \multicolumn{1}{c}{47/2} & \multicolumn{1}{c}{0.018} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-1.55} & - & \multicolumn{1}{c}{\multirow{5}{*}{$^{163}$Lu}} & 47/2 & \multicolumn{1}{c}{0.017} & 0.017 & \multicolumn{1}{c}{1.55} & -3.1 \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{51/2} & \multicolumn{1}{c}{0.018} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-1.56} & - & \multicolumn{1}{c}{} & 51/2 & \multicolumn{1}{c}{0.018} & 0.017 & \multicolumn{1}{c}{-1.58} & -3.1 \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{55/2} & \multicolumn{1}{c}{0.019} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-1.57} & - & \multicolumn{1}{c}{} & 55/2 & \multicolumn{1}{c}{0.019} & 0.024 & \multicolumn{1}{c}{-1.61} & -3.1 \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{59/2} & \multicolumn{1}{c}{0.019} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-1.58} & - & \multicolumn{1}{c}{} & 59/2 & \multicolumn{1}{c}{0.019} & 0.023 & \multicolumn{1}{c}{-1.64} & -3.1 \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{63/2} & \multicolumn{1}{c}{0.020} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-1.59} & - & \multicolumn{1}{c}{} & 63/2 & \multicolumn{1}{c}{0.020} & 0.024 & \multicolumn{1}{c}{-1.66} & - \\ \hline
+    \multicolumn{1}{c}{\multirow{6}{*}{$^{165}$Lu}} & \multicolumn{1}{c}{47/2} & \multicolumn{1}{c}{0.018} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-1.32} & - & \multicolumn{1}{c}{\multirow{6}{*}{$^{167}$Lu}} & 39/2 & \multicolumn{1}{c}{0.016} & - & \multicolumn{1}{c}{-1.67} & -3.1 \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{51/2} & \multicolumn{1}{c}{0.018} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-1.34} & - & \multicolumn{1}{c}{} & 47/2 & \multicolumn{1}{c}{0.018} & - & \multicolumn{1}{c}{-1.65} & -5.1 \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{55/2} & \multicolumn{1}{c}{0.019} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-1.36} & - & \multicolumn{1}{c}{} & 51/2 & \multicolumn{1}{c}{0.018} & - & \multicolumn{1}{c}{-1.65} & -3.9 \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{59/2} & \multicolumn{1}{c}{0.019} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-1.38} & - & \multicolumn{1}{c}{} & 55/2 & \multicolumn{1}{c}{0.019} & - & \multicolumn{1}{c}{-1.65} & - \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{63/2} & \multicolumn{1}{c}{0.020} & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{-1.40} & - & \multicolumn{1}{c}{} & 59/2 & \multicolumn{1}{c}{0.019} & - & \multicolumn{1}{c}{-1.65} & - \\ \cline{2-6} \cline{8-12} 
+    \multicolumn{1}{c}{} & \multicolumn{5}{c}{} & \multicolumn{1}{c}{} & 63/2 & \multicolumn{1}{c}{0.020} & - & \multicolumn{1}{c}{-1.65} & - \\ \hline
     \end{tabular}%
     }
-    \caption{The numerical results for the reduced $M1$ transitions between states $I\in\text{TSD2}\to I-1\in\text{TSD1}$. The calculated mixing ratio $\delta(E2/M1)$ (Eq. \eqref{mixing-ratio-Lu-isotopes}) are also shown in comparison with the experimental data, which are taken from Refs. \cite{gorgen2004quadrupole,jensen2002wobbling,reich2010nuclear}.}
     \label{table-M1-delta-numerical-results}
 \end{table}
 
