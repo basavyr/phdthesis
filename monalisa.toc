@@ -103,5 +103,13 @@
 \contentsline {chapter}{\numberline {C}Rotational Bands in Nuclei}{263}{appendix.618}%
 \contentsline {section}{\numberline {C.1}Deformation Aligned Bands}{264}{section.620}%
 \contentsline {section}{\numberline {C.2}Rotation Aligned Bands}{265}{section.626}%
-\contentsline {chapter}{List of Figures}{268}{dummy.634}%
-\contentsline {chapter}{List of Tables}{285}{dummy.636}%
+\contentsline {chapter}{\numberline {D}Original Contributions}{269}{appendix.634}%
+\contentsline {section}{\numberline {D.1}Published Papers During Doctoral Studies}{269}{section.635}%
+\contentsline {subsection}{\numberline {D.1.1}In-Scope ISI Indexed Papers}{270}{subsection.636}%
+\contentsline {subsection}{\numberline {D.1.2}Out-of-Scope ISI Indexed Papers}{271}{subsection.644}%
+\contentsline {subsection}{\numberline {D.1.3}Out-of-Scope Non-ISI Papers}{271}{subsection.646}%
+\contentsline {section}{\numberline {D.2}Conferences}{272}{section.651}%
+\contentsline {subsection}{\numberline {D.2.1}International Conferences}{272}{subsection.652}%
+\contentsline {subsection}{\numberline {D.2.2}National Conferences}{272}{subsection.659}%
+\contentsline {chapter}{List of Figures}{274}{dummy.662}%
+\contentsline {chapter}{List of Tables}{291}{dummy.664}%
