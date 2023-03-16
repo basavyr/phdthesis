@@ -994,4 +994,13 @@ Yang Sun, Shuxian Wen, et~al.
 \newblock Varied signature splitting phenomena in odd proton nuclei.
 \newblock {\em Physical Review C}, 50(5):2351, 1994.
 
+\bibitem{lamport1986latex}
+Leslie Lamport.
+\newblock Latex: A document preparation system.
+\newblock {\em Addison-Wesley}, 1986.
+
+\bibitem{vscode}
+Visual studio code.
+\newblock \url{https://code.visualstudio.com/Download}.
+
 \end{thebibliography}
