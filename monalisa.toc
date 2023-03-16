@@ -109,7 +109,7 @@
 \contentsline {subsection}{\numberline {D.1.2}Out-of-Scope ISI Indexed Papers}{271}{subsection.644}%
 \contentsline {subsection}{\numberline {D.1.3}Out-of-Scope Non-ISI Papers}{271}{subsection.646}%
 \contentsline {section}{\numberline {D.2}Conferences}{271}{section.651}%
-\contentsline {subsection}{\numberline {D.2.1}International}{272}{subsection.652}%
-\contentsline {subsection}{\numberline {D.2.2}National}{272}{subsection.659}%
-\contentsline {chapter}{List of Figures}{273}{dummy.660}%
-\contentsline {chapter}{List of Tables}{289}{dummy.662}%
+\contentsline {subsection}{\numberline {D.2.1}International Conferences}{272}{subsection.652}%
+\contentsline {subsection}{\numberline {D.2.2}National Conferences}{272}{subsection.660}%
+\contentsline {chapter}{List of Figures}{273}{dummy.661}%
+\contentsline {chapter}{List of Tables}{289}{dummy.663}%
