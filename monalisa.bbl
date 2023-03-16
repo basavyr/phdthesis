@@ -1002,9 +1002,35 @@ Leslie Lamport.
 \bibitem{texlivemacos}
 Tex live for macos.
 \newblock \url{https://tug.org/texlive/}.
+\newblock Accessed: Thu, 16 Mar 2023.
 
 \bibitem{vscode}
 Visual studio code.
 \newblock \url{https://code.visualstudio.com/Download}.
+\newblock Accessed: Thu, 16 Mar 2023.
+
+\bibitem{WolframMathematica}
+Inc. Wolfram~Research.
+\newblock Mathematica online, 2022.
+
+\bibitem{Matplotlib}
+J.~D. Hunter.
+\newblock Matplotlib: A 2d graphics environment.
+\newblock {\em Computing in Science \& Engineering}, 9(3):90--95, 2007.
+
+\bibitem{LibreOffice}
+{LibreOffice Draw}.
+\newblock \url{https://www.libreoffice.org/discover/draw/}.
+\newblock Accessed: Thu, 16 Mar 2023.
+
+\bibitem{diagrams.net}
+{diagrams.net}.
+\newblock \url{https://www.diagrams.net/}.
+\newblock Accessed: Thu, 16 Mar 2023.
+
+\bibitem{Git}
+{Git}.
+\newblock \url{https://git-scm.com/}.
+\newblock Accessed: Thu, 16 Mar 2023.
 
 \end{thebibliography}
