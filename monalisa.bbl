@@ -999,6 +999,10 @@ Leslie Lamport.
 \newblock Latex: A document preparation system.
 \newblock {\em Addison-Wesley}, 1986.
 
+\bibitem{texlivemacos}
+Tex live for macos.
+\newblock \url{https://tug.org/texlive/}.
+
 \bibitem{vscode}
 Visual studio code.
 \newblock \url{https://code.visualstudio.com/Download}.
